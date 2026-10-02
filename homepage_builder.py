@@ -656,6 +656,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     .footer-links {{
       display: flex;
+      flex-wrap: wrap;
       gap: 20px;
     }}
 
@@ -827,9 +828,11 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <p class="footer-tmdb-notice">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
       </div>
       <div class="footer-links">
+        <a href="/about/">About Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms &amp; Disclaimer</a>
+        <a href="/contact/">Contact Us</a>
         <a href="/sitemap.xml">XML Sitemap</a>
-        <a href="/stories.json">Stories Manifest</a>
-        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </footer>

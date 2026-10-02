@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy | MoviePulse</title>
+  <meta name="description" content="Privacy Policy for MoviePulse. Explains how we collect, use, and protect your information, including Google AdSense cookies and analytics.">
+  <link rel="canonical" href="https://cinestories-omega.vercel.app/privacy/">
+  <link rel="icon" type="image/svg+xml" href="https://cinestories-omega.vercel.app/assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #090b10;
+      --surface: #10141f;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --primary: #e11d48;
+      --accent-gold: #f59e0b;
+      --text: #ffffff;
+      --text-muted: #94a3b8;
+      --radius-lg: 20px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--surface-border);
+      padding: 16px 24px;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn-home:hover {
+      background: rgba(225, 29, 72, 0.2);
+      border-color: var(--primary);
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 40px auto 60px;
+      padding: 0 24px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .page-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .page-card {
+        padding: 24px 20px;
+      }
+    }
+
+    .page-kicker {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .page-title {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-body h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 32px 0 12px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 8px;
+    }
+
+    .content-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin: 20px 0 8px;
+    }
+
+    .content-body p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    .content-body ul {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    .content-body li {
+      margin-bottom: 8px;
+    }
+
+    .content-body a {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+
+    .callout-box {
+      background: rgba(225, 29, 72, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    .footer {
+      background: var(--surface);
+      border-top: 1px solid var(--surface-border);
+      padding: 32px 24px;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="/" class="brand-wrap">
+        <img src="/assets/logo.png" alt="MoviePulse" class="brand-logo">
+        <div class="brand-text">
+          <h1>MoviePulse</h1>
+        </div>
+      </a>
+      <a href="/" class="btn-home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span>Back to Stories</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <article class="page-card">
+      <div class="page-kicker">Legal &amp; Policy</div>
+      <h1 class="page-title">Privacy Policy</h1>
+      <div class="content-body">
+        
+            <p><em>Last updated: October 2026</em></p>
+            <p>At <strong>MoviePulse</strong>, accessible from <a href="https://cinestories-omega.vercel.app/">https://cinestories-omega.vercel.app</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document outlines the types of information that is collected and recorded by MoviePulse and how we use it.</p>
+
+            <h2>Information We Collect</h2>
+            <p>Like most modern web platforms, MoviePulse collects non-personally identifiable information that web browsers and servers typically make available, such as:</p>
+            <ul>
+              <li>Browser type and language preference</li>
+              <li>Referring website and exit pages</li>
+              <li>Date and time of each visitor request</li>
+              <li>Internet Protocol (IP) addresses for geolocation and fraud prevention</li>
+            </ul>
+
+            <h2>Cookies and Web Beacons</h2>
+            <p>MoviePulse uses standard cookies to store information about visitors' preferences and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type or other information.</p>
+
+            <h2>Google DoubleClick DART Cookie &amp; AdSense</h2>
+            <p>Google is one of the third-party vendors on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to our site and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a>.</p>
+
+            <h2>Our Advertising Partners</h2>
+            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners include:</p>
+            <ul>
+              <li><strong>Google AdSense / Google Ad Manager:</strong> Privacy Policy available at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+            </ul>
+            <p>Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on MoviePulse, which are sent directly to users' browser.</p>
+
+            <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
+            <p>Under the CCPA, California consumers have the right to:</p>
+            <ul>
+              <li>Request that a business disclose the categories and specific pieces of personal data collected.</li>
+              <li>Request that a business delete any personal data collected about the consumer.</li>
+              <li>Request that a business not sell the consumer's personal data.</li>
+            </ul>
+
+            <h2>GDPR Data Protection Rights</h2>
+            <p>Every European user is entitled to the right to access, rectify, erase, restrict processing, and object to processing of their personal data.</p>
+
+            <h2>Children's Information</h2>
+            <p>MoviePulse does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at <a href="/contact/">our Contact page</a>.</p>
+            
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 MoviePulse. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/about/">About Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms &amp; Disclaimer</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

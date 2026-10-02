@@ -32,6 +32,7 @@ from ai_generator import AIGenerator
 from story_builder import build_amp_story_html
 from homepage_builder import generate_homepage
 from sitemap_builder import generate_sitemap
+from policy_pages import generate_policy_pages
 from validator import check_amp_files
 from generate_assets import create_logo
 
@@ -125,11 +126,12 @@ def run_pipeline(
 
     print(f"      -> Successfully saved {len(stories)} stories into dist/stories/<slug>/index.html\n")
 
-    # 5. Build Homepage & Sitemap
-    print(f"[4/5] Building visual homepage and XML sitemap...")
+    # 5. Build Homepage, Policy Pages & Sitemap
+    print(f"[4/5] Building visual homepage, legal policy pages, and XML sitemap...")
     generate_homepage(stories, domain=domain, output_dir=DIST_DIR)
+    generate_policy_pages(dist_dir=DIST_DIR, domain=domain)
     generate_sitemap(stories, domain=domain, output_path=SITEMAP_PATH)
-    print(f"      -> Portal homepage and sitemap updated.\n")
+    print(f"      -> Portal homepage, policy pages, and sitemap updated.\n")
 
     # 6. AMP Validation
     if run_validation:

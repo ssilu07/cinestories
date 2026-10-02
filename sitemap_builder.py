@@ -52,6 +52,15 @@ def generate_sitemap(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, o
             ET.SubElement(img_elem, "image:loc").text = img_loc
             ET.SubElement(img_elem, "image:title").text = f"{movie.get('title', 'Movie')} Web Story"
 
+    # 3. Policy & Legal Pages
+    legal_pages = ["about", "privacy", "terms", "contact"]
+    for page in legal_pages:
+        legal_url = ET.SubElement(urlset, "url")
+        ET.SubElement(legal_url, "loc").text = f"{domain}/{page}/"
+        ET.SubElement(legal_url, "lastmod").text = today_str
+        ET.SubElement(legal_url, "changefreq").text = "monthly"
+        ET.SubElement(legal_url, "priority").text = "0.5"
+
     # Format XML with indentation
     ET.indent(urlset, space="  ", level=0)
     xml_declaration = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -61,7 +70,7 @@ def generate_sitemap(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, o
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(xml_str)
 
-    print(f"[Sitemap] Successfully updated sitemap: {output_path} ({len(stories) + 1} URLs)")
+    print(f"[Sitemap] Successfully updated sitemap: {output_path} ({len(stories) + 1 + len(legal_pages)} URLs)")
     return xml_str
 
 if __name__ == "__main__":

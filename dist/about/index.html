@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | MoviePulse</title>
+  <meta name="description" content="Learn about MoviePulse, an autonomous visual Google AMP Web Stories platform dedicated to Hollywood blockbusters, TV series, and cult classics.">
+  <link rel="canonical" href="https://cinestories-omega.vercel.app/about/">
+  <link rel="icon" type="image/svg+xml" href="https://cinestories-omega.vercel.app/assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #090b10;
+      --surface: #10141f;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --primary: #e11d48;
+      --accent-gold: #f59e0b;
+      --text: #ffffff;
+      --text-muted: #94a3b8;
+      --radius-lg: 20px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--surface-border);
+      padding: 16px 24px;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn-home:hover {
+      background: rgba(225, 29, 72, 0.2);
+      border-color: var(--primary);
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 40px auto 60px;
+      padding: 0 24px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .page-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .page-card {
+        padding: 24px 20px;
+      }
+    }
+
+    .page-kicker {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .page-title {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-body h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 32px 0 12px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 8px;
+    }
+
+    .content-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin: 20px 0 8px;
+    }
+
+    .content-body p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    .content-body ul {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    .content-body li {
+      margin-bottom: 8px;
+    }
+
+    .content-body a {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+
+    .callout-box {
+      background: rgba(225, 29, 72, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    .footer {
+      background: var(--surface);
+      border-top: 1px solid var(--surface-border);
+      padding: 32px 24px;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="/" class="brand-wrap">
+        <img src="/assets/logo.png" alt="MoviePulse" class="brand-logo">
+        <div class="brand-text">
+          <h1>MoviePulse</h1>
+        </div>
+      </a>
+      <a href="/" class="btn-home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span>Back to Stories</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <article class="page-card">
+      <div class="page-kicker">Legal &amp; Policy</div>
+      <h1 class="page-title">About Us</h1>
+      <div class="content-body">
+        
+            <p>Welcome to <strong>MoviePulse</strong> (hosted at <a href="https://cinestories-omega.vercel.app/">https://cinestories-omega.vercel.app</a>), a cutting-edge visual entertainment platform dedicated to delivering bite-sized, mobile-optimized <strong>Google AMP Web Stories</strong> for cinema enthusiasts, binge-watchers, and pop-culture fans worldwide.</p>
+
+            <h2>Our Mission</h2>
+            <p>The modern entertainment landscape moves at lightning speed. With hundreds of movies and television shows premiering every month across streaming services and theatrical screens, movie lovers need snackable, visually engaging, and insightful summaries without spoilers.</p>
+            <p>Our mission is to transform raw cinematic data into rich, tap-friendly visual stories that you can enjoy in 60 seconds on any smartphone, tablet, or desktop browser.</p>
+
+            <h2>What We Cover</h2>
+            <ul>
+              <li><strong>Binge TV Series &amp; Shows:</strong> Global phenomena like <em>Money Heist</em>, <em>Stranger Things</em>, <em>The Boys</em>, <em>Breaking Bad</em>, <em>Wednesday</em>, and <em>Game of Thrones</em>.</li>
+              <li><strong>Trending Blockbusters:</strong> New theatrical and streaming releases including Marvel hits, <em>John Wick</em>, <em>Dune</em>, and upcoming spectacles.</li>
+              <li><strong>Cult Classics &amp; Franchises:</strong> Iconic mind-bending cinema like <em>Interstellar</em>, <em>Inception</em>, <em>The Dark Knight</em>, and <em>Final Destination</em>.</li>
+            </ul>
+
+            <h2>Technology &amp; Editorial Standards</h2>
+            <p><strong>MoviePulse</strong> leverages verified data from <strong>The Movie Database (TMDB)</strong> and synthesizes high-CTR narrative hooks using advanced generative AI architectures (Google Gemini). Every story is strictly crafted to comply with the official <strong>Google AMP Web Story 1.0 Specification</strong>, ensuring instant loading speeds, zero bloat, and optimal readability on Google Discover and mobile search.</p>
+
+            <div class="callout-box">
+              <strong>TMDB Attribution:</strong> This product uses the TMDB API but is not endorsed or certified by TMDB. All movie posters, backdrops, and character names remain the intellectual property of their respective studios and production companies.
+            </div>
+
+            <h2>Connect With Us</h2>
+            <p>Have questions, story requests, or feedback? Feel free to reach out via our <a href="/contact/">Contact Us page</a>.</p>
+            
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 MoviePulse. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/about/">About Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms &amp; Disclaimer</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

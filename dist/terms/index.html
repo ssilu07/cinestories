@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Service &amp; Disclaimer | MoviePulse</title>
+  <meta name="description" content="Terms of Service, DMCA Disclaimer, and Fair Use statement for MoviePulse.">
+  <link rel="canonical" href="https://cinestories-omega.vercel.app/terms/">
+  <link rel="icon" type="image/svg+xml" href="https://cinestories-omega.vercel.app/assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #090b10;
+      --surface: #10141f;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --primary: #e11d48;
+      --accent-gold: #f59e0b;
+      --text: #ffffff;
+      --text-muted: #94a3b8;
+      --radius-lg: 20px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--surface-border);
+      padding: 16px 24px;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .btn-home:hover {
+      background: rgba(225, 29, 72, 0.2);
+      border-color: var(--primary);
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 40px auto 60px;
+      padding: 0 24px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .page-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .page-card {
+        padding: 24px 20px;
+      }
+    }
+
+    .page-kicker {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .page-title {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-body h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 32px 0 12px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 8px;
+    }
+
+    .content-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin: 20px 0 8px;
+    }
+
+    .content-body p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+
+    .content-body ul {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    .content-body li {
+      margin-bottom: 8px;
+    }
+
+    .content-body a {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+
+    .callout-box {
+      background: rgba(225, 29, 72, 0.1);
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    .footer {
+      background: var(--surface);
+      border-top: 1px solid var(--surface-border);
+      padding: 32px 24px;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="/" class="brand-wrap">
+        <img src="/assets/logo.png" alt="MoviePulse" class="brand-logo">
+        <div class="brand-text">
+          <h1>MoviePulse</h1>
+        </div>
+      </a>
+      <a href="/" class="btn-home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span>Back to Stories</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <article class="page-card">
+      <div class="page-kicker">Legal &amp; Policy</div>
+      <h1 class="page-title">Terms of Service &amp; Disclaimer</h1>
+      <div class="content-body">
+        
+            <p><em>Last updated: October 2026</em></p>
+            <p>By accessing and using <strong>MoviePulse</strong> (<a href="https://cinestories-omega.vercel.app/">https://cinestories-omega.vercel.app</a>), you accept and agree to be bound by the terms and provision of this agreement.</p>
+
+            <h2>1. Informational &amp; Entertainment Purpose</h2>
+            <p>All content provided on MoviePulse, including AMP Web Stories, text summaries, trivia, and reviews, is for entertainment, commentary, criticism, and educational purposes only.</p>
+
+            <h2>2. Fair Use &amp; Intellectual Property Disclaimer</h2>
+            <p>All movie and television show titles, character names, stills, posters, and trademarks referenced on this website are the property of their respective copyright owners, film distributors, and studios (e.g., Netflix, Warner Bros., Disney, Paramount, Universal, HBO, Sony).</p>
+            <p>The use of images and excerpts on this platform constitutes a <strong>Fair Use</strong> under Title 17 U.S.C. Section 107 of the United States Copyright Act for transformative purposes such as critique, commentary, news reporting, and education.</p>
+
+            <h2>3. TMDB API Attribution</h2>
+            <p>MoviePulse uses metadata, images, and ratings provided by The Movie Database (TMDB) API. This website is not endorsed, certified, or sponsored by TMDB.</p>
+
+            <h2>4. Disclaimer of Warranties</h2>
+            <p>The materials on MoviePulse are provided on an 'as is' basis. MoviePulse makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property.</p>
+
+            <h2>5. DMCA / Takedown Notice</h2>
+            <p>If you are a copyright owner or an agent thereof and believe that any content hosted on MoviePulse infringes upon your copyright, please contact us with the specific URL and proof of ownership. We will promptly remove or disable access to the infringing material within 48 hours.</p>
+
+            <h2>6. Changes to Terms</h2>
+            <p>MoviePulse reserves the right to revise these terms of service at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms.</p>
+            
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 MoviePulse. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/about/">About Us</a>
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/terms/">Terms &amp; Disclaimer</a>
+        <a href="/contact/">Contact Us</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
