@@ -14,6 +14,7 @@ from config import (
     PUBLISHER_NAME,
     get_publisher_logo_url,
     TMDB_IMAGE_ORIGINAL,
+    TMDB_IMAGE_BACKDROP,
     TMDB_IMAGE_POSTER
 )
 
@@ -194,7 +195,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         raw_backdrops = [poster_path]
 
     backdrop_urls = [
-        f"{TMDB_IMAGE_ORIGINAL}{b}" if b.startswith("/") else b
+        f"{TMDB_IMAGE_BACKDROP}{b}" if b.startswith("/") else b
         for b in raw_backdrops
     ] if raw_backdrops else [poster_portrait]
 

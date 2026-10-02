@@ -45,8 +45,8 @@ SITEMAP_PATH = DIST_DIR / "sitemap.xml"
 STORIES_JSON_PATH = DIST_DIR / "stories.json"
 
 # Pipeline defaults
-STORIES_PER_CATEGORY_LIMIT = int(os.getenv("STORIES_PER_CATEGORY_LIMIT", "5"))
-MAX_TOTAL_STORIES = int(os.getenv("MAX_TOTAL_STORIES", "15"))
+STORIES_PER_CATEGORY_LIMIT = int(os.getenv("STORIES_PER_CATEGORY_LIMIT", "10"))
+MAX_TOTAL_STORIES = int(os.getenv("MAX_TOTAL_STORIES", "25"))
 
 # Ensure base dist directories exist
 DIST_DIR.mkdir(parents=True, exist_ok=True)

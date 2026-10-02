@@ -59,7 +59,7 @@ class TMDBClient:
             print(f"[TMDB] Error connecting to {endpoint}: {e}")
             return None
 
-    def get_items_by_category(self, category: str, limit: int = 4) -> List[Dict[str, Any]]:
+    def get_items_by_category(self, category: str, limit: int = 15) -> List[Dict[str, Any]]:
         """
         Fetch items by category: 'trending', 'series', 'cult_classic', 'upcoming', 'now_playing'.
         """
@@ -202,7 +202,7 @@ class TMDBClient:
             "backdrops": backdrops[:8]
         }
 
-    def fetch_feed(self, categories: Optional[List[str]] = None, per_category: int = 4) -> List[Dict[str, Any]]:
+    def fetch_feed(self, categories: Optional[List[str]] = None, per_category: int = 15) -> List[Dict[str, Any]]:
         """
         Fetch combined unique movies and TV series across requested categories.
         """

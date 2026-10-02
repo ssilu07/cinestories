@@ -23,6 +23,10 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     """
     now_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     total_stories = len(stories)
+    series_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "series")
+    trending_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "trending")
+    cult_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "cult_classic")
+    upcoming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "upcoming")
 
     # Prepare cards data
     cards_data = []
@@ -31,13 +35,19 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         slug = m.get("slug", "story")
         poster = m.get("poster_path")
         poster_url = f"{TMDB_IMAGE_POSTER}{poster}" if poster else f"{domain}/assets/logo.png"
+        backdrop = m.get("backdrop_path")
+        backdrop_url = f"{TMDB_IMAGE_POSTER}{backdrop}" if backdrop else poster_url
+        title = s.get("title") or m.get("hook_title") or m.get("title", "")
+        teaser = m.get("catchy_teaser") or s.get("seo_description", "")
         
         cards_data.append({
-            "title": s.get("title", m.get("title", "")),
+            "title": title,
             "movie_title": m.get("title", ""),
             "slug": slug,
             "url": f"/stories/{slug}/",
             "poster_url": poster_url,
+            "backdrop_url": backdrop_url,
+            "teaser": teaser,
             "media_type": m.get("media_type", "movie"),
             "category": m.get("category", "trending"),
             "release_date": m.get("release_date", "Coming Soon"),
@@ -68,7 +78,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <article class="story-card" data-category="{c['category']}" data-title="{html.escape(c['title'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}" data-rating="{c['rating']}">
           <a href="{c['url']}" class="card-link" aria-label="Read story for {html.escape(c['movie_title'])}">
             <div class="card-poster-wrap">
-              <img src="{c['poster_url']}" alt="{html.escape(c['movie_title'])}" class="card-poster" loading="lazy" width="300" height="400">
+              <img src="{c['poster_url']}" alt="{html.escape(c['movie_title'])}" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='{c['backdrop_url']}';">
               <div class="card-overlay-gradient"></div>
               
               <div class="card-top-badges">
@@ -77,10 +87,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
               </div>
 
               <div class="card-bottom-info">
-                <div class="slides-counter">
-                  <span class="amp-icon">⚡</span> {c['slides_count']} AMP Slides
+                <div class="card-kicker">
+                  <span class="movie-name-tag">{html.escape(c['movie_title'])}</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> {c['slides_count']} Slides</span>
                 </div>
                 <h3 class="card-title">{html.escape(c['title'])}</h3>
+                <p class="card-teaser">{html.escape(c['teaser'])}</p>
                 <div class="card-meta">
                   <span>{html.escape(c['release_date'][:4] if len(c['release_date']) >= 4 else c['release_date'])}</span>
                   <span>•</span>
@@ -409,7 +421,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     .card-poster-wrap {{
       position: relative;
       width: 100%;
-      aspect-ratio: 3 / 4;
+      aspect-ratio: 2 / 3;
       overflow: hidden;
       background: #141824;
     }}
@@ -418,6 +430,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       width: 100%;
       height: 100%;
       object-fit: cover;
+      display: block;
       transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     }}
 
@@ -430,9 +443,9 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       inset: 0;
       background: linear-gradient(
         180deg,
-        rgba(9, 11, 16, 0.25) 0%,
-        rgba(9, 11, 16, 0.1) 40%,
-        rgba(9, 11, 16, 0.82) 75%,
+        rgba(9, 11, 16, 0.2) 0%,
+        rgba(9, 11, 16, 0.05) 30%,
+        rgba(9, 11, 16, 0.65) 60%,
         rgba(9, 11, 16, 0.98) 100%
       );
     }}
@@ -503,6 +516,27 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       z-index: 2;
     }}
 
+    .card-kicker {{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 6px;
+    }}
+
+    .movie-name-tag {{
+      font-size: 11px;
+      font-weight: 800;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 60%;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+    }}
+
     .slides-counter {{
       display: inline-flex;
       align-items: center;
@@ -510,7 +544,6 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       font-size: 11px;
       font-weight: 600;
       color: var(--accent-gold);
-      margin-bottom: 6px;
     }}
 
     .amp-icon {{
@@ -518,15 +551,29 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     }}
 
     .card-title {{
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 800;
-      line-height: 1.25;
+      line-height: 1.3;
       color: #fff;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+    }}
+
+    .card-teaser {{
+      font-size: 12px;
+      line-height: 1.4;
+      color: #cbd5e1;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: 500;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
     }}
 
     .card-meta {{
@@ -658,10 +705,10 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
         <button class="filter-btn active" data-filter="all">All Stories ({total_stories})</button>
-        <button class="filter-btn" data-filter="series">TV Series &amp; Binge Shows</button>
-        <button class="filter-btn" data-filter="trending">Trending Movies</button>
-        <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises</button>
-        <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+        <button class="filter-btn" data-filter="series">TV Series &amp; Binge ({series_count})</button>
+        <button class="filter-btn" data-filter="trending">Trending Movies ({trending_count})</button>
+        <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises ({cult_count})</button>
+        <button class="filter-btn" data-filter="upcoming">Upcoming ({upcoming_count})</button>
       </div>
 
       <div class="search-box">

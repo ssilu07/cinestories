@@ -70,7 +70,7 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME || 'https://cinestories.pages.dev' }}
+          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME || 'https://cinestories-omega.vercel.app' }}
         run: |
           DEMO_FLAG=""
           if [ "${{ inputs.demo_mode }}" = "true" ]; then
@@ -78,7 +78,7 @@ jobs:
           fi
           python fetch_and_generate.py \
             --category "${{ inputs.category || 'all' }}" \
-            --count "${{ inputs.count || '5' }}" \
+            --count "${{ inputs.count || '10' }}" \
             $DEMO_FLAG
 
       - name: Verify 100% AMP Compliance

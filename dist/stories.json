@@ -1,13 +1,13 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-02T06:09:01.216203+00:00",
-  "total_stories": 7,
+  "generated_at": "2026-10-02T06:39:51.348524+00:00",
+  "total_stories": 14,
   "stories": [
     {
       "id": 71446,
       "slug": "money-heist",
-      "title": "Money Heist: The Ultimate Story & Secrets",
+      "title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed \ud83d\udcb0",
       "url": "https://cinestories-omega.vercel.app/stories/money-heist/",
       "category": "series",
       "release_date": "2017-05-02",
@@ -16,7 +16,7 @@
     {
       "id": 66732,
       "slug": "stranger-things",
-      "title": "Stranger Things: The Ultimate Story & Secrets",
+      "title": "The Upside Down: 5 Dark Secrets Ahead Of Season 5 \ud83d\udeb2\u26a1",
       "url": "https://cinestories-omega.vercel.app/stories/stranger-things/",
       "category": "series",
       "release_date": "2016-07-15",
@@ -25,16 +25,61 @@
     {
       "id": 76479,
       "slug": "the-boys",
-      "title": "The Boys: The Ultimate Story & Secrets",
+      "title": "Homelander Unhinged: 5 Sickest Twists In The Boys \ud83e\ude78\ud83e\uddb8\u200d\u2642\ufe0f",
       "url": "https://cinestories-omega.vercel.app/stories/the-boys/",
       "category": "series",
       "release_date": "2019-07-26",
       "rating": 8.5
     },
     {
+      "id": 1396,
+      "slug": "breaking-bad",
+      "title": "I Am The Danger: How Walter White Became TV's Greatest Villain \u2697\ufe0f",
+      "url": "https://cinestories-omega.vercel.app/stories/breaking-bad/",
+      "category": "series",
+      "release_date": "2008-01-20",
+      "rating": 8.9
+    },
+    {
+      "id": 119051,
+      "slug": "wednesday",
+      "title": "Wednesday Addams: 5 Goth Secrets That Broke Netflix Records \ud83d\udda4\ud83d\udd77\ufe0f",
+      "url": "https://cinestories-omega.vercel.app/stories/wednesday/",
+      "category": "series",
+      "release_date": "2022-11-23",
+      "rating": 8.4
+    },
+    {
+      "id": 1399,
+      "slug": "game-of-thrones",
+      "title": "Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled \ud83d\udc09\u2694\ufe0f",
+      "url": "https://cinestories-omega.vercel.app/stories/game-of-thrones/",
+      "category": "series",
+      "release_date": "2011-04-17",
+      "rating": 8.4
+    },
+    {
+      "id": 603692,
+      "slug": "john-wick-chapter-4",
+      "title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
+      "url": "https://cinestories-omega.vercel.app/stories/john-wick-chapter-4/",
+      "category": "trending",
+      "release_date": "2023-03-22",
+      "rating": 7.7
+    },
+    {
+      "id": 533535,
+      "slug": "deadpool-and-wolverine",
+      "title": "Maximum Effort! 5 Mindblowing Marvel Cameos & Secrets \u2694\ufe0f\ud83c\udf7f",
+      "url": "https://cinestories-omega.vercel.app/stories/deadpool-and-wolverine/",
+      "category": "trending",
+      "release_date": "2024-07-26",
+      "rating": 7.7
+    },
+    {
       "id": 693134,
       "slug": "dune-part-two",
-      "title": "Dune: Part Two: The Ultimate Story & Secrets",
+      "title": "Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed \ud83c\udfdc\ufe0f\ud83d\udd25",
       "url": "https://cinestories-omega.vercel.app/stories/dune-part-two/",
       "category": "trending",
       "release_date": "2024-03-01",
@@ -43,7 +88,7 @@
     {
       "id": 9532,
       "slug": "final-destination",
-      "title": "Final Destination: The Ultimate Story & Secrets",
+      "title": "Death's Plan: 5 Terrifying Accidental Kill Traps Ranked \ud83d\udc80",
       "url": "https://cinestories-omega.vercel.app/stories/final-destination/",
       "category": "cult_classic",
       "release_date": "2000-03-17",
@@ -52,16 +97,34 @@
     {
       "id": 157336,
       "slug": "interstellar",
-      "title": "Interstellar: The Ultimate Story & Secrets",
+      "title": "Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar \ud83d\ude80\u23f3",
       "url": "https://cinestories-omega.vercel.app/stories/interstellar/",
       "category": "cult_classic",
       "release_date": "2014-11-05",
       "rating": 8.4
     },
     {
+      "id": 27205,
+      "slug": "inception",
+      "title": "Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets \ud83c\udf00\ud83d\udca4",
+      "url": "https://cinestories-omega.vercel.app/stories/inception/",
+      "category": "cult_classic",
+      "release_date": "2010-07-15",
+      "rating": 8.4
+    },
+    {
+      "id": 155,
+      "slug": "the-dark-knight",
+      "title": "Why So Serious? How Heath Ledger's Joker Made Movie History \ud83c\udccf\ud83e\udd87",
+      "url": "https://cinestories-omega.vercel.app/stories/the-dark-knight/",
+      "category": "cult_classic",
+      "release_date": "2008-07-16",
+      "rating": 8.5
+    },
+    {
       "id": 558449,
       "slug": "gladiator-ii",
-      "title": "Gladiator II: The Ultimate Story & Secrets",
+      "title": "Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War \ud83c\udfdb\ufe0f\u2694\ufe0f",
       "url": "https://cinestories-omega.vercel.app/stories/gladiator-ii/",
       "category": "upcoming",
       "release_date": "2024-11-22",

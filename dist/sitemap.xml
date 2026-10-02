@@ -12,7 +12,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/reEMJA1uzscCbk5rSXGno05GAYg.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg</image:loc>
       <image:title>Money Heist Web Story</image:title>
     </image:image>
   </url>
@@ -32,8 +32,58 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/7Ns6tO3aYjppI5J8ojQ32mQ4q0o.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/in1R2dDc421JxsoRWaIIAqVI2KE.jpg</image:loc>
       <image:title>The Boys Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/breaking-bad/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg</image:loc>
+      <image:title>Breaking Bad Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/wednesday/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/avzWIWe6FWZi7r1qJeQZcDTv3Ex.jpg</image:loc>
+      <image:title>Wednesday Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/game-of-thrones/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/seGbGCqUI1DzYndRekrpuBQS64k.jpg</image:loc>
+      <image:title>Game of Thrones Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/john-wick-chapter-4/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/sP7MVWz9Fi5nkLmRCNKXnlcKkdb.jpg</image:loc>
+      <image:title>John Wick: Chapter 4 Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/deadpool-and-wolverine/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg</image:loc>
+      <image:title>Deadpool &amp; Wolverine Web Story</image:title>
     </image:image>
   </url>
   <url>
@@ -42,7 +92,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/3HzGtM0JpfH2pWFGugJK22LRP6b.jpg</image:loc>
       <image:title>Dune: Part Two Web Story</image:title>
     </image:image>
   </url>
@@ -52,7 +102,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/bkQj4E4FmD89n830v9408018h2.jpg</image:loc>
+      <image:loc>https://image.tmdb.org/t/p/w780/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg</image:loc>
       <image:title>Final Destination Web Story</image:title>
     </image:image>
   </url>
@@ -64,6 +114,26 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</image:loc>
       <image:title>Interstellar Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/inception/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg</image:loc>
+      <image:title>Inception Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-dark-knight/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg</image:loc>
+      <image:title>The Dark Knight Web Story</image:title>
     </image:image>
   </url>
   <url>

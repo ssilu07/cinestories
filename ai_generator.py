@@ -10,6 +10,7 @@ import re
 from typing import Dict, Any, List, Optional
 from pydantic import BaseModel, Field
 from config import GEMINI_API_KEY, GEMINI_MODEL, DOMAIN_NAME
+from curated_stories import CURATED_STORIES
 
 # Structured Output Schemas
 class SlideData(BaseModel):
@@ -208,43 +209,71 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
 
     def _generate_fallback(self, movie: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Deterministic, high-quality story synthesizer used when API key is not supplied.
-        Guarantees 100% adherence to 5-7 slides, word counts, and AMP narrative rules.
+        Deterministic, high-quality story synthesizer with punchy, viral headlines.
         """
-        title = f"{movie.get('title')}: The Ultimate Story & Secrets"[:68]
-        release_date = movie.get("release_date", "Upcoming")
-        director = movie.get("director", "Visionary Director")
+        slug = movie.get("slug", "")
+        if slug in CURATED_STORIES:
+            curated = CURATED_STORIES[slug]
+            max_backdrops = max(1, len(movie.get("backdrops", [])))
+            slides = []
+            for s in curated.get("slides", []):
+                slide_copy = dict(s)
+                slide_copy["backdrop_index"] = slide_copy.get("backdrop_index", 0) % max_backdrops
+                slides.append(slide_copy)
+            return {
+                "title": curated.get("title", movie.get("hook_title", movie.get("title"))),
+                "seo_description": curated.get("seo_description", movie.get("overview", "")[:150]),
+                "movie": movie,
+                "slides": slides
+            }
+
+        title = movie.get("hook_title") or f"{movie.get('title')}: The Untold Story & Secrets"[:68]
+        release_date = movie.get("release_date", "Trending")
+        director = movie.get("director", "Visionary Creator")
         cast = movie.get("top_cast", ["Hollywood Stars"])
         cast_str = ", ".join(cast[:3]) if cast else "An all-star cast"
-        tagline = movie.get("tagline") or f"Experience the hype around {movie.get('title')}."
+        tagline = movie.get("tagline") or f"Experience the global phenomenon of {movie.get('title')}."
         genres = ", ".join(movie.get("genres", ["Cinema"]))
-        rating = movie.get("vote_average", 8.0)
+        rating = movie.get("vote_average", 8.4)
         overview = movie.get("overview", "")
         max_backdrops = max(1, len(movie.get("backdrops", [])))
+        is_tv = movie.get("media_type") == "tv"
+        is_cult = movie.get("category") == "cult_classic"
 
-        # Truncate overview for slide 2 under 38 words
-        ov_words = overview.split()
-        if len(ov_words) > 36:
-            plot_text = " ".join(ov_words[:36]) + "..."
+        # Punchy badge
+        if is_tv:
+            badge_1 = "🔥 BINGE PHENOMENON"
+            badge_2 = "THE MASTERMIND PLOT"
+        elif is_cult:
+            badge_1 = "💀 CULT LEGEND"
+            badge_2 = "THE TERRIFYING PREMISE"
         else:
-            plot_text = " ".join(ov_words) if ov_words else f"A cinematic thrill-ride in {genres}."
+            badge_1 = "⚡ BLOCKBUSTER ALERT"
+            badge_2 = "THE EPIC CONFLICT"
+
+        # Truncate overview for slide 2 under 36 words
+        ov_words = overview.split()
+        if len(ov_words) > 34:
+            plot_text = " ".join(ov_words[:34]) + "..."
+        else:
+            plot_text = " ".join(ov_words) if ov_words else f"A pulse-pounding masterpiece in {genres}."
 
         slides = [
-            # Slide 1: Cover
+            # Slide 1: Cover Hook
             {
                 "id": "page-1",
-                "badge": "NOW SPOTLIGHT" if movie.get("category") == "now_playing" else "UPCOMING BUZZ",
+                "badge": badge_1,
                 "title": movie.get("title")[:35],
-                "text": f"{tagline} Releasing {release_date}, this {genres} blockbuster is turning heads worldwide.",
+                "text": f"{tagline} Rated {rating}/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
                 "backdrop_index": 0,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 2: Plot setup
+            # Slide 2: Plot hook
             {
                 "id": "page-2",
-                "badge": "THE PREMISE",
-                "title": "A High-Stakes Journey",
+                "badge": badge_2,
+                "title": "Shocking Twist Ahead",
                 "text": plot_text,
                 "backdrop_index": 1 % max_backdrops,
                 "cta_text": None,
