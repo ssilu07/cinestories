@@ -40,9 +40,12 @@ TMDB_IMAGE_THUMB = "https://image.tmdb.org/t/p/w500"
 # Directories
 DIST_DIR = ROOT_DIR / "dist"
 STORIES_DIR = DIST_DIR / "stories"
+ARTICLES_DIR = DIST_DIR / "articles"
+DISCOVER_DIR = DIST_DIR / "discover"
 ASSETS_DIR = DIST_DIR / "assets"
 SITEMAP_PATH = DIST_DIR / "sitemap.xml"
 STORIES_JSON_PATH = DIST_DIR / "stories.json"
+ARTICLES_JSON_PATH = DIST_DIR / "articles.json"
 
 # Pipeline defaults
 STORIES_PER_CATEGORY_LIMIT = int(os.getenv("STORIES_PER_CATEGORY_LIMIT", "10"))
@@ -51,4 +54,6 @@ MAX_TOTAL_STORIES = int(os.getenv("MAX_TOTAL_STORIES", "25"))
 # Ensure base dist directories exist
 DIST_DIR.mkdir(parents=True, exist_ok=True)
 STORIES_DIR.mkdir(parents=True, exist_ok=True)
+ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
+DISCOVER_DIR.mkdir(parents=True, exist_ok=True)
 ASSETS_DIR.mkdir(parents=True, exist_ok=True)

@@ -7,257 +7,499 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/discover/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/streaming-weekly-top-10-us-uk/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg</image:loc>
+      <image:title>Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/fallout-prime-video/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/jqrYg35GHuMGwGqEVUthqTLQnay.jpg</image:loc>
+      <image:title>Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video ☢️ Vault 33 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/house-of-the-dragon/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg</image:loc>
+      <image:title>Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max 🐉🔥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/marvel-post-credit-theories/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg</image:loc>
+      <image:title>Marvel Post-Credits: 6 Insane Easter Eggs &amp; Secret Wars Theories 🦸‍♂️⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/dc-easter-eggs-theories/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg</image:loc>
+      <image:title>DC Universe Secrets: 5 Dark Easter Eggs &amp; Multiverse Theories 🦇🃏 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/spiderman-venom-post-credits/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg</image:loc>
+      <image:title>Spider-Man &amp; Venom: 5 Post-Credit Clues Connecting The Multiverse 🕷️🖤 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/friends-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg</image:loc>
+      <image:title>Friends: Where Are The Central Perk Stars Today? ☕✨ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-office-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/qHFidnMcFqUWdMFyjmXufBlYckd.jpg</image:loc>
+      <image:title>The Office: Where Is The Dunder Mifflin Cast In 2026? 📄📎 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/sitcom-stars-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg</image:loc>
+      <image:title>Where Are They Now? 5 Popular 90s/2000s Sitcom Stars 📺✨ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/money-heist/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg</image:loc>
+      <image:title>Bella Ciao! 5 Insane Professor Masterstrokes You Missed 💰 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/stranger-things/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/56v2KjBlU4XaOv9rVYEQypROD7P.jpg</image:loc>
+      <image:title>The Upside Down: 5 Dark Secrets Ahead Of Season 5 🚲⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-boys/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg</image:loc>
+      <image:title>Homelander Unhinged: 5 Sickest Twists In The Boys 🩸🦸‍♂️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/breaking-bad/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg</image:loc>
+      <image:title>I Am The Danger: How Walter White Became TV's Greatest Villain ⚗️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/wednesday/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg</image:loc>
+      <image:title>Wednesday Addams: 5 Goth Secrets That Broke Netflix Records 🖤🕷️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/game-of-thrones/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg</image:loc>
+      <image:title>Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled 🐉⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/john-wick-chapter-4/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/7I6VUdPj6tQECNHdviJkUHD2u89.jpg</image:loc>
+      <image:title>Baba Yaga Returns: 442 Kills &amp; Insane Stunt Secrets Revealed 🔫🥋 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/deadpool-and-wolverine/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg</image:loc>
+      <image:title>Maximum Effort! 5 Mindblowing Marvel Cameos &amp; Secrets ⚔️🍿 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/dune-part-two/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg</image:loc>
+      <image:title>Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed 🏜️🔥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/final-destination/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/7isarjYDEKZ5t1CgcvbuqEUby8P.jpg</image:loc>
+      <image:title>Death's Plan: 5 Terrifying Accidental Kill Traps Ranked 💀 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/interstellar/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/xJHokMbljvjADYdit5fK5VQsXEG.jpg</image:loc>
+      <image:title>Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar 🚀⏳ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/inception/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg</image:loc>
+      <image:title>Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets 🌀💤 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-dark-knight/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg</image:loc>
+      <image:title>Why So Serious? How Heath Ledger's Joker Made Movie History 🃏🦇 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/gladiator-ii/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
+      <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/stories/streaming-weekly-top-10-us-uk/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg</image:loc>
-      <image:title>Top 10 Streaming Hits (US &amp; UK) Web Story</image:title>
+      <image:title>Top 10 Streaming Hits (US &amp; UK) Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/fallout-prime-video/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/8zQO5GNWQwJG4we5AYfjopblRFe.jpg</image:loc>
-      <image:title>Fallout Web Story</image:title>
+      <image:title>Fallout Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/house-of-the-dragon/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg</image:loc>
-      <image:title>House of the Dragon Web Story</image:title>
+      <image:title>House of the Dragon Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/marvel-post-credit-theories/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg</image:loc>
-      <image:title>Marvel Post-Credit Theories Web Story</image:title>
+      <image:title>Marvel Post-Credit Theories Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/dc-easter-eggs-theories/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/74xTEgt7R36Fpooo50r9T25onhq.jpg</image:loc>
-      <image:title>DC Universe Secrets &amp; Theories Web Story</image:title>
+      <image:title>DC Universe Secrets &amp; Theories Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/spiderman-venom-post-credits/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg</image:loc>
-      <image:title>Spider-Man &amp; Venom Post-Credits Web Story</image:title>
+      <image:title>Spider-Man &amp; Venom Post-Credits Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/friends-where-are-they-now/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg</image:loc>
-      <image:title>Friends: Where Are They Now? Web Story</image:title>
+      <image:title>Friends: Where Are They Now? Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-office-where-are-they-now/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg</image:loc>
-      <image:title>The Office: Where Are They Now? Web Story</image:title>
+      <image:title>The Office: Where Are They Now? Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/sitcom-stars-where-are-they-now/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/si3OheCrSpEyK2JUtZOThsZPUR4.jpg</image:loc>
-      <image:title>90s/2000s Sitcom Stars: Where Are They Now? Web Story</image:title>
+      <image:title>90s/2000s Sitcom Stars: Where Are They Now? Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/money-heist/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg</image:loc>
-      <image:title>Money Heist Web Story</image:title>
+      <image:title>Money Heist Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/stranger-things/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/49WJfeN0moxb9IPfGn8AIqMGskD.jpg</image:loc>
-      <image:title>Stranger Things Web Story</image:title>
+      <image:title>Stranger Things Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-boys/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/in1R2dDc421JxsoRWaIIAqVI2KE.jpg</image:loc>
-      <image:title>The Boys Web Story</image:title>
+      <image:title>The Boys Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/breaking-bad/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg</image:loc>
-      <image:title>Breaking Bad Web Story</image:title>
+      <image:title>Breaking Bad Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/wednesday/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/avzWIWe6FWZi7r1qJeQZcDTv3Ex.jpg</image:loc>
-      <image:title>Wednesday Web Story</image:title>
+      <image:title>Wednesday Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/game-of-thrones/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/seGbGCqUI1DzYndRekrpuBQS64k.jpg</image:loc>
-      <image:title>Game of Thrones Web Story</image:title>
+      <image:title>Game of Thrones Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/john-wick-chapter-4/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/sP7MVWz9Fi5nkLmRCNKXnlcKkdb.jpg</image:loc>
-      <image:title>John Wick: Chapter 4 Web Story</image:title>
+      <image:title>John Wick: Chapter 4 Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/deadpool-and-wolverine/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg</image:loc>
-      <image:title>Deadpool &amp; Wolverine Web Story</image:title>
+      <image:title>Deadpool &amp; Wolverine Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/dune-part-two/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/3HzGtM0JpfH2pWFGugJK22LRP6b.jpg</image:loc>
-      <image:title>Dune: Part Two Web Story</image:title>
+      <image:title>Dune: Part Two Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/final-destination/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg</image:loc>
-      <image:title>Final Destination Web Story</image:title>
+      <image:title>Final Destination Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/interstellar/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg</image:loc>
-      <image:title>Interstellar Web Story</image:title>
+      <image:title>Interstellar Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/inception/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg</image:loc>
-      <image:title>Inception Web Story</image:title>
+      <image:title>Inception Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-dark-knight/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg</image:loc>
-      <image:title>The Dark Knight Web Story</image:title>
+      <image:title>The Dark Knight Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/gladiator-ii/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg</image:loc>
-      <image:title>Gladiator II Web Story</image:title>
+      <image:title>Gladiator II Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/about/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/editorial/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/privacy/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/terms/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/contact/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.50</priority>
   </url>
 </urlset>

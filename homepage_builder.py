@@ -802,6 +802,9 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       </a>
 
       <div class="nav-actions">
+        <a href="/discover/" class="btn btn-outline" style="border-color: rgba(245, 158, 11, 0.45); color: #fbbf24; font-weight: 700; background: rgba(245, 158, 11, 0.1);">
+          <span>📰</span> Discover Feed
+        </a>
         <span class="amp-pill">⚡ 100% AMP Valid</span>
         <a href="/sitemap.xml" class="btn btn-outline" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6"/></svg>
@@ -858,6 +861,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <p class="footer-tmdb-notice">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
       </div>
       <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/discover/">Discover Feed</a>
         <a href="/about/">About Us</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/terms/">Terms &amp; Disclaimer</a>

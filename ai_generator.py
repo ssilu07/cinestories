@@ -27,6 +27,18 @@ class WebStoryData(BaseModel):
     seo_description: str = Field(description="SEO meta description under 155 characters summarizing the story")
     slides: List[SlideData] = Field(description="Sequence of 5 to 7 slides following the mandatory narrative arc")
 
+class ArticleSection(BaseModel):
+    heading: str = Field(description="Snappy section subheading under 50 characters")
+    content: str = Field(description="Paragraph of rich editorial commentary (60-120 words)")
+
+class DiscoverArticleData(BaseModel):
+    headline: str = Field(description="Catchy, high-CTR Google Discover headline under 75 characters")
+    meta_description: str = Field(description="SEO meta description under 155 characters summarizing the article")
+    key_takeaways: List[str] = Field(description="3 to 4 punchy bullet points summarizing key facts for readers")
+    sections: List[ArticleSection] = Field(description="3 to 4 rich editorial sections covering plot twists, casting, trivia, and reception")
+    verdict_summary: str = Field(description="Editor's final takeaway / streaming or theater verdict")
+    reading_time_mins: int = Field(default=3, description="Estimated reading time in minutes (usually 3 or 4)")
+
 class AIGenerator:
     def __init__(self, api_key: Optional[str] = None, model: str = GEMINI_MODEL):
         self.api_key = (api_key or GEMINI_API_KEY).strip()
@@ -344,4 +356,200 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
             "seo_description": f"Discover {movie.get('title')}: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
             "movie": movie,
             "slides": slides
+        }
+
+    def generate_article(self, movie: Dict[str, Any], story: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """
+        Generate structured Google Discover article for a movie.
+        Uses Gemini API if available, otherwise falls back to smart editorial synthesizer.
+        """
+        if self.is_available:
+            try:
+                article = self._generate_article_with_gemini(movie, story)
+                if article and len(article.get("sections", [])) >= 3:
+                    article["movie"] = movie
+                    return article
+            except Exception as e:
+                print(f"[AI] Gemini article generation failed for '{movie.get('title')}': {e}. Falling back to rule-based synthesizer.")
+
+        return self._generate_article_fallback(movie, story)
+
+    def _generate_article_with_gemini(self, movie: Dict[str, Any], story: Optional[Dict[str, Any]] = None) -> Optional[Dict[str, Any]]:
+        """Call Gemini API with structured output prompting for Google Discover Article."""
+        story_highlights = ""
+        if story and story.get("slides"):
+            story_highlights = "\n".join([f"- Slide {i+1}: {s.get('title')} - {s.get('text')}" for i, s in enumerate(story.get("slides", []))])
+
+        prompt = f"""
+You are an expert Hollywood entertainment journalist and SEO specialist writing for Google Chrome Discover.
+Transform the following raw movie data and story highlights into an engaging, high-CTR Google Discover news article.
+
+MOVIE DATA:
+- Title: {movie.get('title')}
+- Release Date: {movie.get('release_date')}
+- Tagline: {movie.get('tagline') or 'N/A'}
+- Genres: {', '.join(movie.get('genres', []))}
+- Director: {movie.get('director')}
+- Top Cast: {', '.join(movie.get('top_cast', []))}
+- Overview: {movie.get('overview')}
+- Audience Rating: {movie.get('vote_average')}/10
+- Category: {movie.get('category')}
+
+STORY HIGHLIGHTS:
+{story_highlights}
+
+GOOGLE DISCOVER EDITORIAL GUIDELINES:
+1. Headline: Irresistible, curiosity-inducing, authentic under 75 characters (e.g. "Inside The Professor's Ultimate Heist: 5 Tactics You Missed 💰").
+2. Meta Description: Under 155 characters summarizing the key hook.
+3. Key Takeaways: Exactly 3 to 4 punchy bullet points summarizing key facts for readers.
+4. Sections: Exactly 3 to 4 rich editorial sections covering the premise, star performances, behind-the-scenes secrets, and cultural impact (60-120 words each).
+5. Verdict Summary: 1-2 punchy concluding sentences with a recommendation.
+6. Reading Time: 3 or 4 minutes.
+"""
+        candidate_models = [self.model]
+        for fallback in ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
+            if fallback not in candidate_models:
+                candidate_models.append(fallback)
+
+        for m in candidate_models:
+            # 1. Try Interactions API
+            try:
+                interaction = self.client.interactions.create(
+                    model=m,
+                    input=prompt,
+                    response_format=[
+                        {
+                            "type": "text",
+                            "mime_type": "application/json",
+                            "schema": DiscoverArticleData.model_json_schema(),
+                        }
+                    ],
+                )
+                raw_text = interaction.output_text
+                if raw_text:
+                    data = json.loads(raw_text)
+                    print(f"[AI] Successfully synthesized Discover article with model: {m}")
+                    return data
+            except Exception:
+                pass
+
+            # 2. Try generate_content
+            try:
+                response = self.client.models.generate_content(
+                    model=m,
+                    contents=prompt,
+                    config={
+                        "response_mime_type": "application/json",
+                        "response_schema": DiscoverArticleData,
+                    }
+                )
+                if response and response.text:
+                    data = json.loads(response.text)
+                    print(f"[AI] Successfully synthesized Discover article with model: {m} (generate_content)")
+                    return data
+            except Exception:
+                pass
+
+            # 3. Direct REST API fallback
+            try:
+                import requests
+                rest_url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={self.api_key}"
+                rest_payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "responseMimeType": "application/json",
+                        "responseSchema": DiscoverArticleData.model_json_schema()
+                    }
+                }
+                resp = requests.post(rest_url, json=rest_payload, timeout=20)
+                if resp.status_code == 200:
+                    cand = resp.json().get("candidates", [])[0]
+                    content_text = cand.get("content", {}).get("parts", [])[0].get("text", "")
+                    if content_text:
+                        data = json.loads(content_text)
+                        print(f"[AI] Successfully synthesized Discover article with model: {m} (REST API)")
+                        return data
+            except Exception:
+                pass
+
+        return None
+
+    def _generate_article_fallback(self, movie: Dict[str, Any], story: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+        """
+        Deterministic, rich editorial synthesizer for Google Discover articles.
+        Generates 400+ words of structured journalism with bullet takeaways and sections.
+        """
+        title = movie.get("title", "Featured Film")
+        director = movie.get("director") or "Visionary Filmmakers"
+        top_cast = movie.get("top_cast", [])
+        cast_str = ", ".join(top_cast[:3]) if top_cast else "an acclaimed ensemble"
+        rating = movie.get("vote_average", 7.8)
+        genres = movie.get("genres", ["Cinema"])
+        genre_str = " & ".join(genres[:2])
+        overview = movie.get("overview") or f"{title} continues to captivate global audiences with its gripping storyline and exceptional performances."
+        category = movie.get("category", "trending")
+
+        # Use story title / hook if present
+        headline = None
+        if story and story.get("title"):
+            headline = story.get("title")
+        elif movie.get("hook_title"):
+            headline = movie.get("hook_title")
+        else:
+            if category == "streaming_charts":
+                headline = f"Why {title} Is Dominating Global Streaming Charts This Week 🍿"
+            elif category == "theories_easter_eggs":
+                headline = f"{title}: 5 Mind-Blowing Easter Eggs & Theories Explained ⚡"
+            elif category == "where_are_they_now":
+                headline = f"Where Are The Stars of {title} Today? The Shocking Journey ✨"
+            else:
+                headline = f"{title} Deep Dive: Cast, Hidden Clues & What Critics Are Saying 🎬"
+
+        # Key Takeaways
+        takeaways = [
+            f"Powerhouse Cast: Led by {cast_str} under the direction of {director}.",
+            f"Audience Reception: Currently certified with an impressive {rating}/10 community rating.",
+            f"Genre Highlights: A masterclass in {genre_str} storytelling with unforgettable character arcs.",
+            f"Watch Format: Available for full cinematic analysis and visual slide exploration."
+        ]
+
+        # Sections
+        sections = []
+        if story and len(story.get("slides", [])) >= 4:
+            slides = story.get("slides", [])
+            for s in slides[:4]:
+                sections.append({
+                    "heading": s.get("title", "Key Story Highlight"),
+                    "content": f"{s.get('text')} As the story unfolds, the creative decisions made by the filmmakers provide a masterclass in modern visual storytelling that keeps viewers on the edge of their seats."
+                })
+        else:
+            sections = [
+                {
+                    "heading": f"The High-Stakes Narrative of {title}",
+                    "content": f"{overview} What sets this apart is how effectively the script balances intense narrative momentum with nuanced character beats, making every revelation hit with maximum impact."
+                },
+                {
+                    "heading": f"Star Power: {cast_str}",
+                    "content": f"The dynamic chemistry between {cast_str} elevates the production into top-tier cinematic territory. Under {director}'s precise direction, each actor brings genuine emotional weight to their respective roles, creating moments that resonate far beyond the final credits."
+                },
+                {
+                    "heading": "Behind The Lens & Technical Precision",
+                    "content": f"From intricate production design to a propulsive soundscape, {title} showcases meticulous craftsmanship. Filmmakers favored immersive visual palettes and practical effects where possible, creating a tangible sense of authenticity."
+                },
+                {
+                    "heading": "Cultural Buzz & Why Audiences Are Obsessed",
+                    "content": f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across social media, Reddit discussion threads, and critic roundtables. It represents a bold statement for contemporary {genre_str} entertainment."
+                }
+            ]
+
+        verdict = f"{title} is an absolute triumph for fans of {genre_str}. With stellar performances from {cast_str} and sharp direction by {director}, it is an essential entry for your watchlist."
+
+        return {
+            "headline": headline[:75],
+            "meta_description": f"Explore {title}: cast highlights, hidden trivia, critical reception, and streaming breakdown.",
+            "key_takeaways": takeaways,
+            "sections": sections,
+            "verdict_summary": verdict,
+            "reading_time_mins": 3,
+            "movie": movie
         }

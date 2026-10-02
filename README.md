@@ -24,7 +24,11 @@
 
 ## 🚀 Overview & Architecture
 
-**CineStories** is a production-grade, headless static site generator that continuously monitors upcoming releases, now-playing box office hits, and weekly trending films from The Movie Database (TMDB). It synthesizes punchy, snackable editorial narratives using the **Google Gemini API (`gemini-3.8-flash`)** and compiles them into **100% AMP-valid standalone Web Stories** along with an automated XML sitemap and a responsive visual portal.
+**CineStories** is a production-grade, headless static site generator that continuously monitors upcoming releases, streaming charts, and weekly trending films from The Movie Database (TMDB). It synthesizes punchy, snackable editorial narratives using the **Google Gemini API (`gemini-3.8-flash`)** and compiles them into a **Dual-Format Google Discover Engine**:
+1. **100% AMP-valid standalone Web Stories** (`/stories/[slug]/`)
+2. **Google Chrome Discover-optimized News Articles** with 1200px+ landscape imagery and `max-image-preview:large` (`/articles/[slug]/`)
+3. **Mobile-First Google Chrome Discover Feed** (`/discover/`)
+4. **Automated XML Sitemap** with Google image extensions (`/sitemap.xml`)
 
 ```
                     ┌────────────────────────────────────────┐
@@ -39,19 +43,20 @@
                     │          AI SYNTHESIS LAYER            │
                     │     Google Gemini (gemini-3.8-flash)   │
                     │  Structured Outputs (Pydantic Schema)  │
-                    │  - Max 40 words/slide narrative arc   │
-                    │  - Curiosity hooks & trivia extraction │
+                    │  - Max 40 words/slide AMP Web Stories  │
+                    │  - 1200px+ Chrome Discover Articles    │
+                    │  - Curiosity hooks & Key Takeaways     │
                     └───────────────────┬────────────────────┘
-                                        │ (5-7 Slide narrative objects)
+                                        │ 
                                         ▼
                     ┌────────────────────────────────────────┐
                     │           STATIC GENERATOR             │
                     │  - 100% AMP Story Engine (v0.js)       │
-                    │  - Dark Cinema Scrim Layers            │
+                    │  - Chrome Discover Feed (/discover/)   │
+                    │  - Discover Articles (/articles/)      │
                     │  - Schema.org NewsArticle JSON-LD      │
-                    │  - dist/stories/[slug]/index.html      │
                     │  - dist/index.html (Visual Portal)     │
-                    │  - dist/sitemap.xml (Automated Sitemap)│
+                    │  - dist/sitemap.xml (50+ URLs + Images)│
                     └───────────────────┬────────────────────┘
                                         │
                          ┌──────────────┴──────────────┐
