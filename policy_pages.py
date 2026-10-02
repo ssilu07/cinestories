@@ -395,7 +395,7 @@ def generate_policy_pages(dist_dir: Path = DIST_DIR, domain: str = DOMAIN_NAME):
 
             <h2>Contact Information</h2>
             <div class="callout-box">
-              <p><strong>Official Email:</strong> <a href="mailto:cinestories.media@gmail.com" style="color: #fff; font-weight: 700;">cinestories.media@gmail.com</a></p>
+              <p><strong>Official Email:</strong> <a href="mailto:sumits7196@gmail.com" style="color: #fff; font-weight: 700;">sumits7196@gmail.com</a></p>
               <p style="margin-top: 6px;"><strong>Response Time:</strong> Typically within 24 to 48 business hours.</p>
             </div>
 
