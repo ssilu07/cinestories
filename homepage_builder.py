@@ -120,6 +120,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <meta name="description" content="Discover automated, 100% AMP-compliant visual Web Stories for upcoming, trending, and now-playing movies. Powered by TMDB and Gemini AI.">
   <link rel="canonical" href="{domain}/">
   <link rel="icon" type="image/svg+xml" href="{domain}/assets/favicon.svg">
+  <meta name="google-site-verification" content="XMDt3lDT2kpdjLlHlxQCSn5EcJcH2yw8f6nLjhLgN7g">
 
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
