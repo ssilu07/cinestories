@@ -59,9 +59,9 @@ AMP_CUSTOM_CSS = """
     bottom: 0;
     background: linear-gradient(
       180deg,
-      rgba(9, 11, 16, 0.35) 0%,
-      rgba(9, 11, 16, 0.1) 30%,
-      rgba(9, 11, 16, 0.75) 70%,
+      rgba(9, 11, 16, 0.5) 0%,
+      rgba(9, 11, 16, 0.05) 25%,
+      rgba(9, 11, 16, 0.72) 70%,
       rgba(9, 11, 16, 0.96) 100%
     );
     pointer-events: none;
@@ -69,10 +69,47 @@ AMP_CUSTOM_CSS = """
   .content-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     height: 100%;
-    padding: 24px 20px 48px;
+    padding: 38px 20px 48px;
     box-sizing: border-box;
+  }
+  .story-top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: auto;
+    z-index: 10;
+  }
+  .story-close-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(9, 11, 16, 0.82);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 7px 14px 7px 10px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+  }
+  .story-close-btn svg {
+    color: #fda4af;
+  }
+  .story-brand-badge {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fbbf24;
+    background: rgba(9, 11, 16, 0.75);
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
   }
   .content-card {
     background: var(--card-bg);
@@ -80,6 +117,20 @@ AMP_CUSTOM_CSS = """
     border-radius: 20px;
     padding: 22px 20px;
     box-shadow: 0 16px 36px rgba(0, 0, 0, 0.55);
+  }
+  .final-nav-row {
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  .btn-return-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #38bdf8;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
   }
   .badge {
     display: inline-block;
@@ -248,6 +299,19 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         category_name = movie.get("category", "trending").replace("_", " ")
         time_chip = f"📺 {movie.get('seasons')} Seasons" if movie.get("seasons") else f"⏱ {movie.get('runtime', 120)}m"
 
+        top_bar_html = f"""
+                  <div class="story-top-bar">
+                    <a href="/" class="story-close-btn" role="button" aria-label="Close story and return home">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                      </svg>
+                      <span>Close</span>
+                    </a>
+                    <span class="story-brand-badge">⚡ {publisher}</span>
+                  </div>
+        """
+
         if is_first:
             # Slide 1: Cover slide
             slide_content = f"""
@@ -258,6 +322,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
               </amp-story-grid-layer>
               <amp-story-grid-layer template="vertical">
                 <div class="content-wrapper">
+{top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <div>
                       <span class="badge"><span class="pulse-indicator"></span>{badge_text}</span>
@@ -290,6 +355,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
               </amp-story-grid-layer>
               <amp-story-grid-layer template="vertical">
                 <div class="content-wrapper">
+{top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <span class="badge">{badge_text}</span>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{slide_heading}</h2>
@@ -297,6 +363,12 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                     <div class="meta-chips">
                       <span class="chip">🎬 {html.escape(movie.get('director', 'Acclaimed Director'))}</span>
                       <span class="chip">🍿 TMDB #{movie.get('id')}</span>
+                    </div>
+                    <div class="final-nav-row">
+                      <a href="/" class="btn-return-home">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                        <span>Explore All Stories</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -321,6 +393,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
               </amp-story-grid-layer>
               <amp-story-grid-layer template="vertical">
                 <div class="content-wrapper">
+{top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <span class="badge">{badge_text}</span>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{slide_heading}</h2>

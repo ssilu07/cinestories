@@ -555,6 +555,95 @@
     .footer-links a:hover {
       color: #fff;
     }
+
+    /* Fullscreen Story Modal Lightbox */
+    .story-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+
+    .story-modal.active {
+      display: flex;
+      opacity: 1;
+    }
+
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      cursor: pointer;
+    }
+
+    .modal-container {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      height: 92vh;
+      max-height: 880px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), 0 0 40px rgba(225, 29, 72, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: #090b10;
+      z-index: 2;
+    }
+
+    @media (max-width: 600px) {
+      .modal-container {
+        max-width: 100%;
+        height: 100%;
+        max-height: 100vh;
+        border-radius: 0;
+        border: none;
+      }
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 30;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      background: var(--primary);
+      border-color: var(--primary);
+      transform: scale(1.08);
+    }
+
+    .modal-close-btn:active {
+      transform: scale(0.92);
+    }
+
+    #storyIframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+      background: #090b10;
+    }
   </style>
 </head>
 <body>
@@ -1064,7 +1153,21 @@
     </div>
   </footer>
 
-  <!-- Instant Filtering & Search Script -->
+  <!-- Fullscreen Story Modal Lightbox -->
+  <div class="story-modal" id="storyModal" aria-hidden="true" role="dialog" aria-label="Web Story Viewer">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Web Story">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <iframe id="storyIframe" src="" title="Web Story Viewer" allow="autoplay; fullscreen"></iframe>
+    </div>
+  </div>
+
+  <!-- Instant Filtering, Search & Modal Script -->
   <script>
     const filterBtns = document.querySelectorAll('.filter-btn');
     const searchInput = document.getElementById('searchInput');
@@ -1107,6 +1210,57 @@
     searchInput.addEventListener('input', (e) => {
       searchQuery = e.target.value.toLowerCase().trim();
       applyFilters();
+    });
+
+    // Story Modal Lightbox Logic
+    const storyModal = document.getElementById('storyModal');
+    const modalCloseBtn = document.getElementById('modalCloseBtn');
+    const modalBackdrop = document.getElementById('modalBackdrop');
+    const storyIframe = document.getElementById('storyIframe');
+
+    function openStoryModal(url) {
+      storyIframe.src = url;
+      storyModal.classList.add('active');
+      storyModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      history.pushState({ modalOpen: true }, '', url);
+    }
+
+    function closeStoryModal() {
+      storyModal.classList.remove('active');
+      storyModal.setAttribute('aria-hidden', 'true');
+      storyIframe.src = '';
+      document.body.style.overflow = '';
+      if (history.state && history.state.modalOpen) {
+        history.back();
+      }
+    }
+
+    document.querySelectorAll('.card-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        if (e.ctrlKey || e.metaKey || e.button === 1) return;
+        e.preventDefault();
+        const url = link.getAttribute('href');
+        openStoryModal(url);
+      });
+    });
+
+    modalCloseBtn.addEventListener('click', closeStoryModal);
+    modalBackdrop.addEventListener('click', closeStoryModal);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && storyModal.classList.contains('active')) {
+        closeStoryModal();
+      }
+    });
+
+    window.addEventListener('popstate', () => {
+      if (storyModal.classList.contains('active')) {
+        storyModal.classList.remove('active');
+        storyModal.setAttribute('aria-hidden', 'true');
+        storyIframe.src = '';
+        document.body.style.overflow = '';
+      }
     });
   </script>
 </body>
