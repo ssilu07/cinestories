@@ -1,62 +1,71 @@
 {
   "site_name": "MoviePulse",
-  "domain": "https://cinestories.pages.dev",
-  "generated_at": "2026-10-02T05:34:12.163857+00:00",
-  "total_stories": 6,
+  "domain": "https://cinestories-omega.vercel.app",
+  "generated_at": "2026-10-02T06:09:01.216203+00:00",
+  "total_stories": 7,
   "stories": [
+    {
+      "id": 71446,
+      "slug": "money-heist",
+      "title": "Money Heist: The Ultimate Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/money-heist/",
+      "category": "series",
+      "release_date": "2017-05-02",
+      "rating": 8.2
+    },
+    {
+      "id": 66732,
+      "slug": "stranger-things",
+      "title": "Stranger Things: The Ultimate Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/stranger-things/",
+      "category": "series",
+      "release_date": "2016-07-15",
+      "rating": 8.6
+    },
+    {
+      "id": 76479,
+      "slug": "the-boys",
+      "title": "The Boys: The Ultimate Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-boys/",
+      "category": "series",
+      "release_date": "2019-07-26",
+      "rating": 8.5
+    },
     {
       "id": 693134,
       "slug": "dune-part-two",
       "title": "Dune: Part Two: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/dune-part-two/",
+      "url": "https://cinestories-omega.vercel.app/stories/dune-part-two/",
       "category": "trending",
       "release_date": "2024-03-01",
       "rating": 8.2
     },
     {
-      "id": 872585,
-      "slug": "oppenheimer",
-      "title": "Oppenheimer: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/oppenheimer/",
-      "category": "trending",
-      "release_date": "2023-07-21",
-      "rating": 8.1
+      "id": 9532,
+      "slug": "final-destination",
+      "title": "Final Destination: The Ultimate Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/final-destination/",
+      "category": "cult_classic",
+      "release_date": "2000-03-17",
+      "rating": 6.6
+    },
+    {
+      "id": 157336,
+      "slug": "interstellar",
+      "title": "Interstellar: The Ultimate Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/interstellar/",
+      "category": "cult_classic",
+      "release_date": "2014-11-05",
+      "rating": 8.4
     },
     {
       "id": 558449,
       "slug": "gladiator-ii",
       "title": "Gladiator II: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/gladiator-ii/",
+      "url": "https://cinestories-omega.vercel.app/stories/gladiator-ii/",
       "category": "upcoming",
       "release_date": "2024-11-22",
       "rating": 6.8
-    },
-    {
-      "id": 402431,
-      "slug": "wicked",
-      "title": "Wicked: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/wicked/",
-      "category": "upcoming",
-      "release_date": "2024-11-20",
-      "rating": 7.4
-    },
-    {
-      "id": 533535,
-      "slug": "deadpool-and-wolverine",
-      "title": "Deadpool & Wolverine: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/deadpool-and-wolverine/",
-      "category": "now_playing",
-      "release_date": "2024-07-26",
-      "rating": 7.7
-    },
-    {
-      "id": 1022789,
-      "slug": "inside-out-2",
-      "title": "Inside Out 2: The Ultimate Story & Secrets",
-      "url": "https://cinestories.pages.dev/stories/inside-out-2/",
-      "category": "now_playing",
-      "release_date": "2024-06-14",
-      "rating": 7.6
     }
   ]
 }

@@ -3,6 +3,7 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "outputDirectory": "dist",
+  "buildCommand": null,
   "headers": [
     {
       "source": "/stories/(.*)",

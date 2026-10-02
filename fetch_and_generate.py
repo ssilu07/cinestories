@@ -84,16 +84,16 @@ def run_pipeline(
     ensure_assets(DIST_DIR)
     write_robots_txt(DIST_DIR, domain)
 
-    # 2. Fetch movies
+    # 2. Fetch movies & TV series
     tmdb = TMDBClient(api_key="" if demo_mode else tmdb_key)
     if category == "all":
-        categories = ["trending", "upcoming", "now_playing"]
+        categories = ["series", "trending", "cult_classic", "upcoming"]
     else:
         categories = [category]
 
-    print(f"[1/5] Fetching movie data for categories: {categories}...")
+    print(f"[1/5] Fetching entertainment data for categories: {categories}...")
     movies = tmdb.fetch_feed(categories=categories, per_category=count_per_cat)
-    print(f"      -> Retrieved {len(movies)} unique movies.\n")
+    print(f"      -> Retrieved {len(movies)} unique titles (Movies & TV Series).\n")
 
     if not movies:
         print("[Error] No movies found to process.")
@@ -153,7 +153,7 @@ def run_pipeline(
 def main():
     parser = argparse.ArgumentParser(description="Automated AMP Movie Web Stories Generator")
     parser.add_argument("--domain", default=DOMAIN_NAME, help="Target deployment domain (e.g. https://cinestories.pages.dev)")
-    parser.add_argument("--category", choices=["all", "trending", "upcoming", "now_playing"], default="all", help="Category filter")
+    parser.add_argument("--category", choices=["all", "series", "trending", "cult_classic", "upcoming", "now_playing"], default="all", help="Category filter")
     parser.add_argument("--count", type=int, default=STORIES_PER_CATEGORY_LIMIT, help="Number of movies per category")
     parser.add_argument("--tmdb-key", default=TMDB_API_KEY, help="TMDB API Key override")
     parser.add_argument("--gemini-key", default=GEMINI_API_KEY, help="Google Gemini API Key override")

@@ -94,28 +94,37 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
 6. Set 'cta_text' on the final slide (e.g., "Get Tickets & Showtimes") and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}".
 """
 
-        # Try Interactions API first (current Gemini 3 SDK pattern)
-        try:
-            interaction = self.client.interactions.create(
-                model=self.model,
-                input=prompt,
-                response_format=[
-                    {
-                        "type": "text",
-                        "mime_type": "application/json",
-                        "schema": WebStoryData.model_json_schema(),
-                    }
-                ],
-            )
-            raw_text = interaction.output_text
-            if raw_text:
-                data = json.loads(raw_text)
-                return self._sanitize_story_data(data, movie)
-        except Exception as e_interact:
-            # Fallback to models.generate_content
+        candidate_models = [self.model]
+        for fallback in ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
+            if fallback not in candidate_models:
+                candidate_models.append(fallback)
+
+        for m in candidate_models:
+            # 1. Try Interactions API (Gemini 3 SDK)
+            try:
+                interaction = self.client.interactions.create(
+                    model=m,
+                    input=prompt,
+                    response_format=[
+                        {
+                            "type": "text",
+                            "mime_type": "application/json",
+                            "schema": WebStoryData.model_json_schema(),
+                        }
+                    ],
+                )
+                raw_text = interaction.output_text
+                if raw_text:
+                    data = json.loads(raw_text)
+                    print(f"[AI] Successfully synthesized story with model: {m} (Interactions API)")
+                    return self._sanitize_story_data(data, movie)
+            except Exception as e_interact:
+                pass
+
+            # 2. Try models.generate_content
             try:
                 response = self.client.models.generate_content(
-                    model=self.model,
+                    model=m,
                     contents=prompt,
                     config={
                         "response_mime_type": "application/json",
@@ -124,10 +133,34 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
                 )
                 if response and response.text:
                     data = json.loads(response.text)
+                    print(f"[AI] Successfully synthesized story with model: {m} (generate_content)")
                     return self._sanitize_story_data(data, movie)
             except Exception as e_gen:
-                raise RuntimeError(f"Both interactions and generate_content failed: {e_interact} | {e_gen}")
+                pass
 
+            # 3. Direct REST API fallback
+            try:
+                import requests
+                rest_url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={self.api_key}"
+                rest_payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "responseMimeType": "application/json",
+                        "responseSchema": WebStoryData.model_json_schema()
+                    }
+                }
+                resp = requests.post(rest_url, json=rest_payload, timeout=20)
+                if resp.status_code == 200:
+                    cand = resp.json().get("candidates", [])[0]
+                    content_text = cand.get("content", {}).get("parts", [])[0].get("text", "")
+                    if content_text:
+                        data = json.loads(content_text)
+                        print(f"[AI] Successfully synthesized story with model: {m} (REST API)")
+                        return self._sanitize_story_data(data, movie)
+            except Exception:
+                pass
+
+        print(f"[AI] All candidate models exhausted for '{movie.get('title')}'. Falling back to rule-based narrative synthesizer.")
         return None
 
     def _sanitize_story_data(self, data: Dict[str, Any], movie: Dict[str, Any]) -> Dict[str, Any]:

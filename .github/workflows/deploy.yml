@@ -23,6 +23,7 @@ on:
     branches:
       - main
     paths-ignore:
+      - 'dist/**'
       - 'README.md'
       - '.gitignore'
 
@@ -85,11 +86,17 @@ jobs:
           python validator.py
 
       - name: Commit and Push Updated Stories & Sitemap
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore(automated): update AMP web stories and sitemap [skip ci]"
-          file_pattern: "dist/*"
-          branch: main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase --autostash || true
+          git add dist/
+          if ! git diff-index --quiet HEAD dist/; then
+            git commit -m "chore(automated): update AMP web stories and sitemap"
+            git push origin main
+          else
+            echo "No changes to commit in dist/."
+          fi
 
       # Deployment Option A: Cloudflare Pages (Direct Upload via Wrangler)
       - name: Deploy to Cloudflare Pages

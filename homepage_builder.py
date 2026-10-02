@@ -38,10 +38,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             "slug": slug,
             "url": f"/stories/{slug}/",
             "poster_url": poster_url,
+            "media_type": m.get("media_type", "movie"),
             "category": m.get("category", "trending"),
             "release_date": m.get("release_date", "Coming Soon"),
             "rating": m.get("vote_average", 0.0),
             "runtime": m.get("runtime", 120),
+            "seasons": m.get("seasons"),
             "director": m.get("director", ""),
             "genres": m.get("genres", []),
             "slides_count": len(s.get("slides", []))
@@ -51,9 +53,16 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     cards_html_list = []
     for c in cards_data:
-        category_label = c["category"].replace("_", " ").title()
+        if c["category"] == "series":
+            category_label = "TV Series"
+        elif c["category"] == "cult_classic":
+            category_label = "Cult Classic"
+        else:
+            category_label = c["category"].replace("_", " ").title()
+
         badge_class = f"badge-{c['category']}"
-        genres_str = " • ".join(c["genres"][:2]) if c["genres"] else "Cinema"
+        genres_str = " • ".join(c["genres"][:2]) if c["genres"] else ("TV Drama" if c["media_type"] == "tv" else "Cinema")
+        time_info = f"📺 {c['seasons']} Seasons" if c.get("seasons") else f"⏱ {c['runtime']}m"
 
         card_html = f"""
         <article class="story-card" data-category="{c['category']}" data-title="{html.escape(c['title'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}" data-rating="{c['rating']}">
@@ -75,7 +84,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
                 <div class="card-meta">
                   <span>{html.escape(c['release_date'][:4] if len(c['release_date']) >= 4 else c['release_date'])}</span>
                   <span>•</span>
-                  <span>{html.escape(genres_str)}</span>
+                  <span>{html.escape(time_info)}</span>
                 </div>
                 <div class="read-prompt">
                   <span>Tap to open Web Story</span>
@@ -454,6 +463,16 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       color: #fff;
     }}
 
+    .badge-series {{
+      background: linear-gradient(135deg, #0284c7, #8b5cf6);
+      color: #fff;
+    }}
+
+    .badge-cult_classic {{
+      background: linear-gradient(135deg, #ea580c, #b91c1c);
+      color: #fff;
+    }}
+
     .badge-upcoming {{
       background: rgba(147, 51, 234, 0.85);
       color: #fff;
@@ -639,9 +658,10 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
         <button class="filter-btn active" data-filter="all">All Stories ({total_stories})</button>
-        <button class="filter-btn" data-filter="trending">Trending Now</button>
+        <button class="filter-btn" data-filter="series">TV Series &amp; Binge Shows</button>
+        <button class="filter-btn" data-filter="trending">Trending Movies</button>
+        <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises</button>
         <button class="filter-btn" data-filter="upcoming">Upcoming</button>
-        <button class="filter-btn" data-filter="now_playing">In Theaters</button>
       </div>
 
       <div class="search-box">

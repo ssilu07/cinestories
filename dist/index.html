@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MoviePulse | Visual Web Stories for Movie Lovers</title>
   <meta name="description" content="Discover automated, 100% AMP-compliant visual Web Stories for upcoming, trending, and now-playing movies. Powered by TMDB and Gemini AI.">
-  <link rel="canonical" href="https://cinestories.pages.dev/">
-  <link rel="icon" type="image/svg+xml" href="https://cinestories.pages.dev/assets/favicon.svg">
+  <link rel="canonical" href="https://cinestories-omega.vercel.app/">
+  <link rel="icon" type="image/svg+xml" href="https://cinestories-omega.vercel.app/assets/favicon.svg">
 
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://cinestories.pages.dev/">
+  <meta property="og:url" content="https://cinestories-omega.vercel.app/">
   <meta property="og:title" content="MoviePulse | Visual Web Stories for Movie Lovers">
   <meta property="og:description" content="Experience movie stories in Google AMP Web Story format. Bite-sized, cinematic visual entertainment guides.">
-  <meta property="og:image" content="https://cinestories.pages.dev/assets/logo.png">
+  <meta property="og:image" content="https://cinestories-omega.vercel.app/assets/logo.png">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -362,6 +362,16 @@
       color: #fff;
     }
 
+    .badge-series {
+      background: linear-gradient(135deg, #0284c7, #8b5cf6);
+      color: #fff;
+    }
+
+    .badge-cult_classic {
+      background: linear-gradient(135deg, #ea580c, #b91c1c);
+      color: #fff;
+    }
+
     .badge-upcoming {
       background: rgba(147, 51, 234, 0.85);
       color: #fff;
@@ -546,10 +556,11 @@
     <!-- Controls Bar: Filter Pills & Search -->
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
-        <button class="filter-btn active" data-filter="all">All Stories (6)</button>
-        <button class="filter-btn" data-filter="trending">Trending Now</button>
+        <button class="filter-btn active" data-filter="all">All Stories (7)</button>
+        <button class="filter-btn" data-filter="series">TV Series &amp; Binge Shows</button>
+        <button class="filter-btn" data-filter="trending">Trending Movies</button>
+        <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises</button>
         <button class="filter-btn" data-filter="upcoming">Upcoming</button>
-        <button class="filter-btn" data-filter="now_playing">In Theaters</button>
       </div>
 
       <div class="search-box">
@@ -562,7 +573,94 @@
   <!-- Stories Grid Section -->
   <main class="stories-section">
     <div class="stories-grid" id="storiesGrid">
-      <article class="story-card" data-category="trending" data-title="dune: part two: the ultimate story &amp; secrets" data-movie="dune: part two" data-rating="8.2">
+      <article class="story-card" data-category="series" data-title="money heist: the ultimate story &amp; secrets" data-movie="money heist" data-rating="8.2">
+          <a href="/stories/money-heist/" class="card-link" aria-label="Read story for Money Heist">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/reEMJA1uzscCbk5rSXGno05GAYg.jpg" alt="Money Heist" class="card-poster" loading="lazy" width="300" height="400">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-series">TV Series</span>
+                <span class="rating-badge">★ 8.2</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="slides-counter">
+                  <span class="amp-icon">⚡</span> 6 AMP Slides
+                </div>
+                <h3 class="card-title">Money Heist: The Ultimate Story &amp; Secrets</h3>
+                <div class="card-meta">
+                  <span>2017</span>
+                  <span>•</span>
+                  <span>📺 5 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="series" data-title="stranger things: the ultimate story &amp; secrets" data-movie="stranger things" data-rating="8.6">
+          <a href="/stories/stranger-things/" class="card-link" aria-label="Read story for Stranger Things">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/49WJfeN0moxb9IPfGn8AIqMGskD.jpg" alt="Stranger Things" class="card-poster" loading="lazy" width="300" height="400">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-series">TV Series</span>
+                <span class="rating-badge">★ 8.6</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="slides-counter">
+                  <span class="amp-icon">⚡</span> 6 AMP Slides
+                </div>
+                <h3 class="card-title">Stranger Things: The Ultimate Story &amp; Secrets</h3>
+                <div class="card-meta">
+                  <span>2016</span>
+                  <span>•</span>
+                  <span>📺 4 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="series" data-title="the boys: the ultimate story &amp; secrets" data-movie="the boys" data-rating="8.5">
+          <a href="/stories/the-boys/" class="card-link" aria-label="Read story for The Boys">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/7Ns6tO3aYjppI5J8ojQ32mQ4q0o.jpg" alt="The Boys" class="card-poster" loading="lazy" width="300" height="400">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-series">TV Series</span>
+                <span class="rating-badge">★ 8.5</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="slides-counter">
+                  <span class="amp-icon">⚡</span> 6 AMP Slides
+                </div>
+                <h3 class="card-title">The Boys: The Ultimate Story &amp; Secrets</h3>
+                <div class="card-meta">
+                  <span>2019</span>
+                  <span>•</span>
+                  <span>📺 4 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="trending" data-title="dune: part two: the ultimate story &amp; secrets" data-movie="dune: part two" data-rating="8.2">
           <a href="/stories/dune-part-two/" class="card-link" aria-label="Read story for Dune: Part Two">
             <div class="card-poster-wrap">
               <img src="https://image.tmdb.org/t/p/w780/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg" alt="Dune: Part Two" class="card-poster" loading="lazy" width="300" height="400">
@@ -581,7 +679,7 @@
                 <div class="card-meta">
                   <span>2024</span>
                   <span>•</span>
-                  <span>Science Fiction • Adventure</span>
+                  <span>⏱ 166m</span>
                 </div>
                 <div class="read-prompt">
                   <span>Tap to open Web Story</span>
@@ -591,26 +689,55 @@
             </div>
           </a>
         </article>
-<article class="story-card" data-category="trending" data-title="oppenheimer: the ultimate story &amp; secrets" data-movie="oppenheimer" data-rating="8.1">
-          <a href="/stories/oppenheimer/" class="card-link" aria-label="Read story for Oppenheimer">
+<article class="story-card" data-category="cult_classic" data-title="final destination: the ultimate story &amp; secrets" data-movie="final destination" data-rating="6.6">
+          <a href="/stories/final-destination/" class="card-link" aria-label="Read story for Final Destination">
             <div class="card-poster-wrap">
-              <img src="https://image.tmdb.org/t/p/w780/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg" alt="Oppenheimer" class="card-poster" loading="lazy" width="300" height="400">
+              <img src="https://image.tmdb.org/t/p/w780/bkQj4E4FmD89n830v9408018h2.jpg" alt="Final Destination" class="card-poster" loading="lazy" width="300" height="400">
               <div class="card-overlay-gradient"></div>
               
               <div class="card-top-badges">
-                <span class="category-badge badge-trending">Trending</span>
-                <span class="rating-badge">★ 8.1</span>
+                <span class="category-badge badge-cult_classic">Cult Classic</span>
+                <span class="rating-badge">★ 6.6</span>
               </div>
 
               <div class="card-bottom-info">
                 <div class="slides-counter">
                   <span class="amp-icon">⚡</span> 6 AMP Slides
                 </div>
-                <h3 class="card-title">Oppenheimer: The Ultimate Story &amp; Secrets</h3>
+                <h3 class="card-title">Final Destination: The Ultimate Story &amp; Secrets</h3>
                 <div class="card-meta">
-                  <span>2023</span>
+                  <span>2000</span>
                   <span>•</span>
-                  <span>Drama • History</span>
+                  <span>⏱ 98m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="cult_classic" data-title="interstellar: the ultimate story &amp; secrets" data-movie="interstellar" data-rating="8.4">
+          <a href="/stories/interstellar/" class="card-link" aria-label="Read story for Interstellar">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" alt="Interstellar" class="card-poster" loading="lazy" width="300" height="400">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-cult_classic">Cult Classic</span>
+                <span class="rating-badge">★ 8.4</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="slides-counter">
+                  <span class="amp-icon">⚡</span> 6 AMP Slides
+                </div>
+                <h3 class="card-title">Interstellar: The Ultimate Story &amp; Secrets</h3>
+                <div class="card-meta">
+                  <span>2014</span>
+                  <span>•</span>
+                  <span>⏱ 169m</span>
                 </div>
                 <div class="read-prompt">
                   <span>Tap to open Web Story</span>
@@ -639,94 +766,7 @@
                 <div class="card-meta">
                   <span>2024</span>
                   <span>•</span>
-                  <span>Action • Adventure</span>
-                </div>
-                <div class="read-prompt">
-                  <span>Tap to open Web Story</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </div>
-              </div>
-            </div>
-          </a>
-        </article>
-<article class="story-card" data-category="upcoming" data-title="wicked: the ultimate story &amp; secrets" data-movie="wicked" data-rating="7.4">
-          <a href="/stories/wicked/" class="card-link" aria-label="Read story for Wicked">
-            <div class="card-poster-wrap">
-              <img src="https://image.tmdb.org/t/p/w780/xDGbDeRnxGU3GhZJs5KUlVzwEZ.jpg" alt="Wicked" class="card-poster" loading="lazy" width="300" height="400">
-              <div class="card-overlay-gradient"></div>
-              
-              <div class="card-top-badges">
-                <span class="category-badge badge-upcoming">Upcoming</span>
-                <span class="rating-badge">★ 7.4</span>
-              </div>
-
-              <div class="card-bottom-info">
-                <div class="slides-counter">
-                  <span class="amp-icon">⚡</span> 6 AMP Slides
-                </div>
-                <h3 class="card-title">Wicked: The Ultimate Story &amp; Secrets</h3>
-                <div class="card-meta">
-                  <span>2024</span>
-                  <span>•</span>
-                  <span>Drama • Fantasy</span>
-                </div>
-                <div class="read-prompt">
-                  <span>Tap to open Web Story</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </div>
-              </div>
-            </div>
-          </a>
-        </article>
-<article class="story-card" data-category="now_playing" data-title="deadpool &amp; wolverine: the ultimate story &amp; secrets" data-movie="deadpool &amp; wolverine" data-rating="7.7">
-          <a href="/stories/deadpool-and-wolverine/" class="card-link" aria-label="Read story for Deadpool &amp; Wolverine">
-            <div class="card-poster-wrap">
-              <img src="https://image.tmdb.org/t/p/w780/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="Deadpool &amp; Wolverine" class="card-poster" loading="lazy" width="300" height="400">
-              <div class="card-overlay-gradient"></div>
-              
-              <div class="card-top-badges">
-                <span class="category-badge badge-now_playing">Now Playing</span>
-                <span class="rating-badge">★ 7.7</span>
-              </div>
-
-              <div class="card-bottom-info">
-                <div class="slides-counter">
-                  <span class="amp-icon">⚡</span> 6 AMP Slides
-                </div>
-                <h3 class="card-title">Deadpool &amp; Wolverine: The Ultimate Story &amp; Secrets</h3>
-                <div class="card-meta">
-                  <span>2024</span>
-                  <span>•</span>
-                  <span>Action • Comedy</span>
-                </div>
-                <div class="read-prompt">
-                  <span>Tap to open Web Story</span>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </div>
-              </div>
-            </div>
-          </a>
-        </article>
-<article class="story-card" data-category="now_playing" data-title="inside out 2: the ultimate story &amp; secrets" data-movie="inside out 2" data-rating="7.6">
-          <a href="/stories/inside-out-2/" class="card-link" aria-label="Read story for Inside Out 2">
-            <div class="card-poster-wrap">
-              <img src="https://image.tmdb.org/t/p/w780/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg" alt="Inside Out 2" class="card-poster" loading="lazy" width="300" height="400">
-              <div class="card-overlay-gradient"></div>
-              
-              <div class="card-top-badges">
-                <span class="category-badge badge-now_playing">Now Playing</span>
-                <span class="rating-badge">★ 7.6</span>
-              </div>
-
-              <div class="card-bottom-info">
-                <div class="slides-counter">
-                  <span class="amp-icon">⚡</span> 6 AMP Slides
-                </div>
-                <h3 class="card-title">Inside Out 2: The Ultimate Story &amp; Secrets</h3>
-                <div class="card-meta">
-                  <span>2024</span>
-                  <span>•</span>
-                  <span>Animation • Family</span>
+                  <span>⏱ 148m</span>
                 </div>
                 <div class="read-prompt">
                   <span>Tap to open Web Story</span>

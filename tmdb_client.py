@@ -1,13 +1,14 @@
 """
 TMDB API Client module for CineStories.
-Fetches upcoming, now playing, and trending movies with full credits and backdrops.
+Fetches Hollywood Movies, Blockbuster TV Series, and Cult Classics
+with full credits, seasons, and backdrops.
 """
 
 import re
 import requests
 from typing import List, Dict, Any, Optional
 from config import TMDB_API_KEY, TMDB_IMAGE_ORIGINAL, TMDB_IMAGE_POSTER
-from sample_data import SAMPLE_MOVIES
+from sample_data import SAMPLE_MEDIA
 
 TMDB_BASE_URL = "https://api.themoviedb.org/3"
 
@@ -58,41 +59,45 @@ class TMDBClient:
             print(f"[TMDB] Error connecting to {endpoint}: {e}")
             return None
 
-    def get_movies_by_category(self, category: str, limit: int = 5) -> List[Dict[str, Any]]:
+    def get_items_by_category(self, category: str, limit: int = 4) -> List[Dict[str, Any]]:
         """
-        Fetch movies by category: 'upcoming', 'now_playing', or 'trending'.
+        Fetch items by category: 'trending', 'series', 'cult_classic', 'upcoming', 'now_playing'.
         """
         endpoint_map = {
-            "upcoming": "/movie/upcoming",
-            "now_playing": "/movie/now_playing",
-            "trending": "/trending/movie/week"
+            "upcoming": ("/movie/upcoming", "movie"),
+            "now_playing": ("/movie/now_playing", "movie"),
+            "trending": ("/trending/movie/week", "movie"),
+            "series": ("/trending/tv/week", "tv"),
+            "popular_series": ("/tv/popular", "tv"),
+            "cult_classic": ("/movie/top_rated", "movie")
         }
 
-        endpoint = endpoint_map.get(category, "/trending/movie/week")
+        endpoint, media_type = endpoint_map.get(category, ("/trending/movie/week", "movie"))
         
         if self.has_api_key:
             data = self._get(endpoint, {"language": "en-US", "page": 1})
             if data and "results" in data:
-                movies = data["results"][:limit]
-                detailed_movies = []
-                for m in movies:
-                    detailed = self.get_movie_details(m["id"], category=category)
+                items = data["results"][:limit]
+                detailed_items = []
+                for item in items:
+                    if media_type == "tv":
+                        detailed = self.get_tv_details(item["id"], category=category)
+                    else:
+                        detailed = self.get_movie_details(item["id"], category=category)
                     if detailed:
-                        detailed_movies.append(detailed)
-                if detailed_movies:
-                    return detailed_movies
+                        detailed_items.append(detailed)
+                if detailed_items:
+                    return detailed_items
 
-        # Fallback to high-fidelity sample data if no key or API call failed
+        # Fallback to sample dataset
         print(f"[TMDB] Using built-in sample data for category: '{category}'")
-        filtered = [m for m in SAMPLE_MOVIES if m.get("category") == category]
+        filtered = [m for m in SAMPLE_MEDIA if m.get("category") == category]
         if not filtered:
-            filtered = SAMPLE_MOVIES
+            filtered = SAMPLE_MEDIA
         return filtered[:limit]
 
     def get_movie_details(self, movie_id: int, category: str = "trending") -> Optional[Dict[str, Any]]:
-        """
-        Fetch complete details, credits (director, top cast), and backdrops in 1 call.
-        """
+        """Fetch details for a movie."""
         data = self._get(f"/movie/{movie_id}", {
             "append_to_response": "credits,images",
             "include_image_language": "en,null"
@@ -101,7 +106,6 @@ class TMDBClient:
         if not data:
             return None
 
-        # Extract director
         director = "Acclaimed Filmmaker"
         crew = data.get("credits", {}).get("crew", [])
         for member in crew:
@@ -109,38 +113,32 @@ class TMDBClient:
                 director = member.get("name", director)
                 break
 
-        # Extract top 6 cast
         cast_list = data.get("credits", {}).get("cast", [])
         top_cast = [c.get("name") for c in cast_list[:6] if c.get("name")]
 
-        # Extract high quality backdrops
         raw_backdrops = data.get("images", {}).get("backdrops", [])
         backdrops = [b.get("file_path") for b in raw_backdrops if b.get("file_path")]
-        
-        # Primary backdrop fallback
         primary_backdrop = data.get("backdrop_path")
         if primary_backdrop and primary_backdrop not in backdrops:
             backdrops.insert(0, primary_backdrop)
-        
-        # If no backdrops, use poster as last resort
         if not backdrops and data.get("poster_path"):
             backdrops.append(data.get("poster_path"))
 
         genres = [g.get("name") for g in data.get("genres", []) if g.get("name")]
-
         title = data.get("title") or data.get("original_title") or "Untitled Movie"
-        slug = slugify(title)
 
         return {
             "id": data.get("id"),
             "title": title,
             "original_title": data.get("original_title", title),
-            "slug": slug,
+            "slug": slugify(title),
+            "media_type": "movie",
             "release_date": data.get("release_date", "Coming Soon"),
-            "overview": data.get("overview", "An upcoming cinematic spectacle."),
+            "overview": data.get("overview", "A cinematic Hollywood spectacle."),
             "tagline": data.get("tagline", ""),
             "genres": genres,
             "runtime": data.get("runtime", 120),
+            "seasons": None,
             "vote_average": round(data.get("vote_average", 0.0), 1),
             "vote_count": data.get("vote_count", 0),
             "category": category,
@@ -151,20 +149,73 @@ class TMDBClient:
             "backdrops": backdrops[:8]
         }
 
-    def fetch_feed(self, categories: Optional[List[str]] = None, per_category: int = 5) -> List[Dict[str, Any]]:
+    def get_tv_details(self, tv_id: int, category: str = "series") -> Optional[Dict[str, Any]]:
+        """Fetch details for a TV Series / Show."""
+        data = self._get(f"/tv/{tv_id}", {
+            "append_to_response": "credits,images",
+            "include_image_language": "en,null"
+        })
+        
+        if not data:
+            return None
+
+        # Extract creators / showrunner
+        creators = [c.get("name") for c in data.get("created_by", []) if c.get("name")]
+        creator_name = ", ".join(creators) if creators else "Visionary Showrunner"
+
+        cast_list = data.get("credits", {}).get("cast", [])
+        top_cast = [c.get("name") for c in cast_list[:6] if c.get("name")]
+
+        raw_backdrops = data.get("images", {}).get("backdrops", [])
+        backdrops = [b.get("file_path") for b in raw_backdrops if b.get("file_path")]
+        primary_backdrop = data.get("backdrop_path")
+        if primary_backdrop and primary_backdrop not in backdrops:
+            backdrops.insert(0, primary_backdrop)
+        if not backdrops and data.get("poster_path"):
+            backdrops.append(data.get("poster_path"))
+
+        genres = [g.get("name") for g in data.get("genres", []) if g.get("name")]
+        title = data.get("name") or data.get("original_name") or "Hit TV Series"
+        seasons = data.get("number_of_seasons", 1)
+        runtime_list = data.get("episode_run_time") or []
+        runtime = runtime_list[0] if runtime_list else 50
+
+        return {
+            "id": data.get("id"),
+            "title": title,
+            "original_title": data.get("original_name", title),
+            "slug": slugify(title),
+            "media_type": "tv",
+            "release_date": data.get("first_air_date", "TV Series"),
+            "overview": data.get("overview", "A binge-worthy television phenomenon."),
+            "tagline": data.get("tagline", ""),
+            "genres": genres,
+            "runtime": runtime,
+            "seasons": seasons,
+            "vote_average": round(data.get("vote_average", 0.0), 1),
+            "vote_count": data.get("vote_count", 0),
+            "category": "series",
+            "director": f"{creator_name} (Creator)",
+            "top_cast": top_cast,
+            "poster_path": data.get("poster_path", ""),
+            "backdrop_path": primary_backdrop or (backdrops[0] if backdrops else ""),
+            "backdrops": backdrops[:8]
+        }
+
+    def fetch_feed(self, categories: Optional[List[str]] = None, per_category: int = 4) -> List[Dict[str, Any]]:
         """
-        Fetch combined unique movies across requested categories.
+        Fetch combined unique movies and TV series across requested categories.
         """
-        cats = categories or ["trending", "upcoming", "now_playing"]
-        all_movies = []
+        cats = categories or ["trending", "series", "cult_classic", "upcoming", "now_playing"]
+        all_items = []
         seen_ids = set()
 
         for cat in cats:
-            movies = self.get_movies_by_category(cat, limit=per_category)
-            for m in movies:
-                m_id = m.get("id")
-                if m_id not in seen_ids:
-                    seen_ids.add(m_id)
-                    all_movies.append(m)
+            items = self.get_items_by_category(cat, limit=per_category)
+            for item in items:
+                unique_key = f"{item.get('media_type', 'movie')}_{item.get('id')}"
+                if unique_key not in seen_ids:
+                    seen_ids.add(unique_key)
+                    all_items.append(item)
 
-        return all_movies
+        return all_items

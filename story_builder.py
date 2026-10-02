@@ -245,6 +245,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         slide_body = html.escape(slide.get("text", ""))
 
         category_name = movie.get("category", "trending").replace("_", " ")
+        time_chip = f"📺 {movie.get('seasons')} Seasons" if movie.get("seasons") else f"⏱ {movie.get('runtime', 120)}m"
 
         if is_first:
             # Slide 1: Cover slide
@@ -266,7 +267,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                     <div class="meta-chips">
                       <span class="chip">📅 {html.escape(str(movie.get('release_date', 'Coming Soon')))}</span>
                       <span class="chip chip-rating">★ {html.escape(str(movie.get('vote_average', '8.0')))}</span>
-                      <span class="chip">⏱ {html.escape(str(movie.get('runtime', '120')))}m</span>
+                      <span class="chip">{html.escape(time_chip)}</span>
                     </div>
                   </div>
                 </div>
@@ -275,8 +276,10 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
             """
         elif is_last:
             # Final Slide: CTA slide
-            cta_text = html.escape(slide.get("cta_text") or "Check Showtimes & Tickets")
-            cta_url = html.escape(slide.get("cta_url") or f"https://www.themoviedb.org/movie/{movie.get('id')}")
+            default_cta_text = "Explore Series & Streaming" if movie.get("media_type") == "tv" else "Check Showtimes & Tickets"
+            default_cta_url = f"https://www.themoviedb.org/tv/{movie.get('id')}" if movie.get("media_type") == "tv" else f"https://www.themoviedb.org/movie/{movie.get('id')}"
+            cta_text = html.escape(slide.get("cta_text") or default_cta_text)
+            cta_url = html.escape(slide.get("cta_url") or default_cta_url)
 
             slide_content = f"""
             <amp-story-page id="{page_id}">

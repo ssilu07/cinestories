@@ -4,6 +4,7 @@
   "description": "Automated Movie & Entertainment Web Stories platform generating 100% AMP-valid Google Web Stories using TMDB and Gemini AI",
   "main": "dist/index.html",
   "scripts": {
+    "build": "echo 'Static dist output is ready'",
     "generate": "python fetch_and_generate.py",
     "generate:demo": "python fetch_and_generate.py --demo",
     "validate": "python validator.py",
