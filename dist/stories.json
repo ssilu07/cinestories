@@ -1,9 +1,90 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-02T07:27:00.468029+00:00",
-  "total_stories": 14,
+  "generated_at": "2026-10-02T08:31:51.148017+00:00",
+  "total_stories": 23,
   "stories": [
+    {
+      "id": 999101,
+      "slug": "streaming-weekly-top-10-us-uk",
+      "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+      "url": "https://cinestories-omega.vercel.app/stories/streaming-weekly-top-10-us-uk/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-01",
+      "rating": 8.8
+    },
+    {
+      "id": 106379,
+      "slug": "fallout-prime-video",
+      "title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video \u2622\ufe0f Vault 33",
+      "url": "https://cinestories-omega.vercel.app/stories/fallout-prime-video/",
+      "category": "streaming_charts",
+      "release_date": "2024-04-10",
+      "rating": 8.3
+    },
+    {
+      "id": 94997,
+      "slug": "house-of-the-dragon",
+      "title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max \ud83d\udc09\ud83d\udd25",
+      "url": "https://cinestories-omega.vercel.app/stories/house-of-the-dragon/",
+      "category": "streaming_charts",
+      "release_date": "2022-08-21",
+      "rating": 8.4
+    },
+    {
+      "id": 999201,
+      "slug": "marvel-post-credit-theories",
+      "title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories \ud83e\uddb8\u200d\u2642\ufe0f\u26a1",
+      "url": "https://cinestories-omega.vercel.app/stories/marvel-post-credit-theories/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-07-26",
+      "rating": 8.5
+    },
+    {
+      "id": 999202,
+      "slug": "dc-easter-eggs-theories",
+      "title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories \ud83e\udd87\ud83c\udccf",
+      "url": "https://cinestories-omega.vercel.app/stories/dc-easter-eggs-theories/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-03-04",
+      "rating": 8.3
+    },
+    {
+      "id": 634649,
+      "slug": "spiderman-venom-post-credits",
+      "title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse \ud83d\udd77\ufe0f\ud83d\udda4",
+      "url": "https://cinestories-omega.vercel.app/stories/spiderman-venom-post-credits/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-12-17",
+      "rating": 8.4
+    },
+    {
+      "id": 1668,
+      "slug": "friends-where-are-they-now",
+      "title": "Friends: Where Are The Central Perk Stars Today? \u2615\u2728",
+      "url": "https://cinestories-omega.vercel.app/stories/friends-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "1994-09-22",
+      "rating": 8.5
+    },
+    {
+      "id": 2316,
+      "slug": "the-office-where-are-they-now",
+      "title": "The Office: Where Is The Dunder Mifflin Cast In 2026? \ud83d\udcc4\ud83d\udcce",
+      "url": "https://cinestories-omega.vercel.app/stories/the-office-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "2005-03-24",
+      "rating": 8.6
+    },
+    {
+      "id": 999301,
+      "slug": "sitcom-stars-where-are-they-now",
+      "title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars \ud83d\udcfa\u2728",
+      "url": "https://cinestories-omega.vercel.app/stories/sitcom-stars-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "2000-01-09",
+      "rating": 8.4
+    },
     {
       "id": 71446,
       "slug": "money-heist",

@@ -88,7 +88,15 @@ def run_pipeline(
     # 2. Fetch movies & TV series
     tmdb = TMDBClient(api_key="" if demo_mode else tmdb_key)
     if category == "all":
-        categories = ["series", "trending", "cult_classic", "upcoming"]
+        categories = [
+            "streaming_charts",
+            "theories_easter_eggs",
+            "where_are_they_now",
+            "series",
+            "trending",
+            "cult_classic",
+            "upcoming"
+        ]
     else:
         categories = [category]
 
@@ -155,7 +163,7 @@ def run_pipeline(
 def main():
     parser = argparse.ArgumentParser(description="Automated AMP Movie Web Stories Generator")
     parser.add_argument("--domain", default=DOMAIN_NAME, help="Target deployment domain (e.g. https://cinestories.pages.dev)")
-    parser.add_argument("--category", choices=["all", "series", "trending", "cult_classic", "upcoming", "now_playing"], default="all", help="Category filter")
+    parser.add_argument("--category", choices=["all", "streaming_charts", "theories_easter_eggs", "where_are_they_now", "series", "trending", "cult_classic", "upcoming", "now_playing"], default="all", help="Category filter")
     parser.add_argument("--count", type=int, default=STORIES_PER_CATEGORY_LIMIT, help="Number of movies per category")
     parser.add_argument("--tmdb-key", default=TMDB_API_KEY, help="TMDB API Key override")
     parser.add_argument("--gemini-key", default=GEMINI_API_KEY, help="Google Gemini API Key override")

@@ -7,6 +7,96 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/stories/streaming-weekly-top-10-us-uk/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg</image:loc>
+      <image:title>Top 10 Streaming Hits (US &amp; UK) Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/fallout-prime-video/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/8zQO5GNWQwJG4we5AYfjopblRFe.jpg</image:loc>
+      <image:title>Fallout Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/house-of-the-dragon/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg</image:loc>
+      <image:title>House of the Dragon Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/marvel-post-credit-theories/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg</image:loc>
+      <image:title>Marvel Post-Credit Theories Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/dc-easter-eggs-theories/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/74xTEgt7R36Fpooo50r9T25onhq.jpg</image:loc>
+      <image:title>DC Universe Secrets &amp; Theories Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/spiderman-venom-post-credits/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg</image:loc>
+      <image:title>Spider-Man &amp; Venom Post-Credits Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/friends-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg</image:loc>
+      <image:title>Friends: Where Are They Now? Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-office-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg</image:loc>
+      <image:title>The Office: Where Are They Now? Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/sitcom-stars-where-are-they-now/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/si3OheCrSpEyK2JUtZOThsZPUR4.jpg</image:loc>
+      <image:title>90s/2000s Sitcom Stars: Where Are They Now? Web Story</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/stories/money-heist/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>

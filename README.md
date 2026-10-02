@@ -217,10 +217,17 @@ python fetch_and_generate.py \
 
 Flags:
 - `--domain <url>`: Override deployment domain for canonical tags.
-- `--category <all|trending|upcoming|now_playing>`: Scope movies to a single category.
-- `--count <n>`: Number of movies to fetch per category (default: 5).
+- `--category <all|streaming_charts|theories_easter_eggs|where_are_they_now|series|trending|cult_classic|upcoming|now_playing>`: Scope stories to a single high-engagement category.
+- `--count <n>`: Number of movies/shows to fetch per category (default: 10).
 - `--no-validate`: Skip AMP validator step.
-- `--demo`: Force offline mock data generation.
+- `--demo`: Force offline mock/curated data generation.
+
+### 🌟 High-Engagement Content Categories
+- 📊 **Weekly Top 10 Streaming Releases (US & UK)**: Real-time leaderboard of viral hits dominating Netflix, HBO Max, and Amazon Prime Video.
+- 🦸‍♂️ **Marvel & DC Easter Eggs & Post-Credit Theories**: Frame-by-frame post-credit breakdowns, multiversal timeline secrets, and Secret Wars / DCU speculation.
+- 🕰️ **"Where Are They Now?" (90s & 2000s Sitcom Stars)**: Nostalgia-driven transformations of beloved comedy stars from *Friends*, *The Office*, *Malcolm in the Middle*, and *Fresh Prince*.
+- 📺 **TV Series & Binge Hits**: Blockbuster binge-watches (*Money Heist*, *Stranger Things*, *The Boys*, *Breaking Bad*, *Game of Thrones*).
+- 🎬 **Trending Movies & Cult Classics**: Box office record breakers and cinematic milestones (*Deadpool & Wolverine*, *Dune: Part Two*, *The Dark Knight*, *Inception*).
 
 ### Local Preview Server
 Start the local HTTP preview server to explore stories in your browser:

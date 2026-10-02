@@ -69,7 +69,10 @@ class TMDBClient:
             "trending": ("/trending/movie/week", "movie"),
             "series": ("/trending/tv/week", "tv"),
             "popular_series": ("/tv/popular", "tv"),
-            "cult_classic": ("/movie/top_rated", "movie")
+            "cult_classic": ("/movie/top_rated", "movie"),
+            "streaming_charts": ("/trending/tv/week", "tv"),
+            "theories_easter_eggs": ("/trending/movie/week", "movie"),
+            "where_are_they_now": ("/tv/popular", "tv")
         }
 
         endpoint, media_type = endpoint_map.get(category, ("/trending/movie/week", "movie"))
@@ -206,7 +209,15 @@ class TMDBClient:
         """
         Fetch combined unique movies and TV series across requested categories.
         """
-        cats = categories or ["trending", "series", "cult_classic", "upcoming", "now_playing"]
+        cats = categories or [
+            "streaming_charts",
+            "theories_easter_eggs",
+            "where_are_they_now",
+            "series",
+            "trending",
+            "cult_classic",
+            "upcoming"
+        ]
         all_items = []
         seen_ids = set()
 

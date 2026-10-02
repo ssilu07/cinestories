@@ -359,6 +359,24 @@
       backdrop-filter: blur(8px);
     }
 
+    .badge-streaming_charts {
+      background: linear-gradient(135deg, #e50914, #7928ca);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(229, 9, 20, 0.4);
+    }
+
+    .badge-theories_easter_eggs {
+      background: linear-gradient(135deg, #f59e0b, #dc2626);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(245, 158, 11, 0.4);
+    }
+
+    .badge-where_are_they_now {
+      background: linear-gradient(135deg, #06b6d4, #f97316);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(6, 182, 212, 0.4);
+    }
+
     .badge-trending {
       background: rgba(225, 29, 72, 0.85);
       color: #fff;
@@ -676,14 +694,17 @@
     <div class="hero-badge">⚡ Discover-Ready Entertainment Stories</div>
     <h2 class="hero-title">Bite-Sized Cinema Stories.<br>Built For The Mobile Screen.</h2>
     <p class="hero-subtitle">
-      Explore immersive, fast-loading Google AMP Web Stories generated automatically from The Movie Database (TMDB) and powered by Google Gemini AI.
+      Explore immersive, fast-loading Google AMP Web Stories. Discover weekly Netflix, HBO &amp; Prime Top 10 releases (US/UK), deep Marvel &amp; DC post-credit theories, and nostalgic &ldquo;Where Are They Now?&rdquo; sitcom retrospectives.
     </p>
 
     <!-- Controls Bar: Filter Pills & Search -->
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
-        <button class="filter-btn active" data-filter="all">All Stories (14)</button>
-        <button class="filter-btn" data-filter="series">TV Series &amp; Binge (6)</button>
+        <button class="filter-btn active" data-filter="all">All Stories (23)</button>
+        <button class="filter-btn" data-filter="streaming_charts">Weekly Top 10 (3)</button>
+        <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories (3)</button>
+        <button class="filter-btn" data-filter="where_are_they_now">Where Are They Now? (3)</button>
+        <button class="filter-btn" data-filter="series">TV Series (6)</button>
         <button class="filter-btn" data-filter="trending">Trending Movies (3)</button>
         <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises (4)</button>
         <button class="filter-btn" data-filter="upcoming">Upcoming (1)</button>
@@ -699,7 +720,286 @@
   <!-- Stories Grid Section -->
   <main class="stories-section">
     <div class="stories-grid" id="storiesGrid">
-      <article class="story-card" data-category="series" data-title="bella ciao! 5 insane professor masterstrokes you missed 💰" data-movie="money heist" data-rating="8.2">
+      <article class="story-card" data-category="streaming_charts" data-title="top 10 streaming hits this week in the us &amp; uk 🍿📊" data-movie="top 10 streaming hits (us &amp; uk)" data-rating="8.8">
+          <a href="/stories/streaming-weekly-top-10-us-uk/" class="card-link" aria-label="Read story for Top 10 Streaming Hits (US &amp; UK)">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg" alt="Top 10 Streaming Hits (US &amp; UK)" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/mnUozozJf3VUpgi91ysfyxlRqs1.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-streaming_charts">Weekly Top 10</span>
+                <span class="rating-badge">★ 8.8</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Top 10 Streaming Hits (US &amp; UK)</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊</h3>
+                <p class="card-teaser">What is everyone watching right now? Netflix, HBO Max &amp; Prime Video leaderboard rankings revealed!</p>
+                <div class="card-meta">
+                  <span>2026</span>
+                  <span>•</span>
+                  <span>📺 2026 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="streaming_charts" data-title="fallout: 5 mind-blowing vault secrets that broke prime video ☢️ vault 33" data-movie="fallout" data-rating="8.3">
+          <a href="/stories/fallout-prime-video/" class="card-link" aria-label="Read story for Fallout">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/8zQO5GNWQwJG4we5AYfjopblRFe.jpg" alt="Fallout" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/jqrYg35GHuMGwGqEVUthqTLQnay.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-streaming_charts">Weekly Top 10</span>
+                <span class="rating-badge">★ 8.3</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Fallout</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video ☢️ Vault 33</h3>
+                <p class="card-teaser">War never changes. 5 insane Vault-Tec secrets and wasteland survival moments on Prime Video!</p>
+                <div class="card-meta">
+                  <span>2024</span>
+                  <span>•</span>
+                  <span>📺 1 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="streaming_charts" data-title="dance of the dragons: 5 brutal westeros clashes on hbo max 🐉🔥" data-movie="house of the dragon" data-rating="8.4">
+          <a href="/stories/house-of-the-dragon/" class="card-link" aria-label="Read story for House of the Dragon">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg" alt="House of the Dragon" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-streaming_charts">Weekly Top 10</span>
+                <span class="rating-badge">★ 8.4</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">House of the Dragon</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max 🐉🔥</h3>
+                <p class="card-teaser">Blood will be spilled. Inside HBO&#x27;s record-breaking #1 fantasy war for the Iron Throne!</p>
+                <div class="card-meta">
+                  <span>2022</span>
+                  <span>•</span>
+                  <span>📺 2 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="theories_easter_eggs" data-title="marvel post-credits: 6 insane easter eggs &amp; secret wars theories 🦸‍♂️⚡" data-movie="marvel post-credit theories" data-rating="8.5">
+          <a href="/stories/marvel-post-credit-theories/" class="card-link" aria-label="Read story for Marvel Post-Credit Theories">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg" alt="Marvel Post-Credit Theories" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-theories_easter_eggs">Marvel & DC Theories</span>
+                <span class="rating-badge">★ 8.5</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Marvel Post-Credit Theories</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Marvel Post-Credits: 6 Insane Easter Eggs &amp; Secret Wars Theories 🦸‍♂️⚡</h3>
+                <p class="card-teaser">Did you spot the hidden comic cameos? 6 post-credit clues setting up Avengers: Secret Wars!</p>
+                <div class="card-meta">
+                  <span>2024</span>
+                  <span>•</span>
+                  <span>⏱ 120m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="theories_easter_eggs" data-title="dc universe secrets: 5 dark easter eggs &amp; multiverse theories 🦇🃏" data-movie="dc universe secrets &amp; theories" data-rating="8.3">
+          <a href="/stories/dc-easter-eggs-theories/" class="card-link" aria-label="Read story for DC Universe Secrets &amp; Theories">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/74xTEgt7R36Fpooo50r9T25onhq.jpg" alt="DC Universe Secrets &amp; Theories" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-theories_easter_eggs">Marvel & DC Theories</span>
+                <span class="rating-badge">★ 8.3</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">DC Universe Secrets &amp; Theories</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">DC Universe Secrets: 5 Dark Easter Eggs &amp; Multiverse Theories 🦇🃏</h3>
+                <p class="card-teaser">Arkham riddles and James Gunn&#x27;s DCU reboot! 5 dark easter eggs and shocking villain theories.</p>
+                <div class="card-meta">
+                  <span>2022</span>
+                  <span>•</span>
+                  <span>⏱ 155m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="theories_easter_eggs" data-title="spider-man &amp; venom: 5 post-credit clues connecting the multiverse 🕷️🖤" data-movie="spider-man &amp; venom post-credits" data-rating="8.4">
+          <a href="/stories/spiderman-venom-post-credits/" class="card-link" aria-label="Read story for Spider-Man &amp; Venom Post-Credits">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg" alt="Spider-Man &amp; Venom Post-Credits" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-theories_easter_eggs">Marvel & DC Theories</span>
+                <span class="rating-badge">★ 8.4</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Spider-Man &amp; Venom Post-Credits</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Spider-Man &amp; Venom: 5 Post-Credit Clues Connecting The Multiverse 🕷️🖤</h3>
+                <p class="card-teaser">The symbiote left behind in the MCU bar! 5 jaw-dropping Spider-Man &amp; Venom post-credit secrets.</p>
+                <div class="card-meta">
+                  <span>2021</span>
+                  <span>•</span>
+                  <span>⏱ 148m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="where_are_they_now" data-title="friends: where are the central perk stars today? ☕✨" data-movie="friends: where are they now?" data-rating="8.5">
+          <a href="/stories/friends-where-are-they-now/" class="card-link" aria-label="Read story for Friends: Where Are They Now?">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg" alt="Friends: Where Are They Now?" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-where_are_they_now">Where Are They Now?</span>
+                <span class="rating-badge">★ 8.5</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Friends: Where Are They Now?</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Friends: Where Are The Central Perk Stars Today? ☕✨</h3>
+                <p class="card-teaser">Could they BE any more iconic? From Hollywood power players to heartfelt tributes—see where the Friends cast is now!</p>
+                <div class="card-meta">
+                  <span>1994</span>
+                  <span>•</span>
+                  <span>📺 10 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="where_are_they_now" data-title="the office: where is the dunder mifflin cast in 2026? 📄📎" data-movie="the office: where are they now?" data-rating="8.6">
+          <a href="/stories/the-office-where-are-they-now/" class="card-link" aria-label="Read story for The Office: Where Are They Now?">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg" alt="The Office: Where Are They Now?" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/qHFidnMcFqUWdMFyjmXufBlYckd.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-where_are_they_now">Where Are They Now?</span>
+                <span class="rating-badge">★ 8.6</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">The Office: Where Are They Now?</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">The Office: Where Is The Dunder Mifflin Cast In 2026? 📄📎</h3>
+                <p class="card-teaser">That&#x27;s what she said! From Scranton paper salesmen to Oscar nominees and Hollywood directors.</p>
+                <div class="card-meta">
+                  <span>2005</span>
+                  <span>•</span>
+                  <span>📺 9 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="where_are_they_now" data-title="where are they now? 5 popular 90s/2000s sitcom stars 📺✨" data-movie="90s/2000s sitcom stars: where are they now?" data-rating="8.4">
+          <a href="/stories/sitcom-stars-where-are-they-now/" class="card-link" aria-label="Read story for 90s/2000s Sitcom Stars: Where Are They Now?">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/si3OheCrSpEyK2JUtZOThsZPUR4.jpg" alt="90s/2000s Sitcom Stars: Where Are They Now?" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-where_are_they_now">Where Are They Now?</span>
+                <span class="rating-badge">★ 8.4</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">90s/2000s Sitcom Stars: Where Are They Now?</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Where Are They Now? 5 Popular 90s/2000s Sitcom Stars 📺✨</h3>
+                <p class="card-teaser">Frankie Muniz, Alfonso Ribeiro, Angus T. Jones! See what your favorite sitcom childhood icons are doing today.</p>
+                <div class="card-meta">
+                  <span>2000</span>
+                  <span>•</span>
+                  <span>📺 7 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="series" data-title="bella ciao! 5 insane professor masterstrokes you missed 💰" data-movie="money heist" data-rating="8.2">
           <a href="/stories/money-heist/" class="card-link" aria-label="Read story for Money Heist">
             <div class="card-poster-wrap">
               <img src="https://image.tmdb.org/t/p/w780/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg" alt="Money Heist" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg';">

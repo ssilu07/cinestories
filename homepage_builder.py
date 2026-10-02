@@ -23,6 +23,9 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     """
     now_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     total_stories = len(stories)
+    streaming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "streaming_charts")
+    theories_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "theories_easter_eggs")
+    sitcoms_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "where_are_they_now")
     series_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "series")
     trending_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "trending")
     cult_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "cult_classic")
@@ -63,7 +66,13 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     cards_html_list = []
     for c in cards_data:
-        if c["category"] == "series":
+        if c["category"] == "streaming_charts":
+            category_label = "Weekly Top 10"
+        elif c["category"] == "theories_easter_eggs":
+            category_label = "Marvel & DC Theories"
+        elif c["category"] == "where_are_they_now":
+            category_label = "Where Are They Now?"
+        elif c["category"] == "series":
             category_label = "TV Series"
         elif c["category"] == "cult_classic":
             category_label = "Cult Classic"
@@ -472,6 +481,24 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       backdrop-filter: blur(8px);
     }}
 
+    .badge-streaming_charts {{
+      background: linear-gradient(135deg, #e50914, #7928ca);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(229, 9, 20, 0.4);
+    }}
+
+    .badge-theories_easter_eggs {{
+      background: linear-gradient(135deg, #f59e0b, #dc2626);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(245, 158, 11, 0.4);
+    }}
+
+    .badge-where_are_they_now {{
+      background: linear-gradient(135deg, #06b6d4, #f97316);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(6, 182, 212, 0.4);
+    }}
+
     .badge-trending {{
       background: rgba(225, 29, 72, 0.85);
       color: #fff;
@@ -789,14 +816,17 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <div class="hero-badge">⚡ Discover-Ready Entertainment Stories</div>
     <h2 class="hero-title">Bite-Sized Cinema Stories.<br>Built For The Mobile Screen.</h2>
     <p class="hero-subtitle">
-      Explore immersive, fast-loading Google AMP Web Stories generated automatically from The Movie Database (TMDB) and powered by Google Gemini AI.
+      Explore immersive, fast-loading Google AMP Web Stories. Discover weekly Netflix, HBO &amp; Prime Top 10 releases (US/UK), deep Marvel &amp; DC post-credit theories, and nostalgic &ldquo;Where Are They Now?&rdquo; sitcom retrospectives.
     </p>
 
     <!-- Controls Bar: Filter Pills & Search -->
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
         <button class="filter-btn active" data-filter="all">All Stories ({total_stories})</button>
-        <button class="filter-btn" data-filter="series">TV Series &amp; Binge ({series_count})</button>
+        <button class="filter-btn" data-filter="streaming_charts">Weekly Top 10 ({streaming_count})</button>
+        <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories ({theories_count})</button>
+        <button class="filter-btn" data-filter="where_are_they_now">Where Are They Now? ({sitcoms_count})</button>
+        <button class="filter-btn" data-filter="series">TV Series ({series_count})</button>
         <button class="filter-btn" data-filter="trending">Trending Movies ({trending_count})</button>
         <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises ({cult_count})</button>
         <button class="filter-btn" data-filter="upcoming">Upcoming ({upcoming_count})</button>

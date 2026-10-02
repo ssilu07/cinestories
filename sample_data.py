@@ -382,6 +382,249 @@ SAMPLE_MEDIA = [
             "/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg",
             "/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg"
         ]
+    },
+    # 15. Weekly Top 10 Streaming Hits (US/UK) - Netflix / HBO / Prime
+    {
+        "id": 999101,
+        "title": "Top 10 Streaming Hits (US & UK)",
+        "original_title": "Weekly Streaming Chart Leaderboard",
+        "slug": "streaming-weekly-top-10-us-uk",
+        "media_type": "tv",
+        "release_date": "2026-10-01",
+        "hook_title": "Top 10 Streaming Hits This Week in the US & UK 🍿📊",
+        "catchy_teaser": "What is everyone watching right now? Netflix, HBO Max & Prime Video leaderboard rankings revealed!",
+        "overview": "An authoritative weekly countdown of the 10 most-streamed television shows and movies across Netflix, HBO Max, and Amazon Prime Video in the United States and United Kingdom.",
+        "tagline": "The definitive weekly streaming charts.",
+        "genres": ["News", "Drama", "Sci-Fi & Fantasy"],
+        "runtime": 45,
+        "seasons": 2026,
+        "vote_average": 8.8,
+        "vote_count": 9200,
+        "category": "streaming_charts",
+        "director": "Streaming Analytics Desk",
+        "top_cast": ["Squid Game", "House of the Dragon", "Fallout", "The Boys", "The Penguin"],
+        "poster_path": "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg",
+        "backdrop_path": "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
+        "backdrops": [
+            "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
+            "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg"
+        ]
+    },
+    # 16. Fallout (Prime Video Weekly Sensation)
+    {
+        "id": 106379,
+        "title": "Fallout",
+        "original_title": "Fallout",
+        "slug": "fallout-prime-video",
+        "media_type": "tv",
+        "release_date": "2024-04-10",
+        "hook_title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video ☢️ Vault 33",
+        "catchy_teaser": "War never changes. 5 insane Vault-Tec secrets and wasteland survival moments on Prime Video!",
+        "overview": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground subterranean vaults to protect themselves from radiation, mutants, and bandits.",
+        "tagline": "Welcome to the wasteland.",
+        "genres": ["Sci-Fi & Fantasy", "Action & Adventure", "Comedy"],
+        "runtime": 55,
+        "seasons": 1,
+        "vote_average": 8.3,
+        "vote_count": 8900,
+        "category": "streaming_charts",
+        "director": "Jonathan Nolan & Lisa Joy",
+        "top_cast": ["Ella Purnell", "Walton Goggins", "Aaron Moten", "Kyle MacLachlan"],
+        "poster_path": "/8zQO5GNWQwJG4we5AYfjopblRFe.jpg",
+        "backdrop_path": "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+        "backdrops": [
+            "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+            "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+        ]
+    },
+    # 17. House of the Dragon (HBO Max Weekly Chart-Topper)
+    {
+        "id": 94997,
+        "title": "House of the Dragon",
+        "original_title": "House of the Dragon",
+        "slug": "house-of-the-dragon",
+        "media_type": "tv",
+        "release_date": "2022-08-21",
+        "hook_title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max 🐉🔥",
+        "catchy_teaser": "Blood will be spilled. Inside HBO's record-breaking #1 fantasy war for the Iron Throne!",
+        "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. But power turns inward, sparking the legendary Dance of the Dragons civil war.",
+        "tagline": "Fire and blood.",
+        "genres": ["Sci-Fi & Fantasy", "Drama", "Action & Adventure"],
+        "runtime": 60,
+        "seasons": 2,
+        "vote_average": 8.4,
+        "vote_count": 12500,
+        "category": "streaming_charts",
+        "director": "Ryan J. Condal & George R.R. Martin",
+        "top_cast": ["Emma D'Arcy", "Matt Smith", "Olivia Cooke", "Rhys Ifans"],
+        "poster_path": "/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg",
+        "backdrop_path": "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+        "backdrops": [
+            "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+            "/hRX5exGCfaEq7mLYCqRoKiEkjq3.jpg"
+        ]
+    },
+    # 18. Marvel Multiverse: Post-Credit Theories
+    {
+        "id": 999201,
+        "title": "Marvel Post-Credit Theories",
+        "original_title": "Marvel Multiverse & Post-Credits",
+        "slug": "marvel-post-credit-theories",
+        "media_type": "movie",
+        "release_date": "2024-07-26",
+        "hook_title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories 🦸‍♂️⚡",
+        "catchy_teaser": "Did you spot the hidden comic cameos? 6 post-credit clues setting up Avengers: Secret Wars!",
+        "overview": "Deconstructing the most consequential post-credit stingers in MCU history, from Deadpool's Void reveals and Anchor Beings to Doctor Doom and the road to Avengers: Secret Wars.",
+        "tagline": "The end credits are only the beginning.",
+        "genres": ["Action", "Science Fiction", "Adventure"],
+        "runtime": 120,
+        "seasons": None,
+        "vote_average": 8.5,
+        "vote_count": 14000,
+        "category": "theories_easter_eggs",
+        "director": "Kevin Feige & Marvel Brain Trust",
+        "top_cast": ["Ryan Reynolds", "Hugh Jackman", "Robert Downey Jr.", "Benedict Cumberbatch"],
+        "poster_path": "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg",
+        "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+        "backdrops": [
+            "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+            "/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+        ]
+    },
+    # 19. DC Universe: Easter Eggs & Multiverse Theories
+    {
+        "id": 999202,
+        "title": "DC Universe Secrets & Theories",
+        "original_title": "DC Universe Easter Eggs & Theories",
+        "slug": "dc-easter-eggs-theories",
+        "media_type": "movie",
+        "release_date": "2022-03-04",
+        "hook_title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories 🦇🃏",
+        "catchy_teaser": "Arkham riddles and James Gunn's DCU reboot! 5 dark easter eggs and shocking villain theories.",
+        "overview": "Explore the hidden clues lurking in Gotham's shadows: Barry Keoghan's Joker cipher, Court of Owls architectural easter eggs, and James Gunn's roadmap for Gods and Monsters.",
+        "tagline": "Unmask the truth.",
+        "genres": ["Crime", "Mystery", "Action"],
+        "runtime": 155,
+        "seasons": None,
+        "vote_average": 8.3,
+        "vote_count": 12800,
+        "category": "theories_easter_eggs",
+        "director": "Matt Reeves & James Gunn",
+        "top_cast": ["Robert Pattinson", "Colin Farrell", "Barry Keoghan", "Zoë Kravitz"],
+        "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+        "backdrop_path": "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+        "backdrops": [
+            "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+            "/5UANyM4co2nwYPgSEmGeNlZRm7V.jpg"
+        ]
+    },
+    # 20. Spider-Man & Venom: Post-Credit Clues
+    {
+        "id": 634649,
+        "title": "Spider-Man & Venom Post-Credits",
+        "original_title": "Spider-Man & Venom Multiverse",
+        "slug": "spiderman-venom-post-credits",
+        "media_type": "movie",
+        "release_date": "2021-12-17",
+        "hook_title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse 🕷️🖤",
+        "catchy_teaser": "The symbiote left behind in the MCU bar! 5 jaw-dropping Spider-Man & Venom post-credit secrets.",
+        "overview": "When Eddie Brock and Venom left a droplet of alien symbiote on an MCU bar counter, Marvel altered the multiverse forever. Here is the full breakdown of Phase 6 clues.",
+        "tagline": "The multiverse unleashed.",
+        "genres": ["Action", "Adventure", "Science Fiction"],
+        "runtime": 148,
+        "seasons": None,
+        "vote_average": 8.4,
+        "vote_count": 22000,
+        "category": "theories_easter_eggs",
+        "director": "Jon Watts",
+        "top_cast": ["Tom Holland", "Tom Hardy", "Zendaya", "Benedict Cumberbatch"],
+        "poster_path": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+        "backdrop_path": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+        "backdrops": [
+            "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+            "/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg"
+        ]
+    },
+    # 21. Friends: Where Are They Now?
+    {
+        "id": 1668,
+        "title": "Friends: Where Are They Now?",
+        "original_title": "Friends Sitcom Cast Retrospective",
+        "slug": "friends-where-are-they-now",
+        "media_type": "tv",
+        "release_date": "1994-09-22",
+        "hook_title": "Friends: Where Are The Central Perk Stars Today? ☕✨",
+        "catchy_teaser": "Could they BE any more iconic? From Hollywood power players to heartfelt tributes—see where the Friends cast is now!",
+        "overview": "Thirty years after the premiere of Friends, discover what happened to Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, David Schwimmer, and the lasting legacy of Matthew Perry.",
+        "tagline": "I'll be there for you.",
+        "genres": ["Comedy", "Romance", "Drama"],
+        "runtime": 22,
+        "seasons": 10,
+        "vote_average": 8.5,
+        "vote_count": 21000,
+        "category": "where_are_they_now",
+        "director": "David Crane & Marta Kauffman",
+        "top_cast": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow", "Matt LeBlanc", "David Schwimmer", "Matthew Perry"],
+        "poster_path": "/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg",
+        "backdrop_path": "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+        "backdrops": [
+            "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+            "/AtLnAEZMNzVMy07aG7QTVtfenj2.jpg"
+        ]
+    },
+    # 22. The Office: Where Are They Now?
+    {
+        "id": 2316,
+        "title": "The Office: Where Are They Now?",
+        "original_title": "The Office (US) Cast Retrospective",
+        "slug": "the-office-where-are-they-now",
+        "media_type": "tv",
+        "release_date": "2005-03-24",
+        "hook_title": "The Office: Where Is The Dunder Mifflin Cast In 2026? 📄📎",
+        "catchy_teaser": "That's what she said! From Scranton paper salesmen to Oscar nominees and Hollywood directors.",
+        "overview": "Explore the extraordinary post-Scranton careers of Steve Carell, John Krasinski, Rainn Wilson, Jenna Fischer, Angela Kinsey, and Mindy Kaling.",
+        "tagline": "A comedy for anyone whose boss is an idiot.",
+        "genres": ["Comedy"],
+        "runtime": 22,
+        "seasons": 9,
+        "vote_average": 8.6,
+        "vote_count": 23500,
+        "category": "where_are_they_now",
+        "director": "Greg Daniels",
+        "top_cast": ["Steve Carell", "John Krasinski", "Rainn Wilson", "Jenna Fischer", "Mindy Kaling"],
+        "poster_path": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+        "backdrop_path": "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+        "backdrops": [
+            "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+            "/1O7ECkD4mOKAgMAbQADBpTKBzOP.jpg"
+        ]
+    },
+    # 23. Popular 90s/2000s Sitcom Stars: Where Are They Now?
+    {
+        "id": 999301,
+        "title": "90s/2000s Sitcom Stars: Where Are They Now?",
+        "original_title": "Popular 90s & 2000s Sitcom Icons",
+        "slug": "sitcom-stars-where-are-they-now",
+        "media_type": "tv",
+        "release_date": "2000-01-09",
+        "hook_title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars 📺✨",
+        "catchy_teaser": "Frankie Muniz, Alfonso Ribeiro, Angus T. Jones! See what your favorite sitcom childhood icons are doing today.",
+        "overview": "From child prodigies to professional racecar drivers and primetime hosts: uncovering the fascinating second acts of Frankie Muniz, Alfonso Ribeiro, Angus T. Jones, and Jaleel White.",
+        "tagline": "Then versus now: the untold journeys.",
+        "genres": ["Comedy", "Family"],
+        "runtime": 24,
+        "seasons": 7,
+        "vote_average": 8.4,
+        "vote_count": 7800,
+        "category": "where_are_they_now",
+        "director": "Linwood Boomer",
+        "top_cast": ["Frankie Muniz", "Alfonso Ribeiro", "Angus T. Jones", "Jaleel White", "Topher Grace"],
+        "poster_path": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg",
+        "backdrop_path": "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
+        "backdrops": [
+            "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
+            "/qQFFEmt6Id9Nh4ckWx7FPlj2xah.jpg"
+        ]
     }
 ]
 

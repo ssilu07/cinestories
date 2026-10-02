@@ -80,19 +80,24 @@ MOVIE DATA:
 - Category: {movie.get('category')}
 - Available Backdrops Count: {len(movie.get('backdrops', []))}
 
+CATEGORY-SPECIFIC EDITORIAL ANGLE:
+- If Category is 'streaming_charts': Focus on weekly US & UK streaming viewership ranks (Netflix/HBO/Prime), million hours viewed, chart dominance, and why audiences can't stop binging.
+- If Category is 'theories_easter_eggs': Focus on post-credit scene breakdown, hidden comic easter eggs, Marvel/DC multiverse connections, villain reveals, and Secret Wars / DCU fan theories.
+- If Category is 'where_are_they_now': Focus on popular 90s/2000s sitcom stars, then-vs-now transformations, career shifts, secret hobbies (e.g. racing, directing, writing), net worth, and life today.
+
 STRICT EDITORIAL & AMP COMPLIANCE RULES:
-1. Story Title: Catchy, high-CTR SEO title under 70 characters (e.g. "Dune Part Two: 5 Mind-Blowing Secrets You Missed").
+1. Story Title: Catchy, high-CTR SEO title under 70 characters with emojis (e.g. "Top 10 Streaming Hits This Week in US/UK 🍿📊", "Marvel Post-Credits: 6 Insane Easter Eggs 🦸‍♂️⚡", "Friends: Where Are The Central Perk Stars Today? ☕✨").
 2. Number of Slides: Produce between 5 and 7 slides total.
 3. Slide Sequence:
-   - Slide 1 (Cover): Movie title, release status, and an irresistible curiosity hook.
-   - Slide 2: Plot premise / Core conflict (spoiler-free, snappy).
-   - Slide 3: Cast highlight / Star performances & director vision.
-   - Slide 4: Behind-the-scenes trivia / visual spectacle / stunt facts.
-   - Slide 5: Fan theories / critical buzz / cultural impact.
-   - Slide 6 or 7 (Final Slide): Call-to-action slide (e.g., "Check upcoming showtimes", "Add to watchlist").
+   - Slide 1 (Cover): Title, category context, and an irresistible curiosity hook.
+   - Slide 2: Core premise / #1 streaming rank / first big easter egg / lead sitcom star update.
+   - Slide 3: Major highlight / key characters or chart-toppers / director or actor transformation.
+   - Slide 4: Behind-the-scenes trivia / shock theory / wild career transition.
+   - Slide 5: Cultural impact / fan community debate / lasting legacy.
+   - Slide 6 or 7 (Final Slide): Call-to-action slide (e.g., "Explore Weekly Streaming Charts", "See All Marvel Theories", "Watch Sitcom Retrospectives").
 4. WORD LIMIT: Each slide's text MUST be STRICTLY UNDER 40 WORDS. Bite-sized, snackable, punchy.
 5. Provide a valid 'backdrop_index' for each slide (integers between 0 and {max(0, len(movie.get('backdrops', [])) - 1)}).
-6. Set 'cta_text' on the final slide (e.g., "Get Tickets & Showtimes") and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}".
+6. Set 'cta_text' on the final slide and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}" or "https://www.themoviedb.org/tv/{movie.get('id')}".
 """
 
         candidate_models = [self.model]
@@ -237,11 +242,24 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
         rating = movie.get("vote_average", 8.4)
         overview = movie.get("overview", "")
         max_backdrops = max(1, len(movie.get("backdrops", [])))
+        category = movie.get("category", "")
         is_tv = movie.get("media_type") == "tv"
-        is_cult = movie.get("category") == "cult_classic"
+        is_cult = category == "cult_classic"
+        is_streaming = category == "streaming_charts"
+        is_theories = category == "theories_easter_eggs"
+        is_sitcom = category == "where_are_they_now"
 
         # Punchy badge
-        if is_tv:
+        if is_streaming:
+            badge_1 = "📊 WEEKLY LEADERBOARD"
+            badge_2 = "STREAMING #1 BREAKDOWN"
+        elif is_theories:
+            badge_1 = "🦸‍♂️ MULTIVERSE DECODED"
+            badge_2 = "THE POST-CREDIT CLUE"
+        elif is_sitcom:
+            badge_1 = "🕰️ WHERE ARE THEY NOW?"
+            badge_2 = "THE ICONIC ERA"
+        elif is_tv:
             badge_1 = "🔥 BINGE PHENOMENON"
             badge_2 = "THE MASTERMIND PLOT"
         elif is_cult:

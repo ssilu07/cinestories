@@ -733,5 +733,474 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "cta_url": "https://www.themoviedb.org/movie/558449"
             }
         ]
+    },
+
+    # 15. Weekly Top 10 Streaming Hits (US/UK) - Netflix / HBO / Prime
+    "streaming-weekly-top-10-us-uk": {
+        "title": "Top 10 Streaming Hits This Week in the US & UK 🍿📊",
+        "seo_description": "Discover which shows are dominating Netflix, HBO Max, and Prime Video this week across the US and UK.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "📊 WEEKLY LEADERBOARD",
+                "title": "The Streaming Race",
+                "text": "Millions of viewers across the US and UK tuned in this week, crowning new viral champions across Netflix, HBO Max, and Amazon Prime Video.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🔴 NETFLIX #1 SENSATION",
+                "title": "Global Record Breakers",
+                "text": "International thrillers and true-crime docuseries dominated Netflix charts, accumulating over 250 million viewing hours in their debut week alone.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🟣 HBO SUNDAY DOMINANCE",
+                "title": "Prestige TV Reigns Supreme",
+                "text": "Sunday night appointment viewing is alive. Epic fantasy and dark criminal dramas held the top spot on HBO Max across the United States.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🔵 PRIME VIDEO HIT",
+                "title": "Wasteland & Superheroes",
+                "text": "Prime Video saw record surges with action-packed franchise adaptations and razor-sharp satire conquering both US and UK living rooms.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🇬🇧 UK VS 🇺🇸 US TRENDS",
+                "title": "What Country Streams What?",
+                "text": "While US viewers binged high-octane sci-fi, UK audiences catapulted gritty British crime procedurals and witty comedy into their top 5.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 WEEKEND WATCHLIST",
+                "title": "Ready For Your Next Binge?",
+                "text": "Plan your weekend watchlist now with our complete weekly breakdown of top 10 movies and series on streaming.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Top 10 Streaming Charts",
+                "cta_url": "https://www.themoviedb.org/tv"
+            }
+        ]
+    },
+
+    # 16. Fallout (Prime Video Weekly Sensation)
+    "fallout-prime-video": {
+        "title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video ☢️ Vault 33",
+        "seo_description": "Inside Vault 33 and the nuclear wasteland. 5 shocking secrets and Easter eggs from Prime Video's Fallout.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "☢️ VAULT-TEC EMPIRE",
+                "title": "Welcome To Vault 33",
+                "text": "When Lucy MacLean left the sanitized comfort of Vault 33, she stepped into a radioactive Californian wasteland full of ghouls and secrets.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🤠 THE GHOUL REVEAL",
+                "title": "Walton Goggins As Cooper",
+                "text": "Cooper Howard survived 200 years of nuclear hellfire. His transformation from Hollywood star to ruthless gunslinger Ghoul stole the entire series.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🤫 CONSPIRACY UNMASKED",
+                "title": "Vault-Tec Dropped The Bomb",
+                "text": "In a boardroom meeting of corporate titans, Vault-Tec executives revealed their sinister plot to ensure total monopoly by detonating the bombs themselves.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎮 GAME FIDELITY",
+                "title": "100% Canon To Games",
+                "text": "Todd Howard confirmed every event in Prime Video's series is officially canon to Bethesda's legendary Fallout video game timeline.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🎰 NEW VEGAS TEASE",
+                "title": "Season 2 Destination",
+                "text": "The jaw-dropping season finale camera pan over the Strip revealed New Vegas, setting the stage for an explosive Season 2 clash.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 STREAM ON PRIME",
+                "title": "Binge Season 1 Today",
+                "text": "Stream all 8 episodes of Fallout Season 1 in 4K HDR exclusively on Amazon Prime Video.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Fallout Cast & Season 2",
+                "cta_url": "https://www.themoviedb.org/tv/106379"
+            }
+        ]
+    },
+
+    # 17. House of the Dragon (HBO Max Weekly Chart-Topper)
+    "house-of-the-dragon": {
+        "title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max 🐉🔥",
+        "seo_description": "Inside the Targaryen civil war: dragon battles, Blood and Cheese, and Iron Throne betrayals on HBO Max.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🐉 FIRE AND BLOOD",
+                "title": "A Dynasty Divided",
+                "text": "The Greens versus the Blacks. When King Viserys died, brother fought sister and nephew fought uncle in Westeros' deadliest civil war.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "⚔️ ROOK'S REST CARNAGE",
+                "title": "Dragon Vs. Dragon Battle",
+                "text": "The battle at Rook's Rest delivered the most terrifying aerial dragon duel in television history as Vhagar, Sunfyre, and Meleys collided in flame.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🩸 BLOOD AND CHEESE",
+                "title": "The Darkest Retaliation",
+                "text": "Daemon Targaryen's ruthless decree 'A son for a son' plunged the Red Keep into irreversible psychological horror and tragedy.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "👑 RHAENYRA'S ARMY",
+                "title": "The Dragonseeds Rise",
+                "text": "To overcome Vhagar's immense size, Queen Rhaenyra found lowborn Targaryen bastards to claim unclaimed wild dragons Vermithor and Silverwing.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🔥 AEMOND'S REIGN",
+                "title": "One Eye, No Mercy",
+                "text": "Aemond Targaryen's betrayal of his brother Aegon II proved that in the game for the Iron Throne, family means nothing.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 WATCH ON HBO MAX",
+                "title": "Stream Every Epic Episode",
+                "text": "Experience both seasons of House of the Dragon streaming now on HBO Max.",
+                "backdrop_index": 1,
+                "cta_text": "Explore House of the Dragon",
+                "cta_url": "https://www.themoviedb.org/tv/94997"
+            }
+        ]
+    },
+
+    # 18. Marvel Multiverse: Post-Credit Theories
+    "marvel-post-credit-theories": {
+        "title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories 🦸‍♂️⚡",
+        "seo_description": "From Anchor Beings and Doctor Doom to Gambit's return—unpacking the biggest Marvel post-credit clues leading to Secret Wars.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🦸‍♂️ MARVEL DECODED",
+                "title": "The End Credits Secret",
+                "text": "Marvel revolutionized cinema by turning end credits into universe-altering teasers. Now, Phase 6 clues point directly toward catastrophic Multiversal War.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "⚓ ANCHOR BEINGS EXPLAINED",
+                "title": "The Multiverse Anchor",
+                "text": "Deadpool revealed that each universe relies on an Anchor Being. If that hero dies, their timeline decays into complete cosmic annihilation.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "👑 DOCTOR DOOM'S ARRIVAL",
+                "title": "Robert Downey Jr. Returns",
+                "text": "RDJ returning as Victor Von Doom isn't an Iron Man variant—comic theories suggest Doom will steal the Beyonder's powers to forge Battleworld.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🃏 GAMBIT & THE VOID",
+                "title": "Did Gambit Escape?",
+                "text": "Channing Tatum's post-credit TVA monitor screen proved Gambit survived Cassandra Nova's Void massacre through a magical sling-ring portal.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "😭 THOR WEEPING FOR WADE",
+                "title": "The Battleworld Prophecy",
+                "text": "Why was Thor crying over a dying Deadpool? Insiders theorize it takes place in the climactic final battle of Avengers: Doomsday.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🍿 PHASE 6 WATCHLIST",
+                "title": "Prepare For Battleworld",
+                "text": "Track upcoming Marvel release dates, comic connections, and post-credit breakdowns on CineStories.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Marvel Multiverse Guide",
+                "cta_url": "https://www.themoviedb.org/movie/533535"
+            }
+        ]
+    },
+
+    # 19. DC Universe: Easter Eggs & Multiverse Theories
+    "dc-easter-eggs-theories": {
+        "title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories 🦇🃏",
+        "seo_description": "Arkham riddles, Joker ciphers, and James Gunn's DCU roadmap: uncover the darkest hidden clues in Batman & DC.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🦇 GOTHAM SHADOWS",
+                "title": "Unmasking Gotham's Clues",
+                "text": "From Matt Reeves' gritty detective saga to James Gunn's reborn DCU, hidden symbols in Gotham tell a sinister story ordinary viewers missed.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🃏 THE ARKHAM CIPHER",
+                "title": "Barry Keoghan's Joker",
+                "text": "The deleted Arkham conversation between Batman and Joker teased a congenital laughing disorder, setting up a terrifying alliance with Paul Dano's Riddler.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🦉 COURT OF OWLS HIDDEN",
+                "title": "Gotham's True Masters",
+                "text": "Owl motifs embedded in Wayne Tower and Mayor Mitchell's home strongly indicate Gotham's legendary Court of Owls will strike in The Batman Part II.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🐧 OZ COBB'S MONOPOLY",
+                "title": "The Penguin's Rise",
+                "text": "With Carmine Falcone gone, Oz Cobb eliminated rival mob families and seized Gotham's illicit drug trade, cementing himself as the new kingpin.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "⚡ GODS AND MONSTERS",
+                "title": "James Gunn's DCU Era",
+                "text": "Superman, Creature Commandos, and Peacemaker Season 2 are linking a cohesive tapestry of comic-accurate superheroes and antiheroes.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🎬 ENTER THE DC UNIVERSE",
+                "title": "Explore Dark Detective Lore",
+                "text": "Dive deeper into DC movie timelines, comic easter eggs, and casting updates today.",
+                "backdrop_index": 1,
+                "cta_text": "Explore DC Universe Cast & News",
+                "cta_url": "https://www.themoviedb.org/movie/414906"
+            }
+        ]
+    },
+
+    # 20. Spider-Man & Venom: Post-Credit Clues
+    "spiderman-venom-post-credits": {
+        "title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse 🕷️🖤",
+        "seo_description": "The alien symbiote left behind in the MCU, Peter Parker's isolation, and Spider-Man 4 theories explained.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🕷️ THE SYMBIOTE DROPLET",
+                "title": "Left Behind In The MCU",
+                "text": "When Doctor Strange sent Eddie Brock back to his universe, a tiny living droplet of Venom stayed on the bar counter. The alien is now officially in the MCU.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🕸️ PETER'S TOTAL ISOLATION",
+                "title": "Forgotten By Everyone",
+                "text": "With Ned, MJ, and the Avengers completely forgetting Peter Parker existed, Spider-Man is back to his gritty, street-level comic roots.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🖤 BLACK SUIT SAGA NEXT?",
+                "title": "A Darker Spider-Man",
+                "text": "Vulnerable and grieving Aunt May, Peter is the perfect host for the alien symbiote, setting up Marvel's live-action Black Suit comic storyline.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "⚡ MILES MORALES LIVE-ACTION",
+                "title": "The Brooklyn Spider",
+                "text": "Electro's iconic quote 'There's gotta be a Black Spider-Man out there somewhere' teased the inevitable introduction of Miles Morales into the MCU.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🏙️ DAREDEVIL & KINGPIN ALLIANCE",
+                "title": "New York Street War",
+                "text": "With Matt Murdock defending Peter and Kingpin ruling New York, Spider-Man 4 is primed for a brutal grounded gangland war.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 STREAM NO WAY HOME",
+                "title": "Relive The Multiverse Epic",
+                "text": "Stream Spider-Man: No Way Home and explore full easter egg breakdowns on CineStories.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Spider-Man 4 Details",
+                "cta_url": "https://www.themoviedb.org/movie/634649"
+            }
+        ]
+    },
+
+    # 21. Friends: Where Are They Now?
+    "friends-where-are-they-now": {
+        "title": "Friends: Where Are The Central Perk Stars Today? ☕✨",
+        "seo_description": "Thirty years later: where are Jennifer Aniston, Matt LeBlanc, Courteney Cox, David Schwimmer, Lisa Kudrow, and Matthew Perry's legacy?",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "☕ 30 YEARS OF FRIENDS",
+                "title": "The Central Perk Legacy",
+                "text": "Premiering in 1994, Friends became the greatest sitcom in television history. Three decades later, what happened to the 6 beloved stars?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "👑 JENNIFER ANISTON",
+                "title": "Hollywood's Top Powerhouse",
+                "text": "Jennifer Aniston evolved from Rachel Green into a global producer, award-winning star of Apple TV's The Morning Show, and successful beauty entrepreneur.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🎬 COURTENEY & LISA",
+                "title": "Scream Queens & Producers",
+                "text": "Courteney Cox leads the multi-million dollar Scream franchise, while Lisa Kudrow produces acclaimed comedies and stars in prestige shows like Time Bandits.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎭 MATT & DAVID",
+                "title": "Stage, Speed & Passions",
+                "text": "Matt LeBlanc conquered hosting on Top Gear and Man with a Plan, while David Schwimmer directed films and triumphed on London and Broadway stages.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🕊️ MATTHEW PERRY (1969-2023)",
+                "title": "Chandler Bing Forever",
+                "text": "Matthew Perry gave us television's most brilliant sarcastic wit. His best-selling memoir and addiction recovery advocacy continue saving lives worldwide.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 STREAM ALL 10 SEASONS",
+                "title": "I'll Be There For You",
+                "text": "Celebrate 30 years of laughter by streaming all 236 episodes of Friends and the HBO Reunion Special today.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Friends Cast Retrospective",
+                "cta_url": "https://www.themoviedb.org/tv/1668"
+            }
+        ]
+    },
+
+    # 22. The Office: Where Are They Now?
+    "the-office-where-are-they-now": {
+        "title": "The Office: Where Is The Dunder Mifflin Cast In 2026? 📄📎",
+        "seo_description": "From Scranton paper salesmen to Oscar nominees and blockbuster directors: see where The Office stars are today.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "📄 SCRANTON LEGENDS",
+                "title": "Life Beyond Dunder Mifflin",
+                "text": "Nine seasons of mockumentary perfection made The Office the most-streamed comedy in history. Here is how its stars conquered Hollywood.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🏆 STEVE CARELL",
+                "title": "The World's Best Boss",
+                "text": "Steve Carell transformed from Michael Scott into an Oscar-nominated dramatic actor in Foxcatcher, The Big Short, and Broadway hit Uncle Vanya.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🎬 JOHN KRASINSKI",
+                "title": "The Blockbuster Filmmaker",
+                "text": "Jim Halpert became a major Hollywood auteur, creating the billion-dollar A Quiet Place franchise and headlining Tom Clancy's Jack Ryan.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🌱 RAINN WILSON",
+                "title": "Dwight's Soulful Second Act",
+                "text": "Rainn Wilson traded beets for bestselling books, founding media company SoulPancake and traveling the globe as a passionate climate change advocate.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🎙️ FISCHER & KINSEY",
+                "title": "The Office Ladies Empire",
+                "text": "Jenna Fischer and Angela Kinsey created the wildly popular Office Ladies podcast, winning Podcast of the Year and publishing bestselling backstage memoirs.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "☕ REVISIT SCRANTON",
+                "title": "That's What She Said!",
+                "text": "Stream all 9 seasons and exclusive Superfan episodes of The Office on Peacock and streaming platforms worldwide.",
+                "backdrop_index": 1,
+                "cta_text": "Explore The Office Cast & Trivia",
+                "cta_url": "https://www.themoviedb.org/tv/2316"
+            }
+        ]
+    },
+
+    # 23. Popular 90s/2000s Sitcom Stars: Where Are They Now?
+    "sitcom-stars-where-are-they-now": {
+        "title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars 📺✨",
+        "seo_description": "Frankie Muniz, Alfonso Ribeiro, Angus T. Jones, and Jaleel White: where did Hollywood's biggest sitcom icons vanish to?",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "📺 SITCOM RETROSPECTIVE",
+                "title": "The Stars Who Grew Up",
+                "text": "They made millions laugh every single week. But after the cameras stopped rolling, several beloved sitcom stars chose wildly unexpected paths in life.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🏎️ FRANKIE MUNIZ",
+                "title": "Malcolm Is A NASCAR Driver",
+                "text": "The Emmy-nominated star of Malcolm in the Middle left acting behind to become a full-time professional NASCAR stock car racing driver.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🕺 ALFONSO RIBEIRO",
+                "title": "The Carlton Dance King",
+                "text": "Fresh Prince's Carlton Banks turned his comedic charisma into an incredible hosting career, leading Dancing with the Stars and America's Funniest Home Videos.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🙏 ANGUS T. JONES",
+                "title": "Half Men Star's New Calling",
+                "text": "Once the highest-paid child actor on TV as Jake Harper in Two and a Half Men, Angus walked away from Hollywood to dedicate himself to faith and music production.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🤓 JALEEL WHITE",
+                "title": "Did I Do That? Beyond Urkel",
+                "text": "Family Matters genius Jaleel White authored a candid bestselling memoir, launched his 'ItsPurpl' lifestyle brand, and returned to star in Star Wars: Skeleton Crew.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "✨ NOSTALGIA REWIND",
+                "title": "Relive The Sitcom Golden Age",
+                "text": "Explore more then-and-now retrospectives of your favorite 90s and 2000s childhood comedy legends on CineStories.",
+                "backdrop_index": 1,
+                "cta_text": "Explore 90s Sitcom Retrospectives",
+                "cta_url": "https://www.themoviedb.org/tv/2004"
+            }
+        ]
     }
 }
+
