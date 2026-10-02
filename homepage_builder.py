@@ -36,7 +36,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             "title": s.get("title", m.get("title", "")),
             "movie_title": m.get("title", ""),
             "slug": slug,
-            "url": f"{domain}/stories/{slug}/",
+            "url": f"/stories/{slug}/",
             "poster_url": poster_url,
             "category": m.get("category", "trending"),
             "release_date": m.get("release_date", "Coming Soon"),
@@ -609,8 +609,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <!-- Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
-      <a href="{domain}/" class="brand-wrap">
-        <img src="{domain}/assets/logo.png" alt="{SITE_NAME} Logo" class="brand-logo">
+      <a href="/" class="brand-wrap">
+        <img src="/assets/logo.png" alt="{SITE_NAME} Logo" class="brand-logo">
         <div class="brand-text">
           <h1>{SITE_NAME}</h1>
           <p>AMP Web Stories</p>
@@ -619,7 +619,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
       <div class="nav-actions">
         <span class="amp-pill">⚡ 100% AMP Valid</span>
-        <a href="{domain}/sitemap.xml" class="btn btn-outline" target="_blank" rel="noopener">
+        <a href="/sitemap.xml" class="btn btn-outline" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6"/></svg>
           Sitemap
         </a>
@@ -670,8 +670,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <p class="footer-tmdb-notice">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
       </div>
       <div class="footer-links">
-        <a href="{domain}/sitemap.xml">XML Sitemap</a>
-        <a href="{domain}/stories.json">Stories Manifest</a>
+        <a href="/sitemap.xml">XML Sitemap</a>
+        <a href="/stories.json">Stories Manifest</a>
         <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
