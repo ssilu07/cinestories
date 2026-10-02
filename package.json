@@ -1,0 +1,29 @@
+{
+  "name": "cinestories",
+  "version": "1.0.0",
+  "description": "Automated Movie & Entertainment Web Stories platform generating 100% AMP-valid Google Web Stories using TMDB and Gemini AI",
+  "main": "dist/index.html",
+  "scripts": {
+    "generate": "python fetch_and_generate.py",
+    "generate:demo": "python fetch_and_generate.py --demo",
+    "validate": "python validator.py",
+    "validate:amp": "npx amphtml-validator dist/stories/*/index.html",
+    "serve": "python serve.py",
+    "build:assets": "python generate_assets.py"
+  },
+  "keywords": [
+    "amp",
+    "web-stories",
+    "google-discover",
+    "tmdb",
+    "gemini-ai",
+    "seo",
+    "entertainment",
+    "movies"
+  ],
+  "author": "MoviePulse",
+  "license": "MIT",
+  "devDependencies": {
+    "amphtml-validator": "^1.0.38"
+  }
+}

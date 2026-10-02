@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0f111a"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#e11d48" stroke-width="2"/>
+  <!-- Clapper top slate -->
+  <rect x="12" y="14" width="40" height="10" rx="3" fill="#1e293b" stroke="#cbd5e1" stroke-width="1"/>
+  <polygon points="18,15 24,15 20,23 14,23" fill="#ffffff"/>
+  <polygon points="30,15 36,15 32,23 26,23" fill="#ffffff"/>
+  <polygon points="42,15 48,15 44,23 38,23" fill="#ffffff"/>
+  <!-- Clapper bottom -->
+  <rect x="12" y="24" width="40" height="24" rx="3" fill="#e11d48"/>
+  <!-- Golden play triangle -->
+  <polygon points="36,36 28,30 28,42" fill="#fbbf24"/>
+</svg>
