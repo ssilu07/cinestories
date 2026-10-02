@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-02T18:35:23.331006+00:00",
-  "total_stories": 23,
+  "generated_at": "2026-10-02T18:45:42.654598+00:00",
+  "total_stories": 27,
   "stories": [
     {
       "id": 999101,
@@ -201,6 +201,42 @@
       "category": "cult_classic",
       "release_date": "2008-07-16",
       "rating": 8.5
+    },
+    {
+      "id": 216015,
+      "slug": "fifty-shades-of-grey",
+      "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
+      "url": "https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/",
+      "category": "steamy_thrillers",
+      "release_date": "2015-02-11",
+      "rating": 5.9
+    },
+    {
+      "id": 664413,
+      "slug": "365-days",
+      "title": "365 Days: Why Netflix's Bold Sensation Broke Global Records \ud83d\udd25\ud83d\udca5",
+      "url": "https://cinestories-omega.vercel.app/stories/365-days/",
+      "category": "steamy_thrillers",
+      "release_date": "2020-02-07",
+      "rating": 5.6
+    },
+    {
+      "id": 402,
+      "slug": "basic-instinct",
+      "title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller \ud83e\uddca\u26a1",
+      "url": "https://cinestories-omega.vercel.app/stories/basic-instinct/",
+      "category": "steamy_thrillers",
+      "release_date": "1992-03-20",
+      "rating": 6.9
+    },
+    {
+      "id": 930564,
+      "slug": "saltburn",
+      "title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets \ud83c\udff0\ud83c\udf77",
+      "url": "https://cinestories-omega.vercel.app/stories/saltburn/",
+      "category": "steamy_thrillers",
+      "release_date": "2023-11-17",
+      "rating": 7.1
     },
     {
       "id": 558449,

@@ -233,6 +233,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/articles/fifty-shades-of-grey/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg</image:loc>
+      <image:title>Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire 🖤🔥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/365-days/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg</image:loc>
+      <image:title>365 Days: Why Netflix's Bold Sensation Broke Global Records 🔥💥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/basic-instinct/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/7FRraud59N3s10bbf9bfYjvwx3v.jpg</image:loc>
+      <image:title>Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller 🧊⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/saltburn/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg</image:loc>
+      <image:title>Saltburn: 5 Twisted Mind Games &amp; Shocking Estate Secrets 🏰🍷 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/articles/gladiator-ii/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>daily</changefreq>
@@ -460,6 +500,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg</image:loc>
       <image:title>The Dark Knight Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg</image:loc>
+      <image:title>Fifty Shades of Grey Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/365-days/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6KwrHucIE3CvNT7kTm2MAlZ4fYF.jpg</image:loc>
+      <image:title>365 Days Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/basic-instinct/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg</image:loc>
+      <image:title>Basic Instinct Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/saltburn/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/zGTfMwG112BC66mpaveVxoWPOaB.jpg</image:loc>
+      <image:title>Saltburn Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

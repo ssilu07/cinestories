@@ -30,6 +30,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     trending_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "trending")
     cult_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "cult_classic")
     upcoming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "upcoming")
+    steamy_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "steamy_thrillers")
 
     # Prepare cards data
     cards_data = []
@@ -76,6 +77,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             category_label = "TV Series"
         elif c["category"] == "cult_classic":
             category_label = "Cult Classic"
+        elif c["category"] == "steamy_thrillers":
+            category_label = "Bold & Steamy"
         else:
             category_label = c["category"].replace("_", " ").title()
 
@@ -524,6 +527,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       color: #fff;
     }}
 
+    .badge-steamy_thrillers {{
+      background: linear-gradient(135deg, #e11d48, #db2777);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(225, 29, 72, 0.4);
+    }}
+
     .rating-badge {{
       font-size: 11px;
       font-weight: 700;
@@ -832,6 +841,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <button class="filter-btn" data-filter="series">TV Series ({series_count})</button>
         <button class="filter-btn" data-filter="trending">Trending Movies ({trending_count})</button>
         <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises ({cult_count})</button>
+        <button class="filter-btn" data-filter="steamy_thrillers">🔥 Bold Thrillers ({steamy_count})</button>
         <button class="filter-btn" data-filter="upcoming">Upcoming ({upcoming_count})</button>
       </div>
 

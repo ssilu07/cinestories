@@ -72,7 +72,8 @@ class TMDBClient:
             "cult_classic": ("/movie/top_rated", "movie"),
             "streaming_charts": ("/trending/tv/week", "tv"),
             "theories_easter_eggs": ("/trending/movie/week", "movie"),
-            "where_are_they_now": ("/tv/popular", "tv")
+            "where_are_they_now": ("/tv/popular", "tv"),
+            "steamy_thrillers": ("/discover/movie?with_genres=53,10749", "movie")
         }
 
         endpoint, media_type = endpoint_map.get(category, ("/trending/movie/week", "movie"))

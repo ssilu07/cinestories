@@ -74,6 +74,8 @@ def build_discover_feed_html(
             cat_label = "TV Series"
         elif cat == "cult_classic":
             cat_label = "Cult Classic"
+        elif cat == "steamy_thrillers":
+            cat_label = "Bold & Steamy"
         else:
             cat_label = cat.replace("_", " ").title()
 
@@ -643,6 +645,7 @@ def build_discover_feed_html(
       <button class="filter-pill" data-filter="where_are_they_now">✨ Where Are They Now?</button>
       <button class="filter-pill" data-filter="series">📺 TV Series</button>
       <button class="filter-pill" data-filter="cult_classic">🎬 Cult Classics</button>
+      <button class="filter-pill" data-filter="steamy_thrillers">🔥 Bold Thrillers</button>
       <button class="filter-pill" data-filter="upcoming">⚡ Upcoming</button>
     </div>
   </div>

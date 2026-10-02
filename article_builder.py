@@ -49,6 +49,8 @@ def build_discover_article_html(
         category_label = "TV Series"
     elif category == "cult_classic":
         category_label = "Cult Classic"
+    elif category == "steamy_thrillers":
+        category_label = "Bold & Steamy Thrillers"
 
     # Images
     backdrop_path = movie.get("backdrop_path")

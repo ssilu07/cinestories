@@ -625,7 +625,116 @@ SAMPLE_MEDIA = [
             "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
             "/qQFFEmt6Id9Nh4ckWx7FPlj2xah.jpg"
         ]
+    },
+    # 24. Fifty Shades of Grey
+    {
+        "id": 216015,
+        "title": "Fifty Shades of Grey",
+        "original_title": "Fifty Shades of Grey",
+        "slug": "fifty-shades-of-grey",
+        "media_type": "movie",
+        "release_date": "2015-02-11",
+        "hook_title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire 🖤🔥",
+        "catchy_teaser": "A $570M box office shockwave. 5 behind-the-scenes secrets of Hollywood's boldest modern romance.",
+        "overview": "Literature student Anastasia Steele's life changes forever when she interviews enigmatic billionaire Christian Grey, plunging into a complex world of luxury, control, and intense passion.",
+        "tagline": "Mr. Grey will see you now.",
+        "genres": ["Drama", "Romance", "Thriller"],
+        "runtime": 125,
+        "seasons": None,
+        "vote_average": 5.9,
+        "vote_count": 12400,
+        "category": "steamy_thrillers",
+        "director": "Sam Taylor-Johnson",
+        "top_cast": ["Dakota Johnson", "Jamie Dornan", "Jennifer Ehle", "Eloise Mumford", "Rita Ora"],
+        "poster_path": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
+        "backdrop_path": "/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg",
+        "backdrops": [
+            "/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg",
+            "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg"
+        ]
+    },
+    # 25. 365 Days
+    {
+        "id": 664413,
+        "title": "365 Days",
+        "original_title": "365 Dni",
+        "slug": "365-days",
+        "media_type": "movie",
+        "release_date": "2020-02-07",
+        "hook_title": "365 Days: Why Netflix's Bold Sensation Broke Global Records 🔥💥",
+        "catchy_teaser": "1 Year. 1 Demanding Sicilian Mob Boss. The global streaming hit that dominated #1 charts in 90+ countries.",
+        "overview": "When sales director Laura is abducted in Sicily by mob boss Massimo Torricelli, she is given exactly 365 days to fall in love with him in a whirlwind of Mediterranean intrigue.",
+        "tagline": "Are you lost baby girl?",
+        "genres": ["Drama", "Romance", "Thriller"],
+        "runtime": 114,
+        "seasons": None,
+        "vote_average": 5.6,
+        "vote_count": 8900,
+        "category": "steamy_thrillers",
+        "director": "Barbara Białowąs",
+        "top_cast": ["Michele Morrone", "Anna-Maria Sieklucka", "Bronisław Wrocławski", "Otar Saralidze"],
+        "poster_path": "/6KwrHucIE3CvNT7kTm2MAlZ4fYF.jpg",
+        "backdrop_path": "/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg",
+        "backdrops": [
+            "/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg",
+            "/6KwrHucIE3CvNT7kTm2MAlZ4fYF.jpg"
+        ]
+    },
+    # 26. Basic Instinct
+    {
+        "id": 402,
+        "title": "Basic Instinct",
+        "original_title": "Basic Instinct",
+        "slug": "basic-instinct",
+        "media_type": "movie",
+        "release_date": "1992-03-20",
+        "hook_title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller 🧊⚡",
+        "catchy_teaser": "The infamous interrogation scene, ice-pick mind games, and Paul Verhoeven's boundary-pushing masterpiece.",
+        "overview": "Detective Nick Curran investigates the brutal ice-pick murder of a rock star, becoming entangled with Catherine Tramell, an enigmatic novelist whose books eerily predict real-life crimes.",
+        "tagline": "A brutal murder. A brilliant killer. A cop who can't resist.",
+        "genres": ["Thriller", "Mystery"],
+        "runtime": 128,
+        "seasons": None,
+        "vote_average": 6.9,
+        "vote_count": 3800,
+        "category": "steamy_thrillers",
+        "director": "Paul Verhoeven",
+        "top_cast": ["Michael Douglas", "Sharon Stone", "George Dzundza", "Jeanne Tripplehorn"],
+        "poster_path": "/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+        "backdrop_path": "/7FRraud59N3s10bbf9bfYjvwx3v.jpg",
+        "backdrops": [
+            "/7FRraud59N3s10bbf9bfYjvwx3v.jpg",
+            "/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg"
+        ]
+    },
+    # 27. Saltburn
+    {
+        "id": 930564,
+        "title": "Saltburn",
+        "original_title": "Saltburn",
+        "slug": "saltburn",
+        "media_type": "movie",
+        "release_date": "2023-11-17",
+        "hook_title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets 🏰🍷",
+        "catchy_teaser": "Obsession, luxury, and betrayal. The shocking psychological thriller that turned social media upside down.",
+        "overview": "Oxford student Oliver Quick is invited by aristocratic classmate Felix Catton to Saltburn, his eccentric family's lavish estate, setting off a provocative summer of seduction and deceit.",
+        "tagline": "We're all about to lose our minds.",
+        "genres": ["Drama", "Comedy", "Thriller"],
+        "runtime": 131,
+        "seasons": None,
+        "vote_average": 7.1,
+        "vote_count": 3100,
+        "category": "steamy_thrillers",
+        "director": "Emerald Fennell",
+        "top_cast": ["Barry Keoghan", "Jacob Elordi", "Rosamund Pike", "Richard E. Grant", "Carey Mulligan"],
+        "poster_path": "/zGTfMwG112BC66mpaveVxoWPOaB.jpg",
+        "backdrop_path": "/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg",
+        "backdrops": [
+            "/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg",
+            "/zGTfMwG112BC66mpaveVxoWPOaB.jpg"
+        ]
     }
 ]
 
 SAMPLE_MOVIES = SAMPLE_MEDIA
+

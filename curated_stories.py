@@ -1201,6 +1201,211 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "cta_url": "https://www.themoviedb.org/tv/2004"
             }
         ]
+    },
+    # 24. Fifty Shades of Grey
+    "fifty-shades-of-grey": {
+        "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire 🖤🔥",
+        "seo_description": "Uncover the $570M box office phenomenon, Dakota Johnson's casting, and behind-the-scenes secrets of Fifty Shades of Grey.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🔥 $570M PHENOMENON",
+                "title": "The Global Romance Shockwave",
+                "text": "Adapted from E.L. James's bestselling novels, Fifty Shades of Grey shattered box office records, grossing over $570 million worldwide on Valentine's Day weekend.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🎬 DAKOTA'S AUDITION",
+                "title": "Ana Steele's Casting Victory",
+                "text": "Dakota Johnson beat dozens of Hollywood stars for Anastasia Steele by reading a dramatic scene from Ingmar Bergman's Persona, captivating director Sam Taylor-Johnson.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "👔 MR. GREY'S WORLD",
+                "title": "Building The Seattle Empire",
+                "text": "Jamie Dornan trained rigorously to embody Christian Grey's billionaire intensity, practicing ballroom dancing, piano pieces, and bespoke wardrobe styling.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎵 GRAMMY SOUNDTRACK",
+                "title": "The Weeknd & Beyoncé Hits",
+                "text": "The platinum-selling soundtrack produced global smash hits including The Weeknd's Oscar-nominated 'Earned It' and Ellie Goulding's record-shattering 'Love Me Like You Do'.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "💥 CULTURAL LEGACY",
+                "title": "A Modern Pop Culture Shift",
+                "text": "The trilogy sparked worldwide conversations around modern romance, dominating book clubs, streaming platforms, and pop culture debates for an entire generation.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 STREAM THE SAGA",
+                "title": "Relive The Romance Trilogy",
+                "text": "Stream all three chapters of Fifty Shades on premium VOD platforms and explore full cast trivia today.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Fifty Shades Details",
+                "cta_url": "https://www.themoviedb.org/movie/216015"
+            }
+        ]
+    },
+    # 25. 365 Days
+    "365-days": {
+        "title": "365 Days: Why Netflix's Bold Sensation Broke Global Records 🔥💥",
+        "seo_description": "Discover why 365 Days became a worldwide Netflix streaming phenomenon across 90+ countries and Michele Morrone's overnight rise.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "📊 GLOBAL STREAMING HIT",
+                "title": "#1 in Over 90 Countries",
+                "text": "Premiering on Netflix in 2020, 365 Days became one of the platform's most-watched foreign titles in history, topping daily Top 10 lists worldwide.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🕶️ MICHELE MORRONE",
+                "title": "Overnight International Stardom",
+                "text": "Italian actor and musician Michele Morrone went from obscurity to millions of followers overnight, singing lead vocal tracks on the film's chart-topping soundtrack.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🌊 SICILIAN SPECTACLE",
+                "title": "Lavish Mediterranean Backdrops",
+                "text": "Filmed across breathtaking Italian coastline villas, Warsaw luxury hotels, and sun-soaked yachts, the cinematography created an escapist dreamscape.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "⚡ VIRAL TIKTOK FRENZY",
+                "title": "Billions of Social Impressions",
+                "text": "Catchy dialogue lines like 'Are you lost baby girl?' sparked billions of TikTok views, propelling the film into a viral internet phenomenon.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🎬 TRILOGY EXPANSION",
+                "title": "The Blockbuster Sequel Era",
+                "text": "Massive international viewership prompted Netflix to greenlight two back-to-back sequels, cementing 365 Days as one of Europe's biggest commercial franchises.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🍿 BINGE THE TRILOGY",
+                "title": "Watch All 3 Installments",
+                "text": "Explore the full 365 Days movie universe, soundtrack, and cast profiles on CineStories today.",
+                "backdrop_index": 1,
+                "cta_text": "View 365 Days Details",
+                "cta_url": "https://www.themoviedb.org/movie/664413"
+            }
+        ]
+    },
+    # 26. Basic Instinct
+    "basic-instinct": {
+        "title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller 🧊⚡",
+        "seo_description": "Relive Paul Verhoeven's boundary-pushing masterpiece Basic Instinct, Sharon Stone's iconic performance, and the white ice-pick mystery.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🧊 CULT MASTERPIECE",
+                "title": "The $350M Thriller Legend",
+                "text": "Paul Verhoeven's 1992 neo-noir shattered box offices worldwide, raking in $352 million and revolutionizing the psychological erotic thriller genre.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "👑 SHARON STONE",
+                "title": "The Interrogation Scene",
+                "text": "Sharon Stone's electrifying portrayal of brilliant novelist Catherine Tramell cemented her status as cinema's ultimate, unshakeable femme fatale.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🕵️ MICHAEL DOUGLAS",
+                "title": "Nick Curran's Dark Descent",
+                "text": "Michael Douglas delivered one of his most intense performances as a flawed homicide detective hopelessly ensnared in Catherine's deadly psychological web.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎼 JERRY GOLDSMITH",
+                "title": "The Oscar-Nominated Score",
+                "text": "Composer Jerry Goldsmith crafted a haunting, suspense-drenched orchestral masterpiece that elevated every tense confrontation into pure cinematic art.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "❓ UNANSWERED ENIGMA",
+                "title": "Who Held The Ice Pick?",
+                "text": "Decades later, cinephiles still passionately debate the final ambiguous bedroom camera reveal: was Catherine truly the killer, or the ultimate puppeteer?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🎬 CINEMA HISTORY",
+                "title": "Stream The 4K Restored Classic",
+                "text": "Experience Paul Verhoeven's uncut masterpiece in 4K UHD and explore retrospective cast interviews on CineStories.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Basic Instinct Details",
+                "cta_url": "https://www.themoviedb.org/movie/402"
+            }
+        ]
+    },
+    # 27. Saltburn
+    "saltburn": {
+        "title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets 🏰🍷",
+        "seo_description": "Explore Emerald Fennell's Saltburn: Barry Keoghan's masterclass, Jacob Elordi's charm, and the shocking secrets of the Catton estate.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🏰 ARISTOCRATIC OBSESSION",
+                "title": "Welcome To Saltburn Estate",
+                "text": "Oscar winner Emerald Fennell delivers a gothic, deliciously wicked satire of English high society, obsession, and Machiavellian deceit.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🎭 BARRY KEOGHAN",
+                "title": "Oliver's Chilling Transformation",
+                "text": "Barry Keoghan gives a fearless, career-defining performance as Oxford outsider Oliver Quick, who systematically ingratiates himself with the wealthy Cattons.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "✨ JACOB ELORDI",
+                "title": "The Irresistible Felix Catton",
+                "text": "Jacob Elordi shines as the charismatic golden boy heir, whose magnetic hospitality conceals the shallow cruelty of his aristocratic lineage.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎶 MURDER ON DANCEFLOOR",
+                "title": "Sophie Ellis-Bextor's Revival",
+                "text": "The unforgettable final dance sequence propelled Sophie Ellis-Bextor's 2001 classic 'Murder on the Dancefloor' back to the top of global music charts.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🍷 SHOCKING TWISTS",
+                "title": "The Master Manipulator",
+                "text": "The third-act graveyard and estate revelations shocked audiences, cementing Saltburn as one of the most talked-about social thrillers of the decade.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "⚡ STREAM ON PRIME",
+                "title": "Enter The World of Saltburn",
+                "text": "Watch Saltburn on Prime Video and uncover behind-the-scenes cinematography details on CineStories.",
+                "backdrop_index": 1,
+                "cta_text": "Explore Saltburn Details",
+                "cta_url": "https://www.themoviedb.org/movie/930564"
+            }
+        ]
     }
 }
+
 
