@@ -42,7 +42,7 @@ def check_amp_files(target_dir: Path = STORIES_DIR) -> Tuple[int, int, List[str]
 
     try:
         # Run all files in a single fast batch
-        cmd = [npx_cmd, "amphtml-validator"] + file_paths
+        cmd = [npx_cmd, "--yes", "amphtml-validator"] + file_paths
         result = subprocess.run(
             cmd,
             capture_output=True,
