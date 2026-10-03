@@ -2,8 +2,9 @@ name: Automated Movie Web Stories Pipeline & Deploy
 
 on:
   schedule:
-    # Runs daily at 06:00 UTC (11:30 AM IST)
-    - cron: '0 6 * * *'
+    # Runs every 4 hours (6 times a day: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    # IST: 05:30 AM, 09:30 AM, 01:30 PM, 05:30 PM, 09:30 PM, 01:30 AM
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       category:
