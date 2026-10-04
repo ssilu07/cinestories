@@ -1,9 +1,162 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-04T18:31:04.773018+00:00",
-  "total_stories": 33,
+  "generated_at": "2026-10-04T18:32:18.252769+00:00",
+  "total_stories": 49,
   "stories": [
+    {
+      "id": 258165,
+      "slug": "east-of-eden",
+      "title": "East of Eden: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/east-of-eden/",
+      "category": "series",
+      "release_date": "2026-10-01",
+      "rating": 7.8
+    },
+    {
+      "id": 298505,
+      "slug": "coven-academy",
+      "title": "Coven Academy: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/coven-academy/",
+      "category": "series",
+      "release_date": "2026-10-01",
+      "rating": 7.3
+    },
+    {
+      "id": 73223,
+      "slug": "black-clover",
+      "title": "Black Clover: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/black-clover/",
+      "category": "series",
+      "release_date": "2017-10-03",
+      "rating": 8.5
+    },
+    {
+      "id": 977942,
+      "slug": "the-uprising",
+      "title": "The Uprising: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-uprising/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-10",
+      "rating": 7.9
+    },
+    {
+      "id": 1377237,
+      "slug": "runner",
+      "title": "Runner: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/runner/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-07",
+      "rating": 8.3
+    },
+    {
+      "id": 1003596,
+      "slug": "avengers-doomsday",
+      "title": "Avengers: Doomsday: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-doomsday/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-12-16",
+      "rating": 0.0
+    },
+    {
+      "id": 91759,
+      "slug": "come-home-love-lo-and-behold",
+      "title": "Come Home Love: Lo and Behold: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/come-home-love-lo-and-behold/",
+      "category": "series",
+      "release_date": "2017-02-20",
+      "rating": 5.4
+    },
+    {
+      "id": 22980,
+      "slug": "watch-what-happens-live-with-andy-cohen",
+      "title": "Watch What Happens Live with Andy Cohen: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/watch-what-happens-live-with-andy-cohen/",
+      "category": "series",
+      "release_date": "2009-07-16",
+      "rating": 5.0
+    },
+    {
+      "id": 59941,
+      "slug": "the-tonight-show-starring-jimmy-fallon",
+      "title": "The Tonight Show Starring Jimmy Fallon: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-tonight-show-starring-jimmy-fallon/",
+      "category": "series",
+      "release_date": "2014-02-17",
+      "rating": 5.8
+    },
+    {
+      "id": 1560520,
+      "slug": "batman-knightfall-part-1-knightfall",
+      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
+      "category": "cult_classic",
+      "release_date": "2026-06-23",
+      "rating": 9.1
+    },
+    {
+      "id": 980431,
+      "slug": "avatar-aang-the-last-airbender",
+      "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
+      "category": "cult_classic",
+      "release_date": "2026-07-24",
+      "rating": 9.1
+    },
+    {
+      "id": 1007757,
+      "slug": "swapped",
+      "title": "Swapped: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/swapped/",
+      "category": "cult_classic",
+      "release_date": "2026-05-01",
+      "rating": 8.9
+    },
+    {
+      "id": 1440098,
+      "slug": "drawn-together",
+      "title": "Drawn Together: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/drawn-together/",
+      "category": "steamy_thrillers",
+      "release_date": "2026-09-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1010581,
+      "slug": "my-fault",
+      "title": "My Fault: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/my-fault/",
+      "category": "steamy_thrillers",
+      "release_date": "2023-06-08",
+      "rating": 7.7
+    },
+    {
+      "id": 216015,
+      "slug": "fifty-shades-of-grey",
+      "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
+      "url": "https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/",
+      "category": "steamy_thrillers",
+      "release_date": "2015-02-11",
+      "rating": 5.9
+    },
+    {
+      "id": 1423191,
+      "slug": "resident-evil",
+      "title": "Resident Evil: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/resident-evil/",
+      "category": "upcoming",
+      "release_date": "2026-09-16",
+      "rating": 7.3
+    },
+    {
+      "id": 1204680,
+      "slug": "coyote-vs-acme",
+      "title": "Coyote vs. Acme: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/coyote-vs-acme/",
+      "category": "upcoming",
+      "release_date": "2026-08-17",
+      "rating": 7.5
+    },
     {
       "id": 999101,
       "slug": "streaming-weekly-top-10-us-uk",
@@ -255,15 +408,6 @@
       "category": "cult_classic",
       "release_date": "2023-07-21",
       "rating": 8.1
-    },
-    {
-      "id": 216015,
-      "slug": "fifty-shades-of-grey",
-      "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
-      "url": "https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/",
-      "category": "steamy_thrillers",
-      "release_date": "2015-02-11",
-      "rating": 5.9
     },
     {
       "id": 664413,
