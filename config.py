@@ -1,7 +1,7 @@
 """
 Configuration module for CineStories / MoviePulse Web Stories generator.
 Loads environment variables and provides centralized settings.
-Automated Pipeline v1.1.0
+Automated Pipeline v1.1.1
 """
 
 import os
