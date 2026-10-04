@@ -44,6 +44,7 @@ class AIGenerator:
         self.api_key = (api_key or GEMINI_API_KEY).strip()
         self.model = model
         self.client = None
+        self.ai_disabled = False
 
         if self.api_key:
             try:
@@ -56,7 +57,7 @@ class AIGenerator:
 
     @property
     def is_available(self) -> bool:
-        return self.client is not None
+        return self.client is not None and not self.ai_disabled
 
     def generate_story(self, movie: Dict[str, Any]) -> Dict[str, Any]:
         """
@@ -112,34 +113,11 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
 6. Set 'cta_text' on the final slide and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}" or "https://www.themoviedb.org/tv/{movie.get('id')}".
 """
 
-        candidate_models = [self.model]
-        for fallback in ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
-            if fallback not in candidate_models:
-                candidate_models.append(fallback)
+        models_to_try = [self.model]
+        if "gemini-2.5-flash" not in models_to_try:
+            models_to_try.append("gemini-2.5-flash")
 
-        for m in candidate_models:
-            # 1. Try Interactions API (Gemini 3 SDK)
-            try:
-                interaction = self.client.interactions.create(
-                    model=m,
-                    input=prompt,
-                    response_format=[
-                        {
-                            "type": "text",
-                            "mime_type": "application/json",
-                            "schema": WebStoryData.model_json_schema(),
-                        }
-                    ],
-                )
-                raw_text = interaction.output_text
-                if raw_text:
-                    data = json.loads(raw_text)
-                    print(f"[AI] Successfully synthesized story with model: {m} (Interactions API)")
-                    return self._sanitize_story_data(data, movie)
-            except Exception as e_interact:
-                pass
-
-            # 2. Try models.generate_content
+        for m in models_to_try:
             try:
                 response = self.client.models.generate_content(
                     model=m,
@@ -151,34 +129,16 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
                 )
                 if response and response.text:
                     data = json.loads(response.text)
-                    print(f"[AI] Successfully synthesized story with model: {m} (generate_content)")
+                    print(f"[AI] Successfully synthesized story with model: {m}")
                     return self._sanitize_story_data(data, movie)
-            except Exception as e_gen:
-                pass
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "401" in err_str or "API_KEY_INVALID" in err_str:
+                    print(f"[AI] Gemini quota limit or auth error ({e}). Disabling AI for remaining stories to ensure fast generation.")
+                    self.ai_disabled = True
+                    return None
+                print(f"[AI] Notice: Generation with {m} failed: {e}")
 
-            # 3. Direct REST API fallback
-            try:
-                import requests
-                rest_url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={self.api_key}"
-                rest_payload = {
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {
-                        "responseMimeType": "application/json",
-                        "responseSchema": WebStoryData.model_json_schema()
-                    }
-                }
-                resp = requests.post(rest_url, json=rest_payload, timeout=20)
-                if resp.status_code == 200:
-                    cand = resp.json().get("candidates", [])[0]
-                    content_text = cand.get("content", {}).get("parts", [])[0].get("text", "")
-                    if content_text:
-                        data = json.loads(content_text)
-                        print(f"[AI] Successfully synthesized story with model: {m} (REST API)")
-                        return self._sanitize_story_data(data, movie)
-            except Exception:
-                pass
-
-        print(f"[AI] All candidate models exhausted for '{movie.get('title')}'. Falling back to rule-based narrative synthesizer.")
         return None
 
     def _sanitize_story_data(self, data: Dict[str, Any], movie: Dict[str, Any]) -> Dict[str, Any]:
@@ -406,34 +366,11 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
 5. Verdict Summary: 1-2 punchy concluding sentences with a recommendation.
 6. Reading Time: 3 or 4 minutes.
 """
-        candidate_models = [self.model]
-        for fallback in ["gemini-flash-latest", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]:
-            if fallback not in candidate_models:
-                candidate_models.append(fallback)
+        models_to_try = [self.model]
+        if "gemini-2.5-flash" not in models_to_try:
+            models_to_try.append("gemini-2.5-flash")
 
-        for m in candidate_models:
-            # 1. Try Interactions API
-            try:
-                interaction = self.client.interactions.create(
-                    model=m,
-                    input=prompt,
-                    response_format=[
-                        {
-                            "type": "text",
-                            "mime_type": "application/json",
-                            "schema": DiscoverArticleData.model_json_schema(),
-                        }
-                    ],
-                )
-                raw_text = interaction.output_text
-                if raw_text:
-                    data = json.loads(raw_text)
-                    print(f"[AI] Successfully synthesized Discover article with model: {m}")
-                    return data
-            except Exception:
-                pass
-
-            # 2. Try generate_content
+        for m in models_to_try:
             try:
                 response = self.client.models.generate_content(
                     model=m,
@@ -445,32 +382,15 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
                 )
                 if response and response.text:
                     data = json.loads(response.text)
-                    print(f"[AI] Successfully synthesized Discover article with model: {m} (generate_content)")
+                    print(f"[AI] Successfully synthesized Discover article with model: {m}")
                     return data
-            except Exception:
-                pass
-
-            # 3. Direct REST API fallback
-            try:
-                import requests
-                rest_url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={self.api_key}"
-                rest_payload = {
-                    "contents": [{"parts": [{"text": prompt}]}],
-                    "generationConfig": {
-                        "responseMimeType": "application/json",
-                        "responseSchema": DiscoverArticleData.model_json_schema()
-                    }
-                }
-                resp = requests.post(rest_url, json=rest_payload, timeout=20)
-                if resp.status_code == 200:
-                    cand = resp.json().get("candidates", [])[0]
-                    content_text = cand.get("content", {}).get("parts", [])[0].get("text", "")
-                    if content_text:
-                        data = json.loads(content_text)
-                        print(f"[AI] Successfully synthesized Discover article with model: {m} (REST API)")
-                        return data
-            except Exception:
-                pass
+            except Exception as e:
+                err_str = str(e)
+                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "401" in err_str or "API_KEY_INVALID" in err_str:
+                    print(f"[AI] Gemini quota limit or auth error ({e}). Disabling AI for remaining articles.")
+                    self.ai_disabled = True
+                    return None
+                print(f"[AI] Notice: Article generation with {m} failed: {e}")
 
         return None
 

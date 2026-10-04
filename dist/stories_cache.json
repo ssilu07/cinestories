@@ -1,0 +1,2881 @@
+[
+  {
+    "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+    "seo_description": "Discover which shows are dominating Netflix, HBO Max, and Prime Video this week across the US and UK.",
+    "movie": {
+      "id": 999101,
+      "title": "Top 10 Streaming Hits (US & UK)",
+      "original_title": "Weekly Streaming Chart Leaderboard",
+      "slug": "streaming-weekly-top-10-us-uk",
+      "media_type": "tv",
+      "release_date": "2026-10-01",
+      "hook_title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+      "catchy_teaser": "What is everyone watching right now? Netflix, HBO Max & Prime Video leaderboard rankings revealed!",
+      "overview": "An authoritative weekly countdown of the 10 most-streamed television shows and movies across Netflix, HBO Max, and Amazon Prime Video in the United States and United Kingdom.",
+      "tagline": "The definitive weekly streaming charts.",
+      "genres": [
+        "News",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 45,
+      "seasons": 2026,
+      "vote_average": 8.8,
+      "vote_count": 9200,
+      "category": "streaming_charts",
+      "director": "Streaming Analytics Desk",
+      "top_cast": [
+        "Squid Game",
+        "House of the Dragon",
+        "Fallout",
+        "The Boys",
+        "The Penguin"
+      ],
+      "poster_path": "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg",
+      "backdrop_path": "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
+      "backdrops": [
+        "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
+        "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "The Streaming Race",
+        "text": "Millions of viewers across the US and UK tuned in this week, crowning new viral champions across Netflix, HBO Max, and Amazon Prime Video.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udd34 NETFLIX #1 SENSATION",
+        "title": "Global Record Breakers",
+        "text": "International thrillers and true-crime docuseries dominated Netflix charts, accumulating over 250 million viewing hours in their debut week alone.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udfe3 HBO SUNDAY DOMINANCE",
+        "title": "Prestige TV Reigns Supreme",
+        "text": "Sunday night appointment viewing is alive. Epic fantasy and dark criminal dramas held the top spot on HBO Max across the United States.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udd35 PRIME VIDEO HIT",
+        "title": "Wasteland & Superheroes",
+        "text": "Prime Video saw record surges with action-packed franchise adaptations and razor-sharp satire conquering both US and UK living rooms.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\uddec\ud83c\udde7 UK VS \ud83c\uddfa\ud83c\uddf8 US TRENDS",
+        "title": "What Country Streams What?",
+        "text": "While US viewers binged high-octane sci-fi, UK audiences catapulted gritty British crime procedurals and witty comedy into their top 5.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa WEEKEND WATCHLIST",
+        "title": "Ready For Your Next Binge?",
+        "text": "Plan your weekend watchlist now with our complete weekly breakdown of top 10 movies and series on streaming.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Top 10 Streaming Charts",
+        "cta_url": "https://www.themoviedb.org/tv"
+      }
+    ]
+  },
+  {
+    "title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video \u2622\ufe0f Vault 33",
+    "seo_description": "Inside Vault 33 and the nuclear wasteland. 5 shocking secrets and Easter eggs from Prime Video's Fallout.",
+    "movie": {
+      "id": 106379,
+      "title": "Fallout",
+      "original_title": "Fallout",
+      "slug": "fallout-prime-video",
+      "media_type": "tv",
+      "release_date": "2024-04-10",
+      "hook_title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video \u2622\ufe0f Vault 33",
+      "catchy_teaser": "War never changes. 5 insane Vault-Tec secrets and wasteland survival moments on Prime Video!",
+      "overview": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground subterranean vaults to protect themselves from radiation, mutants, and bandits.",
+      "tagline": "Welcome to the wasteland.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Comedy"
+      ],
+      "runtime": 55,
+      "seasons": 1,
+      "vote_average": 8.3,
+      "vote_count": 8900,
+      "category": "streaming_charts",
+      "director": "Jonathan Nolan & Lisa Joy",
+      "top_cast": [
+        "Ella Purnell",
+        "Walton Goggins",
+        "Aaron Moten",
+        "Kyle MacLachlan"
+      ],
+      "poster_path": "/8zQO5GNWQwJG4we5AYfjopblRFe.jpg",
+      "backdrop_path": "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+      "backdrops": [
+        "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+        "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u2622\ufe0f VAULT-TEC EMPIRE",
+        "title": "Welcome To Vault 33",
+        "text": "When Lucy MacLean left the sanitized comfort of Vault 33, she stepped into a radioactive Californian wasteland full of ghouls and secrets.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\udd20 THE GHOUL REVEAL",
+        "title": "Walton Goggins As Cooper",
+        "text": "Cooper Howard survived 200 years of nuclear hellfire. His transformation from Hollywood star to ruthless gunslinger Ghoul stole the entire series.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83e\udd2b CONSPIRACY UNMASKED",
+        "title": "Vault-Tec Dropped The Bomb",
+        "text": "In a boardroom meeting of corporate titans, Vault-Tec executives revealed their sinister plot to ensure total monopoly by detonating the bombs themselves.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfae GAME FIDELITY",
+        "title": "100% Canon To Games",
+        "text": "Todd Howard confirmed every event in Prime Video's series is officially canon to Bethesda's legendary Fallout video game timeline.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udfb0 NEW VEGAS TEASE",
+        "title": "Season 2 Destination",
+        "text": "The jaw-dropping season finale camera pan over the Strip revealed New Vegas, setting the stage for an explosive Season 2 clash.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM ON PRIME",
+        "title": "Binge Season 1 Today",
+        "text": "Stream all 8 episodes of Fallout Season 1 in 4K HDR exclusively on Amazon Prime Video.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Fallout Cast & Season 2",
+        "cta_url": "https://www.themoviedb.org/tv/106379"
+      }
+    ]
+  },
+  {
+    "title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max \ud83d\udc09\ud83d\udd25",
+    "seo_description": "Inside the Targaryen civil war: dragon battles, Blood and Cheese, and Iron Throne betrayals on HBO Max.",
+    "movie": {
+      "id": 94997,
+      "title": "House of the Dragon",
+      "original_title": "House of the Dragon",
+      "slug": "house-of-the-dragon",
+      "media_type": "tv",
+      "release_date": "2022-08-21",
+      "hook_title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max \ud83d\udc09\ud83d\udd25",
+      "catchy_teaser": "Blood will be spilled. Inside HBO's record-breaking #1 fantasy war for the Iron Throne!",
+      "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. But power turns inward, sparking the legendary Dance of the Dragons civil war.",
+      "tagline": "Fire and blood.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "runtime": 60,
+      "seasons": 2,
+      "vote_average": 8.4,
+      "vote_count": 12500,
+      "category": "streaming_charts",
+      "director": "Ryan J. Condal & George R.R. Martin",
+      "top_cast": [
+        "Emma D'Arcy",
+        "Matt Smith",
+        "Olivia Cooke",
+        "Rhys Ifans"
+      ],
+      "poster_path": "/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg",
+      "backdrop_path": "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+      "backdrops": [
+        "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+        "/hRX5exGCfaEq7mLYCqRoKiEkjq3.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udc09 FIRE AND BLOOD",
+        "title": "A Dynasty Divided",
+        "text": "The Greens versus the Blacks. When King Viserys died, brother fought sister and nephew fought uncle in Westeros' deadliest civil war.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2694\ufe0f ROOK'S REST CARNAGE",
+        "title": "Dragon Vs. Dragon Battle",
+        "text": "The battle at Rook's Rest delivered the most terrifying aerial dragon duel in television history as Vhagar, Sunfyre, and Meleys collided in flame.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83e\ude78 BLOOD AND CHEESE",
+        "title": "The Darkest Retaliation",
+        "text": "Daemon Targaryen's ruthless decree 'A son for a son' plunged the Red Keep into irreversible psychological horror and tragedy.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udc51 RHAENYRA'S ARMY",
+        "title": "The Dragonseeds Rise",
+        "text": "To overcome Vhagar's immense size, Queen Rhaenyra found lowborn Targaryen bastards to claim unclaimed wild dragons Vermithor and Silverwing.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udd25 AEMOND'S REIGN",
+        "title": "One Eye, No Mercy",
+        "text": "Aemond Targaryen's betrayal of his brother Aegon II proved that in the game for the Iron Throne, family means nothing.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa WATCH ON HBO MAX",
+        "title": "Stream Every Epic Episode",
+        "text": "Experience both seasons of House of the Dragon streaming now on HBO Max.",
+        "backdrop_index": 1,
+        "cta_text": "Explore House of the Dragon",
+        "cta_url": "https://www.themoviedb.org/tv/94997"
+      }
+    ]
+  },
+  {
+    "title": "Master of Deception: 5 Epic Feudal Power Plays in Sh\u014dgun \u2694\ufe0f\ud83c\udfef",
+    "seo_description": "Discover Sh\u014dgun: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 126308,
+      "title": "Sh\u014dgun",
+      "original_title": "Sh\u014dgun",
+      "slug": "shogun",
+      "media_type": "tv",
+      "release_date": "2024-02-27",
+      "hook_title": "Master of Deception: 5 Epic Feudal Power Plays in Sh\u014dgun \u2694\ufe0f\ud83c\udfef",
+      "catchy_teaser": "Record-shattering 18 Emmy wins! Hiroyuki Sanada's historic political drama that captivated the world.",
+      "overview": "When a mysterious European ship is found marooned in a nearby fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies.",
+      "tagline": "Fate is a matter of choice.",
+      "genres": [
+        "Drama",
+        "War & Politics"
+      ],
+      "runtime": 60,
+      "seasons": 1,
+      "vote_average": 8.5,
+      "vote_count": 1300,
+      "category": "streaming_charts",
+      "director": "Justin Marks & Rachel Kondo",
+      "top_cast": [
+        "Hiroyuki Sanada",
+        "Cosmo Jarvis",
+        "Anna Sawai",
+        "Tadanobu Asano",
+        "Takehiro Hira"
+      ],
+      "poster_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      "backdrop_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+      "backdrops": [
+        "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "Sh\u014dgun",
+        "text": "Fate is a matter of choice. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "When a mysterious European ship is found marooned in a nearby fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Hiroyuki Sanada, Cosmo Jarvis, Anna Sawai, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Justin Marks & Rachel Kondo.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Justin Marks & Rachel Kondo",
+        "text": "Filmmaker Justin Marks & Rachel Kondo pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.5/10 on TMDB",
+        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Sh\u014dgun? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/126308"
+      }
+    ]
+  },
+  {
+    "title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories \ud83e\uddb8\u200d\u2642\ufe0f\u26a1",
+    "seo_description": "From Anchor Beings and Doctor Doom to Gambit's return\u2014unpacking the biggest Marvel post-credit clues leading to Secret Wars.",
+    "movie": {
+      "id": 999201,
+      "title": "Marvel Post-Credit Theories",
+      "original_title": "Marvel Multiverse & Post-Credits",
+      "slug": "marvel-post-credit-theories",
+      "media_type": "movie",
+      "release_date": "2024-07-26",
+      "hook_title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories \ud83e\uddb8\u200d\u2642\ufe0f\u26a1",
+      "catchy_teaser": "Did you spot the hidden comic cameos? 6 post-credit clues setting up Avengers: Secret Wars!",
+      "overview": "Deconstructing the most consequential post-credit stingers in MCU history, from Deadpool's Void reveals and Anchor Beings to Doctor Doom and the road to Avengers: Secret Wars.",
+      "tagline": "The end credits are only the beginning.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 120,
+      "seasons": null,
+      "vote_average": 8.5,
+      "vote_count": 14000,
+      "category": "theories_easter_eggs",
+      "director": "Kevin Feige & Marvel Brain Trust",
+      "top_cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Robert Downey Jr.",
+        "Benedict Cumberbatch"
+      ],
+      "poster_path": "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg",
+      "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+      "backdrops": [
+        "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+        "/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MARVEL DECODED",
+        "title": "The End Credits Secret",
+        "text": "Marvel revolutionized cinema by turning end credits into universe-altering teasers. Now, Phase 6 clues point directly toward catastrophic Multiversal War.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2693 ANCHOR BEINGS EXPLAINED",
+        "title": "The Multiverse Anchor",
+        "text": "Deadpool revealed that each universe relies on an Anchor Being. If that hero dies, their timeline decays into complete cosmic annihilation.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udc51 DOCTOR DOOM'S ARRIVAL",
+        "title": "Robert Downey Jr. Returns",
+        "text": "RDJ returning as Victor Von Doom isn't an Iron Man variant\u2014comic theories suggest Doom will steal the Beyonder's powers to forge Battleworld.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udccf GAMBIT & THE VOID",
+        "title": "Did Gambit Escape?",
+        "text": "Channing Tatum's post-credit TVA monitor screen proved Gambit survived Cassandra Nova's Void massacre through a magical sling-ring portal.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\ude2d THOR WEEPING FOR WADE",
+        "title": "The Battleworld Prophecy",
+        "text": "Why was Thor crying over a dying Deadpool? Insiders theorize it takes place in the climactic final battle of Avengers: Doomsday.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f PHASE 6 WATCHLIST",
+        "title": "Prepare For Battleworld",
+        "text": "Track upcoming Marvel release dates, comic connections, and post-credit breakdowns on CineStories.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Marvel Multiverse Guide",
+        "cta_url": "https://www.themoviedb.org/movie/533535"
+      }
+    ]
+  },
+  {
+    "title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories \ud83e\udd87\ud83c\udccf",
+    "seo_description": "Arkham riddles, Joker ciphers, and James Gunn's DCU roadmap: uncover the darkest hidden clues in Batman & DC.",
+    "movie": {
+      "id": 999202,
+      "title": "DC Universe Secrets & Theories",
+      "original_title": "DC Universe Easter Eggs & Theories",
+      "slug": "dc-easter-eggs-theories",
+      "media_type": "movie",
+      "release_date": "2022-03-04",
+      "hook_title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories \ud83e\udd87\ud83c\udccf",
+      "catchy_teaser": "Arkham riddles and James Gunn's DCU reboot! 5 dark easter eggs and shocking villain theories.",
+      "overview": "Explore the hidden clues lurking in Gotham's shadows: Barry Keoghan's Joker cipher, Court of Owls architectural easter eggs, and James Gunn's roadmap for Gods and Monsters.",
+      "tagline": "Unmask the truth.",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Action"
+      ],
+      "runtime": 155,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 12800,
+      "category": "theories_easter_eggs",
+      "director": "Matt Reeves & James Gunn",
+      "top_cast": [
+        "Robert Pattinson",
+        "Colin Farrell",
+        "Barry Keoghan",
+        "Zo\u00eb Kravitz"
+      ],
+      "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+      "backdrop_path": "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+      "backdrops": [
+        "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+        "/5UANyM4co2nwYPgSEmGeNlZRm7V.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\udd87 GOTHAM SHADOWS",
+        "title": "Unmasking Gotham's Clues",
+        "text": "From Matt Reeves' gritty detective saga to James Gunn's reborn DCU, hidden symbols in Gotham tell a sinister story ordinary viewers missed.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udccf THE ARKHAM CIPHER",
+        "title": "Barry Keoghan's Joker",
+        "text": "The deleted Arkham conversation between Batman and Joker teased a congenital laughing disorder, setting up a terrifying alliance with Paul Dano's Riddler.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83e\udd89 COURT OF OWLS HIDDEN",
+        "title": "Gotham's True Masters",
+        "text": "Owl motifs embedded in Wayne Tower and Mayor Mitchell's home strongly indicate Gotham's legendary Court of Owls will strike in The Batman Part II.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udc27 OZ COBB'S MONOPOLY",
+        "title": "The Penguin's Rise",
+        "text": "With Carmine Falcone gone, Oz Cobb eliminated rival mob families and seized Gotham's illicit drug trade, cementing himself as the new kingpin.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\u26a1 GODS AND MONSTERS",
+        "title": "James Gunn's DCU Era",
+        "text": "Superman, Creature Commandos, and Peacemaker Season 2 are linking a cohesive tapestry of comic-accurate superheroes and antiheroes.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac ENTER THE DC UNIVERSE",
+        "title": "Explore Dark Detective Lore",
+        "text": "Dive deeper into DC movie timelines, comic easter eggs, and casting updates today.",
+        "backdrop_index": 1,
+        "cta_text": "Explore DC Universe Cast & News",
+        "cta_url": "https://www.themoviedb.org/movie/414906"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse \ud83d\udd77\ufe0f\ud83d\udda4",
+    "seo_description": "The alien symbiote left behind in the MCU, Peter Parker's isolation, and Spider-Man 4 theories explained.",
+    "movie": {
+      "id": 634649,
+      "title": "Spider-Man & Venom Post-Credits",
+      "original_title": "Spider-Man & Venom Multiverse",
+      "slug": "spiderman-venom-post-credits",
+      "media_type": "movie",
+      "release_date": "2021-12-17",
+      "hook_title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse \ud83d\udd77\ufe0f\ud83d\udda4",
+      "catchy_teaser": "The symbiote left behind in the MCU bar! 5 jaw-dropping Spider-Man & Venom post-credit secrets.",
+      "overview": "When Eddie Brock and Venom left a droplet of alien symbiote on an MCU bar counter, Marvel altered the multiverse forever. Here is the full breakdown of Phase 6 clues.",
+      "tagline": "The multiverse unleashed.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 148,
+      "seasons": null,
+      "vote_average": 8.4,
+      "vote_count": 22000,
+      "category": "theories_easter_eggs",
+      "director": "Jon Watts",
+      "top_cast": [
+        "Tom Holland",
+        "Tom Hardy",
+        "Zendaya",
+        "Benedict Cumberbatch"
+      ],
+      "poster_path": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+      "backdrop_path": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+      "backdrops": [
+        "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+        "/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd77\ufe0f THE SYMBIOTE DROPLET",
+        "title": "Left Behind In The MCU",
+        "text": "When Doctor Strange sent Eddie Brock back to his universe, a tiny living droplet of Venom stayed on the bar counter. The alien is now officially in the MCU.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udd78\ufe0f PETER'S TOTAL ISOLATION",
+        "title": "Forgotten By Everyone",
+        "text": "With Ned, MJ, and the Avengers completely forgetting Peter Parker existed, Spider-Man is back to his gritty, street-level comic roots.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udda4 BLACK SUIT SAGA NEXT?",
+        "title": "A Darker Spider-Man",
+        "text": "Vulnerable and grieving Aunt May, Peter is the perfect host for the alien symbiote, setting up Marvel's live-action Black Suit comic storyline.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\u26a1 MILES MORALES LIVE-ACTION",
+        "title": "The Brooklyn Spider",
+        "text": "Electro's iconic quote 'There's gotta be a Black Spider-Man out there somewhere' teased the inevitable introduction of Miles Morales into the MCU.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udfd9\ufe0f DAREDEVIL & KINGPIN ALLIANCE",
+        "title": "New York Street War",
+        "text": "With Matt Murdock defending Peter and Kingpin ruling New York, Spider-Man 4 is primed for a brutal grounded gangland war.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM NO WAY HOME",
+        "title": "Relive The Multiverse Epic",
+        "text": "Stream Spider-Man: No Way Home and explore full easter egg breakdowns on CineStories.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Spider-Man 4 Details",
+        "cta_url": "https://www.themoviedb.org/movie/634649"
+      }
+    ]
+  },
+  {
+    "title": "Friends: Where Are The Central Perk Stars Today? \u2615\u2728",
+    "seo_description": "Thirty years later: where are Jennifer Aniston, Matt LeBlanc, Courteney Cox, David Schwimmer, Lisa Kudrow, and Matthew Perry's legacy?",
+    "movie": {
+      "id": 1668,
+      "title": "Friends: Where Are They Now?",
+      "original_title": "Friends Sitcom Cast Retrospective",
+      "slug": "friends-where-are-they-now",
+      "media_type": "tv",
+      "release_date": "1994-09-22",
+      "hook_title": "Friends: Where Are The Central Perk Stars Today? \u2615\u2728",
+      "catchy_teaser": "Could they BE any more iconic? From Hollywood power players to heartfelt tributes\u2014see where the Friends cast is now!",
+      "overview": "Thirty years after the premiere of Friends, discover what happened to Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, David Schwimmer, and the lasting legacy of Matthew Perry.",
+      "tagline": "I'll be there for you.",
+      "genres": [
+        "Comedy",
+        "Romance",
+        "Drama"
+      ],
+      "runtime": 22,
+      "seasons": 10,
+      "vote_average": 8.5,
+      "vote_count": 21000,
+      "category": "where_are_they_now",
+      "director": "David Crane & Marta Kauffman",
+      "top_cast": [
+        "Jennifer Aniston",
+        "Courteney Cox",
+        "Lisa Kudrow",
+        "Matt LeBlanc",
+        "David Schwimmer",
+        "Matthew Perry"
+      ],
+      "poster_path": "/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg",
+      "backdrop_path": "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+      "backdrops": [
+        "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+        "/AtLnAEZMNzVMy07aG7QTVtfenj2.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u2615 30 YEARS OF FRIENDS",
+        "title": "The Central Perk Legacy",
+        "text": "Premiering in 1994, Friends became the greatest sitcom in television history. Three decades later, what happened to the 6 beloved stars?",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udc51 JENNIFER ANISTON",
+        "title": "Hollywood's Top Powerhouse",
+        "text": "Jennifer Aniston evolved from Rachel Green into a global producer, award-winning star of Apple TV's The Morning Show, and successful beauty entrepreneur.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udfac COURTENEY & LISA",
+        "title": "Scream Queens & Producers",
+        "text": "Courteney Cox leads the multi-million dollar Scream franchise, while Lisa Kudrow produces acclaimed comedies and stars in prestige shows like Time Bandits.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfad MATT & DAVID",
+        "title": "Stage, Speed & Passions",
+        "text": "Matt LeBlanc conquered hosting on Top Gear and Man with a Plan, while David Schwimmer directed films and triumphed on London and Broadway stages.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udd4a\ufe0f MATTHEW PERRY (1969-2023)",
+        "title": "Chandler Bing Forever",
+        "text": "Matthew Perry gave us television's most brilliant sarcastic wit. His best-selling memoir and addiction recovery advocacy continue saving lives worldwide.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM ALL 10 SEASONS",
+        "title": "I'll Be There For You",
+        "text": "Celebrate 30 years of laughter by streaming all 236 episodes of Friends and the HBO Reunion Special today.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Friends Cast Retrospective",
+        "cta_url": "https://www.themoviedb.org/tv/1668"
+      }
+    ]
+  },
+  {
+    "title": "The Office: Where Is The Dunder Mifflin Cast In 2026? \ud83d\udcc4\ud83d\udcce",
+    "seo_description": "From Scranton paper salesmen to Oscar nominees and blockbuster directors: see where The Office stars are today.",
+    "movie": {
+      "id": 2316,
+      "title": "The Office: Where Are They Now?",
+      "original_title": "The Office (US) Cast Retrospective",
+      "slug": "the-office-where-are-they-now",
+      "media_type": "tv",
+      "release_date": "2005-03-24",
+      "hook_title": "The Office: Where Is The Dunder Mifflin Cast In 2026? \ud83d\udcc4\ud83d\udcce",
+      "catchy_teaser": "That's what she said! From Scranton paper salesmen to Oscar nominees and Hollywood directors.",
+      "overview": "Explore the extraordinary post-Scranton careers of Steve Carell, John Krasinski, Rainn Wilson, Jenna Fischer, Angela Kinsey, and Mindy Kaling.",
+      "tagline": "A comedy for anyone whose boss is an idiot.",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 22,
+      "seasons": 9,
+      "vote_average": 8.6,
+      "vote_count": 23500,
+      "category": "where_are_they_now",
+      "director": "Greg Daniels",
+      "top_cast": [
+        "Steve Carell",
+        "John Krasinski",
+        "Rainn Wilson",
+        "Jenna Fischer",
+        "Mindy Kaling"
+      ],
+      "poster_path": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+      "backdrop_path": "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+      "backdrops": [
+        "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+        "/1O7ECkD4mOKAgMAbQADBpTKBzOP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcc4 SCRANTON LEGENDS",
+        "title": "Life Beyond Dunder Mifflin",
+        "text": "Nine seasons of mockumentary perfection made The Office the most-streamed comedy in history. Here is how its stars conquered Hollywood.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfc6 STEVE CARELL",
+        "title": "The World's Best Boss",
+        "text": "Steve Carell transformed from Michael Scott into an Oscar-nominated dramatic actor in Foxcatcher, The Big Short, and Broadway hit Uncle Vanya.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udfac JOHN KRASINSKI",
+        "title": "The Blockbuster Filmmaker",
+        "text": "Jim Halpert became a major Hollywood auteur, creating the billion-dollar A Quiet Place franchise and headlining Tom Clancy's Jack Ryan.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udf31 RAINN WILSON",
+        "title": "Dwight's Soulful Second Act",
+        "text": "Rainn Wilson traded beets for bestselling books, founding media company SoulPancake and traveling the globe as a passionate climate change advocate.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udf99\ufe0f FISCHER & KINSEY",
+        "title": "The Office Ladies Empire",
+        "text": "Jenna Fischer and Angela Kinsey created the wildly popular Office Ladies podcast, winning Podcast of the Year and publishing bestselling backstage memoirs.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\u2615 REVISIT SCRANTON",
+        "title": "That's What She Said!",
+        "text": "Stream all 9 seasons and exclusive Superfan episodes of The Office on Peacock and streaming platforms worldwide.",
+        "backdrop_index": 1,
+        "cta_text": "Explore The Office Cast & Trivia",
+        "cta_url": "https://www.themoviedb.org/tv/2316"
+      }
+    ]
+  },
+  {
+    "title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars \ud83d\udcfa\u2728",
+    "seo_description": "Frankie Muniz, Alfonso Ribeiro, Angus T. Jones, and Jaleel White: where did Hollywood's biggest sitcom icons vanish to?",
+    "movie": {
+      "id": 999301,
+      "title": "90s/2000s Sitcom Stars: Where Are They Now?",
+      "original_title": "Popular 90s & 2000s Sitcom Icons",
+      "slug": "sitcom-stars-where-are-they-now",
+      "media_type": "tv",
+      "release_date": "2000-01-09",
+      "hook_title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars \ud83d\udcfa\u2728",
+      "catchy_teaser": "Frankie Muniz, Alfonso Ribeiro, Angus T. Jones! See what your favorite sitcom childhood icons are doing today.",
+      "overview": "From child prodigies to professional racecar drivers and primetime hosts: uncovering the fascinating second acts of Frankie Muniz, Alfonso Ribeiro, Angus T. Jones, and Jaleel White.",
+      "tagline": "Then versus now: the untold journeys.",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "runtime": 24,
+      "seasons": 7,
+      "vote_average": 8.4,
+      "vote_count": 7800,
+      "category": "where_are_they_now",
+      "director": "Linwood Boomer",
+      "top_cast": [
+        "Frankie Muniz",
+        "Alfonso Ribeiro",
+        "Angus T. Jones",
+        "Jaleel White",
+        "Topher Grace"
+      ],
+      "poster_path": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg",
+      "backdrop_path": "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
+      "backdrops": [
+        "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
+        "/qQFFEmt6Id9Nh4ckWx7FPlj2xah.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcfa SITCOM RETROSPECTIVE",
+        "title": "The Stars Who Grew Up",
+        "text": "They made millions laugh every single week. But after the cameras stopped rolling, several beloved sitcom stars chose wildly unexpected paths in life.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfce\ufe0f FRANKIE MUNIZ",
+        "title": "Malcolm Is A NASCAR Driver",
+        "text": "The Emmy-nominated star of Malcolm in the Middle left acting behind to become a full-time professional NASCAR stock car racing driver.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd7a ALFONSO RIBEIRO",
+        "title": "The Carlton Dance King",
+        "text": "Fresh Prince's Carlton Banks turned his comedic charisma into an incredible hosting career, leading Dancing with the Stars and America's Funniest Home Videos.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\ude4f ANGUS T. JONES",
+        "title": "Half Men Star's New Calling",
+        "text": "Once the highest-paid child actor on TV as Jake Harper in Two and a Half Men, Angus walked away from Hollywood to dedicate himself to faith and music production.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83e\udd13 JALEEL WHITE",
+        "title": "Did I Do That? Beyond Urkel",
+        "text": "Family Matters genius Jaleel White authored a candid bestselling memoir, launched his 'ItsPurpl' lifestyle brand, and returned to star in Star Wars: Skeleton Crew.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\u2728 NOSTALGIA REWIND",
+        "title": "Relive The Sitcom Golden Age",
+        "text": "Explore more then-and-now retrospectives of your favorite 90s and 2000s childhood comedy legends on CineStories.",
+        "backdrop_index": 1,
+        "cta_text": "Explore 90s Sitcom Retrospectives",
+        "cta_url": "https://www.themoviedb.org/tv/2004"
+      }
+    ]
+  },
+  {
+    "title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed \ud83d\udcb0",
+    "seo_description": "Uncover the genius tactics, hidden clues, and Berlin's sacrifices in Netflix's global phenomenon Money Heist (La Casa de Papel).",
+    "movie": {
+      "id": 71446,
+      "title": "Money Heist",
+      "original_title": "La Casa de Papel",
+      "slug": "money-heist",
+      "media_type": "tv",
+      "release_date": "2017-05-02",
+      "hook_title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed \ud83d\udcb0",
+      "catchy_teaser": "1 Mastermind. 67 hostages. \u20ac2.4 Billion printed. Can you predict the Professor's next move?",
+      "overview": "Eight robbers lock themselves in the Royal Mint of Spain with hostages, executing the greatest heist in human history planned by a criminal genius.",
+      "tagline": "The heist was just the beginning.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 50,
+      "seasons": 5,
+      "vote_average": 8.2,
+      "vote_count": 18500,
+      "category": "series",
+      "director": "\u00c1lex Pina",
+      "top_cast": [
+        "\u00c1lvaro Morte",
+        "\u00darsula Corber\u00f3",
+        "Pedro Alonso",
+        "Itziar Itu\u00f1o",
+        "Alba Flores"
+      ],
+      "poster_path": "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+      "backdrop_path": "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+      "backdrops": [
+        "/gFZriCkpJYsApPZEF3jhxL4yLzG.jpg",
+        "/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 GLOBAL PHENOMENON",
+        "title": "The \u20ac2.4 Billion Heist",
+        "text": "Armed with Salvador Dal\u00ed masks and red jumpsuits, eight robbers executed the most audacious heist in history. But nothing was left to chance.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\udde0 MASTERMIND RULE",
+        "title": "Rule #1: No Bloodshed",
+        "text": "The Professor spent 20 years planning the Royal Mint operation. His golden rule? Win the public's hearts by printing money rather than stealing anyone's savings.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u26a1 SHOCKING TWIST",
+        "title": "The Inspector's Coffee",
+        "text": "The Professor brazenly befriended lead negotiator Raquel Murillo at a local caf\u00e9, monitoring police radio frequencies right under her nose.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfad ICONIC ANTHEM",
+        "title": "The Power of Bella Ciao",
+        "text": "The Italian anti-fascist hymn 'Bella Ciao' turned into an international symbol of rebellion, streamed over 1 billion times worldwide.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udc51 BERLIN'S SACRIFICE",
+        "title": "The Ultimate Stand",
+        "text": "Berlin's terminal illness gave him nothing to lose. His heroic last stand holding off special forces cemented his status as TV's most loved antihero.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa BINGE NOW",
+        "title": "Ready For The Next Heist?",
+        "text": "Stream all 5 seasons of Money Heist and explore the spinoff universe of Berlin on Netflix today.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Series & Cast Details",
+        "cta_url": "https://www.themoviedb.org/tv/71446"
+      }
+    ]
+  },
+  {
+    "title": "The Upside Down: 5 Dark Secrets Ahead Of Season 5 \ud83d\udeb2\u26a1",
+    "seo_description": "Explore the shadowy secrets of Hawkins, Eleven's psychokinetic powers, and Vecna's master plan in Stranger Things.",
+    "movie": {
+      "id": 66732,
+      "title": "Stranger Things",
+      "original_title": "Stranger Things",
+      "slug": "stranger-things",
+      "media_type": "tv",
+      "release_date": "2016-07-15",
+      "hook_title": "The Upside Down: 5 Dark Secrets Ahead Of Season 5 \ud83d\udeb2\u26a1",
+      "catchy_teaser": "Hawkins will never be the same. 5 chilling Upside Down mysteries before the epic series finale!",
+      "overview": "When a young boy vanishes, a small town uncovers a supernatural underworld of secret lab experiments and telekinetic girl Eleven.",
+      "tagline": "Every ending has a beginning.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 60,
+      "seasons": 4,
+      "vote_average": 8.6,
+      "vote_count": 17200,
+      "category": "series",
+      "director": "The Duffer Brothers",
+      "top_cast": [
+        "Millie Bobby Brown",
+        "Finn Wolfhard",
+        "Winona Ryder",
+        "David Harbour",
+        "Sadie Sink"
+      ],
+      "poster_path": "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg",
+      "backdrop_path": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+      "backdrops": [
+        "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+        "/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udeb2 80S NOSTALGIA",
+        "title": "Welcome to Hawkins",
+        "text": "When Will Byers mysteriously disappeared into the dark woods of Hawkins, Indiana, a group of kids stumbled upon an eerie government conspiracy.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\uddc7 ELEVEN'S POWERS",
+        "title": "Eggos & Telekinesis",
+        "text": "Escaping Hawkins National Laboratory, Eleven weaponized psychokinesis to battle monstrous Demogorgons while discovering real friendship and eggo waffles.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udfa7 RUNNING UP THAT HILL",
+        "title": "Max's Masterpiece Escape",
+        "text": "Kate Bush's 'Running Up That Hill' rocketed back to #1 globally after soundtracking Max Mayfield's pulse-pounding flight from Vecna's curse.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\u23f3 TIME FROZEN",
+        "title": "November 6, 1983",
+        "text": "Nancy Wheeler discovered the chilling truth: the Upside Down is permanently frozen on the exact day Will Byers first vanished.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\u26a1 THE FINAL BATTLE",
+        "title": "Season 5 Apocalypse",
+        "text": "With the 4 gates torn wide open across Hawkins, the final battle between Eleven and Vecna promises cinema-level runtime and heartbreak.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM ON NETFLIX",
+        "title": "Prepare For The Series Finale",
+        "text": "Catch up on every episode of Stranger Things before the Duffer Brothers conclude the epic saga.",
+        "backdrop_index": 1,
+        "cta_text": "View Series Cast & Episodes",
+        "cta_url": "https://www.themoviedb.org/tv/66732"
+      }
+    ]
+  },
+  {
+    "title": "Homelander Unhinged: 5 Sickest Twists In The Boys \ud83e\ude78\ud83e\uddb8\u200d\u2642\ufe0f",
+    "seo_description": "Inside the chaotic, bloody world of Vought, Compound V, and Butcher's war against Homelander.",
+    "movie": {
+      "id": 76479,
+      "title": "The Boys",
+      "original_title": "The Boys",
+      "slug": "the-boys",
+      "media_type": "tv",
+      "release_date": "2019-07-26",
+      "hook_title": "Homelander Unhinged: 5 Sickest Twists In The Boys \ud83e\ude78\ud83e\uddb8\u200d\u2642\ufe0f",
+      "catchy_teaser": "What if superheroes were bloodthirsty corporate psychos? Inside Homelander's maddest stunts.",
+      "overview": "A vigilante squad embarks on a heroic quest to expose the truth about corrupt superheroes who abuse their godlike powers.",
+      "tagline": "Never meet your heroes.",
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 60,
+      "seasons": 4,
+      "vote_average": 8.5,
+      "vote_count": 10400,
+      "category": "series",
+      "director": "Eric Kripke",
+      "top_cast": [
+        "Karl Urban",
+        "Jack Quaid",
+        "Antony Starr",
+        "Erin Moriarty",
+        "Jensen Ackles"
+      ],
+      "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+      "backdrop_path": "/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg",
+      "backdrops": [
+        "/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg",
+        "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\ude78 DIABOLICAL SATIRE",
+        "title": "Never Meet Your Heroes",
+        "text": "In a world where superheroes are manufactured corporate celebrities, Billy Butcher and The Boys fight to expose Vought's darkest secrets.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\udd5b HOMELANDER'S PSYCHOSIS",
+        "title": "The God Complex",
+        "text": "Antony Starr's chilling portrayal of Homelander turned him into modern television's most terrifying, unpredictable supervillain.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udc89 COMPOUND V",
+        "title": "Superheroes Aren't Born",
+        "text": "The greatest corporate cover-up: 'Supes' were never chosen by God. They were injected as babies with Vought's blue miracle drug, Compound V.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\u2694\ufe0f HEROGASM RECKONING",
+        "title": "Soldier Boy's Revenge",
+        "text": "Jensen Ackles joined the fray as Soldier Boy, leading to an epic, brutal showdown that almost stripped Homelander of his godlike reign.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udd25 FINAL SEASON WAR",
+        "title": "Butcher's Last Stand",
+        "text": "With deadly temp V rotting his brain and Homelander seizing government power, Butcher has nothing left to lose in the coming war.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM ON PRIME",
+        "title": "Join The Anti-Hero Crusade",
+        "text": "Catch every chaotic, unfiltered episode of The Boys on Prime Video and witness television history.",
+        "backdrop_index": 1,
+        "cta_text": "Explore The Boys Trivia",
+        "cta_url": "https://www.themoviedb.org/tv/76479"
+      }
+    ]
+  },
+  {
+    "title": "I Am The Danger: How Walter White Became TV's Greatest Villain \u2697\ufe0f",
+    "seo_description": "From timid high school teacher to the legendary Heisenberg: how Vince Gilligan crafted television's greatest transformation.",
+    "movie": {
+      "id": 1396,
+      "title": "Breaking Bad",
+      "original_title": "Breaking Bad",
+      "slug": "breaking-bad",
+      "media_type": "tv",
+      "release_date": "2008-01-20",
+      "hook_title": "I Am The Danger: How Walter White Became TV's Greatest Villain \u2697\ufe0f",
+      "catchy_teaser": "Say his name! How a dying chemistry teacher built a billion-dollar meth empire and lost his soul.",
+      "overview": "A chemistry teacher diagnosed with terminal lung cancer teams up with a former student to manufacture crystal meth to secure his family's future.",
+      "tagline": "All hail the king.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 47,
+      "seasons": 5,
+      "vote_average": 8.9,
+      "vote_count": 14900,
+      "category": "series",
+      "director": "Vince Gilligan",
+      "top_cast": [
+        "Bryan Cranston",
+        "Aaron Paul",
+        "Anna Gunn",
+        "Giancarlo Esposito",
+        "Bob Odenkirk"
+      ],
+      "poster_path": "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+      "backdrop_path": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+      "backdrops": [
+        "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+        "/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u2697\ufe0f PEAK TELEVISION",
+        "title": "Mr. Chips to Scarface",
+        "text": "Diagnosed with terminal lung cancer, modest chemistry teacher Walter White paired with slacker student Jesse Pinkman to brew blue crystal meth.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfa9 HEISENBERG RISES",
+        "title": "This Is Not Meth",
+        "text": "The moment Walt detonated Tuco Salamanca's hideout with fulminated mercury, Heisenberg was born\u2014a ruthless ego that consumed Walter White.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udf57 LOS POLLOS HERMANOS",
+        "title": "Gus Fring's Empire",
+        "text": "Giancarlo Esposito's icy cold Gustavo Fring set the gold standard for television antagonists. His iconic final walking scene blew minds.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udeaa THE ONE WHO KNOCKS",
+        "title": "I Am The Danger",
+        "text": "'You clearly don't know who you're talking to. I am not in danger, Skyler. I AM the danger!' Bryan Cranston delivered TV's defining monologue.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udfc6 OZYMANDIAS PERFECTION",
+        "title": "A 10/10 Masterpiece",
+        "text": "Episode 'Ozymandias' holds an unprecedented, perfect 10/10 score on IMDb with over 200,000 votes\u2014widely crowned the greatest TV hour ever aired.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa REWATCH THE LEGEND",
+        "title": "Stream Breaking Bad & BCS",
+        "text": "Revisit Walter White and Saul Goodman's Albuquerque crime empire across Netflix and AMC.",
+        "backdrop_index": 1,
+        "cta_text": "Check Series Facts & Cast",
+        "cta_url": "https://www.themoviedb.org/tv/1396"
+      }
+    ]
+  },
+  {
+    "title": "Wednesday Addams: 5 Goth Secrets That Broke Netflix Records \ud83d\udda4\ud83d\udd77\ufe0f",
+    "seo_description": "Jenna Ortega's gothic charm, Thing's practical magic, and Tim Burton's Nevermore Academy secrets revealed.",
+    "movie": {
+      "id": 119051,
+      "title": "Wednesday",
+      "original_title": "Wednesday",
+      "slug": "wednesday",
+      "media_type": "tv",
+      "release_date": "2022-11-23",
+      "hook_title": "Wednesday Addams: 5 Goth Secrets That Broke Netflix Records \ud83d\udda4\ud83d\udd77\ufe0f",
+      "catchy_teaser": "Snarky, psychic, and deadly. 5 Nevermore secrets and viral moments that shattered Netflix records!",
+      "overview": "Wednesday Addams investigates a monstrous murder spree while mastering her emerging psychic abilities at Nevermore Academy.",
+      "tagline": "Smart, sarcastic and a little dead inside.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Mystery",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 8.4,
+      "vote_count": 8700,
+      "category": "series",
+      "director": "Tim Burton",
+      "top_cast": [
+        "Jenna Ortega",
+        "Gwendoline Christie",
+        "Emma Myers",
+        "Christina Ricci",
+        "Catherine Zeta-Jones"
+      ],
+      "poster_path": "/avzWIWe6FWZi7r1qJeQZcDTv3Ex.jpg",
+      "backdrop_path": "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+      "backdrops": [
+        "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg",
+        "/avzWIWe6FWZi7r1qJeQZcDTv3Ex.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udda4 GOTH RECORD-BREAKER",
+        "title": "Nevermore's Dark Outcast",
+        "text": "Smart, sarcastic, and a little dead inside, Wednesday Addams took Nevermore Academy by storm, amassing over 1 billion view hours in weeks.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udc83 VIRAL DANCE CRAZE",
+        "title": "The Goo Goo Muck Dance",
+        "text": "Jenna Ortega personally choreographed the iconic Rave'N Dance scene in just a few days, inspiring tens of millions of TikTok recreations.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u270b THING WAS 100% REAL",
+        "title": "Practical Hand Magic",
+        "text": "Thing wasn't CGI! Magician Victor Dorobantu wore a full blue chroma-suit, hiding under tables and contorting his body to bring the disembodied hand to life.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfac TIM BURTON'S TOUCH",
+        "title": "No Blinking Allowed",
+        "text": "Director Tim Burton instructed Jenna Ortega not to blink while on camera to give Wednesday an eerie, unnerving gothic presence.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udfbb CELLO VIRTUOSO",
+        "title": "Paint It Black",
+        "text": "Ortega learned how to play the cello specifically for the role, performing intense instrumental renditions of The Rolling Stones and Metallica.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa SEASON 2 AHEAD",
+        "title": "More Darkness Incoming",
+        "text": "Prepare for Wednesday Season 2 as Nevermore opens its gates to darker villains and more supernatural chaos.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Wednesday Details",
+        "cta_url": "https://www.themoviedb.org/tv/119051"
+      }
+    ]
+  },
+  {
+    "title": "Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled \ud83d\udc09\u2694\ufe0f",
+    "seo_description": "Dragons, betrayal, and the iron throne: discover the epic lore and production feats behind Game of Thrones.",
+    "movie": {
+      "id": 1399,
+      "title": "Game of Thrones",
+      "original_title": "Game of Thrones",
+      "slug": "game-of-thrones",
+      "media_type": "tv",
+      "release_date": "2011-04-17",
+      "hook_title": "Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled \ud83d\udc09\u2694\ufe0f",
+      "catchy_teaser": "When you play the game of thrones, you win or you die. 5 dark secrets and epic dragon battles!",
+      "overview": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "tagline": "Winter is coming.",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "runtime": 60,
+      "seasons": 8,
+      "vote_average": 8.4,
+      "vote_count": 24000,
+      "category": "series",
+      "director": "David Benioff & D.B. Weiss",
+      "top_cast": [
+        "Emilia Clarke",
+        "Kit Harington",
+        "Peter Dinklage",
+        "Lena Headey",
+        "Sophie Turner"
+      ],
+      "poster_path": "/seGbGCqUI1DzYndRekrpuBQS64k.jpg",
+      "backdrop_path": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+      "backdrops": [
+        "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg",
+        "/seGbGCqUI1DzYndRekrpuBQS64k.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udc09 DRAGON FIRE",
+        "title": "Win Or You Die",
+        "text": "Nine noble houses fought ruthlessly for the Iron Throne, while an icy threat beyond the 700-foot Wall prepared to wipe out humanity.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udf77 THE RED WEDDING",
+        "title": "The Rains of Castamere",
+        "text": "The Red Wedding shocked millions of viewers into silence, breaking every fantasy TV convention and proving nobody in Westeros is ever safe.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u2694\ufe0f BATTLE OF THE BASTARDS",
+        "title": "Cinematic War Mastery",
+        "text": "Jon Snow facing a charging cavalry alone was filmed with 500 extras, 70 real horses, and 25 days of brutal mud and steel stunt work.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udc51 MOTHER OF DRAGONS",
+        "title": "Daenerys & Drogon",
+        "text": "From an exiled Targaryen princess to breaker of chains, Daenerys commanded three colossal dragons that brought kingdoms to their knees.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\u2744\ufe0f WINTER IS HERE",
+        "title": "Night King's March",
+        "text": "The long-awaited invasion of the Army of the Dead took 55 consecutive freezing night shoots in Northern Ireland to capture the Long Night.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa EXPLORE WESTEROS",
+        "title": "House of the Dragon & GOT",
+        "text": "Binge the complete 8 seasons of Game of Thrones and prequel House of the Dragon on Max today.",
+        "backdrop_index": 1,
+        "cta_text": "Discover GOT Lore & Cast",
+        "cta_url": "https://www.themoviedb.org/tv/1399"
+      }
+    ]
+  },
+  {
+    "title": "Red Light, Green Light: 5 Twisted Rules of Squid Game \ud83d\udd34\ud83d\udfe2",
+    "seo_description": "Discover Squid Game: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 93405,
+      "title": "Squid Game",
+      "original_title": "\uc624\uc9d5\uc5b4 \uac8c\uc784",
+      "slug": "squid-game",
+      "media_type": "tv",
+      "release_date": "2021-09-17",
+      "hook_title": "Red Light, Green Light: 5 Twisted Rules of Squid Game \ud83d\udd34\ud83d\udfe2",
+      "catchy_teaser": "456 desperate players. 45.6 Billion Won prize. One survivor. Inside Netflix's biggest global show ever.",
+      "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
+      "tagline": "45.6 Billion Won is Child's Play.",
+      "genres": [
+        "Action & Adventure",
+        "Mystery",
+        "Drama"
+      ],
+      "runtime": 55,
+      "seasons": 2,
+      "vote_average": 7.8,
+      "vote_count": 14500,
+      "category": "series",
+      "director": "Hwang Dong-hyuk",
+      "top_cast": [
+        "Lee Jung-jae",
+        "Park Hae-soo",
+        "Wi Ha-joon",
+        "Jung Ho-yeon",
+        "Lee Byung-hun"
+      ],
+      "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+      "backdrop_path": "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+      "backdrops": [
+        "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+        "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Squid Game",
+        "text": "45.6 Billion Won is Child's Play. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Lee Jung-jae, Park Hae-soo, Wi Ha-joon, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Hwang Dong-hyuk.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Hwang Dong-hyuk",
+        "text": "Filmmaker Hwang Dong-hyuk pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Squid Game? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/93405"
+      }
+    ]
+  },
+  {
+    "title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us \ud83c\udf44\ud83e\udddf",
+    "seo_description": "Discover The Last of Us: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 100088,
+      "title": "The Last of Us",
+      "original_title": "The Last of Us",
+      "slug": "the-last-of-us",
+      "media_type": "tv",
+      "release_date": "2023-01-15",
+      "hook_title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us \ud83c\udf44\ud83e\udddf",
+      "catchy_teaser": "When you're lost in the darkness, look for the light. Pedro Pascal and Bella Ramsey's survival epic.",
+      "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone.",
+      "tagline": "When you're lost in the darkness, look for the light.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "runtime": 60,
+      "seasons": 2,
+      "vote_average": 8.6,
+      "vote_count": 5200,
+      "category": "series",
+      "director": "Craig Mazin & Neil Druckmann",
+      "top_cast": [
+        "Pedro Pascal",
+        "Bella Ramsey",
+        "Gabriel Luna",
+        "Anna Torv",
+        "Nick Offerman"
+      ],
+      "poster_path": "/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+      "backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+      "backdrops": [
+        "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+        "/1E5baAaEse26fej7uHcjOgEE2t2.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Last of Us",
+        "text": "When you're lost in the darkness, look for the light. Rated 8.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Pedro Pascal, Bella Ramsey, Gabriel Luna, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Craig Mazin & Neil Druckmann.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Craig Mazin & Neil Druckmann",
+        "text": "Filmmaker Craig Mazin & Neil Druckmann pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.6/10 on TMDB",
+        "text": "With an impressive 8.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Last of Us? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/100088"
+      }
+    ]
+  },
+  {
+    "title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
+    "seo_description": "The Dragon's Breath top-down shotgun sequence, Sacr\u00e9-C\u0153ur 222 steps, and Keanu Reeves' martial arts training in John Wick 4.",
+    "movie": {
+      "id": 603692,
+      "title": "John Wick: Chapter 4",
+      "original_title": "John Wick: Chapter 4",
+      "slug": "john-wick-chapter-4",
+      "media_type": "movie",
+      "release_date": "2023-03-22",
+      "hook_title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
+      "catchy_teaser": "442 Kills and non-stop action! How Keanu Reeves survived the ultimate global assassin war.",
+      "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table, but first must face a new enemy with powerful alliances across the globe.",
+      "tagline": "No way back, one way out.",
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 169,
+      "seasons": null,
+      "vote_average": 7.7,
+      "vote_count": 6400,
+      "category": "trending",
+      "director": "Chad Stahelski",
+      "top_cast": [
+        "Keanu Reeves",
+        "Donnie Yen",
+        "Bill Skarsg\u00e5rd",
+        "Laurence Fishburne",
+        "Hiroyuki Sanada"
+      ],
+      "poster_path": "/sP7MVWz9Fi5nkLmRCNKXnlcKkdb.jpg",
+      "backdrop_path": "/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+      "backdrops": [
+        "/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+        "/sP7MVWz9Fi5nkLmRCNKXnlcKkdb.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\udd4b BABA YAGA IS BACK",
+        "title": "One Way Out",
+        "text": "With a multimillion-dollar bounty on his head, John Wick challenges the High Table to a duel to the death for his eternal freedom.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udd25 TOP-DOWN SHOTGUN",
+        "title": "Dragon's Breath Spectacle",
+        "text": "Filmed in a single continuous bird's-eye shot inspired by the video game 'Hong Kong Massacre', Wick clears an entire apartment with incendiary rounds.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u26ea 222 STEPS STUNT",
+        "title": "The Fall of Sacr\u00e9-C\u0153ur",
+        "text": "Stuntman Vincent Bouillon tumbled down all 222 concrete steps of Sacr\u00e9-C\u0153ur multiple times to capture Wick's agonizing climb to dawn.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\uddaf DONNIE YEN'S CAINE",
+        "title": "The Blind Assassin",
+        "text": "Martial arts master Donnie Yen brought lethal elegance as blind assassin Caine, using motion sensors and doorbell chimes to take down waves of killers.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\ude97 ARC DE TRIOMPHE",
+        "title": "Doorless Drift Shooting",
+        "text": "Keanu Reeves spent months mastering reverse 180-degree car drifts while simultaneously reloading and firing a live pistol out the missing driver door.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f STREAM JOHN WICK",
+        "title": "Witness Action Perfection",
+        "text": "Experience nearly 3 hours of adrenaline-pumping stunt choreography in John Wick: Chapter 4 on 4K Blu-ray and digital platforms.",
+        "backdrop_index": 1,
+        "cta_text": "Check John Wick 4 Stats",
+        "cta_url": "https://www.themoviedb.org/movie/603692"
+      }
+    ]
+  },
+  {
+    "title": "Maximum Effort! 5 Mindblowing Marvel Cameos & Secrets \u2694\ufe0f\ud83c\udf7f",
+    "seo_description": "Hugh Jackman's comic-accurate yellow suit, shocking multiverse cameos, and box office records in Deadpool & Wolverine.",
+    "movie": {
+      "id": 533535,
+      "title": "Deadpool & Wolverine",
+      "original_title": "Deadpool & Wolverine",
+      "slug": "deadpool-and-wolverine",
+      "media_type": "movie",
+      "release_date": "2024-07-26",
+      "hook_title": "Maximum Effort! 5 Mindblowing Marvel Cameos & Secrets \u2694\ufe0f\ud83c\udf7f",
+      "catchy_teaser": "The MCU's wildest duo! R-rated carnage, savage fourth-wall roasts, and mind-blowing cameos.",
+      "overview": "A listless Wade Wilson toils away in civilian life. But when his homeworld faces an existential threat, Wade reluctantly suits up with an even more reluctant Wolverine.",
+      "tagline": "Come together.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "runtime": 128,
+      "seasons": null,
+      "vote_average": 7.7,
+      "vote_count": 6100,
+      "category": "trending",
+      "director": "Shawn Levy",
+      "top_cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin",
+        "Morena Baccarin",
+        "Matthew Macfadyen"
+      ],
+      "poster_path": "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg",
+      "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+      "backdrops": [
+        "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+        "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u2694\ufe0f MAXIMUM EFFORT",
+        "title": "The Marvel Jesus",
+        "text": "Wade Wilson's civilian life is shattered when the TVA threatens his entire timeline, forcing him to track down a reluctant, battle-scarred Wolverine.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udfe1 THE YELLOW SUIT",
+        "title": "24 Years In The Making",
+        "text": "After 24 years playing Wolverine in black leather, Hugh Jackman finally suited up in the iconic comic-accurate yellow and blue spandex suit.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udccf BLADE & GAMBIT RETURN",
+        "title": "The Void Resistance",
+        "text": "Wesley Snipes shattered Guinness records returning as Blade 26 years later, while Channing Tatum finally realized his dream playing Gambit.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udc15 DOGPOOL CELEBRITY",
+        "title": "Britain's Ugliest Dog",
+        "text": "Peggy, a real-life pug-Chinese crested mix crowned Britain's ugliest dog, stole hearts worldwide as Wade's beloved Mary Puppins (Dogpool).",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udcb0 $1.3 BILLION RECORD",
+        "title": "Highest Grossing R-Rated Film",
+        "text": "Deadpool & Wolverine conquered the global box office with $1.33 billion, becoming the highest-grossing R-rated movie in cinematic history.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f STREAM ON DISNEY+",
+        "title": "Watch The Dynamic Duo",
+        "text": "Stream Deadpool & Wolverine in IMAX Enhanced on Disney+ with exclusive behind-the-scenes gag reels.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Cameos & Cast",
+        "cta_url": "https://www.themoviedb.org/movie/533535"
+      }
+    ]
+  },
+  {
+    "title": "Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed \ud83c\udfdc\ufe0f\ud83d\udd25",
+    "seo_description": "Riding the giant sandworms, Austin Butler's terrifying Feyd-Rautha, and the battle for Arrakis in Dune 2.",
+    "movie": {
+      "id": 693134,
+      "title": "Dune: Part Two",
+      "original_title": "Dune: Part Two",
+      "slug": "dune-part-two",
+      "media_type": "movie",
+      "release_date": "2024-03-01",
+      "hook_title": "Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed \ud83c\udfdc\ufe0f\ud83d\udd25",
+      "catchy_teaser": "Ride the colossal sandworms of Arrakis into holy war! 5 mind-blowing secrets from Denis Villeneuve.",
+      "overview": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+      "tagline": "Long live the fighters.",
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 166,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 5400,
+      "category": "trending",
+      "director": "Denis Villeneuve",
+      "top_cast": [
+        "Timoth\u00e9e Chalamet",
+        "Zendaya",
+        "Rebecca Ferguson",
+        "Javier Bardem",
+        "Austin Butler"
+      ],
+      "poster_path": "/3HzGtM0JpfH2pWFGugJK22LRP6b.jpg",
+      "backdrop_path": "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+      "backdrops": [
+        "/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+        "/3HzGtM0JpfH2pWFGugJK22LRP6b.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83c\udfdc\ufe0f SCI-FI MASTERPIECE",
+        "title": "The Prophet of Arrakis",
+        "text": "Paul Atreides unites with Chani and the Fremen to wage holy war against House Harkonnen, fulfilling ancient spice prophecies.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\udeb1 RIDING SHAI-HULUD",
+        "title": "Filming The Sandworm",
+        "text": "Director Denis Villeneuve created a separate 'worm unit' that spent 3 months in Jordan's desert filming Timoth\u00e9e Chalamet on a mechanical shaking rig.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u26ab GIEDI PRIME IN INFRARED",
+        "title": "Feyd-Rautha's Arena",
+        "text": "The monochrome Harkonnen gladiator sequence was filmed using specialized infrared cameras to simulate the planet's black sun illumination.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\u2694\ufe0f KNIFE FIGHT DYNAMICS",
+        "title": "Paul vs. Feyd-Rautha",
+        "text": "Austin Butler and Timoth\u00e9e Chalamet trained for months to execute the brutal final knife duel without stunt doubles, relying on practical choreography.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udc41\ufe0f WATER OF LIFE",
+        "title": "The Golden Path",
+        "text": "Drinking the lethal Water of Life, Paul awakens the memories of all his ancestors, foreseeing billions dying across the galaxy in his name.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f EXPERIENCE DUNE 2",
+        "title": "Prepare For Dune Messiah",
+        "text": "Experience Dune: Part Two on 4K Ultra HD and stream the epic saga ahead of Denis Villeneuve's Dune Messiah.",
+        "backdrop_index": 1,
+        "cta_text": "Check Dune 2 Details",
+        "cta_url": "https://www.themoviedb.org/movie/693134"
+      }
+    ]
+  },
+  {
+    "title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets \ud83c\udf2a\ufe0f\u26a1",
+    "seo_description": "Discover Twisters: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 718821,
+      "title": "Twisters",
+      "original_title": "Twisters",
+      "slug": "twisters",
+      "media_type": "movie",
+      "release_date": "2024-07-19",
+      "hook_title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets \ud83c\udf2a\ufe0f\u26a1",
+      "catchy_teaser": "If you feel it, chase it! How Glen Powell and Daisy Edgar-Jones tackled real tornado-force fury.",
+      "overview": "As storm season intensifies, the paths of a retired tornado chaser and a reckless social-media superstar collide as terrifying multiple storm systems converge over Oklahoma.",
+      "tagline": "If you feel it, chase it.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "runtime": 122,
+      "seasons": null,
+      "vote_average": 7.0,
+      "vote_count": 1800,
+      "category": "trending",
+      "director": "Lee Isaac Chung",
+      "top_cast": [
+        "Daisy Edgar-Jones",
+        "Glen Powell",
+        "Anthony Ramos",
+        "Brandon Perea",
+        "David Corenswet"
+      ],
+      "poster_path": "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+      "backdrop_path": "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+      "backdrops": [
+        "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+        "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Twisters",
+        "text": "If you feel it, chase it. Rated 7.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "As storm season intensifies, the paths of a retired tornado chaser and a reckless social-media superstar collide as terrifying multiple storm systems converge over Oklahoma.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Daisy Edgar-Jones, Glen Powell, Anthony Ramos, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Lee Isaac Chung.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Lee Isaac Chung",
+        "text": "Filmmaker Lee Isaac Chung pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.0/10 on TMDB",
+        "text": "With an impressive 7.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Twisters? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/718821"
+      }
+    ]
+  },
+  {
+    "title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things \ud83e\udda2\ud83c\udfa9",
+    "seo_description": "Discover Poor Things: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 792307,
+      "title": "Poor Things",
+      "original_title": "Poor Things",
+      "slug": "poor-things",
+      "media_type": "movie",
+      "release_date": "2023-12-08",
+      "hook_title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things \ud83e\udda2\ud83c\udfa9",
+      "catchy_teaser": "Emma Stone's Oscar-winning tour-de-force! Inside Yorgos Lanthimos's wildly surreal cinematic wonder.",
+      "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across continents, free from prejudices of her times.",
+      "tagline": "She's like nothing you've ever seen.",
+      "genres": [
+        "Sci-Fi",
+        "Romance",
+        "Comedy"
+      ],
+      "runtime": 141,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 4100,
+      "category": "trending",
+      "director": "Yorgos Lanthimos",
+      "top_cast": [
+        "Emma Stone",
+        "Mark Ruffalo",
+        "Willem Dafoe",
+        "Ramy Youssef",
+        "Christopher Abbott"
+      ],
+      "poster_path": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+      "backdrop_path": "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+      "backdrops": [
+        "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+        "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Poor Things",
+        "text": "She's like nothing you've ever seen. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across continents, free from prejudices of her times.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Emma Stone, Mark Ruffalo, Willem Dafoe, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Yorgos Lanthimos.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Yorgos Lanthimos",
+        "text": "Filmmaker Yorgos Lanthimos pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Poor Things? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/792307"
+      }
+    ]
+  },
+  {
+    "title": "Death's Plan: 5 Terrifying Accidental Kill Traps Ranked \ud83d\udc80",
+    "seo_description": "Discover how Death stalks survivors through ingenious chain reactions in horror classic Final Destination.",
+    "movie": {
+      "id": 9532,
+      "title": "Final Destination",
+      "original_title": "Final Destination",
+      "slug": "final-destination",
+      "media_type": "movie",
+      "release_date": "2000-03-17",
+      "hook_title": "Death's Plan: 5 Terrifying Accidental Kill Traps Ranked \ud83d\udc80",
+      "catchy_teaser": "No matter where you hide, Death is already waiting in the shadows. Discover the sinister rules!",
+      "overview": "After a teenager cheats death by fleeing an exploding airplane, Grim Reaper stalks the survivors with brutal chain-reaction accidents.",
+      "tagline": "Death doesn't like to be cheated.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": 98,
+      "seasons": null,
+      "vote_average": 6.6,
+      "vote_count": 5200,
+      "category": "cult_classic",
+      "director": "James Wong",
+      "top_cast": [
+        "Devon Sawa",
+        "Ali Larter",
+        "Kerr Smith",
+        "Tony Todd"
+      ],
+      "poster_path": "/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg",
+      "backdrop_path": "/7isarjYDEKZ5t1CgcvbuqEUby8P.jpg",
+      "backdrops": [
+        "/7isarjYDEKZ5t1CgcvbuqEUby8P.jpg",
+        "/1mXhlQMnlfvJ2frxTjZSQNnA9Vp.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udc80 CULT HORROR LEGEND",
+        "title": "You Can't Cheat Death",
+        "text": "When Alex Browning had a terrifying premonition of Flight 180 exploding, he saved his classmates. But cheating Death carries a horrifying price.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2708\ufe0f FLIGHT 180",
+        "title": "The Original Nightmare",
+        "text": "Inspired by a real-life X-Files script, the airplane explosion remains one of the most stressful opening sequences in cinematic horror history.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83e\ude78 FATAL CHAIN REACTION",
+        "title": "Death's Rube Goldberg Traps",
+        "text": "Unlike slashers with knives, Death weaponizes everyday household items: leaking water pipes, frayed wires, kitchen knives, and tea kettles.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\udc41\ufe0f TONY TODD'S WARNING",
+        "title": "The Mortician's Secret",
+        "text": "Horror icon Tony Todd as mortician William Bludworth delivered the franchise's spine-chilling lore: 'In Death, there are no accidents.'",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udd2e REVERSE ORDER",
+        "title": "The Fatal Pattern",
+        "text": "Survivors die in the exact order they were originally destined to perish on the plane. Intervening only passes the curse to the next victim.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac WATCH THE FRANCHISE",
+        "title": "Bloodlines Return Soon",
+        "text": "Relive every heart-stopping twist across the 5-film franchise as Final Destination: Bloodlines prepares to terrify theaters.",
+        "backdrop_index": 1,
+        "cta_text": "Check Franchise Details",
+        "cta_url": "https://www.themoviedb.org/movie/9532"
+      }
+    ]
+  },
+  {
+    "title": "Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar \ud83d\ude80\u23f3",
+    "seo_description": "Time dilation on Miller's Planet, Gargantua's real physics, and the fifth dimension tesseract explained.",
+    "movie": {
+      "id": 157336,
+      "title": "Interstellar",
+      "original_title": "Interstellar",
+      "slug": "interstellar",
+      "media_type": "movie",
+      "release_date": "2014-11-05",
+      "hook_title": "Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar \ud83d\ude80\u23f3",
+      "catchy_teaser": "Love bends space and time. Unravel Christopher Nolan's mind-bending black hole puzzle!",
+      "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival beyond a dying Earth.",
+      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Science Fiction"
+      ],
+      "runtime": 169,
+      "seasons": null,
+      "vote_average": 8.4,
+      "vote_count": 35000,
+      "category": "cult_classic",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain",
+        "Michael Caine"
+      ],
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "backdrop_path": "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+      "backdrops": [
+        "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+        "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\ude80 SCI-FI EPIC",
+        "title": "Beyond Our Dying Earth",
+        "text": "When Earth faced agricultural extinction, Cooper left his family behind to journey through a mysterious Saturn wormhole into the unknown.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udf0a MILLER'S PLANET",
+        "title": "Every Hour Is 7 Years",
+        "text": "Trapped in Gargantua's gravitational time dilation, every tick of Hans Zimmer's soundtrack represented 1 day passing on Earth. Cooper lost 23 years in minutes.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udf0c GARGANTUA PHYSICS",
+        "title": "Nobel Prize Science",
+        "text": "Astrophysicist Kip Thorne calculated the exact mathematical equations for Gargantua, rendering the most accurate black hole visual in human history.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udd16 TARS & PRACTICAL FX",
+        "title": "No Green Screen Robots",
+        "text": "TARS wasn't animated CGI! Puppeteer Bill Irwin physically pushed and operated an 86-kilogram hydraulic rig live on Icelandic glaciers.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udcda THE TESSERACT",
+        "title": "Love Transcends Dimensions",
+        "text": "Trapped inside the 5-dimensional tesseract, Cooper discovered love was the one quantum force capable of bridging space, time, and gravity.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f EXPERIENCE INTERSTELLAR",
+        "title": "Christopher Nolan's Masterpiece",
+        "text": "Experience Interstellar in IMAX 70mm or 4K Ultra HD for the ultimate cosmic emotional voyage.",
+        "backdrop_index": 1,
+        "cta_text": "View Interstellar Credits",
+        "cta_url": "https://www.themoviedb.org/movie/157336"
+      }
+    ]
+  },
+  {
+    "title": "Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets \ud83c\udf00\ud83d\udca4",
+    "seo_description": "Dream layers, the rotating hallway fight, and the final spinning top debate in Christopher Nolan's Inception.",
+    "movie": {
+      "id": 27205,
+      "title": "Inception",
+      "original_title": "Inception",
+      "slug": "inception",
+      "media_type": "movie",
+      "release_date": "2010-07-15",
+      "hook_title": "Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets \ud83c\udf00\ud83d\udca4",
+      "catchy_teaser": "Is this reality or dream level 3? Look closely at the spinning top totem before time runs out!",
+      "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "tagline": "Your mind is the scene of the crime.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 148,
+      "seasons": null,
+      "vote_average": 8.4,
+      "vote_count": 36000,
+      "category": "cult_classic",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Elliot Page",
+        "Tom Hardy",
+        "Cillian Murphy"
+      ],
+      "poster_path": "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg",
+      "backdrop_path": "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+      "backdrops": [
+        "/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+        "/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83c\udf00 MIND HEIST",
+        "title": "Your Mind Is The Crime Scene",
+        "text": "Dom Cobb extracts secrets from corporate targets while they dream. But planting an original idea requires diving 3 layers deep into the subconscious.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\u23f3 TIME EXPANSION",
+        "title": "The Multi-Layer Kick",
+        "text": "5 minutes in the real world equals 1 hour in dream 1, 12 hours in dream 2, and decades in Limbo. One wrong move leaves you in subconscious purgatory.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83e\udd4b ROTATING HALLWAY",
+        "title": "Zero CGI Gravity Fight",
+        "text": "Joseph Gordon-Levitt trained for weeks to perform in a massive 100-foot rotating steel centrifuge, creating cinema's greatest gravity-defying brawl.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfba THE HANS ZIMMER BRAAM",
+        "title": "Edith Piaf Slowed 10x",
+        "text": "The earth-shaking brass horn 'BRAAM' sound was created by slowing down \u00c9dith Piaf's song 'Non, je ne regrette rien' to match dream time dilation.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udc8d THE WEDDING RING",
+        "title": "The Real Totem Revealed",
+        "text": "The spinning top wasn't Cobb's totem\u2014it was Mal's! Look closely: Cobb only wears his wedding ring inside dreams, but is bare-handed in the finale.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac STREAM INCEPTION",
+        "title": "Wake Up To Reality",
+        "text": "Dive back into the dream architecture of Christopher Nolan's 4-time Oscar-winning sci-fi thriller.",
+        "backdrop_index": 1,
+        "cta_text": "Check Inception Details",
+        "cta_url": "https://www.themoviedb.org/movie/27205"
+      }
+    ]
+  },
+  {
+    "title": "Why So Serious? How Heath Ledger's Joker Made Movie History \ud83c\udccf\ud83e\udd87",
+    "seo_description": "Heath Ledger's diary, the hospital explosion, and the philosophical war for Gotham's soul in The Dark Knight.",
+    "movie": {
+      "id": 155,
+      "title": "The Dark Knight",
+      "original_title": "The Dark Knight",
+      "slug": "the-dark-knight",
+      "media_type": "movie",
+      "release_date": "2008-07-16",
+      "hook_title": "Why So Serious? How Heath Ledger's Joker Made Movie History \ud83c\udccf\ud83e\udd87",
+      "catchy_teaser": "Some men just want to watch the world burn. Heath Ledger's unforgettable Joker secrets revealed.",
+      "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests of his ability to fight injustice.",
+      "tagline": "Welcome to a world without rules.",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 152,
+      "seasons": null,
+      "vote_average": 8.5,
+      "vote_count": 33000,
+      "category": "cult_classic",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart",
+        "Michael Caine",
+        "Morgan Freeman"
+      ],
+      "poster_path": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "backdrop_path": "/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+      "backdrops": [
+        "/9FE5eD92WfVCiivM9Pq9GVSrlWk.jpg",
+        "/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83c\udccf AGENT OF CHAOS",
+        "title": "Welcome To A World Without Rules",
+        "text": "When the Joker unleashes psychological warfare on Gotham City, Batman must cross his moral lines to prevent total civic collapse.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfe8 HOSPITAL EXPLOSION",
+        "title": "Heath's Unscripted Stunt",
+        "text": "When the detonator misfired during the real hospital blast, Heath Ledger stayed in character, fiddling with the remote until it blew up behind him.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udcd3 THE JOKER DIARY",
+        "title": "Months In Isolation",
+        "text": "Ledger locked himself in a London hotel room for 6 weeks, filling a notebook with hyena laughter, unsettling drawings, and manic handwriting.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83d\ude9b REAL 18-WHEELER FLIP",
+        "title": "No Computer Graphics",
+        "text": "Nolan flipped an actual 18-wheel semi-truck vertically in downtown Chicago using a massive TNT piston under the trailer.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83e\udd87 YOU COMPLETE ME",
+        "title": "An Unstoppable Force",
+        "text": "The interrogation scene redefined comic cinema: Batman and Joker aren't just foes; they are two sides of an eternal philosophical coin.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfc6 OSCAR TRIUMPH",
+        "title": "Cinema's Greatest Villain",
+        "text": "Heath Ledger won a posthumous Academy Award, forever etching The Dark Knight into film history.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Dark Knight Trivia",
+        "cta_url": "https://www.themoviedb.org/movie/155"
+      }
+    ]
+  },
+  {
+    "title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer \ud83d\udca5\u2622\ufe0f",
+    "seo_description": "Discover Oppenheimer: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 872585,
+      "title": "Oppenheimer",
+      "original_title": "Oppenheimer",
+      "slug": "oppenheimer",
+      "media_type": "movie",
+      "release_date": "2023-07-21",
+      "hook_title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer \ud83d\udca5\u2622\ufe0f",
+      "catchy_teaser": "Zero CGI used for the atomic blast. Inside Christopher Nolan's Oscar-sweeping historical masterpiece.",
+      "overview": "The gripping story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II and the harrowing moral and political fallout that followed.",
+      "tagline": "The world forever changes.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "runtime": 181,
+      "seasons": null,
+      "vote_average": 8.1,
+      "vote_count": 9200,
+      "category": "cult_classic",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Cillian Murphy",
+        "Emily Blunt",
+        "Matt Damon",
+        "Robert Downey Jr.",
+        "Florence Pugh"
+      ],
+      "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+      "backdrops": [
+        "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+        "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udc80 CULT LEGEND",
+        "title": "Oppenheimer",
+        "text": "The world forever changes. Rated 8.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE TERRIFYING PREMISE",
+        "title": "Shocking Twist Ahead",
+        "text": "The gripping story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II and the harrowing moral and political fallout that followed.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Cillian Murphy, Emily Blunt, Matt Damon, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Christopher Nolan.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Christopher Nolan",
+        "text": "Filmmaker Christopher Nolan pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.1/10 on TMDB",
+        "text": "With an impressive 8.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Oppenheimer? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/872585"
+      }
+    ]
+  },
+  {
+    "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
+    "seo_description": "Uncover the $570M box office phenomenon, Dakota Johnson's casting, and behind-the-scenes secrets of Fifty Shades of Grey.",
+    "movie": {
+      "id": 216015,
+      "title": "Fifty Shades of Grey",
+      "original_title": "Fifty Shades of Grey",
+      "slug": "fifty-shades-of-grey",
+      "media_type": "movie",
+      "release_date": "2015-02-11",
+      "hook_title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
+      "catchy_teaser": "A $570M box office shockwave. 5 behind-the-scenes secrets of Hollywood's boldest modern romance.",
+      "overview": "Literature student Anastasia Steele's life changes forever when she interviews enigmatic billionaire Christian Grey, plunging into a complex world of luxury, control, and intense passion.",
+      "tagline": "Mr. Grey will see you now.",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "runtime": 125,
+      "seasons": null,
+      "vote_average": 5.9,
+      "vote_count": 12400,
+      "category": "steamy_thrillers",
+      "director": "Sam Taylor-Johnson",
+      "top_cast": [
+        "Dakota Johnson",
+        "Jamie Dornan",
+        "Jennifer Ehle",
+        "Eloise Mumford",
+        "Rita Ora"
+      ],
+      "poster_path": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
+      "backdrop_path": "/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg",
+      "backdrops": [
+        "/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg",
+        "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 $570M PHENOMENON",
+        "title": "The Global Romance Shockwave",
+        "text": "Adapted from E.L. James's bestselling novels, Fifty Shades of Grey shattered box office records, grossing over $570 million worldwide on Valentine's Day weekend.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfac DAKOTA'S AUDITION",
+        "title": "Ana Steele's Casting Victory",
+        "text": "Dakota Johnson beat dozens of Hollywood stars for Anastasia Steele by reading a dramatic scene from Ingmar Bergman's Persona, captivating director Sam Taylor-Johnson.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udc54 MR. GREY'S WORLD",
+        "title": "Building The Seattle Empire",
+        "text": "Jamie Dornan trained rigorously to embody Christian Grey's billionaire intensity, practicing ballroom dancing, piano pieces, and bespoke wardrobe styling.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfb5 GRAMMY SOUNDTRACK",
+        "title": "The Weeknd & Beyonc\u00e9 Hits",
+        "text": "The platinum-selling soundtrack produced global smash hits including The Weeknd's Oscar-nominated 'Earned It' and Ellie Goulding's record-shattering 'Love Me Like You Do'.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udca5 CULTURAL LEGACY",
+        "title": "A Modern Pop Culture Shift",
+        "text": "The trilogy sparked worldwide conversations around modern romance, dominating book clubs, streaming platforms, and pop culture debates for an entire generation.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83d\udcfa STREAM THE SAGA",
+        "title": "Relive The Romance Trilogy",
+        "text": "Stream all three chapters of Fifty Shades on premium VOD platforms and explore full cast trivia today.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Fifty Shades Details",
+        "cta_url": "https://www.themoviedb.org/movie/216015"
+      }
+    ]
+  },
+  {
+    "title": "365 Days: Why Netflix's Bold Sensation Broke Global Records \ud83d\udd25\ud83d\udca5",
+    "seo_description": "Discover why 365 Days became a worldwide Netflix streaming phenomenon across 90+ countries and Michele Morrone's overnight rise.",
+    "movie": {
+      "id": 664413,
+      "title": "365 Days",
+      "original_title": "365 Dni",
+      "slug": "365-days",
+      "media_type": "movie",
+      "release_date": "2020-02-07",
+      "hook_title": "365 Days: Why Netflix's Bold Sensation Broke Global Records \ud83d\udd25\ud83d\udca5",
+      "catchy_teaser": "1 Year. 1 Demanding Sicilian Mob Boss. The global streaming hit that dominated #1 charts in 90+ countries.",
+      "overview": "When sales director Laura is abducted in Sicily by mob boss Massimo Torricelli, she is given exactly 365 days to fall in love with him in a whirlwind of Mediterranean intrigue.",
+      "tagline": "Are you lost baby girl?",
+      "genres": [
+        "Drama",
+        "Romance",
+        "Thriller"
+      ],
+      "runtime": 114,
+      "seasons": null,
+      "vote_average": 5.6,
+      "vote_count": 8900,
+      "category": "steamy_thrillers",
+      "director": "Barbara Bia\u0142ow\u0105s",
+      "top_cast": [
+        "Michele Morrone",
+        "Anna-Maria Sieklucka",
+        "Bronis\u0142aw Wroc\u0142awski",
+        "Otar Saralidze"
+      ],
+      "poster_path": "/6KwrHucIE3CvNT7kTm2MAlZ4fYF.jpg",
+      "backdrop_path": "/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg",
+      "backdrops": [
+        "/29mZ5bR5m2w3xuvwJH7BHMFQQwH.jpg",
+        "/6KwrHucIE3CvNT7kTm2MAlZ4fYF.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca GLOBAL STREAMING HIT",
+        "title": "#1 in Over 90 Countries",
+        "text": "Premiering on Netflix in 2020, 365 Days became one of the platform's most-watched foreign titles in history, topping daily Top 10 lists worldwide.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udd76\ufe0f MICHELE MORRONE",
+        "title": "Overnight International Stardom",
+        "text": "Italian actor and musician Michele Morrone went from obscurity to millions of followers overnight, singing lead vocal tracks on the film's chart-topping soundtrack.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83c\udf0a SICILIAN SPECTACLE",
+        "title": "Lavish Mediterranean Backdrops",
+        "text": "Filmed across breathtaking Italian coastline villas, Warsaw luxury hotels, and sun-soaked yachts, the cinematography created an escapist dreamscape.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\u26a1 VIRAL TIKTOK FRENZY",
+        "title": "Billions of Social Impressions",
+        "text": "Catchy dialogue lines like 'Are you lost baby girl?' sparked billions of TikTok views, propelling the film into a viral internet phenomenon.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udfac TRILOGY EXPANSION",
+        "title": "The Blockbuster Sequel Era",
+        "text": "Massive international viewership prompted Netflix to greenlight two back-to-back sequels, cementing 365 Days as one of Europe's biggest commercial franchises.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f BINGE THE TRILOGY",
+        "title": "Watch All 3 Installments",
+        "text": "Explore the full 365 Days movie universe, soundtrack, and cast profiles on CineStories today.",
+        "backdrop_index": 1,
+        "cta_text": "View 365 Days Details",
+        "cta_url": "https://www.themoviedb.org/movie/664413"
+      }
+    ]
+  },
+  {
+    "title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller \ud83e\uddca\u26a1",
+    "seo_description": "Relive Paul Verhoeven's boundary-pushing masterpiece Basic Instinct, Sharon Stone's iconic performance, and the white ice-pick mystery.",
+    "movie": {
+      "id": 402,
+      "title": "Basic Instinct",
+      "original_title": "Basic Instinct",
+      "slug": "basic-instinct",
+      "media_type": "movie",
+      "release_date": "1992-03-20",
+      "hook_title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller \ud83e\uddca\u26a1",
+      "catchy_teaser": "The infamous interrogation scene, ice-pick mind games, and Paul Verhoeven's boundary-pushing masterpiece.",
+      "overview": "Detective Nick Curran investigates the brutal ice-pick murder of a rock star, becoming entangled with Catherine Tramell, an enigmatic novelist whose books eerily predict real-life crimes.",
+      "tagline": "A brutal murder. A brilliant killer. A cop who can't resist.",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "runtime": 128,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 3800,
+      "category": "steamy_thrillers",
+      "director": "Paul Verhoeven",
+      "top_cast": [
+        "Michael Douglas",
+        "Sharon Stone",
+        "George Dzundza",
+        "Jeanne Tripplehorn"
+      ],
+      "poster_path": "/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg",
+      "backdrop_path": "/7FRraud59N3s10bbf9bfYjvwx3v.jpg",
+      "backdrops": [
+        "/7FRraud59N3s10bbf9bfYjvwx3v.jpg",
+        "/76Ts0yoHk8kVQj9MMnoMixhRWoh.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddca CULT MASTERPIECE",
+        "title": "The $350M Thriller Legend",
+        "text": "Paul Verhoeven's 1992 neo-noir shattered box offices worldwide, raking in $352 million and revolutionizing the psychological erotic thriller genre.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83d\udc51 SHARON STONE",
+        "title": "The Interrogation Scene",
+        "text": "Sharon Stone's electrifying portrayal of brilliant novelist Catherine Tramell cemented her status as cinema's ultimate, unshakeable femme fatale.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd75\ufe0f MICHAEL DOUGLAS",
+        "title": "Nick Curran's Dark Descent",
+        "text": "Michael Douglas delivered one of his most intense performances as a flawed homicide detective hopelessly ensnared in Catherine's deadly psychological web.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfbc JERRY GOLDSMITH",
+        "title": "The Oscar-Nominated Score",
+        "text": "Composer Jerry Goldsmith crafted a haunting, suspense-drenched orchestral masterpiece that elevated every tense confrontation into pure cinematic art.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\u2753 UNANSWERED ENIGMA",
+        "title": "Who Held The Ice Pick?",
+        "text": "Decades later, cinephiles still passionately debate the final ambiguous bedroom camera reveal: was Catherine truly the killer, or the ultimate puppeteer?",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac CINEMA HISTORY",
+        "title": "Stream The 4K Restored Classic",
+        "text": "Experience Paul Verhoeven's uncut masterpiece in 4K UHD and explore retrospective cast interviews on CineStories.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Basic Instinct Details",
+        "cta_url": "https://www.themoviedb.org/movie/402"
+      }
+    ]
+  },
+  {
+    "title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets \ud83c\udff0\ud83c\udf77",
+    "seo_description": "Explore Emerald Fennell's Saltburn: Barry Keoghan's masterclass, Jacob Elordi's charm, and the shocking secrets of the Catton estate.",
+    "movie": {
+      "id": 930564,
+      "title": "Saltburn",
+      "original_title": "Saltburn",
+      "slug": "saltburn",
+      "media_type": "movie",
+      "release_date": "2023-11-17",
+      "hook_title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets \ud83c\udff0\ud83c\udf77",
+      "catchy_teaser": "Obsession, luxury, and betrayal. The shocking psychological thriller that turned social media upside down.",
+      "overview": "Oxford student Oliver Quick is invited by aristocratic classmate Felix Catton to Saltburn, his eccentric family's lavish estate, setting off a provocative summer of seduction and deceit.",
+      "tagline": "We're all about to lose our minds.",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "runtime": 131,
+      "seasons": null,
+      "vote_average": 7.1,
+      "vote_count": 3100,
+      "category": "steamy_thrillers",
+      "director": "Emerald Fennell",
+      "top_cast": [
+        "Barry Keoghan",
+        "Jacob Elordi",
+        "Rosamund Pike",
+        "Richard E. Grant",
+        "Carey Mulligan"
+      ],
+      "poster_path": "/zGTfMwG112BC66mpaveVxoWPOaB.jpg",
+      "backdrop_path": "/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg",
+      "backdrops": [
+        "/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg",
+        "/zGTfMwG112BC66mpaveVxoWPOaB.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83c\udff0 ARISTOCRATIC OBSESSION",
+        "title": "Welcome To Saltburn Estate",
+        "text": "Oscar winner Emerald Fennell delivers a gothic, deliciously wicked satire of English high society, obsession, and Machiavellian deceit.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83c\udfad BARRY KEOGHAN",
+        "title": "Oliver's Chilling Transformation",
+        "text": "Barry Keoghan gives a fearless, career-defining performance as Oxford outsider Oliver Quick, who systematically ingratiates himself with the wealthy Cattons.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\u2728 JACOB ELORDI",
+        "title": "The Irresistible Felix Catton",
+        "text": "Jacob Elordi shines as the charismatic golden boy heir, whose magnetic hospitality conceals the shallow cruelty of his aristocratic lineage.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83c\udfb6 MURDER ON DANCEFLOOR",
+        "title": "Sophie Ellis-Bextor's Revival",
+        "text": "The unforgettable final dance sequence propelled Sophie Ellis-Bextor's 2001 classic 'Murder on the Dancefloor' back to the top of global music charts.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83c\udf77 SHOCKING TWISTS",
+        "title": "The Master Manipulator",
+        "text": "The third-act graveyard and estate revelations shocked audiences, cementing Saltburn as one of the most talked-about social thrillers of the decade.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\u26a1 STREAM ON PRIME",
+        "title": "Enter The World of Saltburn",
+        "text": "Watch Saltburn on Prime Video and uncover behind-the-scenes cinematography details on CineStories.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Saltburn Details",
+        "cta_url": "https://www.themoviedb.org/movie/930564"
+      }
+    ]
+  },
+  {
+    "title": "Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War \ud83c\udfdb\ufe0f\u2694\ufe0f",
+    "seo_description": "Paul Mescal as Lucius, naval Colosseum battles, and Denzel Washington's mastermind in Gladiator II.",
+    "movie": {
+      "id": 558449,
+      "title": "Gladiator II",
+      "original_title": "Gladiator II",
+      "slug": "gladiator-ii",
+      "media_type": "movie",
+      "release_date": "2024-11-22",
+      "hook_title": "Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War \ud83c\udfdb\ufe0f\u2694\ufe0f",
+      "catchy_teaser": "What we do in life echoes in eternity. Colosseum warfare returns in Ridley Scott's epic spectacle!",
+      "overview": "Years after witnessing the death of hero Maximus, Lucius enters the Colosseum after his home is conquered by the tyrannical Emperors of Rome.",
+      "tagline": "What we do in life echoes in eternity.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "runtime": 148,
+      "seasons": null,
+      "vote_average": 6.8,
+      "vote_count": 2800,
+      "category": "upcoming",
+      "director": "Ridley Scott",
+      "top_cast": [
+        "Paul Mescal",
+        "Pedro Pascal",
+        "Denzel Washington",
+        "Connie Nielsen"
+      ],
+      "poster_path": "/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+      "backdrop_path": "/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg",
+      "backdrops": [
+        "/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg",
+        "/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83c\udfdb\ufe0f RETURN TO ROME",
+        "title": "Echoes In Eternity",
+        "text": "Years after Maximus gave his life for Rome, his son Lucius is dragged into the Colosseum as a gladiator to challenge tyrannical co-emperors.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-2",
+        "badge": "\ud83e\udd88 NAVAL COLOSSEUM WAR",
+        "title": "Flooding The Arena",
+        "text": "Ridley Scott recreated ancient Rome's naumachia, flooding the Colosseum arena with water, warships, and man-eating sharks.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udc51 MACRINUS MASTERMIND",
+        "title": "Denzel's Puppet Show",
+        "text": "Denzel Washington steals the show as Macrinus, a ruthless arms dealer who uses gladiators and political scheming to seize the imperial throne.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udd8f WAR RHINO STUNT",
+        "title": "Beasts of the Arena",
+        "text": "Lucius faces savage gladiatorial challenges including rabid baboons and a colossal war rhino controlled with jaw-dropping practical animatronics.",
+        "backdrop_index": 1
+      },
+      {
+        "id": "page-5",
+        "badge": "\u2694\ufe0f HONORING MAXIMUS",
+        "title": "A Father's Armor",
+        "text": "When Lucius dons the breastplate of Maximus Decimus Meridius, Rome witnesses the resurrection of the dream of a free Republic.",
+        "backdrop_index": 0
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udf7f THEATRICAL EVENT",
+        "title": "Witness Gladiator II",
+        "text": "Experience the blood and glory of Ridley Scott's Gladiator II on the biggest cinema screens worldwide.",
+        "backdrop_index": 1,
+        "cta_text": "Explore Gladiator II Cast",
+        "cta_url": "https://www.themoviedb.org/movie/558449"
+      }
+    ]
+  }
+]

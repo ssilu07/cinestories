@@ -20,6 +20,18 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 
+# Ensure UTF-8 output on Windows consoles
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from config import (
     DOMAIN_NAME,
     TMDB_API_KEY,
@@ -170,22 +182,57 @@ def run_pipeline(
         with open(html_file, "w", encoding="utf-8") as f:
             f.write(art_html)
 
-    # Save JSON feeds
+    # 5. Accumulate with existing cache
+    cache_stories_path = DIST_DIR / "stories_cache.json"
+    cache_articles_path = DIST_DIR / "articles_cache.json"
+
+    combined_stories = list(stories)
+    seen_story_slugs = {s.get("movie", {}).get("slug") for s in combined_stories if s.get("movie", {}).get("slug")}
+    if cache_stories_path.exists():
+        try:
+            with open(cache_stories_path, "r", encoding="utf-8") as f:
+                old_stories = json.load(f)
+            for os_item in old_stories:
+                os_slug = os_item.get("movie", {}).get("slug")
+                if os_slug and os_slug not in seen_story_slugs:
+                    combined_stories.append(os_item)
+                    seen_story_slugs.add(os_slug)
+        except Exception as e:
+            print(f"[Cache] Note: could not load stories cache: {e}")
+
+    with open(cache_stories_path, "w", encoding="utf-8") as f:
+        json.dump(combined_stories, f, indent=2, default=str)
+
+    combined_articles = list(articles)
+    seen_art_slugs = {a.get("movie", {}).get("slug") for a in combined_articles if a.get("movie", {}).get("slug")}
+    if cache_articles_path.exists():
+        try:
+            with open(cache_articles_path, "r", encoding="utf-8") as f:
+                old_articles = json.load(f)
+            for oa_item in old_articles:
+                oa_slug = oa_item.get("movie", {}).get("slug")
+                if oa_slug and oa_slug not in seen_art_slugs:
+                    combined_articles.append(oa_item)
+                    seen_art_slugs.add(oa_slug)
+        except Exception as e:
+            print(f"[Cache] Note: could not load articles cache: {e}")
+
+    with open(cache_articles_path, "w", encoding="utf-8") as f:
+        json.dump(combined_articles, f, indent=2, default=str)
+
+    # Save JSON feed for articles
     with open(ARTICLES_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(articles, f, indent=2, default=str)
+        json.dump(combined_articles, f, indent=2, default=str)
 
-    with open(STORIES_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(stories, f, indent=2, default=str)
-
-    print(f"      -> Successfully saved {len(articles)} Discover articles into dist/articles/<slug>/index.html\n")
+    print(f"      -> Successfully saved {len(articles)} new Discover articles ({len(combined_articles)} total in catalog)\n")
 
     # 6. Build Discover Feed Portal, Homepage, Policy Pages & Sitemap
     print(f"[5/6] Building Chrome Discover feed, visual homepage, policy pages, and XML sitemap...")
-    generate_discover_feed(articles, domain=domain, output_dir=DISCOVER_DIR)
-    generate_homepage(stories, domain=domain, output_dir=DIST_DIR)
+    generate_discover_feed(combined_articles, domain=domain, output_dir=DISCOVER_DIR)
+    generate_homepage(combined_stories, domain=domain, output_dir=DIST_DIR)
     generate_policy_pages(dist_dir=DIST_DIR, domain=domain)
-    generate_sitemap(stories, articles=articles, domain=domain, output_path=SITEMAP_PATH)
-    print(f"      -> Chrome Discover feed, homepage, policy pages, and sitemap updated.\n")
+    generate_sitemap(combined_stories, articles=combined_articles, domain=domain, output_path=SITEMAP_PATH)
+    print(f"      -> Discover feed ({len(combined_articles)} articles), homepage ({len(combined_stories)} stories), policy pages, and sitemap updated.\n")
 
     # 7. AMP Validation
     if run_validation:

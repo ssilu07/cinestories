@@ -64,22 +64,27 @@ class TMDBClient:
         Fetch items by category: 'trending', 'series', 'cult_classic', 'upcoming', 'now_playing'.
         """
         endpoint_map = {
-            "upcoming": ("/movie/upcoming", "movie"),
-            "now_playing": ("/movie/now_playing", "movie"),
-            "trending": ("/trending/movie/week", "movie"),
-            "series": ("/trending/tv/week", "tv"),
-            "popular_series": ("/tv/popular", "tv"),
-            "cult_classic": ("/movie/top_rated", "movie"),
-            "streaming_charts": ("/trending/tv/week", "tv"),
-            "theories_easter_eggs": ("/trending/movie/week", "movie"),
-            "where_are_they_now": ("/tv/popular", "tv"),
-            "steamy_thrillers": ("/discover/movie?with_genres=53,10749", "movie")
+            "upcoming": ("/movie/upcoming", "movie", {}),
+            "now_playing": ("/movie/now_playing", "movie", {}),
+            "trending": ("/trending/movie/week", "movie", {}),
+            "series": ("/trending/tv/week", "tv", {}),
+            "popular_series": ("/tv/popular", "tv", {}),
+            "cult_classic": ("/movie/top_rated", "movie", {}),
+            "streaming_charts": ("/trending/tv/week", "tv", {}),
+            "theories_easter_eggs": ("/trending/movie/week", "movie", {}),
+            "where_are_they_now": ("/tv/popular", "tv", {}),
+            "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,10749"})
         }
 
-        endpoint, media_type = endpoint_map.get(category, ("/trending/movie/week", "movie"))
+        entry = endpoint_map.get(category, ("/trending/movie/week", "movie", {}))
+        endpoint = entry[0]
+        media_type = entry[1]
+        extra_params = entry[2] if len(entry) > 2 else {}
         
         if self.has_api_key:
-            data = self._get(endpoint, {"language": "en-US", "page": 1})
+            req_params = {"language": "en-US", "page": 1}
+            req_params.update(extra_params)
+            data = self._get(endpoint, req_params)
             if data and "results" in data:
                 items = data["results"][:limit]
                 detailed_items = []

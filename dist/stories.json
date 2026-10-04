@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-03T07:48:43.089829+00:00",
-  "total_stories": 27,
+  "generated_at": "2026-10-04T18:31:04.773018+00:00",
+  "total_stories": 33,
   "stories": [
     {
       "id": 999101,
@@ -30,6 +30,15 @@
       "category": "streaming_charts",
       "release_date": "2022-08-21",
       "rating": 8.4
+    },
+    {
+      "id": 126308,
+      "slug": "shogun",
+      "title": "Master of Deception: 5 Epic Feudal Power Plays in Sh\u014dgun \u2694\ufe0f\ud83c\udfef",
+      "url": "https://cinestories-omega.vercel.app/stories/shogun/",
+      "category": "streaming_charts",
+      "release_date": "2024-02-27",
+      "rating": 8.5
     },
     {
       "id": 999201,
@@ -140,6 +149,24 @@
       "rating": 8.4
     },
     {
+      "id": 93405,
+      "slug": "squid-game",
+      "title": "Red Light, Green Light: 5 Twisted Rules of Squid Game \ud83d\udd34\ud83d\udfe2",
+      "url": "https://cinestories-omega.vercel.app/stories/squid-game/",
+      "category": "series",
+      "release_date": "2021-09-17",
+      "rating": 7.8
+    },
+    {
+      "id": 100088,
+      "slug": "the-last-of-us",
+      "title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us \ud83c\udf44\ud83e\udddf",
+      "url": "https://cinestories-omega.vercel.app/stories/the-last-of-us/",
+      "category": "series",
+      "release_date": "2023-01-15",
+      "rating": 8.6
+    },
+    {
       "id": 603692,
       "slug": "john-wick-chapter-4",
       "title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
@@ -165,6 +192,24 @@
       "category": "trending",
       "release_date": "2024-03-01",
       "rating": 8.2
+    },
+    {
+      "id": 718821,
+      "slug": "twisters",
+      "title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets \ud83c\udf2a\ufe0f\u26a1",
+      "url": "https://cinestories-omega.vercel.app/stories/twisters/",
+      "category": "trending",
+      "release_date": "2024-07-19",
+      "rating": 7.0
+    },
+    {
+      "id": 792307,
+      "slug": "poor-things",
+      "title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things \ud83e\udda2\ud83c\udfa9",
+      "url": "https://cinestories-omega.vercel.app/stories/poor-things/",
+      "category": "trending",
+      "release_date": "2023-12-08",
+      "rating": 7.8
     },
     {
       "id": 9532,
@@ -201,6 +246,15 @@
       "category": "cult_classic",
       "release_date": "2008-07-16",
       "rating": 8.5
+    },
+    {
+      "id": 872585,
+      "slug": "oppenheimer",
+      "title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer \ud83d\udca5\u2622\ufe0f",
+      "url": "https://cinestories-omega.vercel.app/stories/oppenheimer/",
+      "category": "cult_classic",
+      "release_date": "2023-07-21",
+      "rating": 8.1
     },
     {
       "id": 216015,

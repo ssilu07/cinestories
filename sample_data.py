@@ -733,6 +733,168 @@ SAMPLE_MEDIA = [
             "/bAtFhmRHp0f6aHqj1UGTZoPcmQo.jpg",
             "/zGTfMwG112BC66mpaveVxoWPOaB.jpg"
         ]
+    },
+    # 28. Oppenheimer
+    {
+        "id": 872585,
+        "title": "Oppenheimer",
+        "original_title": "Oppenheimer",
+        "slug": "oppenheimer",
+        "media_type": "movie",
+        "release_date": "2023-07-21",
+        "hook_title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer 💥☢️",
+        "catchy_teaser": "Zero CGI used for the atomic blast. Inside Christopher Nolan's Oscar-sweeping historical masterpiece.",
+        "overview": "The gripping story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II and the harrowing moral and political fallout that followed.",
+        "tagline": "The world forever changes.",
+        "genres": ["Drama", "History"],
+        "runtime": 181,
+        "seasons": None,
+        "vote_average": 8.1,
+        "vote_count": 9200,
+        "category": "cult_classic",
+        "director": "Christopher Nolan",
+        "top_cast": ["Cillian Murphy", "Emily Blunt", "Matt Damon", "Robert Downey Jr.", "Florence Pugh"],
+        "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "backdrop_path": "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+        "backdrops": [
+            "/rLb2cwF3Pazuxaj0sRXQ037tGI1.jpg",
+            "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+            "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+        ]
+    },
+    # 29. Squid Game
+    {
+        "id": 93405,
+        "title": "Squid Game",
+        "original_title": "오징어 게임",
+        "slug": "squid-game",
+        "media_type": "tv",
+        "release_date": "2021-09-17",
+        "hook_title": "Red Light, Green Light: 5 Twisted Rules of Squid Game 🔴🟢",
+        "catchy_teaser": "456 desperate players. 45.6 Billion Won prize. One survivor. Inside Netflix's biggest global show ever.",
+        "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
+        "tagline": "45.6 Billion Won is Child's Play.",
+        "genres": ["Action & Adventure", "Mystery", "Drama"],
+        "runtime": 55,
+        "seasons": 2,
+        "vote_average": 7.8,
+        "vote_count": 14500,
+        "category": "series",
+        "director": "Hwang Dong-hyuk",
+        "top_cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon", "Jung Ho-yeon", "Lee Byung-hun"],
+        "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        "backdrop_path": "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+        "backdrops": [
+            "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+            "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+        ]
+    },
+    # 30. The Last of Us
+    {
+        "id": 100088,
+        "title": "The Last of Us",
+        "original_title": "The Last of Us",
+        "slug": "the-last-of-us",
+        "media_type": "tv",
+        "release_date": "2023-01-15",
+        "hook_title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us 🍄🧟",
+        "catchy_teaser": "When you're lost in the darkness, look for the light. Pedro Pascal and Bella Ramsey's survival epic.",
+        "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone.",
+        "tagline": "When you're lost in the darkness, look for the light.",
+        "genres": ["Drama", "Sci-Fi & Fantasy", "Action & Adventure"],
+        "runtime": 60,
+        "seasons": 2,
+        "vote_average": 8.6,
+        "vote_count": 5200,
+        "category": "series",
+        "director": "Craig Mazin & Neil Druckmann",
+        "top_cast": ["Pedro Pascal", "Bella Ramsey", "Gabriel Luna", "Anna Torv", "Nick Offerman"],
+        "poster_path": "/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+        "backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+        "backdrops": [
+            "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
+            "/1E5baAaEse26fej7uHcjOgEE2t2.jpg"
+        ]
+    },
+    # 31. Twisters
+    {
+        "id": 718821,
+        "title": "Twisters",
+        "original_title": "Twisters",
+        "slug": "twisters",
+        "media_type": "movie",
+        "release_date": "2024-07-19",
+        "hook_title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets 🌪️⚡",
+        "catchy_teaser": "If you feel it, chase it! How Glen Powell and Daisy Edgar-Jones tackled real tornado-force fury.",
+        "overview": "As storm season intensifies, the paths of a retired tornado chaser and a reckless social-media superstar collide as terrifying multiple storm systems converge over Oklahoma.",
+        "tagline": "If you feel it, chase it.",
+        "genres": ["Action", "Adventure", "Drama"],
+        "runtime": 122,
+        "seasons": None,
+        "vote_average": 7.0,
+        "vote_count": 1800,
+        "category": "trending",
+        "director": "Lee Isaac Chung",
+        "top_cast": ["Daisy Edgar-Jones", "Glen Powell", "Anthony Ramos", "Brandon Perea", "David Corenswet"],
+        "poster_path": "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+        "backdrop_path": "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+        "backdrops": [
+            "/58D6ZAvOKxlHjyX9S8qNKSBE9Y.jpg",
+            "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg"
+        ]
+    },
+    # 32. Poor Things
+    {
+        "id": 792307,
+        "title": "Poor Things",
+        "original_title": "Poor Things",
+        "slug": "poor-things",
+        "media_type": "movie",
+        "release_date": "2023-12-08",
+        "hook_title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things 🦢🎩",
+        "catchy_teaser": "Emma Stone's Oscar-winning tour-de-force! Inside Yorgos Lanthimos's wildly surreal cinematic wonder.",
+        "overview": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across continents, free from prejudices of her times.",
+        "tagline": "She's like nothing you've ever seen.",
+        "genres": ["Sci-Fi", "Romance", "Comedy"],
+        "runtime": 141,
+        "seasons": None,
+        "vote_average": 7.8,
+        "vote_count": 4100,
+        "category": "trending",
+        "director": "Yorgos Lanthimos",
+        "top_cast": ["Emma Stone", "Mark Ruffalo", "Willem Dafoe", "Ramy Youssef", "Christopher Abbott"],
+        "poster_path": "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg",
+        "backdrop_path": "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+        "backdrops": [
+            "/bQS43HSLZzMjZkcHJz4fGc7fNdz.jpg",
+            "/kCGlIMHnOm8JPXq3rXM6c5wMxcT.jpg"
+        ]
+    },
+    # 33. Shōgun
+    {
+        "id": 126308,
+        "title": "Shōgun",
+        "original_title": "Shōgun",
+        "slug": "shogun",
+        "media_type": "tv",
+        "release_date": "2024-02-27",
+        "hook_title": "Master of Deception: 5 Epic Feudal Power Plays in Shōgun ⚔️🏯",
+        "catchy_teaser": "Record-shattering 18 Emmy wins! Hiroyuki Sanada's historic political drama that captivated the world.",
+        "overview": "When a mysterious European ship is found marooned in a nearby fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies.",
+        "tagline": "Fate is a matter of choice.",
+        "genres": ["Drama", "War & Politics"],
+        "runtime": 60,
+        "seasons": 1,
+        "vote_average": 8.5,
+        "vote_count": 1300,
+        "category": "streaming_charts",
+        "director": "Justin Marks & Rachel Kondo",
+        "top_cast": ["Hiroyuki Sanada", "Cosmo Jarvis", "Anna Sawai", "Tadanobu Asano", "Takehiro Hira"],
+        "poster_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+        "backdrop_path": "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+        "backdrops": [
+            "/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg"
+        ]
     }
 ]
 

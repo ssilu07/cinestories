@@ -2,9 +2,8 @@ name: Automated Movie Web Stories Pipeline & Deploy
 
 on:
   schedule:
-    # Runs every 4 hours (6 times a day: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
-    # IST: 05:30 AM, 09:30 AM, 01:30 PM, 05:30 PM, 09:30 PM, 01:30 AM
-    - cron: '0 */4 * * *'
+    # Runs once daily at 06:00 UTC (11:30 AM IST) to conserve GitHub Actions minutes
+    - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
       category:
@@ -14,7 +13,7 @@ on:
       count:
         description: 'Stories per category'
         required: false
-        default: '5'
+        default: '3'
       demo_mode:
         description: 'Run in offline demo mode (uses sample data)'
         type: boolean
@@ -35,11 +34,12 @@ permissions:
 
 concurrency:
   group: "webstories-pipeline"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout Codebase
         uses: actions/checkout@v4
@@ -83,7 +83,7 @@ jobs:
           fi
           python fetch_and_generate.py \
             --category "${{ inputs.category || 'all' }}" \
-            --count "${{ inputs.count || '10' }}" \
+            --count "${{ inputs.count || '3' }}" \
             $DEMO_FLAG
 
       - name: Verify 100% AMP Compliance
