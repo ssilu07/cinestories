@@ -1,7 +1,105 @@
 [
   {
-    "title": "East of Eden: The Untold Story & Secrets",
-    "seo_description": "Discover East of Eden: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Lanterns: The Untold Story & Secrets",
+    "seo_description": "Discover Lanterns: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 95350,
+      "title": "Lanterns",
+      "original_title": "Lanterns",
+      "slug": "lanterns",
+      "media_type": "tv",
+      "release_date": "2026-08-16",
+      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "tagline": "Only one can wear the ring.",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 8.4,
+      "vote_count": 538,
+      "category": "series",
+      "director": "Damon Lindelof, Chris Mundy, Tom King (Creator)",
+      "top_cast": [
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
+      ],
+      "poster_path": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+      "backdrops": [
+        "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+        "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+        "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
+        "/yr1n2RzZHn1UYozrzvPzjcE60cP.jpg",
+        "/jMCAu91V7fsnHNUvabOPMBLaLaj.jpg",
+        "/zuJQAto2usduM9Kr0cgX1dLkWLZ.jpg",
+        "/rhHaXPUbR706jUloJDbKDdOu4dM.jpg",
+        "/62P9tZ8Gyq64EIRMs4ZW9a9L3AV.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Lanterns",
+        "text": "Only one can wear the ring. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Kyle Chandler, Aaron Pierre, Kelly Macdonald, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Damon Lindelof, Chris Mundy, Tom King (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Damon Lindelof, Chris Mundy, Tom King (Creator)",
+        "text": "Filmmaker Damon Lindelof, Chris Mundy, Tom King (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Lanterns? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/95350"
+      }
+    ]
+  },
+  {
+    "title": "East of Eden: Florence Pugh Reinvents a Classic \ud83c\udfac\ud83c\udf3e",
+    "seo_description": "Explore Zoe Kazan's gripping East of Eden limited series starring Florence Pugh, Mike Faist, and Christopher Abbott.",
     "movie": {
       "id": 258165,
       "title": "East of Eden",
@@ -16,8 +114,8 @@
       ],
       "runtime": 50,
       "seasons": 1,
-      "vote_average": 7.8,
-      "vote_count": 28,
+      "vote_average": 7.9,
+      "vote_count": 30,
       "category": "series",
       "director": "Zoe Kazan (Creator)",
       "top_cast": [
@@ -33,121 +131,112 @@
       "backdrops": [
         "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg",
         "/4NTBRl66VLpp5N88wxPaxpvwRMj.jpg",
+        "/to2IL3VSlkjWAp44LpqULPSmXfn.jpg",
         "/7mZmkrXmE2VkFrMBfuNUNXFLIvB.jpg",
         "/gb4DoVpjJYfMc0PzmAcwbVBkoWW.jpg",
         "/qrihc0cfDOIRQPYqTBanPVxI5GS.jpg",
         "/oP99Ya3pWKqKe6zlFJ1WD2l4Aw1.jpg",
-        "/4VZj3Ty5WTDPpQBhJR5UZ8xo2na.jpg",
-        "/6o786rTQZCpdZoPM5zv7A7EOMZn.jpg"
+        "/4VZj3Ty5WTDPpQBhJR5UZ8xo2na.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "East of Eden",
-        "text": "You are what you choose. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "FIRST LOOK",
+        "title": "A Timeless Epic Reborn",
+        "text": "John Steinbeck's greatest masterpiece returns to the screen. With Florence Pugh leading a powerhouse cast, expect raw passion and generational drama.",
         "backdrop_index": 0,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/258165"
       },
       {
         "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
-        "title": "Shocking Twist Ahead",
-        "text": "In the early 1900s, a fiercely independent woman drives a rift between two brothers, igniting a saga that unfolds across two generations.",
+        "badge": "THE PREMISE",
+        "title": "Brothers Torn Apart",
+        "text": "Set in early 1900s California, a fierce woman fractures the bond between two brothers, triggering a sprawling conflict spanning two decades.",
         "backdrop_index": 1,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/258165"
       },
       {
         "id": "page-3",
         "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Florence Pugh, Christopher Abbott, Mike Faist, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Zoe Kazan (Creator).",
+        "title": "A Dream Ensemble",
+        "text": "Florence Pugh commands the screen alongside Christopher Abbott and Mike Faist. Together, they bring unforgettable psychological depth to Steinbeck's flawed icons.",
         "backdrop_index": 2,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/258165"
       },
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Zoe Kazan (Creator)",
-        "text": "Filmmaker Zoe Kazan (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "A Legacy of Passion",
+        "text": "Creator Zoe Kazan pens the adaptation\u2014honoring her grandfather Elia Kazan, who directed the legendary 1955 film starring James Dean.",
         "backdrop_index": 3,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/258165"
       },
       {
         "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.8/10 on TMDB",
-        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "badge": "DON'T MISS",
+        "title": "You Are What You Choose",
+        "text": "Tackling free will, family trauma, and redemption, this ambitious drama promises to be television's most riveting literary event of the year.",
         "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into East of Eden? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/258165"
+        "cta_text": "Explore East of Eden",
+        "cta_url": "https://www.themoviedb.org/tv/258165"
       }
     ]
   },
   {
-    "title": "Coven Academy: The Untold Story & Secrets",
-    "seo_description": "Discover Coven Academy: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Marshals: The Untold Story & Secrets",
+    "seo_description": "Discover Marshals: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
-      "id": 298505,
-      "title": "Coven Academy",
-      "original_title": "Coven Academy",
-      "slug": "coven-academy",
+      "id": 290856,
+      "title": "Marshals",
+      "original_title": "Marshals",
+      "slug": "marshals",
       "media_type": "tv",
-      "release_date": "2026-10-01",
-      "overview": "A coven protects their magic school from a dark fate.",
-      "tagline": "",
+      "release_date": "2026-03-01",
+      "overview": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his teammates must balance family, duty and the high psychological cost that comes with serving as the last line of defense in the region's war on violence.",
+      "tagline": "A new era of Yellowstone.",
       "genres": [
-        "Mystery",
         "Drama",
-        "Comedy"
+        "Crime",
+        "Action & Adventure"
       ],
       "runtime": 50,
-      "seasons": 1,
-      "vote_average": 7.3,
-      "vote_count": 12,
+      "seasons": 2,
+      "vote_average": 7.9,
+      "vote_count": 377,
       "category": "series",
-      "director": "Tim Federle (Creator)",
+      "director": "Spencer Hudnut (Creator)",
       "top_cast": [
-        "Malina Weissman",
-        "Malachi Barton",
-        "Jordan Leftwich",
-        "Ora Duplass",
-        "Louis Thresher",
-        "Tiffani Thiessen"
+        "Luke Grimes",
+        "Logan Marshall-Green",
+        "Arielle Kebbel",
+        "Ash Santos",
+        "Tatanka Means",
+        "Brecken Merrill"
       ],
-      "poster_path": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
-      "backdrop_path": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+      "poster_path": "/nInfaveN1iFpRIcMGNKENoVVUT2.jpg",
+      "backdrop_path": "/ihT4s15wPjqXLblKlE6cwBhJVz4.jpg",
       "backdrops": [
-        "/xtTKZLNYB5Til67KgWhF3NDMVdF.jpg",
-        "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
-        "/pw28xSMat4x2kqhc7grvxg6sFag.jpg",
-        "/wf9nj6RCEA5HXh8AGfkkE2mtukq.jpg",
-        "/3pJL0e6AoUk6MEFXLpVM8uBPXrV.jpg",
-        "/iamaU84aaSDi0Q9lJVCdMjVl5qf.jpg",
-        "/uxE3nRaLIgQqg2o1JHLVRbeutKv.jpg",
-        "/gdtteZcUFnJe4JOH0GNIy7vd7Cf.jpg"
+        "/ihT4s15wPjqXLblKlE6cwBhJVz4.jpg",
+        "/p77RsdSNKTXyF6Z1SiceApjX3ff.jpg",
+        "/e3Ty9lSe0sYwrOQKLREvRlW480i.jpg",
+        "/qe1tVC7MxZoRmUST8C6uGdBc3NE.jpg",
+        "/adaZwElRbQM0tu45qLos4P6vaEL.jpg",
+        "/qHiIlGzTnFRAFLAAODZXOGRlNaJ.jpg",
+        "/8zK22rtdeMTtqMQCE5l63gp5DdA.jpg",
+        "/e6MlwGQrhlvjs1vELhW0ssEI4dz.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
         "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Coven Academy",
-        "text": "Experience the global phenomenon of Coven Academy. Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "title": "Marshals",
+        "text": "A new era of Yellowstone. Rated 7.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -156,7 +245,7 @@
         "id": "page-2",
         "badge": "THE MASTERMIND PLOT",
         "title": "Shocking Twist Ahead",
-        "text": "A coven protects their magic school from a dark fate.",
+        "text": "With the Yellowstone Ranch behind him, Kayce Dutton joins an elite unit of U.S. Marshals, combining his skills as a cowboy and Navy SEAL to bring range justice to Montana, where he and his...",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -165,7 +254,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Malina Weissman, Malachi Barton, Jordan Leftwich, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Tim Federle (Creator).",
+        "text": "Led by Luke Grimes, Logan Marshall-Green, Arielle Kebbel, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Spencer Hudnut (Creator).",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -173,8 +262,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Tim Federle (Creator)",
-        "text": "Filmmaker Tim Federle (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Spencer Hudnut (Creator)",
+        "text": "Filmmaker Spencer Hudnut (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -182,8 +271,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.3/10 on TMDB",
-        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 7.9/10 on TMDB",
+        "text": "With an impressive 7.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -192,72 +281,71 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Coven Academy? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Marshals? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/298505"
+        "cta_url": "https://www.themoviedb.org/movie/290856"
       }
     ]
   },
   {
-    "title": "Black Clover: The Untold Story & Secrets",
-    "seo_description": "Discover Black Clover: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Digger: The Untold Story & Secrets",
+    "seo_description": "Discover Digger: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
-      "id": 73223,
-      "title": "Black Clover",
-      "original_title": "\u30d6\u30e9\u30c3\u30af\u30af\u30ed\u30fc\u30d0\u30fc",
-      "slug": "black-clover",
-      "media_type": "tv",
-      "release_date": "2017-10-03",
-      "overview": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has a problem uncommon in this world: he has no powers! But, on the day they receive their grimoires, they surprise everyone. To reach their goal, they\u2019ll each find their own path to greatness\u2014with or without magic.",
-      "tagline": "",
+      "id": 1248832,
+      "title": "Digger",
+      "original_title": "Digger",
+      "slug": "digger",
+      "media_type": "movie",
+      "release_date": "2026-09-28",
+      "overview": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "tagline": "A man. A plan. A meltdown.",
       "genres": [
-        "Animation",
-        "Action & Adventure",
-        "Sci-Fi & Fantasy"
+        "Comedy",
+        "Drama"
       ],
-      "runtime": 24,
-      "seasons": 2,
-      "vote_average": 8.5,
-      "vote_count": 2210,
-      "category": "series",
-      "director": "Visionary Showrunner (Creator)",
+      "runtime": 129,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 154,
+      "category": "theories_easter_eggs",
+      "director": "Alejandro G. I\u00f1\u00e1rritu",
       "top_cast": [
-        "Gakuto Kajiwara",
-        "Nobunaga Shimazaki",
-        "Kana Yuuki",
-        "Junichi Suwabe",
-        "Genki Muro",
-        "Ayumu Murase"
+        "Tom Cruise",
+        "Riz Ahmed",
+        "John Goodman",
+        "Sandra H\u00fcller",
+        "Michael Stuhlbarg",
+        "Jesse Plemons"
       ],
-      "poster_path": "/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
-      "backdrop_path": "/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "poster_path": "/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+      "backdrop_path": "/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
       "backdrops": [
-        "/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg",
-        "/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
-        "/7bGvtyA2m16jcCTCdhoiiFF7ibe.jpg",
-        "/hwdk9mUmltygcFJEKYrlkLvuv2s.jpg",
-        "/dDyTi3b2rBvVl9DqamlgTd2X2x9.jpg",
-        "/bR3oGSl9q37Rr4HjITA5va5VzS6.jpg",
-        "/9Y6EYzooPULbJ0zve65e62fFAYU.jpg",
-        "/7VXfABmKGMGWQGyo4XjInuIfTDB.jpg"
+        "/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg",
+        "/u3EtxdmZeiliW98c5Oegk5LIGZa.jpg",
+        "/4A3r1AjJg9Wa6ms3MGOScetCY0o.jpg",
+        "/vC5IxhgO6cVmw9O4QgkraRzfHvh.jpg",
+        "/244Hk4UVxrgdotp0pfkvnW9Iand.jpg",
+        "/vlJHTUMyfPw9398oIvcosdNWSSw.jpg",
+        "/ihf10k0ANuEpYO7tXnQbkMUCQBf.jpg",
+        "/4uxShHLWeYXjhZScH14C5P4z0dj.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Black Clover",
-        "text": "Experience the global phenomenon of Black Clover. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Digger",
+        "text": "A man. A plan. A meltdown. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
       },
       {
         "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
+        "badge": "THE POST-CREDIT CLUE",
         "title": "Shocking Twist Ahead",
-        "text": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has...",
+        "text": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -266,7 +354,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Gakuto Kajiwara, Nobunaga Shimazaki, Kana Yuuki, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "text": "Led by Tom Cruise, Riz Ahmed, John Goodman, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Alejandro G. I\u00f1\u00e1rritu.",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -274,8 +362,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Visionary Showrunner (Creator)",
-        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Alejandro G. I\u00f1\u00e1rritu",
+        "text": "Filmmaker Alejandro G. I\u00f1\u00e1rritu pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -283,8 +371,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.5/10 on TMDB",
-        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -293,10 +381,111 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Black Clover? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Digger? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/73223"
+        "cta_url": "https://www.themoviedb.org/movie/1248832"
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: Brand New Day: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: Brand New Day: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 969681,
+      "title": "Spider-Man: Brand New Day",
+      "original_title": "Spider-Man: Brand New Day",
+      "slug": "spider-man-brand-new-day",
+      "media_type": "movie",
+      "release_date": "2026-07-29",
+      "overview": "Fighting crime full-time as Spider-Man in a world that doesn't remember him\u2014and the pressure of seeing his old friends move on without him\u2014sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a shocking new threat to the city and those he loves - a powerful villain no one can even see.",
+      "tagline": "A brand new day starts now.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 145,
+      "seasons": null,
+      "vote_average": 7.9,
+      "vote_count": 3022,
+      "category": "theories_easter_eggs",
+      "director": "Destin Daniel Cretton",
+      "top_cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Mark Ruffalo",
+        "Jon Bernthal",
+        "Jacob Batalon",
+        "Sadie Sink"
+      ],
+      "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
+      "backdrop_path": "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+      "backdrops": [
+        "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+        "/7iwUUcKURMT7aKfCwMy6YnGtchD.jpg",
+        "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+        "/bPW6HcI0E1eklEle61LVQuD1Cwc.jpg",
+        "/sYsaVy047cfGTLMfcRihee3ShnM.jpg",
+        "/b0LviwKbDto7Qq0D4DzGoVHpF4C.jpg",
+        "/tanwf7KOwQ6dxZzehKsXkffIJOd.jpg",
+        "/yHMJbIEBHnKYWh20XtxV16emwXT.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man: Brand New Day",
+        "text": "A brand new day starts now. Rated 7.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Fighting crime full-time as Spider-Man in a world that doesn't remember him\u2014and the pressure of seeing his old friends move on without him\u2014sparks a change in Peter Parker he may not have the power...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Holland, Zendaya, Mark Ruffalo, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Destin Daniel Cretton.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Destin Daniel Cretton",
+        "text": "Filmmaker Destin Daniel Cretton pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.9/10 on TMDB",
+        "text": "With an impressive 7.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man: Brand New Day? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/969681"
       }
     ]
   },
@@ -314,12 +503,13 @@
       "tagline": "Rise or die.",
       "genres": [
         "History",
-        "Drama"
+        "Drama",
+        "Action"
       ],
       "runtime": 128,
       "seasons": null,
       "vote_average": 7.9,
-      "vote_count": 181,
+      "vote_count": 203,
       "category": "theories_easter_eggs",
       "director": "Paul Greengrass",
       "top_cast": [
@@ -397,207 +587,6 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/977942"
-      }
-    ]
-  },
-  {
-    "title": "Runner: The Untold Story & Secrets",
-    "seo_description": "Discover Runner: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 1377237,
-      "title": "Runner",
-      "original_title": "Runner",
-      "slug": "runner",
-      "media_type": "movie",
-      "release_date": "2026-09-07",
-      "overview": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
-      "tagline": "Next-day delivery isn't an option.",
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "runtime": 97,
-      "seasons": null,
-      "vote_average": 8.3,
-      "vote_count": 339,
-      "category": "theories_easter_eggs",
-      "director": "Scott Waugh",
-      "top_cast": [
-        "Alan Ritchson",
-        "Owen Wilson",
-        "Rodrigo Santoro",
-        "Leila George",
-        "Kate Box",
-        "Peta Sergeant"
-      ],
-      "poster_path": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
-      "backdrop_path": "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
-      "backdrops": [
-        "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
-        "/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
-        "/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
-        "/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg",
-        "/aKiB08Yn4PrnARl3eMzhke7OdcR.jpg",
-        "/zwOuftcrINzFyg27ffn2cevxClC.jpg",
-        "/hSYBdRE9b5PRK3BsjEBvXnUZvwM.jpg",
-        "/iE07BOqCoKDYcZ1EOls9rMK9797.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
-        "title": "Runner",
-        "text": "Next-day delivery isn't an option. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE POST-CREDIT CLUE",
-        "title": "Shocking Twist Ahead",
-        "text": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a...",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Alan Ritchson, Owen Wilson, Rodrigo Santoro, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Scott Waugh.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Scott Waugh",
-        "text": "Filmmaker Scott Waugh pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.3/10 on TMDB",
-        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Runner? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1377237"
-      }
-    ]
-  },
-  {
-    "title": "Avengers: Doomsday: The Untold Story & Secrets",
-    "seo_description": "Discover Avengers: Doomsday: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 1003596,
-      "title": "Avengers: Doomsday",
-      "original_title": "Avengers: Doomsday",
-      "slug": "avengers-doomsday",
-      "media_type": "movie",
-      "release_date": "2026-12-16",
-      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-      "tagline": "",
-      "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
-      ],
-      "runtime": 165,
-      "seasons": null,
-      "vote_average": 0.0,
-      "vote_count": 0,
-      "category": "theories_easter_eggs",
-      "director": "Joe Russo",
-      "top_cast": [
-        "Robert Downey Jr.",
-        "Chris Evans",
-        "Chris Hemsworth",
-        "Pedro Pascal",
-        "Paul Rudd",
-        "Anthony Mackie"
-      ],
-      "poster_path": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
-      "backdrop_path": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-      "backdrops": [
-        "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
-        "/6KDDoTq8Vq3HuQHULzuvPiCJbMI.jpg",
-        "/uttJRcb0wwlrH71w7PQNr8AktD2.jpg",
-        "/4NxnrRmI7goXMsRASwSegf50MC8.jpg",
-        "/yCYr9M2kkqkTOQWEf9pftNUpuhW.jpg",
-        "/5ZjwGeiGGq11UpxhmZlOtGEO3Zt.jpg",
-        "/nigNaieYLG1tvEbsXFU4BJeo8EU.jpg",
-        "/1jcDh8qBFzInFjTO5pdYZfDeh7a.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
-        "title": "Avengers: Doomsday",
-        "text": "Experience the global phenomenon of Avengers: Doomsday. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE POST-CREDIT CLUE",
-        "title": "Shocking Twist Ahead",
-        "text": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Robert Downey Jr., Chris Evans, Chris Hemsworth, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Joe Russo.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Joe Russo",
-        "text": "Filmmaker Joe Russo pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 0.0/10 on TMDB",
-        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Avengers: Doomsday? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1003596"
       }
     ]
   },
@@ -887,108 +876,6 @@
     ]
   },
   {
-    "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
-    "seo_description": "Discover Batman: Knightfall Part 1: Knightfall: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 1560520,
-      "title": "Batman: Knightfall Part 1: Knightfall",
-      "original_title": "Batman: Knightfall Part 1: Knightfall",
-      "slug": "batman-knightfall-part-1-knightfall",
-      "media_type": "movie",
-      "release_date": "2026-06-23",
-      "overview": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!",
-      "tagline": "",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "runtime": 79,
-      "seasons": null,
-      "vote_average": 9.1,
-      "vote_count": 419,
-      "category": "cult_classic",
-      "director": "Jeff Wamester",
-      "top_cast": [
-        "Anson Mount",
-        "Michael Mando",
-        "Pablo Schreiber",
-        "Jeff Bennett",
-        "Luis Bermudez",
-        "Bruce Boxleitner"
-      ],
-      "poster_path": "/360qdtu2hLnqMu8SVHMywn420w1.jpg",
-      "backdrop_path": "/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-      "backdrops": [
-        "/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
-        "/6c78xuvSoFLJkwlmx8Z2FGmMtzr.jpg",
-        "/dD9jGW6ucJTamWSEcwJKtCmj90u.jpg",
-        "/bPuIY2nS5FY7TVEt2YlI6eCpIq3.jpg",
-        "/bwzP2VgpbCLcZeEFDwPGUpkZR6U.jpg",
-        "/mVSI9AjayLvbMyky8KPWCiGBCNS.jpg",
-        "/3MRgIcnzmyr4ZVzY2EiLfkE4NLp.jpg",
-        "/5gQ8EgzwFRbpg1QE6xWzlDLkgIz.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83d\udc80 CULT LEGEND",
-        "title": "Batman: Knightfall Part 1: Knightfa",
-        "text": "Experience the global phenomenon of Batman: Knightfall Part 1: Knightfall. Rated 9.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE TERRIFYING PREMISE",
-        "title": "Shocking Twist Ahead",
-        "text": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental...",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Anson Mount, Michael Mando, Pablo Schreiber, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jeff Wamester.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Jeff Wamester",
-        "text": "Filmmaker Jeff Wamester pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 9.1/10 on TMDB",
-        "text": "With an impressive 9.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Batman: Knightfall Part 1: Knightfall? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1560520"
-      }
-    ]
-  },
-  {
     "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
     "seo_description": "Discover Avatar Aang: The Last Airbender: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -1009,7 +896,7 @@
       "runtime": 99,
       "seasons": null,
       "vote_average": 9.1,
-      "vote_count": 1247,
+      "vote_count": 1256,
       "category": "cult_classic",
       "director": "Lauren Montgomery",
       "top_cast": [
@@ -1091,6 +978,108 @@
     ]
   },
   {
+    "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
+    "seo_description": "Discover Batman: Knightfall Part 1: Knightfall: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1560520,
+      "title": "Batman: Knightfall Part 1: Knightfall",
+      "original_title": "Batman: Knightfall Part 1: Knightfall",
+      "slug": "batman-knightfall-part-1-knightfall",
+      "media_type": "movie",
+      "release_date": "2026-06-23",
+      "overview": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "runtime": 79,
+      "seasons": null,
+      "vote_average": 9.1,
+      "vote_count": 421,
+      "category": "cult_classic",
+      "director": "Jeff Wamester",
+      "top_cast": [
+        "Anson Mount",
+        "Michael Mando",
+        "Pablo Schreiber",
+        "Jeff Bennett",
+        "Luis Bermudez",
+        "Bruce Boxleitner"
+      ],
+      "poster_path": "/360qdtu2hLnqMu8SVHMywn420w1.jpg",
+      "backdrop_path": "/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+      "backdrops": [
+        "/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
+        "/6c78xuvSoFLJkwlmx8Z2FGmMtzr.jpg",
+        "/dD9jGW6ucJTamWSEcwJKtCmj90u.jpg",
+        "/bPuIY2nS5FY7TVEt2YlI6eCpIq3.jpg",
+        "/bwzP2VgpbCLcZeEFDwPGUpkZR6U.jpg",
+        "/mVSI9AjayLvbMyky8KPWCiGBCNS.jpg",
+        "/3MRgIcnzmyr4ZVzY2EiLfkE4NLp.jpg",
+        "/5gQ8EgzwFRbpg1QE6xWzlDLkgIz.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udc80 CULT LEGEND",
+        "title": "Batman: Knightfall Part 1: Knightfa",
+        "text": "Experience the global phenomenon of Batman: Knightfall Part 1: Knightfall. Rated 9.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE TERRIFYING PREMISE",
+        "title": "Shocking Twist Ahead",
+        "text": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Anson Mount, Michael Mando, Pablo Schreiber, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jeff Wamester.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jeff Wamester",
+        "text": "Filmmaker Jeff Wamester pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 9.1/10 on TMDB",
+        "text": "With an impressive 9.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Batman: Knightfall Part 1: Knightfall? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1560520"
+      }
+    ]
+  },
+  {
     "title": "Swapped: The Untold Story & Secrets",
     "seo_description": "Discover Swapped: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -1111,7 +1100,7 @@
       "runtime": 102,
       "seasons": null,
       "vote_average": 8.9,
-      "vote_count": 2221,
+      "vote_count": 2223,
       "category": "cult_classic",
       "director": "Nathan Greno",
       "top_cast": [
@@ -1211,7 +1200,7 @@
       "runtime": 104,
       "seasons": null,
       "vote_average": 6.9,
-      "vote_count": 170,
+      "vote_count": 176,
       "category": "steamy_thrillers",
       "director": "\u00d3scar Pedraza",
       "top_cast": [
@@ -1312,7 +1301,7 @@
       "runtime": 116,
       "seasons": null,
       "vote_average": 7.7,
-      "vote_count": 4205,
+      "vote_count": 4207,
       "category": "steamy_thrillers",
       "director": "Domingo Gonz\u00e1lez",
       "top_cast": [
@@ -1413,7 +1402,7 @@
       "runtime": 125,
       "seasons": null,
       "vote_average": 5.9,
-      "vote_count": 12565,
+      "vote_count": 12566,
       "category": "steamy_thrillers",
       "director": "Sam Taylor-Johnson",
       "top_cast": [
@@ -1504,7 +1493,7 @@
       "runtime": 95,
       "seasons": null,
       "vote_average": 7.3,
-      "vote_count": 720,
+      "vote_count": 747,
       "category": "upcoming",
       "director": "Zach Cregger",
       "top_cast": [
@@ -1605,7 +1594,7 @@
       "runtime": 103,
       "seasons": null,
       "vote_average": 7.5,
-      "vote_count": 654,
+      "vote_count": 666,
       "category": "upcoming",
       "director": "Dave Green",
       "top_cast": [
@@ -1683,6 +1672,409 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/1204680"
+      }
+    ]
+  },
+  {
+    "title": "Runner: The Untold Story & Secrets",
+    "seo_description": "Discover Runner: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1377237,
+      "title": "Runner",
+      "original_title": "Runner",
+      "slug": "runner",
+      "media_type": "movie",
+      "release_date": "2026-09-07",
+      "overview": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a deadly manhunt, every detour, delay, and bullet pushes them closer to failure. With betrayal closing in from every side, they must survive the chase and deliver their cargo to save the life of a little girl.",
+      "tagline": "Next-day delivery isn't an option.",
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "runtime": 97,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 378,
+      "category": "upcoming",
+      "director": "Scott Waugh",
+      "top_cast": [
+        "Alan Ritchson",
+        "Owen Wilson",
+        "Rodrigo Santoro",
+        "Leila George",
+        "Kate Box",
+        "Peta Sergeant"
+      ],
+      "poster_path": "/yBKMAIj7clP42UkFejhGDBBoTpb.jpg",
+      "backdrop_path": "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+      "backdrops": [
+        "/2c9zNZJL0ZdagD6JbmU3hH4hovs.jpg",
+        "/iXR79oKsLHwLno9jdzxxeFP21sy.jpg",
+        "/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg",
+        "/w8fEorMTwgMN9h1cgOb3yMggbiu.jpg",
+        "/aKiB08Yn4PrnARl3eMzhke7OdcR.jpg",
+        "/zwOuftcrINzFyg27ffn2cevxClC.jpg",
+        "/hSYBdRE9b5PRK3BsjEBvXnUZvwM.jpg",
+        "/iE07BOqCoKDYcZ1EOls9rMK9797.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Runner",
+        "text": "Next-day delivery isn't an option. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A former soldier is thrown into a brutal race against time when a critical medical delivery makes him and his unlikely partner the targets of a ruthless cartel. As the mission spirals into a...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Alan Ritchson, Owen Wilson, Rodrigo Santoro, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Scott Waugh.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Scott Waugh",
+        "text": "Filmmaker Scott Waugh pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Runner? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1377237"
+      }
+    ]
+  },
+  {
+    "title": "Coven Academy: The Untold Story & Secrets",
+    "seo_description": "Discover Coven Academy: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 298505,
+      "title": "Coven Academy",
+      "original_title": "Coven Academy",
+      "slug": "coven-academy",
+      "media_type": "tv",
+      "release_date": "2026-10-01",
+      "overview": "A coven protects their magic school from a dark fate.",
+      "tagline": "",
+      "genres": [
+        "Mystery",
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 7.3,
+      "vote_count": 12,
+      "category": "series",
+      "director": "Tim Federle (Creator)",
+      "top_cast": [
+        "Malina Weissman",
+        "Malachi Barton",
+        "Jordan Leftwich",
+        "Ora Duplass",
+        "Louis Thresher",
+        "Tiffani Thiessen"
+      ],
+      "poster_path": "/f4R4YGeMQrXEu6jm3oAbSPeGC3M.jpg",
+      "backdrop_path": "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+      "backdrops": [
+        "/xtTKZLNYB5Til67KgWhF3NDMVdF.jpg",
+        "/mGFtH5pUXDd4hSXUfl8HnHlRWJV.jpg",
+        "/pw28xSMat4x2kqhc7grvxg6sFag.jpg",
+        "/wf9nj6RCEA5HXh8AGfkkE2mtukq.jpg",
+        "/3pJL0e6AoUk6MEFXLpVM8uBPXrV.jpg",
+        "/iamaU84aaSDi0Q9lJVCdMjVl5qf.jpg",
+        "/uxE3nRaLIgQqg2o1JHLVRbeutKv.jpg",
+        "/gdtteZcUFnJe4JOH0GNIy7vd7Cf.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Coven Academy",
+        "text": "Experience the global phenomenon of Coven Academy. Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "A coven protects their magic school from a dark fate.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Malina Weissman, Malachi Barton, Jordan Leftwich, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Tim Federle (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Tim Federle (Creator)",
+        "text": "Filmmaker Tim Federle (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.3/10 on TMDB",
+        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Coven Academy? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/298505"
+      }
+    ]
+  },
+  {
+    "title": "Black Clover: The Untold Story & Secrets",
+    "seo_description": "Discover Black Clover: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 73223,
+      "title": "Black Clover",
+      "original_title": "\u30d6\u30e9\u30c3\u30af\u30af\u30ed\u30fc\u30d0\u30fc",
+      "slug": "black-clover",
+      "media_type": "tv",
+      "release_date": "2017-10-03",
+      "overview": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has a problem uncommon in this world: he has no powers! But, on the day they receive their grimoires, they surprise everyone. To reach their goal, they\u2019ll each find their own path to greatness\u2014with or without magic.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 24,
+      "seasons": 2,
+      "vote_average": 8.5,
+      "vote_count": 2210,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Gakuto Kajiwara",
+        "Nobunaga Shimazaki",
+        "Kana Yuuki",
+        "Junichi Suwabe",
+        "Genki Muro",
+        "Ayumu Murase"
+      ],
+      "poster_path": "/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
+      "backdrop_path": "/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+      "backdrops": [
+        "/mNadS5wd6Co7rUsWWY7jXUkYoP1.jpg",
+        "/qu9epTZh29fGUkY7ZYc9PVsv0Ig.jpg",
+        "/7bGvtyA2m16jcCTCdhoiiFF7ibe.jpg",
+        "/hwdk9mUmltygcFJEKYrlkLvuv2s.jpg",
+        "/dDyTi3b2rBvVl9DqamlgTd2X2x9.jpg",
+        "/bR3oGSl9q37Rr4HjITA5va5VzS6.jpg",
+        "/9Y6EYzooPULbJ0zve65e62fFAYU.jpg",
+        "/7VXfABmKGMGWQGyo4XjInuIfTDB.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Black Clover",
+        "text": "Experience the global phenomenon of Black Clover. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Asta and Yuno are two orphans who want the same thing: to become the Wizard King. Locked in a friendly rivalry, they work hard towards their goal. While Yuno excels at magic, Asta has...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Gakuto Kajiwara, Nobunaga Shimazaki, Kana Yuuki, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.5/10 on TMDB",
+        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Black Clover? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/73223"
+      }
+    ]
+  },
+  {
+    "title": "Avengers: Doomsday: The Untold Story & Secrets",
+    "seo_description": "Discover Avengers: Doomsday: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1003596,
+      "title": "Avengers: Doomsday",
+      "original_title": "Avengers: Doomsday",
+      "slug": "avengers-doomsday",
+      "media_type": "movie",
+      "release_date": "2026-12-16",
+      "overview": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+      "tagline": "",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 165,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "theories_easter_eggs",
+      "director": "Joe Russo",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Pedro Pascal",
+        "Paul Rudd",
+        "Anthony Mackie"
+      ],
+      "poster_path": "/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+      "backdrop_path": "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+      "backdrops": [
+        "/s4v0UX1anfXm0UvloLsTTJ4v222.jpg",
+        "/6KDDoTq8Vq3HuQHULzuvPiCJbMI.jpg",
+        "/uttJRcb0wwlrH71w7PQNr8AktD2.jpg",
+        "/4NxnrRmI7goXMsRASwSegf50MC8.jpg",
+        "/yCYr9M2kkqkTOQWEf9pftNUpuhW.jpg",
+        "/5ZjwGeiGGq11UpxhmZlOtGEO3Zt.jpg",
+        "/nigNaieYLG1tvEbsXFU4BJeo8EU.jpg",
+        "/1jcDh8qBFzInFjTO5pdYZfDeh7a.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Avengers: Doomsday",
+        "text": "Experience the global phenomenon of Avengers: Doomsday. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they've ever encountered.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Robert Downey Jr., Chris Evans, Chris Hemsworth, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Joe Russo.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Joe Russo",
+        "text": "Filmmaker Joe Russo pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Avengers: Doomsday? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1003596"
       }
     ]
   },

@@ -1,35 +1,53 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-04T18:32:18.252769+00:00",
-  "total_stories": 49,
+  "generated_at": "2026-10-05T13:11:51.792951+00:00",
+  "total_stories": 53,
   "stories": [
+    {
+      "id": 95350,
+      "slug": "lanterns",
+      "title": "Lanterns: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
+      "category": "series",
+      "release_date": "2026-08-16",
+      "rating": 8.4
+    },
     {
       "id": 258165,
       "slug": "east-of-eden",
-      "title": "East of Eden: The Untold Story & Secrets",
+      "title": "East of Eden: Florence Pugh Reinvents a Classic \ud83c\udfac\ud83c\udf3e",
       "url": "https://cinestories-omega.vercel.app/stories/east-of-eden/",
       "category": "series",
       "release_date": "2026-10-01",
-      "rating": 7.8
+      "rating": 7.9
     },
     {
-      "id": 298505,
-      "slug": "coven-academy",
-      "title": "Coven Academy: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/coven-academy/",
+      "id": 290856,
+      "slug": "marshals",
+      "title": "Marshals: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/marshals/",
       "category": "series",
-      "release_date": "2026-10-01",
-      "rating": 7.3
+      "release_date": "2026-03-01",
+      "rating": 7.9
     },
     {
-      "id": 73223,
-      "slug": "black-clover",
-      "title": "Black Clover: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/black-clover/",
-      "category": "series",
-      "release_date": "2017-10-03",
-      "rating": 8.5
+      "id": 1248832,
+      "slug": "digger",
+      "title": "Digger: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/digger/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-28",
+      "rating": 7.6
+    },
+    {
+      "id": 969681,
+      "slug": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/spider-man-brand-new-day/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-07-29",
+      "rating": 7.9
     },
     {
       "id": 977942,
@@ -39,24 +57,6 @@
       "category": "theories_easter_eggs",
       "release_date": "2026-09-10",
       "rating": 7.9
-    },
-    {
-      "id": 1377237,
-      "slug": "runner",
-      "title": "Runner: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/runner/",
-      "category": "theories_easter_eggs",
-      "release_date": "2026-09-07",
-      "rating": 8.3
-    },
-    {
-      "id": 1003596,
-      "slug": "avengers-doomsday",
-      "title": "Avengers: Doomsday: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/avengers-doomsday/",
-      "category": "theories_easter_eggs",
-      "release_date": "2026-12-16",
-      "rating": 0.0
     },
     {
       "id": 91759,
@@ -86,21 +86,21 @@
       "rating": 5.8
     },
     {
-      "id": 1560520,
-      "slug": "batman-knightfall-part-1-knightfall",
-      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
-      "category": "cult_classic",
-      "release_date": "2026-06-23",
-      "rating": 9.1
-    },
-    {
       "id": 980431,
       "slug": "avatar-aang-the-last-airbender",
       "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
       "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
       "category": "cult_classic",
       "release_date": "2026-07-24",
+      "rating": 9.1
+    },
+    {
+      "id": 1560520,
+      "slug": "batman-knightfall-part-1-knightfall",
+      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
+      "category": "cult_classic",
+      "release_date": "2026-06-23",
       "rating": 9.1
     },
     {
@@ -156,6 +156,42 @@
       "category": "upcoming",
       "release_date": "2026-08-17",
       "rating": 7.5
+    },
+    {
+      "id": 1377237,
+      "slug": "runner",
+      "title": "Runner: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/runner/",
+      "category": "upcoming",
+      "release_date": "2026-09-07",
+      "rating": 8.3
+    },
+    {
+      "id": 298505,
+      "slug": "coven-academy",
+      "title": "Coven Academy: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/coven-academy/",
+      "category": "series",
+      "release_date": "2026-10-01",
+      "rating": 7.3
+    },
+    {
+      "id": 73223,
+      "slug": "black-clover",
+      "title": "Black Clover: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/black-clover/",
+      "category": "series",
+      "release_date": "2017-10-03",
+      "rating": 8.5
+    },
+    {
+      "id": 1003596,
+      "slug": "avengers-doomsday",
+      "title": "Avengers: Doomsday: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-doomsday/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-12-16",
+      "rating": 0.0
     },
     {
       "id": 999101,
