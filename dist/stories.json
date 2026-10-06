@@ -1,44 +1,35 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-05T13:11:51.792951+00:00",
-  "total_stories": 53,
+  "generated_at": "2026-10-06T12:32:12.852927+00:00",
+  "total_stories": 57,
   "stories": [
     {
       "id": 95350,
       "slug": "lanterns",
-      "title": "Lanterns: The Untold Story & Secrets",
+      "title": "Lanterns: DCU's Dark Mystery Series Explained \ud83d\udfe2\ud83d\udd0d",
       "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
       "category": "series",
       "release_date": "2026-08-16",
-      "rating": 8.4
+      "rating": 8.3
     },
     {
       "id": 258165,
       "slug": "east-of-eden",
-      "title": "East of Eden: Florence Pugh Reinvents a Classic \ud83c\udfac\ud83c\udf3e",
+      "title": "East of Eden: The Untold Story & Secrets",
       "url": "https://cinestories-omega.vercel.app/stories/east-of-eden/",
       "category": "series",
       "release_date": "2026-10-01",
       "rating": 7.9
     },
     {
-      "id": 290856,
-      "slug": "marshals",
-      "title": "Marshals: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/marshals/",
+      "id": 37854,
+      "slug": "one-piece",
+      "title": "One Piece: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/one-piece/",
       "category": "series",
-      "release_date": "2026-03-01",
-      "rating": 7.9
-    },
-    {
-      "id": 1248832,
-      "slug": "digger",
-      "title": "Digger: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/digger/",
-      "category": "theories_easter_eggs",
-      "release_date": "2026-09-28",
-      "rating": 7.6
+      "release_date": "1999-10-20",
+      "rating": 8.8
     },
     {
       "id": 969681,
@@ -47,16 +38,25 @@
       "url": "https://cinestories-omega.vercel.app/stories/spider-man-brand-new-day/",
       "category": "theories_easter_eggs",
       "release_date": "2026-07-29",
-      "rating": 7.9
+      "rating": 8.1
     },
     {
-      "id": 977942,
-      "slug": "the-uprising",
-      "title": "The Uprising: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/the-uprising/",
+      "id": 1101412,
+      "slug": "fall-2-deadpoint",
+      "title": "Fall 2: Deadpoint: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/fall-2-deadpoint/",
       "category": "theories_easter_eggs",
-      "release_date": "2026-09-10",
-      "rating": 7.9
+      "release_date": "2026-09-01",
+      "rating": 6.2
+    },
+    {
+      "id": 1291595,
+      "slug": "insidious-out-of-the-further",
+      "title": "Insidious: Out of the Further: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/insidious-out-of-the-further/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-08-19",
+      "rating": 6.5
     },
     {
       "id": 91759,
@@ -68,6 +68,15 @@
       "rating": 5.4
     },
     {
+      "id": 70998,
+      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
+      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+      "category": "series",
+      "release_date": "2017-04-03",
+      "rating": 5.5
+    },
+    {
       "id": 22980,
       "slug": "watch-what-happens-live-with-andy-cohen",
       "title": "Watch What Happens Live with Andy Cohen: The Untold Story & Secrets",
@@ -77,13 +86,13 @@
       "rating": 5.0
     },
     {
-      "id": 59941,
-      "slug": "the-tonight-show-starring-jimmy-fallon",
-      "title": "The Tonight Show Starring Jimmy Fallon: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/the-tonight-show-starring-jimmy-fallon/",
-      "category": "series",
-      "release_date": "2014-02-17",
-      "rating": 5.8
+      "id": 1560520,
+      "slug": "batman-knightfall-part-1-knightfall",
+      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
+      "category": "cult_classic",
+      "release_date": "2026-06-23",
+      "rating": 9.1
     },
     {
       "id": 980431,
@@ -92,15 +101,6 @@
       "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
       "category": "cult_classic",
       "release_date": "2026-07-24",
-      "rating": 9.1
-    },
-    {
-      "id": 1560520,
-      "slug": "batman-knightfall-part-1-knightfall",
-      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
-      "category": "cult_classic",
-      "release_date": "2026-06-23",
       "rating": 9.1
     },
     {
@@ -149,6 +149,15 @@
       "rating": 7.3
     },
     {
+      "id": 1377237,
+      "slug": "runner",
+      "title": "Runner: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/runner/",
+      "category": "upcoming",
+      "release_date": "2026-09-07",
+      "rating": 8.3
+    },
+    {
       "id": 1204680,
       "slug": "coyote-vs-acme",
       "title": "Coyote vs. Acme: The Untold Story & Secrets",
@@ -158,13 +167,40 @@
       "rating": 7.5
     },
     {
-      "id": 1377237,
-      "slug": "runner",
-      "title": "Runner: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/runner/",
-      "category": "upcoming",
-      "release_date": "2026-09-07",
-      "rating": 8.3
+      "id": 290856,
+      "slug": "marshals",
+      "title": "Marshals: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/marshals/",
+      "category": "series",
+      "release_date": "2026-03-01",
+      "rating": 7.9
+    },
+    {
+      "id": 1248832,
+      "slug": "digger",
+      "title": "Digger: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/digger/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-28",
+      "rating": 7.6
+    },
+    {
+      "id": 977942,
+      "slug": "the-uprising",
+      "title": "The Uprising: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-uprising/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-10",
+      "rating": 7.9
+    },
+    {
+      "id": 59941,
+      "slug": "the-tonight-show-starring-jimmy-fallon",
+      "title": "The Tonight Show Starring Jimmy Fallon: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-tonight-show-starring-jimmy-fallon/",
+      "category": "series",
+      "release_date": "2014-02-17",
+      "rating": 5.8
     },
     {
       "id": 298505,
