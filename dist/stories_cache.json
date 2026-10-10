@@ -1,204 +1,5 @@
 [
   {
-    "title": "Link Click: Why This Time-Travel Thriller Blew Minds \u23f3\ud83d\udcf8",
-    "seo_description": "Discover Link Click, the breakout sci-fi mystery donghua taking anime fans by storm with wild time-travel twists and heart-wrenching drama.",
-    "movie": {
-      "id": 123542,
-      "title": "LINK CLICK",
-      "original_title": "\u65f6\u5149\u4ee3\u7406\u4eba",
-      "slug": "link-click",
-      "media_type": "tv",
-      "release_date": "2021-04-30",
-      "overview": "Using superpowers to enter their clientele\u2019s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at \u201cTime Photo Studio,\u201d a small photography shop set in the backdrop of a modern metropolis. Each job can be full of danger, but nothing is more important than fulfilling every order, no matter the scale\u2026or peril involved!",
-      "tagline": "Past or future, just let them be.",
-      "genres": [
-        "Animation",
-        "Sci-Fi & Fantasy",
-        "Mystery",
-        "Drama"
-      ],
-      "runtime": 23,
-      "seasons": 5,
-      "vote_average": 8.3,
-      "vote_count": 129,
-      "category": "series",
-      "director": "Li Haoling (Creator)",
-      "top_cast": [
-        "Su Shangqing",
-        "Yang Tianxiang",
-        "Li Shimeng"
-      ],
-      "poster_path": "/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg",
-      "backdrop_path": "/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
-      "backdrops": [
-        "/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
-        "/cEa77esuWGAgR1bygmk8ey1w4wZ.jpg",
-        "/2ns30HHRX5qgsVfEvvevwUcrD5E.jpg",
-        "/hXQCqScrJ7OvH0al484FW9R7VGk.jpg",
-        "/r9W7UBBHASI8MYwoxOg0zayB8tZ.jpg",
-        "/hbjElgOZqH7eB0OkiO2LfcTihqX.jpg",
-        "/hMRoSUm3kKOzCiFoOdbI1cUMnur.jpg",
-        "/7526JqSH5Ktxj7fz25tcobHoOt3.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "THE PHENOMENON",
-        "title": "Time Travel Reimagined \u23f3",
-        "text": "Hidden inside a quaint urban photo studio lies a supernatural secret. Dive into Link Click, the breakout donghua thriller that completely redefined animated suspense.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      },
-      {
-        "id": "page-2",
-        "badge": "THE PREMISE",
-        "title": "Jumping Into Memories \ud83d\udcf8",
-        "text": "Cheng Xiaoshi dives straight into photographs to relive clients' pasts, while Lu Guang anchors the timeline. Their golden rule? Past or future, just let them be.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      },
-      {
-        "id": "page-3",
-        "badge": "DYNAMIC DUO",
-        "title": "High Stakes, High Peril \u26a1",
-        "text": "One tiny slip can shatter reality. Cheng's emotional empathy constantly clashes with Lu Guang's cold calculations, pushing every high-stakes mission to the edge.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Masterclass in Suspense \ud83c\udfac",
-        "text": "Director Li Haoling blends heart-stopping cliffhangers with fluid urban animation, keeping viewers gripping their seats across every relentless 23-minute episode.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      },
-      {
-        "id": "page-5",
-        "badge": "CULTURAL IMPACT",
-        "title": "A Global 8.3 Sensation \u2b50",
-        "text": "Holding an extraordinary 8.3 rating, Link Click exploded past international borders to become a worldwide cult sensation praised for raw emotion and brutal twists.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      },
-      {
-        "id": "page-6",
-        "badge": "DON'T MISS",
-        "title": "Step Into The Frame \ud83d\udd70\ufe0f",
-        "text": "Ready to unlock the dangerous mysteries inside Time Photo Studio? Prepare for a heart-pounding ride where every photograph tells an unexpected story.",
-        "backdrop_index": 5,
-        "cta_text": "Explore Link Click",
-        "cta_url": "https://www.themoviedb.org/tv/123542"
-      }
-    ]
-  },
-  {
-    "title": "Take Charge of My Heart: The Untold Story & Secrets",
-    "seo_description": "Discover Take Charge of My Heart: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 289423,
-      "title": "Take Charge of My Heart",
-      "original_title": "\ub098\ub97c \ucda9\uc804\ud574\uc918",
-      "slug": "take-charge-of-my-heart",
-      "media_type": "tv",
-      "release_date": "2026-10-09",
-      "overview": "A corporate heir with an artificial heart meets a woman who's literally electric. They strike a deal that makes his heart beat \u2014 in more ways than one.",
-      "tagline": "Charged by touch, drained by distance, shocked by love!",
-      "genres": [
-        "Sci-Fi & Fantasy",
-        "Comedy"
-      ],
-      "runtime": 50,
-      "seasons": 1,
-      "vote_average": 0.0,
-      "vote_count": 0,
-      "category": "series",
-      "director": "Park Soo-won, Song You-chae (Creator)",
-      "top_cast": [
-        "Kim Young-kwang",
-        "Chae Soo-bin",
-        "Cha Woo-min",
-        "Jeong Jae-kwang",
-        "Shin Do-hyun",
-        "Heo Dong-won"
-      ],
-      "poster_path": "/ecRrKGXfflZmDZBD4irdkybClT.jpg",
-      "backdrop_path": "/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg",
-      "backdrops": [
-        "/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg",
-        "/8JjtnwJ8yLUfR9QEvhRDKSgZGnS.jpg",
-        "/3fCBU4IT091cSPiJTdu60FONeb2.jpg",
-        "/cZT6axZe8X7zQFUS2P3VIyMkx6d.jpg",
-        "/2FaKy5aMa66oQB3on9nBhVhEYoJ.jpg",
-        "/pvUDurht2uRhrfQ7UuuuueovAwL.jpg",
-        "/yyebOZP1bK4W56NWUeo8tOtrDQS.jpg",
-        "/6NAy0c79IPyT4AE4gzD7n4iZ3FR.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Take Charge of My Heart",
-        "text": "Charged by touch, drained by distance, shocked by love! Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
-        "title": "Shocking Twist Ahead",
-        "text": "A corporate heir with an artificial heart meets a woman who's literally electric. They strike a deal that makes his heart beat \u2014 in more ways than one.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Kim Young-kwang, Chae Soo-bin, Cha Woo-min, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Park Soo-won, Song You-chae (Creator).",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Park Soo-won, Song You-chae (Creator)",
-        "text": "Filmmaker Park Soo-won, Song You-chae (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 0.0/10 on TMDB",
-        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Take Charge of My Heart? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/289423"
-      }
-    ]
-  },
-  {
     "title": "Carrie: The Untold Story & Secrets",
     "seo_description": "Discover Carrie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -217,8 +18,8 @@
       ],
       "runtime": 50,
       "seasons": 1,
-      "vote_average": 8.5,
-      "vote_count": 60,
+      "vote_average": 8.4,
+      "vote_count": 105,
       "category": "series",
       "director": "Mike Flanagan (Creator)",
       "top_cast": [
@@ -229,7 +30,7 @@
         "Joel Oulette",
         "Josie Totah"
       ],
-      "poster_path": "/6mUMquPQBFJGqTACS3Azkwwrx8d.jpg",
+      "poster_path": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
       "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
       "backdrops": [
         "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
@@ -247,7 +48,7 @@
         "id": "page-1",
         "badge": "\ud83d\udd25 BINGE PHENOMENON",
         "title": "Carrie",
-        "text": "She just wanted a friend. They gave her a fight. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "text": "She just wanted a friend. They gave her a fight. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -282,8 +83,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.5/10 on TMDB",
-        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -300,63 +101,61 @@
     ]
   },
   {
-    "title": "Animals: The Untold Story & Secrets",
-    "seo_description": "Discover Animals: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Lanterns: The Untold Story & Secrets",
+    "seo_description": "Discover Lanterns: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
-      "id": 1236045,
-      "title": "Animals",
-      "original_title": "Animals",
-      "slug": "animals",
-      "media_type": "movie",
-      "release_date": "2026-10-09",
-      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
-      "tagline": "Power can't protect you.",
+      "id": 95350,
+      "title": "Lanterns",
+      "original_title": "Lanterns",
+      "slug": "lanterns",
+      "media_type": "tv",
+      "release_date": "2026-08-16",
+      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+      "tagline": "Only one can wear the ring.",
       "genres": [
-        "Thriller",
-        "Drama"
+        "Drama",
+        "Mystery",
+        "Sci-Fi & Fantasy"
       ],
-      "runtime": 106,
-      "seasons": null,
-      "vote_average": 6.4,
-      "vote_count": 5,
-      "category": "theories_easter_eggs",
-      "director": "Ben Affleck",
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 8.3,
+      "vote_count": 684,
+      "category": "series",
+      "director": "Damon Lindelof, Chris Mundy, Tom King (Creator)",
       "top_cast": [
-        "Ben Affleck",
-        "Kerry Washington",
-        "Steven Yeun",
-        "Gillian Anderson",
-        "Adriana Paz",
-        "Luis Gerardo M\u00e9ndez"
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
       ],
-      "poster_path": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
-      "backdrop_path": "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "poster_path": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
       "backdrops": [
-        "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
-        "/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
-        "/swcmyUx5lbtPB2Qd8S2VuPK901i.jpg",
-        "/44iewfUtvjptzIL09s63rdI0HCc.jpg",
-        "/gMLzZ5CrVqyK7PV1neq1VneBJH1.jpg",
-        "/f01Xpmo9BYHWmFEoUG9BrsXFSCL.jpg",
-        "/7MDpRHFY6c0sQT3eMKfOMAs3QLm.jpg",
-        "/kKGPbovCWsFJ6xcDUOdnqHVEzgY.jpg"
+        "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+        "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+        "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
+        "/yr1n2RzZHn1UYozrzvPzjcE60cP.jpg",
+        "/zuJQAto2usduM9Kr0cgX1dLkWLZ.jpg",
+        "/jMCAu91V7fsnHNUvabOPMBLaLaj.jpg",
+        "/ruwzidqanSyhhMEk6kCVd9BLui1.jpg",
+        "/sTACyx6TDwMGIBJa9p5ijU58vfL.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
-        "title": "Animals",
-        "text": "Power can't protect you. Rated 6.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Lanterns",
+        "text": "Only one can wear the ring. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
       },
       {
         "id": "page-2",
-        "badge": "THE POST-CREDIT CLUE",
+        "badge": "THE MASTERMIND PLOT",
         "title": "Shocking Twist Ahead",
-        "text": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political...",
+        "text": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -365,7 +164,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Ben Affleck, Kerry Washington, Steven Yeun, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Ben Affleck.",
+        "text": "Led by Kyle Chandler, Aaron Pierre, Kelly Macdonald, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Damon Lindelof, Chris Mundy, Tom King (Creator).",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -373,8 +172,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Ben Affleck",
-        "text": "Filmmaker Ben Affleck pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Damon Lindelof, Chris Mundy, Tom King (Creator)",
+        "text": "Filmmaker Damon Lindelof, Chris Mundy, Tom King (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -382,8 +181,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 6.4/10 on TMDB",
-        "text": "With an impressive 6.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -392,72 +191,71 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Animals? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Lanterns? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1236045"
+        "cta_url": "https://www.themoviedb.org/movie/95350"
       }
     ]
   },
   {
-    "title": "Matchbox the Movie: The Untold Story & Secrets",
-    "seo_description": "Discover Matchbox the Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Below: The Untold Story & Secrets",
+    "seo_description": "Discover Below: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
-      "id": 1148365,
-      "title": "Matchbox the Movie",
-      "original_title": "Matchbox the Movie",
-      "slug": "matchbox-the-movie",
-      "media_type": "movie",
-      "release_date": "2026-10-05",
-      "overview": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
-      "tagline": "Save the world, bring your friends.",
+      "id": 285322,
+      "title": "Below",
+      "original_title": "Below",
+      "slug": "below",
+      "media_type": "tv",
+      "release_date": "2026-10-08",
+      "overview": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+      "tagline": "Something's in the water.",
       "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
+        "Drama",
+        "Mystery"
       ],
-      "runtime": 127,
-      "seasons": null,
-      "vote_average": 6.1,
-      "vote_count": 7,
-      "category": "theories_easter_eggs",
-      "director": "Sam Hargrave",
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 7.4,
+      "vote_count": 43,
+      "category": "series",
+      "director": "Jesse McKeown (Creator)",
       "top_cast": [
-        "John Cena",
-        "Jessica Biel",
-        "Sam Richardson",
-        "Arturo Castro",
-        "Teyonah Parris",
-        "Danai Gurira"
+        "Josh Hartnett",
+        "Mackenzie Davis",
+        "Charlie Heaton",
+        "Ruby Stokes",
+        "Kaleb Horn",
+        "Rohan Campbell"
       ],
-      "poster_path": "/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
-      "backdrop_path": "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+      "poster_path": "/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
       "backdrops": [
-        "/ugpflhns3FF9JcNaNjIThcOTKf5.jpg",
-        "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-        "/oOofgKLAWUhHGohxXdRm3yLOWYw.jpg",
-        "/oOI92vnBIWFuMCUNqPWvoU1l6ri.jpg",
-        "/bDHCTnzeWqNEajyFPhyRnWo0E4O.jpg",
-        "/wZvUZAl4rIwHbkRhEJKvl1v4Awl.jpg",
-        "/a6xhB0qRkb961MNJYHlYwdfIXRo.jpg",
-        "/dWlE7fBrCscMmAj9HVPHRxTvlWI.jpg"
+        "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+        "/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg",
+        "/l31xyOHslsvWm6GEWSd7kSeECp.jpg",
+        "/rDpuq2PMyW5KBdwvvvum24jW4ph.jpg",
+        "/bmhmL2GrQvw4rfKQZHh2pxGWulZ.jpg",
+        "/eFE3ZDxSySt7A0JX3c1Uco1e9FI.jpg",
+        "/hqtvsZf4IEr5u3IefUMDXNxgmu9.jpg",
+        "/gTbzPvrI2993bfCBC3KxHxw7loX.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
-        "title": "Matchbox the Movie",
-        "text": "Save the world, bring your friends. Rated 6.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Below",
+        "text": "Something's in the water. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
       },
       {
         "id": "page-2",
-        "badge": "THE POST-CREDIT CLUE",
+        "badge": "THE MASTERMIND PLOT",
         "title": "Shocking Twist Ahead",
-        "text": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
+        "text": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -466,7 +264,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by John Cena, Jessica Biel, Sam Richardson, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Sam Hargrave.",
+        "text": "Led by Josh Hartnett, Mackenzie Davis, Charlie Heaton, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jesse McKeown (Creator).",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -474,8 +272,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Sam Hargrave",
-        "text": "Filmmaker Sam Hargrave pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Jesse McKeown (Creator)",
+        "text": "Filmmaker Jesse McKeown (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -483,8 +281,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 6.1/10 on TMDB",
-        "text": "With an impressive 6.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -493,10 +291,10 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Matchbox the Movie? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Below? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1148365"
+        "cta_url": "https://www.themoviedb.org/movie/285322"
       }
     ]
   },
@@ -519,8 +317,8 @@
       ],
       "runtime": 145,
       "seasons": null,
-      "vote_average": 8.3,
-      "vote_count": 4492,
+      "vote_average": 8.4,
+      "vote_count": 4651,
       "category": "theories_easter_eggs",
       "director": "Destin Daniel Cretton",
       "top_cast": [
@@ -532,11 +330,11 @@
         "Jon Bernthal"
       ],
       "poster_path": "/bjiS5ipwxb9JFy3XRRN4OAilSeX.jpg",
-      "backdrop_path": "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
+      "backdrop_path": "/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
       "backdrops": [
         "/f9mM7tDrZ3LlHPQu9I5A6TTxTb9.jpg",
-        "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
         "/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
+        "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
         "/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
         "/yHMJbIEBHnKYWh20XtxV16emwXT.jpg",
         "/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg",
@@ -549,7 +347,7 @@
         "id": "page-1",
         "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
         "title": "Spider-Man: Brand New Day",
-        "text": "A brand new day starts now. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "text": "A brand new day starts now. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -584,8 +382,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.3/10 on TMDB",
-        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -598,6 +396,207 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/969681"
+      }
+    ]
+  },
+  {
+    "title": "Matchbox the Movie: The Untold Story & Secrets",
+    "seo_description": "Discover Matchbox the Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1148365,
+      "title": "Matchbox the Movie",
+      "original_title": "Matchbox the Movie",
+      "slug": "matchbox-the-movie",
+      "media_type": "movie",
+      "release_date": "2026-10-05",
+      "overview": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
+      "tagline": "Save the world, bring your friends.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "runtime": 127,
+      "seasons": null,
+      "vote_average": 7.7,
+      "vote_count": 72,
+      "category": "theories_easter_eggs",
+      "director": "Sam Hargrave",
+      "top_cast": [
+        "John Cena",
+        "Jessica Biel",
+        "Sam Richardson",
+        "Arturo Castro",
+        "Teyonah Parris",
+        "Corey Stoll"
+      ],
+      "poster_path": "/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
+      "backdrop_path": "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+      "backdrops": [
+        "/ugpflhns3FF9JcNaNjIThcOTKf5.jpg",
+        "/oOofgKLAWUhHGohxXdRm3yLOWYw.jpg",
+        "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+        "/pgirSzilULweZ9RsXLw1DjfNebw.jpg",
+        "/oOI92vnBIWFuMCUNqPWvoU1l6ri.jpg",
+        "/bDHCTnzeWqNEajyFPhyRnWo0E4O.jpg",
+        "/wZvUZAl4rIwHbkRhEJKvl1v4Awl.jpg",
+        "/a6xhB0qRkb961MNJYHlYwdfIXRo.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Matchbox the Movie",
+        "text": "Save the world, bring your friends. Rated 7.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by John Cena, Jessica Biel, Sam Richardson, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Sam Hargrave.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Sam Hargrave",
+        "text": "Filmmaker Sam Hargrave pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.7/10 on TMDB",
+        "text": "With an impressive 7.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Matchbox the Movie? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1148365"
+      }
+    ]
+  },
+  {
+    "title": "Animals: The Untold Story & Secrets",
+    "seo_description": "Discover Animals: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1236045,
+      "title": "Animals",
+      "original_title": "Animals",
+      "slug": "animals",
+      "media_type": "movie",
+      "release_date": "2026-10-09",
+      "overview": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political campaign, they have to get their hands dirty and expose a side of their lives they never intended to see the light of day.",
+      "tagline": "Power can't protect you.",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 77,
+      "category": "theories_easter_eggs",
+      "director": "Ben Affleck",
+      "top_cast": [
+        "Ben Affleck",
+        "Kerry Washington",
+        "Gillian Anderson",
+        "Steven Yeun",
+        "Adriana Paz",
+        "Luis Gerardo M\u00e9ndez"
+      ],
+      "poster_path": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
+      "backdrop_path": "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+      "backdrops": [
+        "/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
+        "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
+        "/swcmyUx5lbtPB2Qd8S2VuPK901i.jpg",
+        "/44iewfUtvjptzIL09s63rdI0HCc.jpg",
+        "/gMLzZ5CrVqyK7PV1neq1VneBJH1.jpg",
+        "/f01Xpmo9BYHWmFEoUG9BrsXFSCL.jpg",
+        "/7MDpRHFY6c0sQT3eMKfOMAs3QLm.jpg",
+        "/kKGPbovCWsFJ6xcDUOdnqHVEzgY.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Animals",
+        "text": "Power can't protect you. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "When the son of an L.A. mayoral candidate is kidnapped, he and his wife have a few hours to come up with the ransom payment. With most of their money spent on his political...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ben Affleck, Kerry Washington, Gillian Anderson, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Ben Affleck.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Ben Affleck",
+        "text": "Filmmaker Ben Affleck pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Animals? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1236045"
       }
     ]
   },
@@ -692,100 +691,6 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/91759"
-      }
-    ]
-  },
-  {
-    "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
-    "seo_description": "Discover Souryo to Majiwaru Shikiyoku no Yoru ni...: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 70998,
-      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
-      "original_title": "\u50e7\u4fb6\u3068\u4ea4\u308f\u308b\u8272\u6b32\u306e\u591c\u306b\u2026",
-      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
-      "media_type": "tv",
-      "release_date": "2017-04-03",
-      "overview": "At a high school reunion, Mio Fukatani reunites with a classmate she has not seen in years\u2014Takahide Kujou. She had always wanted to know more about the kind-hearted boy in high school, but once she realizes that Kujou has become a monk, she believes that any chance of getting to know him romantically is slim. Deciding to drink away her sorrows, she ends up walking home drunk, and surprisingly, running into Kujou who helps her get home.\n\nHowever, once inside, Kujou's lust for Mio becomes apparent and the two share an erotic night of passion. As this steamy romance blossoms between these two unlikely lovers, Mio and Kujou will undoubtedly spend many nights together in utter ecstasy.",
-      "tagline": "",
-      "genres": [
-        "Animation",
-        "Drama"
-      ],
-      "runtime": 5,
-      "seasons": 1,
-      "vote_average": 5.5,
-      "vote_count": 15,
-      "category": "series",
-      "director": "Visionary Showrunner (Creator)",
-      "top_cast": [
-        "Yuri Katou",
-        "You Suzushiro",
-        "Mutsuki Iwanaka",
-        "Paama Kurukuru",
-        "Sakura Nakamura"
-      ],
-      "poster_path": "/ueI9EeoRdMVa7hWEm21nQEU8Zv3.jpg",
-      "backdrop_path": "/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg",
-      "backdrops": [
-        "/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg",
-        "/zXStcX8BNl0Jk9rbnVlyGuWRnQB.jpg",
-        "/3JN7T3qNfHOJVa7NWaRgkdSYBgr.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Souryo to Majiwaru Shikiyoku no Yor",
-        "text": "Experience the global phenomenon of Souryo to Majiwaru Shikiyoku no Yoru ni.... Rated 5.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
-        "title": "Shocking Twist Ahead",
-        "text": "At a high school reunion, Mio Fukatani reunites with a classmate she has not seen in years\u2014Takahide Kujou. She had always wanted to know more about the kind-hearted boy in high school, but once...",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Yuri Katou, You Suzushiro, Mutsuki Iwanaka, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Visionary Showrunner (Creator)",
-        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 5.5/10 on TMDB",
-        "text": "With an impressive 5.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Souryo to Majiwaru Shikiyoku no Yoru ni...? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/70998"
       }
     ]
   },
@@ -885,6 +790,100 @@
     ]
   },
   {
+    "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
+    "seo_description": "Discover Souryo to Majiwaru Shikiyoku no Yoru ni...: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 70998,
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
+      "original_title": "\u50e7\u4fb6\u3068\u4ea4\u308f\u308b\u8272\u6b32\u306e\u591c\u306b\u2026",
+      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
+      "media_type": "tv",
+      "release_date": "2017-04-03",
+      "overview": "At a high school reunion, Mio Fukatani reunites with a classmate she has not seen in years\u2014Takahide Kujou. She had always wanted to know more about the kind-hearted boy in high school, but once she realizes that Kujou has become a monk, she believes that any chance of getting to know him romantically is slim. Deciding to drink away her sorrows, she ends up walking home drunk, and surprisingly, running into Kujou who helps her get home.\n\nHowever, once inside, Kujou's lust for Mio becomes apparent and the two share an erotic night of passion. As this steamy romance blossoms between these two unlikely lovers, Mio and Kujou will undoubtedly spend many nights together in utter ecstasy.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Drama"
+      ],
+      "runtime": 5,
+      "seasons": 1,
+      "vote_average": 5.5,
+      "vote_count": 15,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Yuri Katou",
+        "You Suzushiro",
+        "Mutsuki Iwanaka",
+        "Paama Kurukuru",
+        "Sakura Nakamura"
+      ],
+      "poster_path": "/ueI9EeoRdMVa7hWEm21nQEU8Zv3.jpg",
+      "backdrop_path": "/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg",
+      "backdrops": [
+        "/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg",
+        "/zXStcX8BNl0Jk9rbnVlyGuWRnQB.jpg",
+        "/3JN7T3qNfHOJVa7NWaRgkdSYBgr.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Souryo to Majiwaru Shikiyoku no Yor",
+        "text": "Experience the global phenomenon of Souryo to Majiwaru Shikiyoku no Yoru ni.... Rated 5.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "At a high school reunion, Mio Fukatani reunites with a classmate she has not seen in years\u2014Takahide Kujou. She had always wanted to know more about the kind-hearted boy in high school, but once...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Yuri Katou, You Suzushiro, Mutsuki Iwanaka, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.5/10 on TMDB",
+        "text": "With an impressive 5.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Souryo to Majiwaru Shikiyoku no Yoru ni...? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/70998"
+      }
+    ]
+  },
+  {
     "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
     "seo_description": "Discover Avatar Aang: The Last Airbender: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -905,7 +904,7 @@
       "runtime": 99,
       "seasons": null,
       "vote_average": 9.1,
-      "vote_count": 1283,
+      "vote_count": 1284,
       "category": "cult_classic",
       "director": "Lauren Montgomery",
       "top_cast": [
@@ -1007,7 +1006,7 @@
       "runtime": 79,
       "seasons": null,
       "vote_average": 9.1,
-      "vote_count": 436,
+      "vote_count": 438,
       "category": "cult_classic",
       "director": "Jeff Wamester",
       "top_cast": [
@@ -1024,9 +1023,9 @@
         "/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg",
         "/6c78xuvSoFLJkwlmx8Z2FGmMtzr.jpg",
         "/dD9jGW6ucJTamWSEcwJKtCmj90u.jpg",
-        "/bPuIY2nS5FY7TVEt2YlI6eCpIq3.jpg",
-        "/bwzP2VgpbCLcZeEFDwPGUpkZR6U.jpg",
         "/mVSI9AjayLvbMyky8KPWCiGBCNS.jpg",
+        "/bwzP2VgpbCLcZeEFDwPGUpkZR6U.jpg",
+        "/bPuIY2nS5FY7TVEt2YlI6eCpIq3.jpg",
         "/3MRgIcnzmyr4ZVzY2EiLfkE4NLp.jpg",
         "/5gQ8EgzwFRbpg1QE6xWzlDLkgIz.jpg"
       ]
@@ -1109,7 +1108,7 @@
       "runtime": 102,
       "seasons": null,
       "vote_average": 8.9,
-      "vote_count": 2231,
+      "vote_count": 2233,
       "category": "cult_classic",
       "director": "Nathan Greno",
       "top_cast": [
@@ -1411,7 +1410,7 @@
       "runtime": 125,
       "seasons": null,
       "vote_average": 5.9,
-      "vote_count": 12574,
+      "vote_count": 12579,
       "category": "steamy_thrillers",
       "director": "Sam Taylor-Johnson",
       "top_cast": [
@@ -1601,7 +1600,7 @@
       "runtime": 97,
       "seasons": null,
       "vote_average": 8.3,
-      "vote_count": 441,
+      "vote_count": 452,
       "category": "upcoming",
       "director": "Scott Waugh",
       "top_cast": [
@@ -1700,7 +1699,7 @@
       "runtime": 98,
       "seasons": null,
       "vote_average": 7.2,
-      "vote_count": 267,
+      "vote_count": 309,
       "category": "upcoming",
       "director": "Michael Spierig",
       "top_cast": [
@@ -1782,151 +1781,153 @@
     ]
   },
   {
-    "title": "Lanterns: The Untold Story & Secrets",
-    "seo_description": "Discover Lanterns: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Link Click: Why This Time-Travel Thriller Blew Minds \u23f3\ud83d\udcf8",
+    "seo_description": "Discover Link Click, the breakout sci-fi mystery donghua taking anime fans by storm with wild time-travel twists and heart-wrenching drama.",
     "movie": {
-      "id": 95350,
-      "title": "Lanterns",
-      "original_title": "Lanterns",
-      "slug": "lanterns",
+      "id": 123542,
+      "title": "LINK CLICK",
+      "original_title": "\u65f6\u5149\u4ee3\u7406\u4eba",
+      "slug": "link-click",
       "media_type": "tv",
-      "release_date": "2026-08-16",
-      "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-      "tagline": "Only one can wear the ring.",
+      "release_date": "2021-04-30",
+      "overview": "Using superpowers to enter their clientele\u2019s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at \u201cTime Photo Studio,\u201d a small photography shop set in the backdrop of a modern metropolis. Each job can be full of danger, but nothing is more important than fulfilling every order, no matter the scale\u2026or peril involved!",
+      "tagline": "Past or future, just let them be.",
       "genres": [
-        "Drama",
+        "Animation",
+        "Sci-Fi & Fantasy",
         "Mystery",
-        "Sci-Fi & Fantasy"
+        "Drama"
       ],
-      "runtime": 50,
-      "seasons": 1,
+      "runtime": 23,
+      "seasons": 5,
       "vote_average": 8.3,
-      "vote_count": 655,
+      "vote_count": 129,
       "category": "series",
-      "director": "Damon Lindelof, Chris Mundy, Tom King (Creator)",
+      "director": "Li Haoling (Creator)",
       "top_cast": [
-        "Kyle Chandler",
-        "Aaron Pierre",
-        "Kelly Macdonald"
+        "Su Shangqing",
+        "Yang Tianxiang",
+        "Li Shimeng"
       ],
-      "poster_path": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+      "poster_path": "/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg",
+      "backdrop_path": "/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
       "backdrops": [
-        "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
-        "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
-        "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
-        "/yr1n2RzZHn1UYozrzvPzjcE60cP.jpg",
-        "/zuJQAto2usduM9Kr0cgX1dLkWLZ.jpg",
-        "/jMCAu91V7fsnHNUvabOPMBLaLaj.jpg",
-        "/ruwzidqanSyhhMEk6kCVd9BLui1.jpg",
-        "/sTACyx6TDwMGIBJa9p5ijU58vfL.jpg"
+        "/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg",
+        "/cEa77esuWGAgR1bygmk8ey1w4wZ.jpg",
+        "/2ns30HHRX5qgsVfEvvevwUcrD5E.jpg",
+        "/hXQCqScrJ7OvH0al484FW9R7VGk.jpg",
+        "/r9W7UBBHASI8MYwoxOg0zayB8tZ.jpg",
+        "/hbjElgOZqH7eB0OkiO2LfcTihqX.jpg",
+        "/hMRoSUm3kKOzCiFoOdbI1cUMnur.jpg",
+        "/7526JqSH5Ktxj7fz25tcobHoOt3.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Lanterns",
-        "text": "Only one can wear the ring. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "THE PHENOMENON",
+        "title": "Time Travel Reimagined \u23f3",
+        "text": "Hidden inside a quaint urban photo studio lies a supernatural secret. Dive into Link Click, the breakout donghua thriller that completely redefined animated suspense.",
         "backdrop_index": 0,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/123542"
       },
       {
         "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
-        "title": "Shocking Twist Ahead",
-        "text": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+        "badge": "THE PREMISE",
+        "title": "Jumping Into Memories \ud83d\udcf8",
+        "text": "Cheng Xiaoshi dives straight into photographs to relive clients' pasts, while Lu Guang anchors the timeline. Their golden rule? Past or future, just let them be.",
         "backdrop_index": 1,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/123542"
       },
       {
         "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Kyle Chandler, Aaron Pierre, Kelly Macdonald, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Damon Lindelof, Chris Mundy, Tom King (Creator).",
+        "badge": "DYNAMIC DUO",
+        "title": "High Stakes, High Peril \u26a1",
+        "text": "One tiny slip can shatter reality. Cheng's emotional empathy constantly clashes with Lu Guang's cold calculations, pushing every high-stakes mission to the edge.",
         "backdrop_index": 2,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/123542"
       },
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Damon Lindelof, Chris Mundy, Tom King (Creator)",
-        "text": "Filmmaker Damon Lindelof, Chris Mundy, Tom King (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Masterclass in Suspense \ud83c\udfac",
+        "text": "Director Li Haoling blends heart-stopping cliffhangers with fluid urban animation, keeping viewers gripping their seats across every relentless 23-minute episode.",
         "backdrop_index": 3,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/123542"
       },
       {
         "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.3/10 on TMDB",
-        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "badge": "CULTURAL IMPACT",
+        "title": "A Global 8.3 Sensation \u2b50",
+        "text": "Holding an extraordinary 8.3 rating, Link Click exploded past international borders to become a worldwide cult sensation praised for raw emotion and brutal twists.",
         "backdrop_index": 4,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/123542"
       },
       {
         "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Lanterns? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/95350"
+        "badge": "DON'T MISS",
+        "title": "Step Into The Frame \ud83d\udd70\ufe0f",
+        "text": "Ready to unlock the dangerous mysteries inside Time Photo Studio? Prepare for a heart-pounding ride where every photograph tells an unexpected story.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Link Click",
+        "cta_url": "https://www.themoviedb.org/tv/123542"
       }
     ]
   },
   {
-    "title": "Below: The Untold Story & Secrets",
-    "seo_description": "Discover Below: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Take Charge of My Heart: The Untold Story & Secrets",
+    "seo_description": "Discover Take Charge of My Heart: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
-      "id": 285322,
-      "title": "Below",
-      "original_title": "Below",
-      "slug": "below",
+      "id": 289423,
+      "title": "Take Charge of My Heart",
+      "original_title": "\ub098\ub97c \ucda9\uc804\ud574\uc918",
+      "slug": "take-charge-of-my-heart",
       "media_type": "tv",
-      "release_date": "2026-10-08",
-      "overview": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
-      "tagline": "Something's in the water.",
+      "release_date": "2026-10-09",
+      "overview": "A corporate heir with an artificial heart meets a woman who's literally electric. They strike a deal that makes his heart beat \u2014 in more ways than one.",
+      "tagline": "Charged by touch, drained by distance, shocked by love!",
       "genres": [
-        "Mystery"
+        "Sci-Fi & Fantasy",
+        "Comedy"
       ],
       "runtime": 50,
       "seasons": 1,
-      "vote_average": 6.8,
-      "vote_count": 5,
+      "vote_average": 0.0,
+      "vote_count": 0,
       "category": "series",
-      "director": "Jesse McKeown (Creator)",
+      "director": "Park Soo-won, Song You-chae (Creator)",
       "top_cast": [
-        "Josh Hartnett",
-        "Mackenzie Davis",
-        "Charlie Heaton",
-        "Ruby Stokes",
-        "Kaleb Horn",
-        "Rohan Campbell"
+        "Kim Young-kwang",
+        "Chae Soo-bin",
+        "Cha Woo-min",
+        "Jeong Jae-kwang",
+        "Shin Do-hyun",
+        "Heo Dong-won"
       ],
-      "poster_path": "/qadm9To9UfMVenVzGVLt0m0iuxv.jpg",
-      "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "poster_path": "/ecRrKGXfflZmDZBD4irdkybClT.jpg",
+      "backdrop_path": "/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg",
       "backdrops": [
-        "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-        "/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg",
-        "/rDpuq2PMyW5KBdwvvvum24jW4ph.jpg",
-        "/bmhmL2GrQvw4rfKQZHh2pxGWulZ.jpg",
-        "/hqtvsZf4IEr5u3IefUMDXNxgmu9.jpg",
-        "/eFE3ZDxSySt7A0JX3c1Uco1e9FI.jpg",
-        "/4kOFF9OydoMIQCNGKOF7YpxcIiO.jpg",
-        "/gTbzPvrI2993bfCBC3KxHxw7loX.jpg"
+        "/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg",
+        "/8JjtnwJ8yLUfR9QEvhRDKSgZGnS.jpg",
+        "/3fCBU4IT091cSPiJTdu60FONeb2.jpg",
+        "/cZT6axZe8X7zQFUS2P3VIyMkx6d.jpg",
+        "/2FaKy5aMa66oQB3on9nBhVhEYoJ.jpg",
+        "/pvUDurht2uRhrfQ7UuuuueovAwL.jpg",
+        "/yyebOZP1bK4W56NWUeo8tOtrDQS.jpg",
+        "/6NAy0c79IPyT4AE4gzD7n4iZ3FR.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
         "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Below",
-        "text": "Something's in the water. Rated 6.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "title": "Take Charge of My Heart",
+        "text": "Charged by touch, drained by distance, shocked by love! Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -1935,7 +1936,7 @@
         "id": "page-2",
         "badge": "THE MASTERMIND PLOT",
         "title": "Shocking Twist Ahead",
-        "text": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+        "text": "A corporate heir with an artificial heart meets a woman who's literally electric. They strike a deal that makes his heart beat \u2014 in more ways than one.",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -1944,7 +1945,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Josh Hartnett, Mackenzie Davis, Charlie Heaton, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jesse McKeown (Creator).",
+        "text": "Led by Kim Young-kwang, Chae Soo-bin, Cha Woo-min, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Park Soo-won, Song You-chae (Creator).",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -1952,8 +1953,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Jesse McKeown (Creator)",
-        "text": "Filmmaker Jesse McKeown (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Park Soo-won, Song You-chae (Creator)",
+        "text": "Filmmaker Park Soo-won, Song You-chae (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -1961,8 +1962,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 6.8/10 on TMDB",
-        "text": "With an impressive 6.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -1971,10 +1972,10 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Below? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Take Charge of My Heart? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/285322"
+        "cta_url": "https://www.themoviedb.org/movie/289423"
       }
     ]
   },

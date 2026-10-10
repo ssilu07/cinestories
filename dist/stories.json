@@ -1,27 +1,9 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-09T12:23:54.548185+00:00",
+  "generated_at": "2026-10-10T11:41:28.255882+00:00",
   "total_stories": 65,
   "stories": [
-    {
-      "id": 123542,
-      "slug": "link-click",
-      "title": "Link Click: Why This Time-Travel Thriller Blew Minds \u23f3\ud83d\udcf8",
-      "url": "https://cinestories-omega.vercel.app/stories/link-click/",
-      "category": "series",
-      "release_date": "2021-04-30",
-      "rating": 8.3
-    },
-    {
-      "id": 289423,
-      "slug": "take-charge-of-my-heart",
-      "title": "Take Charge of My Heart: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/take-charge-of-my-heart/",
-      "category": "series",
-      "release_date": "2026-10-09",
-      "rating": 0.0
-    },
     {
       "id": 288673,
       "slug": "carrie",
@@ -29,25 +11,25 @@
       "url": "https://cinestories-omega.vercel.app/stories/carrie/",
       "category": "series",
       "release_date": "2026-10-07",
-      "rating": 8.5
+      "rating": 8.4
     },
     {
-      "id": 1236045,
-      "slug": "animals",
-      "title": "Animals: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/animals/",
-      "category": "theories_easter_eggs",
-      "release_date": "2026-10-09",
-      "rating": 6.4
+      "id": 95350,
+      "slug": "lanterns",
+      "title": "Lanterns: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
+      "category": "series",
+      "release_date": "2026-08-16",
+      "rating": 8.3
     },
     {
-      "id": 1148365,
-      "slug": "matchbox-the-movie",
-      "title": "Matchbox the Movie: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/matchbox-the-movie/",
-      "category": "theories_easter_eggs",
-      "release_date": "2026-10-05",
-      "rating": 6.1
+      "id": 285322,
+      "slug": "below",
+      "title": "Below: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/below/",
+      "category": "series",
+      "release_date": "2026-10-08",
+      "rating": 7.4
     },
     {
       "id": 969681,
@@ -56,7 +38,25 @@
       "url": "https://cinestories-omega.vercel.app/stories/spider-man-brand-new-day/",
       "category": "theories_easter_eggs",
       "release_date": "2026-07-29",
-      "rating": 8.3
+      "rating": 8.4
+    },
+    {
+      "id": 1148365,
+      "slug": "matchbox-the-movie",
+      "title": "Matchbox the Movie: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/matchbox-the-movie/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-10-05",
+      "rating": 7.7
+    },
+    {
+      "id": 1236045,
+      "slug": "animals",
+      "title": "Animals: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/animals/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-10-09",
+      "rating": 7.4
     },
     {
       "id": 91759,
@@ -68,15 +68,6 @@
       "rating": 5.4
     },
     {
-      "id": 70998,
-      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
-      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
-      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
-      "category": "series",
-      "release_date": "2017-04-03",
-      "rating": 5.5
-    },
-    {
       "id": 22980,
       "slug": "watch-what-happens-live-with-andy-cohen",
       "title": "Watch What Happens Live with Andy Cohen: The Untold Story & Secrets",
@@ -84,6 +75,15 @@
       "category": "series",
       "release_date": "2009-07-16",
       "rating": 5.0
+    },
+    {
+      "id": 70998,
+      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
+      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+      "category": "series",
+      "release_date": "2017-04-03",
+      "rating": 5.5
     },
     {
       "id": 980431,
@@ -167,22 +167,22 @@
       "rating": 7.2
     },
     {
-      "id": 95350,
-      "slug": "lanterns",
-      "title": "Lanterns: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
+      "id": 123542,
+      "slug": "link-click",
+      "title": "Link Click: Why This Time-Travel Thriller Blew Minds \u23f3\ud83d\udcf8",
+      "url": "https://cinestories-omega.vercel.app/stories/link-click/",
       "category": "series",
-      "release_date": "2026-08-16",
+      "release_date": "2021-04-30",
       "rating": 8.3
     },
     {
-      "id": 285322,
-      "slug": "below",
-      "title": "Below: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/below/",
+      "id": 289423,
+      "slug": "take-charge-of-my-heart",
+      "title": "Take Charge of My Heart: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/take-charge-of-my-heart/",
       "category": "series",
-      "release_date": "2026-10-08",
-      "rating": 6.8
+      "release_date": "2026-10-09",
+      "rating": 0.0
     },
     {
       "id": 1291595,
