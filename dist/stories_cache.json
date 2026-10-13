@@ -1,7 +1,7 @@
 [
   {
-    "title": "LINK CLICK: The Untold Story & Secrets",
-    "seo_description": "Discover LINK CLICK: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Link Click: The Time-Travel Anime You Need to Watch \u23f3\ud83d\udcf8",
+    "seo_description": "Discover why sci-fi thriller Link Click became an unexpected global sensation with its photo-jumping mysteries and jaw-dropping twists.",
     "movie": {
       "id": 123542,
       "title": "LINK CLICK",
@@ -19,8 +19,8 @@
       ],
       "runtime": 23,
       "seasons": 5,
-      "vote_average": 8.2,
-      "vote_count": 135,
+      "vote_average": 8.1,
+      "vote_count": 136,
       "category": "series",
       "director": "Li Haoling (Creator)",
       "top_cast": [
@@ -44,9 +44,109 @@
     "slides": [
       {
         "id": "page-1",
+        "badge": "GLOBAL SENSATION",
+        "title": "Diving Into the Past",
+        "text": "Step inside Time Photo Studio, where a pair of gifted partners jump through snapshot memories to unravel dangerous mysteries in modern metropolis alleys.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/123542"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "One Snap, 12 Hours",
+        "text": "Cheng Xiaoshi enters the photographer's body, while Lu Guang tracks the timeline from the present. Rule number one: never alter the past.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/123542"
+      },
+      {
+        "id": "page-3",
+        "badge": "DYNAMIC DUO",
+        "title": "Complementary Powers",
+        "text": "Their contrasting personalities create electric tension. One acts purely on empathy and impulse, while the other maintains cold, calculated vigilance.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/123542"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "A Masterclass in Tension",
+        "text": "Created by visionary director Li Haoling, each 23-minute episode delivers breathtaking cliffhangers, heart-wrenching drama, and pulse-pounding urban suspense.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/123542"
+      },
+      {
+        "id": "page-5",
+        "badge": "FAN IMPACT",
+        "title": "An 8.1/10 Masterpiece",
+        "text": "Racking up rave reviews worldwide, the donghua phenomenon keeps viewers guessing with intricate timelines, devastating betrayals, and unforgettable musical beats.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/123542"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Ready to Dive In?",
+        "text": "Past or future, just let them be. Uncover all the secrets hidden within the photos today.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Link Click Details",
+        "cta_url": "https://www.themoviedb.org/tv/123542"
+      }
+    ]
+  },
+  {
+    "title": "Below: The Untold Story & Secrets",
+    "seo_description": "Discover Below: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 285322,
+      "title": "Below",
+      "original_title": "Below",
+      "slug": "below",
+      "media_type": "tv",
+      "release_date": "2026-10-08",
+      "overview": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+      "tagline": "Something's in the water.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 7.3,
+      "vote_count": 92,
+      "category": "series",
+      "director": "Jesse McKeown (Creator)",
+      "top_cast": [
+        "Josh Hartnett",
+        "Mackenzie Davis",
+        "Charlie Heaton",
+        "Ruby Stokes",
+        "Kaleb Horn",
+        "Rohan Campbell"
+      ],
+      "poster_path": "/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
+      "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "backdrops": [
+        "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+        "/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg",
+        "/l31xyOHslsvWm6GEWSd7kSeECp.jpg",
+        "/rDpuq2PMyW5KBdwvvvum24jW4ph.jpg",
+        "/bmhmL2GrQvw4rfKQZHh2pxGWulZ.jpg",
+        "/eFE3ZDxSySt7A0JX3c1Uco1e9FI.jpg",
+        "/hqtvsZf4IEr5u3IefUMDXNxgmu9.jpg",
+        "/gTbzPvrI2993bfCBC3KxHxw7loX.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
         "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "LINK CLICK",
-        "text": "Past or future, just let them be. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "title": "Below",
+        "text": "Something's in the water. Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -55,7 +155,7 @@
         "id": "page-2",
         "badge": "THE MASTERMIND PLOT",
         "title": "Shocking Twist Ahead",
-        "text": "Using superpowers to enter their clientele\u2019s photos one by one, Cheng Xiaoshi and Lu Guang take their work seriously at \u201cTime Photo Studio,\u201d a small photography shop set in the backdrop of a modern...",
+        "text": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
         "backdrop_index": 1,
         "cta_text": null,
         "cta_url": null
@@ -64,7 +164,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Su Shangqing, Yang Tianxiang, Li Shimeng, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Li Haoling (Creator).",
+        "text": "Led by Josh Hartnett, Mackenzie Davis, Charlie Heaton, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jesse McKeown (Creator).",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -72,8 +172,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Li Haoling (Creator)",
-        "text": "Filmmaker Li Haoling (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Jesse McKeown (Creator)",
+        "text": "Filmmaker Jesse McKeown (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -81,8 +181,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.2/10 on TMDB",
-        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 7.3/10 on TMDB",
+        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -91,111 +191,10 @@
         "id": "page-6",
         "badge": "YOUR TICKET",
         "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into LINK CLICK? Discover showtimes, official trailers, and cast interviews today.",
+        "text": "Ready to dive into Below? Discover showtimes, official trailers, and cast interviews today.",
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/123542"
-      }
-    ]
-  },
-  {
-    "title": "Mike Flanagan's Carrie: 5 Huge Revelations \ud83e\ude78\ud83d\udd25",
-    "seo_description": "Explore Mike Flanagan's modern Carrie series: telekinetic vengeance, social media horrors, and supernatural chills.",
-    "movie": {
-      "id": 288673,
-      "title": "Carrie",
-      "original_title": "Carrie",
-      "slug": "carrie",
-      "media_type": "tv",
-      "release_date": "2026-10-07",
-      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social\u2011media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
-      "tagline": "She just wanted a friend. They gave her a fight.",
-      "genres": [
-        "Mystery",
-        "Drama",
-        "Sci-Fi & Fantasy"
-      ],
-      "runtime": 50,
-      "seasons": 1,
-      "vote_average": 8.4,
-      "vote_count": 184,
-      "category": "series",
-      "director": "Mike Flanagan (Creator)",
-      "top_cast": [
-        "Summer H. Howell",
-        "Samantha Sloyan",
-        "Siena Agudong",
-        "Alison Thornton",
-        "Joel Oulette",
-        "Josie Totah"
-      ],
-      "poster_path": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
-      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
-      "backdrops": [
-        "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
-        "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
-        "/vVaNTaRHlL1i8JVsZsNtRHGBhPm.jpg",
-        "/5Zwl8JqCAgsljpqsZzczBCc4cuy.jpg",
-        "/di9VmgryykdZxIqIu3k6VpQRQeh.jpg",
-        "/vnjvoFcJWAjUHOfyEVU3lRh9Z.jpg",
-        "/eZOx2pvYAFbfd5WXKzSV4HbsW2Y.jpg",
-        "/eS83I38AwNkZn1dETD63bgsukzP.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "UPCOMING HORROR",
-        "title": "A Modern Nightmare Returns",
-        "text": "Stephen King's legendary tale gets a chilling, modern reimagining from horror maestro Mike Flanagan. Telekinesis meets the brutal digital age.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/288673"
-      },
-      {
-        "id": "page-2",
-        "badge": "THE PREMISE",
-        "title": "Cruelty Goes Viral",
-        "text": "Thrust into public high school after her father's death, Carrie endures relentless online bullying until latent supernatural abilities explode into terrifying reality.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/288673"
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Flanagan's Ultimate Ensemble",
-        "text": "Summer H. Howell stars alongside Flanagan regulars Samantha Sloyan, Siena Agudong, and Josie Totah for a dark, emotional masterclass in suspense.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/288673"
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Master of Emotional Dread",
-        "text": "Flanagan expands King's novellas with rich character drama, turning Carrie's tragedy into an agonizing, episodic descent into unchecked power.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/288673"
-      },
-      {
-        "id": "page-5",
-        "badge": "THE VERDICT",
-        "title": "The Prom Night of Tomorrow",
-        "text": "Blending telekinetic terror with Gen Z viral anxiety, this adaptation promises to redefine Stephen King's most infamous prom night for a new generation.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": "https://www.themoviedb.org/movie/288673"
-      },
-      {
-        "id": "page-6",
-        "badge": "DON'T MISS",
-        "title": "Prepare For Carrie",
-        "text": "Uncover release dates, full cast breakdowns, and behind-the-scenes updates for the most anticipated horror series of 2026.",
-        "backdrop_index": 5,
-        "cta_text": "Explore Carrie Updates",
-        "cta_url": "https://www.themoviedb.org/tv/288673"
+        "cta_url": "https://www.themoviedb.org/movie/285322"
       }
     ]
   },
@@ -219,7 +218,7 @@
       "runtime": 50,
       "seasons": 1,
       "vote_average": 8.3,
-      "vote_count": 715,
+      "vote_count": 727,
       "category": "series",
       "director": "Damon Lindelof, Chris Mundy, Tom King (Creator)",
       "top_cast": [
@@ -228,10 +227,10 @@
         "Kelly Macdonald"
       ],
       "poster_path": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
-      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
+      "backdrop_path": "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
       "backdrops": [
-        "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
         "/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg",
+        "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg",
         "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
         "/yr1n2RzZHn1UYozrzvPzjcE60cP.jpg",
         "/zuJQAto2usduM9Kr0cgX1dLkWLZ.jpg",
@@ -316,8 +315,8 @@
       ],
       "runtime": 145,
       "seasons": null,
-      "vote_average": 8.4,
-      "vote_count": 5180,
+      "vote_average": 8.5,
+      "vote_count": 5305,
       "category": "theories_easter_eggs",
       "director": "Destin Daniel Cretton",
       "top_cast": [
@@ -332,13 +331,13 @@
       "backdrop_path": "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
       "backdrops": [
         "/f9mM7tDrZ3LlHPQu9I5A6TTxTb9.jpg",
-        "/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
         "/subj7knTn4DeS6KS7qI66EQKe9i.jpg",
+        "/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg",
         "/r08LxMJCbf1SiJIWeyH9aJmdqwC.jpg",
         "/yHMJbIEBHnKYWh20XtxV16emwXT.jpg",
         "/h84nJuyZrgqXinN3oNDHb8u3JEu.jpg",
-        "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
-        "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg"
+        "/qeQJx07rK2xm8SD2sJxFKhE7gs0.jpg",
+        "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg"
       ]
     },
     "slides": [
@@ -346,7 +345,7 @@
         "id": "page-1",
         "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
         "title": "Spider-Man: Brand New Day",
-        "text": "A brand new day starts now. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "text": "A brand new day starts now. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -381,8 +380,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 8.4/10 on TMDB",
-        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 8.5/10 on TMDB",
+        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -395,107 +394,6 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/969681"
-      }
-    ]
-  },
-  {
-    "title": "Matchbox the Movie: The Untold Story & Secrets",
-    "seo_description": "Discover Matchbox the Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 1148365,
-      "title": "Matchbox the Movie",
-      "original_title": "Matchbox the Movie",
-      "slug": "matchbox-the-movie",
-      "media_type": "movie",
-      "release_date": "2026-10-05",
-      "overview": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
-      "tagline": "Save the world, bring your friends.",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Adventure"
-      ],
-      "runtime": 127,
-      "seasons": null,
-      "vote_average": 7.9,
-      "vote_count": 220,
-      "category": "theories_easter_eggs",
-      "director": "Sam Hargrave",
-      "top_cast": [
-        "John Cena",
-        "Jessica Biel",
-        "Arturo Castro",
-        "Sam Richardson",
-        "Teyonah Parris",
-        "Danai Gurira"
-      ],
-      "poster_path": "/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
-      "backdrop_path": "/4N2Ur9ald3D1rncUzmskcwe9PCK.jpg",
-      "backdrops": [
-        "/ugpflhns3FF9JcNaNjIThcOTKf5.jpg",
-        "/oOofgKLAWUhHGohxXdRm3yLOWYw.jpg",
-        "/4N2Ur9ald3D1rncUzmskcwe9PCK.jpg",
-        "/caXP8VwAFVmrsJG6s1nO9NikxRI.jpg",
-        "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
-        "/oOI92vnBIWFuMCUNqPWvoU1l6ri.jpg",
-        "/bDHCTnzeWqNEajyFPhyRnWo0E4O.jpg",
-        "/wZvUZAl4rIwHbkRhEJKvl1v4Awl.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
-        "title": "Matchbox the Movie",
-        "text": "Save the world, bring your friends. Rated 7.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE POST-CREDIT CLUE",
-        "title": "Shocking Twist Ahead",
-        "text": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by John Cena, Jessica Biel, Arturo Castro, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Sam Hargrave.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by Sam Hargrave",
-        "text": "Filmmaker Sam Hargrave pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.9/10 on TMDB",
-        "text": "With an impressive 7.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Matchbox the Movie? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1148365"
       }
     ]
   },
@@ -517,8 +415,8 @@
       ],
       "runtime": 106,
       "seasons": null,
-      "vote_average": 7.5,
-      "vote_count": 242,
+      "vote_average": 7.4,
+      "vote_count": 298,
       "category": "theories_easter_eggs",
       "director": "Ben Affleck",
       "top_cast": [
@@ -529,15 +427,15 @@
         "Adriana Paz",
         "Luis Gerardo M\u00e9ndez"
       ],
-      "poster_path": "/cyltXU1lAGhRFBuHQIMWBAPj8fI.jpg",
+      "poster_path": "/iISM36voS1E8gX9BM0DVK0kgi3E.jpg",
       "backdrop_path": "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
       "backdrops": [
         "/tzoarEu7TsG959upiELyYPm5kO9.jpg",
         "/zah47IGR7eNJud8UQTTfVYNPIgW.jpg",
         "/5yzM78Tp8nYwSCQtyRcmnHmCn5C.jpg",
+        "/cGJYmcBTbuEaOCJGXsU6MUej9HN.jpg",
         "/swcmyUx5lbtPB2Qd8S2VuPK901i.jpg",
         "/44iewfUtvjptzIL09s63rdI0HCc.jpg",
-        "/cGJYmcBTbuEaOCJGXsU6MUej9HN.jpg",
         "/gMLzZ5CrVqyK7PV1neq1VneBJH1.jpg",
         "/f01Xpmo9BYHWmFEoUG9BrsXFSCL.jpg"
       ]
@@ -547,7 +445,7 @@
         "id": "page-1",
         "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
         "title": "Animals",
-        "text": "Power can't protect you. Rated 7.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "text": "Power can't protect you. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -582,8 +480,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.5/10 on TMDB",
-        "text": "With an impressive 7.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -596,6 +494,107 @@
         "backdrop_index": 0,
         "cta_text": "Check Showtimes & Full Details",
         "cta_url": "https://www.themoviedb.org/movie/1236045"
+      }
+    ]
+  },
+  {
+    "title": "Matchbox the Movie: The Untold Story & Secrets",
+    "seo_description": "Discover Matchbox the Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1148365,
+      "title": "Matchbox the Movie",
+      "original_title": "Matchbox the Movie",
+      "slug": "matchbox-the-movie",
+      "media_type": "movie",
+      "release_date": "2026-10-05",
+      "overview": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
+      "tagline": "Save the world, bring your friends.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Adventure"
+      ],
+      "runtime": 127,
+      "seasons": null,
+      "vote_average": 8.0,
+      "vote_count": 261,
+      "category": "theories_easter_eggs",
+      "director": "Sam Hargrave",
+      "top_cast": [
+        "John Cena",
+        "Jessica Biel",
+        "Arturo Castro",
+        "Sam Richardson",
+        "Teyonah Parris",
+        "Danai Gurira"
+      ],
+      "poster_path": "/lFKA4GMz36dImEy3DQPdPF7G4V9.jpg",
+      "backdrop_path": "/vJlFR2PEioavrz17QbC56r76V9F.jpg",
+      "backdrops": [
+        "/ugpflhns3FF9JcNaNjIThcOTKf5.jpg",
+        "/oOofgKLAWUhHGohxXdRm3yLOWYw.jpg",
+        "/jdJsnhHfkIi3J7jwfiCFT4gXNx5.jpg",
+        "/vJlFR2PEioavrz17QbC56r76V9F.jpg",
+        "/4N2Ur9ald3D1rncUzmskcwe9PCK.jpg",
+        "/caXP8VwAFVmrsJG6s1nO9NikxRI.jpg",
+        "/oOI92vnBIWFuMCUNqPWvoU1l6ri.jpg",
+        "/bDHCTnzeWqNEajyFPhyRnWo0E4O.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Matchbox the Movie",
+        "text": "Save the world, bring your friends. Rated 8.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "When a group of former childhood friends reconnect, their reunion takes a wild turn as they stumble upon a dangerous international plot\u2014and must save the world.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by John Cena, Jessica Biel, Arturo Castro, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Sam Hargrave.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Sam Hargrave",
+        "text": "Filmmaker Sam Hargrave pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.0/10 on TMDB",
+        "text": "With an impressive 8.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Matchbox the Movie? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1148365"
       }
     ]
   },
@@ -617,7 +616,7 @@
       ],
       "runtime": 50,
       "seasons": 23,
-      "vote_average": 5.0,
+      "vote_average": 4.9,
       "vote_count": 100,
       "category": "series",
       "director": "Andy Cohen (Creator)",
@@ -642,7 +641,7 @@
         "id": "page-1",
         "badge": "\ud83d\udd25 BINGE PHENOMENON",
         "title": "Watch What Happens Live with Andy C",
-        "text": "Experience the global phenomenon of Watch What Happens Live with Andy Cohen. Rated 5.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "text": "Experience the global phenomenon of Watch What Happens Live with Andy Cohen. Rated 4.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
         "backdrop_index": 0,
         "cta_text": null,
         "cta_url": null
@@ -677,8 +676,8 @@
       {
         "id": "page-5",
         "badge": "AUDIENCE REACTION",
-        "title": "Rated 5.0/10 on TMDB",
-        "text": "With an impressive 5.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "title": "Rated 4.9/10 on TMDB",
+        "text": "With an impressive 4.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
         "backdrop_index": 4,
         "cta_text": null,
         "cta_url": null
@@ -714,7 +713,7 @@
       "runtime": 22,
       "seasons": 1,
       "vote_average": 5.4,
-      "vote_count": 46,
+      "vote_count": 48,
       "category": "series",
       "director": "Visionary Showrunner (Creator)",
       "top_cast": [
@@ -903,7 +902,7 @@
       "runtime": 79,
       "seasons": null,
       "vote_average": 9.1,
-      "vote_count": 446,
+      "vote_count": 453,
       "category": "cult_classic",
       "director": "Jeff Wamester",
       "top_cast": [
@@ -1005,7 +1004,7 @@
       "runtime": 99,
       "seasons": null,
       "vote_average": 9.1,
-      "vote_count": 1307,
+      "vote_count": 1312,
       "category": "cult_classic",
       "director": "Lauren Montgomery",
       "top_cast": [
@@ -1107,7 +1106,7 @@
       "runtime": 102,
       "seasons": null,
       "vote_average": 8.9,
-      "vote_count": 2239,
+      "vote_count": 2244,
       "category": "cult_classic",
       "director": "Nathan Greno",
       "top_cast": [
@@ -1189,6 +1188,106 @@
     ]
   },
   {
+    "title": "Drawn Together: The Untold Story & Secrets",
+    "seo_description": "Discover Drawn Together: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1440098,
+      "title": "Drawn Together",
+      "original_title": "Enfrentados: Marfil",
+      "slug": "drawn-together",
+      "media_type": "movie",
+      "release_date": "2026-09-09",
+      "overview": "Marfil, daughter of a powerful Spanish businessman, sees her life in New York turned upside down when she is kidnapped and released without explanation. Her father hires Sebastian Moore as bodyguard and, forced to spend every minute together, an inevitable attraction ignites in a world where nothing is as it seems.",
+      "tagline": "",
+      "genres": [
+        "Romance",
+        "Thriller"
+      ],
+      "runtime": 104,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 202,
+      "category": "steamy_thrillers",
+      "director": "\u00d3scar Pedraza",
+      "top_cast": [
+        "Ester Exp\u00f3sito",
+        "Hugo Diego Garcia",
+        "Pablo Molinero",
+        "Llu\u00eds Homar",
+        "Joaqu\u00edn Ferreira",
+        "Zoe Bonafonte"
+      ],
+      "poster_path": "/6rpvddXbaQPOi0fB2HKWbZ3uUSg.jpg",
+      "backdrop_path": "/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+      "backdrops": [
+        "/i65y7cMae36K0giN0GRaMjAHUru.jpg",
+        "/uPkl3mUqzY2ghPfbNORi4gjn7Nj.jpg",
+        "/oZkk6B15Ak4uTa2aVrJaDmSk3Xl.jpg",
+        "/1ewgN7tG15VPpYbW0CE3UCXabVD.jpg",
+        "/6IlNGtSdvrE2DhYI5XYi68qT4c7.jpg",
+        "/qIX2rkU0vOpwSEfBpB5WpqEBfNE.jpg",
+        "/ayEhWoIwbMgKTVeZnDRAcx3ZiPI.jpg",
+        "/h4HNbn5EwUhDIYR6Q45g84hxSuN.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Drawn Together",
+        "text": "Experience the global phenomenon of Drawn Together. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Marfil, daughter of a powerful Spanish businessman, sees her life in New York turned upside down when she is kidnapped and released without explanation. Her father hires Sebastian Moore as bodyguard and, forced to...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ester Exp\u00f3sito, Hugo Diego Garcia, Pablo Molinero, the film boasts phenomenal on-screen chemistry and career-defining performances directed by \u00d3scar Pedraza.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by \u00d3scar Pedraza",
+        "text": "Filmmaker \u00d3scar Pedraza pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Drawn Together? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1440098"
+      }
+    ]
+  },
+  {
     "title": "My Fault: The Untold Story & Secrets",
     "seo_description": "Discover My Fault: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -1208,7 +1307,7 @@
       "runtime": 116,
       "seasons": null,
       "vote_average": 7.7,
-      "vote_count": 4209,
+      "vote_count": 4210,
       "category": "steamy_thrillers",
       "director": "Domingo Gonz\u00e1lez",
       "top_cast": [
@@ -1290,106 +1389,6 @@
     ]
   },
   {
-    "title": "Drawn Together: The Untold Story & Secrets",
-    "seo_description": "Discover Drawn Together: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
-    "movie": {
-      "id": 1440098,
-      "title": "Drawn Together",
-      "original_title": "Enfrentados: Marfil",
-      "slug": "drawn-together",
-      "media_type": "movie",
-      "release_date": "2026-09-09",
-      "overview": "Marfil, daughter of a powerful Spanish businessman, sees her life in New York turned upside down when she is kidnapped and released without explanation. Her father hires Sebastian Moore as bodyguard and, forced to spend every minute together, an inevitable attraction ignites in a world where nothing is as it seems.",
-      "tagline": "",
-      "genres": [
-        "Romance",
-        "Thriller"
-      ],
-      "runtime": 104,
-      "seasons": null,
-      "vote_average": 7.0,
-      "vote_count": 198,
-      "category": "steamy_thrillers",
-      "director": "\u00d3scar Pedraza",
-      "top_cast": [
-        "Ester Exp\u00f3sito",
-        "Hugo Diego Garcia",
-        "Pablo Molinero",
-        "Llu\u00eds Homar",
-        "Joaqu\u00edn Ferreira",
-        "Zoe Bonafonte"
-      ],
-      "poster_path": "/6rpvddXbaQPOi0fB2HKWbZ3uUSg.jpg",
-      "backdrop_path": "/i65y7cMae36K0giN0GRaMjAHUru.jpg",
-      "backdrops": [
-        "/i65y7cMae36K0giN0GRaMjAHUru.jpg",
-        "/uPkl3mUqzY2ghPfbNORi4gjn7Nj.jpg",
-        "/oZkk6B15Ak4uTa2aVrJaDmSk3Xl.jpg",
-        "/1ewgN7tG15VPpYbW0CE3UCXabVD.jpg",
-        "/6IlNGtSdvrE2DhYI5XYi68qT4c7.jpg",
-        "/qIX2rkU0vOpwSEfBpB5WpqEBfNE.jpg",
-        "/ayEhWoIwbMgKTVeZnDRAcx3ZiPI.jpg",
-        "/h4HNbn5EwUhDIYR6Q45g84hxSuN.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\u26a1 BLOCKBUSTER ALERT",
-        "title": "Drawn Together",
-        "text": "Experience the global phenomenon of Drawn Together. Rated 7.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "THE EPIC CONFLICT",
-        "title": "Shocking Twist Ahead",
-        "text": "Marfil, daughter of a powerful Spanish businessman, sees her life in New York turned upside down when she is kidnapped and released without explanation. Her father hires Sebastian Moore as bodyguard and, forced to...",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Ester Exp\u00f3sito, Hugo Diego Garcia, Pablo Molinero, the film boasts phenomenal on-screen chemistry and career-defining performances directed by \u00d3scar Pedraza.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "BEHIND THE LENS",
-        "title": "Directed by \u00d3scar Pedraza",
-        "text": "Filmmaker \u00d3scar Pedraza pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.0/10 on TMDB",
-        "text": "With an impressive 7.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Drawn Together? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/1440098"
-      }
-    ]
-  },
-  {
     "title": "The Gorge: The Untold Story & Secrets",
     "seo_description": "Discover The Gorge: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
@@ -1409,7 +1408,7 @@
       "runtime": 128,
       "seasons": null,
       "vote_average": 7.7,
-      "vote_count": 4288,
+      "vote_count": 4292,
       "category": "steamy_thrillers",
       "director": "Scott Derrickson",
       "top_cast": [
@@ -1508,9 +1507,9 @@
       "runtime": 98,
       "seasons": null,
       "vote_average": 7.3,
-      "vote_count": 448,
+      "vote_count": 500,
       "category": "upcoming",
-      "director": "Peter Spierig",
+      "director": "Michael Spierig",
       "top_cast": [
         "Harriet Slater",
         "Arsema Thomas",
@@ -1555,7 +1554,7 @@
         "id": "page-3",
         "badge": "STAR POWER",
         "title": "Powerhouse Ensemble",
-        "text": "Led by Harriet Slater, Arsema Thomas, Tom Brittney, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Peter Spierig.",
+        "text": "Led by Harriet Slater, Arsema Thomas, Tom Brittney, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Michael Spierig.",
         "backdrop_index": 2,
         "cta_text": null,
         "cta_url": null
@@ -1563,8 +1562,8 @@
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Peter Spierig",
-        "text": "Filmmaker Peter Spierig pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Directed by Michael Spierig",
+        "text": "Filmmaker Michael Spierig pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
         "backdrop_index": 3,
         "cta_text": null,
         "cta_url": null
@@ -1608,7 +1607,7 @@
       "runtime": 142,
       "seasons": null,
       "vote_average": 6.8,
-      "vote_count": 58,
+      "vote_count": 59,
       "category": "upcoming",
       "director": "Guy Moshe",
       "top_cast": [
@@ -1708,7 +1707,7 @@
       "runtime": 97,
       "seasons": null,
       "vote_average": 8.3,
-      "vote_count": 493,
+      "vote_count": 498,
       "category": "upcoming",
       "director": "Scott Waugh",
       "top_cast": [
@@ -1790,102 +1789,103 @@
     ]
   },
   {
-    "title": "Below: The Untold Story & Secrets",
-    "seo_description": "Discover Below: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "title": "Mike Flanagan's Carrie: 5 Huge Revelations \ud83e\ude78\ud83d\udd25",
+    "seo_description": "Explore Mike Flanagan's modern Carrie series: telekinetic vengeance, social media horrors, and supernatural chills.",
     "movie": {
-      "id": 285322,
-      "title": "Below",
-      "original_title": "Below",
-      "slug": "below",
+      "id": 288673,
+      "title": "Carrie",
+      "original_title": "Carrie",
+      "slug": "carrie",
       "media_type": "tv",
-      "release_date": "2026-10-08",
-      "overview": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
-      "tagline": "Something's in the water.",
+      "release_date": "2026-10-07",
+      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social\u2011media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "tagline": "She just wanted a friend. They gave her a fight.",
       "genres": [
+        "Mystery",
         "Drama",
-        "Mystery"
+        "Sci-Fi & Fantasy"
       ],
       "runtime": 50,
       "seasons": 1,
-      "vote_average": 7.4,
-      "vote_count": 43,
+      "vote_average": 8.4,
+      "vote_count": 184,
       "category": "series",
-      "director": "Jesse McKeown (Creator)",
+      "director": "Mike Flanagan (Creator)",
       "top_cast": [
-        "Josh Hartnett",
-        "Mackenzie Davis",
-        "Charlie Heaton",
-        "Ruby Stokes",
-        "Kaleb Horn",
-        "Rohan Campbell"
+        "Summer H. Howell",
+        "Samantha Sloyan",
+        "Siena Agudong",
+        "Alison Thornton",
+        "Joel Oulette",
+        "Josie Totah"
       ],
-      "poster_path": "/vgLqqhMUbljp585qPp1EFCyJtcz.jpg",
-      "backdrop_path": "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
+      "poster_path": "/eXjk4W4robXs7l1YXwaXMv4f2qb.jpg",
+      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
       "backdrops": [
-        "/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg",
-        "/tJhDFLNrJsYG2WysMh2jAcfJjEq.jpg",
-        "/l31xyOHslsvWm6GEWSd7kSeECp.jpg",
-        "/rDpuq2PMyW5KBdwvvvum24jW4ph.jpg",
-        "/bmhmL2GrQvw4rfKQZHh2pxGWulZ.jpg",
-        "/eFE3ZDxSySt7A0JX3c1Uco1e9FI.jpg",
-        "/hqtvsZf4IEr5u3IefUMDXNxgmu9.jpg",
-        "/gTbzPvrI2993bfCBC3KxHxw7loX.jpg"
+        "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg",
+        "/x4HuDkzyAfGfZpuJURU8mg43q6H.jpg",
+        "/vVaNTaRHlL1i8JVsZsNtRHGBhPm.jpg",
+        "/5Zwl8JqCAgsljpqsZzczBCc4cuy.jpg",
+        "/di9VmgryykdZxIqIu3k6VpQRQeh.jpg",
+        "/vnjvoFcJWAjUHOfyEVU3lRh9Z.jpg",
+        "/eZOx2pvYAFbfd5WXKzSV4HbsW2Y.jpg",
+        "/eS83I38AwNkZn1dETD63bgsukzP.jpg"
       ]
     },
     "slides": [
       {
         "id": "page-1",
-        "badge": "\ud83d\udd25 BINGE PHENOMENON",
-        "title": "Below",
-        "text": "Something's in the water. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "badge": "UPCOMING HORROR",
+        "title": "A Modern Nightmare Returns",
+        "text": "Stephen King's legendary tale gets a chilling, modern reimagining from horror maestro Mike Flanagan. Telekinesis meets the brutal digital age.",
         "backdrop_index": 0,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/288673"
       },
       {
         "id": "page-2",
-        "badge": "THE MASTERMIND PLOT",
-        "title": "Shocking Twist Ahead",
-        "text": "When a mysterious sea creature terrorizes a small Newfoundland town, a hard-bitten fisherman and his family fight to protect their close-knit community.",
+        "badge": "THE PREMISE",
+        "title": "Cruelty Goes Viral",
+        "text": "Thrust into public high school after her father's death, Carrie endures relentless online bullying until latent supernatural abilities explode into terrifying reality.",
         "backdrop_index": 1,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/288673"
       },
       {
         "id": "page-3",
         "badge": "STAR POWER",
-        "title": "Powerhouse Ensemble",
-        "text": "Led by Josh Hartnett, Mackenzie Davis, Charlie Heaton, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jesse McKeown (Creator).",
+        "title": "Flanagan's Ultimate Ensemble",
+        "text": "Summer H. Howell stars alongside Flanagan regulars Samantha Sloyan, Siena Agudong, and Josie Totah for a dark, emotional masterclass in suspense.",
         "backdrop_index": 2,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/288673"
       },
       {
         "id": "page-4",
         "badge": "BEHIND THE LENS",
-        "title": "Directed by Jesse McKeown (Creator)",
-        "text": "Filmmaker Jesse McKeown (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "title": "Master of Emotional Dread",
+        "text": "Flanagan expands King's novellas with rich character drama, turning Carrie's tragedy into an agonizing, episodic descent into unchecked power.",
         "backdrop_index": 3,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/288673"
       },
       {
         "id": "page-5",
-        "badge": "AUDIENCE REACTION",
-        "title": "Rated 7.4/10 on TMDB",
-        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "badge": "THE VERDICT",
+        "title": "The Prom Night of Tomorrow",
+        "text": "Blending telekinetic terror with Gen Z viral anxiety, this adaptation promises to redefine Stephen King's most infamous prom night for a new generation.",
         "backdrop_index": 4,
         "cta_text": null,
-        "cta_url": null
+        "cta_url": "https://www.themoviedb.org/movie/288673"
       },
       {
         "id": "page-6",
-        "badge": "YOUR TICKET",
-        "title": "Catch It On The Big Screen",
-        "text": "Ready to dive into Below? Discover showtimes, official trailers, and cast interviews today.",
-        "backdrop_index": 0,
-        "cta_text": "Check Showtimes & Full Details",
-        "cta_url": "https://www.themoviedb.org/movie/285322"
+        "badge": "DON'T MISS",
+        "title": "Prepare For Carrie",
+        "text": "Uncover release dates, full cast breakdowns, and behind-the-scenes updates for the most anticipated horror series of 2026.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Carrie Updates",
+        "cta_url": "https://www.themoviedb.org/tv/288673"
       }
     ]
   },
