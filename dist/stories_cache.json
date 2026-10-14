@@ -1,5 +1,418 @@
 [
   {
+    "title": "Ted Lasso: The Untold Story & Secrets",
+    "seo_description": "Discover Ted Lasso: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 97546,
+      "title": "Ted Lasso",
+      "original_title": "Ted Lasso",
+      "slug": "ted-lasso",
+      "media_type": "tv",
+      "release_date": "2020-08-14",
+      "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+      "tagline": "Ted's back.",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 4,
+      "vote_average": 8.4,
+      "vote_count": 2758,
+      "category": "series",
+      "director": "Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator)",
+      "top_cast": [
+        "Jason Sudeikis",
+        "Hannah Waddingham",
+        "Jeremy Swift",
+        "Brett Goldstein",
+        "Brendan Hunt",
+        "Juno Temple"
+      ],
+      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "backdrop_path": "/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+      "backdrops": [
+        "/nE94ejEbzNCU48bW1oju0dqBONz.jpg",
+        "/4bG49jVR7NrCNQjahDUsDqvIwle.jpg",
+        "/gEQkOMmnJcoh9Hh1vk7fpVYnksR.jpg",
+        "/8rDij8tYynUfu2hMVXynAp2pSjY.jpg",
+        "/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
+        "/3KLmx6nLaiYe07kSwuWdpTEHJgE.jpg",
+        "/ppKr7H0UyAcNY1fvQppx4e1yhMX.jpg",
+        "/rzxIrPYoykAfmFelQ23L6ouKOfe.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Ted Lasso",
+        "text": "Ted's back. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jason Sudeikis, Hannah Waddingham, Jeremy Swift, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator)",
+        "text": "Filmmaker Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Ted Lasso? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/97546"
+      }
+    ],
+    "date_published": "2026-10-14T18:45:48Z",
+    "date_modified": "2026-10-14T18:45:48Z",
+    "published_at": "2026-10-14T18:45:48Z"
+  },
+  {
+    "title": "Whalefall: The Untold Story & Secrets",
+    "seo_description": "Discover Whalefall: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1255833,
+      "title": "Whalefall",
+      "original_title": "Whalefall",
+      "slug": "whalefall",
+      "media_type": "movie",
+      "release_date": "2026-10-14",
+      "overview": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons his father imparted may be the key to his escape.",
+      "tagline": "Hold your breath.",
+      "genres": [
+        "Thriller"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 10.0,
+      "vote_count": 2,
+      "category": "trending",
+      "director": "Brian Duffield",
+      "top_cast": [
+        "Austin Abrams",
+        "Josh Brolin",
+        "Elisabeth Shue",
+        "John Ortiz",
+        "Jane Levy",
+        "Emily Rudd"
+      ],
+      "poster_path": "/vjTYUTgh9nO88i6HZ4YPRhiFL05.jpg",
+      "backdrop_path": "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
+      "backdrops": [
+        "/jXOw7R5qKs0j7IK51dlmxIKczoG.jpg",
+        "/nquG8mnqhMkGYLtii8whsYoOo9o.jpg",
+        "/fsE7L0jNibJswnZuQM5mphJQ0t2.jpg",
+        "/2eRdzgxbWtu1iiSrIZLu8QXd0nB.jpg",
+        "/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg",
+        "/dUzzwJpX4Fiet2QJy5P1TxpW1Qa.jpg",
+        "/svfHop8LVC3bJeWygf3X5FibG4G.jpg",
+        "/bLh5H56dArWutckFNTRd2kjMBSw.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Whalefall",
+        "text": "Hold your breath. Rated 10.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Austin Abrams, Josh Brolin, Elisabeth Shue, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Brian Duffield.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Brian Duffield",
+        "text": "Filmmaker Brian Duffield pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 10.0/10 on TMDB",
+        "text": "With an impressive 10.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Whalefall? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1255833"
+      }
+    ],
+    "date_published": "2026-10-14T18:45:48Z",
+    "date_modified": "2026-10-14T18:45:48Z",
+    "published_at": "2026-10-14T18:45:48Z"
+  },
+  {
+    "title": "Onslaught: The Untold Story & Secrets",
+    "seo_description": "Discover Onslaught: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1284046,
+      "title": "Onslaught",
+      "original_title": "Onslaught",
+      "slug": "onslaught",
+      "media_type": "movie",
+      "release_date": "2026-09-02",
+      "overview": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.",
+      "tagline": "They unleashed their deadliest weapon on us.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 92,
+      "seasons": null,
+      "vote_average": 5.8,
+      "vote_count": 106,
+      "category": "upcoming",
+      "director": "Adam Wingard",
+      "top_cast": [
+        "Adria Arjona",
+        "Dan Stevens",
+        "Eric Wareheim",
+        "Reginald VelJohnson",
+        "Michael Biehn",
+        "Blake Kennedy"
+      ],
+      "poster_path": "/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg",
+      "backdrop_path": "/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
+      "backdrops": [
+        "/clePZhqOSzNyjfuFBpOrziLEFzb.jpg",
+        "/pmPXXniQlb4EdYY0gVZO90rf54F.jpg",
+        "/ewe8HWEMBpACziYjcDkNN7uUxa5.jpg",
+        "/g5wfsAMLeA2FFyqlPtJPLptyrR6.jpg",
+        "/v0PUPVPKt2mGtUW7eNcdcv5LHhW.jpg",
+        "/m7B2KMAh5umDaVC4EzCdkKJVyLc.jpg",
+        "/vKTOfgLaZnx19cFbVvUVQ8M2oc0.jpg",
+        "/xesQa1rPKcGuROZLj69nkkQwWDP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Onslaught",
+        "text": "They unleashed their deadliest weapon on us. Rated 5.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Adria Arjona, Dan Stevens, Eric Wareheim, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Adam Wingard.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Adam Wingard",
+        "text": "Filmmaker Adam Wingard pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.8/10 on TMDB",
+        "text": "With an impressive 5.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Onslaught? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1284046"
+      }
+    ],
+    "date_published": "2026-10-14T18:45:48Z",
+    "date_modified": "2026-10-14T18:45:48Z",
+    "published_at": "2026-10-14T18:45:48Z"
+  },
+  {
+    "title": "Avengers: Endgame: The Untold Story & Secrets",
+    "seo_description": "Discover Avengers: Endgame: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 299534,
+      "title": "Avengers: Endgame",
+      "original_title": "Avengers: Endgame",
+      "slug": "avengers-endgame",
+      "media_type": "movie",
+      "release_date": "2019-04-24",
+      "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+      "tagline": "Avenge the fallen.",
+      "genres": [
+        "Adventure",
+        "Science Fiction",
+        "Action"
+      ],
+      "runtime": 181,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 28999,
+      "category": "theories_easter_eggs",
+      "director": "Anthony Russo",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Mark Ruffalo",
+        "Chris Hemsworth",
+        "Scarlett Johansson",
+        "Jeremy Renner"
+      ],
+      "poster_path": "/bR8ISy1O9XQxqiy0fQFw2BX72RQ.jpg",
+      "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+      "backdrops": [
+        "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+        "/9wXPKruA6bWYk2co5ix6fH59Qr8.jpg",
+        "/orjiB3oUIsyz60hoEqkiGpy5CeO.jpg",
+        "/91iy9F1JOG1dvM6M6JNYgvScZpK.jpg",
+        "/5NtF6XT0NGqzFCc3hSZ7x0Q5EoT.jpg",
+        "/dVSMKPEaiwujXE7kQkvixPLieHR.jpg",
+        "/2xfV5Zdq4kCsFVReRXJKnJaUFCD.jpg",
+        "/eGCKggBoaadtSJ807iZzurLpNq9.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Avengers: Endgame",
+        "text": "Avenge the fallen. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Robert Downey Jr., Chris Evans, Mark Ruffalo, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Anthony Russo.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Anthony Russo",
+        "text": "Filmmaker Anthony Russo pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Avengers: Endgame? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/299534"
+      }
+    ],
+    "date_published": "2026-10-14T18:45:48Z",
+    "date_modified": "2026-10-14T18:45:48Z",
+    "published_at": "2026-10-14T18:45:48Z"
+  },
+  {
     "title": "Slow Horses: The Untold Story & Secrets",
     "seo_description": "Discover Slow Horses: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

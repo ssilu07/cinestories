@@ -5,6 +5,42 @@
   "total_stories": 81,
   "stories": [
     {
+      "id": 97546,
+      "slug": "ted-lasso",
+      "title": "Ted Lasso: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/ted-lasso/",
+      "category": "series",
+      "release_date": "2020-08-14",
+      "rating": 8.4
+    },
+    {
+      "id": 1255833,
+      "slug": "whalefall",
+      "title": "Whalefall: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/whalefall/",
+      "category": "trending",
+      "release_date": "2026-10-14",
+      "rating": 10.0
+    },
+    {
+      "id": 1284046,
+      "slug": "onslaught",
+      "title": "Onslaught: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/onslaught/",
+      "category": "upcoming",
+      "release_date": "2026-09-02",
+      "rating": 5.8
+    },
+    {
+      "id": 299534,
+      "slug": "avengers-endgame",
+      "title": "Avengers: Endgame: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-endgame/",
+      "category": "theories_easter_eggs",
+      "release_date": "2019-04-24",
+      "rating": 8.2
+    },
+    {
       "id": 95480,
       "slug": "slow-horses",
       "title": "Slow Horses: The Untold Story & Secrets",
