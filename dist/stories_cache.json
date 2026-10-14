@@ -1,5 +1,421 @@
 [
   {
+    "title": "Slow Horses: The Untold Story & Secrets",
+    "seo_description": "Discover Slow Horses: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 95480,
+      "title": "Slow Horses",
+      "original_title": "Slow Horses",
+      "slug": "slow-horses",
+      "media_type": "tv",
+      "release_date": "2022-04-01",
+      "overview": "Follow a dysfunctional team of MI5 agents\u2014and their obnoxious boss, the notorious Jackson Lamb\u2014as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+      "tagline": "MI5's most unruly spies are back and under attack.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 6,
+      "vote_average": 8.0,
+      "vote_count": 1041,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Gary Oldman",
+        "Jack Lowden",
+        "Kristin Scott Thomas",
+        "Hugo Weaving",
+        "Saskia Reeves",
+        "Christopher Chung"
+      ],
+      "poster_path": "/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+      "backdrop_path": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+      "backdrops": [
+        "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg",
+        "/bDfboQUb45Cv9MYyVBDZw8M8xSM.jpg",
+        "/wrMY8LMEnPiM9dokAUZCGGKLWrm.jpg",
+        "/xpSxYoqTyz0Fb8Wn2S3bp0NIqVc.jpg",
+        "/fg9psAEDJXX0svqSd3h6KNiWPBE.jpg",
+        "/qhXdYysiamRu6moMGMZPQ4oVLvd.jpg",
+        "/6VWcSPawl9pSCNJC8G3KNeryVCz.jpg",
+        "/i5OD2gweUwkpCxpIBboIKOinl8I.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Slow Horses",
+        "text": "MI5's most unruly spies are back and under attack. Rated 8.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Follow a dysfunctional team of MI5 agents\u2014and their obnoxious boss, the notorious Jackson Lamb\u2014as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Gary Oldman, Jack Lowden, Kristin Scott Thomas, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.0/10 on TMDB",
+        "text": "With an impressive 8.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Slow Horses? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/95480"
+      }
+    ],
+    "date_published": "2026-10-14T18:35:41Z",
+    "date_modified": "2026-10-14T18:35:41Z",
+    "published_at": "2026-10-14T18:35:41Z"
+  },
+  {
+    "title": "Practical Magic 2: The Untold Story & Secrets",
+    "seo_description": "Discover Practical Magic 2: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1302904,
+      "title": "Practical Magic 2",
+      "original_title": "Practical Magic 2",
+      "slug": "practical-magic-2",
+      "media_type": "movie",
+      "release_date": "2026-09-09",
+      "overview": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+      "tagline": "Everything you've witched for.",
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+      ],
+      "runtime": 130,
+      "seasons": null,
+      "vote_average": 6.4,
+      "vote_count": 148,
+      "category": "trending",
+      "director": "Susanne Bier",
+      "top_cast": [
+        "Sandra Bullock",
+        "Nicole Kidman",
+        "Joey King",
+        "Maisie Williams",
+        "Xolo Maridue\u00f1a",
+        "Lee Pace"
+      ],
+      "poster_path": "/ogwQOLbCfncjvBhFb5l0OmQH8KC.jpg",
+      "backdrop_path": "/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+      "backdrops": [
+        "/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg",
+        "/nUcauJ000dFBYkgGpxyxJ5aWEH2.jpg",
+        "/wE6syT1vv6W24iLGfhR4kQHnIDN.jpg",
+        "/eHVFhyO2YkJPzvrMv2TmVhjPAUJ.jpg",
+        "/yDgYYuz8jDQCRJbHC3XM7IIGoeR.jpg",
+        "/kyrubDEucmnFPqVwVi2mhOGYZ3g.jpg",
+        "/phL6LnTXTk1EofA7JDtDUmH6JZA.jpg",
+        "/uxGBQkfmTczPp6o1tHpxZovq4MW.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Practical Magic 2",
+        "text": "Everything you've witched for. Rated 6.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "The Owens sisters must confront the dark curse that threatens to unravel their family once and for all.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Sandra Bullock, Nicole Kidman, Joey King, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Susanne Bier.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Susanne Bier",
+        "text": "Filmmaker Susanne Bier pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.4/10 on TMDB",
+        "text": "With an impressive 6.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Practical Magic 2? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1302904"
+      }
+    ],
+    "date_published": "2026-10-14T18:35:41Z",
+    "date_modified": "2026-10-14T18:35:41Z",
+    "published_at": "2026-10-14T18:35:41Z"
+  },
+  {
+    "title": "Pinocchio: Unstrung: The Untold Story & Secrets",
+    "seo_description": "Discover Pinocchio: Unstrung: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1232569,
+      "title": "Pinocchio: Unstrung",
+      "original_title": "Pinocchio: Unstrung",
+      "slug": "pinocchio-unstrung",
+      "media_type": "movie",
+      "release_date": "2026-07-22",
+      "overview": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+      "tagline": "He has no strings to hold him back now.",
+      "genres": [
+        "Horror",
+        "Fantasy",
+        "Mystery"
+      ],
+      "runtime": 82,
+      "seasons": null,
+      "vote_average": 6.5,
+      "vote_count": 132,
+      "category": "upcoming",
+      "director": "Rhys Frake-Waterfield",
+      "top_cast": [
+        "Jude Evan Lloyd",
+        "Cameron Bell",
+        "Richard Brake",
+        "Jessica Balmer",
+        "Jack Art Gray",
+        "Robert Englund"
+      ],
+      "poster_path": "/eUJXk3bTvLBi5Zcb0BCedZU7lVL.jpg",
+      "backdrop_path": "/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg",
+      "backdrops": [
+        "/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg",
+        "/dMSuEvszYyfj84einyNkK7lQEkQ.jpg",
+        "/ptwIpKLwx9leW3dOv6HOccVzcjI.jpg",
+        "/8XlKs32HRjDi8bMjyladr41S17U.jpg",
+        "/aThh0XnSuwIBQsXHpBbNySVy1r5.jpg",
+        "/y9z6lp8exIWUDSpQQFKMF0mUQZ.jpg",
+        "/rMKFdOrz9L9DlwYkp2Xfk3xSztt.jpg",
+        "/aziBFtkCFjxw6ft9TjUfAVsh47i.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Pinocchio: Unstrung",
+        "text": "He has no strings to hold him back now. Rated 6.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Influenced by a sinister Cricket and created by Geppetto, Pinocchio launches a violent crusade to carve himself into a real boy like his brother James, one piece at a time.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jude Evan Lloyd, Cameron Bell, Richard Brake, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Rhys Frake-Waterfield.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Rhys Frake-Waterfield",
+        "text": "Filmmaker Rhys Frake-Waterfield pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.5/10 on TMDB",
+        "text": "With an impressive 6.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Pinocchio: Unstrung? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1232569"
+      }
+    ],
+    "date_published": "2026-10-14T18:35:41Z",
+    "date_modified": "2026-10-14T18:35:41Z",
+    "published_at": "2026-10-14T18:35:41Z"
+  },
+  {
+    "title": "Avengers: Infinity War: The Untold Story & Secrets",
+    "seo_description": "Discover Avengers: Infinity War: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 299536,
+      "title": "Avengers: Infinity War",
+      "original_title": "Avengers: Infinity War",
+      "slug": "avengers-infinity-war",
+      "media_type": "movie",
+      "release_date": "2018-04-25",
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "tagline": "An entire universe. Once and for all.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 149,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 33143,
+      "category": "theories_easter_eggs",
+      "director": "Anthony Russo",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Josh Brolin",
+        "Mark Ruffalo",
+        "Scarlett Johansson"
+      ],
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+      "backdrops": [
+        "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+        "/k3xGG77CAiB0Wr2Y1H3ApihKTkk.jpg",
+        "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+        "/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg",
+        "/kbGO5mHPK7rh516MgAIJUQ9RvqD.jpg",
+        "/sbpTzyKkBedre1CjExJMNawEbHB.jpg",
+        "/fjzjVPGJoHDIiK6cFvebcmhxDA7.jpg",
+        "/wWwocFodRqwuoPRNxmD5LQUHRyD.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Avengers: Infinity War",
+        "text": "An entire universe. Once and for all. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Robert Downey Jr., Chris Evans, Chris Hemsworth, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Anthony Russo.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Anthony Russo",
+        "text": "Filmmaker Anthony Russo pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Avengers: Infinity War? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/299536"
+      }
+    ],
+    "date_published": "2026-10-14T18:35:41Z",
+    "date_modified": "2026-10-14T18:35:41Z",
+    "published_at": "2026-10-14T18:35:41Z"
+  },
+  {
     "title": "Helluva Boss: The Untold Story & Secrets",
     "seo_description": "Discover Helluva Boss: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

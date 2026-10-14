@@ -460,5 +460,29 @@
     "published_at": "2026-10-14T18:17:19Z",
     "modified_at": "2026-10-14T18:17:19Z",
     "category": "theories_easter_eggs"
+  },
+  "slow-horses": {
+    "title": "Slow Horses",
+    "published_at": "2026-10-14T18:35:41Z",
+    "modified_at": "2026-10-14T18:35:41Z",
+    "category": "series"
+  },
+  "practical-magic-2": {
+    "title": "Practical Magic 2",
+    "published_at": "2026-10-14T18:35:41Z",
+    "modified_at": "2026-10-14T18:35:41Z",
+    "category": "trending"
+  },
+  "pinocchio-unstrung": {
+    "title": "Pinocchio: Unstrung",
+    "published_at": "2026-10-14T18:35:41Z",
+    "modified_at": "2026-10-14T18:35:41Z",
+    "category": "upcoming"
+  },
+  "avengers-infinity-war": {
+    "title": "Avengers: Infinity War",
+    "published_at": "2026-10-14T18:35:41Z",
+    "modified_at": "2026-10-14T18:35:41Z",
+    "category": "theories_easter_eggs"
   }
 }
