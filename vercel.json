@@ -53,6 +53,19 @@
       ]
     },
     {
+      "source": "/(feed|rss).xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=1800, s-maxage=3600"
+        }
+      ]
+    },
+    {
       "source": "/sitemap.xml",
       "headers": [
         {

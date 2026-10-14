@@ -56,6 +56,7 @@ from article_builder import build_discover_article_html
 from discover_feed_builder import generate_discover_feed
 from homepage_builder import generate_homepage
 from sitemap_builder import generate_sitemap
+from feed_builder import generate_rss_feed
 from policy_pages import generate_policy_pages
 from validator import check_amp_files
 from generate_assets import create_logo
@@ -357,7 +358,8 @@ def run_pipeline(
     generate_homepage(combined_stories, domain=domain, output_dir=DIST_DIR)
     generate_policy_pages(dist_dir=DIST_DIR, domain=domain)
     generate_sitemap(combined_stories, articles=combined_articles, domain=domain, output_path=SITEMAP_PATH)
-    print(f"      -> Portal pages, Discover feed, and sitemap successfully updated.\n")
+    generate_rss_feed(combined_articles, domain=domain)
+    print(f"      -> Portal pages, Discover feed, RSS feed, and sitemap successfully updated.\n")
 
     # 7. AMP Validation
     if run_validation:
