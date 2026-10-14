@@ -16,7 +16,9 @@ from config import (
     TMDB_IMAGE_ORIGINAL,
     TMDB_IMAGE_BACKDROP,
     TMDB_IMAGE_POSTER,
-    GA_MEASUREMENT_ID
+    GA_MEASUREMENT_ID,
+    ADSENSE_CLIENT_ID,
+    get_amp_story_ads_tags
 )
 
 # Mandatory AMP boilerplate CSS
@@ -222,6 +224,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     seo_desc = html.escape(story_data.get("seo_description", movie.get("overview", "")))
     publisher = html.escape(PUBLISHER_NAME)
     publisher_logo = get_publisher_logo_url(domain)
+    ads_head_script, ads_story_tag = get_amp_story_ads_tags()
 
     # Portrait poster: 3:4 or 2:3 aspect ratio, min 640x853 px
     poster_path = movie.get("poster_path")
@@ -440,6 +443,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+{ads_head_script}
 
     <!-- AMP Boilerplate CSS -->
     {AMP_BOILERPLATE}
@@ -476,6 +480,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         }}
         </script>
       </amp-analytics>
+{ads_story_tag}
 
       {slides_combined}
 

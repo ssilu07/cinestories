@@ -22,7 +22,8 @@ from config import (
     TMDB_IMAGE_BACKDROP,
     TMDB_IMAGE_POSTER,
     get_publisher_logo_url,
-    get_ga_script
+    get_ga_script,
+    get_adsense_script
 )
 
 def build_discover_article_html(
@@ -213,6 +214,7 @@ def build_discover_article_html(
 <html lang="en">
 <head>
 {get_ga_script()}
+{get_adsense_script()}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{html.escape(headline)} | {SITE_NAME}</title>

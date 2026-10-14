@@ -40,6 +40,34 @@ def get_ga_script(measurement_id: str = GA_MEASUREMENT_ID) -> str:
     gtag('config', '{measurement_id}');
   </script>"""
 
+# Google AdSense
+ADSENSE_CLIENT_ID = os.getenv("ADSENSE_CLIENT_ID", "").strip()
+
+def get_adsense_script(client_id: str = ADSENSE_CLIENT_ID) -> str:
+    """Return standard Google AdSense script snippet for non-AMP pages."""
+    if not client_id:
+        return ""
+    pub_id = client_id if client_id.startswith("ca-pub-") else f"ca-pub-{client_id}"
+    return f"""  <!-- Google AdSense -->\n  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={pub_id}" crossorigin="anonymous"></script>"""
+
+def get_amp_story_ads_tags(client_id: str = ADSENSE_CLIENT_ID) -> tuple:
+    """Return (head_script, body_tag) for AMP Story Auto Ads."""
+    if not client_id:
+        return ("", "")
+    pub_id = client_id if client_id.startswith("ca-pub-") else f"ca-pub-{client_id}"
+    head_script = '    <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>'
+    body_tag = f"""      <amp-story-auto-ads>
+        <script type="application/json">
+        {{{{
+          "ad-attributes": {{{{
+            "type": "adsense",
+            "data-ad-client": "{pub_id}"
+          }}}}
+        }}}}
+        </script>
+      </amp-story-auto-ads>"""
+    return (head_script, body_tag)
+
 def get_publisher_logo_url(domain: str = DOMAIN_NAME) -> str:
     """Return absolute 1:1 publisher logo URL satisfying AMP spec."""
     return f"{domain}{PUBLISHER_LOGO_PATH}"

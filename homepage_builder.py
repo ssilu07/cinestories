@@ -15,7 +15,8 @@ from config import (
     SITE_TAGLINE,
     DIST_DIR,
     TMDB_IMAGE_POSTER,
-    get_ga_script
+    get_ga_script,
+    get_adsense_script
 )
 
 def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME) -> str:
@@ -131,6 +132,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 <html lang="en">
 <head>
 {get_ga_script()}
+{get_adsense_script()}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{SITE_NAME} | {SITE_TAGLINE}</title>

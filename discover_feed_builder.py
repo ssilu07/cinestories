@@ -16,7 +16,8 @@ from config import (
     DISCOVER_DIR,
     TMDB_IMAGE_BACKDROP,
     TMDB_IMAGE_POSTER,
-    get_ga_script
+    get_ga_script,
+    get_adsense_script
 )
 
 def build_discover_feed_html(
@@ -128,6 +129,7 @@ def build_discover_feed_html(
 <html lang="en">
 <head>
 {get_ga_script()}
+{get_adsense_script()}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Discover Feed | {SITE_NAME} Cinema News & Deep Dives</title>
