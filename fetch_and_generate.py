@@ -383,7 +383,7 @@ def run_pipeline(
 
 def main():
     parser = argparse.ArgumentParser(description="Automated Google Discover & AMP Web Stories Generator")
-    parser.add_argument("--domain", default=DOMAIN_NAME, help="Target deployment domain (e.g. https://cinestories-omega.vercel.app)")
+    parser.add_argument("--domain", default=DOMAIN_NAME, help="Target deployment domain (e.g. https://cinematicbites.com)")
     parser.add_argument("--category", choices=["all", "streaming_charts", "theories_easter_eggs", "where_are_they_now", "series", "trending", "cult_classic", "steamy_thrillers", "upcoming", "now_playing"], default="all", help="Category filter")
     parser.add_argument("--daily-limit", type=int, default=DAILY_PUBLISH_LIMIT, help="Max new stories to generate per run (prevents spam)")
     parser.add_argument("--count", type=int, default=None, help="Alias for --daily-limit")

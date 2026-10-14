@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cinestories-omega.vercel.app/sitemap.xml
+Sitemap: https://cinematicbites.com/sitemap.xml

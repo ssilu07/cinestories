@@ -76,7 +76,7 @@ jobs:
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME || 'https://cinestories-omega.vercel.app' }}
+          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME || 'https://cinematicbites.com' }}
         run: |
           DEMO_FLAG=""
           if [ "${{ inputs.demo_mode }}" = "true" ]; then
