@@ -116,7 +116,7 @@ jobs:
               sleep 3
             done
           else
-            echo "No changes to commit in dist/."
+            echo "::warning title=No New Stories Published::Pipeline did not detect new stories in dist/. Check TMDB & AI generator logs."
           fi
 
       # Deployment Option A: Cloudflare Pages (Direct Upload via Wrangler)

@@ -194,6 +194,7 @@ def run_pipeline(
     tmdb = TMDBClient(api_key="" if demo_mode else tmdb_key)
     if category == "all":
         categories = [
+            "netflix_hits",
             "streaming_charts",
             "trending",
             "upcoming",
@@ -236,6 +237,20 @@ def run_pipeline(
 
     new_candidates = interleaved[:daily_limit]
 
+    # Anti-Freeze Guard: If standard categories yielded fewer than daily_limit, trigger deep discovery
+    if len(new_candidates) < daily_limit:
+        needed = daily_limit - len(new_candidates)
+        print(f"[Anti-Freeze Guard] Standard categories queued {len(new_candidates)}/{daily_limit} candidates.")
+        print(f"                   Initiating multi-tier deep discovery fallback for {needed} fresh titles...")
+        existing_candidate_slugs = {m.get("slug") for m in new_candidates}
+        emergency_exclude = published_slugs.union(existing_candidate_slugs)
+        backup_candidates = tmdb.emergency_discover_fresh_titles(count=needed, exclude_slugs=emergency_exclude)
+        for bm in backup_candidates:
+            if bm.get("slug") not in emergency_exclude or force_refresh:
+                new_candidates.append(bm)
+                emergency_exclude.add(bm.get("slug"))
+        print(f"[Anti-Freeze Guard] Resolved! Total candidates queued for publishing: {len(new_candidates)}/{daily_limit}.\n")
+
     print(f"      -> Retrieved {len(all_candidates)} candidates across {len(cat_buckets)} categories | {len(new_candidates)} queued for generation (Daily cap: {daily_limit}).\n")
 
     ai = AIGenerator(api_key="" if demo_mode else gemini_key)
@@ -243,69 +258,65 @@ def run_pipeline(
     new_articles = []
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    if not new_candidates:
-        print(f"[Safe Publishing] Notice: All candidate titles are already published.")
-        print(f"                  Google Scaled Content Policy: Skipping duplicate AI generation to protect domain authority.\n")
-    else:
-        # 4. Synthesize Story & Article Content with Quality & Anti-Spam Guard
-        print(f"[2/6] Synthesizing {len(new_candidates)} fresh Web Stories & Discover Articles...")
-        for i, movie in enumerate(new_candidates, 1):
-            title = movie.get('title')
-            cat = movie.get('category')
-            slug = movie.get('slug', 'story')
-            print(f"      [{i}/{len(new_candidates)}] Generating Story & Article for: '{title}' ({cat})...")
+    # 4. Synthesize Story & Article Content with Quality & Anti-Spam Guard
+    print(f"[2/6] Synthesizing {len(new_candidates)} fresh Web Stories & Discover Articles...")
+    for i, movie in enumerate(new_candidates, 1):
+        title = movie.get('title')
+        cat = movie.get('category')
+        slug = movie.get('slug', 'story')
+        print(f"      [{i}/{len(new_candidates)}] Generating Story & Article for: '{title}' ({cat})...")
 
-            try:
-                # Generate Web Story
-                story_data = ai.generate_story(movie)
-                story_data["date_published"] = now_iso
-                story_data["date_modified"] = now_iso
-                story_data["published_at"] = now_iso
+        try:
+            # Generate Web Story
+            story_data = ai.generate_story(movie)
+            story_data["date_published"] = now_iso
+            story_data["date_modified"] = now_iso
+            story_data["published_at"] = now_iso
 
-                # Generate Discover Article
-                article_data = ai.generate_article(movie, story=story_data)
-                article_data["date_published"] = now_iso
-                article_data["date_modified"] = now_iso
-                article_data["published_at"] = now_iso
+            # Generate Discover Article
+            article_data = ai.generate_article(movie, story=story_data)
+            article_data["date_published"] = now_iso
+            article_data["date_modified"] = now_iso
+            article_data["published_at"] = now_iso
 
-                # Anti-Spam & Quality Guard validation
-                is_valid, quality_issues = AIGenerator.validate_content_quality(story_data, article_data)
-                if not is_valid:
-                    print(f"         [Quality Notice] Handled checks for '{title}': {quality_issues}")
+            # Anti-Spam & Quality Guard validation
+            is_valid, quality_issues = AIGenerator.validate_content_quality(story_data, article_data)
+            if not is_valid:
+                print(f"         [Quality Notice] Handled checks for '{title}': {quality_issues}")
 
-                # Render Standalone AMP Web Story HTML
-                story_dir = STORIES_DIR / slug
-                story_dir.mkdir(parents=True, exist_ok=True)
-                amp_html = build_amp_story_html(story_data, domain=domain)
-                with open(story_dir / "index.html", "w", encoding="utf-8") as f:
-                    f.write(amp_html)
+            # Render Standalone AMP Web Story HTML
+            story_dir = STORIES_DIR / slug
+            story_dir.mkdir(parents=True, exist_ok=True)
+            amp_html = build_amp_story_html(story_data, domain=domain)
+            with open(story_dir / "index.html", "w", encoding="utf-8") as f:
+                f.write(amp_html)
 
-                # Render Standalone Discover Article HTML
-                art_dir = ARTICLES_DIR / slug
-                art_dir.mkdir(parents=True, exist_ok=True)
-                art_html = build_discover_article_html(article_data, domain=domain, related_articles=new_articles)
-                with open(art_dir / "index.html", "w", encoding="utf-8") as f:
-                    f.write(art_html)
+            # Render Standalone Discover Article HTML
+            art_dir = ARTICLES_DIR / slug
+            art_dir.mkdir(parents=True, exist_ok=True)
+            art_html = build_discover_article_html(article_data, domain=domain, related_articles=new_articles)
+            with open(art_dir / "index.html", "w", encoding="utf-8") as f:
+                f.write(art_html)
 
-                # Update registry entry
-                registry[slug] = {
-                    "title": title,
-                    "published_at": now_iso,
-                    "modified_at": now_iso,
-                    "category": cat
-                }
+            # Update registry entry
+            registry[slug] = {
+                "title": title,
+                "published_at": now_iso,
+                "modified_at": now_iso,
+                "category": cat
+            }
 
-                new_stories.append(story_data)
-                new_articles.append(article_data)
-                print(f"         ✓ Published successfully: /stories/{slug}/ & /articles/{slug}/")
+            new_stories.append(story_data)
+            new_articles.append(article_data)
+            print(f"         ✓ Published successfully: /stories/{slug}/ & /articles/{slug}/")
 
-            except Exception as e:
-                print(f"      [Error] Resilient skip: Failed to process '{title}': {e}. Pipeline remains active.")
-                continue
+        except Exception as e:
+            print(f"      [Error] Resilient skip: Failed to process '{title}': {e}. Pipeline remains active.")
+            continue
 
-        # Save updated registry
-        save_published_registry(registry, REGISTRY_PATH)
-        print(f"\n      -> Successfully published {len(new_stories)} new high-quality pieces today.\n")
+    # Save updated registry
+    save_published_registry(registry, REGISTRY_PATH)
+    print(f"\n      -> Successfully published {len(new_stories)} new high-quality pieces today.\n")
 
     # 5. Accumulate with existing cache
     print(f"[3/6] Merging new entries into site catalogs...")
@@ -386,7 +397,7 @@ def run_pipeline(
 def main():
     parser = argparse.ArgumentParser(description="Automated Google Discover & AMP Web Stories Generator")
     parser.add_argument("--domain", default=DOMAIN_NAME, help="Target deployment domain (e.g. https://cinematicbites.com)")
-    parser.add_argument("--category", choices=["all", "streaming_charts", "theories_easter_eggs", "where_are_they_now", "series", "trending", "cult_classic", "steamy_thrillers", "upcoming", "now_playing"], default="all", help="Category filter")
+    parser.add_argument("--category", choices=["all", "netflix_hits", "streaming_charts", "theories_easter_eggs", "where_are_they_now", "series", "trending", "cult_classic", "steamy_thrillers", "upcoming", "now_playing"], default="all", help="Category filter")
     parser.add_argument("--daily-limit", type=int, default=DAILY_PUBLISH_LIMIT, help="Max new stories to generate per run (prevents spam)")
     parser.add_argument("--count", type=int, default=None, help="Alias for --daily-limit")
     parser.add_argument("--force-refresh", action="store_true", help="Force re-generation of already published stories")

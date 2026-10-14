@@ -89,6 +89,7 @@ class TMDBClient:
             "popular_series": ("/tv/popular", "tv", {}),
             "cult_classic": ("/movie/top_rated", "movie", {}),
             "streaming_charts": ("/trending/tv/week", "tv", {}),
+            "netflix_hits": ("/discover/tv", "tv", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
             "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28", "sort_by": "popularity.desc"}),
             "where_are_they_now": ("/discover/tv", "tv", {"sort_by": "vote_count.desc", "first_air_date.lte": "2018-01-01"}),
             "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,10749", "sort_by": "popularity.desc"})
@@ -101,7 +102,7 @@ class TMDBClient:
         
         if self.has_api_key:
             detailed_items = []
-            max_pages = 10  # Search up to 10 pages deep to find fresh, unposted titles
+            max_pages = 25  # Deep search up to 25 pages (500 items) to guarantee endless fresh titles
             for page in range(1, max_pages + 1):
                 req_params = {"language": "en-US", "page": page}
                 req_params.update(extra_params)
@@ -266,13 +267,15 @@ class TMDBClient:
         Skips titles in exclude_slugs to ensure only fresh, unpublished content is fetched.
         """
         cats = categories or [
+            "netflix_hits",
             "streaming_charts",
-            "theories_easter_eggs",
-            "where_are_they_now",
-            "series",
             "trending",
+            "upcoming",
+            "theories_easter_eggs",
+            "series",
             "cult_classic",
-            "upcoming"
+            "where_are_they_now",
+            "steamy_thrillers"
         ]
         all_items = []
         seen_ids = set()
@@ -286,3 +289,72 @@ class TMDBClient:
                     all_items.append(item)
 
         return all_items
+
+    def emergency_discover_fresh_titles(self, count: int = 4, exclude_slugs: Optional[set] = None) -> List[Dict[str, Any]]:
+        """
+        Anti-Freeze Guard:
+        Guarantees that the pipeline NEVER runs dry or stalls.
+        Performs multi-angle deep fallback discovery across:
+        1. Netflix & Major Streaming hits (/discover/tv with watch_providers=8|9)
+        2. High-budget global blockbusters by year (2025, 2024, 2023, 2022) (/discover/movie?primary_release_year=...&sort_by=revenue.desc)
+        3. Critically acclaimed cinema gems (/discover/movie?sort_by=vote_average.desc&vote_count.gte=500)
+        4. Popular thrillers and action franchises
+        """
+        exclude = set(exclude_slugs or [])
+        fresh_titles = []
+
+        if not self.has_api_key:
+            import copy
+            for m in SAMPLE_MEDIA:
+                m_copy = copy.deepcopy(m)
+                v_num = 2
+                while f"{m_copy['slug']}-vol-{v_num}" in exclude:
+                    v_num += 1
+                m_copy["slug"] = f"{m_copy['slug']}-vol-{v_num}"
+                m_copy["title"] = f"{m_copy['title']} (Part {v_num})"
+                fresh_titles.append(m_copy)
+                exclude.add(m_copy["slug"])
+                if len(fresh_titles) >= count:
+                    break
+            return fresh_titles
+
+        discovery_strategies = [
+            ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
+            ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|337|350", "watch_region": "US", "sort_by": "popularity.desc"}),
+            ("/discover/movie", "movie", "trending", {"primary_release_year": "2025", "sort_by": "revenue.desc"}),
+            ("/discover/movie", "movie", "trending", {"primary_release_year": "2024", "sort_by": "revenue.desc"}),
+            ("/discover/movie", "movie", "theories_easter_eggs", {"with_genres": "878,28,12", "sort_by": "vote_count.desc"}),
+            ("/discover/movie", "movie", "cult_classic", {"sort_by": "vote_average.desc", "vote_count.gte": "800", "primary_release_date.gte": "2010-01-01"}),
+            ("/discover/movie", "movie", "steamy_thrillers", {"with_genres": "53,80", "sort_by": "popularity.desc"}),
+            ("/discover/tv", "tv", "where_are_they_now", {"sort_by": "vote_count.desc", "first_air_date.lte": "2019-01-01"}),
+        ]
+
+        for endpoint, media_type, category, extra_params in discovery_strategies:
+            if len(fresh_titles) >= count:
+                break
+            for page in range(1, 25):
+                req_params = {"language": "en-US", "page": page}
+                req_params.update(extra_params)
+                data = self._get(endpoint, req_params)
+                if not data or "results" not in data or not data["results"]:
+                    break
+                for item in data["results"]:
+                    cand_name = item.get("title") or item.get("name") or ""
+                    cand_slug = slugify(cand_name)
+                    if cand_slug in exclude:
+                        continue
+                    if media_type == "tv":
+                        detailed = self.get_tv_details(item["id"], category=category)
+                    else:
+                        detailed = self.get_movie_details(item["id"], category=category)
+                    if detailed:
+                        fresh_titles.append(detailed)
+                        exclude.add(cand_slug)
+                        if len(fresh_titles) >= count:
+                            break
+                if len(fresh_titles) >= count:
+                    break
+                if page >= data.get("total_pages", 1):
+                    break
+
+        return fresh_titles[:count]

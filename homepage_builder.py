@@ -25,6 +25,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     now_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     total_stories = len(stories)
     streaming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "streaming_charts")
+    netflix_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "netflix_hits")
     theories_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "theories_easter_eggs")
     sitcoms_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "where_are_they_now")
     series_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "series")
@@ -70,6 +71,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     for c in cards_data:
         if c["category"] == "streaming_charts":
             category_label = "Weekly Top 10"
+        elif c["category"] == "netflix_hits":
+            category_label = "Netflix Hits"
         elif c["category"] == "theories_easter_eggs":
             category_label = "Marvel & DC Theories"
         elif c["category"] == "where_are_they_now":
@@ -535,6 +538,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       box-shadow: 0 2px 10px rgba(225, 29, 72, 0.4);
     }}
 
+    .badge-netflix_hits {{
+      background: rgba(229, 9, 20, 0.25);
+      color: #ff4d4d;
+      border: 1px solid rgba(229, 9, 20, 0.45);
+    }}
+
     .rating-badge {{
       font-size: 11px;
       font-weight: 700;
@@ -837,6 +846,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
         <button class="filter-btn active" data-filter="all">All Stories ({total_stories})</button>
+        <button class="filter-btn" data-filter="netflix_hits">🔴 Netflix ({netflix_count})</button>
         <button class="filter-btn" data-filter="streaming_charts">Weekly Top 10 ({streaming_count})</button>
         <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories ({theories_count})</button>
         <button class="filter-btn" data-filter="where_are_they_now">Where Are They Now? ({sitcoms_count})</button>

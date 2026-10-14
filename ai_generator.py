@@ -103,6 +103,7 @@ MOVIE DATA:
 - Available Backdrops Count: {len(movie.get('backdrops', []))}
 
 CATEGORY-SPECIFIC EDITORIAL ANGLE:
+- If Category is 'netflix_hits': Focus on global Netflix viewership rankings, Top 10 chart dominance across 90+ countries, season renewals, Rotten Tomatoes scores, and why it became an overnight binge obsession.
 - If Category is 'streaming_charts': Focus on weekly US & UK streaming viewership ranks (Netflix/HBO/Prime), million hours viewed, chart dominance, and why audiences can't stop binging.
 - If Category is 'theories_easter_eggs': Focus on post-credit scene breakdown, hidden comic easter eggs, Marvel/DC multiverse connections, villain reveals, and Secret Wars / DCU fan theories.
 - If Category is 'where_are_they_now': Focus on popular 90s/2000s sitcom stars, then-vs-now transformations, career shifts, secret hobbies (e.g. racing, directing, writing), net worth, and life today.
