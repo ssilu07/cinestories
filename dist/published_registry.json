@@ -484,5 +484,29 @@
     "published_at": "2026-10-14T18:35:41Z",
     "modified_at": "2026-10-14T18:35:41Z",
     "category": "theories_easter_eggs"
+  },
+  "ted-lasso": {
+    "title": "Ted Lasso",
+    "published_at": "2026-10-14T18:45:48Z",
+    "modified_at": "2026-10-14T18:45:48Z",
+    "category": "series"
+  },
+  "whalefall": {
+    "title": "Whalefall",
+    "published_at": "2026-10-14T18:45:48Z",
+    "modified_at": "2026-10-14T18:45:48Z",
+    "category": "trending"
+  },
+  "onslaught": {
+    "title": "Onslaught",
+    "published_at": "2026-10-14T18:45:48Z",
+    "modified_at": "2026-10-14T18:45:48Z",
+    "category": "upcoming"
+  },
+  "avengers-endgame": {
+    "title": "Avengers: Endgame",
+    "published_at": "2026-10-14T18:45:48Z",
+    "modified_at": "2026-10-14T18:45:48Z",
+    "category": "theories_easter_eggs"
   }
 }
