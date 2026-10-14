@@ -23,6 +23,23 @@ SITE_TAGLINE = os.getenv("SITE_TAGLINE", "Visual Web Stories for Movie Lovers")
 PUBLISHER_NAME = os.getenv("PUBLISHER_NAME", "MoviePulse")
 PUBLISHER_LOGO_PATH = "/assets/logo.png"
 
+# Google Analytics 4 (GA4)
+GA_MEASUREMENT_ID = os.getenv("GA_MEASUREMENT_ID", "G-5T9C99C0KF").strip()
+
+def get_ga_script(measurement_id: str = GA_MEASUREMENT_ID) -> str:
+    """Return standard GA4 gtag.js snippet for non-AMP pages."""
+    if not measurement_id:
+        return ""
+    return f"""  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={measurement_id}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+
+    gtag('config', '{measurement_id}');
+  </script>"""
+
 def get_publisher_logo_url(domain: str = DOMAIN_NAME) -> str:
     """Return absolute 1:1 publisher logo URL satisfying AMP spec."""
     return f"{domain}{PUBLISHER_LOGO_PATH}"

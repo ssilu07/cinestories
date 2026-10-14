@@ -9,7 +9,7 @@ Generates essential AdSense-compliant pages:
 
 from pathlib import Path
 from datetime import datetime, timezone
-from config import DOMAIN_NAME, SITE_NAME, DIST_DIR
+from config import DOMAIN_NAME, SITE_NAME, DIST_DIR, get_ga_script
 
 def get_page_layout(title: str, description: str, slug: str, content_html: str, domain: str = DOMAIN_NAME) -> str:
     """Standard layout for legal & informational pages matching dark cinema theme."""
@@ -17,6 +17,7 @@ def get_page_layout(title: str, description: str, slug: str, content_html: str, 
     return f"""<!doctype html>
 <html lang="en">
 <head>
+{get_ga_script()}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title} | {SITE_NAME}</title>

@@ -15,7 +15,8 @@ from config import (
     get_publisher_logo_url,
     TMDB_IMAGE_ORIGINAL,
     TMDB_IMAGE_BACKDROP,
-    TMDB_IMAGE_POSTER
+    TMDB_IMAGE_POSTER,
+    GA_MEASUREMENT_ID
 )
 
 # Mandatory AMP boilerplate CSS
@@ -438,6 +439,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     <!-- AMP Core and Story Extension Scripts -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
     <!-- AMP Boilerplate CSS -->
     {AMP_BOILERPLATE}
@@ -461,6 +463,19 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
       poster-portrait-src="{poster_portrait}"
       poster-square-src="{poster_square}"
       poster-landscape-src="{poster_landscape}">
+
+      <amp-analytics type="gtag">
+        <script type="application/json">
+        {{
+          "vars": {{
+            "gtag_id": "{GA_MEASUREMENT_ID}",
+            "config": {{
+              "{GA_MEASUREMENT_ID}": {{ "groups": "default" }}
+            }}
+          }}
+        }}
+        </script>
+      </amp-analytics>
 
       {slides_combined}
 

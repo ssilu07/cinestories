@@ -15,7 +15,8 @@ from config import (
     PUBLISHER_NAME,
     DISCOVER_DIR,
     TMDB_IMAGE_BACKDROP,
-    TMDB_IMAGE_POSTER
+    TMDB_IMAGE_POSTER,
+    get_ga_script
 )
 
 def build_discover_feed_html(
@@ -126,6 +127,7 @@ def build_discover_feed_html(
     return f"""<!doctype html>
 <html lang="en">
 <head>
+{get_ga_script()}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Discover Feed | {SITE_NAME} Cinema News & Deep Dives</title>
