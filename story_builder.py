@@ -252,6 +252,8 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
 
     # Published timestamp in ISO 8601
     now_iso = datetime.now(timezone.utc).isoformat()
+    pub_iso = story_data.get("date_published") or story_data.get("published_at") or now_iso
+    mod_iso = story_data.get("date_modified") or story_data.get("modified_at") or pub_iso
 
     # Schema.org JSON-LD
     schema_data = {
@@ -260,8 +262,8 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         "mainEntityOfPage": story_url,
         "headline": story_data.get("title", movie.get("title")),
         "image": [poster_portrait, poster_landscape],
-        "datePublished": now_iso,
-        "dateModified": now_iso,
+        "datePublished": pub_iso,
+        "dateModified": mod_iso,
         "author": {
             "@type": "Organization",
             "name": PUBLISHER_NAME,

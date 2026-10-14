@@ -54,7 +54,11 @@ def generate_sitemap(
             art_loc = f"{domain}/articles/{slug}/"
             url_elem = ET.SubElement(urlset, "url")
             ET.SubElement(url_elem, "loc").text = art_loc
-            ET.SubElement(url_elem, "lastmod").text = today_str
+            
+            # Use genuine lastmod date (Google compliance: avoid falsifying dates on historical content)
+            item_mod = article.get("date_modified") or article.get("date_published") or article.get("published_at")
+            art_lastmod = item_mod[:10] if item_mod and len(item_mod) >= 10 else today_str
+            ET.SubElement(url_elem, "lastmod").text = art_lastmod
             ET.SubElement(url_elem, "changefreq").text = "daily"
             ET.SubElement(url_elem, "priority").text = "0.85"
 
@@ -76,7 +80,11 @@ def generate_sitemap(
         story_loc = f"{domain}/stories/{slug}/"
         url_elem = ET.SubElement(urlset, "url")
         ET.SubElement(url_elem, "loc").text = story_loc
-        ET.SubElement(url_elem, "lastmod").text = today_str
+
+        # Use genuine lastmod date
+        item_mod = story.get("date_modified") or story.get("date_published") or story.get("published_at")
+        story_lastmod = item_mod[:10] if item_mod and len(item_mod) >= 10 else today_str
+        ET.SubElement(url_elem, "lastmod").text = story_lastmod
         ET.SubElement(url_elem, "changefreq").text = "weekly"
         ET.SubElement(url_elem, "priority").text = "0.80"
 

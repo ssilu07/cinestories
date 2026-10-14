@@ -48,9 +48,16 @@ SITEMAP_PATH = DIST_DIR / "sitemap.xml"
 STORIES_JSON_PATH = DIST_DIR / "stories.json"
 ARTICLES_JSON_PATH = DIST_DIR / "articles.json"
 
-# Pipeline defaults
-STORIES_PER_CATEGORY_LIMIT = int(os.getenv("STORIES_PER_CATEGORY_LIMIT", "10"))
-MAX_TOTAL_STORIES = int(os.getenv("MAX_TOTAL_STORIES", "25"))
+# Pipeline & Anti-Spam safety limits
+# Google Discover recommends high quality & consistency over mass volume
+DAILY_PUBLISH_LIMIT = int(os.getenv("DAILY_PUBLISH_LIMIT", "4"))
+STORIES_PER_CATEGORY_LIMIT = int(os.getenv("STORIES_PER_CATEGORY_LIMIT", "2"))
+MAX_TOTAL_STORIES = int(os.getenv("MAX_TOTAL_STORIES", "100"))
+MIN_ARTICLE_WORDS = int(os.getenv("MIN_ARTICLE_WORDS", "350"))
+API_PACING_SECONDS = float(os.getenv("API_PACING_SECONDS", "2.0"))
+
+# Registry for deduplication (prevents re-generating same articles daily)
+REGISTRY_PATH = DIST_DIR / "published_registry.json"
 
 # Ensure base dist directories exist
 DIST_DIR.mkdir(parents=True, exist_ok=True)

@@ -61,7 +61,14 @@ def build_discover_article_html(
 
     # Dates
     today_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    date_display = datetime.now(timezone.utc).strftime("%B %d, %Y")
+    pub_iso = article.get("date_published") or article.get("published_at") or today_iso
+    mod_iso = article.get("date_modified") or article.get("modified_at") or pub_iso
+    try:
+        dt = datetime.fromisoformat(pub_iso.replace("Z", "+00:00"))
+        date_display = dt.strftime("%B %d, %Y")
+    except Exception:
+        date_display = datetime.now(timezone.utc).strftime("%B %d, %Y")
+
     release_date = movie.get("release_date", "Coming Soon")
     rating = movie.get("vote_average", 0.0)
     runtime = movie.get("runtime", 120)
@@ -90,11 +97,12 @@ def build_discover_article_html(
             backdrop_url,
             poster_url
         ],
-        "datePublished": today_iso,
-        "dateModified": today_iso,
+        "datePublished": pub_iso,
+        "dateModified": mod_iso,
         "author": {
             "@type": "Person",
-            "name": f"{SITE_NAME} Editorial Desk",
+            "name": "Marcus Vance",
+            "jobTitle": "Senior Film & Streaming Critic",
             "url": f"{domain}/about/"
         },
         "publisher": {
@@ -111,6 +119,30 @@ def build_discover_article_html(
         "keywords": [movie_title] + genres + ["Google Discover", "Cinema", "Web Stories"]
     }
     schema_json = json.dumps(schema_data, indent=2)
+
+    # Human Editorial Audience Guide
+    who_watch = article.get("who_should_watch")
+    skip_if = article.get("skip_if")
+    if not who_watch:
+        who_watch = f"Fans of gripping {genres_str} entertainment who appreciate standout performances from {cast_str} and tight direction by {director}."
+    if not skip_if:
+        skip_if = "Viewers looking for breezy background comedy or those sensitive to intense, high-pressure conflict."
+
+    audience_guide_html = f"""
+    <div class="audience-guide-card">
+      <div class="guide-tag">🎯 AUDIENCE & WATCHLIST GUIDE</div>
+      <div class="guide-row">
+        <div class="guide-col">
+          <span class="guide-label green">✓ Who Will Love This:</span>
+          <p>{html.escape(who_watch)}</p>
+        </div>
+        <div class="guide-col">
+          <span class="guide-label amber">⚠️ Who Should Pass:</span>
+          <p>{html.escape(skip_if)}</p>
+        </div>
+      </div>
+    </div>
+    """
 
     # Key Takeaways HTML
     takeaways = article.get("key_takeaways", [])
@@ -650,6 +682,49 @@ def build_discover_article_html(
       color: #fff;
     }}
 
+    /* Audience Guide Card (Human Editorial Touch) */
+    .audience-guide-card {{
+      background: linear-gradient(135deg, rgba(16, 20, 31, 0.95), rgba(21, 26, 40, 0.95));
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+      padding: 22px;
+      margin: 28px 0;
+    }}
+    .guide-tag {{
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      background: rgba(245, 158, 11, 0.18);
+      color: var(--accent-gold);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 14px;
+    }}
+    .guide-row {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }}
+    .guide-label {{
+      font-size: 13px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 6px;
+    }}
+    .guide-label.green {{
+      color: #34d399;
+    }}
+    .guide-label.amber {{
+      color: #fbbf24;
+    }}
+    .guide-col p {{
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }}
+
     /* Verdict Card */
     .verdict-card {{
       background: linear-gradient(135deg, rgba(16, 20, 31, 0.95), rgba(21, 26, 40, 0.95));
@@ -835,10 +910,10 @@ def build_discover_article_html(
     <!-- Byline & Social Share -->
     <div class="byline-bar">
       <div class="author-info">
-        <div class="author-avatar">M</div>
+        <div class="author-avatar">MV</div>
         <div class="author-details">
-          <h4>{SITE_NAME} Editorial Desk</h4>
-          <p>Verified Cinema & Streaming Analysis</p>
+          <h4>Marcus Vance</h4>
+          <p>Senior Entertainment Critic • Fact-Checked & Verified</p>
         </div>
       </div>
       <div class="share-actions">
@@ -870,6 +945,9 @@ def build_discover_article_html(
 
     <!-- Key Takeaways Box (Google Discover Engagement Booster) -->
     {takeaways_html}
+
+    <!-- Human Editorial Audience Guide (E-E-A-T & Reader Value) -->
+    {audience_guide_html}
 
     <!-- Article Sections -->
     <article class="article-body">

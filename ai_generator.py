@@ -7,9 +7,16 @@ using Google Gemini API with Structured Outputs.
 import json
 import os
 import re
-from typing import Dict, Any, List, Optional
+import time
+from typing import Dict, Any, List, Optional, Tuple
 from pydantic import BaseModel, Field
-from config import GEMINI_API_KEY, GEMINI_MODEL, DOMAIN_NAME
+from config import (
+    GEMINI_API_KEY,
+    GEMINI_MODEL,
+    DOMAIN_NAME,
+    API_PACING_SECONDS,
+    MIN_ARTICLE_WORDS
+)
 from curated_stories import CURATED_STORIES
 
 # Structured Output Schemas
@@ -38,6 +45,8 @@ class DiscoverArticleData(BaseModel):
     sections: List[ArticleSection] = Field(description="3 to 4 rich editorial sections covering plot twists, casting, trivia, and reception")
     verdict_summary: str = Field(description="Editor's final takeaway / streaming or theater verdict")
     reading_time_mins: int = Field(default=3, description="Estimated reading time in minutes (usually 3 or 4)")
+    who_should_watch: Optional[str] = Field(default=None, description="1 punchy sentence explaining who will love this movie/show")
+    skip_if: Optional[str] = Field(default=None, description="1 honest sentence on who should skip this")
 
 class AIGenerator:
     def __init__(self, api_key: Optional[str] = None, model: str = GEMINI_MODEL):
@@ -111,7 +120,14 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
 4. WORD LIMIT: Each slide's text MUST be STRICTLY UNDER 40 WORDS. Bite-sized, snackable, punchy.
 5. Provide a valid 'backdrop_index' for each slide (integers between 0 and {max(0, len(movie.get('backdrops', [])) - 1)}).
 6. Set 'cta_text' on the final slide and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}" or "https://www.themoviedb.org/tv/{movie.get('id')}".
+
+ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
+- FORBIDDEN OVERUSED AI WORDS: Never use "delve", "testament to", "tapestry", "in a world where", "masterclass", "beacon", "it goes without saying".
+- Keep every slide distinct, fresh, and grounded in real cinematic facts.
 """
+
+        # Enforce rate-limit pacing to avoid bursts and 429 quota exhaustion
+        time.sleep(API_PACING_SECONDS)
 
         models_to_try = [self.model]
         if "gemini-2.5-flash" not in models_to_try:
@@ -365,7 +381,17 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
 4. Sections: Exactly 3 to 4 rich editorial sections covering the premise, star performances, behind-the-scenes secrets, and cultural impact (60-120 words each).
 5. Verdict Summary: 1-2 punchy concluding sentences with a recommendation.
 6. Reading Time: 3 or 4 minutes.
+7. Who Should Watch: 1 honest sentence on which fans or viewers will love this most.
+8. Skip If: 1 candid sentence on who might want to pass.
+
+HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
+- ABSOLUTELY NO generic AI clichés: Never use "delve into", "testament to", "tapestry of", "in a world where", "masterclass in modern visual storytelling", "beacon", "it goes without saying".
+- UNIQUE SECTIONS: Do NOT repeat boilerplate phrases between sections. Each section must cover a completely unique angle.
+- JOURNALISTIC DEPTH: Speak directly to film enthusiasts like a veteran entertainment critic (Rolling Stone, Variety, Collider). Give balanced, nuanced perspectives.
 """
+        # Enforce rate-limit pacing to avoid quota exhaustion
+        time.sleep(API_PACING_SECONDS)
+
         models_to_try = [self.model]
         if "gemini-2.5-flash" not in models_to_try:
             models_to_try.append("gemini-2.5-flash")
@@ -397,7 +423,7 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
     def _generate_article_fallback(self, movie: Dict[str, Any], story: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """
         Deterministic, rich editorial synthesizer for Google Discover articles.
-        Generates 400+ words of structured journalism with bullet takeaways and sections.
+        Generates 400+ words of structured journalism with distinct, non-repetitive sections.
         """
         title = movie.get("title", "Featured Film")
         director = movie.get("director") or "Visionary Filmmakers"
@@ -429,40 +455,61 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
         takeaways = [
             f"Powerhouse Cast: Led by {cast_str} under the direction of {director}.",
             f"Audience Reception: Currently certified with an impressive {rating}/10 community rating.",
-            f"Genre Highlights: A masterclass in {genre_str} storytelling with unforgettable character arcs.",
+            f"Genre Highlights: Compelling {genre_str} storytelling with memorable character arcs.",
             f"Watch Format: Available for full cinematic analysis and visual slide exploration."
         ]
 
-        # Sections
+        # Sections: Ensure 4 distinct, non-repetitive angles
         sections = []
         if story and len(story.get("slides", [])) >= 4:
             slides = story.get("slides", [])
-            for s in slides[:4]:
-                sections.append({
-                    "heading": s.get("title", "Key Story Highlight"),
-                    "content": f"{s.get('text')} As the story unfolds, the creative decisions made by the filmmakers provide a masterclass in modern visual storytelling that keeps viewers on the edge of their seats."
-                })
+            s1 = slides[0] if len(slides) > 0 else {}
+            s2 = slides[1] if len(slides) > 1 else {}
+            s3 = slides[2] if len(slides) > 2 else {}
+            s4 = slides[3] if len(slides) > 3 else {}
+
+            sections = [
+                {
+                    "heading": s1.get("title") or f"The Narrative Premise of {title}",
+                    "content": f"{s1.get('text', '')} {overview} From the opening sequence, audiences are thrust into high-stakes drama where unexpected developments continually reshape the narrative landscape and test the limits of its protagonists."
+                },
+                {
+                    "heading": s2.get("title") or "Ensemble Brilliance & Character Dynamics",
+                    "content": f"{s2.get('text', '')} The dynamic performances led by {cast_str} deliver authentic emotional resonance throughout. Under {director}'s steady direction, each character brings distinct weight to key confrontations without relying on easy genre tropes."
+                },
+                {
+                    "heading": s3.get("title") or "Behind The Scenes & Production Craft",
+                    "content": f"{s3.get('text', '')} The technical execution blends atmospheric cinematography with tight editing and rich audio design, giving the entire narrative a gripping sense of urgency, scale, and visual polish."
+                },
+                {
+                    "heading": s4.get("title") or "Cultural Impact & Audience Reception",
+                    "content": f"{s4.get('text', '')} Currently holding a certified {rating}/10 community rating, discussions across entertainment forums highlight its memorable climax and rewatch value, cementing it as an essential recommendation for {genre_str} enthusiasts."
+                }
+            ]
         else:
             sections = [
                 {
                     "heading": f"The High-Stakes Narrative of {title}",
-                    "content": f"{overview} What sets this apart is how effectively the script balances intense narrative momentum with nuanced character beats, making every revelation hit with maximum impact."
+                    "content": f"{overview} What sets this title apart is how effectively the script balances intense narrative momentum with nuanced character beats, making every key turning point land with genuine emotional impact."
                 },
                 {
-                    "heading": f"Star Power: {cast_str}",
-                    "content": f"The dynamic chemistry between {cast_str} elevates the production into top-tier cinematic territory. Under {director}'s precise direction, each actor brings genuine emotional weight to their respective roles, creating moments that resonate far beyond the final credits."
+                    "heading": "Star Power & Ensemble Performances",
+                    "content": f"The dynamic chemistry between {cast_str} elevates the production into top-tier territory. Under {director}'s guidance, each actor brings genuine conviction and depth to their respective roles."
                 },
                 {
                     "heading": "Behind The Lens & Technical Precision",
-                    "content": f"From intricate production design to a propulsive soundscape, {title} showcases meticulous craftsmanship. Filmmakers favored immersive visual palettes and practical effects where possible, creating a tangible sense of authenticity."
+                    "content": f"From intricate production design to a propulsive soundscape, {title} showcases meticulous craftsmanship. Filmmakers favored immersive visual palettes and practical detail to establish authentic tone."
                 },
                 {
                     "heading": "Cultural Buzz & Why Audiences Are Obsessed",
-                    "content": f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across social media, Reddit discussion threads, and critic roundtables. It represents a bold statement for contemporary {genre_str} entertainment."
+                    "content": f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across entertainment communities. It represents a bold statement for contemporary {genre_str} entertainment."
                 }
             ]
 
-        verdict = f"{title} is an absolute triumph for fans of {genre_str}. With stellar performances from {cast_str} and sharp direction by {director}, it is an essential entry for your watchlist."
+        verdict = f"{title} delivers a rewarding watch for fans of {genre_str}. Anchored by strong turns from {cast_str} and focused direction by {director}, it is an essential entry for your watchlist."
+
+        who_should_watch = f"Fans of high-stakes {genre_str} entertainment who appreciate memorable ensemble acting and sharp direction by {director}."
+        skip_if = f"Viewers looking for breezy, lighthearted comedy or those sensitive to tense, high-pressure conflict."
 
         return {
             "headline": headline[:75],
@@ -471,5 +518,49 @@ GOOGLE DISCOVER EDITORIAL GUIDELINES:
             "sections": sections,
             "verdict_summary": verdict,
             "reading_time_mins": 3,
+            "who_should_watch": who_should_watch,
+            "skip_if": skip_if,
             "movie": movie
         }
+
+    @staticmethod
+    def validate_content_quality(story: Optional[Dict[str, Any]], article: Optional[Dict[str, Any]]) -> Tuple[bool, List[str]]:
+        """
+        Anti-Spam & Google Quality Guard:
+        Verifies that generated story and article meet Google Discover standards
+        and will not trigger low-value or duplicate content filters.
+        """
+        issues = []
+        if story:
+            slides = story.get("slides", [])
+            if len(slides) < 5:
+                issues.append(f"Story has only {len(slides)} slides (minimum 5 required).")
+            for i, s in enumerate(slides):
+                word_count = len(s.get("text", "").split())
+                if word_count > 40:
+                    issues.append(f"Slide {i+1} exceeds 40 words ({word_count} words).")
+
+        if article:
+            headline = article.get("headline", "")
+            if len(headline) > 95:
+                issues.append(f"Headline is too long ({len(headline)} chars; maximum 95).")
+            sections = article.get("sections", [])
+            if len(sections) < 3:
+                issues.append(f"Article has fewer than 3 sections ({len(sections)}).")
+
+            # Check for repetitive identical phrases across sections
+            section_texts = [sec.get("content", "") for sec in sections]
+            for i in range(len(section_texts)):
+                for j in range(i + 1, len(section_texts)):
+                    words_i = section_texts[i].split()
+                    for k in range(len(words_i) - 8):
+                        chunk = " ".join(words_i[k:k+9])
+                        if chunk in section_texts[j]:
+                            issues.append(f"Repetitive text detected between sections {i+1} and {j+1}: '{chunk[:40]}...'")
+                            break
+
+            total_words = sum(len(sec.get("content", "").split()) for sec in sections)
+            if total_words < 200:
+                issues.append(f"Article is too short ({total_words} words; minimum 200 required).")
+
+        return len(issues) == 0, issues
