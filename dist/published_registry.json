@@ -556,5 +556,29 @@
     "published_at": "2026-10-14T19:35:58Z",
     "modified_at": "2026-10-14T19:35:58Z",
     "category": "theories_easter_eggs"
+  },
+  "ncis": {
+    "title": "NCIS",
+    "published_at": "2026-10-14T19:45:04Z",
+    "modified_at": "2026-10-14T19:45:04Z",
+    "category": "series"
+  },
+  "clayface": {
+    "title": "Clayface",
+    "published_at": "2026-10-14T19:45:04Z",
+    "modified_at": "2026-10-14T19:45:04Z",
+    "category": "trending"
+  },
+  "infirmary": {
+    "title": "Infirmary",
+    "published_at": "2026-10-14T19:45:04Z",
+    "modified_at": "2026-10-14T19:45:04Z",
+    "category": "upcoming"
+  },
+  "the-avengers": {
+    "title": "The Avengers",
+    "published_at": "2026-10-14T19:45:04Z",
+    "modified_at": "2026-10-14T19:45:04Z",
+    "category": "theories_easter_eggs"
   }
 }
