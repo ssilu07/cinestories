@@ -1,14 +1,14 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-14T19:17:14.725196+00:00",
-  "total_stories": 81,
+  "generated_at": "2026-10-14T19:18:49.113183+00:00",
+  "total_stories": 85,
   "stories": [
     {
       "id": 97546,
       "slug": "ted-lasso",
       "title": "Ted Lasso: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/ted-lasso/",
+      "url": "https://cinematicbites.com/stories/ted-lasso/",
       "category": "series",
       "release_date": "2020-08-14",
       "rating": 8.4
@@ -17,7 +17,7 @@
       "id": 1255833,
       "slug": "whalefall",
       "title": "Whalefall: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/whalefall/",
+      "url": "https://cinematicbites.com/stories/whalefall/",
       "category": "trending",
       "release_date": "2026-10-14",
       "rating": 10.0
@@ -26,7 +26,7 @@
       "id": 1284046,
       "slug": "onslaught",
       "title": "Onslaught: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/onslaught/",
+      "url": "https://cinematicbites.com/stories/onslaught/",
       "category": "upcoming",
       "release_date": "2026-09-02",
       "rating": 5.8
@@ -35,7 +35,7 @@
       "id": 299534,
       "slug": "avengers-endgame",
       "title": "Avengers: Endgame: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/avengers-endgame/",
+      "url": "https://cinematicbites.com/stories/avengers-endgame/",
       "category": "theories_easter_eggs",
       "release_date": "2019-04-24",
       "rating": 8.2
