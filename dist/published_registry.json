@@ -436,5 +436,29 @@
     "published_at": "2026-10-14T18:06:40Z",
     "modified_at": "2026-10-14T18:06:40Z",
     "category": "theories_easter_eggs"
+  },
+  "helluva-boss": {
+    "title": "Helluva Boss",
+    "published_at": "2026-10-14T18:17:19Z",
+    "modified_at": "2026-10-14T18:17:19Z",
+    "category": "series"
+  },
+  "street-fighter": {
+    "title": "Street Fighter",
+    "published_at": "2026-10-14T18:17:19Z",
+    "modified_at": "2026-10-14T18:17:19Z",
+    "category": "trending"
+  },
+  "other-mommy": {
+    "title": "Other Mommy",
+    "published_at": "2026-10-14T18:17:19Z",
+    "modified_at": "2026-10-14T18:17:19Z",
+    "category": "upcoming"
+  },
+  "colony": {
+    "title": "Colony",
+    "published_at": "2026-10-14T18:17:19Z",
+    "modified_at": "2026-10-14T18:17:19Z",
+    "category": "theories_easter_eggs"
   }
 }

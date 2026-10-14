@@ -1,5 +1,418 @@
 [
   {
+    "title": "Helluva Boss: The Untold Story & Secrets",
+    "seo_description": "Discover Helluva Boss: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 289892,
+      "title": "Helluva Boss",
+      "original_title": "Helluva Boss",
+      "slug": "helluva-boss",
+      "media_type": "tv",
+      "release_date": "2020-10-31",
+      "overview": "In Hell, imp Blitz\u00f8 (the 'o' is silent) runs an assassin business targeting the world of the living, using a spell book borrowed from a prince of the underworld. With employees Moxxie, Millie, and Loona, they attempt to survive each other while keeping business afloat.",
+      "tagline": "R u in hell and need someone less alive? We can do that!!",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 3,
+      "vote_average": 7.5,
+      "vote_count": 114,
+      "category": "series",
+      "director": "Vivienne Medrano (Creator)",
+      "top_cast": [
+        "Brandon Rogers",
+        "Richard Steven Horvitz",
+        "Vivian Nixon",
+        "Erica Lindbeck",
+        "Bryce Pinkham"
+      ],
+      "poster_path": "/bcrp2ovxirKH81XSMYQZ7eEunzX.jpg",
+      "backdrop_path": "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+      "backdrops": [
+        "/20OP4f0xDbPttORm9OyIbNu3cNN.jpg",
+        "/biwM7pe2xzbSSo2RKNOjLqX95jV.jpg",
+        "/ix1H6XmQwPt2xbp1RyFK6N0WbK8.jpg",
+        "/vzL52Oa06RgZ6GEVR20TTlsGfdz.jpg",
+        "/3viFOnC0gv7CjhOYw5EKWdzmwi6.jpg",
+        "/lNXWorgsICRdwpbjDuaqIHemS6z.jpg",
+        "/gZkj3dBiNMIU0zLGERiI4Av5WtE.jpg",
+        "/foSZmUUvWo3HaAPv2yb8iuTP7lh.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Helluva Boss",
+        "text": "R u in hell and need someone less alive? We can do that!! Rated 7.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "In Hell, imp Blitz\u00f8 (the 'o' is silent) runs an assassin business targeting the world of the living, using a spell book borrowed from a prince of the underworld. With employees Moxxie, Millie, and...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Brandon Rogers, Richard Steven Horvitz, Vivian Nixon, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Vivienne Medrano (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Vivienne Medrano (Creator)",
+        "text": "Filmmaker Vivienne Medrano (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.5/10 on TMDB",
+        "text": "With an impressive 7.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Helluva Boss? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/289892"
+      }
+    ],
+    "date_published": "2026-10-14T18:17:19Z",
+    "date_modified": "2026-10-14T18:17:19Z",
+    "published_at": "2026-10-14T18:17:19Z"
+  },
+  {
+    "title": "Street Fighter: The Untold Story & Secrets",
+    "seo_description": "Discover Street Fighter: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1153576,
+      "title": "Street Fighter",
+      "original_title": "Street Fighter",
+      "slug": "street-fighter",
+      "media_type": "movie",
+      "release_date": "2026-10-13",
+      "overview": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to face off against each other and the demons of their past. And if they don't, it's GAME OVER!",
+      "tagline": "Ready. Set. Fight.",
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "runtime": 120,
+      "seasons": null,
+      "vote_average": 6.5,
+      "vote_count": 8,
+      "category": "trending",
+      "director": "Kitao Sakurai",
+      "top_cast": [
+        "Andrew Koji",
+        "Noah Centineo",
+        "Callina Liang",
+        "Joe Anoa'i",
+        "David Dastmalchian",
+        "Cody Rhodes"
+      ],
+      "poster_path": "/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "backdrop_path": "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+      "backdrops": [
+        "/5YfPIIMzGBkIjHt3PTXBWyfBTGS.jpg",
+        "/DSOLReBGAwtN6AkrdkPiknd01z.jpg",
+        "/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg",
+        "/k0cEoowzTwxYCTRI7gV6nqPF1ds.jpg",
+        "/bA6twMcGZtV2cQRQA3ZTMQPJznU.jpg",
+        "/zlZA2IMP9FthpYTA1CC9Gj7vl1o.jpg",
+        "/5H5YphHsQmkQhrw13Wv1whCZKtN.jpg",
+        "/qRN8eqYwG6HPSy0i3fKzuLrUOhp.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Street Fighter",
+        "text": "Ready. Set. Fight. Rated 6.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury....",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Andrew Koji, Noah Centineo, Callina Liang, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Kitao Sakurai.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Kitao Sakurai",
+        "text": "Filmmaker Kitao Sakurai pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.5/10 on TMDB",
+        "text": "With an impressive 6.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Street Fighter? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1153576"
+      }
+    ],
+    "date_published": "2026-10-14T18:17:19Z",
+    "date_modified": "2026-10-14T18:17:19Z",
+    "published_at": "2026-10-14T18:17:19Z"
+  },
+  {
+    "title": "Other Mommy: The Untold Story & Secrets",
+    "seo_description": "Discover Other Mommy: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1400837,
+      "title": "Other Mommy",
+      "original_title": "Other Mommy",
+      "slug": "other-mommy",
+      "media_type": "movie",
+      "release_date": "2026-10-07",
+      "overview": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+      "tagline": "Your mommy won't save you.",
+      "genres": [
+        "Horror"
+      ],
+      "runtime": 93,
+      "seasons": null,
+      "vote_average": 6.0,
+      "vote_count": 95,
+      "category": "upcoming",
+      "director": "Rob Savage",
+      "top_cast": [
+        "Jessica Chastain",
+        "Jay Duplass",
+        "Arabella Olivia Clark",
+        "Karen Allen",
+        "Arian Moayed",
+        "Dichen Lachman"
+      ],
+      "poster_path": "/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+      "backdrop_path": "/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+      "backdrops": [
+        "/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg",
+        "/yf5EKtrTKM8pla1TpNA5TsZgoTp.jpg",
+        "/qHURF5fju9HYpnEdEj3D4HH8C7q.jpg",
+        "/AflbdtwHm1FOXKCFtn8wKaQsAjR.jpg",
+        "/oxnzKR0Ag5f35JYiYGs4lTqTG5Q.jpg",
+        "/fqK74DYEkAuvMJXozxiqSujCQU4.jpg",
+        "/smZ8BT4Vzw4iCEppTLCnN8jNYtn.jpg",
+        "/gy1RZonkd5CYWl64qCdIBcS4HjI.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Other Mommy",
+        "text": "Your mommy won't save you. Rated 6.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Young Bela forms a relationship with a sinister entity in her home that looks uncannily like her own mother, drawing her into a terrifying and increasingly dark world.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jessica Chastain, Jay Duplass, Arabella Olivia Clark, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Rob Savage.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Rob Savage",
+        "text": "Filmmaker Rob Savage pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.0/10 on TMDB",
+        "text": "With an impressive 6.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Other Mommy? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1400837"
+      }
+    ],
+    "date_published": "2026-10-14T18:17:19Z",
+    "date_modified": "2026-10-14T18:17:19Z",
+    "published_at": "2026-10-14T18:17:19Z"
+  },
+  {
+    "title": "Colony: The Untold Story & Secrets",
+    "seo_description": "Discover Colony: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1375646,
+      "title": "Colony",
+      "original_title": "\uad70\uccb4",
+      "slug": "colony",
+      "media_type": "movie",
+      "release_date": "2026-05-21",
+      "overview": "Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside with no escape, Se-jeong along with a small group of survivors must fight to stay alive while the infected undergo horrific transformations.",
+      "tagline": "Survive the hive.",
+      "genres": [
+        "Horror",
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 123,
+      "seasons": null,
+      "vote_average": 8.1,
+      "vote_count": 1148,
+      "category": "theories_easter_eggs",
+      "director": "Yeon Sang-ho",
+      "top_cast": [
+        "Gianna Jun",
+        "Koo Kyo-hwan",
+        "Ji Chang-wook",
+        "Kim Shin-rock",
+        "Shin Hyun-been",
+        "Go Soo"
+      ],
+      "poster_path": "/tN799oUR0f1gUKDYdMNrDaY7I51.jpg",
+      "backdrop_path": "/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg",
+      "backdrops": [
+        "/mXhgb6WzczIJPOJSlY2hhUZuwc7.jpg",
+        "/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg",
+        "/iGViga8sDCET1S6GfwOlAbuhSGQ.jpg",
+        "/hpBGCnzOvdtQoMyE48gvwp2y5yx.jpg",
+        "/cOKATn8lOcvVnOqqV5oYWaI9z2Z.jpg",
+        "/84FEpVVbSKYvKXDZJDZXOKBxCEm.jpg",
+        "/dk9tY5BrxDn6ns29IKDIbA5DjTn.jpg",
+        "/jDvxsBemt2Iyslg7qn2WMzgxz23.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Colony",
+        "text": "Survive the hive. Rated 8.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Professor Se-jeong is thrust into a bloody nightmare when a rapidly mutating virus is released during a biotech conference causing authorities to seal the facility. Trapped inside with no escape, Se-jeong along with a...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Gianna Jun, Koo Kyo-hwan, Ji Chang-wook, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Yeon Sang-ho.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Yeon Sang-ho",
+        "text": "Filmmaker Yeon Sang-ho pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.1/10 on TMDB",
+        "text": "With an impressive 8.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Colony? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1375646"
+      }
+    ],
+    "date_published": "2026-10-14T18:17:19Z",
+    "date_modified": "2026-10-14T18:17:19Z",
+    "published_at": "2026-10-14T18:17:19Z"
+  },
+  {
     "title": "Dragon Ball Super: Beerus: The Untold Story & Secrets",
     "seo_description": "Discover Dragon Ball Super: Beerus: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
