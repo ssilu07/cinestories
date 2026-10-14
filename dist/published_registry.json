@@ -532,5 +532,29 @@
     "published_at": "2026-10-14T19:20:07Z",
     "modified_at": "2026-10-14T19:20:07Z",
     "category": "theories_easter_eggs"
+  },
+  "law-order": {
+    "title": "Law & Order",
+    "published_at": "2026-10-14T19:35:58Z",
+    "modified_at": "2026-10-14T19:35:58Z",
+    "category": "series"
+  },
+  "verity": {
+    "title": "Verity",
+    "published_at": "2026-10-14T19:35:58Z",
+    "modified_at": "2026-10-14T19:35:58Z",
+    "category": "trending"
+  },
+  "ice-cream-man": {
+    "title": "Ice Cream Man",
+    "published_at": "2026-10-14T19:35:58Z",
+    "modified_at": "2026-10-14T19:35:58Z",
+    "category": "upcoming"
+  },
+  "deadpool-wolverine": {
+    "title": "Deadpool & Wolverine",
+    "published_at": "2026-10-14T19:35:58Z",
+    "modified_at": "2026-10-14T19:35:58Z",
+    "category": "theories_easter_eggs"
   }
 }

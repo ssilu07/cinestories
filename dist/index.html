@@ -417,6 +417,12 @@
       box-shadow: 0 2px 10px rgba(225, 29, 72, 0.4);
     }
 
+    .badge-netflix_hits {
+      background: rgba(229, 9, 20, 0.25);
+      color: #ff4d4d;
+      border: 1px solid rgba(229, 9, 20, 0.45);
+    }
+
     .rating-badge {
       font-size: 11px;
       font-weight: 700;
@@ -718,15 +724,16 @@
     <!-- Controls Bar: Filter Pills & Search -->
     <div class="controls-bar">
       <div class="filter-pills" role="tablist">
-        <button class="filter-btn active" data-filter="all">All Stories (89)</button>
+        <button class="filter-btn active" data-filter="all">All Stories (93)</button>
+        <button class="filter-btn" data-filter="netflix_hits">🔴 Netflix (0)</button>
         <button class="filter-btn" data-filter="streaming_charts">Weekly Top 10 (4)</button>
-        <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories (16)</button>
+        <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories (17)</button>
         <button class="filter-btn" data-filter="where_are_they_now">Where Are They Now? (3)</button>
-        <button class="filter-btn" data-filter="series">TV Series (30)</button>
-        <button class="filter-btn" data-filter="trending">Trending Movies (10)</button>
+        <button class="filter-btn" data-filter="series">TV Series (31)</button>
+        <button class="filter-btn" data-filter="trending">Trending Movies (11)</button>
         <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises (8)</button>
         <button class="filter-btn" data-filter="steamy_thrillers">🔥 Bold Thrillers (7)</button>
-        <button class="filter-btn" data-filter="upcoming">Upcoming (11)</button>
+        <button class="filter-btn" data-filter="upcoming">Upcoming (12)</button>
       </div>
 
       <div class="search-box">
@@ -739,7 +746,131 @@
   <!-- Stories Grid Section -->
   <main class="stories-section">
     <div class="stories-grid" id="storiesGrid">
-      <article class="story-card" data-category="series" data-title="mobland: the untold story &amp; secrets" data-movie="mobland" data-rating="8.5">
+      <article class="story-card" data-category="series" data-title="law &amp; order: the untold story &amp; secrets" data-movie="law &amp; order" data-rating="7.3">
+          <a href="/stories/law-order/" class="card-link" aria-label="Read story for Law &amp; Order">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/haJ9eHytVO3H3JooMJG1DiWwDNm.jpg" alt="Law &amp; Order" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-series">TV Series</span>
+                <span class="rating-badge">★ 7.3</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Law &amp; Order</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Law &amp; Order: The Untold Story &amp; Secrets</h3>
+                <p class="card-teaser">Discover Law &amp; Order: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.</p>
+                <div class="card-meta">
+                  <span>1990</span>
+                  <span>•</span>
+                  <span>📺 26 Seasons</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="trending" data-title="verity: the untold story &amp; secrets" data-movie="verity" data-rating="6.3">
+          <a href="/stories/verity/" class="card-link" aria-label="Read story for Verity">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/zPHfsaiMZT1HNz1ZS55iyLKZkFG.jpg" alt="Verity" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-trending">Trending</span>
+                <span class="rating-badge">★ 6.3</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Verity</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Verity: The Untold Story &amp; Secrets</h3>
+                <p class="card-teaser">Discover Verity: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.</p>
+                <div class="card-meta">
+                  <span>2026</span>
+                  <span>•</span>
+                  <span>⏱ 114m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="upcoming" data-title="ice cream man: the untold story &amp; secrets" data-movie="ice cream man" data-rating="4.9">
+          <a href="/stories/ice-cream-man/" class="card-link" aria-label="Read story for Ice Cream Man">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/lNBxToxHWrzmkqeFnf1XADUTxQq.jpg" alt="Ice Cream Man" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/hjF1rzTDR7YvnJUcH2SfP48w492.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-upcoming">Upcoming</span>
+                <span class="rating-badge">★ 4.9</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Ice Cream Man</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Ice Cream Man: The Untold Story &amp; Secrets</h3>
+                <p class="card-teaser">Discover Ice Cream Man: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.</p>
+                <div class="card-meta">
+                  <span>2026</span>
+                  <span>•</span>
+                  <span>⏱ 86m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="theories_easter_eggs" data-title="deadpool &amp; wolverine: the untold story &amp; secrets" data-movie="deadpool &amp; wolverine" data-rating="7.6">
+          <a href="/stories/deadpool-wolverine/" class="card-link" aria-label="Read story for Deadpool &amp; Wolverine">
+            <div class="card-poster-wrap">
+              <img src="https://image.tmdb.org/t/p/w780/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg" alt="Deadpool &amp; Wolverine" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg';">
+              <div class="card-overlay-gradient"></div>
+              
+              <div class="card-top-badges">
+                <span class="category-badge badge-theories_easter_eggs">Marvel & DC Theories</span>
+                <span class="rating-badge">★ 7.6</span>
+              </div>
+
+              <div class="card-bottom-info">
+                <div class="card-kicker">
+                  <span class="movie-name-tag">Deadpool &amp; Wolverine</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> 6 Slides</span>
+                </div>
+                <h3 class="card-title">Deadpool &amp; Wolverine: The Untold Story &amp; Secrets</h3>
+                <p class="card-teaser">Discover Deadpool &amp; Wolverine: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.</p>
+                <div class="card-meta">
+                  <span>2024</span>
+                  <span>•</span>
+                  <span>⏱ 128m</span>
+                </div>
+                <div class="read-prompt">
+                  <span>Tap to open Web Story</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+<article class="story-card" data-category="series" data-title="mobland: the untold story &amp; secrets" data-movie="mobland" data-rating="8.5">
           <a href="/stories/mobland/" class="card-link" aria-label="Read story for MobLand">
             <div class="card-poster-wrap">
               <img src="https://image.tmdb.org/t/p/w780/5Xc7WpWsgflfgEMoBlf9TmWhfbH.jpg" alt="MobLand" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='https://image.tmdb.org/t/p/w780/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg';">

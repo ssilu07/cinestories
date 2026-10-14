@@ -1,5 +1,418 @@
 [
   {
+    "title": "Law & Order: The Untold Story & Secrets",
+    "seo_description": "Discover Law & Order: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 549,
+      "title": "Law & Order",
+      "original_title": "Law & Order",
+      "slug": "law-order",
+      "media_type": "tv",
+      "release_date": "1990-09-13",
+      "overview": "In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case to convict the perpetrator by proving the person guilty beyond a reasonable doubt. Working together, these expert teams navigate all sides of the complex criminal justice system to make New York a safer place.",
+      "tagline": "Truth matters.",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 26,
+      "vote_average": 7.3,
+      "vote_count": 733,
+      "category": "series",
+      "director": "Dick Wolf (Creator)",
+      "top_cast": [
+        "Maura Tierney",
+        "David Ajala",
+        "Tony Goldwyn",
+        "Hugh Dancy",
+        "Odelya Halevi"
+      ],
+      "poster_path": "/haJ9eHytVO3H3JooMJG1DiWwDNm.jpg",
+      "backdrop_path": "/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+      "backdrops": [
+        "/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg",
+        "/aMwNNv2N0QDQmGg5Ih5wg5lXudS.jpg",
+        "/eLr2V6XrD9bnp5BVmZmmGoFkojO.jpg",
+        "/hPTXKhAUsLHUDXLzUBlw6vaR8rJ.jpg",
+        "/48o0PtXbNlfFwvyNRxhO89PiSXa.jpg",
+        "/oOce9hLMVFubjAJliau4kiSNPnW.jpg",
+        "/4uWvmON2pqDJtpPAsHMggdDFFrn.jpg",
+        "/wni1vLCPmHsv99jsyLEeeSTm2JV.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Law & Order",
+        "text": "Truth matters. Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "In cases ripped from the headlines, police investigate serious and often deadly crimes, weighing the evidence and questioning the suspects until someone is taken into custody. The district attorney's office then builds a case...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Maura Tierney, David Ajala, Tony Goldwyn, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Dick Wolf (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Dick Wolf (Creator)",
+        "text": "Filmmaker Dick Wolf (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.3/10 on TMDB",
+        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Law & Order? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/549"
+      }
+    ],
+    "date_published": "2026-10-14T19:35:58Z",
+    "date_modified": "2026-10-14T19:35:58Z",
+    "published_at": "2026-10-14T19:35:58Z"
+  },
+  {
+    "title": "Verity: The Untold Story & Secrets",
+    "seo_description": "Discover Verity: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1283515,
+      "title": "Verity",
+      "original_title": "Verity",
+      "slug": "verity",
+      "media_type": "movie",
+      "release_date": "2026-09-30",
+      "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+      "tagline": "There is no light where we're going.",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "runtime": 114,
+      "seasons": null,
+      "vote_average": 6.3,
+      "vote_count": 191,
+      "category": "trending",
+      "director": "Michael Showalter",
+      "top_cast": [
+        "Anne Hathaway",
+        "Dakota Johnson",
+        "Josh Hartnett",
+        "Brady Wagner",
+        "Ismael Cruz Cordova",
+        "Irina Dvorovenko"
+      ],
+      "poster_path": "/zPHfsaiMZT1HNz1ZS55iyLKZkFG.jpg",
+      "backdrop_path": "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+      "backdrops": [
+        "/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg",
+        "/9qxyrJfjk577ym5WD6HCDmunoyO.jpg",
+        "/zrGI2Lm89fgR5ntysKLmEPgNrdV.jpg",
+        "/b1y7n7PwuxlVaLrDBESrAqdRehx.jpg",
+        "/ugwkKEXBlQAXxbBbbYeOLN0J20U.jpg",
+        "/2upfBtX4LgTcEuLI6bZuWlVv3U3.jpg",
+        "/sSPreWTXybWDgfNvKoL9E4sahqH.jpg",
+        "/odyuHRcXn5pwV4uaDUUrFR8p4PN.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Verity",
+        "text": "There is no light where we're going. Rated 6.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Anne Hathaway, Dakota Johnson, Josh Hartnett, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Michael Showalter.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Michael Showalter",
+        "text": "Filmmaker Michael Showalter pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.3/10 on TMDB",
+        "text": "With an impressive 6.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Verity? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1283515"
+      }
+    ],
+    "date_published": "2026-10-14T19:35:58Z",
+    "date_modified": "2026-10-14T19:35:58Z",
+    "published_at": "2026-10-14T19:35:58Z"
+  },
+  {
+    "title": "Ice Cream Man: The Untold Story & Secrets",
+    "seo_description": "Discover Ice Cream Man: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1477712,
+      "title": "Ice Cream Man",
+      "original_title": "Ice Cream Man",
+      "slug": "ice-cream-man",
+      "media_type": "movie",
+      "release_date": "2026-08-03",
+      "overview": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+      "tagline": "We all scream.",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 86,
+      "seasons": null,
+      "vote_average": 4.9,
+      "vote_count": 125,
+      "category": "upcoming",
+      "director": "Eli Roth",
+      "top_cast": [
+        "Ari Millen",
+        "Charlie Zeltzer",
+        "Shiloh O\u2019Reilly",
+        "Kiori Mirza Waldman",
+        "Sarah Abbott",
+        "Benjamin Byron Davis"
+      ],
+      "poster_path": "/lNBxToxHWrzmkqeFnf1XADUTxQq.jpg",
+      "backdrop_path": "/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+      "backdrops": [
+        "/fwa7BOo72tYKhqr4uJoOdsmlE4z.jpg",
+        "/r6jFURE0rHrX8hf6JnRrCPqFGNj.jpg",
+        "/hjF1rzTDR7YvnJUcH2SfP48w492.jpg",
+        "/giekwhdwa8SFtfPi0mOn5uvkXJ0.jpg",
+        "/hyN1E14gNxx8biNBOv1daJrmGkK.jpg",
+        "/vCSLkuWMboVtEsBsRzZgx9pzPfG.jpg",
+        "/v8n3gTuwVL3QxgKCbvppjMU6tXw.jpg",
+        "/yVnhi77S17Mk9pKx2wq6FKMF5hn.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Ice Cream Man",
+        "text": "We all scream. Rated 4.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ari Millen, Charlie Zeltzer, Shiloh O\u2019Reilly, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Eli Roth.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Eli Roth",
+        "text": "Filmmaker Eli Roth pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 4.9/10 on TMDB",
+        "text": "With an impressive 4.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Ice Cream Man? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1477712"
+      }
+    ],
+    "date_published": "2026-10-14T19:35:58Z",
+    "date_modified": "2026-10-14T19:35:58Z",
+    "published_at": "2026-10-14T19:35:58Z"
+  },
+  {
+    "title": "Deadpool & Wolverine: The Untold Story & Secrets",
+    "seo_description": "Discover Deadpool & Wolverine: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 533535,
+      "title": "Deadpool & Wolverine",
+      "original_title": "Deadpool & Wolverine",
+      "slug": "deadpool-wolverine",
+      "media_type": "movie",
+      "release_date": "2024-07-24",
+      "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "tagline": "Come together.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "runtime": 128,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 9629,
+      "category": "theories_easter_eggs",
+      "director": "Shawn Levy",
+      "top_cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin",
+        "Matthew Macfadyen",
+        "Dafne Keen",
+        "Jon Favreau"
+      ],
+      "poster_path": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+      "backdrop_path": "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+      "backdrops": [
+        "/wNa8cZp4fjF5Fa1oE5HhF6Km7kK.jpg",
+        "/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg",
+        "/cOoVcVQ3i1m5b2xtqKBtoTSbxC1.jpg",
+        "/dvBCdCohwWbsP5qAaglOXagDMtk.jpg",
+        "/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg",
+        "/mbY234XwMwEofAdX8yddNcK82wi.jpg",
+        "/9l1eZiJHmhr5jIlthMdJN5WYoff.jpg",
+        "/hzr7GhCoWTeQQMKDR6LXhN8x9fs.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Deadpool & Wolverine",
+        "text": "Come together. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ryan Reynolds, Hugh Jackman, Emma Corrin, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Shawn Levy.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Shawn Levy",
+        "text": "Filmmaker Shawn Levy pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Deadpool & Wolverine? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/533535"
+      }
+    ],
+    "date_published": "2026-10-14T19:35:58Z",
+    "date_modified": "2026-10-14T19:35:58Z",
+    "published_at": "2026-10-14T19:35:58Z"
+  },
+  {
     "title": "MobLand: The Untold Story & Secrets",
     "seo_description": "Discover MobLand: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

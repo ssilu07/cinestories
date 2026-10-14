@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-14T19:20:11.872584+00:00",
-  "total_stories": 89,
+  "generated_at": "2026-10-14T19:36:00.274248+00:00",
+  "total_stories": 93,
   "stories": [
+    {
+      "id": 549,
+      "slug": "law-order",
+      "title": "Law & Order: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/law-order/",
+      "category": "series",
+      "release_date": "1990-09-13",
+      "rating": 7.3
+    },
+    {
+      "id": 1283515,
+      "slug": "verity",
+      "title": "Verity: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/verity/",
+      "category": "trending",
+      "release_date": "2026-09-30",
+      "rating": 6.3
+    },
+    {
+      "id": 1477712,
+      "slug": "ice-cream-man",
+      "title": "Ice Cream Man: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/ice-cream-man/",
+      "category": "upcoming",
+      "release_date": "2026-08-03",
+      "rating": 4.9
+    },
+    {
+      "id": 533535,
+      "slug": "deadpool-wolverine",
+      "title": "Deadpool & Wolverine: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/deadpool-wolverine/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-07-24",
+      "rating": 7.6
+    },
     {
       "id": 247718,
       "slug": "mobland",
