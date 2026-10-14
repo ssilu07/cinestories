@@ -508,5 +508,29 @@
     "published_at": "2026-10-14T18:45:48Z",
     "modified_at": "2026-10-14T18:45:48Z",
     "category": "theories_easter_eggs"
+  },
+  "mobland": {
+    "title": "MobLand",
+    "published_at": "2026-10-14T19:20:07Z",
+    "modified_at": "2026-10-14T19:20:07Z",
+    "category": "series"
+  },
+  "buddy": {
+    "title": "Buddy",
+    "published_at": "2026-10-14T19:20:07Z",
+    "modified_at": "2026-10-14T19:20:07Z",
+    "category": "trending"
+  },
+  "heart-of-the-beast": {
+    "title": "Heart of the Beast",
+    "published_at": "2026-10-14T19:20:07Z",
+    "modified_at": "2026-10-14T19:20:07Z",
+    "category": "upcoming"
+  },
+  "star-wars": {
+    "title": "Star Wars",
+    "published_at": "2026-10-14T19:20:07Z",
+    "modified_at": "2026-10-14T19:20:07Z",
+    "category": "theories_easter_eggs"
   }
 }

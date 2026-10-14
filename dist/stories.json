@@ -1,14 +1,50 @@
 {
   "site_name": "MoviePulse",
-  "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-14T19:18:49.113183+00:00",
-  "total_stories": 85,
+  "domain": "https://cinestories-omega.vercel.app",
+  "generated_at": "2026-10-14T19:20:11.872584+00:00",
+  "total_stories": 89,
   "stories": [
+    {
+      "id": 247718,
+      "slug": "mobland",
+      "title": "MobLand: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/mobland/",
+      "category": "series",
+      "release_date": "2025-03-30",
+      "rating": 8.5
+    },
+    {
+      "id": 1514026,
+      "slug": "buddy",
+      "title": "Buddy: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/buddy/",
+      "category": "trending",
+      "release_date": "2026-08-27",
+      "rating": 7.6
+    },
+    {
+      "id": 1263337,
+      "slug": "heart-of-the-beast",
+      "title": "Heart of the Beast: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/heart-of-the-beast/",
+      "category": "upcoming",
+      "release_date": "2026-09-19",
+      "rating": 7.4
+    },
+    {
+      "id": 11,
+      "slug": "star-wars",
+      "title": "Star Wars: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/star-wars/",
+      "category": "theories_easter_eggs",
+      "release_date": "1977-05-25",
+      "rating": 8.2
+    },
     {
       "id": 97546,
       "slug": "ted-lasso",
       "title": "Ted Lasso: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/ted-lasso/",
+      "url": "https://cinestories-omega.vercel.app/stories/ted-lasso/",
       "category": "series",
       "release_date": "2020-08-14",
       "rating": 8.4
@@ -17,7 +53,7 @@
       "id": 1255833,
       "slug": "whalefall",
       "title": "Whalefall: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/whalefall/",
+      "url": "https://cinestories-omega.vercel.app/stories/whalefall/",
       "category": "trending",
       "release_date": "2026-10-14",
       "rating": 10.0
@@ -26,7 +62,7 @@
       "id": 1284046,
       "slug": "onslaught",
       "title": "Onslaught: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/onslaught/",
+      "url": "https://cinestories-omega.vercel.app/stories/onslaught/",
       "category": "upcoming",
       "release_date": "2026-09-02",
       "rating": 5.8
@@ -35,7 +71,7 @@
       "id": 299534,
       "slug": "avengers-endgame",
       "title": "Avengers: Endgame: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/avengers-endgame/",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-endgame/",
       "category": "theories_easter_eggs",
       "release_date": "2019-04-24",
       "rating": 8.2
@@ -44,7 +80,7 @@
       "id": 95480,
       "slug": "slow-horses",
       "title": "Slow Horses: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/slow-horses/",
+      "url": "https://cinestories-omega.vercel.app/stories/slow-horses/",
       "category": "series",
       "release_date": "2022-04-01",
       "rating": 8.0
@@ -53,7 +89,7 @@
       "id": 1302904,
       "slug": "practical-magic-2",
       "title": "Practical Magic 2: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/practical-magic-2/",
+      "url": "https://cinestories-omega.vercel.app/stories/practical-magic-2/",
       "category": "trending",
       "release_date": "2026-09-09",
       "rating": 6.4
@@ -62,7 +98,7 @@
       "id": 1232569,
       "slug": "pinocchio-unstrung",
       "title": "Pinocchio: Unstrung: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/pinocchio-unstrung/",
+      "url": "https://cinestories-omega.vercel.app/stories/pinocchio-unstrung/",
       "category": "upcoming",
       "release_date": "2026-07-22",
       "rating": 6.5
@@ -71,7 +107,7 @@
       "id": 299536,
       "slug": "avengers-infinity-war",
       "title": "Avengers: Infinity War: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/avengers-infinity-war/",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-infinity-war/",
       "category": "theories_easter_eggs",
       "release_date": "2018-04-25",
       "rating": 8.2
@@ -80,7 +116,7 @@
       "id": 289892,
       "slug": "helluva-boss",
       "title": "Helluva Boss: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/helluva-boss/",
+      "url": "https://cinestories-omega.vercel.app/stories/helluva-boss/",
       "category": "series",
       "release_date": "2020-10-31",
       "rating": 7.5
@@ -89,7 +125,7 @@
       "id": 1153576,
       "slug": "street-fighter",
       "title": "Street Fighter: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/street-fighter/",
+      "url": "https://cinestories-omega.vercel.app/stories/street-fighter/",
       "category": "trending",
       "release_date": "2026-10-13",
       "rating": 6.5
@@ -98,7 +134,7 @@
       "id": 1400837,
       "slug": "other-mommy",
       "title": "Other Mommy: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/other-mommy/",
+      "url": "https://cinestories-omega.vercel.app/stories/other-mommy/",
       "category": "upcoming",
       "release_date": "2026-10-07",
       "rating": 6.0
@@ -107,7 +143,7 @@
       "id": 1375646,
       "slug": "colony",
       "title": "Colony: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/colony/",
+      "url": "https://cinestories-omega.vercel.app/stories/colony/",
       "category": "theories_easter_eggs",
       "release_date": "2026-05-21",
       "rating": 8.1
@@ -116,7 +152,7 @@
       "id": 312359,
       "slug": "dragon-ball-super-beerus",
       "title": "Dragon Ball Super: Beerus: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/dragon-ball-super-beerus/",
+      "url": "https://cinestories-omega.vercel.app/stories/dragon-ball-super-beerus/",
       "category": "series",
       "release_date": "2026-10-11",
       "rating": 9.8
@@ -125,7 +161,7 @@
       "id": 1381078,
       "slug": "love-of-your-life",
       "title": "Love of Your Life: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/love-of-your-life/",
+      "url": "https://cinestories-omega.vercel.app/stories/love-of-your-life/",
       "category": "trending",
       "release_date": "2026-10-07",
       "rating": 6.3
@@ -134,7 +170,7 @@
       "id": 1294189,
       "slug": "the-mongoose",
       "title": "The Mongoose: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/the-mongoose/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-mongoose/",
       "category": "upcoming",
       "release_date": "2026-10-29",
       "rating": 0.0
@@ -143,7 +179,7 @@
       "id": 460458,
       "slug": "resident-evil-welcome-to-raccoon-city",
       "title": "Resident Evil: Welcome to Raccoon City: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/resident-evil-welcome-to-raccoon-city/",
+      "url": "https://cinestories-omega.vercel.app/stories/resident-evil-welcome-to-raccoon-city/",
       "category": "theories_easter_eggs",
       "release_date": "2021-11-24",
       "rating": 5.9
@@ -152,7 +188,7 @@
       "id": 123542,
       "slug": "link-click",
       "title": "LINK CLICK: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/link-click/",
+      "url": "https://cinestories-omega.vercel.app/stories/link-click/",
       "category": "series",
       "release_date": "2021-04-30",
       "rating": 8.1
@@ -161,7 +197,7 @@
       "id": 213375,
       "slug": "visionquest",
       "title": "VisionQuest: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/visionquest/",
+      "url": "https://cinestories-omega.vercel.app/stories/visionquest/",
       "category": "series",
       "release_date": "2026-10-13",
       "rating": 9.5
@@ -170,7 +206,7 @@
       "id": 288673,
       "slug": "carrie",
       "title": "Carrie: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/carrie/",
+      "url": "https://cinestories-omega.vercel.app/stories/carrie/",
       "category": "series",
       "release_date": "2026-10-07",
       "rating": 8.5
@@ -179,7 +215,7 @@
       "id": 969681,
       "slug": "spider-man-brand-new-day",
       "title": "Spider-Man: Brand New Day: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/spider-man-brand-new-day/",
+      "url": "https://cinestories-omega.vercel.app/stories/spider-man-brand-new-day/",
       "category": "theories_easter_eggs",
       "release_date": "2026-07-29",
       "rating": 8.5
@@ -188,7 +224,7 @@
       "id": 1236045,
       "slug": "animals",
       "title": "Animals: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/animals/",
+      "url": "https://cinestories-omega.vercel.app/stories/animals/",
       "category": "theories_easter_eggs",
       "release_date": "2026-10-09",
       "rating": 7.3
@@ -197,7 +233,7 @@
       "id": 1058424,
       "slug": "hope",
       "title": "Hope: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/hope/",
+      "url": "https://cinestories-omega.vercel.app/stories/hope/",
       "category": "theories_easter_eggs",
       "release_date": "2026-07-15",
       "rating": 7.2
@@ -206,7 +242,7 @@
       "id": 108188,
       "slug": "barbara-karlich-talk-um-4",
       "title": "Barbara Karlich \u2013 Talk um 4: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/barbara-karlich-talk-um-4/",
+      "url": "https://cinestories-omega.vercel.app/stories/barbara-karlich-talk-um-4/",
       "category": "series",
       "release_date": "1999-10-27",
       "rating": 4.5
@@ -215,7 +251,7 @@
       "id": 22980,
       "slug": "watch-what-happens-live-with-andy-cohen",
       "title": "Watch What Happens Live with Andy Cohen: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/watch-what-happens-live-with-andy-cohen/",
+      "url": "https://cinestories-omega.vercel.app/stories/watch-what-happens-live-with-andy-cohen/",
       "category": "series",
       "release_date": "2009-07-16",
       "rating": 4.9
@@ -224,7 +260,7 @@
       "id": 91759,
       "slug": "come-home-love-lo-and-behold",
       "title": "Come Home Love: Lo and Behold: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/come-home-love-lo-and-behold/",
+      "url": "https://cinestories-omega.vercel.app/stories/come-home-love-lo-and-behold/",
       "category": "series",
       "release_date": "2017-02-20",
       "rating": 5.4
@@ -233,7 +269,7 @@
       "id": 980431,
       "slug": "avatar-aang-the-last-airbender",
       "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/avatar-aang-the-last-airbender/",
+      "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
       "category": "cult_classic",
       "release_date": "2026-07-24",
       "rating": 9.1
@@ -242,7 +278,7 @@
       "id": 1560520,
       "slug": "batman-knightfall-part-1-knightfall",
       "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/batman-knightfall-part-1-knightfall/",
+      "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
       "category": "cult_classic",
       "release_date": "2026-06-23",
       "rating": 9.1
@@ -251,7 +287,7 @@
       "id": 1007757,
       "slug": "swapped",
       "title": "Swapped: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/swapped/",
+      "url": "https://cinestories-omega.vercel.app/stories/swapped/",
       "category": "cult_classic",
       "release_date": "2026-05-01",
       "rating": 8.9
@@ -260,7 +296,7 @@
       "id": 1440098,
       "slug": "drawn-together",
       "title": "Drawn Together: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/drawn-together/",
+      "url": "https://cinestories-omega.vercel.app/stories/drawn-together/",
       "category": "steamy_thrillers",
       "release_date": "2026-09-09",
       "rating": 6.9
@@ -269,7 +305,7 @@
       "id": 1010581,
       "slug": "my-fault",
       "title": "My Fault: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/my-fault/",
+      "url": "https://cinestories-omega.vercel.app/stories/my-fault/",
       "category": "steamy_thrillers",
       "release_date": "2023-06-08",
       "rating": 7.7
@@ -278,7 +314,7 @@
       "id": 950396,
       "slug": "the-gorge",
       "title": "The Gorge: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/the-gorge/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-gorge/",
       "category": "steamy_thrillers",
       "release_date": "2025-02-13",
       "rating": 7.7
@@ -287,7 +323,7 @@
       "id": 1101412,
       "slug": "fall-2-deadpoint",
       "title": "Fall 2: Deadpoint: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/fall-2-deadpoint/",
+      "url": "https://cinestories-omega.vercel.app/stories/fall-2-deadpoint/",
       "category": "upcoming",
       "release_date": "2026-09-01",
       "rating": 7.3
@@ -296,7 +332,7 @@
       "id": 1377237,
       "slug": "runner",
       "title": "Runner: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/runner/",
+      "url": "https://cinestories-omega.vercel.app/stories/runner/",
       "category": "upcoming",
       "release_date": "2026-09-07",
       "rating": 8.3
@@ -305,7 +341,7 @@
       "id": 1228834,
       "slug": "the-fix",
       "title": "The Fix: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/the-fix/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-fix/",
       "category": "upcoming",
       "release_date": "2026-09-10",
       "rating": 6.8
@@ -314,7 +350,7 @@
       "id": 285322,
       "slug": "below",
       "title": "Below: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/below/",
+      "url": "https://cinestories-omega.vercel.app/stories/below/",
       "category": "series",
       "release_date": "2026-10-08",
       "rating": 7.3
@@ -323,7 +359,7 @@
       "id": 95350,
       "slug": "lanterns",
       "title": "Lanterns: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/lanterns/",
+      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
       "category": "series",
       "release_date": "2026-08-16",
       "rating": 8.3
@@ -332,7 +368,7 @@
       "id": 1148365,
       "slug": "matchbox-the-movie",
       "title": "Matchbox the Movie: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/matchbox-the-movie/",
+      "url": "https://cinestories-omega.vercel.app/stories/matchbox-the-movie/",
       "category": "theories_easter_eggs",
       "release_date": "2026-10-05",
       "rating": 8.0
@@ -341,7 +377,7 @@
       "id": 70998,
       "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
       "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
-      "url": "https://cinematicbites.com/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
       "category": "series",
       "release_date": "2017-04-03",
       "rating": 5.5
@@ -350,7 +386,7 @@
       "id": 216015,
       "slug": "fifty-shades-of-grey",
       "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
-      "url": "https://cinematicbites.com/stories/fifty-shades-of-grey/",
+      "url": "https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/",
       "category": "steamy_thrillers",
       "release_date": "2015-02-11",
       "rating": 5.9
@@ -359,7 +395,7 @@
       "id": 289423,
       "slug": "take-charge-of-my-heart",
       "title": "Take Charge of My Heart: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/take-charge-of-my-heart/",
+      "url": "https://cinestories-omega.vercel.app/stories/take-charge-of-my-heart/",
       "category": "series",
       "release_date": "2026-10-09",
       "rating": 0.0
@@ -368,7 +404,7 @@
       "id": 1291595,
       "slug": "insidious-out-of-the-further",
       "title": "Insidious: Out of the Further: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/insidious-out-of-the-further/",
+      "url": "https://cinestories-omega.vercel.app/stories/insidious-out-of-the-further/",
       "category": "theories_easter_eggs",
       "release_date": "2026-08-19",
       "rating": 7.6
@@ -377,7 +413,7 @@
       "id": 1248832,
       "slug": "digger",
       "title": "Digger: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/digger/",
+      "url": "https://cinestories-omega.vercel.app/stories/digger/",
       "category": "theories_easter_eggs",
       "release_date": "2026-09-28",
       "rating": 7.5
@@ -386,7 +422,7 @@
       "id": 108978,
       "slug": "reacher",
       "title": "Reacher: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/reacher/",
+      "url": "https://cinestories-omega.vercel.app/stories/reacher/",
       "category": "series",
       "release_date": "2022-02-03",
       "rating": 8.1
@@ -395,7 +431,7 @@
       "id": 258165,
       "slug": "east-of-eden",
       "title": "East of Eden: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/east-of-eden/",
+      "url": "https://cinestories-omega.vercel.app/stories/east-of-eden/",
       "category": "series",
       "release_date": "2026-10-01",
       "rating": 7.9
@@ -404,7 +440,7 @@
       "id": 37854,
       "slug": "one-piece",
       "title": "One Piece: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/one-piece/",
+      "url": "https://cinestories-omega.vercel.app/stories/one-piece/",
       "category": "series",
       "release_date": "1999-10-20",
       "rating": 8.8
@@ -413,7 +449,7 @@
       "id": 1423191,
       "slug": "resident-evil",
       "title": "Resident Evil: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/resident-evil/",
+      "url": "https://cinestories-omega.vercel.app/stories/resident-evil/",
       "category": "upcoming",
       "release_date": "2026-09-16",
       "rating": 7.3
@@ -422,7 +458,7 @@
       "id": 1204680,
       "slug": "coyote-vs-acme",
       "title": "Coyote vs. Acme: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/coyote-vs-acme/",
+      "url": "https://cinestories-omega.vercel.app/stories/coyote-vs-acme/",
       "category": "upcoming",
       "release_date": "2026-08-17",
       "rating": 7.5
@@ -431,7 +467,7 @@
       "id": 290856,
       "slug": "marshals",
       "title": "Marshals: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/marshals/",
+      "url": "https://cinestories-omega.vercel.app/stories/marshals/",
       "category": "series",
       "release_date": "2026-03-01",
       "rating": 7.9
@@ -440,7 +476,7 @@
       "id": 977942,
       "slug": "the-uprising",
       "title": "The Uprising: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/the-uprising/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-uprising/",
       "category": "theories_easter_eggs",
       "release_date": "2026-09-10",
       "rating": 7.9
@@ -449,7 +485,7 @@
       "id": 59941,
       "slug": "the-tonight-show-starring-jimmy-fallon",
       "title": "The Tonight Show Starring Jimmy Fallon: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/the-tonight-show-starring-jimmy-fallon/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-tonight-show-starring-jimmy-fallon/",
       "category": "series",
       "release_date": "2014-02-17",
       "rating": 5.8
@@ -458,7 +494,7 @@
       "id": 298505,
       "slug": "coven-academy",
       "title": "Coven Academy: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/coven-academy/",
+      "url": "https://cinestories-omega.vercel.app/stories/coven-academy/",
       "category": "series",
       "release_date": "2026-10-01",
       "rating": 7.3
@@ -467,7 +503,7 @@
       "id": 73223,
       "slug": "black-clover",
       "title": "Black Clover: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/black-clover/",
+      "url": "https://cinestories-omega.vercel.app/stories/black-clover/",
       "category": "series",
       "release_date": "2017-10-03",
       "rating": 8.5
@@ -476,7 +512,7 @@
       "id": 1003596,
       "slug": "avengers-doomsday",
       "title": "Avengers: Doomsday: The Untold Story & Secrets",
-      "url": "https://cinematicbites.com/stories/avengers-doomsday/",
+      "url": "https://cinestories-omega.vercel.app/stories/avengers-doomsday/",
       "category": "theories_easter_eggs",
       "release_date": "2026-12-16",
       "rating": 0.0
@@ -485,7 +521,7 @@
       "id": 999101,
       "slug": "streaming-weekly-top-10-us-uk",
       "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
-      "url": "https://cinematicbites.com/stories/streaming-weekly-top-10-us-uk/",
+      "url": "https://cinestories-omega.vercel.app/stories/streaming-weekly-top-10-us-uk/",
       "category": "streaming_charts",
       "release_date": "2026-10-01",
       "rating": 8.8
@@ -494,7 +530,7 @@
       "id": 106379,
       "slug": "fallout-prime-video",
       "title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video \u2622\ufe0f Vault 33",
-      "url": "https://cinematicbites.com/stories/fallout-prime-video/",
+      "url": "https://cinestories-omega.vercel.app/stories/fallout-prime-video/",
       "category": "streaming_charts",
       "release_date": "2024-04-10",
       "rating": 8.3
@@ -503,7 +539,7 @@
       "id": 94997,
       "slug": "house-of-the-dragon",
       "title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max \ud83d\udc09\ud83d\udd25",
-      "url": "https://cinematicbites.com/stories/house-of-the-dragon/",
+      "url": "https://cinestories-omega.vercel.app/stories/house-of-the-dragon/",
       "category": "streaming_charts",
       "release_date": "2022-08-21",
       "rating": 8.4
@@ -512,7 +548,7 @@
       "id": 126308,
       "slug": "shogun",
       "title": "Master of Deception: 5 Epic Feudal Power Plays in Sh\u014dgun \u2694\ufe0f\ud83c\udfef",
-      "url": "https://cinematicbites.com/stories/shogun/",
+      "url": "https://cinestories-omega.vercel.app/stories/shogun/",
       "category": "streaming_charts",
       "release_date": "2024-02-27",
       "rating": 8.5
@@ -521,7 +557,7 @@
       "id": 999201,
       "slug": "marvel-post-credit-theories",
       "title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories \ud83e\uddb8\u200d\u2642\ufe0f\u26a1",
-      "url": "https://cinematicbites.com/stories/marvel-post-credit-theories/",
+      "url": "https://cinestories-omega.vercel.app/stories/marvel-post-credit-theories/",
       "category": "theories_easter_eggs",
       "release_date": "2024-07-26",
       "rating": 8.5
@@ -530,7 +566,7 @@
       "id": 999202,
       "slug": "dc-easter-eggs-theories",
       "title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories \ud83e\udd87\ud83c\udccf",
-      "url": "https://cinematicbites.com/stories/dc-easter-eggs-theories/",
+      "url": "https://cinestories-omega.vercel.app/stories/dc-easter-eggs-theories/",
       "category": "theories_easter_eggs",
       "release_date": "2022-03-04",
       "rating": 8.3
@@ -539,7 +575,7 @@
       "id": 634649,
       "slug": "spiderman-venom-post-credits",
       "title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse \ud83d\udd77\ufe0f\ud83d\udda4",
-      "url": "https://cinematicbites.com/stories/spiderman-venom-post-credits/",
+      "url": "https://cinestories-omega.vercel.app/stories/spiderman-venom-post-credits/",
       "category": "theories_easter_eggs",
       "release_date": "2021-12-17",
       "rating": 8.4
@@ -548,7 +584,7 @@
       "id": 1668,
       "slug": "friends-where-are-they-now",
       "title": "Friends: Where Are The Central Perk Stars Today? \u2615\u2728",
-      "url": "https://cinematicbites.com/stories/friends-where-are-they-now/",
+      "url": "https://cinestories-omega.vercel.app/stories/friends-where-are-they-now/",
       "category": "where_are_they_now",
       "release_date": "1994-09-22",
       "rating": 8.5
@@ -557,7 +593,7 @@
       "id": 2316,
       "slug": "the-office-where-are-they-now",
       "title": "The Office: Where Is The Dunder Mifflin Cast In 2026? \ud83d\udcc4\ud83d\udcce",
-      "url": "https://cinematicbites.com/stories/the-office-where-are-they-now/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-office-where-are-they-now/",
       "category": "where_are_they_now",
       "release_date": "2005-03-24",
       "rating": 8.6
@@ -566,7 +602,7 @@
       "id": 999301,
       "slug": "sitcom-stars-where-are-they-now",
       "title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars \ud83d\udcfa\u2728",
-      "url": "https://cinematicbites.com/stories/sitcom-stars-where-are-they-now/",
+      "url": "https://cinestories-omega.vercel.app/stories/sitcom-stars-where-are-they-now/",
       "category": "where_are_they_now",
       "release_date": "2000-01-09",
       "rating": 8.4
@@ -575,7 +611,7 @@
       "id": 71446,
       "slug": "money-heist",
       "title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed \ud83d\udcb0",
-      "url": "https://cinematicbites.com/stories/money-heist/",
+      "url": "https://cinestories-omega.vercel.app/stories/money-heist/",
       "category": "series",
       "release_date": "2017-05-02",
       "rating": 8.2
@@ -584,7 +620,7 @@
       "id": 66732,
       "slug": "stranger-things",
       "title": "The Upside Down: 5 Dark Secrets Ahead Of Season 5 \ud83d\udeb2\u26a1",
-      "url": "https://cinematicbites.com/stories/stranger-things/",
+      "url": "https://cinestories-omega.vercel.app/stories/stranger-things/",
       "category": "series",
       "release_date": "2016-07-15",
       "rating": 8.6
@@ -593,7 +629,7 @@
       "id": 76479,
       "slug": "the-boys",
       "title": "Homelander Unhinged: 5 Sickest Twists In The Boys \ud83e\ude78\ud83e\uddb8\u200d\u2642\ufe0f",
-      "url": "https://cinematicbites.com/stories/the-boys/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-boys/",
       "category": "series",
       "release_date": "2019-07-26",
       "rating": 8.5
@@ -602,7 +638,7 @@
       "id": 1396,
       "slug": "breaking-bad",
       "title": "I Am The Danger: How Walter White Became TV's Greatest Villain \u2697\ufe0f",
-      "url": "https://cinematicbites.com/stories/breaking-bad/",
+      "url": "https://cinestories-omega.vercel.app/stories/breaking-bad/",
       "category": "series",
       "release_date": "2008-01-20",
       "rating": 8.9
@@ -611,7 +647,7 @@
       "id": 119051,
       "slug": "wednesday",
       "title": "Wednesday Addams: 5 Goth Secrets That Broke Netflix Records \ud83d\udda4\ud83d\udd77\ufe0f",
-      "url": "https://cinematicbites.com/stories/wednesday/",
+      "url": "https://cinestories-omega.vercel.app/stories/wednesday/",
       "category": "series",
       "release_date": "2022-11-23",
       "rating": 8.4
@@ -620,7 +656,7 @@
       "id": 1399,
       "slug": "game-of-thrones",
       "title": "Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled \ud83d\udc09\u2694\ufe0f",
-      "url": "https://cinematicbites.com/stories/game-of-thrones/",
+      "url": "https://cinestories-omega.vercel.app/stories/game-of-thrones/",
       "category": "series",
       "release_date": "2011-04-17",
       "rating": 8.4
@@ -629,7 +665,7 @@
       "id": 93405,
       "slug": "squid-game",
       "title": "Red Light, Green Light: 5 Twisted Rules of Squid Game \ud83d\udd34\ud83d\udfe2",
-      "url": "https://cinematicbites.com/stories/squid-game/",
+      "url": "https://cinestories-omega.vercel.app/stories/squid-game/",
       "category": "series",
       "release_date": "2021-09-17",
       "rating": 7.8
@@ -638,7 +674,7 @@
       "id": 100088,
       "slug": "the-last-of-us",
       "title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us \ud83c\udf44\ud83e\udddf",
-      "url": "https://cinematicbites.com/stories/the-last-of-us/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-last-of-us/",
       "category": "series",
       "release_date": "2023-01-15",
       "rating": 8.6
@@ -647,7 +683,7 @@
       "id": 603692,
       "slug": "john-wick-chapter-4",
       "title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
-      "url": "https://cinematicbites.com/stories/john-wick-chapter-4/",
+      "url": "https://cinestories-omega.vercel.app/stories/john-wick-chapter-4/",
       "category": "trending",
       "release_date": "2023-03-22",
       "rating": 7.7
@@ -656,7 +692,7 @@
       "id": 533535,
       "slug": "deadpool-and-wolverine",
       "title": "Maximum Effort! 5 Mindblowing Marvel Cameos & Secrets \u2694\ufe0f\ud83c\udf7f",
-      "url": "https://cinematicbites.com/stories/deadpool-and-wolverine/",
+      "url": "https://cinestories-omega.vercel.app/stories/deadpool-and-wolverine/",
       "category": "trending",
       "release_date": "2024-07-26",
       "rating": 7.7
@@ -665,7 +701,7 @@
       "id": 693134,
       "slug": "dune-part-two",
       "title": "Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed \ud83c\udfdc\ufe0f\ud83d\udd25",
-      "url": "https://cinematicbites.com/stories/dune-part-two/",
+      "url": "https://cinestories-omega.vercel.app/stories/dune-part-two/",
       "category": "trending",
       "release_date": "2024-03-01",
       "rating": 8.2
@@ -674,7 +710,7 @@
       "id": 718821,
       "slug": "twisters",
       "title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets \ud83c\udf2a\ufe0f\u26a1",
-      "url": "https://cinematicbites.com/stories/twisters/",
+      "url": "https://cinestories-omega.vercel.app/stories/twisters/",
       "category": "trending",
       "release_date": "2024-07-19",
       "rating": 7.0
@@ -683,7 +719,7 @@
       "id": 792307,
       "slug": "poor-things",
       "title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things \ud83e\udda2\ud83c\udfa9",
-      "url": "https://cinematicbites.com/stories/poor-things/",
+      "url": "https://cinestories-omega.vercel.app/stories/poor-things/",
       "category": "trending",
       "release_date": "2023-12-08",
       "rating": 7.8
@@ -692,7 +728,7 @@
       "id": 9532,
       "slug": "final-destination",
       "title": "Death's Plan: 5 Terrifying Accidental Kill Traps Ranked \ud83d\udc80",
-      "url": "https://cinematicbites.com/stories/final-destination/",
+      "url": "https://cinestories-omega.vercel.app/stories/final-destination/",
       "category": "cult_classic",
       "release_date": "2000-03-17",
       "rating": 6.6
@@ -701,7 +737,7 @@
       "id": 157336,
       "slug": "interstellar",
       "title": "Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar \ud83d\ude80\u23f3",
-      "url": "https://cinematicbites.com/stories/interstellar/",
+      "url": "https://cinestories-omega.vercel.app/stories/interstellar/",
       "category": "cult_classic",
       "release_date": "2014-11-05",
       "rating": 8.4
@@ -710,7 +746,7 @@
       "id": 27205,
       "slug": "inception",
       "title": "Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets \ud83c\udf00\ud83d\udca4",
-      "url": "https://cinematicbites.com/stories/inception/",
+      "url": "https://cinestories-omega.vercel.app/stories/inception/",
       "category": "cult_classic",
       "release_date": "2010-07-15",
       "rating": 8.4
@@ -719,7 +755,7 @@
       "id": 155,
       "slug": "the-dark-knight",
       "title": "Why So Serious? How Heath Ledger's Joker Made Movie History \ud83c\udccf\ud83e\udd87",
-      "url": "https://cinematicbites.com/stories/the-dark-knight/",
+      "url": "https://cinestories-omega.vercel.app/stories/the-dark-knight/",
       "category": "cult_classic",
       "release_date": "2008-07-16",
       "rating": 8.5
@@ -728,7 +764,7 @@
       "id": 872585,
       "slug": "oppenheimer",
       "title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer \ud83d\udca5\u2622\ufe0f",
-      "url": "https://cinematicbites.com/stories/oppenheimer/",
+      "url": "https://cinestories-omega.vercel.app/stories/oppenheimer/",
       "category": "cult_classic",
       "release_date": "2023-07-21",
       "rating": 8.1
@@ -737,7 +773,7 @@
       "id": 664413,
       "slug": "365-days",
       "title": "365 Days: Why Netflix's Bold Sensation Broke Global Records \ud83d\udd25\ud83d\udca5",
-      "url": "https://cinematicbites.com/stories/365-days/",
+      "url": "https://cinestories-omega.vercel.app/stories/365-days/",
       "category": "steamy_thrillers",
       "release_date": "2020-02-07",
       "rating": 5.6
@@ -746,7 +782,7 @@
       "id": 402,
       "slug": "basic-instinct",
       "title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller \ud83e\uddca\u26a1",
-      "url": "https://cinematicbites.com/stories/basic-instinct/",
+      "url": "https://cinestories-omega.vercel.app/stories/basic-instinct/",
       "category": "steamy_thrillers",
       "release_date": "1992-03-20",
       "rating": 6.9
@@ -755,7 +791,7 @@
       "id": 930564,
       "slug": "saltburn",
       "title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets \ud83c\udff0\ud83c\udf77",
-      "url": "https://cinematicbites.com/stories/saltburn/",
+      "url": "https://cinestories-omega.vercel.app/stories/saltburn/",
       "category": "steamy_thrillers",
       "release_date": "2023-11-17",
       "rating": 7.1
@@ -764,7 +800,7 @@
       "id": 558449,
       "slug": "gladiator-ii",
       "title": "Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War \ud83c\udfdb\ufe0f\u2694\ufe0f",
-      "url": "https://cinematicbites.com/stories/gladiator-ii/",
+      "url": "https://cinestories-omega.vercel.app/stories/gladiator-ii/",
       "category": "upcoming",
       "release_date": "2024-11-22",
       "rating": 6.8
