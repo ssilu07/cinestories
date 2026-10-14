@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-14T18:07:01.695610+00:00",
-  "total_stories": 73,
+  "generated_at": "2026-10-14T18:17:35.701451+00:00",
+  "total_stories": 77,
   "stories": [
+    {
+      "id": 289892,
+      "slug": "helluva-boss",
+      "title": "Helluva Boss: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/helluva-boss/",
+      "category": "series",
+      "release_date": "2020-10-31",
+      "rating": 7.5
+    },
+    {
+      "id": 1153576,
+      "slug": "street-fighter",
+      "title": "Street Fighter: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/street-fighter/",
+      "category": "trending",
+      "release_date": "2026-10-13",
+      "rating": 6.5
+    },
+    {
+      "id": 1400837,
+      "slug": "other-mommy",
+      "title": "Other Mommy: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/other-mommy/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 6.0
+    },
+    {
+      "id": 1375646,
+      "slug": "colony",
+      "title": "Colony: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/colony/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-05-21",
+      "rating": 8.1
+    },
     {
       "id": 312359,
       "slug": "dragon-ball-super-beerus",
