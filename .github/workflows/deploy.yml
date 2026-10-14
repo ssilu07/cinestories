@@ -82,9 +82,17 @@ jobs:
           if [ "${{ inputs.demo_mode }}" = "true" ]; then
             DEMO_FLAG="--demo"
           fi
+          CATEGORY="${{ inputs.category }}"
+          if [ -z "$CATEGORY" ] || [ "$CATEGORY" = "true" ]; then
+            CATEGORY="all"
+          fi
+          DAILY_LIMIT="${{ inputs.count }}"
+          if [ -z "$DAILY_LIMIT" ] || [ "$DAILY_LIMIT" = "true" ]; then
+            DAILY_LIMIT="4"
+          fi
           python fetch_and_generate.py \
-            --category "${{ inputs.category || 'all' }}" \
-            --daily-limit "${{ inputs.count || '4' }}" \
+            --category "$CATEGORY" \
+            --daily-limit "$DAILY_LIMIT" \
             $DEMO_FLAG
 
       - name: Verify 100% AMP Compliance

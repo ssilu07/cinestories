@@ -113,6 +113,9 @@ def load_published_registry(registry_path: Path, dist_dir: Path) -> Dict[str, An
                         "modified_at": a.get("date_modified") or a.get("modified_at") or "2026-10-01T00:00:00Z",
                         "category": a.get("movie", {}).get("category", "trending")
                     }
+        except Exception:
+            pass
+
     cache_stories_path = dist_dir / "stories_cache.json"
     if cache_stories_path.exists():
         try:
