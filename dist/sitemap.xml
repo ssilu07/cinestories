@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/articles/dragon-ball-super-beerus/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg</image:loc>
+      <image:title>Dragon Ball Super: Beerus: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/love-of-your-life/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg</image:loc>
+      <image:title>Love of Your Life: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-mongoose/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg</image:loc>
+      <image:title>The Mongoose: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/resident-evil-welcome-to-raccoon-city/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg</image:loc>
+      <image:title>Resident Evil: Welcome to Raccoon City: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/articles/link-click/</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>daily</changefreq>
@@ -700,6 +740,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/dragon-ball-super-beerus/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg</image:loc>
+      <image:title>Dragon Ball Super: Beerus Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/love-of-your-life/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/gOaRyRpilYPEsVLEPHOH9eHNw5E.jpg</image:loc>
+      <image:title>Love of Your Life Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-mongoose/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/eSS5mvSG84UUuvtbHel5Yu3Wik4.jpg</image:loc>
+      <image:title>The Mongoose Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/resident-evil-welcome-to-raccoon-city/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/bArhvjRHl535XMaSh9VjInF2mSZ.jpg</image:loc>
+      <image:title>Resident Evil: Welcome to Raccoon City Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

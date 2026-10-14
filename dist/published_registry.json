@@ -1,0 +1,440 @@
+{
+  "link-click": {
+    "title": "LINK CLICK",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "visionquest": {
+    "title": "VisionQuest",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "carrie": {
+    "title": "Carrie",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "spider-man-brand-new-day": {
+    "title": "Spider-Man: Brand New Day",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "animals": {
+    "title": "Animals",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "hope": {
+    "title": "Hope",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "barbara-karlich-talk-um-4": {
+    "title": "Barbara Karlich \u2013 Talk um 4",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "watch-what-happens-live-with-andy-cohen": {
+    "title": "Watch What Happens Live with Andy Cohen",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "come-home-love-lo-and-behold": {
+    "title": "Come Home Love: Lo and Behold",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "avatar-aang-the-last-airbender": {
+    "title": "Avatar Aang: The Last Airbender",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "batman-knightfall-part-1-knightfall": {
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "swapped": {
+    "title": "Swapped",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "drawn-together": {
+    "title": "Drawn Together",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "my-fault": {
+    "title": "My Fault",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "the-gorge": {
+    "title": "The Gorge",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "fall-2-deadpoint": {
+    "title": "Fall 2: Deadpoint",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "runner": {
+    "title": "Runner",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "the-fix": {
+    "title": "The Fix",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "below": {
+    "title": "Below",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "lanterns": {
+    "title": "Lanterns",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "matchbox-the-movie": {
+    "title": "Matchbox the Movie",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "souryo-to-majiwaru-shikiyoku-no-yoru-ni": {
+    "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "fifty-shades-of-grey": {
+    "title": "Fifty Shades of Grey",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "take-charge-of-my-heart": {
+    "title": "Take Charge of My Heart",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "insidious-out-of-the-further": {
+    "title": "Insidious: Out of the Further",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "digger": {
+    "title": "Digger",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "reacher": {
+    "title": "Reacher",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "east-of-eden": {
+    "title": "East of Eden",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "one-piece": {
+    "title": "One Piece",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "resident-evil": {
+    "title": "Resident Evil",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "coyote-vs-acme": {
+    "title": "Coyote vs. Acme",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "marshals": {
+    "title": "Marshals",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "the-uprising": {
+    "title": "The Uprising",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "the-tonight-show-starring-jimmy-fallon": {
+    "title": "The Tonight Show Starring Jimmy Fallon",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "coven-academy": {
+    "title": "Coven Academy",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "black-clover": {
+    "title": "Black Clover",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "avengers-doomsday": {
+    "title": "Avengers: Doomsday",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "streaming-weekly-top-10-us-uk": {
+    "title": "Top 10 Streaming Hits (US & UK)",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "streaming_charts"
+  },
+  "fallout-prime-video": {
+    "title": "Fallout",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "streaming_charts"
+  },
+  "house-of-the-dragon": {
+    "title": "House of the Dragon",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "streaming_charts"
+  },
+  "shogun": {
+    "title": "Sh\u014dgun",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "streaming_charts"
+  },
+  "marvel-post-credit-theories": {
+    "title": "Marvel Post-Credit Theories",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "dc-easter-eggs-theories": {
+    "title": "DC Universe Secrets & Theories",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "spiderman-venom-post-credits": {
+    "title": "Spider-Man & Venom Post-Credits",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "theories_easter_eggs"
+  },
+  "friends-where-are-they-now": {
+    "title": "Friends: Where Are They Now?",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "where_are_they_now"
+  },
+  "the-office-where-are-they-now": {
+    "title": "The Office: Where Are They Now?",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "where_are_they_now"
+  },
+  "sitcom-stars-where-are-they-now": {
+    "title": "90s/2000s Sitcom Stars: Where Are They Now?",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "where_are_they_now"
+  },
+  "money-heist": {
+    "title": "Money Heist",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "stranger-things": {
+    "title": "Stranger Things",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "the-boys": {
+    "title": "The Boys",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "breaking-bad": {
+    "title": "Breaking Bad",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "wednesday": {
+    "title": "Wednesday",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "game-of-thrones": {
+    "title": "Game of Thrones",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "squid-game": {
+    "title": "Squid Game",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "the-last-of-us": {
+    "title": "The Last of Us",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "series"
+  },
+  "john-wick-chapter-4": {
+    "title": "John Wick: Chapter 4",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "trending"
+  },
+  "deadpool-and-wolverine": {
+    "title": "Deadpool & Wolverine",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "trending"
+  },
+  "dune-part-two": {
+    "title": "Dune: Part Two",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "trending"
+  },
+  "twisters": {
+    "title": "Twisters",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "trending"
+  },
+  "poor-things": {
+    "title": "Poor Things",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "trending"
+  },
+  "final-destination": {
+    "title": "Final Destination",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "interstellar": {
+    "title": "Interstellar",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "inception": {
+    "title": "Inception",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "the-dark-knight": {
+    "title": "The Dark Knight",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "oppenheimer": {
+    "title": "Oppenheimer",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "cult_classic"
+  },
+  "365-days": {
+    "title": "365 Days",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "basic-instinct": {
+    "title": "Basic Instinct",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "saltburn": {
+    "title": "Saltburn",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "steamy_thrillers"
+  },
+  "gladiator-ii": {
+    "title": "Gladiator II",
+    "published_at": "2026-10-01T00:00:00Z",
+    "modified_at": "2026-10-01T00:00:00Z",
+    "category": "upcoming"
+  },
+  "dragon-ball-super-beerus": {
+    "title": "Dragon Ball Super: Beerus",
+    "published_at": "2026-10-14T18:06:40Z",
+    "modified_at": "2026-10-14T18:06:40Z",
+    "category": "series"
+  },
+  "love-of-your-life": {
+    "title": "Love of Your Life",
+    "published_at": "2026-10-14T18:06:40Z",
+    "modified_at": "2026-10-14T18:06:40Z",
+    "category": "trending"
+  },
+  "the-mongoose": {
+    "title": "The Mongoose",
+    "published_at": "2026-10-14T18:06:40Z",
+    "modified_at": "2026-10-14T18:06:40Z",
+    "category": "upcoming"
+  },
+  "resident-evil-welcome-to-raccoon-city": {
+    "title": "Resident Evil: Welcome to Raccoon City",
+    "published_at": "2026-10-14T18:06:40Z",
+    "modified_at": "2026-10-14T18:06:40Z",
+    "category": "theories_easter_eggs"
+  }
+}

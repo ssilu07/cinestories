@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-14T10:57:23.798097+00:00",
-  "total_stories": 69,
+  "generated_at": "2026-10-14T18:07:01.695610+00:00",
+  "total_stories": 73,
   "stories": [
+    {
+      "id": 312359,
+      "slug": "dragon-ball-super-beerus",
+      "title": "Dragon Ball Super: Beerus: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/dragon-ball-super-beerus/",
+      "category": "series",
+      "release_date": "2026-10-11",
+      "rating": 9.8
+    },
+    {
+      "id": 1381078,
+      "slug": "love-of-your-life",
+      "title": "Love of Your Life: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/love-of-your-life/",
+      "category": "trending",
+      "release_date": "2026-10-07",
+      "rating": 6.3
+    },
+    {
+      "id": 1294189,
+      "slug": "the-mongoose",
+      "title": "The Mongoose: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-mongoose/",
+      "category": "upcoming",
+      "release_date": "2026-10-29",
+      "rating": 0.0
+    },
+    {
+      "id": 460458,
+      "slug": "resident-evil-welcome-to-raccoon-city",
+      "title": "Resident Evil: Welcome to Raccoon City: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/resident-evil-welcome-to-raccoon-city/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-11-24",
+      "rating": 5.9
+    },
     {
       "id": 123542,
       "slug": "link-click",
