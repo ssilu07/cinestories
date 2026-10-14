@@ -1,35 +1,35 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-13T13:21:43.493068+00:00",
-  "total_stories": 66,
+  "generated_at": "2026-10-14T10:57:23.798097+00:00",
+  "total_stories": 69,
   "stories": [
     {
       "id": 123542,
       "slug": "link-click",
-      "title": "Link Click: The Time-Travel Anime You Need to Watch \u23f3\ud83d\udcf8",
+      "title": "LINK CLICK: The Untold Story & Secrets",
       "url": "https://cinestories-omega.vercel.app/stories/link-click/",
       "category": "series",
       "release_date": "2021-04-30",
       "rating": 8.1
     },
     {
-      "id": 285322,
-      "slug": "below",
-      "title": "Below: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/below/",
+      "id": 213375,
+      "slug": "visionquest",
+      "title": "VisionQuest: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/visionquest/",
       "category": "series",
-      "release_date": "2026-10-08",
-      "rating": 7.3
+      "release_date": "2026-10-13",
+      "rating": 9.5
     },
     {
-      "id": 95350,
-      "slug": "lanterns",
-      "title": "Lanterns: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
+      "id": 288673,
+      "slug": "carrie",
+      "title": "Carrie: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/carrie/",
       "category": "series",
-      "release_date": "2026-08-16",
-      "rating": 8.3
+      "release_date": "2026-10-07",
+      "rating": 8.5
     },
     {
       "id": 969681,
@@ -47,16 +47,25 @@
       "url": "https://cinestories-omega.vercel.app/stories/animals/",
       "category": "theories_easter_eggs",
       "release_date": "2026-10-09",
-      "rating": 7.4
+      "rating": 7.3
     },
     {
-      "id": 1148365,
-      "slug": "matchbox-the-movie",
-      "title": "Matchbox the Movie: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/matchbox-the-movie/",
+      "id": 1058424,
+      "slug": "hope",
+      "title": "Hope: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/hope/",
       "category": "theories_easter_eggs",
-      "release_date": "2026-10-05",
-      "rating": 8.0
+      "release_date": "2026-07-15",
+      "rating": 7.2
+    },
+    {
+      "id": 108188,
+      "slug": "barbara-karlich-talk-um-4",
+      "title": "Barbara Karlich \u2013 Talk um 4: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/barbara-karlich-talk-um-4/",
+      "category": "series",
+      "release_date": "1999-10-27",
+      "rating": 4.5
     },
     {
       "id": 22980,
@@ -77,13 +86,13 @@
       "rating": 5.4
     },
     {
-      "id": 70998,
-      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
-      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
-      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
-      "category": "series",
-      "release_date": "2017-04-03",
-      "rating": 5.5
+      "id": 980431,
+      "slug": "avatar-aang-the-last-airbender",
+      "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
+      "category": "cult_classic",
+      "release_date": "2026-07-24",
+      "rating": 9.1
     },
     {
       "id": 1560520,
@@ -92,15 +101,6 @@
       "url": "https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/",
       "category": "cult_classic",
       "release_date": "2026-06-23",
-      "rating": 9.1
-    },
-    {
-      "id": 980431,
-      "slug": "avatar-aang-the-last-airbender",
-      "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/",
-      "category": "cult_classic",
-      "release_date": "2026-07-24",
       "rating": 9.1
     },
     {
@@ -149,15 +149,6 @@
       "rating": 7.3
     },
     {
-      "id": 1228834,
-      "slug": "the-fix",
-      "title": "The Fix: The Untold Story & Secrets",
-      "url": "https://cinestories-omega.vercel.app/stories/the-fix/",
-      "category": "upcoming",
-      "release_date": "2026-09-10",
-      "rating": 6.8
-    },
-    {
       "id": 1377237,
       "slug": "runner",
       "title": "Runner: The Untold Story & Secrets",
@@ -167,13 +158,49 @@
       "rating": 8.3
     },
     {
-      "id": 288673,
-      "slug": "carrie",
-      "title": "Mike Flanagan's Carrie: 5 Huge Revelations \ud83e\ude78\ud83d\udd25",
-      "url": "https://cinestories-omega.vercel.app/stories/carrie/",
+      "id": 1228834,
+      "slug": "the-fix",
+      "title": "The Fix: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-fix/",
+      "category": "upcoming",
+      "release_date": "2026-09-10",
+      "rating": 6.8
+    },
+    {
+      "id": 285322,
+      "slug": "below",
+      "title": "Below: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/below/",
       "category": "series",
-      "release_date": "2026-10-07",
-      "rating": 8.4
+      "release_date": "2026-10-08",
+      "rating": 7.3
+    },
+    {
+      "id": 95350,
+      "slug": "lanterns",
+      "title": "Lanterns: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/lanterns/",
+      "category": "series",
+      "release_date": "2026-08-16",
+      "rating": 8.3
+    },
+    {
+      "id": 1148365,
+      "slug": "matchbox-the-movie",
+      "title": "Matchbox the Movie: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/matchbox-the-movie/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-10-05",
+      "rating": 8.0
+    },
+    {
+      "id": 70998,
+      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
+      "url": "https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+      "category": "series",
+      "release_date": "2017-04-03",
+      "rating": 5.5
     },
     {
       "id": 216015,
