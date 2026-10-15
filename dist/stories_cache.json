@@ -1,5 +1,418 @@
 [
   {
+    "title": "C.I.D.: The Untold Story & Secrets",
+    "seo_description": "Discover C.I.D.: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 15226,
+      "title": "C.I.D.",
+      "original_title": "\u0938\u0940\u0906\u0908\u0921\u0940",
+      "slug": "cid",
+      "media_type": "tv",
+      "release_date": "1998-01-21",
+      "overview": "A team of dedicated men and women in the Crime Investigation Department will risk everything to solve Mumbai's toughest, most complicated crimes.",
+      "tagline": "",
+      "genres": [
+        "Action & Adventure",
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 45,
+      "seasons": 2,
+      "vote_average": 5.8,
+      "vote_count": 32,
+      "category": "series",
+      "director": "Brijendra Pal Singh (Creator)",
+      "top_cast": [
+        "Shivaji Satham",
+        "Aditya Srivastava",
+        "Dayanand Shetty",
+        "Narendra Gupta",
+        "Parul Rai",
+        "Saumya Saraswat Lol"
+      ],
+      "poster_path": "/3UymnlLfLMKxG8OcFhSnAlnhQfZ.jpg",
+      "backdrop_path": "/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg",
+      "backdrops": [
+        "/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg",
+        "/dWtTxKFsbY2ZunL2DNmMjnbKfRi.jpg",
+        "/hRjxW43vXpHZEKoT0g7zbQUgwwd.jpg",
+        "/geP47ML6S7g1HZjvT9dxIWc0elj.jpg",
+        "/aqyxAXhx6yTdKOlCRiiKM5TsXpp.jpg",
+        "/2gF4fimw4F7DtIaEysQ722nkC8M.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "C.I.D.",
+        "text": "Experience the global phenomenon of C.I.D.. Rated 5.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "A team of dedicated men and women in the Crime Investigation Department will risk everything to solve Mumbai's toughest, most complicated crimes.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Shivaji Satham, Aditya Srivastava, Dayanand Shetty, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Brijendra Pal Singh (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Brijendra Pal Singh (Creator)",
+        "text": "Filmmaker Brijendra Pal Singh (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.8/10 on TMDB",
+        "text": "With an impressive 5.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into C.I.D.? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/15226"
+      }
+    ],
+    "date_published": "2026-10-15T10:43:57Z",
+    "date_modified": "2026-10-15T10:43:57Z",
+    "published_at": "2026-10-15T10:43:57Z"
+  },
+  {
+    "title": "Tad and The Magic Lamp: The Untold Story & Secrets",
+    "seo_description": "Discover Tad and The Magic Lamp: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1187326,
+      "title": "Tad and The Magic Lamp",
+      "original_title": "Tadeo Jones y La L\u00e1mpara Maravillosa",
+      "slug": "tad-and-the-magic-lamp",
+      "media_type": "movie",
+      "release_date": "2026-08-26",
+      "overview": "Tadeo, his girlfriend Sara, and his friends Momia, Jeff, and Belzoni embark on an adventure after Tadeo accidentally unleashes an ancient spell.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "runtime": 94,
+      "seasons": null,
+      "vote_average": 7.1,
+      "vote_count": 28,
+      "category": "trending",
+      "director": "Enrique Gato",
+      "top_cast": [
+        "\u00d3scar Barber\u00e1n",
+        "Michelle Jenner",
+        "Luis Posada",
+        "Joseph Balderrama",
+        "Trevor White"
+      ],
+      "poster_path": "/AdDxZgNmRYgDuweY8899buyVqlr.jpg",
+      "backdrop_path": "/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg",
+      "backdrops": [
+        "/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg",
+        "/oG5kozJWLzevTrAPovtdnhCFo21.jpg",
+        "/kJEPVYOcUWuuQpJfQV1M0TEd9If.jpg",
+        "/7fAcrKaLUegGUsH9zj7VyITsGXA.jpg",
+        "/dg6Ml6ocB6yvVdXCTabRUaGHDY0.jpg",
+        "/7bXBeHGucot6Va1nVjzSqVEzc0E.jpg",
+        "/vDujLqalL5kon9QAd5hGTca9vtm.jpg",
+        "/3vb5ASz71Z6WGVSFRlOYZlJUsJd.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Tad and The Magic Lamp",
+        "text": "Experience the global phenomenon of Tad and The Magic Lamp. Rated 7.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Tadeo, his girlfriend Sara, and his friends Momia, Jeff, and Belzoni embark on an adventure after Tadeo accidentally unleashes an ancient spell.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by \u00d3scar Barber\u00e1n, Michelle Jenner, Luis Posada, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Enrique Gato.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Enrique Gato",
+        "text": "Filmmaker Enrique Gato pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.1/10 on TMDB",
+        "text": "With an impressive 7.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Tad and The Magic Lamp? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1187326"
+      }
+    ],
+    "date_published": "2026-10-15T10:43:57Z",
+    "date_modified": "2026-10-15T10:43:57Z",
+    "published_at": "2026-10-15T10:43:57Z"
+  },
+  {
+    "title": "Obsession: The Untold Story & Secrets",
+    "seo_description": "Discover Obsession: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1339713,
+      "title": "Obsession",
+      "original_title": "Obsession",
+      "slug": "obsession",
+      "media_type": "movie",
+      "release_date": "2026-05-13",
+      "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+      "tagline": "Be careful who you wish for\u2026",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 109,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 6116,
+      "category": "upcoming",
+      "director": "Curry Barker",
+      "top_cast": [
+        "Michael Johnston",
+        "Inde Navarrette",
+        "Cooper Tomlinson",
+        "Megan Lawless",
+        "Andy Richter",
+        "Haley Fitzgerald"
+      ],
+      "poster_path": "/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "backdrop_path": "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+      "backdrops": [
+        "/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+        "/uoTZOIXnkcTgJe1emITpsQq7sPu.jpg",
+        "/diOZbaDnB2CIilwd0527AB1qMvW.jpg",
+        "/r013C8Me2bZ0pUi0OWJRh0h7MzT.jpg",
+        "/4k99kV4R1bbbrsnjR205v91Xbin.jpg",
+        "/u5BkYDM5gfK4wINfoIFMAcEUKhx.jpg",
+        "/7xZCxnhIB7XNwbJDoaNocFzGOmO.jpg",
+        "/8Z4mNUnfhiOSYzcCw3yoGR7q2un.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Obsession",
+        "text": "Be careful who you wish for\u2026 Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Michael Johnston, Inde Navarrette, Cooper Tomlinson, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Curry Barker.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Curry Barker",
+        "text": "Filmmaker Curry Barker pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Obsession? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1339713"
+      }
+    ],
+    "date_published": "2026-10-15T10:43:57Z",
+    "date_modified": "2026-10-15T10:43:57Z",
+    "published_at": "2026-10-15T10:43:57Z"
+  },
+  {
+    "title": "Supergirl: The Untold Story & Secrets",
+    "seo_description": "Discover Supergirl: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1081003,
+      "title": "Supergirl",
+      "original_title": "Supergirl",
+      "slug": "supergirl",
+      "media_type": "movie",
+      "release_date": "2026-06-24",
+      "overview": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
+      "tagline": "Truth. Justice. Whatever.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 108,
+      "seasons": null,
+      "vote_average": 6.7,
+      "vote_count": 2571,
+      "category": "theories_easter_eggs",
+      "director": "Craig Gillespie",
+      "top_cast": [
+        "Milly Alcock",
+        "Eve Ridley",
+        "Matthias Schoenaerts",
+        "Jason Momoa",
+        "David Krumholtz",
+        "Emily Beecham"
+      ],
+      "poster_path": "/uhzRnTW4DM13UQBvZP3eVNzQTuz.jpg",
+      "backdrop_path": "/heZQmyNvkH236ha2M3JckdUQQqb.jpg",
+      "backdrops": [
+        "/heZQmyNvkH236ha2M3JckdUQQqb.jpg",
+        "/4X2YSe8PaYbsBqX3TDmmIU4vOju.jpg",
+        "/54KIfdTEzOliHDKx0OkzYGqAICx.jpg",
+        "/cbyslfazMuDUGt4W6QcO3cKq8xj.jpg",
+        "/70GFlSR8e4A4sUZtWril19Cucy7.jpg",
+        "/6nlqYWDUpNem3v2bDCxQNSg41aY.jpg",
+        "/2qWVt6JS1mIC2X2awSuuOnAYNbE.jpg",
+        "/vk5IwZNS35wh6rNmqB1ns6XuiyI.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Supergirl",
+        "text": "Truth. Justice. Whatever. Rated 6.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Milly Alcock, Eve Ridley, Matthias Schoenaerts, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Craig Gillespie.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Craig Gillespie",
+        "text": "Filmmaker Craig Gillespie pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.7/10 on TMDB",
+        "text": "With an impressive 6.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Supergirl? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1081003"
+      }
+    ],
+    "date_published": "2026-10-15T10:43:57Z",
+    "date_modified": "2026-10-15T10:43:57Z",
+    "published_at": "2026-10-15T10:43:57Z"
+  },
+  {
     "title": "Grey's Anatomy: The Untold Story & Secrets",
     "seo_description": "Discover Grey's Anatomy: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

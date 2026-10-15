@@ -604,5 +604,29 @@
     "published_at": "2026-10-15T02:48:40Z",
     "modified_at": "2026-10-15T02:48:40Z",
     "category": "theories_easter_eggs"
+  },
+  "cid": {
+    "title": "C.I.D.",
+    "published_at": "2026-10-15T10:43:57Z",
+    "modified_at": "2026-10-15T10:43:57Z",
+    "category": "series"
+  },
+  "tad-and-the-magic-lamp": {
+    "title": "Tad and The Magic Lamp",
+    "published_at": "2026-10-15T10:43:57Z",
+    "modified_at": "2026-10-15T10:43:57Z",
+    "category": "trending"
+  },
+  "obsession": {
+    "title": "Obsession",
+    "published_at": "2026-10-15T10:43:57Z",
+    "modified_at": "2026-10-15T10:43:57Z",
+    "category": "upcoming"
+  },
+  "supergirl": {
+    "title": "Supergirl",
+    "published_at": "2026-10-15T10:43:57Z",
+    "modified_at": "2026-10-15T10:43:57Z",
+    "category": "theories_easter_eggs"
   }
 }

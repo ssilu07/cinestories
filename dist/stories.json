@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-15T02:48:45.362160+00:00",
-  "total_stories": 101,
+  "generated_at": "2026-10-15T10:53:09.010054+00:00",
+  "total_stories": 105,
   "stories": [
+    {
+      "id": 15226,
+      "slug": "cid",
+      "title": "C.I.D.: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/cid/",
+      "category": "series",
+      "release_date": "1998-01-21",
+      "rating": 5.8
+    },
+    {
+      "id": 1187326,
+      "slug": "tad-and-the-magic-lamp",
+      "title": "Tad and The Magic Lamp: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/tad-and-the-magic-lamp/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 7.1
+    },
+    {
+      "id": 1339713,
+      "slug": "obsession",
+      "title": "Obsession: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/obsession/",
+      "category": "upcoming",
+      "release_date": "2026-05-13",
+      "rating": 8.2
+    },
+    {
+      "id": 1081003,
+      "slug": "supergirl",
+      "title": "Supergirl: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/supergirl/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-06-24",
+      "rating": 6.7
+    },
     {
       "id": 1416,
       "slug": "greys-anatomy",
