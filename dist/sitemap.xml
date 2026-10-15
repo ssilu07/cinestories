@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/articles/raw/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg</image:loc>
+      <image:title>Raw: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-storm/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg</image:loc>
+      <image:title>The Storm: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/backrooms/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg</image:loc>
+      <image:title>Backrooms: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-fantastic-4-first-steps/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg</image:loc>
+      <image:title>The Fantastic 4: First Steps: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/articles/cid/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
@@ -1060,6 +1100,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/raw/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg</image:loc>
+      <image:title>Raw Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-storm/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg</image:loc>
+      <image:title>The Storm Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/backrooms/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg</image:loc>
+      <image:title>Backrooms Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-fantastic-4-first-steps/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg</image:loc>
+      <image:title>The Fantastic 4: First Steps Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

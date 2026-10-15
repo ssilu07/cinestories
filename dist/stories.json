@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-15T10:53:09.010054+00:00",
-  "total_stories": 105,
+  "generated_at": "2026-10-15T16:10:52.245247+00:00",
+  "total_stories": 109,
   "stories": [
+    {
+      "id": 4656,
+      "slug": "raw",
+      "title": "Raw: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/raw/",
+      "category": "series",
+      "release_date": "1993-01-11",
+      "rating": 6.8
+    },
+    {
+      "id": 1623256,
+      "slug": "the-storm",
+      "title": "The Storm: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-storm/",
+      "category": "trending",
+      "release_date": "2026-10-15",
+      "rating": 8.8
+    },
+    {
+      "id": 1083381,
+      "slug": "backrooms",
+      "title": "Backrooms: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/backrooms/",
+      "category": "upcoming",
+      "release_date": "2026-05-27",
+      "rating": 7.0
+    },
+    {
+      "id": 617126,
+      "slug": "the-fantastic-4-first-steps",
+      "title": "The Fantastic 4: First Steps: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-fantastic-4-first-steps/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-07-23",
+      "rating": 6.9
+    },
     {
       "id": 15226,
       "slug": "cid",

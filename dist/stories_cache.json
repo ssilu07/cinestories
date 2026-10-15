@@ -1,5 +1,407 @@
 [
   {
+    "title": "Raw: The Untold Story & Secrets",
+    "seo_description": "Discover Raw: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 4656,
+      "title": "Raw",
+      "original_title": "Raw",
+      "slug": "raw",
+      "media_type": "tv",
+      "release_date": "1993-01-11",
+      "overview": "A regularly scheduled, live, year-round program featuring some of the biggest WWE Superstars.",
+      "tagline": "",
+      "genres": [
+        "Reality"
+      ],
+      "runtime": 50,
+      "seasons": 34,
+      "vote_average": 6.8,
+      "vote_count": 379,
+      "category": "series",
+      "director": "Vince McMahon (Creator)",
+      "top_cast": [],
+      "poster_path": "/fstEe6RsyNyPUnMwNcL20iNl0nE.jpg",
+      "backdrop_path": "/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+      "backdrops": [
+        "/dzexW1LJMC5w4oqG2XxUTcGMhL5.jpg",
+        "/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg",
+        "/gjRnFAQk4EVg1P1s5512FT1Lq9c.jpg",
+        "/fvnxFPUsTFMh81cMoIGBrJo8F6z.jpg",
+        "/aqTylK4Ai5bD1Rkqmc1MI39lCon.jpg",
+        "/7QmGgxQSnZZQ3NeiDm7n1A0avmz.jpg",
+        "/5psZYuy2gx5QLL7g6K0CpVsKIlo.jpg",
+        "/hCv5FFDtbOPYpgFAtvBwoMym4oO.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Raw",
+        "text": "Experience the global phenomenon of Raw. Rated 6.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "A regularly scheduled, live, year-round program featuring some of the biggest WWE Superstars.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by An all-star cast, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Vince McMahon (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Vince McMahon (Creator)",
+        "text": "Filmmaker Vince McMahon (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.8/10 on TMDB",
+        "text": "With an impressive 6.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Raw? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/4656"
+      }
+    ],
+    "date_published": "2026-10-15T16:09:03Z",
+    "date_modified": "2026-10-15T16:09:03Z",
+    "published_at": "2026-10-15T16:09:03Z"
+  },
+  {
+    "title": "The Storm: The Untold Story & Secrets",
+    "seo_description": "Discover The Storm: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1623256,
+      "title": "The Storm",
+      "original_title": "Stormen",
+      "slug": "the-storm",
+      "media_type": "movie",
+      "release_date": "2026-10-15",
+      "overview": "Filip is turning 45, and has invited his closest friends for dinner at his and his wife's lavish and newly bought farm estate up north in Sweden. What they don't know is that a ferocious storm is on its way and that they'll be trapped together. Their polished acts fall, and an unfiltered meltdown starts. When the panic starts to creep in and they all realise the seriousness of the situation, the farm starts to shrink, secrets spill out, and unexpected feelings take shape.",
+      "tagline": "",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 0,
+      "seasons": null,
+      "vote_average": 8.8,
+      "vote_count": 3,
+      "category": "trending",
+      "director": "Josephine Bornebusch",
+      "top_cast": [
+        "Gustaf Skarsg\u00e5rd",
+        "Aliette Opheim",
+        "Filip Berg",
+        "Josephine Bornebusch",
+        "Jonas Karlsson",
+        "Johan Rheborg"
+      ],
+      "poster_path": "/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg",
+      "backdrop_path": "/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+      "backdrops": [
+        "/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg",
+        "/7ueo1PdMU27d99pAK4IUY0DllBf.jpg",
+        "/m1lAfUB8vveNcE8DMLZxPTynecI.jpg",
+        "/vyffF8V1t9ntQ7r17iwKZb1Td6Z.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Storm",
+        "text": "Experience the global phenomenon of The Storm. Rated 8.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Filip is turning 45, and has invited his closest friends for dinner at his and his wife's lavish and newly bought farm estate up north in Sweden. What they don't know is that a...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Gustaf Skarsg\u00e5rd, Aliette Opheim, Filip Berg, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Josephine Bornebusch.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Josephine Bornebusch",
+        "text": "Filmmaker Josephine Bornebusch pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.8/10 on TMDB",
+        "text": "With an impressive 8.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Storm? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1623256"
+      }
+    ],
+    "date_published": "2026-10-15T16:09:03Z",
+    "date_modified": "2026-10-15T16:09:03Z",
+    "published_at": "2026-10-15T16:09:03Z"
+  },
+  {
+    "title": "Backrooms: The Untold Story & Secrets",
+    "seo_description": "Discover Backrooms: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1083381,
+      "title": "Backrooms",
+      "original_title": "Backrooms",
+      "slug": "backrooms",
+      "media_type": "movie",
+      "release_date": "2026-05-27",
+      "overview": "A strange doorway appears in the basement of a furniture showroom.",
+      "tagline": "See how far it goes.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Science Fiction"
+      ],
+      "runtime": 111,
+      "seasons": null,
+      "vote_average": 7.0,
+      "vote_count": 3737,
+      "category": "upcoming",
+      "director": "Kane Parsons",
+      "top_cast": [
+        "Chiwetel Ejiofor",
+        "Renate Reinsve",
+        "Finn Bennett",
+        "Lukita Maxwell",
+        "Mark Duplass",
+        "Avan Jogia"
+      ],
+      "poster_path": "/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
+      "backdrop_path": "/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+      "backdrops": [
+        "/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg",
+        "/wjwMC7u3xWKkrronolBqsIy4L0L.jpg",
+        "/oUozq2XHWifwAVOoS1qHU0qfXqM.jpg",
+        "/mCpwRayjXMFzKHbjbzc5JRKfq1O.jpg",
+        "/2aA8iPlMCks3k131ymFBAY6FL0b.jpg",
+        "/hhBqc8n9WaGizwMglvGZcDKzguK.jpg",
+        "/wcnZRIfDPRCJLng9HkJStuHLG04.jpg",
+        "/fF98whsBr0Kk565PaFap4A4LVPr.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Backrooms",
+        "text": "See how far it goes. Rated 7.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A strange doorway appears in the basement of a furniture showroom.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Chiwetel Ejiofor, Renate Reinsve, Finn Bennett, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Kane Parsons.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Kane Parsons",
+        "text": "Filmmaker Kane Parsons pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.0/10 on TMDB",
+        "text": "With an impressive 7.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Backrooms? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1083381"
+      }
+    ],
+    "date_published": "2026-10-15T16:09:03Z",
+    "date_modified": "2026-10-15T16:09:03Z",
+    "published_at": "2026-10-15T16:09:03Z"
+  },
+  {
+    "title": "The Fantastic 4: First Steps: The Untold Story & Secrets",
+    "seo_description": "Discover The Fantastic 4: First Steps: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 617126,
+      "title": "The Fantastic 4: First Steps",
+      "original_title": "The Fantastic 4: First Steps",
+      "slug": "the-fantastic-4-first-steps",
+      "media_type": "movie",
+      "release_date": "2025-07-23",
+      "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+      "tagline": "Welcome to the family.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "runtime": 115,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 4001,
+      "category": "theories_easter_eggs",
+      "director": "Matt Shakman",
+      "top_cast": [
+        "Pedro Pascal",
+        "Vanessa Kirby",
+        "Ebon Moss-Bachrach",
+        "Joseph Quinn",
+        "Ralph Ineson",
+        "Julia Garner"
+      ],
+      "poster_path": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
+      "backdrop_path": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+      "backdrops": [
+        "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+        "/hBvaanw3RfMEs1m1blY7xwRXzul.jpg",
+        "/6eLtIyVHCzqoQdsLfOPPNVTxsn7.jpg",
+        "/zcwEuzsG2vEZkKyScc63wWZf8Yv.jpg",
+        "/7FnmZCAjAwaHydgpjFKnu11MoWs.jpg",
+        "/kQwPp0OQR6zdTEHSI9ZCgDhd7qu.jpg",
+        "/ieJZ23Mbq0s4cfIPRbF7egJherc.jpg",
+        "/eAGGp2pNpkJQRRSnhAotuGLAZDK.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "The Fantastic 4: First Steps",
+        "text": "Welcome to the family. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Pedro Pascal, Vanessa Kirby, Ebon Moss-Bachrach, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Matt Shakman.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Matt Shakman",
+        "text": "Filmmaker Matt Shakman pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Fantastic 4: First Steps? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/617126"
+      }
+    ],
+    "date_published": "2026-10-15T16:09:03Z",
+    "date_modified": "2026-10-15T16:09:03Z",
+    "published_at": "2026-10-15T16:09:03Z"
+  },
+  {
     "title": "C.I.D.: The Untold Story & Secrets",
     "seo_description": "Discover C.I.D.: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

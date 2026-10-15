@@ -628,5 +628,29 @@
     "published_at": "2026-10-15T10:43:57Z",
     "modified_at": "2026-10-15T10:43:57Z",
     "category": "theories_easter_eggs"
+  },
+  "raw": {
+    "title": "Raw",
+    "published_at": "2026-10-15T16:09:03Z",
+    "modified_at": "2026-10-15T16:09:03Z",
+    "category": "series"
+  },
+  "the-storm": {
+    "title": "The Storm",
+    "published_at": "2026-10-15T16:09:03Z",
+    "modified_at": "2026-10-15T16:09:03Z",
+    "category": "trending"
+  },
+  "backrooms": {
+    "title": "Backrooms",
+    "published_at": "2026-10-15T16:09:03Z",
+    "modified_at": "2026-10-15T16:09:03Z",
+    "category": "upcoming"
+  },
+  "the-fantastic-4-first-steps": {
+    "title": "The Fantastic 4: First Steps",
+    "published_at": "2026-10-15T16:09:03Z",
+    "modified_at": "2026-10-15T16:09:03Z",
+    "category": "theories_easter_eggs"
   }
 }
