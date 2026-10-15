@@ -1,5 +1,419 @@
 [
   {
+    "title": "Sesame Street: 50+ Years of Pure TV Magic \ud83c\udf1f\ud83c\udf88",
+    "seo_description": "Discover how Sesame Street transformed television, brought Jim Henson's iconic Muppets to life, and built a global legacy of kindness.",
+    "movie": {
+      "id": 502,
+      "title": "Sesame Street",
+      "original_title": "Sesame Street",
+      "slug": "sesame-street",
+      "media_type": "tv",
+      "release_date": "1969-11-10",
+      "overview": "On a special inner city street, the inhabitants\u2014human and muppet\u2014teach preschoolers basic educational and social concepts using comedy, cartoons, games, and songs.",
+      "tagline": "Kindness is in the air.",
+      "genres": [
+        "Kids",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 56,
+      "vote_average": 7.1,
+      "vote_count": 296,
+      "category": "series",
+      "director": "Lloyd Morrisett, Joan Ganz Cooney, Jim Henson (Creator)",
+      "top_cast": [
+        "Sonia Manzano",
+        "Roscoe Orman",
+        "Martin P. Robinson",
+        "Suki Lopez",
+        "Violet Tinnirello",
+        "Jennifer Barnhart"
+      ],
+      "poster_path": "/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg",
+      "backdrop_path": "/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+      "backdrops": [
+        "/tNi2aJPdCKfielGYzIi3IKxStz9.jpg",
+        "/mgztlkIJE463QjfcQG7b4912DNp.jpg",
+        "/tE45F8WHdKdHwolVHcfzJuTBZD8.jpg",
+        "/rYlCELMEo1IFfjJB6EP1ket8gM.jpg",
+        "/zIbkxRfoDXj9cOcQSFjB9yDHwj.jpg",
+        "/ixagRegmRzflFyJtSeW2mSoLTsP.jpg",
+        "/Dz21d7npHtlKgBUvVCMisXsjuI.jpg",
+        "/3g9F6JEuaYQcgzxxSR1sFVbyCyG.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TV LEGEND",
+        "title": "A Revolution on Screen \ud83c\udf1f",
+        "text": "Debuting in 1969, Sesame Street reimagined television forever. It blended inner-city realism, vibrant music, and furry monsters to foster empathy and learning worldwide.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/502"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Sunny Days on the Block \u2600\ufe0f",
+        "text": "Set on an authentic urban street, human neighbors and lovable puppets turn basic literacy, arithmetic, and emotional challenges into joyful, unforgettable adventures.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/502"
+      },
+      {
+        "id": "page-3",
+        "badge": "MUPPET MAGIC",
+        "title": "Jim Henson's Genius \ud83c\udfad",
+        "text": "Puppetry visionary Jim Henson introduced icons like Big Bird, Bert, Ernie, and Elmo, blending sharp comedic wit with heartfelt childhood innocence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/502"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Science Meets Comedy \ud83d\udd2c",
+        "text": "Created by Joan Ganz Cooney and Lloyd Morrisett, every episode paired child development psychologists with comedy writers to guarantee lessons truly resonated.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/502"
+      },
+      {
+        "id": "page-5",
+        "badge": "GLOBAL IMPACT",
+        "title": "Generations of Kindness \ud83d\udc9a",
+        "text": "Over five decades later, the series has collected record-setting Emmy Awards and educated hundreds of millions of children across 150 countries.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/502"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Relive the Nostalgia \ud83d\udcfa",
+        "text": "Rediscover timeless sketches, legendary celebrity guest stars, and the inspiring neighborhood that continues to brighten screens across generations.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Sesame Street",
+        "cta_url": "https://www.themoviedb.org/tv/502"
+      }
+    ],
+    "date_published": "2026-10-15T20:51:03Z",
+    "date_modified": "2026-10-15T20:51:03Z",
+    "published_at": "2026-10-15T20:51:03Z"
+  },
+  {
+    "title": "Jailer 2: The Untold Story & Secrets",
+    "seo_description": "Discover Jailer 2: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1234139,
+      "title": "Jailer 2",
+      "original_title": "\u0b9c\u0bc6\u0baf\u0bbf\u0bb2\u0bb0\u0bcd 2",
+      "slug": "jailer-2",
+      "media_type": "movie",
+      "release_date": "2026-10-14",
+      "overview": "When a dangerous syndicate expands its reach to threaten his family's peace, retired jailer Tiger Muthuvel Pandian goes undercover as a driver. Operating from the shadows, he takes on ruthless new enemies to protect his home.",
+      "tagline": "",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 163,
+      "seasons": null,
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "category": "trending",
+      "director": "Nelson Dilipkumar",
+      "top_cast": [
+        "Rajinikanth",
+        "S. J. Suryah",
+        "Mithun Chakraborty",
+        "Suraj Venjaramoodu",
+        "Ramya Krishnan",
+        "Vidya Balan"
+      ],
+      "poster_path": "/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg",
+      "backdrop_path": "/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+      "backdrops": [
+        "/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg",
+        "/556BFX63Q73jTghqg1g3JPNzCDO.jpg",
+        "/ceclu0D2psC5VTIkhcHJ3a4iBsI.jpg",
+        "/paGuGyEysCn49NOP8xfXipxp1qk.jpg",
+        "/jiepYPH25Cff5aFNn57KCiSszxQ.jpg",
+        "/cJtT4dxFpHPTVk2MiOqUXM6Rg0D.jpg",
+        "/3jCLCnbLDVxAbZJSieD1tnWCVKg.jpg",
+        "/qoHhsetUS2wnGM5SlohO7UxYUjR.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Jailer 2",
+        "text": "Experience the global phenomenon of Jailer 2. Rated 6.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "When a dangerous syndicate expands its reach to threaten his family's peace, retired jailer Tiger Muthuvel Pandian goes undercover as a driver. Operating from the shadows, he takes on ruthless new enemies to protect...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Rajinikanth, S. J. Suryah, Mithun Chakraborty, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Nelson Dilipkumar.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Nelson Dilipkumar",
+        "text": "Filmmaker Nelson Dilipkumar pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.0/10 on TMDB",
+        "text": "With an impressive 6.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Jailer 2? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1234139"
+      }
+    ],
+    "date_published": "2026-10-15T20:51:03Z",
+    "date_modified": "2026-10-15T20:51:03Z",
+    "published_at": "2026-10-15T20:51:03Z"
+  },
+  {
+    "title": "Scary Movie: The Untold Story & Secrets",
+    "seo_description": "Discover Scary Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1273221,
+      "title": "Scary Movie",
+      "original_title": "Scary Movie",
+      "slug": "scary-movie",
+      "media_type": "movie",
+      "release_date": "2026-06-03",
+      "overview": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+      "tagline": "Every line will be crossed.",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 96,
+      "seasons": null,
+      "vote_average": 6.3,
+      "vote_count": 2028,
+      "category": "upcoming",
+      "director": "Michael Tiddes",
+      "top_cast": [
+        "Anna Faris",
+        "Regina Hall",
+        "Marlon Wayans",
+        "Shawn Wayans",
+        "Olivia Rose Keegan",
+        "Cameron Scott Roberts"
+      ],
+      "poster_path": "/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
+      "backdrop_path": "/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+      "backdrops": [
+        "/xWBiXclrRmTggQHMRsIn84YHavs.jpg",
+        "/lj6AaDqDUbzm2XJltFNHeAm2uXN.jpg",
+        "/rrSj6tJqCNtPe5Yhmt7mr1rASxM.jpg",
+        "/nFzBjRKP9yk8tvvLqVyJkEz8ZK2.jpg",
+        "/jVwJ3XqwdlrzQoNUlUqPjw9Bjjr.jpg",
+        "/bd2pKQVIAczz7JKYXG27GsgKxYA.jpg",
+        "/y9vt451C3x3r4feX5XSPwH39xhU.jpg",
+        "/ptiX5s483IUxgK39wkClsCiN9bE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Scary Movie",
+        "text": "Every line will be crossed. Rated 6.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Anna Faris, Regina Hall, Marlon Wayans, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Michael Tiddes.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Michael Tiddes",
+        "text": "Filmmaker Michael Tiddes pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.3/10 on TMDB",
+        "text": "With an impressive 6.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Scary Movie? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1273221"
+      }
+    ],
+    "date_published": "2026-10-15T20:51:03Z",
+    "date_modified": "2026-10-15T20:51:03Z",
+    "published_at": "2026-10-15T20:51:03Z"
+  },
+  {
+    "title": "Avatar: The Way of Water: The Untold Story & Secrets",
+    "seo_description": "Discover Avatar: The Way of Water: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 76600,
+      "title": "Avatar: The Way of Water",
+      "original_title": "Avatar: The Way of Water",
+      "slug": "avatar-the-way-of-water",
+      "media_type": "movie",
+      "release_date": "2022-12-14",
+      "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+      "tagline": "Return to Pandora.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 192,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 14767,
+      "category": "theories_easter_eggs",
+      "director": "James Cameron",
+      "top_cast": [
+        "Sam Worthington",
+        "Zoe Salda\u00f1a",
+        "Sigourney Weaver",
+        "Stephen Lang",
+        "Kate Winslet",
+        "Cliff Curtis"
+      ],
+      "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "backdrop_path": "/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg",
+      "backdrops": [
+        "/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg",
+        "/8rpDcsfLJypbO6vREc0547VKqEv.jpg",
+        "/yEWkS8G6s6SzuHXkNso88luR2mF.jpg",
+        "/2fS9cpar9rzxixwnRptg4bGmIym.jpg",
+        "/zENT3sNfL2HONYS99sFEYlE6R28.jpg",
+        "/cd8YDn7M0lfaHhZdU6MvCDxPalP.jpg",
+        "/s16H6tpK2utvwDtzZ8Qy4qm5Emw.jpg",
+        "/ovM06PdF3M8wvKb06i4sjW3xoww.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Avatar: The Way of Water",
+        "text": "Return to Pandora. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Sam Worthington, Zoe Salda\u00f1a, Sigourney Weaver, the film boasts phenomenal on-screen chemistry and career-defining performances directed by James Cameron.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by James Cameron",
+        "text": "Filmmaker James Cameron pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Avatar: The Way of Water? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/76600"
+      }
+    ],
+    "date_published": "2026-10-15T20:51:03Z",
+    "date_modified": "2026-10-15T20:51:03Z",
+    "published_at": "2026-10-15T20:51:03Z"
+  },
+  {
     "title": "Raw: The Untold Story & Secrets",
     "seo_description": "Discover Raw: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

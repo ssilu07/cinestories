@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-15T16:10:52.245247+00:00",
-  "total_stories": 109,
+  "generated_at": "2026-10-15T20:52:10.972698+00:00",
+  "total_stories": 113,
   "stories": [
+    {
+      "id": 502,
+      "slug": "sesame-street",
+      "title": "Sesame Street: 50+ Years of Pure TV Magic \ud83c\udf1f\ud83c\udf88",
+      "url": "https://cinestories-omega.vercel.app/stories/sesame-street/",
+      "category": "series",
+      "release_date": "1969-11-10",
+      "rating": 7.1
+    },
+    {
+      "id": 1234139,
+      "slug": "jailer-2",
+      "title": "Jailer 2: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/jailer-2/",
+      "category": "trending",
+      "release_date": "2026-10-14",
+      "rating": 6.0
+    },
+    {
+      "id": 1273221,
+      "slug": "scary-movie",
+      "title": "Scary Movie: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/scary-movie/",
+      "category": "upcoming",
+      "release_date": "2026-06-03",
+      "rating": 6.3
+    },
+    {
+      "id": 76600,
+      "slug": "avatar-the-way-of-water",
+      "title": "Avatar: The Way of Water: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/avatar-the-way-of-water/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-12-14",
+      "rating": 7.6
+    },
     {
       "id": 4656,
       "slug": "raw",

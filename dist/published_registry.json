@@ -652,5 +652,29 @@
     "published_at": "2026-10-15T16:09:03Z",
     "modified_at": "2026-10-15T16:09:03Z",
     "category": "theories_easter_eggs"
+  },
+  "sesame-street": {
+    "title": "Sesame Street",
+    "published_at": "2026-10-15T20:51:03Z",
+    "modified_at": "2026-10-15T20:51:03Z",
+    "category": "series"
+  },
+  "jailer-2": {
+    "title": "Jailer 2",
+    "published_at": "2026-10-15T20:51:03Z",
+    "modified_at": "2026-10-15T20:51:03Z",
+    "category": "trending"
+  },
+  "scary-movie": {
+    "title": "Scary Movie",
+    "published_at": "2026-10-15T20:51:03Z",
+    "modified_at": "2026-10-15T20:51:03Z",
+    "category": "upcoming"
+  },
+  "avatar-the-way-of-water": {
+    "title": "Avatar: The Way of Water",
+    "published_at": "2026-10-15T20:51:03Z",
+    "modified_at": "2026-10-15T20:51:03Z",
+    "category": "theories_easter_eggs"
   }
 }

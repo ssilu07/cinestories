@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/articles/sesame-street/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tNi2aJPdCKfielGYzIi3IKxStz9.jpg</image:loc>
+      <image:title>Sesame Street: 50+ Years of Pure TV Magic 🌟🎈 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/jailer-2/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg</image:loc>
+      <image:title>Tiger Pandian Is Back: What to Expect From Rajinikanth's Jailer 2 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/scary-movie/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/xWBiXclrRmTggQHMRsIn84YHavs.jpg</image:loc>
+      <image:title>Scary Movie: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/avatar-the-way-of-water/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg</image:loc>
+      <image:title>Avatar: The Way of Water: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/articles/raw/</loc>
     <lastmod>2026-10-15</lastmod>
     <changefreq>daily</changefreq>
@@ -1100,6 +1140,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/sesame-street/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/14k9BfZ2p4rQBMeJ5crKTfUZVwD.jpg</image:loc>
+      <image:title>Sesame Street Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/jailer-2/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg</image:loc>
+      <image:title>Jailer 2 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/scary-movie/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/znHT8peERZRWG1ME3r0Db0EV8k8.jpg</image:loc>
+      <image:title>Scary Movie Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/avatar-the-way-of-water/</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg</image:loc>
+      <image:title>Avatar: The Way of Water Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
