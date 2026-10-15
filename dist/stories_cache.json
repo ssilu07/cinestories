@@ -1,5 +1,414 @@
 [
   {
+    "title": "Grey's Anatomy: The Untold Story & Secrets",
+    "seo_description": "Discover Grey's Anatomy: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1416,
+      "title": "Grey's Anatomy",
+      "original_title": "Grey's Anatomy",
+      "slug": "greys-anatomy",
+      "media_type": "tv",
+      "release_date": "2005-03-27",
+      "overview": "Follows the personal and professional lives of a group of doctors at Seattle's Grey Sloan Memorial Hospital.",
+      "tagline": "Begin again.",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 23,
+      "vote_average": 8.2,
+      "vote_count": 11080,
+      "category": "series",
+      "director": "Shonda Rhimes (Creator)",
+      "top_cast": [
+        "Ellen Pompeo",
+        "Chandra Wilson",
+        "James Pickens Jr.",
+        "Caterina Scorsone",
+        "Camilla Luddington",
+        "Jason George"
+      ],
+      "poster_path": "/hjJkrLXhWvGHpLeLBDFznpBTY1S.jpg",
+      "backdrop_path": "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
+      "backdrops": [
+        "/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg",
+        "/ym20NYY99jNH0OzSg4TgLLGsQF9.jpg",
+        "/fgvM6m7gAd8kDAaLF16aflbOSAK.jpg",
+        "/nmg2lY4QuyXQrAnrC2lRblK5rT6.jpg",
+        "/A4NwkQXTXElE5iAsne5RpvS8R2Z.jpg",
+        "/edmk8xjGBsYVIf4QtLY9WMaMcXZ.jpg",
+        "/xRaBG6AsE38LgFku9XuyZBswgCZ.jpg",
+        "/aCQEM33YWvZm0hYfQ4R1I6srV19.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Grey's Anatomy",
+        "text": "Begin again. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Follows the personal and professional lives of a group of doctors at Seattle's Grey Sloan Memorial Hospital.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ellen Pompeo, Chandra Wilson, James Pickens Jr., the film boasts phenomenal on-screen chemistry and career-defining performances directed by Shonda Rhimes (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Shonda Rhimes (Creator)",
+        "text": "Filmmaker Shonda Rhimes (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Grey's Anatomy? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1416"
+      }
+    ],
+    "date_published": "2026-10-15T02:48:40Z",
+    "date_modified": "2026-10-15T02:48:40Z",
+    "published_at": "2026-10-15T02:48:40Z"
+  },
+  {
+    "title": "Don't Move: The Untold Story & Secrets",
+    "seo_description": "Discover Don't Move: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1375161,
+      "title": "Don't Move",
+      "original_title": "Don't Move",
+      "slug": "dont-move",
+      "media_type": "movie",
+      "release_date": "2026-09-11",
+      "overview": "A church group's annual retreat turns deadly when they wander into the wrong part of the Ozark wilderness, and something starts picking them off one by one.  Suspicion falls on Ricky, the troublemaker of the group. But the real threat is far worse.  Deep in the forest, wrapped in a labyrinth of webs, the group is pursued by a terrifying prehistoric arachnid that hunts by vibration. When every step could be their last, they only have one choice: Don't Move.  It's up to Megan to hold what's left of the group together and get them out alive.",
+      "tagline": "Whatever you do\u2026",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 94,
+      "seasons": null,
+      "vote_average": 5.9,
+      "vote_count": 11,
+      "category": "trending",
+      "director": "Maclain Nelson",
+      "top_cast": [
+        "Lyndsy Fonseca",
+        "Russ",
+        "Tom Cavanagh",
+        "Hunter King",
+        "Joseph Lee Anderson",
+        "Rob Riggle"
+      ],
+      "poster_path": "/uh0ZSdM8iOQgHwnUlhhanP8Dkl6.jpg",
+      "backdrop_path": "/1b0RrVxLAMhfT0vQXfWtDLwg1ke.jpg",
+      "backdrops": [
+        "/hRjS4aEJbFmvr0O9fQszUIdle5E.jpg",
+        "/1b0RrVxLAMhfT0vQXfWtDLwg1ke.jpg",
+        "/1b0wNCRLYT3mGwvHyTEbqOk98Ix.jpg",
+        "/xFYqT8hpZUPRBm3A5cS4AK2Ee7j.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Don't Move",
+        "text": "Whatever you do\u2026 Rated 5.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A church group's annual retreat turns deadly when they wander into the wrong part of the Ozark wilderness, and something starts picking them off one by one. Suspicion falls on Ricky, the troublemaker of...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Lyndsy Fonseca, Russ, Tom Cavanagh, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Maclain Nelson.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Maclain Nelson",
+        "text": "Filmmaker Maclain Nelson pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.9/10 on TMDB",
+        "text": "With an impressive 5.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Don't Move? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1375161"
+      }
+    ],
+    "date_published": "2026-10-15T02:48:40Z",
+    "date_modified": "2026-10-15T02:48:40Z",
+    "published_at": "2026-10-15T02:48:40Z"
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 1: The Untold Story & Secrets",
+    "seo_description": "Discover The Hunger Games: Mockingjay - Part 1: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 131631,
+      "title": "The Hunger Games: Mockingjay - Part 1",
+      "original_title": "The Hunger Games: Mockingjay - Part 1",
+      "slug": "the-hunger-games-mockingjay-part-1",
+      "media_type": "movie",
+      "release_date": "2014-11-19",
+      "overview": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance, she must navigate fragile alliances while trying to protect those she loves. As propaganda battles rage and Panem moves closer to full-scale war, Katniss is forced to confront the true cost of revolution.",
+      "tagline": "Fire burns brighter in the darkness.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Thriller"
+      ],
+      "runtime": 123,
+      "seasons": null,
+      "vote_average": 6.8,
+      "vote_count": 17093,
+      "category": "upcoming",
+      "director": "Francis Lawrence",
+      "top_cast": [
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Liam Hemsworth",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Julianne Moore"
+      ],
+      "poster_path": "/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
+      "backdrop_path": "/lV1P1Q5gLDXVG1ZYCxZHStkcQC3.jpg",
+      "backdrops": [
+        "/lV1P1Q5gLDXVG1ZYCxZHStkcQC3.jpg",
+        "/rYsdoUqkltpKZQWwCWXf55csXvL.jpg",
+        "/927hrkpGWl4n8Izz6QKR36d4n64.jpg",
+        "/nXtuT6xxV2r3nsvXWYps1NrVdpp.jpg",
+        "/bYsYSoGLztlcLGQToCRbTQk78Ur.jpg",
+        "/7aLNVdXxPSOnXZkgWpHIHXQON3O.jpg",
+        "/scGtbBnQbstlVufS8gLInCRodrB.jpg",
+        "/iYF4zDEDfj93gbwCSVMTwMHr9F7.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Hunger Games: Mockingjay - Part",
+        "text": "Fire burns brighter in the darkness. Rated 6.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "After surviving the Quarter Quell, Katniss finds herself in the hidden stronghold of District 13, where the rebellion against the Capitol is gaining momentum. Struggling with the weight of becoming the symbol of resistance,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Francis Lawrence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Francis Lawrence",
+        "text": "Filmmaker Francis Lawrence pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.8/10 on TMDB",
+        "text": "With an impressive 6.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Hunger Games: Mockingjay - Part 1? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/131631"
+      }
+    ],
+    "date_published": "2026-10-15T02:48:40Z",
+    "date_modified": "2026-10-15T02:48:40Z",
+    "published_at": "2026-10-15T02:48:40Z"
+  },
+  {
+    "title": "The Mandalorian and Grogu: The Untold Story & Secrets",
+    "seo_description": "Discover The Mandalorian and Grogu: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1228710,
+      "title": "The Mandalorian and Grogu",
+      "original_title": "The Mandalorian and Grogu",
+      "slug": "the-mandalorian-and-grogu",
+      "media_type": "movie",
+      "release_date": "2026-05-20",
+      "overview": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian bounty hunter Din Djarin and his young apprentice Grogu.",
+      "tagline": "If you're searching for new adventure, \"this is the way.\"",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 132,
+      "seasons": null,
+      "vote_average": 7.5,
+      "vote_count": 1854,
+      "category": "theories_easter_eggs",
+      "director": "Jon Favreau",
+      "top_cast": [
+        "Pedro Pascal",
+        "Jeremy Allen White",
+        "Sigourney Weaver",
+        "Brendan Wayne",
+        "Lateef Crowder",
+        "Steve Blum"
+      ],
+      "poster_path": "/uwMKWjcNID0D9jjplsjkQS2OrB4.jpg",
+      "backdrop_path": "/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
+      "backdrops": [
+        "/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg",
+        "/wFKDH8nAz7l9iyVobjcNAPTrkNz.jpg",
+        "/MJcERawyqGqJdPsOBc0C449hQ9.jpg",
+        "/4lj7MZtcIDI2FmZXGkFWh0sNCsq.jpg",
+        "/7OedxK0BvSKJ0ZWCPRYADViTBx6.jpg",
+        "/6zg7A9ICOthNR2TSXlT51KvXrsA.jpg",
+        "/uhKu98XD2VFzzfDgNOM3wBrAOuH.jpg",
+        "/OSHpNZWZ0J7Pa92eAqiXK3aNk3.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "The Mandalorian and Grogu",
+        "text": "If you're searching for new adventure, \"this is the way.\" Rated 7.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "The evil Empire has fallen, and Imperial warlords remain scattered throughout the galaxy. As the fledgling New Republic works to protect everything the Rebellion fought for, they have enlisted the help of legendary Mandalorian...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Pedro Pascal, Jeremy Allen White, Sigourney Weaver, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jon Favreau.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jon Favreau",
+        "text": "Filmmaker Jon Favreau pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.5/10 on TMDB",
+        "text": "With an impressive 7.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Mandalorian and Grogu? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1228710"
+      }
+    ],
+    "date_published": "2026-10-15T02:48:40Z",
+    "date_modified": "2026-10-15T02:48:40Z",
+    "published_at": "2026-10-15T02:48:40Z"
+  },
+  {
     "title": "Why NCIS Remains TV's Greatest Crime Drama Powerhouse \u2693\ud83d\udcfa",
     "seo_description": "Discover how NCIS conquered television for two decades with relentless military cases, changing casts, and a massive global franchise empire.",
     "movie": {

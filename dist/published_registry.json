@@ -580,5 +580,29 @@
     "published_at": "2026-10-14T19:45:04Z",
     "modified_at": "2026-10-14T19:45:04Z",
     "category": "theories_easter_eggs"
+  },
+  "greys-anatomy": {
+    "title": "Grey's Anatomy",
+    "published_at": "2026-10-15T02:48:40Z",
+    "modified_at": "2026-10-15T02:48:40Z",
+    "category": "series"
+  },
+  "dont-move": {
+    "title": "Don't Move",
+    "published_at": "2026-10-15T02:48:40Z",
+    "modified_at": "2026-10-15T02:48:40Z",
+    "category": "trending"
+  },
+  "the-hunger-games-mockingjay-part-1": {
+    "title": "The Hunger Games: Mockingjay - Part 1",
+    "published_at": "2026-10-15T02:48:40Z",
+    "modified_at": "2026-10-15T02:48:40Z",
+    "category": "upcoming"
+  },
+  "the-mandalorian-and-grogu": {
+    "title": "The Mandalorian and Grogu",
+    "published_at": "2026-10-15T02:48:40Z",
+    "modified_at": "2026-10-15T02:48:40Z",
+    "category": "theories_easter_eggs"
   }
 }

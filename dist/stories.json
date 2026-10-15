@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-14T19:45:20.993071+00:00",
-  "total_stories": 97,
+  "generated_at": "2026-10-15T02:48:45.362160+00:00",
+  "total_stories": 101,
   "stories": [
+    {
+      "id": 1416,
+      "slug": "greys-anatomy",
+      "title": "Grey's Anatomy: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/greys-anatomy/",
+      "category": "series",
+      "release_date": "2005-03-27",
+      "rating": 8.2
+    },
+    {
+      "id": 1375161,
+      "slug": "dont-move",
+      "title": "Don't Move: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/dont-move/",
+      "category": "trending",
+      "release_date": "2026-09-11",
+      "rating": 5.9
+    },
+    {
+      "id": 131631,
+      "slug": "the-hunger-games-mockingjay-part-1",
+      "title": "The Hunger Games: Mockingjay - Part 1: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-hunger-games-mockingjay-part-1/",
+      "category": "upcoming",
+      "release_date": "2014-11-19",
+      "rating": 6.8
+    },
+    {
+      "id": 1228710,
+      "slug": "the-mandalorian-and-grogu",
+      "title": "The Mandalorian and Grogu: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-mandalorian-and-grogu/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-05-20",
+      "rating": 7.5
+    },
     {
       "id": 4614,
       "slug": "ncis",
