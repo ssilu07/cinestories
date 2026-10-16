@@ -772,5 +772,29 @@
     "published_at": "2026-10-16T16:16:33Z",
     "modified_at": "2026-10-16T16:16:33Z",
     "category": "theories_easter_eggs"
+  },
+  "the-flash": {
+    "title": "The Flash",
+    "published_at": "2026-10-16T16:19:12Z",
+    "modified_at": "2026-10-16T16:19:12Z",
+    "category": "series"
+  },
+  "seriously-single-too": {
+    "title": "Seriously Single Too",
+    "published_at": "2026-10-16T16:19:12Z",
+    "modified_at": "2026-10-16T16:19:12Z",
+    "category": "trending"
+  },
+  "the-hunger-games-the-ballad-of-songbirds-snakes": {
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "published_at": "2026-10-16T16:19:12Z",
+    "modified_at": "2026-10-16T16:19:12Z",
+    "category": "upcoming"
+  },
+  "venom-let-there-be-carnage": {
+    "title": "Venom: Let There Be Carnage",
+    "published_at": "2026-10-16T16:19:12Z",
+    "modified_at": "2026-10-16T16:19:12Z",
+    "category": "theories_easter_eggs"
   }
 }

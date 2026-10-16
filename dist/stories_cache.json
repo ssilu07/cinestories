@@ -1,5 +1,411 @@
 [
   {
+    "title": "The Flash: The Untold Story & Secrets",
+    "seo_description": "Discover The Flash: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 60735,
+      "title": "The Flash",
+      "original_title": "The Flash",
+      "slug": "the-flash",
+      "media_type": "tv",
+      "release_date": "2014-10-07",
+      "overview": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been  granted the gift of super speed.  Teaming up with S.T.A.R. Labs, Barry takes on the persona of The Flash, the Fastest  Man Alive, to protect his city.",
+      "tagline": "The fastest man alive.",
+      "genres": [
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 9,
+      "vote_average": 7.7,
+      "vote_count": 11812,
+      "category": "series",
+      "director": "Geoff Johns, Greg Berlanti, Andrew Kreisberg (Creator)",
+      "top_cast": [
+        "Grant Gustin",
+        "Candice Patton",
+        "Danielle Panabaker",
+        "Danielle Nicolet",
+        "Kayla Compton",
+        "Brandon McKnight"
+      ],
+      "poster_path": "/yZevl2vHQgmosfwUdVNzviIfaWS.jpg",
+      "backdrop_path": "/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg",
+      "backdrops": [
+        "/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg",
+        "/6ZdQTBy20HzWudZthAV7NkZWfIb.jpg",
+        "/gNPWlhUXhyWiHv9qxr57tvT0WwS.jpg",
+        "/z59kJfcElR9eHO9rJbWp4qWMuee.jpg",
+        "/jeruqNWhqRqOR1QyqdQdHunrvU5.jpg",
+        "/eyG9srihv68ScRdEbJZj66WT4O0.jpg",
+        "/jC1KqsFx8ZyqJyQa2Ohi7xgL7XC.jpg",
+        "/dmPxRVOeqB5OWRexd1conkdrwam.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Flash",
+        "text": "The fastest man alive. Rated 7.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "After being struck by lightning, CSI investigator Barry Allen awakens from a nine-month coma to discover he has been granted the gift of super speed. Teaming up with S.T.A.R. Labs, Barry takes on the...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Grant Gustin, Candice Patton, Danielle Panabaker, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Geoff Johns, Greg Berlanti, Andrew Kreisberg (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Geoff Johns, Greg Berlanti, Andrew Kreisberg (Creator)",
+        "text": "Filmmaker Geoff Johns, Greg Berlanti, Andrew Kreisberg (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.7/10 on TMDB",
+        "text": "With an impressive 7.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Flash? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/60735"
+      }
+    ],
+    "date_published": "2026-10-16T16:19:12Z",
+    "date_modified": "2026-10-16T16:19:12Z",
+    "published_at": "2026-10-16T16:19:12Z"
+  },
+  {
+    "title": "Seriously Single Too: The Untold Story & Secrets",
+    "seo_description": "Discover Seriously Single Too: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1773759,
+      "title": "Seriously Single Too",
+      "original_title": "Seriously Single Too",
+      "slug": "seriously-single-too",
+      "media_type": "movie",
+      "release_date": "2026-10-16",
+      "overview": "Dineo and Noni \u2014 besties meant to take on the party scene together \u2014 suddenly face their biggest fear when Noni's boyfriend spontaneously propose.",
+      "tagline": "",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "runtime": 99,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Katleho Ramaphakela",
+      "top_cast": [
+        "Fulu Modibedi",
+        "Tumi Morake",
+        "Buntu Petse",
+        "Keke Mphuthi",
+        "Yonda Thomas",
+        "Thabiso Isaac Rammusi"
+      ],
+      "poster_path": "/hbApG0WSwgtaK7hXTZpwZDstDaR.jpg",
+      "backdrop_path": "/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg",
+      "backdrops": [
+        "/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Seriously Single Too",
+        "text": "Experience the global phenomenon of Seriously Single Too. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Dineo and Noni \u2014 besties meant to take on the party scene together \u2014 suddenly face their biggest fear when Noni's boyfriend spontaneously propose.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Fulu Modibedi, Tumi Morake, Buntu Petse, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Katleho Ramaphakela.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Katleho Ramaphakela",
+        "text": "Filmmaker Katleho Ramaphakela pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Seriously Single Too? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1773759"
+      }
+    ],
+    "date_published": "2026-10-16T16:19:12Z",
+    "date_modified": "2026-10-16T16:19:12Z",
+    "published_at": "2026-10-16T16:19:12Z"
+  },
+  {
+    "title": "The Hunger Games: The Ballad of Songbirds & Snakes: The Untold Story",
+    "seo_description": "Discover The Hunger Games: The Ballad of Songbirds & Snakes: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 695721,
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "original_title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "media_type": "movie",
+      "release_date": "2023-11-15",
+      "overview": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+      "tagline": "Everyone hungers for something.",
+      "genres": [
+        "Science Fiction",
+        "Action"
+      ],
+      "runtime": 157,
+      "seasons": null,
+      "vote_average": 7.0,
+      "vote_count": 3718,
+      "category": "upcoming",
+      "director": "Francis Lawrence",
+      "top_cast": [
+        "Tom Blyth",
+        "Rachel Zegler",
+        "Peter Dinklage",
+        "Jason Schwartzman",
+        "Hunter Schafer",
+        "Josh Rivera"
+      ],
+      "poster_path": "/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+      "backdrop_path": "/bk1TitfD4YIGrM6AvljonMCtfnl.jpg",
+      "backdrops": [
+        "/bk1TitfD4YIGrM6AvljonMCtfnl.jpg",
+        "/8GnWDLn2AhnmkQ7hlQ9NJUYobSS.jpg",
+        "/yfQXs8yXplCVXTLi9mxgvRf4ymE.jpg",
+        "/yj2SVz5I2HuQD84g633W2tijtKi.jpg",
+        "/wrphIaXVPJ5klAlbjQdLNCsZFIc.jpg",
+        "/cHmNFjMPNY7lt8BiMD95rAfHMZu.jpg",
+        "/o5HBggVGOb9L2DR8YmThuJLij46.jpg",
+        "/e0M3WVJm4nBrAg0LbJq0gdKi3U7.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Hunger Games: The Ballad of Son",
+        "text": "Everyone hungers for something. Rated 7.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Blyth, Rachel Zegler, Peter Dinklage, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Francis Lawrence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Francis Lawrence",
+        "text": "Filmmaker Francis Lawrence pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.0/10 on TMDB",
+        "text": "With an impressive 7.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Hunger Games: The Ballad of Songbirds & Snakes? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/695721"
+      }
+    ],
+    "date_published": "2026-10-16T16:19:12Z",
+    "date_modified": "2026-10-16T16:19:12Z",
+    "published_at": "2026-10-16T16:19:12Z"
+  },
+  {
+    "title": "Venom: Let There Be Carnage: The Untold Story & Secrets",
+    "seo_description": "Discover Venom: Let There Be Carnage: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 580489,
+      "title": "Venom: Let There Be Carnage",
+      "original_title": "Venom: Let There Be Carnage",
+      "slug": "venom-let-there-be-carnage",
+      "media_type": "movie",
+      "release_date": "2021-09-30",
+      "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+      "tagline": "You are what you eat.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 97,
+      "seasons": null,
+      "vote_average": 6.7,
+      "vote_count": 11486,
+      "category": "theories_easter_eggs",
+      "director": "Andy Serkis",
+      "top_cast": [
+        "Tom Hardy",
+        "Woody Harrelson",
+        "Michelle Williams",
+        "Naomie Harris",
+        "Reid Scott",
+        "Stephen Graham"
+      ],
+      "poster_path": "/pzKsRuKLFmYrW5Q0q8E8G78Tcgo.jpg",
+      "backdrop_path": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+      "backdrops": [
+        "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
+        "/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+        "/cxlIj6EMsOyHdpBvGPdjAEdRT51.jpg",
+        "/70nxSw3mFBsGmtkvcs91PbjerwD.jpg",
+        "/efuPybo8V8KTYGslQphO74LRvm0.jpg",
+        "/uaFqlvWEB2DHDtdMMRXwURK7B64.jpg",
+        "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+        "/w70dxFcVhZmxPJoOwBNwtupDUUl.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Venom: Let There Be Carnage",
+        "text": "You are what you eat. Rated 6.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Hardy, Woody Harrelson, Michelle Williams, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Andy Serkis.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Andy Serkis",
+        "text": "Filmmaker Andy Serkis pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.7/10 on TMDB",
+        "text": "With an impressive 6.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Venom: Let There Be Carnage? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/580489"
+      }
+    ],
+    "date_published": "2026-10-16T16:19:12Z",
+    "date_modified": "2026-10-16T16:19:12Z",
+    "published_at": "2026-10-16T16:19:12Z"
+  },
+  {
     "title": "The Blacklist: The Untold Story & Secrets",
     "seo_description": "Discover The Blacklist: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

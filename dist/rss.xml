@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 16:16:54 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:19:41 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>The Flash: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-flash/</link>
+      <description>Explore The Flash: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-flash/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:19:12 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/gFkHcIh7iE5G0oVOgpmY8ONQjhl.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Seriously Single Too: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/seriously-single-too/</link>
+      <description>Explore Seriously Single Too: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/seriously-single-too/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:19:12 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/vVVTDymwLVogjz4JxoNv1BAfYCH.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Hunger Games: The Ballad of Songbirds &amp; Snakes: The Untold Story</title>
+      <link>https://cinematicbites.com/articles/the-hunger-games-the-ballad-of-songbirds-snakes/</link>
+      <description>Explore The Hunger Games: The Ballad of Songbirds &amp; Snakes: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-hunger-games-the-ballad-of-songbirds-snakes/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:19:12 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/bk1TitfD4YIGrM6AvljonMCtfnl.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/bk1TitfD4YIGrM6AvljonMCtfnl.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Venom: Let There Be Carnage: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/venom-let-there-be-carnage/</link>
+      <description>Explore Venom: Let There Be Carnage: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/venom-let-there-be-carnage/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:19:12 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>The Blacklist: The Untold Story &amp; Secrets</title>
       <link>https://cinematicbites.com/articles/the-blacklist/</link>
@@ -425,42 +461,6 @@
       <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Onslaught: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/onslaught/</link>
-      <description>Explore Onslaught: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/onslaught/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/clePZhqOSzNyjfuFBpOrziLEFzb.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/clePZhqOSzNyjfuFBpOrziLEFzb.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Avengers: Endgame: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/avengers-endgame/</link>
-      <description>Explore Avengers: Endgame: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/avengers-endgame/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Slow Horses: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/slow-horses/</link>
-      <description>Explore Slow Horses: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/slow-horses/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Practical Magic 2: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/practical-magic-2/</link>
-      <description>Explore Practical Magic 2: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/practical-magic-2/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-16T16:16:54.284533+00:00",
-  "total_stories": 129,
+  "generated_at": "2026-10-16T16:19:41.833097+00:00",
+  "total_stories": 133,
   "stories": [
+    {
+      "id": 60735,
+      "slug": "the-flash",
+      "title": "The Flash: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-flash/",
+      "category": "series",
+      "release_date": "2014-10-07",
+      "rating": 7.7
+    },
+    {
+      "id": 1773759,
+      "slug": "seriously-single-too",
+      "title": "Seriously Single Too: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/seriously-single-too/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 695721,
+      "slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes: The Untold Story",
+      "url": "https://cinematicbites.com/stories/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "category": "upcoming",
+      "release_date": "2023-11-15",
+      "rating": 7.0
+    },
+    {
+      "id": 580489,
+      "slug": "venom-let-there-be-carnage",
+      "title": "Venom: Let There Be Carnage: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/venom-let-there-be-carnage/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-09-30",
+      "rating": 6.7
+    },
     {
       "id": 46952,
       "slug": "the-blacklist",
