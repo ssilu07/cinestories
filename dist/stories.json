@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-16T16:19:41.833097+00:00",
-  "total_stories": 133,
+  "generated_at": "2026-10-16T20:24:19.252071+00:00",
+  "total_stories": 137,
   "stories": [
+    {
+      "id": 34307,
+      "slug": "shameless",
+      "title": "Shameless: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/shameless/",
+      "category": "series",
+      "release_date": "2011-01-09",
+      "rating": 8.2
+    },
+    {
+      "id": 1452110,
+      "slug": "clean-hands",
+      "title": "Clean Hands: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/clean-hands/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 603,
+      "slug": "the-matrix",
+      "title": "The Matrix: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-matrix/",
+      "category": "upcoming",
+      "release_date": "1999-03-31",
+      "rating": 8.3
+    },
+    {
+      "id": 10138,
+      "slug": "iron-man-2",
+      "title": "Iron Man 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/iron-man-2/",
+      "category": "theories_easter_eggs",
+      "release_date": "2010-04-28",
+      "rating": 6.9
+    },
     {
       "id": 60735,
       "slug": "the-flash",

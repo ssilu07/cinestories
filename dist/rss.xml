@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 16:19:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 20:24:19 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Shameless: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/shameless/</link>
+      <description>Explore Shameless: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/shameless/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:24:14 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/3w1iNNuMiFVDDUyycJoSAFksjc7.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/3w1iNNuMiFVDDUyycJoSAFksjc7.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Clean Hands: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/clean-hands/</link>
+      <description>Explore Clean Hands: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/clean-hands/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:24:14 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/zTldHvKohakH3guBPd3QCetUct8.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/zTldHvKohakH3guBPd3QCetUct8.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Matrix: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-matrix/</link>
+      <description>Explore The Matrix: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-matrix/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:24:14 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Iron Man 2: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/iron-man-2/</link>
+      <description>Explore Iron Man 2: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/iron-man-2/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:24:14 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>The Flash: The Untold Story &amp; Secrets</title>
       <link>https://cinematicbites.com/articles/the-flash/</link>
@@ -425,42 +461,6 @@
       <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Heart of the Beast: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/heart-of-the-beast/</link>
-      <description>Explore Heart of the Beast: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/heart-of-the-beast/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/bicMU6xVD5deVyKP2azpyx7xkmH.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/bicMU6xVD5deVyKP2azpyx7xkmH.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Star Wars: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/star-wars/</link>
-      <description>Explore Star Wars: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/star-wars/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Ted Lasso: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/ted-lasso/</link>
-      <description>Explore Ted Lasso: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/ted-lasso/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/nE94ejEbzNCU48bW1oju0dqBONz.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/nE94ejEbzNCU48bW1oju0dqBONz.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Whalefall: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/whalefall/</link>
-      <description>Explore Whalefall: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/whalefall/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

@@ -1,5 +1,414 @@
 [
   {
+    "title": "Shameless: The Untold Story & Secrets",
+    "seo_description": "Discover Shameless: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 34307,
+      "title": "Shameless",
+      "original_title": "Shameless",
+      "slug": "shameless",
+      "media_type": "tv",
+      "release_date": "2011-01-09",
+      "overview": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have, he's passed out on the floor. But the kids have found ways to grow up in spite of him. They may not be like any family you know, but they make no apologies for being exactly who they are.",
+      "tagline": "Living crappily ever after.",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 11,
+      "vote_average": 8.2,
+      "vote_count": 3547,
+      "category": "series",
+      "director": "Paul Abbott, John Wells (Creator)",
+      "top_cast": [
+        "William H. Macy",
+        "Jeremy Allen White",
+        "Ethan Cutkosky",
+        "Shanola Hampton",
+        "Steve Howey",
+        "Emma Kenney"
+      ],
+      "poster_path": "/Yi3WVT6hOkPahOwwvmLmif1jhs.jpg",
+      "backdrop_path": "/3w1iNNuMiFVDDUyycJoSAFksjc7.jpg",
+      "backdrops": [
+        "/3w1iNNuMiFVDDUyycJoSAFksjc7.jpg",
+        "/5s9XHTB9SLPdg3mNU6BlSLnZ9Qq.jpg",
+        "/zjOj2gnDJYFdYt6R7FtuHn7yrPr.jpg",
+        "/70Dm6llsnigNMPVbc4TsRnWRZD3.jpg",
+        "/nhzIpH1nnubkj7ysO2mwmGEXA9s.jpg",
+        "/bZk4smUOSW8Og5FviVDaR6uCYqU.jpg",
+        "/bFVx0ydejF6NE8SEAVz95ns0o6A.jpg",
+        "/xWjcrAh2DBGTdJoFcjkLhkMgHXR.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Shameless",
+        "text": "Living crappily ever after. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what little money they have,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by William H. Macy, Jeremy Allen White, Ethan Cutkosky, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Paul Abbott, John Wells (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Paul Abbott, John Wells (Creator)",
+        "text": "Filmmaker Paul Abbott, John Wells (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Shameless? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/34307"
+      }
+    ],
+    "date_published": "2026-10-16T20:24:14Z",
+    "date_modified": "2026-10-16T20:24:14Z",
+    "published_at": "2026-10-16T20:24:14Z"
+  },
+  {
+    "title": "Clean Hands: The Untold Story & Secrets",
+    "seo_description": "Discover Clean Hands: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1452110,
+      "title": "Clean Hands",
+      "original_title": "Clean Hands",
+      "slug": "clean-hands",
+      "media_type": "movie",
+      "release_date": "2026-10-16",
+      "overview": "The true story of hero drug cop turned recovery advocate Kevin Simmers and his daughter Brooke. The film examines the American drug crisis and \"the thin blue line\" from the opposing eyes of cop and addict who were also father and daughter.",
+      "tagline": "",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 0,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Jake Allyn",
+      "top_cast": [
+        "Zach Braff",
+        "Esther McGregor",
+        "Abigail Spencer",
+        "Lucas Till",
+        "Abigail Rhyne",
+        "Holt McCallany"
+      ],
+      "poster_path": "/9jQLFnwzOij720AYYqJXQvjyyTp.jpg",
+      "backdrop_path": "/zTldHvKohakH3guBPd3QCetUct8.jpg",
+      "backdrops": [
+        "/zTldHvKohakH3guBPd3QCetUct8.jpg",
+        "/py3XG3mFkdVMcw7VwfZ4HaXZIIU.jpg",
+        "/vNUToHrHkE9OvRsv8MyBYdm2QJN.jpg",
+        "/xydjgYh9hG3q6P3S5UN3vViKxZi.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Clean Hands",
+        "text": "Experience the global phenomenon of Clean Hands. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "The true story of hero drug cop turned recovery advocate Kevin Simmers and his daughter Brooke. The film examines the American drug crisis and \"the thin blue line\" from the opposing eyes of cop...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Zach Braff, Esther McGregor, Abigail Spencer, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jake Allyn.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jake Allyn",
+        "text": "Filmmaker Jake Allyn pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Clean Hands? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1452110"
+      }
+    ],
+    "date_published": "2026-10-16T20:24:14Z",
+    "date_modified": "2026-10-16T20:24:14Z",
+    "published_at": "2026-10-16T20:24:14Z"
+  },
+  {
+    "title": "The Matrix: The Untold Story & Secrets",
+    "seo_description": "Discover The Matrix: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 603,
+      "title": "The Matrix",
+      "original_title": "The Matrix",
+      "slug": "the-matrix",
+      "media_type": "movie",
+      "release_date": "1999-03-31",
+      "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+      "tagline": "Believe the unbelievable.",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 136,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 28969,
+      "category": "upcoming",
+      "director": "Lana Wachowski",
+      "top_cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss",
+        "Hugo Weaving",
+        "Gloria Foster",
+        "Joe Pantoliano"
+      ],
+      "poster_path": "/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+      "backdrop_path": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+      "backdrops": [
+        "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg",
+        "/lrtSb1skJayPydZk0OSMAKjBOVe.jpg",
+        "/oMsxZEvz9a708d49b6UdZK1KAo5.jpg",
+        "/ncEsesgOJDNrTUED89hYbA117wo.jpg",
+        "/8K9qHeM6G6QjQN0C5XKFGvK5lzM.jpg",
+        "/fNG7i7RqMErkcqhohV2a6cV1Ehy.jpg",
+        "/oCkOhekO65sH5o3UnnWPStYHEnv.jpg",
+        "/icmmSD4vTTDKOq2vvdulafOGw93.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Matrix",
+        "text": "Believe the unbelievable. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Lana Wachowski.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Lana Wachowski",
+        "text": "Filmmaker Lana Wachowski pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Matrix? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/603"
+      }
+    ],
+    "date_published": "2026-10-16T20:24:14Z",
+    "date_modified": "2026-10-16T20:24:14Z",
+    "published_at": "2026-10-16T20:24:14Z"
+  },
+  {
+    "title": "Iron Man 2: The Untold Story & Secrets",
+    "seo_description": "Discover Iron Man 2: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 10138,
+      "title": "Iron Man 2",
+      "original_title": "Iron Man 2",
+      "slug": "iron-man-2",
+      "media_type": "movie",
+      "release_date": "2010-04-28",
+      "overview": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with the military. Unwilling to let go of his invention, Stark, with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances \u2013 and confront powerful enemies.",
+      "tagline": "It's not the armor that makes the hero, but the man inside.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 124,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 23065,
+      "category": "theories_easter_eggs",
+      "director": "Jon Favreau",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Gwyneth Paltrow",
+        "Don Cheadle",
+        "Scarlett Johansson",
+        "Sam Rockwell",
+        "Mickey Rourke"
+      ],
+      "poster_path": "/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
+      "backdrop_path": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+      "backdrops": [
+        "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+        "/hCVQPB77eXBGh9abVdrWtKpKgkN.jpg",
+        "/jesRqfL9v6HNnowe795xjmuKUXl.jpg",
+        "/wWu57zGqpAt7K746drOSjbwfIfe.jpg",
+        "/lsJ7Pg49OqX5mGtyIR4OezLYuAr.jpg",
+        "/69I7OUeqAm1sfYqtTQw9AEw7E7o.jpg",
+        "/cVvD0EEVGPPWIwSrTYUWSyvINob.jpg",
+        "/11gSrLTrhMa6IJIFiczYqhSW2KS.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Iron Man 2",
+        "text": "It's not the armor that makes the hero, but the man inside. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press and the public to share his technology with...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jon Favreau.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jon Favreau",
+        "text": "Filmmaker Jon Favreau pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Iron Man 2? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/10138"
+      }
+    ],
+    "date_published": "2026-10-16T20:24:14Z",
+    "date_modified": "2026-10-16T20:24:14Z",
+    "published_at": "2026-10-16T20:24:14Z"
+  },
+  {
     "title": "The Flash: The Untold Story & Secrets",
     "seo_description": "Discover The Flash: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
