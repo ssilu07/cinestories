@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-16T02:45:31.088235+00:00",
-  "total_stories": 117,
+  "generated_at": "2026-10-16T10:31:20.996351+00:00",
+  "total_stories": 121,
   "stories": [
+    {
+      "id": 1402,
+      "slug": "the-walking-dead",
+      "title": "The Walking Dead: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-walking-dead/",
+      "category": "series",
+      "release_date": "2010-10-31",
+      "rating": 8.1
+    },
+    {
+      "id": 1288069,
+      "slug": "tenzing",
+      "title": "Tenzing: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/tenzing/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.2
+    },
+    {
+      "id": 1281331,
+      "slug": "the-social-reckoning",
+      "title": "The Social Reckoning: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-social-reckoning/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 6.9
+    },
+    {
+      "id": 634649,
+      "slug": "spider-man-no-way-home",
+      "title": "Spider-Man: No Way Home: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/spider-man-no-way-home/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-12-15",
+      "rating": 7.9
+    },
     {
       "id": 60572,
       "slug": "pok\u00e9mon",

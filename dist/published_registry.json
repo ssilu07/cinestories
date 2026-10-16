@@ -700,5 +700,29 @@
     "published_at": "2026-10-16T02:45:26Z",
     "modified_at": "2026-10-16T02:45:26Z",
     "category": "theories_easter_eggs"
+  },
+  "the-walking-dead": {
+    "title": "The Walking Dead",
+    "published_at": "2026-10-16T10:31:04Z",
+    "modified_at": "2026-10-16T10:31:04Z",
+    "category": "series"
+  },
+  "tenzing": {
+    "title": "Tenzing",
+    "published_at": "2026-10-16T10:31:04Z",
+    "modified_at": "2026-10-16T10:31:04Z",
+    "category": "trending"
+  },
+  "the-social-reckoning": {
+    "title": "The Social Reckoning",
+    "published_at": "2026-10-16T10:31:04Z",
+    "modified_at": "2026-10-16T10:31:04Z",
+    "category": "upcoming"
+  },
+  "spider-man-no-way-home": {
+    "title": "Spider-Man: No Way Home",
+    "published_at": "2026-10-16T10:31:04Z",
+    "modified_at": "2026-10-16T10:31:04Z",
+    "category": "theories_easter_eggs"
   }
 }

@@ -1,5 +1,419 @@
 [
   {
+    "title": "The Walking Dead: The Untold Story & Secrets",
+    "seo_description": "Discover The Walking Dead: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1402,
+      "title": "The Walking Dead",
+      "original_title": "The Walking Dead",
+      "slug": "the-walking-dead",
+      "media_type": "tv",
+      "release_date": "2010-10-31",
+      "overview": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+      "tagline": "Fight the dead. Fear the living.",
+      "genres": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 11,
+      "vote_average": 8.1,
+      "vote_count": 18270,
+      "category": "series",
+      "director": "Frank Darabont (Creator)",
+      "top_cast": [
+        "Lauren Cohan",
+        "Norman Reedus",
+        "Jeffrey Dean Morgan",
+        "Melissa McBride",
+        "Christian Serratos",
+        "Seth Gilliam"
+      ],
+      "poster_path": "/ng3cMtxYKt1OSQYqFlnKWnVsqNO.jpg",
+      "backdrop_path": "/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
+      "backdrops": [
+        "/rAOjnEFTuNysY7bot8zonhImGMh.jpg",
+        "/5kosg4zhYIuzTxbPcrJVFylgOYk.jpg",
+        "/eRrmxUMK6P5ZQ0GiH6TcazHmryE.jpg",
+        "/3ynZzFOTXVKgN9zaIXLehZCKKfY.jpg",
+        "/x4salpjB11umlUOltfNvSSrjSXm.jpg",
+        "/wY3KAlS1VgyOc5rJ6kBierv1iKW.jpg",
+        "/gSMM7Y9dR289nJGTqQ5MNjTeodE.jpg",
+        "/qpUAdvHZDe7Cl7X2uHO3K8swW6A.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Walking Dead",
+        "text": "Fight the dead. Fear the living. Rated 8.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Lauren Cohan, Norman Reedus, Jeffrey Dean Morgan, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Frank Darabont (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Frank Darabont (Creator)",
+        "text": "Filmmaker Frank Darabont (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.1/10 on TMDB",
+        "text": "With an impressive 8.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Walking Dead? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1402"
+      }
+    ],
+    "date_published": "2026-10-16T10:31:04Z",
+    "date_modified": "2026-10-16T10:31:04Z",
+    "published_at": "2026-10-16T10:31:04Z"
+  },
+  {
+    "title": "Tenzing: The Untold Story & Secrets",
+    "seo_description": "Discover Tenzing: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1288069,
+      "title": "Tenzing",
+      "original_title": "Tenzing",
+      "slug": "tenzing",
+      "media_type": "movie",
+      "release_date": "2026-10-09",
+      "overview": "A determined man embarks on a high-stakes quest\u2014and defies seemingly impossible odds\u2014to fulfill his dream of being the first to reach the summit of Mount Everest.",
+      "tagline": "The ascent that made history.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "runtime": 126,
+      "seasons": null,
+      "vote_average": 6.2,
+      "vote_count": 4,
+      "category": "trending",
+      "director": "Jennifer Peedom",
+      "top_cast": [
+        "Genden Phuntsok",
+        "Tom Hiddleston",
+        "Willem Dafoe",
+        "Caitr\u00edona Balfe",
+        "Thinley Lhamo",
+        "Tenzing Dalha"
+      ],
+      "poster_path": "/eI0QW02PYqhnmIvLRdn9vrfVVP7.jpg",
+      "backdrop_path": "/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+      "backdrops": [
+        "/5BHjIppUPxVGuYqLI2Wkh5BBkGv.jpg",
+        "/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg",
+        "/57y3cRE0XVI6oWqakiKILSHsULH.jpg",
+        "/6GXqVvL20Y0MpyVP30WoI2NPK69.jpg",
+        "/aJpXl3uDZeyHoMBZVGZZz97L5wB.jpg",
+        "/j3iPJSwIn8MDdtmmqjYhrLGnMK4.jpg",
+        "/l1yvjlmdDugHYXlVIn9Lw7YHPpm.jpg",
+        "/if58rzksQrSy3aY2RoAFEek8UL0.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Tenzing",
+        "text": "The ascent that made history. Rated 6.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A determined man embarks on a high-stakes quest\u2014and defies seemingly impossible odds\u2014to fulfill his dream of being the first to reach the summit of Mount Everest.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Genden Phuntsok, Tom Hiddleston, Willem Dafoe, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jennifer Peedom.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jennifer Peedom",
+        "text": "Filmmaker Jennifer Peedom pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.2/10 on TMDB",
+        "text": "With an impressive 6.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Tenzing? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1288069"
+      }
+    ],
+    "date_published": "2026-10-16T10:31:04Z",
+    "date_modified": "2026-10-16T10:31:04Z",
+    "published_at": "2026-10-16T10:31:04Z"
+  },
+  {
+    "title": "The Social Reckoning: The Untold Story & Secrets",
+    "seo_description": "Discover The Social Reckoning: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1281331,
+      "title": "The Social Reckoning",
+      "original_title": "The Social Reckoning",
+      "slug": "the-social-reckoning",
+      "media_type": "movie",
+      "release_date": "2026-10-07",
+      "overview": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
+      "tagline": "We're way past making friends.",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 113,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 108,
+      "category": "upcoming",
+      "director": "Aaron Sorkin",
+      "top_cast": [
+        "Mikey Madison",
+        "Jeremy Allen White",
+        "Jeremy Strong",
+        "Betty Gilpin",
+        "Bill Burr",
+        "Wunmi Mosaku"
+      ],
+      "poster_path": "/7jK6NuxVg1XuEV7UdNa6KO03IgZ.jpg",
+      "backdrop_path": "/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+      "backdrops": [
+        "/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg",
+        "/ycqTwRV7jUxjMospXxKTVS74nft.jpg",
+        "/mzLEPRpj6SX7rHSJn8parZQZLFl.jpg",
+        "/5QuKIWyZH6xrRRxqphRgrbC6dh0.jpg",
+        "/eK5zdbUlMNNswUlegkazcO8PAAZ.jpg",
+        "/wFJacJYrRIR45FeP7eLG0GP1Ug4.jpg",
+        "/1eTUa8YDfq7WbrTrTsUuMfLZPk3.jpg",
+        "/zEa5jl6oH44m7DKB9i8m2oFMict.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Social Reckoning",
+        "text": "We're way past making friends. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Mikey Madison, Jeremy Allen White, Jeremy Strong, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Aaron Sorkin.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Aaron Sorkin",
+        "text": "Filmmaker Aaron Sorkin pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Social Reckoning? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1281331"
+      }
+    ],
+    "date_published": "2026-10-16T10:31:04Z",
+    "date_modified": "2026-10-16T10:31:04Z",
+    "published_at": "2026-10-16T10:31:04Z"
+  },
+  {
+    "title": "Spider-Man: No Way Home: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: No Way Home: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 634649,
+      "title": "Spider-Man: No Way Home",
+      "original_title": "Spider-Man: No Way Home",
+      "slug": "spider-man-no-way-home",
+      "media_type": "movie",
+      "release_date": "2021-12-15",
+      "overview": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
+      "tagline": "Enter the Multiverse.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 148,
+      "seasons": null,
+      "vote_average": 7.9,
+      "vote_count": 23333,
+      "category": "theories_easter_eggs",
+      "director": "Jon Watts",
+      "top_cast": [
+        "Tom Holland",
+        "Zendaya",
+        "Benedict Cumberbatch",
+        "Jacob Batalon",
+        "Jon Favreau",
+        "Jamie Foxx"
+      ],
+      "poster_path": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+      "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+      "backdrops": [
+        "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+        "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+        "/utxfKMtH91Q5uPvFMFDLnxohXHV.jpg",
+        "/uyrOU4BDm2kbVxFsMiDFIHDhc4d.jpg",
+        "/nqUThBjou0TAWXu93Q4SNFpgqai.jpg",
+        "/AeK2MPOpYrOOgZNfFnfwp0L8tNn.jpg",
+        "/zD5v1E4joAzFvmAEytt7fM3ivyT.jpg",
+        "/6TI2ficXEHkUI3mu4ViQm117RXk.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man: No Way Home",
+        "text": "Enter the Multiverse. Rated 7.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Holland, Zendaya, Benedict Cumberbatch, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jon Watts.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jon Watts",
+        "text": "Filmmaker Jon Watts pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.9/10 on TMDB",
+        "text": "With an impressive 7.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man: No Way Home? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/634649"
+      }
+    ],
+    "date_published": "2026-10-16T10:31:04Z",
+    "date_modified": "2026-10-16T10:31:04Z",
+    "published_at": "2026-10-16T10:31:04Z"
+  },
+  {
     "title": "Pok\u00e9mon: The Untold Story & Secrets",
     "seo_description": "Discover Pok\u00e9mon: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

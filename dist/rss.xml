@@ -5,13 +5,49 @@
     <link>https://cinestories-omega.vercel.app/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 02:45:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 10:31:21 +0000</lastBuildDate>
     <atom:link href="https://cinestories-omega.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinestories-omega.vercel.app/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinestories-omega.vercel.app/</link>
     </image>
+    <item>
+      <title>The Walking Dead: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/the-walking-dead/</link>
+      <description>Explore The Walking Dead: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-walking-dead/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Tenzing: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/tenzing/</link>
+      <description>Explore Tenzing: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/tenzing/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Social Reckoning: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/the-social-reckoning/</link>
+      <description>Explore The Social Reckoning: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-social-reckoning/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Spider-Man: No Way Home: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/spider-man-no-way-home/</link>
+      <description>Explore Spider-Man: No Way Home: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/spider-man-no-way-home/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Pokémon: The Untold Story &amp; Secrets</title>
       <link>https://cinestories-omega.vercel.app/articles/pokémon/</link>
@@ -425,42 +461,6 @@
       <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Mongoose: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-mongoose/</link>
-      <description>Explore The Mongoose: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-mongoose/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Resident Evil: Welcome to Raccoon City: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/resident-evil-welcome-to-raccoon-city/</link>
-      <description>Explore Resident Evil: Welcome to Raccoon City: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/resident-evil-welcome-to-raccoon-city/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>LINK CLICK: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/link-click/</link>
-      <description>Explore LINK CLICK: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/link-click/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:31 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>VisionQuest: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/visionquest/</link>
-      <description>Explore VisionQuest: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/visionquest/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:31 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
