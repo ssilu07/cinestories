@@ -1,5 +1,416 @@
 [
   {
+    "title": "The Blacklist: The Untold Story & Secrets",
+    "seo_description": "Discover The Blacklist: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 46952,
+      "title": "The Blacklist",
+      "original_title": "The Blacklist",
+      "slug": "the-blacklist",
+      "media_type": "tv",
+      "release_date": "2013-09-23",
+      "overview": "Raymond \"Red\" Reddington, one of the FBI's most wanted fugitives, surrenders in person at FBI Headquarters in Washington, D.C. He claims that he and the FBI have the same interests: bringing down dangerous criminals and terrorists. In the last two decades, he's made a list of criminals and terrorists that matter the most but the FBI cannot find because it does not know they exist. Reddington calls this \"The Blacklist\". Reddington will co-operate, but insists that he will speak only to Elizabeth Keen, a rookie FBI profiler.",
+      "tagline": "Never trust a criminal... Until you have to.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 10,
+      "vote_average": 7.6,
+      "vote_count": 3747,
+      "category": "series",
+      "director": "Jon Bokenkamp (Creator)",
+      "top_cast": [
+        "James Spader",
+        "Diego Klattenhoff",
+        "Hisham Tawfiq",
+        "Anya Banerjee",
+        "Harry Lennix"
+      ],
+      "poster_path": "/4HTfd1PhgFUenJxVuBDNdLmdr0c.jpg",
+      "backdrop_path": "/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
+      "backdrops": [
+        "/2eIlCirgcvEwmCSYh2wDfz5Sxvz.jpg",
+        "/dDPwCyZG8arYwMDoQl0sm4xccCE.jpg",
+        "/txFiPRZkEkNZPE4FLf6hE5afhod.jpg",
+        "/664yH5jWCbd8F8mJ4z1AnozgmzD.jpg",
+        "/5nSp5QysWtP5ku8ucmrVSZ6HLqP.jpg",
+        "/8b4X7cFOagllHuERcefvDpECwDz.jpg",
+        "/8YWQ1JrA4fihMwf9kYvGtd6mSe0.jpg",
+        "/lyLHrn20Ovoj2bOkshaCYe3UeCo.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Blacklist",
+        "text": "Never trust a criminal... Until you have to. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Raymond \"Red\" Reddington, one of the FBI's most wanted fugitives, surrenders in person at FBI Headquarters in Washington, D.C. He claims that he and the FBI have the same interests: bringing down dangerous criminals...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by James Spader, Diego Klattenhoff, Hisham Tawfiq, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jon Bokenkamp (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jon Bokenkamp (Creator)",
+        "text": "Filmmaker Jon Bokenkamp (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Blacklist? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/46952"
+      }
+    ],
+    "date_published": "2026-10-16T16:16:33Z",
+    "date_modified": "2026-10-16T16:16:33Z",
+    "published_at": "2026-10-16T16:16:33Z"
+  },
+  {
+    "title": "Therapy Done Right: The Untold Story & Secrets",
+    "seo_description": "Discover Therapy Done Right: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1487317,
+      "title": "Therapy Done Right",
+      "original_title": "Lo dejamos ac\u00e1",
+      "slug": "therapy-done-right",
+      "media_type": "movie",
+      "release_date": "2026-10-08",
+      "overview": "A psychoanalyst who's lost faith in traditional therapy crosses every boundary to help a blocked novelist in this cutting Argentine dark comedy.",
+      "tagline": "",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 97,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Hern\u00e1n Goldfrid",
+      "top_cast": [
+        "Ricardo Dar\u00edn",
+        "Diego Peretti",
+        "In\u00e9s Efr\u00f3n",
+        "Carlos Santamar\u00eda",
+        "Miriam Odorico",
+        "Antonia Bengochea"
+      ],
+      "poster_path": "/i1rUJxzppMe5IovOpOnUtAMX29J.jpg",
+      "backdrop_path": "/7PkFVqf2d6sIJLPKKjyyNssaLdy.jpg",
+      "backdrops": [
+        "/7PkFVqf2d6sIJLPKKjyyNssaLdy.jpg",
+        "/3eZQoaWm2cDE2QV02GUHUrWsxAC.jpg",
+        "/g2MCmJZ0esE2T0FLXjfdWwrDJUn.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Therapy Done Right",
+        "text": "Experience the global phenomenon of Therapy Done Right. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A psychoanalyst who's lost faith in traditional therapy crosses every boundary to help a blocked novelist in this cutting Argentine dark comedy.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ricardo Dar\u00edn, Diego Peretti, In\u00e9s Efr\u00f3n, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Hern\u00e1n Goldfrid.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Hern\u00e1n Goldfrid",
+        "text": "Filmmaker Hern\u00e1n Goldfrid pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Therapy Done Right? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1487317"
+      }
+    ],
+    "date_published": "2026-10-16T16:16:33Z",
+    "date_modified": "2026-10-16T16:16:33Z",
+    "published_at": "2026-10-16T16:16:33Z"
+  },
+  {
+    "title": "Forgotten Island: The Untold Story & Secrets",
+    "seo_description": "Discover Forgotten Island: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1465063,
+      "title": "Forgotten Island",
+      "original_title": "Forgotten Island",
+      "slug": "forgotten-island",
+      "media_type": "movie",
+      "release_date": "2026-09-10",
+      "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
+      "tagline": "No memory left behind.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Comedy",
+        "Family"
+      ],
+      "runtime": 109,
+      "seasons": null,
+      "vote_average": 8.0,
+      "vote_count": 72,
+      "category": "upcoming",
+      "director": "Januel Mercado",
+      "top_cast": [
+        "H.E.R.",
+        "Liza Soberano",
+        "Dave Franco",
+        "Jenny Slate",
+        "Manny Jacinto",
+        "Lea Salonga"
+      ],
+      "poster_path": "/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "backdrop_path": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+      "backdrops": [
+        "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+        "/eYvHMdFl1Qp0o810lCsRtjfs2sY.jpg",
+        "/2o9FzuBzCqrDTdlHRuEVnGD2d5h.jpg",
+        "/iU2RVy0G99XoDSUHvcQomtif5nP.jpg",
+        "/dhgYR0e9DwPZ7SvlrignZSlGHES.jpg",
+        "/8bRpAmoNdH7LKkrCiDOABSLxw8o.jpg",
+        "/9tC7T5JLOSENHj5EBoMOc4PiOt.jpg",
+        "/cLTGZgo0ndO6T8RqsQZU0ryno6u.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Forgotten Island",
+        "text": "No memory left behind. Rated 8.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by H.E.R., Liza Soberano, Dave Franco, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Januel Mercado.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Januel Mercado",
+        "text": "Filmmaker Januel Mercado pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.0/10 on TMDB",
+        "text": "With an impressive 8.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Forgotten Island? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1465063"
+      }
+    ],
+    "date_published": "2026-10-16T16:16:33Z",
+    "date_modified": "2026-10-16T16:16:33Z",
+    "published_at": "2026-10-16T16:16:33Z"
+  },
+  {
+    "title": "Iron Man 3: The Untold Story & Secrets",
+    "seo_description": "Discover Iron Man 3: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 68721,
+      "title": "Iron Man 3",
+      "original_title": "Iron Man 3",
+      "slug": "iron-man-3",
+      "media_type": "movie",
+      "release_date": "2013-04-18",
+      "overview": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+      "tagline": "Unleash the power behind the armor.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 130,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 24004,
+      "category": "theories_easter_eggs",
+      "director": "Shane Black",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Gwyneth Paltrow",
+        "Don Cheadle",
+        "Guy Pearce",
+        "Rebecca Hall",
+        "Jon Favreau"
+      ],
+      "poster_path": "/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
+      "backdrop_path": "/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg",
+      "backdrops": [
+        "/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg",
+        "/4TSqtluelcWByj8YZdqwzQVjI0O.jpg",
+        "/tKa1gmGKAUVYnflYcadipeL3d9h.jpg",
+        "/rIUa56zPJ7RmkxvWAQGL8x86G6j.jpg",
+        "/aZssWFpVpCajlmkJ1A3p5a8o6sC.jpg",
+        "/aFTYFqrWp4RS46Twm87l5e0ItYb.jpg",
+        "/hsohQritwEVNxEYDsKs7XytBDH0.jpg",
+        "/5evczgF0I48FTn3C3XXi7i1p8eK.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Iron Man 3",
+        "text": "Unleash the power behind the armor. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Robert Downey Jr., Gwyneth Paltrow, Don Cheadle, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Shane Black.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Shane Black",
+        "text": "Filmmaker Shane Black pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Iron Man 3? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/68721"
+      }
+    ],
+    "date_published": "2026-10-16T16:16:33Z",
+    "date_modified": "2026-10-16T16:16:33Z",
+    "published_at": "2026-10-16T16:16:33Z"
+  },
+  {
     "title": "Good Mythical Morning: The Untold Story & Secrets",
     "seo_description": "Discover Good Mythical Morning: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

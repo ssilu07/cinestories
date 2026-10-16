@@ -748,5 +748,29 @@
     "published_at": "2026-10-16T15:56:29Z",
     "modified_at": "2026-10-16T15:56:29Z",
     "category": "theories_easter_eggs"
+  },
+  "the-blacklist": {
+    "title": "The Blacklist",
+    "published_at": "2026-10-16T16:16:33Z",
+    "modified_at": "2026-10-16T16:16:33Z",
+    "category": "series"
+  },
+  "therapy-done-right": {
+    "title": "Therapy Done Right",
+    "published_at": "2026-10-16T16:16:33Z",
+    "modified_at": "2026-10-16T16:16:33Z",
+    "category": "trending"
+  },
+  "forgotten-island": {
+    "title": "Forgotten Island",
+    "published_at": "2026-10-16T16:16:33Z",
+    "modified_at": "2026-10-16T16:16:33Z",
+    "category": "upcoming"
+  },
+  "iron-man-3": {
+    "title": "Iron Man 3",
+    "published_at": "2026-10-16T16:16:33Z",
+    "modified_at": "2026-10-16T16:16:33Z",
+    "category": "theories_easter_eggs"
   }
 }
