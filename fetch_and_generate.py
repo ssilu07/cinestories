@@ -47,7 +47,8 @@ from config import (
     DAILY_PUBLISH_LIMIT,
     STORIES_PER_CATEGORY_LIMIT,
     REGISTRY_PATH,
-    API_PACING_SECONDS
+    API_PACING_SECONDS,
+    ADSENSE_CLIENT_ID
 )
 from tmdb_client import TMDBClient
 from ai_generator import AIGenerator
@@ -82,6 +83,17 @@ Allow: /
 Sitemap: {domain}/sitemap.xml
 """
     with open(dist_dir / "robots.txt", "w", encoding="utf-8") as f:
+        f.write(content)
+
+def write_ads_txt(dist_dir: Path, client_id: str):
+    """Generate ads.txt for Google AdSense compliance."""
+    if not client_id:
+        return
+    pub_id = client_id.replace("ca-", "").strip()
+    if not pub_id.startswith("pub-"):
+        pub_id = f"pub-{pub_id}"
+    content = f"google.com, {pub_id}, DIRECT, f08c47fec0942fa0\n"
+    with open(dist_dir / "ads.txt", "w", encoding="utf-8") as f:
         f.write(content)
 
 def load_published_registry(registry_path: Path, dist_dir: Path) -> Dict[str, Any]:
@@ -184,6 +196,7 @@ def run_pipeline(
     # 1. Ensure output assets & crawler rules
     ensure_assets(DIST_DIR)
     write_robots_txt(DIST_DIR, domain)
+    write_ads_txt(DIST_DIR, ADSENSE_CLIENT_ID)
 
     # 2. Load publication registry to eliminate duplicates
     registry = load_published_registry(REGISTRY_PATH, DIST_DIR)

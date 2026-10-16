@@ -888,6 +888,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <a href="/">Home</a>
         <a href="/discover/">Discover Feed</a>
         <a href="/about/">About Us</a>
+        <a href="/editorial/">Editorial Policy</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/terms/">Terms &amp; Disclaimer</a>
         <a href="/contact/">Contact Us</a>

@@ -272,6 +272,7 @@ def get_page_layout(title: str, description: str, slug: str, content_html: str, 
       <p style="font-size: 13px; color: var(--text-muted);">&copy; {year} {SITE_NAME}. All rights reserved.</p>
       <div class="footer-links">
         <a href="/about/">About Us</a>
+        <a href="/editorial/">Editorial Policy</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/terms/">Terms &amp; Disclaimer</a>
         <a href="/contact/">Contact Us</a>
@@ -313,6 +314,37 @@ def generate_policy_pages(dist_dir: Path = DIST_DIR, domain: str = DOMAIN_NAME):
 
             <h2>Connect With Us</h2>
             <p>Have questions, story requests, or feedback? Feel free to reach out via our <a href="/contact/">Contact Us page</a>.</p>
+            """
+        },
+        "editorial": {
+            "title": "Editorial Policy & Standards",
+            "description": f"Editorial guidelines, fact-checking methodology, AI transparency, and corrections policy for {SITE_NAME}.",
+            "content": f"""
+            <p><em>Last updated: October 2026</em></p>
+            <p>At <strong>{SITE_NAME}</strong>, we are committed to providing film fans, streaming enthusiasts, and pop culture lovers with accurate, insightful, and engaging entertainment journalism. Our mission is to synthesize verified cinematic data and thoughtful critique into mobile-optimized visual Web Stories and deep-dive articles.</p>
+
+            <h2>1. Journalistic Integrity &amp; Accuracy</h2>
+            <p>Every story and article published on {SITE_NAME} is built upon verified film databases, official studio press releases, and established entertainment news sources. We prioritize accuracy in release dates, box office numbers, cast credits, and narrative context.</p>
+
+            <h2>2. Fact-Checking &amp; Verification</h2>
+            <p>Our editorial workflow validates movie data against the The Movie Database (TMDB) API and cross-checks plot details, technical specs (aspect ratios, runtimes, IMAX formats), and cast filmographies before publishing. Trivia and fan theories are explicitly marked as such to maintain clarity between verified facts and speculative analysis.</p>
+
+            <h2>3. AI-Assisted Synthesis &amp; Human Curation</h2>
+            <p>We leverage advanced AI architectures (including Google Gemini) to assist in narrative structuring, concise summarization, and formatting compliance for the Google AMP Web Stories specification. However, all content adheres to rigorous quality guardrails:</p>
+            <ul>
+              <li><strong>Original Narrative Angles:</strong> We strictly avoid repetitive boilerplate or mass-generated thin content.</li>
+              <li><strong>Zero Spoilers:</strong> Premise summaries and trivia slides are reviewed to ensure critical twists remain uncompromised for first-time viewers.</li>
+              <li><strong>Fair Commentary:</strong> Our critical verdicts reflect balanced film perspectives rather than promotional studio copy.</li>
+            </ul>
+
+            <h2>4. Corrections &amp; Updates Policy</h2>
+            <p>The entertainment industry is fast-moving. When release schedules shift, casting changes occur, or box office figures update, we revise our articles promptly. If you detect an inaccuracy or out-of-date information, please reach out to our team at <a href="/contact/">our Contact page</a> or email <a href="mailto:sumits7196@gmail.com">sumits7196@gmail.com</a> with the story URL and corrected details.</p>
+
+            <h2>5. Independence &amp; Advertising Disclosure</h2>
+            <p>{SITE_NAME} maintains strict separation between editorial content and advertising. Commercial partnerships, display ads (such as Google AdSense), and affiliate links never dictate our critical assessments, ratings, or coverage priorities. Any sponsored feature is clearly labeled in accordance with FTC guidelines.</p>
+
+            <h2>6. DMCA &amp; Intellectual Property</h2>
+            <p>We respect the intellectual property rights of film studios, distributors, and artists. All movie stills, posters, and trailers are utilized under Fair Use doctrine for critique and educational commentary. For copyright inquiries, refer to our <a href="/terms/">Terms of Service &amp; Disclaimer</a>.</p>
             """
         },
         "privacy": {

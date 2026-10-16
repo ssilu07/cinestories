@@ -2,465 +2,465 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MoviePulse | Visual Web Stories for Movie Lovers</title>
-    <link>https://cinestories-omega.vercel.app/</link>
+    <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 15:56:47 +0000</lastBuildDate>
-    <atom:link href="https://cinestories-omega.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Oct 2026 16:06:21 +0000</lastBuildDate>
+    <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
-      <url>https://cinestories-omega.vercel.app/assets/logo.png</url>
+      <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
-      <link>https://cinestories-omega.vercel.app/</link>
+      <link>https://cinematicbites.com/</link>
     </image>
     <item>
-      <title>Good Mythical Morning: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/good-mythical-morning/</link>
-      <description>Explore Good Mythical Morning: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/good-mythical-morning/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Sacrifice: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/sacrifice/</link>
-      <description>Explore Sacrifice: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/sacrifice/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Evil Dead Burn: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/evil-dead-burn/</link>
-      <description>Explore Evil Dead Burn: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/evil-dead-burn/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Terminator: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-terminator/</link>
-      <description>Explore The Terminator: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-terminator/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Walking Dead: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-walking-dead/</link>
-      <description>Explore The Walking Dead: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-walking-dead/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Tenzing: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/tenzing/</link>
-      <description>Explore Tenzing: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/tenzing/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Social Reckoning: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-social-reckoning/</link>
-      <description>Explore The Social Reckoning: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-social-reckoning/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/wXTaGcqX3jvdXSKCJAkl5jZyrKp.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Spider-Man: No Way Home: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/spider-man-no-way-home/</link>
-      <description>Explore Spider-Man: No Way Home: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/spider-man-no-way-home/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Pokémon: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/pokémon/</link>
-      <description>Explore Pokémon: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/pokémon/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:26 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/yYpQV25I7XB6S0POJOScPjxYWV5.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/yYpQV25I7XB6S0POJOScPjxYWV5.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Masterplan: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/masterplan/</link>
-      <description>Explore Masterplan: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/masterplan/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:26 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Kung Fu Soccer: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/kung-fu-soccer/</link>
-      <description>Explore Kung Fu Soccer: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/kung-fu-soccer/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:26 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/yj6bku4UhatfkcV22Q4DY1ynj04.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/yj6bku4UhatfkcV22Q4DY1ynj04.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Furiosa: A Mad Max Saga: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/furiosa-a-mad-max-saga/</link>
-      <description>Explore Furiosa: A Mad Max Saga: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/furiosa-a-mad-max-saga/</guid>
-      <pubDate>Fri, 16 Oct 2026 02:45:26 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Sesame Street: 50+ Years of Pure TV Magic 🌟🎈</title>
-      <link>https://cinestories-omega.vercel.app/articles/sesame-street/</link>
-      <description>Explore Sesame Street: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/sesame-street/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:51:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/tNi2aJPdCKfielGYzIi3IKxStz9.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/tNi2aJPdCKfielGYzIi3IKxStz9.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Tiger Pandian Is Back: What to Expect From Rajinikanth's Jailer 2</title>
-      <link>https://cinestories-omega.vercel.app/articles/jailer-2/</link>
-      <description>Rajinikanth returns as Tiger Muthuvel Pandian in Nelson's Jailer 2. Here is a breakdown of the new cast, undercover plot, and high-octane expectations.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/jailer-2/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:51:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/m0ks2o59mOAz6WdCybJ5FAUNTOU.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Scary Movie: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/scary-movie/</link>
-      <description>Explore Scary Movie: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/scary-movie/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:51:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/xWBiXclrRmTggQHMRsIn84YHavs.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/xWBiXclrRmTggQHMRsIn84YHavs.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Avatar: The Way of Water: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/avatar-the-way-of-water/</link>
-      <description>Explore Avatar: The Way of Water: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/avatar-the-way-of-water/</guid>
-      <pubDate>Thu, 15 Oct 2026 20:51:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/kJsPVzdyBrYHLomuNv5SJDXUQ2f.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Raw: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/raw/</link>
-      <description>Explore Raw: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/raw/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:09:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ykWWT8FAChBffNxcDzoJMCK9LBb.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Storm: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-storm/</link>
-      <description>Explore The Storm: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-storm/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:09:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/zN5mRDu6jOYt5EJGYGjhWgOGwor.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Backrooms: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/backrooms/</link>
-      <description>Explore Backrooms: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/backrooms/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:09:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/dqmMWNWfLnExDRpMtIMqI97GQFR.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Fantastic 4: First Steps: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-fantastic-4-first-steps/</link>
-      <description>Explore The Fantastic 4: First Steps: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-fantastic-4-first-steps/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:09:03 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/s94NjfKkcSczZ1FembwmQZwsuwY.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>C.I.D.: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/cid/</link>
-      <description>Explore C.I.D.: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/cid/</guid>
-      <pubDate>Thu, 15 Oct 2026 10:43:57 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/1gZrOa2E9DOohEvSLLBJqus2zGu.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Tad and The Magic Lamp: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/tad-and-the-magic-lamp/</link>
-      <description>Explore Tad and The Magic Lamp: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/tad-and-the-magic-lamp/</guid>
-      <pubDate>Thu, 15 Oct 2026 10:43:57 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/zbpimMxf6Ms96v3Zypuv8WltMSO.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Obsession: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/obsession/</link>
-      <description>Explore Obsession: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/obsession/</guid>
-      <pubDate>Thu, 15 Oct 2026 10:43:57 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Supergirl: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/supergirl/</link>
-      <description>Explore Supergirl: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/supergirl/</guid>
-      <pubDate>Thu, 15 Oct 2026 10:43:57 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/heZQmyNvkH236ha2M3JckdUQQqb.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/heZQmyNvkH236ha2M3JckdUQQqb.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Grey's Anatomy: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/greys-anatomy/</link>
-      <description>Explore Grey's Anatomy: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/greys-anatomy/</guid>
-      <pubDate>Thu, 15 Oct 2026 02:48:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/jP0Rhj9OTPDAwQlHQwOLFDdeE8t.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Don't Move: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/dont-move/</link>
-      <description>Explore Don't Move: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/dont-move/</guid>
-      <pubDate>Thu, 15 Oct 2026 02:48:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/1b0RrVxLAMhfT0vQXfWtDLwg1ke.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/1b0RrVxLAMhfT0vQXfWtDLwg1ke.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Hunger Games: Mockingjay - Part 1: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-hunger-games-mockingjay-part-1/</link>
-      <description>Explore The Hunger Games: Mockingjay - Part 1: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-hunger-games-mockingjay-part-1/</guid>
-      <pubDate>Thu, 15 Oct 2026 02:48:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/lV1P1Q5gLDXVG1ZYCxZHStkcQC3.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/lV1P1Q5gLDXVG1ZYCxZHStkcQC3.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Mandalorian and Grogu: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-mandalorian-and-grogu/</link>
-      <description>Explore The Mandalorian and Grogu: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-mandalorian-and-grogu/</guid>
-      <pubDate>Thu, 15 Oct 2026 02:48:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ysLlsAxwgNSxBWHCgTKJrmjxpRQ.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why NCIS Remains TV's Greatest Crime Drama Powerhouse ⚓📺</title>
-      <link>https://cinestories-omega.vercel.app/articles/ncis/</link>
-      <description>Explore NCIS: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/ncis/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:45:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Clayface: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/clayface/</link>
-      <description>Explore Clayface: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/clayface/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:45:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/kVtOcoUJ68chBD2tmERkdWz7lK5.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/kVtOcoUJ68chBD2tmERkdWz7lK5.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Infirmary: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/infirmary/</link>
-      <description>Explore Infirmary: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/infirmary/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:45:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/qkxk9URcK33HK54YSXFPQO8aqJH.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/qkxk9URcK33HK54YSXFPQO8aqJH.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Avengers: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/the-avengers/</link>
-      <description>Explore The Avengers: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-avengers/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:45:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
       <title>Law &amp; Order: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/law-order/</link>
+      <link>https://cinematicbites.com/articles/law-order/</link>
       <description>Explore Law &amp; Order: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/law-order/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/law-order/</guid>
       <pubDate>Wed, 14 Oct 2026 19:35:58 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/tc7canPSAn2X14hYi6Rl3gZm1o4.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Verity: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/verity/</link>
+      <link>https://cinematicbites.com/articles/verity/</link>
       <description>Explore Verity: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/verity/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/verity/</guid>
       <pubDate>Wed, 14 Oct 2026 19:35:58 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/3BoHXmGAfC2qO4wnCpMYV0BzpHD.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Ice Cream Man: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/ice-cream-man/</link>
+      <link>https://cinematicbites.com/articles/ice-cream-man/</link>
       <description>Explore Ice Cream Man: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/ice-cream-man/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/ice-cream-man/</guid>
       <pubDate>Wed, 14 Oct 2026 19:35:58 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/hjF1rzTDR7YvnJUcH2SfP48w492.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/hjF1rzTDR7YvnJUcH2SfP48w492.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Deadpool &amp; Wolverine: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/deadpool-wolverine/</link>
+      <link>https://cinematicbites.com/articles/deadpool-wolverine/</link>
       <description>Explore Deadpool &amp; Wolverine: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/deadpool-wolverine/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/deadpool-wolverine/</guid>
       <pubDate>Wed, 14 Oct 2026 19:35:58 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/by8z9Fe8y7p4jo2YlW2SZDnptyT.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>MobLand: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/mobland/</link>
+      <link>https://cinematicbites.com/articles/mobland/</link>
       <description>Explore MobLand: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/mobland/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/mobland/</guid>
       <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Buddy: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/buddy/</link>
+      <link>https://cinematicbites.com/articles/buddy/</link>
       <description>Explore Buddy: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/buddy/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/buddy/</guid>
       <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Heart of the Beast: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/heart-of-the-beast/</link>
+      <link>https://cinematicbites.com/articles/heart-of-the-beast/</link>
       <description>Explore Heart of the Beast: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/heart-of-the-beast/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/heart-of-the-beast/</guid>
       <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/bicMU6xVD5deVyKP2azpyx7xkmH.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/bicMU6xVD5deVyKP2azpyx7xkmH.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Star Wars: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/star-wars/</link>
+      <link>https://cinematicbites.com/articles/star-wars/</link>
       <description>Explore Star Wars: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/star-wars/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/star-wars/</guid>
       <pubDate>Wed, 14 Oct 2026 19:20:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/zqkmTXzjkAgXmEWLRsY4UpTWCeo.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Ted Lasso: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/ted-lasso/</link>
+      <link>https://cinematicbites.com/articles/ted-lasso/</link>
       <description>Explore Ted Lasso: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/ted-lasso/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/ted-lasso/</guid>
       <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/nE94ejEbzNCU48bW1oju0dqBONz.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/nE94ejEbzNCU48bW1oju0dqBONz.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Whalefall: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/whalefall/</link>
+      <link>https://cinematicbites.com/articles/whalefall/</link>
       <description>Explore Whalefall: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/whalefall/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/whalefall/</guid>
       <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/uCA9Uz9Iq7PxCc21S5cRrjyEn2x.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Onslaught: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/onslaught/</link>
+      <link>https://cinematicbites.com/articles/onslaught/</link>
       <description>Explore Onslaught: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/onslaught/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/onslaught/</guid>
       <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/clePZhqOSzNyjfuFBpOrziLEFzb.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/clePZhqOSzNyjfuFBpOrziLEFzb.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Avengers: Endgame: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/avengers-endgame/</link>
+      <link>https://cinematicbites.com/articles/avengers-endgame/</link>
       <description>Explore Avengers: Endgame: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/avengers-endgame/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/avengers-endgame/</guid>
       <pubDate>Wed, 14 Oct 2026 18:45:48 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Slow Horses: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/slow-horses/</link>
+      <link>https://cinematicbites.com/articles/slow-horses/</link>
       <description>Explore Slow Horses: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/slow-horses/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/slow-horses/</guid>
       <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Practical Magic 2: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/practical-magic-2/</link>
+      <link>https://cinematicbites.com/articles/practical-magic-2/</link>
       <description>Explore Practical Magic 2: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/practical-magic-2/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/practical-magic-2/</guid>
       <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/oIglj0Jy9duG4LnrRUpH8n001Pk.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Pinocchio: Unstrung: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/pinocchio-unstrung/</link>
+      <link>https://cinematicbites.com/articles/pinocchio-unstrung/</link>
       <description>Explore Pinocchio: Unstrung: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/pinocchio-unstrung/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/pinocchio-unstrung/</guid>
       <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/xenXu6gt6iTJBNH80CNr7kg5q2z.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Avengers: Infinity War: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/avengers-infinity-war/</link>
+      <link>https://cinematicbites.com/articles/avengers-infinity-war/</link>
       <description>Explore Avengers: Infinity War: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/avengers-infinity-war/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/avengers-infinity-war/</guid>
       <pubDate>Wed, 14 Oct 2026 18:35:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Helluva Boss: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/helluva-boss/</link>
+      <link>https://cinematicbites.com/articles/helluva-boss/</link>
       <description>Explore Helluva Boss: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/helluva-boss/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/helluva-boss/</guid>
       <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/20OP4f0xDbPttORm9OyIbNu3cNN.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/20OP4f0xDbPttORm9OyIbNu3cNN.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Street Fighter: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/street-fighter/</link>
+      <link>https://cinematicbites.com/articles/street-fighter/</link>
       <description>Explore Street Fighter: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/street-fighter/</guid>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/street-fighter/</guid>
       <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Other Mommy: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/other-mommy/</link>
+      <description>Explore Other Mommy: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/other-mommy/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Colony: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/colony/</link>
+      <description>Explore Colony: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/colony/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Dragon Ball Super: Beerus: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/dragon-ball-super-beerus/</link>
+      <description>Explore Dragon Ball Super: Beerus: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/dragon-ball-super-beerus/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Love of Your Life: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/love-of-your-life/</link>
+      <description>Explore Love of Your Life: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/love-of-your-life/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Mongoose: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-mongoose/</link>
+      <description>Explore The Mongoose: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-mongoose/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/iRIhPqqoUHiFBxn8oYf3gCQnaKk.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Resident Evil: Welcome to Raccoon City: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/resident-evil-welcome-to-raccoon-city/</link>
+      <description>Explore Resident Evil: Welcome to Raccoon City: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/resident-evil-welcome-to-raccoon-city/</guid>
+      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/wYtEvBmpBRXPdwGgr1gcWiwJSI7.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>LINK CLICK: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/link-click/</link>
+      <description>Explore LINK CLICK: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/link-click/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/w3agwUSMpJ4X9t1jGrDtqqRPjDQ.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>VisionQuest: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/visionquest/</link>
+      <description>Explore VisionQuest: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/visionquest/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Carrie: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/carrie/</link>
+      <description>Explore Carrie: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/carrie/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Spider-Man: Brand New Day: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/spider-man-brand-new-day/</link>
+      <description>Explore Spider-Man: Brand New Day: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/spider-man-brand-new-day/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/4tjxYg2AbOzzG9G1YuiT2NzYhlH.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Animals: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/animals/</link>
+      <description>Explore Animals: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/animals/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/tzoarEu7TsG959upiELyYPm5kO9.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/tzoarEu7TsG959upiELyYPm5kO9.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Hope: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/hope/</link>
+      <description>Explore Hope: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/hope/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/ujUwzNV8ZkOzZonvhhHsc9KOKDf.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/ujUwzNV8ZkOzZonvhhHsc9KOKDf.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Barbara Karlich – Talk um 4: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/barbara-karlich-talk-um-4/</link>
+      <description>Explore Barbara Karlich – Talk um 4: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/barbara-karlich-talk-um-4/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/uFDlUMdp3NoXhnveAfgSpty8vBy.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/uFDlUMdp3NoXhnveAfgSpty8vBy.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Watch What Happens Live with Andy Cohen: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/watch-what-happens-live-with-andy-cohen/</link>
+      <description>Explore Watch What Happens Live with Andy Cohen: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/watch-what-happens-live-with-andy-cohen/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/hINekSpbcBxjnjGqmIm6I4bz2ab.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Come Home Love: Lo and Behold: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/come-home-love-lo-and-behold/</link>
+      <description>Explore Come Home Love: Lo and Behold: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/come-home-love-lo-and-behold/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/dyFTt1a9ZpFdKE96kPlE9fQvXOJ.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/dyFTt1a9ZpFdKE96kPlE9fQvXOJ.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Avatar Aang: The Last Airbender: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/avatar-aang-the-last-airbender/</link>
+      <description>Explore Avatar Aang: The Last Airbender: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/avatar-aang-the-last-airbender/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/ezbrL1dMymKQZw7mDEWa2ZTzN7d.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Batman: Knightfall Part 1: Knightfall: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/batman-knightfall-part-1-knightfall/</link>
+      <description>Explore Batman: Knightfall Part 1: Knightfall: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/batman-knightfall-part-1-knightfall/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/caBIySpwuFi2i7ynvHIlnxJLOdN.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Swapped: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/swapped/</link>
+      <description>Explore Swapped: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/swapped/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/zMwhWailP1WY7sb6AoE6b8ugoy.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/zMwhWailP1WY7sb6AoE6b8ugoy.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Drawn Together: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/drawn-together/</link>
+      <description>Explore Drawn Together: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/drawn-together/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/i65y7cMae36K0giN0GRaMjAHUru.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/i65y7cMae36K0giN0GRaMjAHUru.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>My Fault: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/my-fault/</link>
+      <description>Explore My Fault: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/my-fault/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/oz4U9eA6ilYf1tyiVuGmkftdLac.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Gorge: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-gorge/</link>
+      <description>Explore The Gorge: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-gorge/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/9nhjGaFLKtddDPtPaX5EmKqsWdH.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Fall 2: Deadpoint: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/fall-2-deadpoint/</link>
+      <description>Explore Fall 2: Deadpoint: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/fall-2-deadpoint/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/yBDxqDB29kpH9VojTytjGWBgmdJ.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Runner: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/runner/</link>
+      <description>Explore Runner: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/runner/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/npXZNWjOEYrqdMDPQ11SGBrXqAG.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Fix: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-fix/</link>
+      <description>Explore The Fix: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-fix/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/yT8EkAvEkJDFeAxK7s7HlIPELRT.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Below: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/below/</link>
+      <description>Explore Below: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/below/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/cn0feYcDvVzVjUDoXa1O8sRgzz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Lanterns: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/lanterns/</link>
+      <description>Explore Lanterns: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/lanterns/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/6gqezQJ2mkm4jreWwLyOZy2Vf6i.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Matchbox the Movie: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/matchbox-the-movie/</link>
+      <description>Explore Matchbox the Movie: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/matchbox-the-movie/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/vJlFR2PEioavrz17QbC56r76V9F.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/vJlFR2PEioavrz17QbC56r76V9F.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story &amp; Secre</title>
+      <link>https://cinematicbites.com/articles/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</link>
+      <description>Explore Souryo to Majiwaru Shikiyoku no Yoru ni...: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/4kQiFnWtwndtCyKMszVJNPEE1kY.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire 🖤🔥</title>
+      <link>https://cinematicbites.com/articles/fifty-shades-of-grey/</link>
+      <description>Explore Fifty Shades of Grey: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/fifty-shades-of-grey/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/7IGKrY1f1KfwMipx9wZC4NRgIdF.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Take Charge of My Heart: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/take-charge-of-my-heart/</link>
+      <description>Explore Take Charge of My Heart: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/take-charge-of-my-heart/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/cHO75BxLM6sz7NsiVyaBmkKnmgg.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Insidious: Out of the Further: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/insidious-out-of-the-further/</link>
+      <description>Explore Insidious: Out of the Further: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/insidious-out-of-the-further/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/p40lmrdI4blcAPZQMTPaiy5v5Ym.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Digger: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/digger/</link>
+      <description>Explore Digger: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/digger/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/b7t3r39Oll5qPxBKzLZ8eHMBD7l.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

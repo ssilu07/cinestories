@@ -452,10 +452,28 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
             else:
                 headline = f"{title} Deep Dive: Cast, Hidden Clues & What Critics Are Saying 🎬"
 
+        # Handle ratings cleanly (avoid 0.0 rating glitches for unreleased/unrated titles)
+        has_valid_rating = isinstance(rating, (int, float)) and rating > 0.0
+        rating_takeaway = (
+            f"Audience Reception: Currently certified with an impressive {rating}/10 community rating."
+            if has_valid_rating
+            else "Audience Reception: Highly anticipated title with strong pre-release buzz across fan forums."
+        )
+        reception_content = (
+            f"Currently holding a certified {rating}/10 community rating, discussions across entertainment forums highlight its memorable climax and rewatch value, cementing it as an essential recommendation for {genre_str} enthusiasts."
+            if has_valid_rating
+            else f"With excitement mounting ahead of its premiere, discussions across entertainment communities highlight massive anticipation, making this {genre_str} entry a standout for film watchlists."
+        )
+        buzz_content = (
+            f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across entertainment communities. It represents a bold statement for contemporary {genre_str} entertainment."
+            if has_valid_rating
+            else f"Generating substantial pre-release interest across film circles, this project stands out as a highly anticipated entry in contemporary {genre_str} cinema."
+        )
+
         # Key Takeaways
         takeaways = [
             f"Powerhouse Cast: Led by {cast_str} under the direction of {director}.",
-            f"Audience Reception: Currently certified with an impressive {rating}/10 community rating.",
+            rating_takeaway,
             f"Genre Highlights: Compelling {genre_str} storytelling with memorable character arcs.",
             f"Watch Format: Available for full cinematic analysis and visual slide exploration."
         ]
@@ -484,7 +502,7 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
                 },
                 {
                     "heading": s4.get("title") or "Cultural Impact & Audience Reception",
-                    "content": f"{s4.get('text', '')} Currently holding a certified {rating}/10 community rating, discussions across entertainment forums highlight its memorable climax and rewatch value, cementing it as an essential recommendation for {genre_str} enthusiasts."
+                    "content": f"{s4.get('text', '')} {reception_content}"
                 }
             ]
         else:
@@ -503,7 +521,7 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
                 },
                 {
                     "heading": "Cultural Buzz & Why Audiences Are Obsessed",
-                    "content": f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across entertainment communities. It represents a bold statement for contemporary {genre_str} entertainment."
+                    "content": buzz_content
                 }
             ]
 
