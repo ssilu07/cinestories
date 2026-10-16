@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinestories-omega.vercel.app/articles/good-mythical-morning/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg</image:loc>
+      <image:title>Good Mythical Morning: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/sacrifice/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg</image:loc>
+      <image:title>Sacrifice: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/evil-dead-burn/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg</image:loc>
+      <image:title>Evil Dead Burn: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/the-terminator/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg</image:loc>
+      <image:title>The Terminator: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-walking-dead/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1220,6 +1260,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/good-mythical-morning/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg</image:loc>
+      <image:title>Good Mythical Morning Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/sacrifice/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/SGH7mlgfDyGgRCi2At62Ljg3zV.jpg</image:loc>
+      <image:title>Sacrifice Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/evil-dead-burn/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/uRxrNXQWkHoENm3nwVOZDYSCx2F.jpg</image:loc>
+      <image:title>Evil Dead Burn Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/the-terminator/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/qvktm0BHcnmDpul4Hz01GIazWPr.jpg</image:loc>
+      <image:title>The Terminator Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

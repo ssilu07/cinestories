@@ -5,13 +5,49 @@
     <link>https://cinestories-omega.vercel.app/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 10:31:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 15:56:47 +0000</lastBuildDate>
     <atom:link href="https://cinestories-omega.vercel.app/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinestories-omega.vercel.app/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinestories-omega.vercel.app/</link>
     </image>
+    <item>
+      <title>Good Mythical Morning: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/good-mythical-morning/</link>
+      <description>Explore Good Mythical Morning: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/good-mythical-morning/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/hvFCS0dMeC3ffiF4uYTKzUAkvYL.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Sacrifice: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/sacrifice/</link>
+      <description>Explore Sacrifice: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/sacrifice/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Evil Dead Burn: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/evil-dead-burn/</link>
+      <description>Explore Evil Dead Burn: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/evil-dead-burn/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Terminator: The Untold Story &amp; Secrets</title>
+      <link>https://cinestories-omega.vercel.app/articles/the-terminator/</link>
+      <description>Explore The Terminator: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/the-terminator/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>The Walking Dead: The Untold Story &amp; Secrets</title>
       <link>https://cinestories-omega.vercel.app/articles/the-walking-dead/</link>
@@ -425,42 +461,6 @@
       <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/zDE9hd1SG9695YncbZGjSf7Z9Jk.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Other Mommy: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/other-mommy/</link>
-      <description>Explore Other Mommy: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/other-mommy/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ncm7djsVTHQQMX2HEbEVxMUFchG.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Colony: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/colony/</link>
-      <description>Explore Colony: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/colony/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:17:19 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/pGxUbJ1vKuMYeEjKDokFI7DNbSG.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Dragon Ball Super: Beerus: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/dragon-ball-super-beerus/</link>
-      <description>Explore Dragon Ball Super: Beerus: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/dragon-ball-super-beerus/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/8phLVFEXOe02JgFmH9ldn3j4tXW.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Love of Your Life: The Untold Story &amp; Secrets</title>
-      <link>https://cinestories-omega.vercel.app/articles/love-of-your-life/</link>
-      <description>Explore Love of Your Life: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinestories-omega.vercel.app/articles/love-of-your-life/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:06:40 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/unmKnlbrc0iHwvEbZakw3nMr0Xu.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

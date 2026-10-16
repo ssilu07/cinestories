@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-16T10:31:20.996351+00:00",
-  "total_stories": 121,
+  "generated_at": "2026-10-16T15:56:47.700307+00:00",
+  "total_stories": 125,
   "stories": [
+    {
+      "id": 65701,
+      "slug": "good-mythical-morning",
+      "title": "Good Mythical Morning: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/good-mythical-morning/",
+      "category": "series",
+      "release_date": "2012-01-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1284186,
+      "slug": "sacrifice",
+      "title": "Sacrifice: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/sacrifice/",
+      "category": "trending",
+      "release_date": "2026-04-09",
+      "rating": 5.7
+    },
+    {
+      "id": 1212763,
+      "slug": "evil-dead-burn",
+      "title": "Evil Dead Burn: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/evil-dead-burn/",
+      "category": "upcoming",
+      "release_date": "2026-07-07",
+      "rating": 7.6
+    },
+    {
+      "id": 218,
+      "slug": "the-terminator",
+      "title": "The Terminator: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/the-terminator/",
+      "category": "theories_easter_eggs",
+      "release_date": "1984-10-26",
+      "rating": 7.7
+    },
     {
       "id": 1402,
       "slug": "the-walking-dead",

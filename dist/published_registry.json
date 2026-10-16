@@ -724,5 +724,29 @@
     "published_at": "2026-10-16T10:31:04Z",
     "modified_at": "2026-10-16T10:31:04Z",
     "category": "theories_easter_eggs"
+  },
+  "good-mythical-morning": {
+    "title": "Good Mythical Morning",
+    "published_at": "2026-10-16T15:56:29Z",
+    "modified_at": "2026-10-16T15:56:29Z",
+    "category": "series"
+  },
+  "sacrifice": {
+    "title": "Sacrifice",
+    "published_at": "2026-10-16T15:56:29Z",
+    "modified_at": "2026-10-16T15:56:29Z",
+    "category": "trending"
+  },
+  "evil-dead-burn": {
+    "title": "Evil Dead Burn",
+    "published_at": "2026-10-16T15:56:29Z",
+    "modified_at": "2026-10-16T15:56:29Z",
+    "category": "upcoming"
+  },
+  "the-terminator": {
+    "title": "The Terminator",
+    "published_at": "2026-10-16T15:56:29Z",
+    "modified_at": "2026-10-16T15:56:29Z",
+    "category": "theories_easter_eggs"
   }
 }
