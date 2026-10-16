@@ -2,15 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cinestories-omega.vercel.app/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/discover/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/pokémon/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/yYpQV25I7XB6S0POJOScPjxYWV5.jpg</image:loc>
+      <image:title>Pokémon: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/masterplan/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/dgUDj84BWtW6EZzee8BkgKnjDhh.jpg</image:loc>
+      <image:title>Masterplan: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/kung-fu-soccer/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/yj6bku4UhatfkcV22Q4DY1ynj04.jpg</image:loc>
+      <image:title>Kung Fu Soccer: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/articles/furiosa-a-mad-max-saga/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/raph7qjAGTMXaIjVxt6ZDSXRzUr.jpg</image:loc>
+      <image:title>Furiosa: A Mad Max Saga: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/sesame-street/</loc>
@@ -454,7 +494,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/link-click/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -464,7 +504,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/visionquest/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -474,7 +514,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/carrie/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -484,7 +524,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/spider-man-brand-new-day/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -494,7 +534,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/animals/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -504,7 +544,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/hope/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -514,7 +554,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/barbara-karlich-talk-um-4/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -524,7 +564,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/watch-what-happens-live-with-andy-cohen/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -534,7 +574,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/come-home-love-lo-and-behold/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -544,7 +584,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/avatar-aang-the-last-airbender/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -554,7 +594,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/batman-knightfall-part-1-knightfall/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -564,7 +604,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/swapped/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -574,7 +614,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/drawn-together/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -584,7 +624,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/my-fault/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -594,7 +634,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-gorge/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -604,7 +644,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/fall-2-deadpoint/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -614,7 +654,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/runner/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -624,7 +664,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-fix/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -634,7 +674,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/below/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -644,7 +684,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/lanterns/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -654,7 +694,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/matchbox-the-movie/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -664,7 +704,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -674,7 +714,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/fifty-shades-of-grey/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -684,7 +724,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/take-charge-of-my-heart/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -694,7 +734,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/insidious-out-of-the-further/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -704,7 +744,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/digger/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -714,7 +754,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/reacher/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -724,7 +764,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/east-of-eden/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -734,7 +774,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/one-piece/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -744,7 +784,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/resident-evil/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -754,7 +794,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/coyote-vs-acme/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -764,7 +804,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/marshals/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -774,7 +814,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-uprising/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -784,7 +824,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-tonight-show-starring-jimmy-fallon/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -794,7 +834,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/coven-academy/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -804,7 +844,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/black-clover/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -814,7 +854,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/avengers-doomsday/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -824,7 +864,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/streaming-weekly-top-10-us-uk/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -834,7 +874,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/fallout-prime-video/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -844,7 +884,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/house-of-the-dragon/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -854,7 +894,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/shogun/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -864,7 +904,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/marvel-post-credit-theories/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -874,7 +914,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/dc-easter-eggs-theories/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -884,7 +924,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/spiderman-venom-post-credits/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -894,7 +934,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/friends-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -904,7 +944,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-office-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -914,7 +954,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/sitcom-stars-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -924,7 +964,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/money-heist/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -934,7 +974,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/stranger-things/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -944,7 +984,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-boys/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -954,7 +994,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/breaking-bad/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -964,7 +1004,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/wednesday/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -974,7 +1014,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/game-of-thrones/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -984,7 +1024,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/squid-game/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -994,7 +1034,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-last-of-us/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1004,7 +1044,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/john-wick-chapter-4/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1014,7 +1054,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/deadpool-and-wolverine/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1024,7 +1064,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/dune-part-two/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1034,7 +1074,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/twisters/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1044,7 +1084,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/poor-things/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1054,7 +1094,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/final-destination/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1064,7 +1104,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/interstellar/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1074,7 +1114,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/inception/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1084,7 +1124,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/the-dark-knight/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1094,7 +1134,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/oppenheimer/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1104,7 +1144,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/365-days/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1114,7 +1154,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/basic-instinct/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1124,7 +1164,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/saltburn/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1134,12 +1174,52 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/articles/gladiator-ii/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/pokémon/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/lP4zwr0F7hWTbAFltfoFTc2AxRG.jpg</image:loc>
+      <image:title>Pokémon Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/masterplan/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5xmXVd7nCK3tAo34XkO58SxUCip.jpg</image:loc>
+      <image:title>Masterplan Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/kung-fu-soccer/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6QgJQrClh9ej357yzLWgCxrjAmJ.jpg</image:loc>
+      <image:title>Kung Fu Soccer Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinestories-omega.vercel.app/stories/furiosa-a-mad-max-saga/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/iADOJ8Zymht2JPMoy3R7xceZprc.jpg</image:loc>
+      <image:title>Furiosa: A Mad Max Saga Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
@@ -1584,7 +1664,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/link-click/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1594,7 +1674,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/visionquest/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1604,7 +1684,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/carrie/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1614,7 +1694,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/spider-man-brand-new-day/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1624,7 +1704,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/animals/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1634,7 +1714,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/hope/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1644,7 +1724,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/barbara-karlich-talk-um-4/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1654,7 +1734,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/watch-what-happens-live-with-andy-cohen/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1664,7 +1744,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/come-home-love-lo-and-behold/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1674,7 +1754,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/avatar-aang-the-last-airbender/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1684,7 +1764,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/batman-knightfall-part-1-knightfall/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1694,7 +1774,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/swapped/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1704,7 +1784,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/drawn-together/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1714,7 +1794,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/my-fault/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1724,7 +1804,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-gorge/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1734,7 +1814,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/fall-2-deadpoint/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1744,7 +1824,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/runner/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1754,7 +1834,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-fix/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1764,7 +1844,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/below/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1774,7 +1854,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/lanterns/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1784,7 +1864,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/matchbox-the-movie/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1794,7 +1874,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1804,7 +1884,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/fifty-shades-of-grey/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1814,7 +1894,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/take-charge-of-my-heart/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1824,7 +1904,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/insidious-out-of-the-further/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1834,7 +1914,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/digger/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1844,7 +1924,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/reacher/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1854,7 +1934,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/east-of-eden/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1864,7 +1944,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/one-piece/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1874,7 +1954,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/resident-evil/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1884,7 +1964,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/coyote-vs-acme/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1894,7 +1974,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/marshals/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1904,7 +1984,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-uprising/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1914,7 +1994,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-tonight-show-starring-jimmy-fallon/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1924,7 +2004,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/coven-academy/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1934,7 +2014,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/black-clover/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1944,7 +2024,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/avengers-doomsday/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1954,7 +2034,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/streaming-weekly-top-10-us-uk/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1964,7 +2044,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/fallout-prime-video/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1974,7 +2054,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/house-of-the-dragon/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1984,7 +2064,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/shogun/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -1994,7 +2074,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/marvel-post-credit-theories/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2004,7 +2084,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/dc-easter-eggs-theories/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2014,7 +2094,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/spiderman-venom-post-credits/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2024,7 +2104,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/friends-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2034,7 +2114,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-office-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2044,7 +2124,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/sitcom-stars-where-are-they-now/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2054,7 +2134,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/money-heist/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2064,7 +2144,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/stranger-things/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2074,7 +2154,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-boys/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2084,7 +2164,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/breaking-bad/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2094,7 +2174,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/wednesday/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2104,7 +2184,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/game-of-thrones/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2114,7 +2194,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/squid-game/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2124,7 +2204,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-last-of-us/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2134,7 +2214,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/john-wick-chapter-4/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2144,7 +2224,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/deadpool-and-wolverine/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2154,7 +2234,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/dune-part-two/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2164,7 +2244,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/twisters/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2174,7 +2254,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/poor-things/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2184,7 +2264,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/final-destination/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2194,7 +2274,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/interstellar/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2204,7 +2284,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/inception/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2214,7 +2294,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/the-dark-knight/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2224,7 +2304,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/oppenheimer/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2234,7 +2314,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/365-days/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2244,7 +2324,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/basic-instinct/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2254,7 +2334,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/saltburn/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2264,7 +2344,7 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/stories/gladiator-ii/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -2274,31 +2354,31 @@
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/about/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/editorial/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/privacy/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/terms/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinestories-omega.vercel.app/contact/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

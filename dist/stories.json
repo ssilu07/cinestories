@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinestories-omega.vercel.app",
-  "generated_at": "2026-10-15T20:52:10.972698+00:00",
-  "total_stories": 113,
+  "generated_at": "2026-10-16T02:45:31.088235+00:00",
+  "total_stories": 117,
   "stories": [
+    {
+      "id": 60572,
+      "slug": "pok\u00e9mon",
+      "title": "Pok\u00e9mon: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/pok\u00e9mon/",
+      "category": "series",
+      "release_date": "1997-04-01",
+      "rating": 8.0
+    },
+    {
+      "id": 1561726,
+      "slug": "masterplan",
+      "title": "Masterplan: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/masterplan/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 1491920,
+      "slug": "kung-fu-soccer",
+      "title": "Kung Fu Soccer: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/kung-fu-soccer/",
+      "category": "upcoming",
+      "release_date": "2026-07-11",
+      "rating": 5.8
+    },
+    {
+      "id": 786892,
+      "slug": "furiosa-a-mad-max-saga",
+      "title": "Furiosa: A Mad Max Saga: The Untold Story & Secrets",
+      "url": "https://cinestories-omega.vercel.app/stories/furiosa-a-mad-max-saga/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-05-22",
+      "rating": 7.4
+    },
     {
       "id": 502,
       "slug": "sesame-street",
