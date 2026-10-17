@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T12:44:50.358368+00:00",
-  "total_stories": 153,
+  "generated_at": "2026-10-17T15:46:14.321323+00:00",
+  "total_stories": 157,
   "stories": [
+    {
+      "id": 4629,
+      "slug": "stargate-sg-1",
+      "title": "Stargate SG-1: Why This Sci-Fi Giant Still Rules \ud83c\udf0c\ud83d\udef8",
+      "url": "https://cinematicbites.com/stories/stargate-sg-1/",
+      "category": "series",
+      "release_date": "1997-07-27",
+      "rating": 8.3
+    },
+    {
+      "id": 1084244,
+      "slug": "toy-story-5",
+      "title": "Toy Story 5: Woody & Buzz Face Their Darkest Rival! \ud83e\udd20\ud83d\ude80",
+      "url": "https://cinematicbites.com/stories/toy-story-5/",
+      "category": "trending",
+      "release_date": "2026-06-17",
+      "rating": 8.3
+    },
+    {
+      "id": 1240889,
+      "slug": "teenage-sex-and-death-at-camp-miasma",
+      "title": "Camp Miasma: 2026's Wild Meta-Slasher \ud83e\ude78\ud83c\udfd5\ufe0f",
+      "url": "https://cinematicbites.com/stories/teenage-sex-and-death-at-camp-miasma/",
+      "category": "upcoming",
+      "release_date": "2026-08-06",
+      "rating": 6.2
+    },
+    {
+      "id": 1234821,
+      "slug": "jurassic-world-rebirth",
+      "title": "Jurassic World Rebirth: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/jurassic-world-rebirth/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-06-23",
+      "rating": 6.2
+    },
     {
       "id": 46260,
       "slug": "naruto",

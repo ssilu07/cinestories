@@ -916,5 +916,29 @@
     "published_at": "2026-10-17T12:43:41Z",
     "modified_at": "2026-10-17T12:43:41Z",
     "category": "theories_easter_eggs"
+  },
+  "stargate-sg-1": {
+    "title": "Stargate SG-1",
+    "published_at": "2026-10-17T15:44:28Z",
+    "modified_at": "2026-10-17T15:44:28Z",
+    "category": "series"
+  },
+  "toy-story-5": {
+    "title": "Toy Story 5",
+    "published_at": "2026-10-17T15:44:28Z",
+    "modified_at": "2026-10-17T15:44:28Z",
+    "category": "trending"
+  },
+  "teenage-sex-and-death-at-camp-miasma": {
+    "title": "Teenage Sex and Death at Camp Miasma",
+    "published_at": "2026-10-17T15:44:28Z",
+    "modified_at": "2026-10-17T15:44:28Z",
+    "category": "upcoming"
+  },
+  "jurassic-world-rebirth": {
+    "title": "Jurassic World Rebirth",
+    "published_at": "2026-10-17T15:44:28Z",
+    "modified_at": "2026-10-17T15:44:28Z",
+    "category": "theories_easter_eggs"
   }
 }

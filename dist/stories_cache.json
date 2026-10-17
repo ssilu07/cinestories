@@ -1,5 +1,421 @@
 [
   {
+    "title": "Stargate SG-1: Why This Sci-Fi Giant Still Rules \ud83c\udf0c\ud83d\udef8",
+    "seo_description": "How Stargate SG-1 went from a 90s film spinoff to a decade-long sci-fi legend with 214 episodes and real Air Force acclaim.",
+    "movie": {
+      "id": 4629,
+      "title": "Stargate SG-1",
+      "original_title": "Stargate SG-1",
+      "slug": "stargate-sg-1",
+      "media_type": "tv",
+      "release_date": "1997-07-27",
+      "overview": "The story of Stargate SG-1 begins about a year after the events of the feature film, when the United States government learns that an ancient alien device called the Stargate can access a network of such devices on a multitude of planets. SG-1 is an elite Air Force special operations team, one of more than two dozen teams from Earth who explore the galaxy and defend against alien threats such as the Goa'uld, Replicators, and the Ori.",
+      "tagline": "Saving the world... one episode at a time",
+      "genres": [
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "runtime": 42,
+      "seasons": 10,
+      "vote_average": 8.3,
+      "vote_count": 1921,
+      "category": "series",
+      "director": "Brad Wright, Jonathan Glassner (Creator)",
+      "top_cast": [
+        "Ben Browder",
+        "Amanda Tapping",
+        "Christopher Judge",
+        "Michael Shanks",
+        "Claudia Black",
+        "Beau Bridges"
+      ],
+      "poster_path": "/dQjmI7XxI47v8IM2MUysHG0LuU2.jpg",
+      "backdrop_path": "/yOyzlRw54oYaGvhUBdPr7TFwtrX.jpg",
+      "backdrops": [
+        "/yOyzlRw54oYaGvhUBdPr7TFwtrX.jpg",
+        "/pLb6oZHiaX50T91LBa87m18hZQ.jpg",
+        "/edEV7Bt4bEyUnY7thuLLLDc3Lbi.jpg",
+        "/5mXZ0sdVPfj4bSkhPSWwTX2LcM5.jpg",
+        "/li9SZBpVzJz81ouqifVuH5C7Nod.jpg",
+        "/mt3SRKq7uRBKVntaBg2ofsDfOdg.jpg",
+        "/28OORPvsQNehWejK7n6lDUCcInJ.jpg",
+        "/6qAY79UYH2eJRwwybAl7ayAqZR1.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "SCI-FI PHENOMENON",
+        "title": "Stargate SG-1: The Sci-Fi Giant \ud83c\udf0c",
+        "text": "Spanning over 200 episodes, Stargate SG-1 redefined television sci-fi. Here is how a 1994 film spinoff evolved into an unprecedented multi-galaxy blockbuster saga.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/4629"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Unlocking The Universe \ud83d\udeaa",
+        "text": "Operating out of Cheyenne Mountain, elite team SG-1 steps through an ancient alien portal to defend Earth against parasitic false gods like the Goa'uld.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/4629"
+      },
+      {
+        "id": "page-3",
+        "badge": "THE TEAM",
+        "title": "Icons Across The Stars \u2728",
+        "text": "Led by Jack O'Neill alongside Dr. Daniel Jackson, Sam Carter, and Teal'c, the team blended sharp military humor with deep ancient mythology.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/4629"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Real Air Force Backing \ud83c\udf96\ufe0f",
+        "text": "The series earned authentic US Air Force support. Two real-life Air Force Chiefs of Staff even guest-starred, praising its respectful depiction of military personnel.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/4629"
+      },
+      {
+        "id": "page-5",
+        "badge": "LASTING LEGACY",
+        "title": "10 Seasons of Dominance \ud83c\udfc6",
+        "text": "Running for 214 episodes across a decade, SG-1 birthed multiple spinoffs, movie continuations, and remains one of the most beloved sci-fi epics ever made.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/4629"
+      },
+      {
+        "id": "page-6",
+        "badge": "STREAM NOW",
+        "title": "Ready To Step Through? \ud83c\udf00",
+        "text": "Revisit SG-1's legendary galactic journeys and discover why this timeless franchise continues to captivate millions of fans worldwide.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Stargate SG-1",
+        "cta_url": "https://www.themoviedb.org/tv/4629"
+      }
+    ],
+    "date_published": "2026-10-17T15:44:28Z",
+    "date_modified": "2026-10-17T15:44:28Z",
+    "published_at": "2026-10-17T15:44:28Z"
+  },
+  {
+    "title": "Toy Story 5: Woody & Buzz Face Their Darkest Rival! \ud83e\udd20\ud83d\ude80",
+    "seo_description": "Woody and Buzz return in Toy Story 5 to fight modern screen time. Discover the cast, director, and wild new plot details!",
+    "movie": {
+      "id": 1084244,
+      "title": "Toy Story 5",
+      "original_title": "Toy Story 5",
+      "slug": "toy-story-5",
+      "media_type": "movie",
+      "release_date": "2026-06-17",
+      "overview": "When Bonnie receives a Lilypad tablet as a gift and becomes obsessed, Buzz, Woody, Jessie and the rest of the gang's jobs become exponentially harder when they have to go head to head with the all-new threat to playtime.",
+      "tagline": "It's on.",
+      "genres": [
+        "Animation",
+        "Family",
+        "Comedy",
+        "Adventure"
+      ],
+      "runtime": 102,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 2632,
+      "category": "trending",
+      "director": "Andrew Stanton",
+      "top_cast": [
+        "Joan Cusack",
+        "Tom Hanks",
+        "Tim Allen",
+        "Conan O'Brien",
+        "Scarlett Spears",
+        "Greta Lee"
+      ],
+      "poster_path": "/sfQtVlIHljToOwYjhe21KPGzZWK.jpg",
+      "backdrop_path": "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+      "backdrops": [
+        "/qjTqY5coNiz6sVtPng40IzltsoN.jpg",
+        "/4D1pdB27uph7J8HQzNf8QvvH9bn.jpg",
+        "/8sSKdEmlmqF4kJUd28SqthXC4yZ.jpg",
+        "/6CxbXYt9PQyCaAGn7L5efFaEkdY.jpg",
+        "/kwq3lxPrBfyyVRRSDSlojwCPzwH.jpg",
+        "/coyHrYHD2xHhDoYD6o4uwoJ2o7b.jpg",
+        "/9KRt2MBSMEyfp12L9TPkqnkdWGB.jpg",
+        "/yhoRZj4Qix8hxaC5CRaCqnc4eeE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "Toy Story 5 Is Official!",
+        "text": "Woody and Buzz are reuniting for a fifth chapter, facing their most relatable modern enemy yet: the almighty tablet screen.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Toys vs. Modern Tech",
+        "text": "When Bonnie gets hooked on a brand-new Lilypad tablet, playtime changes forever. The toys face sudden obsolescence as digital screens take over childhood imagination.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Legends & Fresh Faces",
+        "text": "Tom Hanks and Tim Allen reunite alongside Joan Cusack. Plus, comedy icon Conan O'Brien and Greta Lee join the vocal lineup for brand new toy mayhem.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Andrew Stanton Takes Charge",
+        "text": "Pixar veteran Andrew Stanton, who co-wrote every previous Toy Story and helmed Finding Nemo and WALL-E, steps into the director's chair for this high-stakes sequel.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      },
+      {
+        "id": "page-5",
+        "badge": "BIG DEBATE",
+        "title": "Can Toys Win Over Screens?",
+        "text": "Fans are thrilled to see Pixar tackle real-world digital addiction. How will Woody and Buzz prove that physical toys still hold true magic?",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      },
+      {
+        "id": "page-6",
+        "badge": "MARK YOUR CALENDAR",
+        "title": "Hitting Theaters June 2026",
+        "text": "Toy Story 5 lands on the big screen June 17, 2026. Ready to see the gang take on modern gadgets? Explore full movie details now!",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1084244"
+      }
+    ],
+    "date_published": "2026-10-17T15:44:28Z",
+    "date_modified": "2026-10-17T15:44:28Z",
+    "published_at": "2026-10-17T15:44:28Z"
+  },
+  {
+    "title": "Camp Miasma: 2026's Wild Meta-Slasher \ud83e\ude78\ud83c\udfd5\ufe0f",
+    "seo_description": "Gillian Anderson and Hannah Einbinder team up for Jane Schoenbrun's twisted meta-horror satire Teenage Sex and Death at Camp Miasma.",
+    "movie": {
+      "id": 1240889,
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "original_title": "Teenage Sex and Death at Camp Miasma",
+      "slug": "teenage-sex-and-death-at-camp-miasma",
+      "media_type": "movie",
+      "release_date": "2026-08-06",
+      "overview": "An ambitious director sets out to revive a faded slasher franchise, but her meeting with the film\u2019s reclusive original star spirals into a terrifying maze of obsession, fear, and blood-soaked delusion.",
+      "tagline": "Blood. Lust.",
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Romance"
+      ],
+      "runtime": 112,
+      "seasons": null,
+      "vote_average": 6.2,
+      "vote_count": 313,
+      "category": "upcoming",
+      "director": "Jane Schoenbrun",
+      "top_cast": [
+        "Hannah Einbinder",
+        "Gillian Anderson",
+        "Amanda Fix",
+        "Arthur Conti",
+        "Eva Victor",
+        "Zach Cherry"
+      ],
+      "poster_path": "/6Q6Zo6GNXMLP600OJSh6MhW21um.jpg",
+      "backdrop_path": "/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+      "backdrops": [
+        "/d1n2ySWSanU34eEsluRjfrjRq52.jpg",
+        "/enQ1TFns1Tjxj8or3L8gPk37JXw.jpg",
+        "/5aMSQDHUYmYB6GPAO2wEfWArBwG.jpg",
+        "/xS1JTVWuovzIem6tHXBtNBOptWz.jpg",
+        "/c3N1tHx6cKmhbv7Gt8M4cwHWPUZ.jpg",
+        "/ckzFq680gsZ9V2hmtC2tFs5cZAr.jpg",
+        "/8I1HB7zyGJ4FB6Q2jkbrJExF5EI.jpg",
+        "/aQykzHZleTa97sBUDs26Kcf6NlZ.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "UPCOMING HORROR",
+        "title": "A Slasher Reborn \ud83e\ude78",
+        "text": "Jane Schoenbrun returns with a blood-soaked satire that rips franchise nostalgia apart. Prepare for pure camp chaos.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Obsession Meets Gore",
+        "text": "An ambitious filmmaker attempts to revive a faded slasher franchise. Tracking down its reclusive original scream queen quickly turns lethal.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "A Killer Cast \ud83c\udf1f",
+        "text": "Emmy nominee Hannah Einbinder and icon Gillian Anderson go head-to-head, joined by comedy favorites Zach Cherry and Eva Victor.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Schoenbrun's Dark Vision",
+        "text": "Fresh off indie horror acclaim, visionary director Jane Schoenbrun turns retro summer camp tropes inside out with wicked dark comedy.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      },
+      {
+        "id": "page-5",
+        "badge": "WHAT TO EXPECT",
+        "title": "Fear, Romance & Delusion",
+        "text": "Blending psychological dread, dark humor, and romance, this meta-slasher aims to shake up modern horror storytelling.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      },
+      {
+        "id": "page-6",
+        "badge": "COMING SOON",
+        "title": "Premieres August 2026 \ud83d\udd2a",
+        "text": "Stay ahead of every teaser, casting update, and trailer reveal before Camp Miasma slashes into theaters.",
+        "backdrop_index": 5,
+        "cta_text": "Track Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1240889"
+      }
+    ],
+    "date_published": "2026-10-17T15:44:28Z",
+    "date_modified": "2026-10-17T15:44:28Z",
+    "published_at": "2026-10-17T15:44:28Z"
+  },
+  {
+    "title": "Jurassic World Rebirth: The Untold Story & Secrets",
+    "seo_description": "Discover Jurassic World Rebirth: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1234821,
+      "title": "Jurassic World Rebirth",
+      "original_title": "Jurassic World Rebirth",
+      "slug": "jurassic-world-rebirth",
+      "media_type": "movie",
+      "release_date": "2025-06-23",
+      "overview": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most massive dinosaurs. When Zora's operation intersects with a civilian family whose boating expedition was capsized, they all find themselves stranded on an island where they come face-to-face with a sinister, shocking discovery that's been hidden from the world for decades.",
+      "tagline": "A new era is born.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "runtime": 134,
+      "seasons": null,
+      "vote_average": 6.2,
+      "vote_count": 3847,
+      "category": "theories_easter_eggs",
+      "director": "Gareth Edwards",
+      "top_cast": [
+        "Scarlett Johansson",
+        "Mahershala Ali",
+        "Jonathan Bailey",
+        "Rupert Friend",
+        "Manuel Garcia-Rulfo",
+        "Luna Blaise"
+      ],
+      "poster_path": "/1RICxzeoNCAO5NpcRMIgg1XT6fm.jpg",
+      "backdrop_path": "/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
+      "backdrops": [
+        "/zNriRTr0kWwyaXPzdg1EIxf0BWk.jpg",
+        "/wCmImy8AIssROutl4oerW9vMOD6.jpg",
+        "/8fA0Gr4vJNPOd0jyqWKU7ef8DoH.jpg",
+        "/peAzdLKtT6VDWIfPQO9LJD1NCG4.jpg",
+        "/fncHijpWjitFBmj7SX5z148XEhP.jpg",
+        "/fQOV47FHTJdaSuSUNlzP3zXUZWE.jpg",
+        "/lo3xRrjefIXvlk9CVL5on7eOGqS.jpg",
+        "/cOCOABl7dGYBppUDDx7SJW1qz0s.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Jurassic World Rebirth",
+        "text": "A new era is born. Rated 6.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Five years after the events of Jurassic World Dominion, covert operations expert Zora Bennett is contracted to lead a skilled team on a top-secret mission to secure genetic material from the world's three most...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Scarlett Johansson, Mahershala Ali, Jonathan Bailey, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Gareth Edwards.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Gareth Edwards",
+        "text": "Filmmaker Gareth Edwards pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.2/10 on TMDB",
+        "text": "With an impressive 6.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Jurassic World Rebirth? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1234821"
+      }
+    ],
+    "date_published": "2026-10-17T15:44:28Z",
+    "date_modified": "2026-10-17T15:44:28Z",
+    "published_at": "2026-10-17T15:44:28Z"
+  },
+  {
     "title": "Why Naruto Still Dominates Anime Charts \ud83c\udf65\ud83d\udd25",
     "seo_description": "Discover how Naruto Uzumaki's journey from village outcast to legendary ninja defined global anime culture for over two decades.",
     "movie": {
