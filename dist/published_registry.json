@@ -868,5 +868,29 @@
     "published_at": "2026-10-17T10:00:55Z",
     "modified_at": "2026-10-17T10:00:55Z",
     "category": "theories_easter_eggs"
+  },
+  "seinfeld": {
+    "title": "Seinfeld",
+    "published_at": "2026-10-17T12:34:03Z",
+    "modified_at": "2026-10-17T12:34:03Z",
+    "category": "series"
+  },
+  "nayyi-navelli": {
+    "title": "Nayyi Navelli",
+    "published_at": "2026-10-17T12:34:03Z",
+    "modified_at": "2026-10-17T12:34:03Z",
+    "category": "trending"
+  },
+  "primetime": {
+    "title": "Primetime",
+    "published_at": "2026-10-17T12:34:03Z",
+    "modified_at": "2026-10-17T12:34:03Z",
+    "category": "upcoming"
+  },
+  "guardians-of-the-galaxy-vol-3": {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "published_at": "2026-10-17T12:34:03Z",
+    "modified_at": "2026-10-17T12:34:03Z",
+    "category": "theories_easter_eggs"
   }
 }

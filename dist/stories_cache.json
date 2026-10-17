@@ -1,5 +1,410 @@
 [
   {
+    "title": "Seinfeld: What Happened to the Cast of Nothing? \u2615\ud83d\uddfd",
+    "seo_description": "Discover where Jerry Seinfeld, Julia Louis-Dreyfus, and the cast of Seinfeld are today, from record-breaking Emmy wins to comedy tours.",
+    "movie": {
+      "id": 1400,
+      "title": "Seinfeld",
+      "original_title": "Seinfeld",
+      "slug": "seinfeld",
+      "media_type": "tv",
+      "release_date": "1989-07-05",
+      "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
+      "tagline": "A show about nothing.",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 9,
+      "vote_average": 8.2,
+      "vote_count": 2477,
+      "category": "series",
+      "director": "Jerry Seinfeld, Larry David (Creator)",
+      "top_cast": [
+        "Jerry Seinfeld",
+        "Jason Alexander",
+        "Michael Richards",
+        "Julia Louis-Dreyfus"
+      ],
+      "poster_path": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+      "backdrop_path": "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+      "backdrops": [
+        "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+        "/jqgO8AqwgQelXhmJn6cebWjjMcY.jpg",
+        "/mlAzs3tyl5253roHi6eIRbeuONN.jpg",
+        "/lyTCCuymqg8egIaQXZAY5vE4MB0.jpg",
+        "/w64zs5JFKHOw5eVcP0NAZiFUb2M.jpg",
+        "/svwi92H7gqe2oWXH4f2JxIXWZij.jpg",
+        "/m23XIVqQoT9CKuaN5WiCvRai9gD.jpg",
+        "/kC4Ov4UuI04wskWcL9WREQoPDC.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "90S SITCOM LEGENDS",
+        "title": "The Show About Nothing",
+        "text": "Premiering in 1989, Seinfeld broke television rules forever. Decades later, where are the four neurotic New Yorkers who dominated prime-time comedy?",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1400"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE TITULAR STAR",
+        "title": "Jerry Seinfeld's Empire",
+        "text": "Jerry returned to his stand-up roots, created the hit series Comedians in Cars Getting Coffee, and recently directed and starred in Netflix's Unfrosted.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1400"
+      },
+      {
+        "id": "page-3",
+        "badge": "EMMY RECORD BREAKER",
+        "title": "Julia Louis-Dreyfus Soars",
+        "text": "Julia shattered sitcom curses with The New Adventures of Old Christine before making television history winning six consecutive Emmys for Veep.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1400"
+      },
+      {
+        "id": "page-4",
+        "badge": "BROADWAY & BEYOND",
+        "title": "Jason Alexander's Stage Turn",
+        "text": "George Costanza's alter ego went full circle, directing theater, performing symphonic comedy shows, and clinching a Tony Award for his Broadway work.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1400"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE WILD CARD",
+        "title": "Michael Richards Steps Back",
+        "text": "After immortalizing Cosmo Kramer's physical slapstick, Richards retreated from the public eye before releasing his candid 2024 memoir Entrances and Exits.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1400"
+      },
+      {
+        "id": "page-6",
+        "badge": "STREAMING OBSESSION",
+        "title": "Still Dominating Screens",
+        "text": "Acquired by Netflix in a massive $500 million deal, the 180-episode run remains a top-streamed comfort watch for entirely new generations.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Seinfeld Hub",
+        "cta_url": "https://www.themoviedb.org/tv/1400"
+      }
+    ],
+    "date_published": "2026-10-17T12:34:03Z",
+    "date_modified": "2026-10-17T12:34:03Z",
+    "published_at": "2026-10-17T12:34:03Z"
+  },
+  {
+    "title": "Nayyi Navelli: Yami Gautam's Wild Horror-Comedy Twist! \ud83d\udc7b\ud83d\udc70",
+    "seo_description": "Explore Nayyi Navelli starring Yami Gautam Dhar. Can a seemingly perfect new bride secretly be a witch? Discover the upcoming horror-comedy buzz.",
+    "movie": {
+      "id": 1654581,
+      "title": "Nayyi Navelli",
+      "original_title": "\u0928\u092f\u094d\u092f\u0940 \u0928\u0935\u0947\u0932\u094d\u0932\u0940",
+      "slug": "nayyi-navelli",
+      "media_type": "movie",
+      "release_date": "2026-10-16",
+      "overview": "A new bride's arrival turns a turbulent household in Meerut into a picture of domestic harmony, until her brother-in-law grows convinced that his seemingly perfect sister-in-law is secretly a witch.",
+      "tagline": "Bhabhi Daayan Hai!",
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 0,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Balaji Mohan",
+      "top_cast": [
+        "Yami Gautam Dhar",
+        "Anurag Thakur",
+        "Adinath Kothare",
+        "Sushmita Mukherjee",
+        "Prateek Pachori",
+        "Rajesh Dubeay"
+      ],
+      "poster_path": "/aZEKuzGt7ObqoKjTM4kcMd0klYy.jpg",
+      "backdrop_path": "/3aXMkyp0Pv2WGyvm2NUdtMXwY2P.jpg",
+      "backdrops": [
+        "/3aXMkyp0Pv2WGyvm2NUdtMXwY2P.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING BUZZ",
+        "title": "Perfect Bride or Witch? \ud83d\udc70\u200d\u2640\ufe0f",
+        "text": "Yami Gautam Dhar stars in 'Nayyi Navelli', a horror-comedy that asks what happens when your seemingly ideal sister-in-law might actually be a supernatural entity.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Domestic Bliss Meets Mayhem \ud83e\uddf9",
+        "text": "Set in Meerut, a chaotic household turns peaceful after a new bride arrives. But one suspicious brother-in-law suspects dark magic is behind her miraculous charm.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Yami's Wicked New Turn \u2728",
+        "text": "Known for intense thrillers, Yami Gautam Dhar tackles an enchanting blend of comedy and fantasy alongside Adinath Kothare and Anurag Thakur.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Balaji Mohan's Fresh Vision \ud83c\udfac",
+        "text": "Director Balaji Mohan crafts a folklore-infused comedy full of witty punchlines, eerie twists, and eccentric small-town family dynamics.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE GENRE WAVE",
+        "title": "Horror-Comedy Rules Again \ud83c\udf83",
+        "text": "Folklore comedies continue to dominate screens. With high-stakes family drama mixed with spine-tingling witch lore, Nayyi Navelli aims to keep audiences laughing and guessing.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      },
+      {
+        "id": "page-6",
+        "badge": "COMING SOON",
+        "title": "Mark Your Calendars \ud83d\uddd3\ufe0f",
+        "text": "Ready for the chaos? Slated for an October 2026 release, Nayyi Navelli is poised to deliver spooky fun for the entire family.",
+        "backdrop_index": 0,
+        "cta_text": "Explore Movie",
+        "cta_url": "https://www.themoviedb.org/movie/1654581"
+      }
+    ],
+    "date_published": "2026-10-17T12:34:03Z",
+    "date_modified": "2026-10-17T12:34:03Z",
+    "published_at": "2026-10-17T12:34:03Z"
+  },
+  {
+    "title": "Robert Pattinson Takes on True Crime TV in Primetime! \ud83d\udcfa\ud83d\udd25",
+    "seo_description": "Robert Pattinson stars as a ruthless TV host in Lance Oppenheim's upcoming thriller Primetime. Explore the cast, plot, and buzz.",
+    "movie": {
+      "id": 1375441,
+      "title": "Primetime",
+      "original_title": "Primetime",
+      "slug": "primetime",
+      "media_type": "movie",
+      "release_date": "2026-09-23",
+      "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
+      "tagline": "Are you ready to make television history?",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 110,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 137,
+      "category": "upcoming",
+      "director": "Lance Oppenheim",
+      "top_cast": [
+        "Robert Pattinson",
+        "Merritt Wever",
+        "Skyler Gisondo",
+        "Matthew Maher",
+        "Phoebe Bridgers",
+        "Victor Brunette"
+      ],
+      "poster_path": "/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+      "backdrop_path": "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+      "backdrops": [
+        "/4E5RVsSUG1A4Adwbqupu5w6kofZ.jpg",
+        "/9m0tVJ6JRIbqwtbJThDPFtAn6CY.jpg",
+        "/cg2WvuzI9Z3nsrY3ueooPd7izdJ.jpg",
+        "/jyZATlcINaz6bElq0jTlIcWcYgu.jpg",
+        "/nZdXh3ROffkkCZLK9L4ftc1FJsX.jpg",
+        "/1tJz8e1G21nEuzHlX771MNBRJvM.jpg",
+        "/mbnopFljGL3UIkSC22uQap4y5ah.jpg",
+        "/xEszQFDnEQkvbybur1hJbs7pCfw.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "Pattinson's Dark Turn",
+        "text": "Robert Pattinson tackles a ruthless TV host chasing viral ratings in 2006. Prepare for one of the most intense media thrillers heading to screens.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Ratings Over Morals",
+        "text": "Inspired by early 2000s sting broadcasts, the story follows an ambitious presenter whose high-stakes sting operation spirals into fatal chaos.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "A Shocking Ensemble",
+        "text": "Merritt Wever, Skyler Gisondo, and indie-rock star Phoebe Bridgers join Pattinson in this gripping look at sensationalized justice.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      },
+      {
+        "id": "page-4",
+        "badge": "DIRECTOR SPOTLIGHT",
+        "title": "Oppenheim's Big Leap",
+        "text": "Celebrated for sharp, unconventional documentaries, director Lance Oppenheim pivots into narrative features with razor-focused psychological tension.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      },
+      {
+        "id": "page-5",
+        "badge": "CULTURAL IMPACT",
+        "title": "Exposing Early Reality TV",
+        "text": "The thriller exposes how television turned public humiliation into prime-time entertainment, questioning who the true predators on screen really were.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      },
+      {
+        "id": "page-6",
+        "badge": "MARK YOUR CALENDAR",
+        "title": "Arriving September 2026",
+        "text": "Get ready for a chilling critique of media frenzy and ego when 'Primetime' hits theaters nationwide.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Primetime Details",
+        "cta_url": "https://www.themoviedb.org/movie/1375441"
+      }
+    ],
+    "date_published": "2026-10-17T12:34:03Z",
+    "date_modified": "2026-10-17T12:34:03Z",
+    "published_at": "2026-10-17T12:34:03Z"
+  },
+  {
+    "title": "Guardians Vol. 3: 5 Wild Easter Eggs & Secrets \ud83d\ude80\ud83d\udd0d",
+    "seo_description": "Uncover mind-blowing Marvel secrets, post-credits teasers, and hidden comic lore tucked inside Guardians of the Galaxy Vol. 3.",
+    "movie": {
+      "id": 447365,
+      "title": "Guardians of the Galaxy Vol. 3",
+      "original_title": "Guardians of the Galaxy Vol. 3",
+      "slug": "guardians-of-the-galaxy-vol-3",
+      "media_type": "movie",
+      "release_date": "2023-05-03",
+      "overview": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "tagline": "Once more with feeling.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "runtime": 150,
+      "seasons": null,
+      "vote_average": 7.9,
+      "vote_count": 8958,
+      "category": "theories_easter_eggs",
+      "director": "James Gunn",
+      "top_cast": [
+        "Chris Pratt",
+        "Zoe Salda\u00f1a",
+        "Dave Bautista",
+        "Karen Gillan",
+        "Pom Klementieff",
+        "Vin Diesel"
+      ],
+      "poster_path": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+      "backdrop_path": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+      "backdrops": [
+        "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+        "/9QlpS2v3lgT6S310QglSky5Ws0P.jpg",
+        "/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg",
+        "/rR1vGEC1csvWfQ9eLKsSWukfiLp.jpg",
+        "/3pF4tO8vIRMO98NsNjxb9EZkgbj.jpg",
+        "/y3TOWYsiHiSAwemF6nR5MpViezs.jpg",
+        "/A7JQ7MIV5fkIxceI5hizRIe6DRJ.jpg",
+        "/4IYRAyTbpL05xHqCii5lMTtxMHO.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "SECRETS REVEALED",
+        "title": "Guardians Vol. 3 Secrets",
+        "text": "James Gunn packed his emotional Marvel farewell with astonishing comic book lore. From hidden cameos to game-changing teasers, here are the biggest secrets you missed.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      },
+      {
+        "id": "page-2",
+        "badge": "POST-CREDITS",
+        "title": "The Legendary Star-Lord",
+        "text": "That final end title promise was not just a nostalgic gag. Peter Quill returning to Earth directly positions him for Avengers: Secret Wars, completely independent of the Guardians.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      },
+      {
+        "id": "page-3",
+        "badge": "COMIC CONNECTION",
+        "title": "Phyla-Vell Joins the Team",
+        "text": "The young white-haired girl rescued from the High Evolutionary is Phyla-Vell. In Marvel Comics, she wields the Quantum Bands and becomes Captain Marvel and Martyr.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      },
+      {
+        "id": "page-4",
+        "badge": "HIDDEN CAMEO",
+        "title": "Gunn's Secret Crossovers",
+        "text": "Before taking over DC Studios, Gunn snuck his top collaborators into the MCU. Peacemaker stars Chukwudi Iwuji, Daniela Melchior, and Jennifer Holland all made surprise appearances.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      },
+      {
+        "id": "page-5",
+        "badge": "VILLAIN SURVIVAL",
+        "title": "High Evolutionary Lives?",
+        "text": "VFX artists confirmed Drax carried the defeated High Evolutionary off the exploding ship. Imprisoned on Knowhere, this cosmic geneticist could easily return to threaten the multiverse.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      },
+      {
+        "id": "page-6",
+        "badge": "FUTURE TEASE",
+        "title": "The Next Cosmic Era",
+        "text": "With Rocket leading a brand-new roster, Marvel's cosmic playground is primed for an explosive reset ahead of Phase 6.",
+        "backdrop_index": 5,
+        "cta_text": "See All Marvel Theories",
+        "cta_url": "https://www.themoviedb.org/movie/447365"
+      }
+    ],
+    "date_published": "2026-10-17T12:34:03Z",
+    "date_modified": "2026-10-17T12:34:03Z",
+    "published_at": "2026-10-17T12:34:03Z"
+  },
+  {
     "title": "Hawaii Five-0: Why This Island Reboot Became an Action Giant \ud83c\udf34\ud83d\udea8",
     "seo_description": "Discover how Hawaii Five-0 turned a 1960s classic into a decade-long powerhouse filled with high-octane stunts, sharp banter, and scenic Oahu action.",
     "movie": {

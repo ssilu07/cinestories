@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T10:03:02.784738+00:00",
-  "total_stories": 145,
+  "generated_at": "2026-10-17T12:37:58.571740+00:00",
+  "total_stories": 149,
   "stories": [
+    {
+      "id": 1400,
+      "slug": "seinfeld",
+      "title": "Seinfeld: What Happened to the Cast of Nothing? \u2615\ud83d\uddfd",
+      "url": "https://cinematicbites.com/stories/seinfeld/",
+      "category": "series",
+      "release_date": "1989-07-05",
+      "rating": 8.2
+    },
+    {
+      "id": 1654581,
+      "slug": "nayyi-navelli",
+      "title": "Nayyi Navelli: Yami Gautam's Wild Horror-Comedy Twist! \ud83d\udc7b\ud83d\udc70",
+      "url": "https://cinematicbites.com/stories/nayyi-navelli/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 1375441,
+      "slug": "primetime",
+      "title": "Robert Pattinson Takes on True Crime TV in Primetime! \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/primetime/",
+      "category": "upcoming",
+      "release_date": "2026-09-23",
+      "rating": 6.9
+    },
+    {
+      "id": 447365,
+      "slug": "guardians-of-the-galaxy-vol-3",
+      "title": "Guardians Vol. 3: 5 Wild Easter Eggs & Secrets \ud83d\ude80\ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/guardians-of-the-galaxy-vol-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-05-03",
+      "rating": 7.9
+    },
     {
       "id": 32798,
       "slug": "hawaii-five-0",
