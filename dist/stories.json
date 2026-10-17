@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T02:37:22.042619+00:00",
-  "total_stories": 141,
+  "generated_at": "2026-10-17T10:03:02.784738+00:00",
+  "total_stories": 145,
   "stories": [
+    {
+      "id": 32798,
+      "slug": "hawaii-five-0",
+      "title": "Hawaii Five-0: Why This Island Reboot Became an Action Giant \ud83c\udf34\ud83d\udea8",
+      "url": "https://cinematicbites.com/stories/hawaii-five-0/",
+      "category": "series",
+      "release_date": "2010-09-20",
+      "rating": 7.7
+    },
+    {
+      "id": 1368337,
+      "slug": "the-odyssey",
+      "title": "Nolan's Next Epic: The Odyssey Unleashed \u2694\ufe0f\ud83c\udf0a",
+      "url": "https://cinematicbites.com/stories/the-odyssey/",
+      "category": "trending",
+      "release_date": "2026-07-15",
+      "rating": 8.0
+    },
+    {
+      "id": 1503762,
+      "slug": "sense-and-sensibility",
+      "title": "Sense & Sensibility 2026: Cast, Release & First Details \ud83d\udc52\u2728",
+      "url": "https://cinematicbites.com/stories/sense-and-sensibility/",
+      "category": "upcoming",
+      "release_date": "2026-09-23",
+      "rating": 7.4
+    },
+    {
+      "id": 76341,
+      "slug": "mad-max-fury-road",
+      "title": "Mad Max Fury Road: Wild Fan Theories & Hidden Secrets \ud83d\udc80\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/mad-max-fury-road/",
+      "category": "theories_easter_eggs",
+      "release_date": "2015-05-13",
+      "rating": 7.6
+    },
     {
       "id": 65334,
       "slug": "miraculous-tales-of-ladybug-cat-noir",

@@ -1,5 +1,420 @@
 [
   {
+    "title": "Hawaii Five-0: Why This Island Reboot Became an Action Giant \ud83c\udf34\ud83d\udea8",
+    "seo_description": "Discover how Hawaii Five-0 turned a 1960s classic into a decade-long powerhouse filled with high-octane stunts, sharp banter, and scenic Oahu action.",
+    "movie": {
+      "id": 32798,
+      "title": "Hawaii Five-0",
+      "original_title": "Hawaii Five-0",
+      "slug": "hawaii-five-0",
+      "media_type": "tv",
+      "release_date": "2010-09-20",
+      "overview": "Steve McGarrett returns home to Oahu, in order to find his father's killer. The governor offers him the chance to run his own task force (Five-0). Steve's team is joined by Chin Ho Kelly, Danny \"Danno\" Williams, and Kono Kalakaua.",
+      "tagline": "",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Action & Adventure"
+      ],
+      "runtime": 42,
+      "seasons": 10,
+      "vote_average": 7.7,
+      "vote_count": 1912,
+      "category": "series",
+      "director": "Roberto Orci, Alex Kurtzman, Peter M. Lenkov (Creator)",
+      "top_cast": [
+        "Alex O'Loughlin",
+        "Scott Caan",
+        "Ian Anthony Dale",
+        "Meaghan Rath",
+        "Beulah Koale",
+        "Dennis Chun"
+      ],
+      "poster_path": "/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg",
+      "backdrop_path": "/tLccUh3uazZ9TkLhe53UwprJhI4.jpg",
+      "backdrops": [
+        "/tLccUh3uazZ9TkLhe53UwprJhI4.jpg",
+        "/1QlfuYK0ff6ZSrW7xEEXB90lcPj.jpg",
+        "/e13nxVdxPGSnRA7685Z8d5DsjYh.jpg",
+        "/ej5VNvBy4VqCqsuamY4oe4EiwFb.jpg",
+        "/tmv5fQRqW8bbetWjjSw01het0hk.jpg",
+        "/2wig5p3n4AMHGjedvYk7ZgJ4481.jpg",
+        "/b7lNK6WLXTE9fLabeZx0BopOWXp.jpg",
+        "/gCLjduVqM1TD1jWm0XQx22RznLS.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "ACTION DRAMA",
+        "title": "Hawaii Five-0's Wild Decade \ud83c\udf34\ud83d\udea8",
+        "text": "How did a 1968 cop reboot turn into one of TV's most explosive, long-running action hits? Here is the secret behind the island phenomenon.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/32798"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE HOOK",
+        "title": "A Vendetta in Paradise",
+        "text": "Returning to Oahu to hunt his father's killer, Navy SEAL Steve McGarrett takes command of an elite task force answering only to the Governor with immunity and means.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/32798"
+      },
+      {
+        "id": "page-3",
+        "badge": "DYNAMIC DUO",
+        "title": "The Famous 'Carguments'",
+        "text": "The true pulse of Five-0 was the hilarious, rapid-fire bickering between island-loving Steve McGarrett and cynical Jersey transplant Danny 'Danno' Williams during chaotic car chases.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/32798"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE SCENES",
+        "title": "Real Action, Real Scars",
+        "text": "Lead star Alex O'Loughlin performed his own brutal stunts for years, enduring cracked ribs, torn ligaments, and spinal injuries to deliver relentless realism on screen.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/32798"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE LEGACY",
+        "title": "Defying Reboot Odds",
+        "text": "While most TV remakes fizzle out quickly, Hawaii Five-0 powered through 240 episodes across 10 seasons, boosting local Hawaiian production and redefining the primetime procedural.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/32798"
+      },
+      {
+        "id": "page-6",
+        "badge": "BOOK 'EM",
+        "title": "Ready for an Island Binge?",
+        "text": "Catch every pulse-pounding takedown, breathtaking Oahu helicopter chase, and legendary 'Book 'em, Danno' moment from the very beginning.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Hawaii Five-0",
+        "cta_url": "https://www.themoviedb.org/tv/32798"
+      }
+    ],
+    "date_published": "2026-10-17T10:00:55Z",
+    "date_modified": "2026-10-17T10:00:55Z",
+    "published_at": "2026-10-17T10:00:55Z"
+  },
+  {
+    "title": "Nolan's Next Epic: The Odyssey Unleashed \u2694\ufe0f\ud83c\udf0a",
+    "seo_description": "Christopher Nolan takes on Homer's The Odyssey with Matt Damon, Tom Holland, and Anne Hathaway. Here is what to expect from the 2026 epic.",
+    "movie": {
+      "id": 1368337,
+      "title": "The Odyssey",
+      "original_title": "The Odyssey",
+      "slug": "the-odyssey",
+      "media_type": "movie",
+      "release_date": "2026-07-15",
+      "overview": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+      "tagline": "Defy the gods.",
+      "genres": [
+        "Adventure",
+        "Action",
+        "Fantasy"
+      ],
+      "runtime": 173,
+      "seasons": null,
+      "vote_average": 8.0,
+      "vote_count": 4151,
+      "category": "trending",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Matt Damon",
+        "Tom Holland",
+        "Anne Hathaway",
+        "Robert Pattinson",
+        "Himesh Patel",
+        "Charlize Theron"
+      ],
+      "poster_path": "/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+      "backdrop_path": "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
+      "backdrops": [
+        "/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg",
+        "/njbjSn2ihutJD1lNeM4jAmeDkG9.jpg",
+        "/bulFtfy3oBQtCnAMSi7g6DSSds3.jpg",
+        "/twiVn9oFXOVR0uoYgawyEBlnFu8.jpg",
+        "/r57L2UBLPKcHdZQYg8tagv9XqK2.jpg",
+        "/n3D2Lmwomtbc4SZFO8hLtLL0b5q.jpg",
+        "/kGCOfQpITTI0rKzrVMRGOFteszf.jpg",
+        "/iuylzRSllrGn7YB322kwKoOVMcq.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "Nolan Tackles Myth",
+        "text": "Christopher Nolan takes on Homer's monumental epic. With IMAX scale and an all-star ensemble, cinema's biggest visionary prepares to defy the gods.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "A Ten-Year Voyage",
+        "text": "Following the fall of Troy, Odysseus journeys home to Ithaca across treacherous seas, confronting monstrous trials and divine wrath that test his endurance.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "A Colossal Ensemble",
+        "text": "Matt Damon steps into the legendary sandals of Odysseus alongside Tom Holland, Anne Hathaway, Robert Pattinson, and Charlize Theron for pure cinematic gravitas.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Practical Wonders",
+        "text": "True to Nolan's signature style, expect practical ocean set pieces and groundbreaking practical monsters rather than green-screen overload for this 173-minute spectacle.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      },
+      {
+        "id": "page-5",
+        "badge": "FAN RECEPTION",
+        "title": "Summer Blockbuster Hype",
+        "text": "Carrying an early 8.0 rating, cinephiles are buzzing over how Nolan will adapt ancient myth into modern blockbuster storytelling.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      },
+      {
+        "id": "page-6",
+        "badge": "MARK YOUR CALENDAR",
+        "title": "Setting Sail in 2026",
+        "text": "Arriving in theaters July 2026. Ready for the most anticipated mythic journey of the decade? Dive into the full database entry.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1368337"
+      }
+    ],
+    "date_published": "2026-10-17T10:00:55Z",
+    "date_modified": "2026-10-17T10:00:55Z",
+    "published_at": "2026-10-17T10:00:55Z"
+  },
+  {
+    "title": "Sense & Sensibility 2026: Cast, Release & First Details \ud83d\udc52\u2728",
+    "seo_description": "Daisy Edgar-Jones stars in the stunning 2026 adaptation of Jane Austen's Sense and Sensibility. Discover the cast, director, and release date.",
+    "movie": {
+      "id": 1503762,
+      "title": "Sense and Sensibility",
+      "original_title": "Sense and Sensibility",
+      "slug": "sense-and-sensibility",
+      "media_type": "movie",
+      "release_date": "2026-09-23",
+      "overview": "A charming, witty, and deeply relatable story of love and sisterhood.",
+      "tagline": "No one knows your heart like a sister.",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "runtime": 132,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 37,
+      "category": "upcoming",
+      "director": "Georgia Oakley",
+      "top_cast": [
+        "Daisy Edgar-Jones",
+        "Esm\u00e9 Creed-Miles",
+        "Bodhi Rae Breathnach",
+        "Caitr\u00edona Balfe",
+        "Fiona Shaw",
+        "George MacKay"
+      ],
+      "poster_path": "/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+      "backdrop_path": "/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+      "backdrops": [
+        "/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg",
+        "/7wufnyNo5uhkosKXEp8iITX5ar3.jpg",
+        "/jzc5EP97QK8nbTjCeu1MixExYWT.jpg",
+        "/bXRoEdk3zmkS4LfKu9cRBGbvI6o.jpg",
+        "/oUcOngCWc6hFDmxufNBeIawkv9a.jpg",
+        "/fbmXXiF81j4j0Vo6ih9kc299wIh.jpg",
+        "/29Lu6Nwdbk9slzKgllcZFH6GBE5.jpg",
+        "/nsBcKpMjRRiBOMWZKAhrmVoSePi.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "A Classic Reborn \ud83d\udc52",
+        "text": "Jane Austen's timeless romance returns to theaters with a vibrant modern lens. Packed with wit, heartache, and loyalty, this bold adaptation brings new fire to an enduring classic.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Sisterhood and Scandals",
+        "text": "Follow the Dashwood sisters as sudden financial misfortune forces them into turbulent social circles. Through conflicting romances and painful betrayals, their bond remains their greatest salvation.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "A Breathtaking Ensemble",
+        "text": "Daisy Edgar-Jones and Esm\u00e9 Creed-Miles take the lead as Elinor and Marianne. The powerhouse cast features Caitr\u00edona Balfe, Fiona Shaw, and George MacKay bringing intense dramatic weight.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Georgia Oakley's Vision",
+        "text": "Director Georgia Oakley brings sharp emotional honesty to the production, honoring Jane Austen's razor-sharp social commentary while infusing dynamic, modern visual energy.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      },
+      {
+        "id": "page-5",
+        "badge": "RUN-TIME & SCOPE",
+        "title": "A 132-Minute Epic Romance",
+        "text": "Clocking in at over two hours, this sumptuous drama ensures rich character arcs, lavish English landscapes, and devastating romantic choices tailored for romantic drama purists.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      },
+      {
+        "id": "page-6",
+        "badge": "COUNTDOWN",
+        "title": "In Theaters September 2026",
+        "text": "Sense and Sensibility premieres worldwide on September 23, 2026. Prepare for the ultimate autumn period piece celebration.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1503762"
+      }
+    ],
+    "date_published": "2026-10-17T10:00:55Z",
+    "date_modified": "2026-10-17T10:00:55Z",
+    "published_at": "2026-10-17T10:00:55Z"
+  },
+  {
+    "title": "Mad Max Fury Road: Wild Fan Theories & Hidden Secrets \ud83d\udc80\ud83d\udd25",
+    "seo_description": "Uncover hidden wasteland clues, villain lore, and mind-bending fan theories behind George Miller's action juggernaut Mad Max: Fury Road.",
+    "movie": {
+      "id": 76341,
+      "title": "Mad Max: Fury Road",
+      "original_title": "Mad Max: Fury Road",
+      "slug": "mad-max-fury-road",
+      "media_type": "movie",
+      "release_date": "2015-05-13",
+      "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
+      "tagline": "The future belongs to the mad.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 121,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 24781,
+      "category": "theories_easter_eggs",
+      "director": "George Miller",
+      "top_cast": [
+        "Tom Hardy",
+        "Charlize Theron",
+        "Nicholas Hoult",
+        "Hugh Keays-Byrne",
+        "Josh Helman",
+        "Nathan Jones"
+      ],
+      "poster_path": "/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg",
+      "backdrop_path": "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+      "backdrops": [
+        "/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg",
+        "/uT895WNwm0aIJRtGizcQhrejWUo.jpg",
+        "/n6vWE0bXq4ImAM00iM5gWyORNSM.jpg",
+        "/8yACFuo4OaIiKr9hHFlmPcGalKx.jpg",
+        "/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
+        "/hrYbZY9HaGMlEQsUeEx2lu3vWPy.jpg",
+        "/9hdEQmLC14EbBVnGSjI4WM1ElZB.jpg",
+        "/ejyXv2hRKeA3lU9AHU3Jd59IwoG.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FAN THEORIES",
+        "title": "Secrets of the Wasteland",
+        "text": "George Miller packed Mad Max: Fury Road with cryptic lore and insane background details. Is Tom Hardy actually playing the feral kid from Road Warrior?",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      },
+      {
+        "id": "page-2",
+        "badge": "HIDDEN CLUES",
+        "title": "The Feral Kid Theory",
+        "text": "Fans point out Hardy's Max barely speaks, grunts like an animal, and keeps a music box. Did the feral child from Road Warrior take up the mantle?",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      },
+      {
+        "id": "page-3",
+        "badge": "VILLAIN LORE",
+        "title": "Immortan Joe's Dark Past",
+        "text": "Actor Hugh Keays-Byrne played Toecutter in the 1979 original. Prequel comics confirm Immortan Joe was a decorated military general who seized the Citadel's aquifers during the collapse.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "The Doof Warrior's Origin",
+        "text": "The blind guitarist Coma-Doof strapped to speakers isn't just visual spectacle. Miller gave him a tragic backstory: Immortan Joe rescued him after his mother was murdered in the ruins.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      },
+      {
+        "id": "page-5",
+        "badge": "MYTHIC TIMELINE",
+        "title": "Max Is a Legendary Ghost",
+        "text": "Miller views the timeline not as linear history, but as campfire folklore passed down by survivors. Max is less a mortal man and more a wandering post-apocalyptic legend.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Return to Fury Road",
+        "text": "With Furiosa expanding the wasteland universe, revisit every bone-crushing stunt and hidden easter egg in the six-time Oscar winner.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Fury Road Secrets",
+        "cta_url": "https://www.themoviedb.org/movie/76341"
+      }
+    ],
+    "date_published": "2026-10-17T10:00:55Z",
+    "date_modified": "2026-10-17T10:00:55Z",
+    "published_at": "2026-10-17T10:00:55Z"
+  },
+  {
     "title": "Miraculous Ladybug: Why Fans Love Paris\u2019s Top Duo \ud83d\udc1e\u2728",
     "seo_description": "Discover the secret origins, iconic love square, and global craze behind Miraculous: Tales of Ladybug & Cat Noir.",
     "movie": {

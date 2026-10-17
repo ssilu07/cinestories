@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/hawaii-five-0/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tLccUh3uazZ9TkLhe53UwprJhI4.jpg</image:loc>
+      <image:title>Hawaii Five-0: How A 1968 Reboot Survived 10 Brutal Seasons 🌴 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-odyssey/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/nVBzWBqHTB3XD0iqWiJLfKLo5fq.jpg</image:loc>
+      <image:title>Christopher Nolan's 'The Odyssey': Inside His Biggest Gamble Yet 🌊 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/sense-and-sensibility/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/nkINWVL8x1KwdpO0dUbYhS3Y1iP.jpg</image:loc>
+      <image:title>Daisy Edgar-Jones Revives Jane Austen: Inside 2026's Sense &amp; Sensibility 👒 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/mad-max-fury-road/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/gqrnQA6Xppdl8vIb2eJc58VC1tW.jpg</image:loc>
+      <image:title>Is Tom Hardy Really Max? 4 Wild 'Fury Road' Easter Eggs Explained Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/miraculous-tales-of-ladybug-cat-noir/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
@@ -1420,6 +1460,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/hawaii-five-0/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/sIdCKlmM2nU4akIvFQaAIiU8YES.jpg</image:loc>
+      <image:title>Hawaii Five-0 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-odyssey/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg</image:loc>
+      <image:title>The Odyssey Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/sense-and-sensibility/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg</image:loc>
+      <image:title>Sense and Sensibility Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/mad-max-fury-road/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ulcAi4dKpAjHwYGS08vNyx9H6I9.jpg</image:loc>
+      <image:title>Mad Max: Fury Road Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
