@@ -106,9 +106,20 @@ API_PACING_SECONDS = float(os.getenv("API_PACING_SECONDS", "2.0"))
 # Registry for deduplication (prevents re-generating same articles daily)
 REGISTRY_PATH = DIST_DIR / "published_registry.json"
 
+# Tumblr Integration Settings
+TUMBLR_BLOG_NAME = os.getenv("TUMBLR_BLOG_NAME", "sumits7196").strip()
+TUMBLR_CONSUMER_KEY = os.getenv("TUMBLR_CONSUMER_KEY", "").strip()
+TUMBLR_CONSUMER_SECRET = os.getenv("TUMBLR_CONSUMER_SECRET", "").strip()
+TUMBLR_OAUTH_TOKEN = os.getenv("TUMBLR_OAUTH_TOKEN", "").strip()
+TUMBLR_OAUTH_SECRET = os.getenv("TUMBLR_OAUTH_SECRET", "").strip()
+TUMBLR_POST_STATE = os.getenv("TUMBLR_POST_STATE", "published").strip()  # 'published' or 'queue'
+TUMBLR_DAILY_POST_LIMIT = int(os.getenv("TUMBLR_DAILY_POST_LIMIT", "2"))
+TUMBLR_REGISTRY_PATH = DIST_DIR / "tumblr_published.json"
+
 # Ensure base dist directories exist
 DIST_DIR.mkdir(parents=True, exist_ok=True)
 STORIES_DIR.mkdir(parents=True, exist_ok=True)
 ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
 DISCOVER_DIR.mkdir(parents=True, exist_ok=True)
 ASSETS_DIR.mkdir(parents=True, exist_ok=True)
+

@@ -30,3 +30,10 @@ Thumbs.db
 *.swo
 
 .vercel
+
+# Service Account Keys
+*service_account*.json
+credentials*.json
+*tumblr_pending*.json
+
+

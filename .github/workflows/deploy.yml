@@ -99,7 +99,19 @@ jobs:
         run: |
           python validator.py
 
+      - name: Auto-Post Daily Stories to Tumblr
+        env:
+          TUMBLR_BLOG_NAME: ${{ secrets.TUMBLR_BLOG_NAME || 'sumits7196' }}
+          TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
+          TUMBLR_CONSUMER_SECRET: ${{ secrets.TUMBLR_CONSUMER_SECRET }}
+          TUMBLR_OAUTH_TOKEN: ${{ secrets.TUMBLR_OAUTH_TOKEN }}
+          TUMBLR_OAUTH_SECRET: ${{ secrets.TUMBLR_OAUTH_SECRET }}
+          DOMAIN_NAME: 'https://cinematicbites.com'
+        run: |
+          python tumblr_poster.py --limit 2
+
       - name: Commit and Push Updated Stories & Sitemap
+
         run: |
           git config --global user.name "ssilu07"
           git config --global user.email "64121882+ssilu07@users.noreply.github.com"
