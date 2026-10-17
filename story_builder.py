@@ -42,7 +42,7 @@ AMP_CUSTOM_CSS = """
     --primary-glow: rgba(225, 29, 72, 0.4);
     --gold: #f59e0b;
     --bg-dark: #090b10;
-    --card-bg: rgba(10, 14, 23, 0.82);
+    --card-bg: rgba(10, 14, 23, 0.85);
     --border-subtle: rgba(255, 255, 255, 0.14);
     --text-main: #ffffff;
     --text-muted: #cbd5e1;
@@ -62,20 +62,30 @@ AMP_CUSTOM_CSS = """
     bottom: 0;
     background: linear-gradient(
       180deg,
-      rgba(9, 11, 16, 0.5) 0%,
+      rgba(9, 11, 16, 0.6) 0%,
       rgba(9, 11, 16, 0.05) 25%,
-      rgba(9, 11, 16, 0.72) 70%,
-      rgba(9, 11, 16, 0.96) 100%
+      rgba(9, 11, 16, 0.45) 55%,
+      rgba(9, 11, 16, 0.85) 80%,
+      rgba(9, 11, 16, 0.98) 100%
     );
     pointer-events: none;
+  }
+  amp-story-grid-layer[template="vertical"] {
+    align-content: stretch;
+    grid-template-rows: 1fr;
+    padding: 0;
   }
   .content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 38px 20px 48px;
+    padding: max(30px, env(safe-area-inset-top, 30px)) 16px max(24px, env(safe-area-inset-bottom, 24px));
     box-sizing: border-box;
+    pointer-events: none;
+  }
+  .final-slide-wrapper {
+    padding-bottom: max(78px, calc(env(safe-area-inset-bottom, 0px) + 78px));
   }
   .story-top-bar {
     display: flex;
@@ -83,7 +93,10 @@ AMP_CUSTOM_CSS = """
     justify-content: space-between;
     width: 100%;
     margin-bottom: auto;
+    padding-right: 48px;
+    box-sizing: border-box;
     z-index: 10;
+    pointer-events: auto;
   }
   .story-close-btn {
     display: inline-flex;
@@ -116,10 +129,14 @@ AMP_CUSTOM_CSS = """
   }
   .content-card {
     background: var(--card-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--border-subtle);
     border-radius: 20px;
-    padding: 22px 20px;
-    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.55);
+    padding: 20px 18px;
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.65);
+    margin-top: auto;
+    pointer-events: auto;
   }
   .final-nav-row {
     margin-top: 14px;
@@ -161,7 +178,7 @@ AMP_CUSTOM_CSS = """
     vertical-align: middle;
   }
   .slide-title {
-    font-size: 24px;
+    font-size: clamp(19px, 4.8vw, 24px);
     font-weight: 800;
     line-height: 1.25;
     margin: 0 0 10px 0;
@@ -169,18 +186,18 @@ AMP_CUSTOM_CSS = """
     letter-spacing: -0.3px;
   }
   .cover-title {
-    font-size: 30px;
+    font-size: clamp(22px, 5.5vw, 28px);
     font-weight: 900;
     line-height: 1.15;
-    margin: 0 0 12px 0;
+    margin: 0 0 10px 0;
     color: #ffffff;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
   }
   .slide-text {
-    font-size: 15px;
-    line-height: 1.5;
+    font-size: clamp(13.5px, 3.4vw, 15px);
+    line-height: 1.48;
     color: var(--text-muted);
-    margin: 0 0 14px 0;
+    margin: 0 0 12px 0;
   }
   .meta-chips {
     display: flex;
@@ -210,6 +227,32 @@ AMP_CUSTOM_CSS = """
     background-color: var(--primary);
     margin-right: 6px;
     vertical-align: middle;
+  }
+  @media (max-height: 680px) {
+    .content-wrapper {
+      padding-top: max(24px, env(safe-area-inset-top, 24px));
+      padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+    }
+    .final-slide-wrapper {
+      padding-bottom: max(68px, calc(env(safe-area-inset-bottom, 0px) + 68px));
+    }
+    .content-card {
+      padding: 16px 14px;
+      border-radius: 16px;
+    }
+    .cover-title {
+      font-size: 21px;
+      margin-bottom: 6px;
+    }
+    .slide-title {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+    .slide-text {
+      font-size: 13px;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
   }
 """
 
@@ -360,7 +403,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                 <div class="scrim-overlay"></div>
               </amp-story-grid-layer>
               <amp-story-grid-layer template="vertical">
-                <div class="content-wrapper">
+                <div class="content-wrapper final-slide-wrapper">
 {top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <span class="badge">{badge_text}</span>

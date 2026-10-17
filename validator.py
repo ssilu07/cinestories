@@ -41,35 +41,38 @@ def check_amp_files(target_dir: Path = STORIES_DIR) -> Tuple[int, int, List[str]
     is_windows = (os.name == "nt")
 
     try:
-        # Run all files in a single fast batch
-        cmd = [npx_cmd, "--yes", "amphtml-validator"] + file_paths
-        result = subprocess.run(
-            cmd,
-            capture_output=True,
-            text=True,
-            shell=is_windows,
-            timeout=120
-        )
-        raw_output = result.stdout + "\n" + result.stderr
-        # Strip ANSI terminal escape sequences
-        clean_output = re.sub(r'\x1b\[[0-9;]*[a-zA-Z]', '', raw_output)
+        # Run files in chunks to avoid Windows command line length limits
+        chunk_size = 40
+        for i in range(0, len(file_paths), chunk_size):
+            chunk = file_paths[i:i + chunk_size]
+            cmd = [npx_cmd, "--yes", "amphtml-validator"] + chunk
+            result = subprocess.run(
+                cmd,
+                capture_output=True,
+                text=True,
+                shell=is_windows,
+                timeout=120
+            )
+            raw_output = result.stdout + "\n" + result.stderr
+            # Strip ANSI terminal escape sequences
+            clean_output = re.sub(r'\x1b\[[0-9;]*[a-zA-Z]', '', raw_output)
 
-        lines = clean_output.strip().splitlines()
-        for line in lines:
-            line_str = line.strip()
-            if not line_str:
-                continue
-            if ": PASS" in line_str or line_str.endswith("PASS"):
-                passed += 1
-                parts = line_str.rsplit(":", 1)
-                file_rel = Path(parts[0]).as_posix()
-                if "stories/" in file_rel:
-                    file_rel = "/stories/" + file_rel.split("stories/")[-1]
-                print(f"  [PASS] {file_rel}", flush=True)
-            elif ": FAIL" in line_str or "ERROR" in line_str:
-                failed += 1
-                errors.append(line_str)
-                print(f"  [FAIL] {line_str}", flush=True)
+            lines = clean_output.strip().splitlines()
+            for line in lines:
+                line_str = line.strip()
+                if not line_str:
+                    continue
+                if ": PASS" in line_str or line_str.endswith("PASS"):
+                    passed += 1
+                    parts = line_str.rsplit(":", 1)
+                    file_rel = Path(parts[0]).as_posix()
+                    if "stories/" in file_rel:
+                        file_rel = "/stories/" + file_rel.split("stories/")[-1]
+                    print(f"  [PASS] {file_rel}", flush=True)
+                elif ": FAIL" in line_str or "ERROR" in line_str:
+                    failed += 1
+                    errors.append(line_str)
+                    print(f"  [FAIL] {line_str}", flush=True)
     except Exception as e:
         print(f"[Validator] Error running amphtml-validator batch: {e}", flush=True)
         errors.append(str(e))
