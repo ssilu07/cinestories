@@ -1,5 +1,424 @@
 [
   {
+    "title": "Why Naruto Still Dominates Anime Charts \ud83c\udf65\ud83d\udd25",
+    "seo_description": "Discover how Naruto Uzumaki's journey from village outcast to legendary ninja defined global anime culture for over two decades.",
+    "movie": {
+      "id": 46260,
+      "title": "Naruto",
+      "original_title": "\u30ca\u30eb\u30c8",
+      "slug": "naruto",
+      "media_type": "tv",
+      "release_date": "2002-10-03",
+      "overview": "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 24,
+      "seasons": 4,
+      "vote_average": 8.4,
+      "vote_count": 6157,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Junko Takeuchi",
+        "Noriaki Sugiyama",
+        "Chie Nakamura",
+        "Kazuhiko Inoue",
+        "Hidekatsu Shibata",
+        "Koichi Tochika"
+      ],
+      "poster_path": "/xppeysfvDKVx775MFuH8Z9BlpMk.jpg",
+      "backdrop_path": "/5F0HVEgkgP99fEWDjPyikGt9jQi.jpg",
+      "backdrops": [
+        "/5F0HVEgkgP99fEWDjPyikGt9jQi.jpg",
+        "/mpsYIytXhDXjI9yYC1Fp1S3PxsS.jpg",
+        "/6sHC954QPhrrLsT6WPkSie9hVmI.jpg",
+        "/xuJ0F9RfKvVSJNDg2usurQ9WvY5.jpg",
+        "/koY8N9Y8IcLlb2eJXz50X1hFUL5.jpg",
+        "/e7NQewvh3E4vB96ebsbCSE4TKx9.jpg",
+        "/6U9hdsCKDcnbYyObDCu6dvYvIxF.jpg",
+        "/9fwJ5ZOF14XjxDsIPDvEvnIo9r0.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "ANIME PHENOMENON",
+        "title": "The Boy Who Changed Anime",
+        "text": "Before it became a multi-billion dollar empire, it started with a lonely outcast dreaming of greatness. Here is why Naruto continues to reign supreme.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/46260"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Unwanted Ninja Outcast",
+        "text": "Shunned by his village for the beast locked inside him, Naruto Uzumaki vowed to win everyone's respect by becoming the ultimate Hokage leader.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/46260"
+      },
+      {
+        "id": "page-3",
+        "badge": "TEAM SEVEN",
+        "title": "Bonds Forged In Battle",
+        "text": "Together with rival Sasuke Uchiha and Sakura Haruno under Kakashi's guidance, Team 7 redefined action choreography with emotional, high-stakes combat.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/46260"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Iconic Female Voice",
+        "text": "Naruto's loud, gravelly voice belongs to veteran actress Junko Takeuchi. Her passionate line reads brought an unforgettable grit to the character.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/46260"
+      },
+      {
+        "id": "page-5",
+        "badge": "CULTURAL IMPACT",
+        "title": "Global Pop Legacy",
+        "text": "With an 8.4 rating across thousands of votes, it popularized anime worldwide, influencing modern athletes, musicians, and an entire generation of creators.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/46260"
+      },
+      {
+        "id": "page-6",
+        "badge": "STREAM IT NOW",
+        "title": "Relive The Ninja Way",
+        "text": "Ready to revisit the classic Chunin Exams and iconic showdowns? Stream the complete saga and see why this legend never dies.",
+        "backdrop_index": 5,
+        "cta_text": "Watch Naruto Now",
+        "cta_url": "https://www.themoviedb.org/tv/46260"
+      }
+    ],
+    "date_published": "2026-10-17T12:43:41Z",
+    "date_modified": "2026-10-17T12:43:41Z",
+    "published_at": "2026-10-17T12:43:41Z"
+  },
+  {
+    "title": "Minions & Monsters: Hollywood's Wildest Disaster \ud83c\udf4c\ud83c\udfac",
+    "seo_description": "The Minions accidentally unleash real monsters on Hollywood in their wildest adventure yet. Here is everything to know about the 2026 blockbuster.",
+    "movie": {
+      "id": 1315772,
+      "title": "Minions & Monsters",
+      "original_title": "Minions & Monsters",
+      "slug": "minions-monsters",
+      "media_type": "movie",
+      "release_date": "2026-06-24",
+      "overview": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+      "tagline": "Hollywood has a monster problem.",
+      "genres": [
+        "Adventure",
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "runtime": 90,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 1277,
+      "category": "trending",
+      "director": "Pierre Coffin",
+      "top_cast": [
+        "Pierre Coffin",
+        "Trey Parker",
+        "Christoph Waltz",
+        "Allison Janney",
+        "Jesse Eisenberg",
+        "Jeff Bridges"
+      ],
+      "poster_path": "/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+      "backdrop_path": "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+      "backdrops": [
+        "/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+        "/xMoXsOgF0hBP7iVj7ZPIrFtTeL3.jpg",
+        "/2lHxj082xknb8kt4gOcmn1yPjkk.jpg",
+        "/lhHIGSWycw6p0a9TPgsspOWvo84.jpg",
+        "/9L1zG6JEq3U0cCAa0QLtnB4zv2r.jpg",
+        "/pPIUMhch0lEhTgHuhAjD7Dofp8Y.jpg",
+        "/sfGdosEmaYJQha8esMcP8YuCpaj.jpg",
+        "/wTAzlhmJK18jIX91yXH4SPrUwme.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "HOLLYWOOD MAYHEM",
+        "title": "Minions Unleash Giant Monsters!",
+        "text": "The yellow troublemakers take over Tinseltown and accidentally trigger a colossal creature invasion. Get ready for total cinematic chaos.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "From Movie Stars to Chaos",
+        "text": "After conquering the box office as overnight A-listers, the Minions lose control and accidentally set classic Hollywood monsters loose across the globe.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      },
+      {
+        "id": "page-3",
+        "badge": "ALL-STAR CAST",
+        "title": "A Powerhouse Ensemble",
+        "text": "Pierre Coffin returns alongside Oscar heavyweights Christoph Waltz, Allison Janney, and Jeff Bridges, teaming with comedy titan Trey Parker.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Pierre Coffin's Wildest Vision",
+        "text": "Original franchise mastermind Pierre Coffin directs this explosive satire, blending vintage creature feature homages with signature Minion slapstick.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      },
+      {
+        "id": "page-5",
+        "badge": "GLOBAL THREAT",
+        "title": "Can They Save Planet Earth?",
+        "text": "To fix their colossal blunder, the Minions must band together before their monstrous creations flatten the planet entirely.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      },
+      {
+        "id": "page-6",
+        "badge": "COMING SOON",
+        "title": "Get Ready for the Mayhem \ud83c\udf7f\ud83d\udca5",
+        "text": "Minions & Monsters hits theaters June 2026. Discover trailers, casting updates, and release details now.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1315772"
+      }
+    ],
+    "date_published": "2026-10-17T12:43:41Z",
+    "date_modified": "2026-10-17T12:43:41Z",
+    "published_at": "2026-10-17T12:43:41Z"
+  },
+  {
+    "title": "Scream 7: The Untold Story & Secrets",
+    "seo_description": "Discover Scream 7: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1159559,
+      "title": "Scream 7",
+      "original_title": "Scream 7",
+      "slug": "scream-7",
+      "media_type": "movie",
+      "release_date": "2026-02-25",
+      "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
+      "tagline": "Burn it all down.",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Crime"
+      ],
+      "runtime": 114,
+      "seasons": null,
+      "vote_average": 6.2,
+      "vote_count": 1355,
+      "category": "upcoming",
+      "director": "Kevin Williamson",
+      "top_cast": [
+        "Neve Campbell",
+        "Courteney Cox",
+        "Isabel May",
+        "Jasmin Savoy Brown",
+        "Mason Gooding",
+        "Roger L. Jackson"
+      ],
+      "poster_path": "/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+      "backdrop_path": "/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg",
+      "backdrops": [
+        "/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg",
+        "/t9J2HXaDuJR7bvIG9XF7mttn4VY.jpg",
+        "/hz7TdCrpLLt2Dz7S3PS2HG9rpAO.jpg",
+        "/6Gguj3y7mropdvCag7bB6ZZAfHi.jpg",
+        "/yWCZc2TcsCYbMMjvUIsczmQi2TX.jpg",
+        "/rbd7F1dgHcFjJ5xNttpyhuzigEb.jpg",
+        "/zCEVSQkdKuPmonSRanVxe4Utdot.jpg",
+        "/kOq0rYqwF5g63hvIe3IT9cfdWTT.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Scream 7",
+        "text": "Burn it all down. Rated 6.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Neve Campbell, Courteney Cox, Isabel May, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Kevin Williamson.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Kevin Williamson",
+        "text": "Filmmaker Kevin Williamson pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.2/10 on TMDB",
+        "text": "With an impressive 6.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Scream 7? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1159559"
+      }
+    ],
+    "date_published": "2026-10-17T12:43:41Z",
+    "date_modified": "2026-10-17T12:43:41Z",
+    "published_at": "2026-10-17T12:43:41Z"
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: Across the Spider-Verse: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 569094,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "original_title": "Spider-Man: Across the Spider-Verse",
+      "slug": "spider-man-across-the-spider-verse",
+      "media_type": "movie",
+      "release_date": "2023-05-31",
+      "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+      "tagline": "It's how you wear the mask that matters.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 140,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 9406,
+      "category": "theories_easter_eggs",
+      "director": "Kemp Powers",
+      "top_cast": [
+        "Shameik Moore",
+        "Hailee Steinfeld",
+        "Brian Tyree Henry",
+        "Luna Lauren V\u00e9lez",
+        "Jake Johnson",
+        "Oscar Isaac"
+      ],
+      "poster_path": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "backdrop_path": "/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+      "backdrops": [
+        "/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+        "/9xfDWXAUbFXQK585JvByT5pEAhe.jpg",
+        "/nGxUxi3PfXDRm7Vg95VBNgNM8yc.jpg",
+        "/jbthbh0KzaUWFPYvkfmXAamjI8j.jpg",
+        "/4HodYYKEIsGOdinkGi2Ucz6X9i0.jpg",
+        "/kGWpZewzInbzTuaIHcy0bFgzXuM.jpg",
+        "/e59QkHTueqRelzq0thn5deCEKIG.jpg",
+        "/fmNeiPNzjUbN2FY0d4Q9GnfyHsp.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man: Across the Spider-Verse",
+        "text": "It's how you wear the mask that matters. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Kemp Powers.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Kemp Powers",
+        "text": "Filmmaker Kemp Powers pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man: Across the Spider-Verse? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/569094"
+      }
+    ],
+    "date_published": "2026-10-17T12:43:41Z",
+    "date_modified": "2026-10-17T12:43:41Z",
+    "published_at": "2026-10-17T12:43:41Z"
+  },
+  {
     "title": "Seinfeld: What Happened to the Cast of Nothing? \u2615\ud83d\uddfd",
     "seo_description": "Discover where Jerry Seinfeld, Julia Louis-Dreyfus, and the cast of Seinfeld are today, from record-breaking Emmy wins to comedy tours.",
     "movie": {

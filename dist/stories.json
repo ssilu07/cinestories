@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T12:37:58.571740+00:00",
-  "total_stories": 149,
+  "generated_at": "2026-10-17T12:44:50.358368+00:00",
+  "total_stories": 153,
   "stories": [
+    {
+      "id": 46260,
+      "slug": "naruto",
+      "title": "Why Naruto Still Dominates Anime Charts \ud83c\udf65\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/naruto/",
+      "category": "series",
+      "release_date": "2002-10-03",
+      "rating": 8.4
+    },
+    {
+      "id": 1315772,
+      "slug": "minions-monsters",
+      "title": "Minions & Monsters: Hollywood's Wildest Disaster \ud83c\udf4c\ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/minions-monsters/",
+      "category": "trending",
+      "release_date": "2026-06-24",
+      "rating": 7.6
+    },
+    {
+      "id": 1159559,
+      "slug": "scream-7",
+      "title": "Scream 7: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/scream-7/",
+      "category": "upcoming",
+      "release_date": "2026-02-25",
+      "rating": 6.2
+    },
+    {
+      "id": 569094,
+      "slug": "spider-man-across-the-spider-verse",
+      "title": "Spider-Man: Across the Spider-Verse: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/spider-man-across-the-spider-verse/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-05-31",
+      "rating": 8.3
+    },
     {
       "id": 1400,
       "slug": "seinfeld",
