@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/swat/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/7j4ug9B6JXVeh5HhQjjPScrdj4Z.jpg</image:loc>
+      <image:title>S.W.A.T.: Why Shemar Moore's Hit Series Won't Quit 🚨💥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/i-want-your-sex/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/gQsjbxdjJUam7buy4U2TpVTiGSO.jpg</image:loc>
+      <image:title>I Want Your Sex: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/once-upon-a-time-in-hollywood/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/kKTPv9LKKs5L3oO1y5FNObxAPWI.jpg</image:loc>
+      <image:title>Once Upon a Time... in Hollywood: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-running-man/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/aHj7d7wSLqrg5cjAcgHhiGr97Ih.jpg</image:loc>
+      <image:title>The Running Man: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/stargate-sg-1/</loc>
     <lastmod>2026-10-17</lastmod>
     <changefreq>daily</changefreq>
@@ -1580,6 +1620,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/swat/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/1l7vsAIkqOzrqiPwjO27Cb5QdfJ.jpg</image:loc>
+      <image:title>S.W.A.T. Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/i-want-your-sex/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pR7SIX3AwqdoD96OI44oLG98e7g.jpg</image:loc>
+      <image:title>I Want Your Sex Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/once-upon-a-time-in-hollywood/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg</image:loc>
+      <image:title>Once Upon a Time... in Hollywood Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-running-man/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg</image:loc>
+      <image:title>The Running Man Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

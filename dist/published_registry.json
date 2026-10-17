@@ -940,5 +940,29 @@
     "published_at": "2026-10-17T15:44:28Z",
     "modified_at": "2026-10-17T15:44:28Z",
     "category": "theories_easter_eggs"
+  },
+  "swat": {
+    "title": "S.W.A.T.",
+    "published_at": "2026-10-17T18:17:06Z",
+    "modified_at": "2026-10-17T18:17:06Z",
+    "category": "series"
+  },
+  "i-want-your-sex": {
+    "title": "I Want Your Sex",
+    "published_at": "2026-10-17T18:17:06Z",
+    "modified_at": "2026-10-17T18:17:06Z",
+    "category": "trending"
+  },
+  "once-upon-a-time-in-hollywood": {
+    "title": "Once Upon a Time... in Hollywood",
+    "published_at": "2026-10-17T18:17:06Z",
+    "modified_at": "2026-10-17T18:17:06Z",
+    "category": "upcoming"
+  },
+  "the-running-man": {
+    "title": "The Running Man",
+    "published_at": "2026-10-17T18:17:06Z",
+    "modified_at": "2026-10-17T18:17:06Z",
+    "category": "theories_easter_eggs"
   }
 }

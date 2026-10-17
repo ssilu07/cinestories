@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T15:46:14.321323+00:00",
-  "total_stories": 157,
+  "generated_at": "2026-10-17T18:17:44.741586+00:00",
+  "total_stories": 161,
   "stories": [
+    {
+      "id": 71790,
+      "slug": "swat",
+      "title": "S.W.A.T.: Why Shemar Moore's Hit Series Won't Quit \ud83d\udea8\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/swat/",
+      "category": "series",
+      "release_date": "2017-11-02",
+      "rating": 8.0
+    },
+    {
+      "id": 1288059,
+      "slug": "i-want-your-sex",
+      "title": "I Want Your Sex: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/i-want-your-sex/",
+      "category": "trending",
+      "release_date": "2026-07-29",
+      "rating": 6.1
+    },
+    {
+      "id": 466272,
+      "slug": "once-upon-a-time-in-hollywood",
+      "title": "Once Upon a Time... in Hollywood: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/once-upon-a-time-in-hollywood/",
+      "category": "upcoming",
+      "release_date": "2019-07-24",
+      "rating": 7.4
+    },
+    {
+      "id": 798645,
+      "slug": "the-running-man",
+      "title": "The Running Man: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-running-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-11-11",
+      "rating": 6.7
+    },
     {
       "id": 4629,
       "slug": "stargate-sg-1",
