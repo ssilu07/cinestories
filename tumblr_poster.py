@@ -27,6 +27,8 @@ if hasattr(sys.stdout, "reconfigure"):
 from config import (
     DOMAIN_NAME,
     DIST_DIR,
+    STORIES_DIR,
+    ARTICLES_DIR,
     ARTICLES_JSON_PATH,
     STORIES_JSON_PATH,
     TMDB_IMAGE_POSTER,
@@ -40,6 +42,7 @@ from config import (
     TUMBLR_DAILY_POST_LIMIT,
     TUMBLR_REGISTRY_PATH,
 )
+
 
 def load_json(filepath: Path) -> List[Dict[str, Any]]:
     if not filepath.exists():
@@ -135,9 +138,20 @@ def format_tumblr_caption(article: Dict[str, Any], domain: str) -> str:
     return "\n".join(lines)
 
 def build_tumblr_tags(article: Dict[str, Any]) -> List[str]:
-    """Generate high-engagement Tumblr tags for movie fandoms."""
+    """Generate high-engagement Tumblr tags optimized for Tier-1 (US/UK/CA) movie fandoms."""
     movie = article.get("movie", {})
-    tags = ["movies", "cinema", "films", "cinephile", "cinestories", "movie recommendation"]
+    # Core Tier-1 trending entertainment tags on Tumblr
+    tags = [
+        "movies",
+        "cinema",
+        "films",
+        "cinephile",
+        "letterboxd",
+        "what to watch",
+        "movie recommendation",
+        "film review",
+        "cinestories"
+    ]
 
     title = movie.get("title")
     if title:
@@ -166,16 +180,17 @@ def build_tumblr_tags(article: Dict[str, Any]) -> List[str]:
     return cleaned_tags[:15]  # Tumblr supports up to 20 tags
 
 def get_image_url(movie: Dict[str, Any]) -> Optional[str]:
-    """Select the best high-res image URL for the Tumblr photo post."""
+    """Select verified high-res image URL (poster or backdrop) for Tumblr photo post."""
     poster_path = movie.get("poster_path")
     backdrop_path = movie.get("backdrop_path")
 
     # Prefer high-res portrait poster for Tumblr visual feed
-    if poster_path:
+    if poster_path and isinstance(poster_path, str) and poster_path.strip():
         return f"{TMDB_IMAGE_POSTER}{poster_path}" if poster_path.startswith("/") else poster_path
-    if backdrop_path:
+    if backdrop_path and isinstance(backdrop_path, str) and backdrop_path.strip():
         return f"{TMDB_IMAGE_BACKDROP}{backdrop_path}" if backdrop_path.startswith("/") else backdrop_path
     return None
+
 
 def post_to_tumblr(
     client,
@@ -251,10 +266,21 @@ def main():
             continue
         if slug in published_set and not args.slug:
             continue
-        img_url = get_image_url(movie)
-        if not img_url:
+
+        # STRICT RULE: Must exist on the website (story or article in dist)
+        story_exists = (STORIES_DIR / slug / "index.html").exists()
+        article_exists = (ARTICLES_DIR / slug / "index.html").exists()
+        if not story_exists and not article_exists:
+            # Skip if content not generated on the site yet
             continue
+
+        # STRICT RULE: Must have verified high-res image
+        img_url = get_image_url(movie)
+        if not img_url or not (img_url.startswith("http://") or img_url.startswith("https://")):
+            continue
+
         candidates.append((art, img_url))
+
 
     if not candidates:
         print("[INFO] No new unposted movies found for Tumblr. All up to date!")

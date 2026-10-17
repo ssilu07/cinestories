@@ -2,9 +2,13 @@ name: Automated Movie Web Stories Pipeline & Deploy
 
 on:
   schedule:
-    # Runs 4 times daily (every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC)
-    # IST: 05:30 AM, 11:30 AM, 05:30 PM, 11:30 PM
-    - cron: '0 */6 * * *'
+    # Runs 4 times daily synchronized with Tier-1 (US/UK/EU) peak browsing windows:
+    # - 12:00 UTC (08:00 AM US-East / 01:00 PM UK / 05:30 PM IST - Morning prime)
+    # - 16:00 UTC (12:00 PM US-East / 05:00 PM UK / 09:30 PM IST - Lunch prime)
+    # - 20:00 UTC (04:00 PM US-East / 09:00 PM UK / 01:30 AM IST - Evening prime)
+    # - 01:00 UTC (09:00 PM US-East / 06:00 PM US-West / 06:30 AM IST - Peak night browsing)
+    - cron: '0 1,12,16,20 * * *'
+
   workflow_dispatch:
     inputs:
       category:
@@ -108,7 +112,8 @@ jobs:
           TUMBLR_OAUTH_SECRET: ${{ secrets.TUMBLR_OAUTH_SECRET }}
           DOMAIN_NAME: 'https://cinematicbites.com'
         run: |
-          python tumblr_poster.py --limit 2
+          python tumblr_poster.py --limit 1
+
 
       - name: Commit and Push Updated Stories & Sitemap
 
