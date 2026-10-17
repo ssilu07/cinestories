@@ -964,5 +964,29 @@
     "published_at": "2026-10-17T18:17:06Z",
     "modified_at": "2026-10-17T18:17:06Z",
     "category": "theories_easter_eggs"
+  },
+  "young-sheldon": {
+    "title": "Young Sheldon",
+    "published_at": "2026-10-17T22:01:31Z",
+    "modified_at": "2026-10-17T22:01:31Z",
+    "category": "series"
+  },
+  "the-militia": {
+    "title": "The Militia",
+    "published_at": "2026-10-17T22:01:31Z",
+    "modified_at": "2026-10-17T22:01:31Z",
+    "category": "trending"
+  },
+  "beware-boi\u00fana": {
+    "title": "Beware Boi\u00fana",
+    "published_at": "2026-10-17T22:01:31Z",
+    "modified_at": "2026-10-17T22:01:31Z",
+    "category": "upcoming"
+  },
+  "war-machine": {
+    "title": "War Machine",
+    "published_at": "2026-10-17T22:01:31Z",
+    "modified_at": "2026-10-17T22:01:31Z",
+    "category": "theories_easter_eggs"
   }
 }

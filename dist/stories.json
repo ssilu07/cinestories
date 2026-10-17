@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-17T18:17:44.741586+00:00",
-  "total_stories": 161,
+  "generated_at": "2026-10-17T22:02:33.753594+00:00",
+  "total_stories": 165,
   "stories": [
+    {
+      "id": 71728,
+      "slug": "young-sheldon",
+      "title": "Young Sheldon: Secrets Behind TV's Favorite Genius \ud83e\udde0\u2728",
+      "url": "https://cinematicbites.com/stories/young-sheldon/",
+      "category": "series",
+      "release_date": "2017-09-25",
+      "rating": 8.0
+    },
+    {
+      "id": 1759875,
+      "slug": "the-militia",
+      "title": "Why Gripping Indie Thriller 'The Militia' Is Turning Heads \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/the-militia/",
+      "category": "trending",
+      "release_date": "2026-09-08",
+      "rating": 8.8
+    },
+    {
+      "id": 1244523,
+      "slug": "beware-boi\u00fana",
+      "title": "Beware Boi\u00fana: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/beware-boi\u00fana/",
+      "category": "upcoming",
+      "release_date": "2026-10-01",
+      "rating": 5.9
+    },
+    {
+      "id": 1265609,
+      "slug": "war-machine",
+      "title": "War Machine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/war-machine/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-02-12",
+      "rating": 7.5
+    },
     {
       "id": 71790,
       "slug": "swat",
