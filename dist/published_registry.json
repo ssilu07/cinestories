@@ -1012,5 +1012,29 @@
     "published_at": "2026-10-18T05:31:49Z",
     "modified_at": "2026-10-18T05:31:49Z",
     "category": "theories_easter_eggs"
+  },
+  "detective-conan": {
+    "title": "Detective Conan",
+    "published_at": "2026-10-18T15:34:20Z",
+    "modified_at": "2026-10-18T15:34:20Z",
+    "category": "series"
+  },
+  "dune-part-three": {
+    "title": "Dune: Part Three",
+    "published_at": "2026-10-18T15:34:20Z",
+    "modified_at": "2026-10-18T15:34:20Z",
+    "category": "trending"
+  },
+  "shrek": {
+    "title": "Shrek",
+    "published_at": "2026-10-18T15:34:20Z",
+    "modified_at": "2026-10-18T15:34:20Z",
+    "category": "upcoming"
+  },
+  "masters-of-the-universe": {
+    "title": "Masters of the Universe",
+    "published_at": "2026-10-18T15:34:20Z",
+    "modified_at": "2026-10-18T15:34:20Z",
+    "category": "theories_easter_eggs"
   }
 }

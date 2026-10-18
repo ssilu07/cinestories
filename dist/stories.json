@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-18T05:31:59.412725+00:00",
-  "total_stories": 169,
+  "generated_at": "2026-10-18T15:36:27.892635+00:00",
+  "total_stories": 173,
   "stories": [
+    {
+      "id": 30983,
+      "slug": "detective-conan",
+      "title": "Detective Conan: Why This Anime Mystery Rules Pop Culture \ud83d\udd0d\u2728",
+      "url": "https://cinematicbites.com/stories/detective-conan/",
+      "category": "series",
+      "release_date": "1996-01-08",
+      "rating": 8.0
+    },
+    {
+      "id": 1170608,
+      "slug": "dune-part-three",
+      "title": "Dune 3: Everything We Know About The Epic Finale \ud83c\udf0c\u2694\ufe0f",
+      "url": "https://cinematicbites.com/stories/dune-part-three/",
+      "category": "trending",
+      "release_date": "2026-12-15",
+      "rating": 0.0
+    },
+    {
+      "id": 808,
+      "slug": "shrek",
+      "title": "Shrek Secrets: How An Unlikely Ogre Changed Hollywood \ud83e\uddc5\u2728",
+      "url": "https://cinematicbites.com/stories/shrek/",
+      "category": "upcoming",
+      "release_date": "2001-05-18",
+      "rating": 7.8
+    },
+    {
+      "id": 454639,
+      "slug": "masters-of-the-universe",
+      "title": "Masters of the Universe: 5 Wild Secrets & Fan Theories \u2694\ufe0f\u2728",
+      "url": "https://cinematicbites.com/stories/masters-of-the-universe/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-06-03",
+      "rating": 7.1
+    },
     {
       "id": 95479,
       "slug": "jujutsu-kaisen",

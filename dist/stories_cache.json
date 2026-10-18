@@ -1,5 +1,423 @@
 [
   {
+    "title": "Detective Conan: Why This Anime Mystery Rules Pop Culture \ud83d\udd0d\u2728",
+    "seo_description": "Uncover the enduring genius of Detective Conan, from shrunken sleuth Jimmy Kudo to its legendary global legacy across decades.",
+    "movie": {
+      "id": 30983,
+      "title": "Detective Conan",
+      "original_title": "\u540d\u63a2\u5075\u30b3\u30ca\u30f3",
+      "slug": "detective-conan",
+      "media_type": "tv",
+      "release_date": "1996-01-08",
+      "overview": "The son of a world famous mystery writer, Jimmy Kudo, has achieved his own notoriety by assisting the local police as a student detective. He has always been able to solve the most difficult of criminal cases using his wits and power of reason.",
+      "tagline": "One truth prevails.",
+      "genres": [
+        "Animation",
+        "Crime",
+        "Mystery",
+        "Comedy"
+      ],
+      "runtime": 25,
+      "seasons": 1,
+      "vote_average": 8.0,
+      "vote_count": 793,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Minami Takayama",
+        "Kappei Yamaguchi",
+        "Wakana Yamazaki",
+        "Akemi Okamura",
+        "Akira Kamiya",
+        "Rikiya Koyama"
+      ],
+      "poster_path": "/iHfA63x7rFaWbP2C832uCe2r0zy.jpg",
+      "backdrop_path": "/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+      "backdrops": [
+        "/z67lpMtm8YGykJO4p89meuNMvj8.jpg",
+        "/5546GF3zT3yA25ydCz0KlujjRA3.jpg",
+        "/8nzvbgGM1bDqK3fscy86LyOnDcf.jpg",
+        "/5BHD5mNry8tWSOAiFf8CiwuNbHx.jpg",
+        "/kbxIwkmVfkDvL4mq2V7WbyZAVFy.jpg",
+        "/lXK5wQxWz7NnGM2irmPXCD3Rr5V.jpg",
+        "/nvL0hMyMQ0BUe8Hmlg7XwNad2Uu.jpg",
+        "/frCKBoTcOWg2Kp5piR5moWwPK96.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "LEGENDARY SLEUTH",
+        "title": "One Truth Prevails!",
+        "text": "Since 1996, one brilliant high-school detective trapped in a child's body has captivated millions worldwide with ingenious crimes, intricate deduction, and timeless drama.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/30983"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Shrunk by Black Org",
+        "text": "Jimmy Kudo was Tokyo's finest teen sleuth until a sinister syndicate poisoned him. Instead of dying, he woke up transformed into elementary student Conan Edogawa.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/30983"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Iconic Voices",
+        "text": "Voice legend Minami Takayama breathes heart and swagger into Conan, while Kappei Yamaguchi defines Jimmy Kudo. Their timeless performances keep audiences hooked across hundreds of episodes.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/30983"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Sherlock Holmes Roots",
+        "text": "Conan's pseudonym blends Sir Arthur Conan Doyle and Japanese mystery pioneer Ranpo Edogawa. Creator Gosho Aoyama carefully architects every murder puzzle before illustrating.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/30983"
+      },
+      {
+        "id": "page-5",
+        "badge": "BOX OFFICE TITAN",
+        "title": "Bigger Than Blockbusters",
+        "text": "With over 1,100 episodes and record-breaking yearly feature films, Conan regularly outperforms Hollywood tentpoles across Asian box offices, maintaining an impressive 8.0 rating.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/30983"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Solve The Mystery",
+        "text": "Ready to dive into three decades of mind-bending whodunits and thrilling secret agent showdowns? Discover the complete mystery franchise today.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Case Files",
+        "cta_url": "https://www.themoviedb.org/tv/30983"
+      }
+    ],
+    "date_published": "2026-10-18T15:34:20Z",
+    "date_modified": "2026-10-18T15:34:20Z",
+    "published_at": "2026-10-18T15:34:20Z"
+  },
+  {
+    "title": "Dune 3: Everything We Know About The Epic Finale \ud83c\udf0c\u2694\ufe0f",
+    "seo_description": "Denis Villeneuve's Dune: Part Three brings Paul Atreides' empire to an epic climax in 2026. Here is what to expect from the Messiah adaptation.",
+    "movie": {
+      "id": 1170608,
+      "title": "Dune: Part Three",
+      "original_title": "Dune: Part Three",
+      "slug": "dune-part-three",
+      "media_type": "movie",
+      "release_date": "2026-12-15",
+      "overview": "Nearly two decades after he seized control of the Imperium, Paul Atreides is now a ruthless Emperor, and must face the consequences of his reign as old allies return, terrifying new threats emerge, and betrayal lurks in every shadow. Haunted by visions of Imperial collapse and the reappearance of his long-lost love, Paul is drawn into a sweeping conspiracy, with Chani at the heart of its unfolding mystery. As enemies close in, Paul must confront the true cost of power and the fate of those he loves the most.",
+      "tagline": "The epic conclusion.",
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 140,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Denis Villeneuve",
+      "top_cast": [
+        "Timoth\u00e9e Chalamet",
+        "Zendaya",
+        "Jason Momoa",
+        "Florence Pugh",
+        "Rebecca Ferguson",
+        "Isaach de Bankol\u00e9"
+      ],
+      "poster_path": "/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+      "backdrop_path": "/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+      "backdrops": [
+        "/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg",
+        "/bU206dN0ucfOFRK17OXabkdHKFC.jpg",
+        "/5poP982Y3huFTkjJsJAq6MBQs5k.jpg",
+        "/5jnVGQXsc0oXLlWD9q6KuwacWQ2.jpg",
+        "/8WPS8nJ2W87NbDnmZSQzZq2mP9d.jpg",
+        "/zoAzj4xMASb8d578YfS8KsdBTTP.jpg",
+        "/c2fAsZAisEaxWzmQCRg0kxMOO9T.jpg",
+        "/mGdkW29yqgaPrIA58IpnaYBfT0b.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "The Holy War Ends \ud83c\udf0c",
+        "text": "Denis Villeneuve returns to complete Paul Atreides' tragic saga. Set decades later, the universe faces absolute reckoning.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE TIME JUMP",
+        "title": "Emperor Paul's Dark Reign",
+        "text": "Nearly twenty years after seizing the throne, Paul grapples with unchecked holy war, deadly political mutiny, and fracturing prescient visions.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      },
+      {
+        "id": "page-3",
+        "badge": "RETURNING ICONS",
+        "title": "Chani & A Shocking Ally",
+        "text": "Zendaya's Chani stands at the center of an Imperial conspiracy, while Jason Momoa makes a mysterious, highly anticipated return.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Adapting 'Dune Messiah'",
+        "text": "Villeneuve tackles Frank Herbert's direct critique of charismatic leaders. Expect a darker, intensely psychological battle for Arrakis.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE CLIMAX",
+        "title": "The Sci-Fi Event of 2026",
+        "text": "With Florence Pugh and Rebecca Ferguson reprising pivotal roles, the Atreides dynasty faces its final, catastrophic test.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      },
+      {
+        "id": "page-6",
+        "badge": "MARK YOUR CALENDAR",
+        "title": "Arriving December 2026",
+        "text": "Prepare for the ultimate cinematic finish. Track official updates and complete cast reveals as production unfolds.",
+        "backdrop_index": 5,
+        "cta_text": "Track Dune 3 News",
+        "cta_url": "https://www.themoviedb.org/movie/1170608"
+      }
+    ],
+    "date_published": "2026-10-18T15:34:20Z",
+    "date_modified": "2026-10-18T15:34:20Z",
+    "published_at": "2026-10-18T15:34:20Z"
+  },
+  {
+    "title": "Shrek Secrets: How An Unlikely Ogre Changed Hollywood \ud83e\uddc5\u2728",
+    "seo_description": "Discover the wild behind-the-scenes secrets, historic Oscar win, and lasting legacy of DreamWorks' pop-culture phenomenon, Shrek.",
+    "movie": {
+      "id": 808,
+      "title": "Shrek",
+      "original_title": "Shrek",
+      "slug": "shrek",
+      "media_type": "movie",
+      "release_date": "2001-05-18",
+      "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+      "tagline": "The greatest fairy tale never told.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Fantasy",
+        "Adventure",
+        "Family"
+      ],
+      "runtime": 90,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 19457,
+      "category": "upcoming",
+      "director": "Andrew Adamson",
+      "top_cast": [
+        "Mike Myers",
+        "Eddie Murphy",
+        "Cameron Diaz",
+        "John Lithgow",
+        "Vincent Cassel",
+        "Peter Dennis"
+      ],
+      "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+      "backdrop_path": "/w0eKUOEog2ImtktCHAMUZws8qif.jpg",
+      "backdrops": [
+        "/w0eKUOEog2ImtktCHAMUZws8qif.jpg",
+        "/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+        "/40Wtp7kMG6mZ4d5T1jfrd8qrvD4.jpg",
+        "/bNTHSd3UqqLzIVwbDOGPnx3ScfF.jpg",
+        "/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+        "/aXFKBfPvZa4NFmqyvG8sno19A0k.jpg",
+        "/mZAwhoGH8isko20oE7xIQeXLe13.jpg",
+        "/c0cqEKcvx6a9Hx0i9H1WjHOy51k.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "CULTURE ICON",
+        "title": "The Fairy Tale Revolution \ud83e\uddc5",
+        "text": "Over two decades ago, an unpolished green ogre broke every storybook rule, sparked an animation empire, and reshaped Hollywood comedy forever.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Swamp Intrusion \ud83c\udff0",
+        "text": "When Lord Farquaad banishes fairy tale creatures onto Shrek's quiet swamp, a smelly hero and a chatterbox donkey strike an unlikely rescue deal.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "That Iconic Accent \ud83c\udf99\ufe0f",
+        "text": "Mike Myers originally voiced Shrek with his regular voice. He later insisted on re-recording everything in a Scottish accent, costing millions and creating comedy gold.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Farley's Lost Cut \ud83d\udcfc",
+        "text": "Comedy legend Chris Farley originally recorded nearly the entire movie before his tragic passing, inspiring a heartfelt creative rewrite tailored specifically for Mike Myers.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      },
+      {
+        "id": "page-5",
+        "badge": "HISTORIC WIN",
+        "title": "Oscar Milestone \ud83c\udfc6",
+        "text": "At the 74th Academy Awards, Shrek made cinematic history by winning the very first Oscar for Best Animated Feature, topping traditional competitors.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      },
+      {
+        "id": "page-6",
+        "badge": "WHAT'S NEXT",
+        "title": "The Swamp Awaits \ud83d\udc51",
+        "text": "With new franchise chapters on the horizon and timeless pop-culture relevance, rediscover the swamp journey that turned fairy tales upside down.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Shrek Details",
+        "cta_url": "https://www.themoviedb.org/movie/808"
+      }
+    ],
+    "date_published": "2026-10-18T15:34:20Z",
+    "date_modified": "2026-10-18T15:34:20Z",
+    "published_at": "2026-10-18T15:34:20Z"
+  },
+  {
+    "title": "Masters of the Universe: 5 Wild Secrets & Fan Theories \u2694\ufe0f\u2728",
+    "seo_description": "Explore the deepest easter eggs, hidden lore, and universe-shattering fan theories surrounding the epic Masters of the Universe reboot.",
+    "movie": {
+      "id": 454639,
+      "title": "Masters of the Universe",
+      "original_title": "Masters of the Universe",
+      "slug": "masters-of-the-universe",
+      "media_type": "movie",
+      "release_date": "2026-06-03",
+      "overview": "After being separated for 15 years, the Sword of Power leads Prince Adam back to Eternia, where he discovers his home shattered under the fiendish rule of Skeletor. To save his family and his world, Adam must join forces with his closest allies, Teela and Duncan/Man-At-Arms, and embrace his true destiny as He-Man \u2014 the most powerful man in the universe.",
+      "tagline": "Legends aren't born, they're forged.",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Science Fiction"
+      ],
+      "runtime": 141,
+      "seasons": null,
+      "vote_average": 7.1,
+      "vote_count": 2238,
+      "category": "theories_easter_eggs",
+      "director": "Travis Knight",
+      "top_cast": [
+        "Nicholas Galitzine",
+        "Camila Mendes",
+        "Idris Elba",
+        "Jared Leto",
+        "Alison Brie",
+        "J\u00f3hannes Haukur J\u00f3hannesson"
+      ],
+      "poster_path": "/oRuyGUHdoaQxWP3SDfafGkStxTC.jpg",
+      "backdrop_path": "/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+      "backdrops": [
+        "/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg",
+        "/piV2OnzTZCyGBP9JCjlHIgKGlfo.jpg",
+        "/pSptA1YdHreII6OLAvXbnYytwcz.jpg",
+        "/yQIdU11DYQQp0neGtGtGxbGfRer.jpg",
+        "/eQySd26OW7UmCuaeBOL7qy6foMn.jpg",
+        "/dgWcCe53AOyQ2C4Mpx6v5SMooX.jpg",
+        "/fSgTKJ6L8DahbWLEgdt8maOLzXD.jpg",
+        "/uEmgKZMXZ5W4LkxS24f1Xy6T7FP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FAN THEORIES",
+        "title": "Secrets of Castle Grayskull",
+        "text": "Travis Knight's 2026 epic hides massive lore nods from vintage minicomics to toy line deep cuts. Here are the wildest easter eggs and theories decoded.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      },
+      {
+        "id": "page-2",
+        "badge": "HIDDEN LORE",
+        "title": "The 15-Year Exile Clue",
+        "text": "Prince Adam's decade-and-a-half estrangement directly references early 1982 Mattel lore, where Adam arrived as an outsider barbarian before modern palace retcons took root.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      },
+      {
+        "id": "page-3",
+        "badge": "VILLAIN REVEAL",
+        "title": "Skeletor's True Heritage",
+        "text": "Key environmental clues suggest Skeletor's origin ties back to Prince Keldor. Eagle-eyed fans spotted royal sigils fractured across Snake Mountain's dark inner sanctum.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Cosmic Sorceress Ties",
+        "text": "Look closely at Teela's armor details. Comic purists believe her journey subtly hints at the ancient Green Goddess lineage teased across early eighties canon.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      },
+      {
+        "id": "page-5",
+        "badge": "WILD THEORY",
+        "title": "The Multiverse Nexus?",
+        "text": "Could Grayskull bridge multiple realities? Theories predict the cosmic portal hints at crossover connections linking vintage Mattel dimensions beyond Eternia itself.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Claim The Power",
+        "text": "Ready to unlock every hidden secret, cast breakdown, and future Eternian saga tease? Discover the complete breakdown now.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Eternia Lore",
+        "cta_url": "https://www.themoviedb.org/movie/454639"
+      }
+    ],
+    "date_published": "2026-10-18T15:34:20Z",
+    "date_modified": "2026-10-18T15:34:20Z",
+    "published_at": "2026-10-18T15:34:20Z"
+  },
+  {
     "title": "JUJUTSU KAISEN: Why Anime's Dark Hit Rules Global Screens \u26a1\ud83d\udd25",
     "seo_description": "Discover why JUJUTSU KAISEN became a global anime sensation with thrilling action, dark curses, and unstoppable heroes.",
     "movie": {

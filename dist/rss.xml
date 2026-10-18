@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Oct 2026 05:31:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 15:36:27 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Why This Pint-Sized Anime Sleuth Keeps Crushing Hollywood Hits</title>
+      <link>https://cinematicbites.com/articles/detective-conan/</link>
+      <description>After nearly 30 years and 1,100 episodes, Detective Conan dominates global box offices with ingenious whodunits and thrilling noir drama.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/detective-conan/</guid>
+      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/z67lpMtm8YGykJO4p89meuNMvj8.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Dune 3: Why Paul Atreides' Brutal Final Chapter Changes Everything</title>
+      <link>https://cinematicbites.com/articles/dune-part-three/</link>
+      <description>Denis Villeneuve takes Paul Atreides into darkness with Dune: Part Three. Here is what to expect from the 2026 epic adapting Frank Herbert's Dune Messiah.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/dune-part-three/</guid>
+      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Secret History of Shrek: How a Costly Reshoot Made Oscar History 🧅</title>
+      <link>https://cinematicbites.com/articles/shrek/</link>
+      <description>From Chris Farley's lost cut to Mike Myers' Scottish gamble, explore how Shrek defied industry odds to reinvent modern Hollywood animation.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/shrek/</guid>
+      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Masters of the Universe: 5 Deep Lore Clues Travis Knight Hid in Eternia</title>
+      <link>https://cinematicbites.com/articles/masters-of-the-universe/</link>
+      <description>From Prince Keldor clues to vintage minicomic nods, here are the wildest hidden details and theories in 2026's Masters of the Universe reboot.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/masters-of-the-universe/</guid>
+      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>JUJUTSU KAISEN: Why Anime's Dark Hit Rules Global Screens ⚡🔥</title>
       <link>https://cinematicbites.com/articles/jujutsu-kaisen/</link>
@@ -425,42 +461,6 @@
       <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/oAUf1pvGlafCZVlEuPt1JyONHR1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Evil Dead Burn: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/evil-dead-burn/</link>
-      <description>Explore Evil Dead Burn: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/evil-dead-burn/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/o0jkkpcN81QqSl8DMLScBCXyUH9.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Terminator: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/the-terminator/</link>
-      <description>Explore The Terminator: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/the-terminator/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:56:29 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ffdqHMWkh1h9MABwIfbfRJhgFW6.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Walking Dead: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/the-walking-dead/</link>
-      <description>Explore The Walking Dead: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/the-walking-dead/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/rAOjnEFTuNysY7bot8zonhImGMh.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Tenzing: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/tenzing/</link>
-      <description>Explore Tenzing: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/tenzing/</guid>
-      <pubDate>Fri, 16 Oct 2026 10:31:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/9MdxBPjI58xkzA7RtKX9xRKvlZp.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
