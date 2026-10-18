@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-18T18:33:09.746293+00:00",
-  "total_stories": 177,
+  "generated_at": "2026-10-18T22:19:49.031206+00:00",
+  "total_stories": 181,
   "stories": [
+    {
+      "id": 45140,
+      "slug": "teen-titans-go",
+      "title": "Teen Titans Go!: Wild Secrets Behind DC's Craziest Hit \ud83c\udf55\u26a1",
+      "url": "https://cinematicbites.com/stories/teen-titans-go/",
+      "category": "series",
+      "release_date": "2013-04-23",
+      "rating": 6.4
+    },
+    {
+      "id": 1476746,
+      "slug": "the-florist",
+      "title": "The Florist: Dennis Quaid & Jean Reno Team Up \ud83c\udf3f\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/the-florist/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 6.1
+    },
+    {
+      "id": 1433583,
+      "slug": "the-weight",
+      "title": "Ethan Hawke & Russell Crowe Collide in The Weight \u26cf\ufe0f\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/the-weight/",
+      "category": "upcoming",
+      "release_date": "2026-09-16",
+      "rating": 6.8
+    },
+    {
+      "id": 19995,
+      "slug": "avatar",
+      "title": "5 Wild Avatar Easter Eggs & Theories You Missed \ud83e\ude90\u2728",
+      "url": "https://cinematicbites.com/stories/avatar/",
+      "category": "theories_easter_eggs",
+      "release_date": "2009-12-16",
+      "rating": 7.6
+    },
     {
       "id": 37680,
       "slug": "suits",

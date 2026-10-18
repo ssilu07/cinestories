@@ -1,5 +1,417 @@
 [
   {
+    "title": "Teen Titans Go!: Wild Secrets Behind DC's Craziest Hit \ud83c\udf55\u26a1",
+    "seo_description": "Discover behind-the-scenes secrets, cast reunions, and Easter eggs behind Cartoon Network's powerhouse hit Teen Titans Go!",
+    "movie": {
+      "id": 45140,
+      "title": "Teen Titans Go!",
+      "original_title": "Teen Titans Go!",
+      "slug": "teen-titans-go",
+      "media_type": "tv",
+      "release_date": "2013-04-23",
+      "overview": "Robin, Starfire, Raven, Beast Boy and Cyborg return in all-new, comedic adventures. They may be super heroes who save the world every day ... but somebody still has to do the laundry!",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Comedy",
+        "Family",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 9,
+      "vote_average": 6.4,
+      "vote_count": 737,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Scott Menville",
+        "Greg Cipes",
+        "Khary Payton",
+        "Tara Strong",
+        "Hynden Walch"
+      ],
+      "poster_path": "/kPKAigYUlWRpnfo4Ptiwlz4FWXU.jpg",
+      "backdrop_path": "/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
+      "backdrops": [
+        "/o2iwGPtKJCUVOyMGUTwYgh0iARc.jpg",
+        "/bIHCUqaapZdRjd2kzSDiwzYyrpC.jpg",
+        "/s0cFeJHspEQ1maQLLVaP0B9cgYy.jpg",
+        "/k66XTEx0KwyKw8U95o5rx9FrSgL.jpg",
+        "/mlV1QYQ0iDUb8YjxjifvyC7Gcel.jpg",
+        "/k6tOYPGFsXLwAa0Cml4whIw86dH.jpg",
+        "/17ABnLq7w3Ip7shkx2YzjaREPbi.jpg",
+        "/kDkV89S2oQy8ZmGMZpO13rfhQEP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "ANIMATION ICON",
+        "title": "Chaos, Waffles & Superheroes",
+        "text": "When Teen Titans Go! debuted in 2013, fans were shocked by the wacky shift. Over a decade later, it is DC's longest-running animated show ever.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/45140"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Saving the Day... After Chores",
+        "text": "Forget dramatic doomsday battles. Robin, Raven, Cyborg, Starfire, and Beast Boy spend more time squabbling over burritos, laundry, and dance contests than stopping villains.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/45140"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "The Original 2003 Cast Reunited",
+        "text": "Every primary voice icon returned from the legendary 2003 series, including Tara Strong, Greg Cipes, Scott Menville, Khary Payton, and Hynden Walch.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/45140"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Relentless DC Easter Eggs",
+        "text": "Look closely at the backgrounds! The Titans' living room features hilarious nods to Batman v Superman, obscure 1980s comic runs, and vintage DC multiverse lore.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/45140"
+      },
+      {
+        "id": "page-5",
+        "badge": "POP CULTURE LEGACY",
+        "title": "Master of Meta Humor",
+        "text": "From roasting their own critics to theatrical big-screen movie spinoffs, the writers continuously break the fourth wall, making it a satire juggernaut for all ages.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/45140"
+      },
+      {
+        "id": "page-6",
+        "badge": "STREAM NOW",
+        "title": "Relive Every Hilarious Episode",
+        "text": "Ready to rewatch the wildest adventures in Jump City? Dive back into hundreds of episodes packed with non-stop laughs.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Teen Titans Go!",
+        "cta_url": "https://www.themoviedb.org/tv/45140"
+      }
+    ],
+    "date_published": "2026-10-18T22:17:58Z",
+    "date_modified": "2026-10-18T22:17:58Z",
+    "published_at": "2026-10-18T22:17:58Z"
+  },
+  {
+    "title": "The Florist: Dennis Quaid & Jean Reno Team Up \ud83c\udf3f\ud83d\udca5",
+    "seo_description": "Dennis Quaid and Jean Reno face off in 'The Florist', an adrenaline-fueled hitman thriller. Discover the plot, cast, and buzz behind the action film.",
+    "movie": {
+      "id": 1476746,
+      "title": "The Florist",
+      "original_title": "The Florist",
+      "slug": "the-florist",
+      "media_type": "movie",
+      "release_date": "2026-09-24",
+      "overview": "A quiet horticulturalist harboring a secret life as a lethal assassin finds his true identity jeopardized when he forms an unlikely friendship with a witnesses to police corruption.",
+      "tagline": "",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "runtime": 99,
+      "seasons": null,
+      "vote_average": 6.1,
+      "vote_count": 25,
+      "category": "trending",
+      "director": "Babak Najafi",
+      "top_cast": [
+        "Dennis Quaid",
+        "Jean Reno",
+        "Sky Katz",
+        "Jim Klock",
+        "Leonidas Gulaptis",
+        "Elsa Mollien"
+      ],
+      "poster_path": "/4tnRvIiWMzVA2Tw9c7INLo4sfo0.jpg",
+      "backdrop_path": "/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+      "backdrops": [
+        "/jpH1VRw74w0vvPTY0ryKEtMIXc.jpg",
+        "/rzxBvCix5Ebl3KYPIXpD8hy64uE.jpg",
+        "/xZivJ9jshaFoxuPZ2BiJ9SBrNTc.jpg",
+        "/g5Kdx4dCt2RYROLEZZMjbbtBuoF.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "A Hitman with Green Thumbs \ud83c\udf3f",
+        "text": "Dennis Quaid and Jean Reno collide in Babak Najafi's high-octane thriller 'The Florist'. Here is why this unexpected action flick is catching fire online.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE HOOK",
+        "title": "Petals and Pistols \ud83c\udf38\ud83d\udd2b",
+        "text": "By day, he tends delicate blossoms. By night, he eliminates high-value targets. Everything unravels when he shields an innocent witness caught in deep police corruption.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      },
+      {
+        "id": "page-3",
+        "badge": "POWERHOUSE CAST",
+        "title": "Reno Meets Quaid \ud83c\udfac",
+        "text": "Action royalty Jean Reno pairs with veteran Dennis Quaid for pure gritty tension. Their explosive dynamic elevates this 99-minute edge-of-your-seat ride.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      },
+      {
+        "id": "page-4",
+        "badge": "DIRECTOR'S CUT",
+        "title": "Directed by Babak Najafi \ud83d\udca5",
+        "text": "Known for directing 'London Has Fallen', Babak Najafi brings fast-paced intensity and stylish shootouts straight to an unsuspecting greenhouse setting.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      },
+      {
+        "id": "page-5",
+        "badge": "FAN REACTION",
+        "title": "The Next Cult Favorite? \ud83c\udfaf",
+        "text": "Moviegoers are hailing it as a sharp throwback to classic 90s action thrillers. Tight pacing and visceral combat make it a must-watch entry.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Ready for the Action? \ud83c\udf7f",
+        "text": "Catch the full breakdown, release details, and cast updates for 'The Florist' before it lands on your radar.",
+        "backdrop_index": 0,
+        "cta_text": "View Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1476746"
+      }
+    ],
+    "date_published": "2026-10-18T22:17:58Z",
+    "date_modified": "2026-10-18T22:17:58Z",
+    "published_at": "2026-10-18T22:17:58Z"
+  },
+  {
+    "title": "Ethan Hawke & Russell Crowe Collide in The Weight \u26cf\ufe0f\ud83d\udca5",
+    "seo_description": "Ethan Hawke and Russell Crowe face off in brutal crime thriller The Weight. Here is everything we know about this gritty gold heist flick.",
+    "movie": {
+      "id": 1433583,
+      "title": "The Weight",
+      "original_title": "The Weight",
+      "slug": "the-weight",
+      "media_type": "movie",
+      "release_date": "2026-09-16",
+      "overview": "When Samuel is torn from his daughter and sent to a brutal prison, Warden Clancy offers him a high-stakes proposition: smuggle gold out of a remote mine with a dangerous crew of prisoners and he\u2019ll win his freedom.",
+      "tagline": "A tale of good and evil.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 112,
+      "seasons": null,
+      "vote_average": 6.8,
+      "vote_count": 42,
+      "category": "upcoming",
+      "director": "Padraic McKinley",
+      "top_cast": [
+        "Ethan Hawke",
+        "Russell Crowe",
+        "Julia Jones",
+        "Austin Amelio",
+        "Avi Nash",
+        "Lucas Lynggaard T\u00f8nnesen"
+      ],
+      "poster_path": "/8i5iZV50CoEtmDCFM7RSxCkpE8h.jpg",
+      "backdrop_path": "/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+      "backdrops": [
+        "/zKizFK3adjtpXut1dW6bRaxwhd.jpg",
+        "/zLeq2fbHU6UdA7mhsYnIULORTgq.jpg",
+        "/tD4qifPSyyhPCgZ0W4fNTcVDD2r.jpg",
+        "/tA22d0tUZsxrmQVC8DKrWTtZCNj.jpg",
+        "/wrrwqpIhabG1xaqWwakbgMpPgvu.jpg",
+        "/doKGNHnbawL8bsIAfkZH6AA2To3.jpg",
+        "/wnn2jKXfBGOZmCxW78PGSr4WfjQ.jpg",
+        "/yWg8HW3n27JvgEd8SNVkwmQLoWL.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "A Gritty New Showdown",
+        "text": "Hollywood heavyweights Ethan Hawke and Russell Crowe join forces for The Weight, an intense crime thriller set in a ruthless penal colony.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "A Deal for Freedom",
+        "text": "Torn from his young daughter, inmate Samuel gets an offer from corrupt Warden Clancy: smuggle mined gold through lethal territory to secure his release.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Hawke Meets Crowe",
+        "text": "The clash between Hawke's desperate convict and Crowe's commanding warden promises an explosive psychological standoff loaded with raw tension.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Director Padraic McKinley",
+        "text": "Helmed by Padraic McKinley, the thriller aims for relentless realism, capturing rugged landscapes and the true cost of survival.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      },
+      {
+        "id": "page-5",
+        "badge": "RUGGED CAST",
+        "title": "A Lethal Ensemble",
+        "text": "Julia Jones and Austin Amelio round out a cutthroat crew of prisoners who will gladly turn on each other for a single ounce of gold.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      },
+      {
+        "id": "page-6",
+        "badge": "RELEASE RADAR",
+        "title": "Mark Your Calendar",
+        "text": "Scheduled to hit theaters in September 2026, The Weight is shaping up to be an unmissable clash of greed, grit, and morality.",
+        "backdrop_index": 5,
+        "cta_text": "Track Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1433583"
+      }
+    ],
+    "date_published": "2026-10-18T22:17:58Z",
+    "date_modified": "2026-10-18T22:17:58Z",
+    "published_at": "2026-10-18T22:17:58Z"
+  },
+  {
+    "title": "5 Wild Avatar Easter Eggs & Theories You Missed \ud83e\ude90\u2728",
+    "seo_description": "Discover mind-bending Avatar easter eggs, secret sci-fi references, and dark fan theories about Pandora and Eywa.",
+    "movie": {
+      "id": 19995,
+      "title": "Avatar",
+      "original_title": "Avatar",
+      "slug": "avatar",
+      "media_type": "movie",
+      "release_date": "2009-12-16",
+      "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+      "tagline": "Enter the world of Pandora.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 162,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 34862,
+      "category": "theories_easter_eggs",
+      "director": "James Cameron",
+      "top_cast": [
+        "Sam Worthington",
+        "Zoe Salda\u00f1a",
+        "Sigourney Weaver",
+        "Stephen Lang",
+        "Michelle Rodriguez",
+        "Giovanni Ribisi"
+      ],
+      "poster_path": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+      "backdrop_path": "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
+      "backdrops": [
+        "/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg",
+        "/7JNzw1tSZZEgsBw6lu0VfO2X2Ef.jpg",
+        "/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
+        "/Yc9q6QuWrMp9nuDm5R8ExNqbEq.jpg",
+        "/AmHOQ7rpHwiaUMRjKXztnauSJb7.jpg",
+        "/o0s4XsEDfDlvit5pDRKjzXR4pp2.jpg",
+        "/jlQJDD0L5ZojjlS0KYnApdO0n19.jpg",
+        "/Antz70VlRI2yU3iwYxyYUknzfz9.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "SECRET PANDORA",
+        "title": "Avatar's Darkest Hidden Lore \ud83c\udf0c",
+        "text": "James Cameron packed Avatar with subtle visual clues and eerie subtext. Beyond the bioluminescence lies a network of mind-bending secrets fans are still unlocking today.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      },
+      {
+        "id": "page-2",
+        "badge": "HIDDEN TRIBUTE",
+        "title": "The Aliens Connection \ud83d\udc7d",
+        "text": "Notice Colonel Quaritch's AMP suit knife? It directly mirrors the combat gear from Cameron's 1986 classic Aliens, honoring Sigourney Weaver's sci-fi legacy.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      },
+      {
+        "id": "page-3",
+        "badge": "FAN THEORY",
+        "title": "Is Eywa Actually a Sentient AI? \ud83e\udde0",
+        "text": "One massive fan theory argues Eywa is not mystical magic, but an ancient biological super-computer engineered by long-extinct precursors to regulate Pandora's planetary ecosystem.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Grace Augustine's Hidden Clue \ud83e\uddec",
+        "text": "Dr. Grace's avatar sports five fingers instead of four. This deliberate human genetic hybrid trait secretly set the stage for Kiri's miraculous origin years later.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      },
+      {
+        "id": "page-5",
+        "badge": "PANDORA MYSTERIES",
+        "title": "Earth Was Truly Doomed \ud83c\udf0d",
+        "text": "Cut scenes and lore books reveal Earth had zero green foliage remaining. The RDA wasn't just corporate greed; humanity was racing against an inevitable planetary extinction.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      },
+      {
+        "id": "page-6",
+        "badge": "UNCOVER MORE",
+        "title": "Enter the Pandora Vault \ud83c\udff9",
+        "text": "From hidden flora details to secret military insignias, Cameron's sci-fi universe runs deeper than meets the eye. Explore full movie stats and trivia now.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Avatar Secrets",
+        "cta_url": "https://www.themoviedb.org/movie/19995"
+      }
+    ],
+    "date_published": "2026-10-18T22:17:58Z",
+    "date_modified": "2026-10-18T22:17:58Z",
+    "published_at": "2026-10-18T22:17:58Z"
+  },
+  {
     "title": "Why Suits Smashed Global Streaming Records \u2696\ufe0f\ud83d\udd25",
     "seo_description": "Discover how Suits became a record-breaking streaming phenomenon, from Harvey Specter's sharp wit to its legendary cultural comeback.",
     "movie": {
