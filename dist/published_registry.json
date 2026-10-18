@@ -988,5 +988,29 @@
     "published_at": "2026-10-17T22:01:31Z",
     "modified_at": "2026-10-17T22:01:31Z",
     "category": "theories_easter_eggs"
+  },
+  "jujutsu-kaisen": {
+    "title": "JUJUTSU KAISEN",
+    "published_at": "2026-10-18T05:31:49Z",
+    "modified_at": "2026-10-18T05:31:49Z",
+    "category": "series"
+  },
+  "moana": {
+    "title": "Moana",
+    "published_at": "2026-10-18T05:31:49Z",
+    "modified_at": "2026-10-18T05:31:49Z",
+    "category": "trending"
+  },
+  "the-hunger-games-mockingjay-part-2": {
+    "title": "The Hunger Games: Mockingjay - Part 2",
+    "published_at": "2026-10-18T05:31:49Z",
+    "modified_at": "2026-10-18T05:31:49Z",
+    "category": "upcoming"
+  },
+  "the-maze-runner": {
+    "title": "The Maze Runner",
+    "published_at": "2026-10-18T05:31:49Z",
+    "modified_at": "2026-10-18T05:31:49Z",
+    "category": "theories_easter_eggs"
   }
 }

@@ -1,5 +1,416 @@
 [
   {
+    "title": "JUJUTSU KAISEN: Why Anime's Dark Hit Rules Global Screens \u26a1\ud83d\udd25",
+    "seo_description": "Discover why JUJUTSU KAISEN became a global anime sensation with thrilling action, dark curses, and unstoppable heroes.",
+    "movie": {
+      "id": 95479,
+      "title": "JUJUTSU KAISEN",
+      "original_title": "\u546a\u8853\u5efb\u6226",
+      "slug": "jujutsu-kaisen",
+      "media_type": "tv",
+      "release_date": "2020-10-03",
+      "overview": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+      "tagline": "A boy fights... for \"the right death.\"",
+      "genres": [
+        "Animation",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "runtime": 24,
+      "seasons": 1,
+      "vote_average": 8.6,
+      "vote_count": 4697,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [],
+      "poster_path": "/6qQzMJG27XOJsyAEEIisoJB45j2.jpg",
+      "backdrop_path": "/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+      "backdrops": [
+        "/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+        "/j2GvamiUMRpPjmNQSSht0Q7Z7e9.jpg",
+        "/gmECX1DvFgdUPjtio2zaL8BPYPu.jpg",
+        "/9CsTtHlvErQ93jvIWIjs06G0Abe.jpg",
+        "/lthkKBLe1rX6iThgVFg22O02sJw.jpg",
+        "/nIHp6fz2MX33blJKYa9BSbhct7W.jpg",
+        "/j0gsESaBzFmYVhnBTXzIE9PsgY8.jpg",
+        "/zAfK8cVjJiYUsVLDkHoIgxJh319.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "GLOBAL SENSATION",
+        "title": "A Curse Unleashed",
+        "text": "What happens when an ordinary high schooler swallows a legendary demon's finger? JUJUTSU KAISEN transformed modern anime into a dark, adrenaline-pumping phenomenon.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/95479"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Two Souls, One Body",
+        "text": "Yuji Itadori must share his physical form with the terrifying King of Curses, Ryomen Sukuna, battling dark entities while struggling to keep his own humanity intact.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/95479"
+      },
+      {
+        "id": "page-3",
+        "badge": "FAN FAVORITE",
+        "title": "The Gojo Effect",
+        "text": "Enter Satoru Gojo. With his blindfold and Limitless technique, Tokyo Jujutsu High's coolest teacher quickly became one of fiction's most beloved powerhouses worldwide.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/95479"
+      },
+      {
+        "id": "page-4",
+        "badge": "STUDIO CRAFT",
+        "title": "MAPPA's Visual Power",
+        "text": "Studio MAPPA pushed animation boundaries with fluid hand-to-hand combat, jaw-dropping domain expansions, and stylish soundtracks that shattered streaming records globally.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/95479"
+      },
+      {
+        "id": "page-5",
+        "badge": "CULTURAL IMPACT",
+        "title": "8.6 Rating Worldwide",
+        "text": "Racking up millions of viewers and critical acclaim, this supernatural thriller turned shonen tropes upside down with real stakes, grief, and unforgettable showdowns.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/95479"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Join the Exorcism",
+        "text": "Ready to experience the ultimate supernatural battle? Stream the series and witness the battle against curses reshape anime history.",
+        "backdrop_index": 5,
+        "cta_text": "Explore JUJUTSU KAISEN",
+        "cta_url": "https://www.themoviedb.org/tv/95479"
+      }
+    ],
+    "date_published": "2026-10-18T05:31:49Z",
+    "date_modified": "2026-10-18T05:31:49Z",
+    "published_at": "2026-10-18T05:31:49Z"
+  },
+  {
+    "title": "Moana: The Untold Story & Secrets",
+    "seo_description": "Discover Moana: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1108427,
+      "title": "Moana",
+      "original_title": "Moana",
+      "slug": "moana",
+      "media_type": "movie",
+      "release_date": "2026-07-08",
+      "overview": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
+      "tagline": "The ocean chose her for a reason.",
+      "genres": [
+        "Family",
+        "Fantasy",
+        "Comedy",
+        "Adventure"
+      ],
+      "runtime": 115,
+      "seasons": null,
+      "vote_average": 7.5,
+      "vote_count": 916,
+      "category": "trending",
+      "director": "Thomas Kail",
+      "top_cast": [
+        "Catherine Laga\u02bbaia",
+        "Dwayne Johnson",
+        "Rena Owen",
+        "John Tui",
+        "Frankie Adams",
+        "Jemaine Clement"
+      ],
+      "poster_path": "/gaet1xQ2nxrG0V1Ep9T20ZMNEIC.jpg",
+      "backdrop_path": "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+      "backdrops": [
+        "/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg",
+        "/dmwb15BCkqjoXA9dXIsoY2Hn10F.jpg",
+        "/76WFQTmh4gsqYpWTejxuEu5Iu69.jpg",
+        "/bmzkFxTZGHW4BlKL6kLm7TDyW4f.jpg",
+        "/93CHLoIMbJkiOXehaL1NCZCiydN.jpg",
+        "/zEcpgT3nfoV6XypFiJeSdBmmuqf.jpg",
+        "/1Qf5ClZJpmEPJgBqBB03UvCVXzO.jpg",
+        "/ogv0eTxwCVcrfKYsl2GKH4hNHJL.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Moana",
+        "text": "The ocean chose her for a reason. Rated 7.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Teenage Moana answers the Ocean's call and, for the first time, voyages beyond the reef of her island of Motunui with infamous demigod Maui on an unforgettable journey to restore prosperity to her people.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Catherine Laga\u02bbaia, Dwayne Johnson, Rena Owen, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Thomas Kail.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Thomas Kail",
+        "text": "Filmmaker Thomas Kail pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.5/10 on TMDB",
+        "text": "With an impressive 7.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Moana? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1108427"
+      }
+    ],
+    "date_published": "2026-10-18T05:31:49Z",
+    "date_modified": "2026-10-18T05:31:49Z",
+    "published_at": "2026-10-18T05:31:49Z"
+  },
+  {
+    "title": "The Hunger Games: Mockingjay - Part 2: The Untold Story & Secrets",
+    "seo_description": "Discover The Hunger Games: Mockingjay - Part 2: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 131634,
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "original_title": "The Hunger Games: Mockingjay - Part 2",
+      "slug": "the-hunger-games-mockingjay-part-2",
+      "media_type": "movie",
+      "release_date": "2015-11-18",
+      "overview": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she navigates deadly traps, shifting loyalties, and the heavy cost of rebellion, determined to bring freedom to her people and end the Hunger Games once and for all.",
+      "tagline": "The fire will burn forever.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 137,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 13672,
+      "category": "upcoming",
+      "director": "Francis Lawrence",
+      "top_cast": [
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Liam Hemsworth",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Julianne Moore"
+      ],
+      "poster_path": "/lImKHDfExAulp16grYm8zD5eONE.jpg",
+      "backdrop_path": "/qVgLMRVNB5bHU0inmRa0ueShacN.jpg",
+      "backdrops": [
+        "/qVgLMRVNB5bHU0inmRa0ueShacN.jpg",
+        "/9zWWAL8LciOBXvAArLn9mtGvRzQ.jpg",
+        "/buzWkRH5Y1dgS55ZbHQUZDw6pzF.jpg",
+        "/9dVpm01JwKZ4R1O9C4MTN1QJBmr.jpg",
+        "/etK7FLkIwtTCCgwGwLQqMs9iQ7B.jpg",
+        "/Avf72WmWTVZRqc3dHuVifqkAM73.jpg",
+        "/td7aCbxT6Badto1wc9PeRD0DG2r.jpg",
+        "/3k3d37afMqt44HMGMFkyEJlp804.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Hunger Games: Mockingjay - Part",
+        "text": "The fire will burn forever. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "As the war between the Capitol and the districts reaches its peak, Katniss Everdeen embarks on a perilous mission to liberate Panem and confront President Snow. Joined by a team of trusted allies, she...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Francis Lawrence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Francis Lawrence",
+        "text": "Filmmaker Francis Lawrence pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Hunger Games: Mockingjay - Part 2? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/131634"
+      }
+    ],
+    "date_published": "2026-10-18T05:31:49Z",
+    "date_modified": "2026-10-18T05:31:49Z",
+    "published_at": "2026-10-18T05:31:49Z"
+  },
+  {
+    "title": "The Maze Runner: The Untold Story & Secrets",
+    "seo_description": "Discover The Maze Runner: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 198663,
+      "title": "The Maze Runner",
+      "original_title": "The Maze Runner",
+      "slug": "the-maze-runner",
+      "media_type": "movie",
+      "release_date": "2014-09-10",
+      "overview": "A teenager with no memory of his past finds himself among a group of boys living in a walled enclosure surrounded by a massive, ever-changing maze. As he struggles to adapt to their rules and society, he begins to uncover clues that may lead to escape and the truth behind their confinement.",
+      "tagline": "Get ready to run.",
+      "genres": [
+        "Action",
+        "Mystery",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "runtime": 113,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 18566,
+      "category": "theories_easter_eggs",
+      "director": "Wes Ball",
+      "top_cast": [
+        "Dylan O'Brien",
+        "Kaya Scodelario",
+        "Thomas Brodie-Sangster",
+        "Ki Hong Lee",
+        "Will Poulter",
+        "Aml Ameen"
+      ],
+      "poster_path": "/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+      "backdrop_path": "/eTlcNXGv32zkVI7ZDHhfeaKHXKQ.jpg",
+      "backdrops": [
+        "/eTlcNXGv32zkVI7ZDHhfeaKHXKQ.jpg",
+        "/l5ILIrAcBzja7nkKduTcKUoAAvP.jpg",
+        "/lpNzw4fGl1cB3Lbq8LDnLxrTp3U.jpg",
+        "/bRwh57vD5252b09xrbSFKUwdcZJ.jpg",
+        "/aLvo4AmPUSotXxS6gEJoF4rIUlw.jpg",
+        "/8tEos5D0sJgfwFbZbwuiwniwvS.jpg",
+        "/2PyJearAcyIsQ4QtBu7E1fNtdHI.jpg",
+        "/7iy0489FagUhTiBxWmxgdtUSPDh.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "The Maze Runner",
+        "text": "Get ready to run. Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "A teenager with no memory of his past finds himself among a group of boys living in a walled enclosure surrounded by a massive, ever-changing maze. As he struggles to adapt to their rules...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Dylan O'Brien, Kaya Scodelario, Thomas Brodie-Sangster, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Wes Ball.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Wes Ball",
+        "text": "Filmmaker Wes Ball pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Maze Runner? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/198663"
+      }
+    ],
+    "date_published": "2026-10-18T05:31:49Z",
+    "date_modified": "2026-10-18T05:31:49Z",
+    "published_at": "2026-10-18T05:31:49Z"
+  },
+  {
     "title": "Young Sheldon: Secrets Behind TV's Favorite Genius \ud83e\udde0\u2728",
     "seo_description": "Discover how Young Sheldon captured global hearts, from brilliant real-life casting ties to the heartfelt evolution of the iconic Cooper family.",
     "movie": {
