@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-18T15:36:27.892635+00:00",
-  "total_stories": 173,
+  "generated_at": "2026-10-18T18:33:09.746293+00:00",
+  "total_stories": 177,
   "stories": [
+    {
+      "id": 37680,
+      "slug": "suits",
+      "title": "Why Suits Smashed Global Streaming Records \u2696\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/suits/",
+      "category": "series",
+      "release_date": "2011-06-23",
+      "rating": 8.2
+    },
+    {
+      "id": 950028,
+      "slug": "the-invite",
+      "title": "Why Everyone Is Talking About 'The Invite' \ud83c\udf77\ud83d\udc40",
+      "url": "https://cinematicbites.com/stories/the-invite/",
+      "category": "trending",
+      "release_date": "2026-06-25",
+      "rating": 7.2
+    },
+    {
+      "id": 1110034,
+      "slug": "kraken",
+      "title": "Kraken: Norway's New Deep-Sea Horror Awaken \ud83c\udf0a\ud83e\udd91",
+      "url": "https://cinematicbites.com/stories/kraken/",
+      "category": "upcoming",
+      "release_date": "2026-02-06",
+      "rating": 6.2
+    },
+    {
+      "id": 18,
+      "slug": "the-fifth-element",
+      "title": "The Fifth Element: Mind-Blowing Easter Eggs & Hidden Theories \ud83d\udef8\u2728",
+      "url": "https://cinematicbites.com/stories/the-fifth-element/",
+      "category": "theories_easter_eggs",
+      "release_date": "1997-05-02",
+      "rating": 7.6
+    },
     {
       "id": 30983,
       "slug": "detective-conan",

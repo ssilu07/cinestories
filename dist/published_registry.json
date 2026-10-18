@@ -1036,5 +1036,29 @@
     "published_at": "2026-10-18T15:34:20Z",
     "modified_at": "2026-10-18T15:34:20Z",
     "category": "theories_easter_eggs"
+  },
+  "suits": {
+    "title": "Suits",
+    "published_at": "2026-10-18T18:31:01Z",
+    "modified_at": "2026-10-18T18:31:01Z",
+    "category": "series"
+  },
+  "the-invite": {
+    "title": "The Invite",
+    "published_at": "2026-10-18T18:31:01Z",
+    "modified_at": "2026-10-18T18:31:01Z",
+    "category": "trending"
+  },
+  "kraken": {
+    "title": "Kraken",
+    "published_at": "2026-10-18T18:31:01Z",
+    "modified_at": "2026-10-18T18:31:01Z",
+    "category": "upcoming"
+  },
+  "the-fifth-element": {
+    "title": "The Fifth Element",
+    "published_at": "2026-10-18T18:31:01Z",
+    "modified_at": "2026-10-18T18:31:01Z",
+    "category": "theories_easter_eggs"
   }
 }
