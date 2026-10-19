@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-19T05:52:52.705694+00:00",
-  "total_stories": 185,
+  "generated_at": "2026-10-19T23:28:32.948064+00:00",
+  "total_stories": 189,
   "stories": [
+    {
+      "id": 280110,
+      "slug": "my-hero-academia-vigilantes",
+      "title": "My Hero Academia: Vigilantes \u2014 Grittier Heroes Unleashed! \u26a1\ud83e\uddb8\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/my-hero-academia-vigilantes/",
+      "category": "series",
+      "release_date": "2025-04-07",
+      "rating": 7.7
+    },
+    {
+      "id": 1198654,
+      "slug": "bad-apples",
+      "title": "Bad Apples: Saoirse Ronan's Dark Thriller \ud83c\udf4f\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/bad-apples/",
+      "category": "trending",
+      "release_date": "2026-09-10",
+      "rating": 7.0
+    },
+    {
+      "id": 1437396,
+      "slug": "your-mother-your-mother-your-mother",
+      "title": "Mahershala Ali's Gritty Hitman Thriller Coming in 2026 \ud83d\udca5\ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/your-mother-your-mother-your-mother/",
+      "category": "upcoming",
+      "release_date": "2026-09-25",
+      "rating": 7.8
+    },
+    {
+      "id": 1726,
+      "slug": "iron-man",
+      "title": "Iron Man: 5 Hidden Easter Eggs & MCU Clues \ud83d\udca5\ud83e\udd16",
+      "url": "https://cinematicbites.com/stories/iron-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2008-04-30",
+      "rating": 7.7
+    },
     {
       "id": 57532,
       "slug": "paw-patrol",

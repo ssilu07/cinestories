@@ -1108,5 +1108,29 @@
     "published_at": "2026-10-19T05:52:34Z",
     "modified_at": "2026-10-19T05:52:34Z",
     "category": "theories_easter_eggs"
+  },
+  "my-hero-academia-vigilantes": {
+    "title": "My Hero Academia: Vigilantes",
+    "published_at": "2026-10-19T23:26:41Z",
+    "modified_at": "2026-10-19T23:26:41Z",
+    "category": "series"
+  },
+  "bad-apples": {
+    "title": "Bad Apples",
+    "published_at": "2026-10-19T23:26:41Z",
+    "modified_at": "2026-10-19T23:26:41Z",
+    "category": "trending"
+  },
+  "your-mother-your-mother-your-mother": {
+    "title": "Your Mother Your Mother Your Mother",
+    "published_at": "2026-10-19T23:26:41Z",
+    "modified_at": "2026-10-19T23:26:41Z",
+    "category": "upcoming"
+  },
+  "iron-man": {
+    "title": "Iron Man",
+    "published_at": "2026-10-19T23:26:41Z",
+    "modified_at": "2026-10-19T23:26:41Z",
+    "category": "theories_easter_eggs"
   }
 }

@@ -1,5 +1,418 @@
 [
   {
+    "title": "My Hero Academia: Vigilantes \u2014 Grittier Heroes Unleashed! \u26a1\ud83e\uddb8\u200d\u2642\ufe0f",
+    "seo_description": "Explore My Hero Academia: Vigilantes, the darker spin-off following illegal heroes taking to the streets before the main series timeline.",
+    "movie": {
+      "id": 280110,
+      "title": "My Hero Academia: Vigilantes",
+      "original_title": "\u30f4\u30a3\u30b8\u30e9\u30f3\u30c6 -\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 ILLEGALS-",
+      "slug": "my-hero-academia-vigilantes",
+      "media_type": "tv",
+      "release_date": "2025-04-07",
+      "overview": "After a life-changing incident, timid college student Koichi Haimawari accepts an offer from revered vigilante Knuckleduster to train as his prot\u00e9g\u00e9.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 24,
+      "seasons": 1,
+      "vote_average": 7.7,
+      "vote_count": 90,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Shuichiro Umeda",
+        "Ikumi Hasegawa",
+        "Yasuhiro Mamiya"
+      ],
+      "poster_path": "/iv0cXt6uJGlTryWZNQMGyum4Pme.jpg",
+      "backdrop_path": "/baZ0pGbBGjCBhIqsFyOSTpJyUnQ.jpg",
+      "backdrops": [
+        "/baZ0pGbBGjCBhIqsFyOSTpJyUnQ.jpg",
+        "/dfmwYLPYG0KGKP9vrWgRskB35KW.jpg",
+        "/qiOCCUdgD4LJAD8kRw9YLoKEv0J.jpg",
+        "/oWFPJvAls7TzssAonXCugBz8HcC.jpg",
+        "/cJkwyKFbJNPNYBQs8sBctHk5Ykz.jpg",
+        "/tcAFjtFCFVV6jqE5ODwIa3G7CTd.jpg",
+        "/58HMmEdj2viQwXnAINDHviws6KA.jpg",
+        "/pPpdBBS29vWa1V2Zel2s2g4w4uD.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "NEW ANIME ARRIVAL",
+        "title": "Beyond the Classroom",
+        "text": "Tired of clean-cut hero licenses? Step into the shadows of the hero society where unlicensed defenders fight in back alleys, bending rules that Deku never dared cross.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/280110"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Rise of the Crawler",
+        "text": "Timid college student Koichi Haimawari possessed a modest glide quirk until a chance encounter with the ruthless, quirkless brawler Knuckleduster forged him into an accidental vigilante.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/280110"
+      },
+      {
+        "id": "page-3",
+        "badge": "UNOFFICIAL DEFENDERS",
+        "title": "The Rogue Trio",
+        "text": "Alongside pop-idol wannabe Pop\u2606Step, Koichi patrols Naruhata. They tackle gritty street crimes ignored by top-tier pros, testing the murky boundary between hero and criminal.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/280110"
+      },
+      {
+        "id": "page-4",
+        "badge": "CANON LORE",
+        "title": "Hidden Franchise Secrets",
+        "text": "Set years before the main saga, this prequel reveals prime Aizawa, early All Might history, and the origins of the sinister Quirk-enhancing drug, Trigger.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/280110"
+      },
+      {
+        "id": "page-5",
+        "badge": "FAN CRAZE",
+        "title": "A Grittier Underbelly",
+        "text": "Long praised by manga readers for its raw tone and pulse-pounding street fights, this adaptation brings mature stakes to the beloved superhero universe.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/280110"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Step Into the Shadows",
+        "text": "Ready to discover what it truly means to save someone when nobody is looking? Catch the whole story and dive deeper into the spinoff.",
+        "backdrop_index": 5,
+        "cta_text": "Check Series Details",
+        "cta_url": "https://www.themoviedb.org/tv/280110"
+      }
+    ],
+    "date_published": "2026-10-19T23:26:41Z",
+    "date_modified": "2026-10-19T23:26:41Z",
+    "published_at": "2026-10-19T23:26:41Z"
+  },
+  {
+    "title": "Bad Apples: Saoirse Ronan's Dark Thriller \ud83c\udf4f\ud83d\udca5",
+    "seo_description": "Saoirse Ronan stars in Bad Apples, a gripping comedy-thriller about a teacher pushed past the brink. Here is everything to know.",
+    "movie": {
+      "id": 1198654,
+      "title": "Bad Apples",
+      "original_title": "Bad Apples",
+      "slug": "bad-apples",
+      "media_type": "movie",
+      "release_date": "2026-09-10",
+      "overview": "A struggling primary school teacher is forced to take drastic action because of a foul-mouthed, violent student, and uncovers how her community will turn a blind eye to the most outrageous events to preserve harmony and their sense of safety.",
+      "tagline": "It only takes one.",
+      "genres": [
+        "Comedy",
+        "Thriller"
+      ],
+      "runtime": 100,
+      "seasons": null,
+      "vote_average": 7.0,
+      "vote_count": 36,
+      "category": "trending",
+      "director": "Jonatan Etzler",
+      "top_cast": [
+        "Saoirse Ronan",
+        "Eddie Waller",
+        "Nia Brown",
+        "Jacob Anderson",
+        "Rakie Ayola",
+        "Robert Emms"
+      ],
+      "poster_path": "/pcPLnxCThCIo9JFQIMFX4kAE5Yz.jpg",
+      "backdrop_path": "/ch1g1X6TfezRwbmiBiYRpALTQjN.jpg",
+      "backdrops": [
+        "/ldeiBXtVM12oDUVSiJtwjESLSOc.jpg",
+        "/uQjZ91ndHCxLBbtH8IBJMe7PS93.jpg",
+        "/ch1g1X6TfezRwbmiBiYRpALTQjN.jpg",
+        "/dNCK3daKbOi6IHSsM9O2Nwyd91Y.jpg",
+        "/A5sGEzVMjvbgh5ZniaHBXAxppKQ.jpg",
+        "/pmXVVHjbS9rOtOTbJ6TAO2i7AEk.jpg",
+        "/3yVgDBfE25KMe0jcyM512Zbutm1.jpg",
+        "/uPY2IWpkdTj0md7VLzlX171TbHo.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "It Only Takes One",
+        "text": "Saoirse Ronan leads 'Bad Apples', a sharp new dark comedy-thriller that tests morality, silence, and suburban order in shocking fashion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Chaos in the Classroom",
+        "text": "Ronan plays a struggling primary teacher pushed over the edge by an unruly pupil. One desperate choice quickly snowballs out of control.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Jacob Anderson and Rakie Ayola join Ronan, bringing sharp tension to a town desperate to sweep outrageous secrets under the rug.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Jonatan Etzler Directs",
+        "text": "Director Jonatan Etzler infuses biting satire with raw psychological thriller beats, exposing how polite societies protect their illusions.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE BUZZ",
+        "title": "Provocative Moral Dilemma",
+        "text": "Clocking in at a tight 100 minutes, the film confronts viewers: what outrageous acts would you ignore just to keep your community quiet?",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Track the Buzz",
+        "text": "Already generating buzz with a 7.0 rating, 'Bad Apples' is set to rattle nerves and spark heated discussions everywhere.",
+        "backdrop_index": 5,
+        "cta_text": "Check Out Bad Apples",
+        "cta_url": "https://www.themoviedb.org/movie/1198654"
+      }
+    ],
+    "date_published": "2026-10-19T23:26:41Z",
+    "date_modified": "2026-10-19T23:26:41Z",
+    "published_at": "2026-10-19T23:26:41Z"
+  },
+  {
+    "title": "Mahershala Ali's Gritty Hitman Thriller Coming in 2026 \ud83d\udca5\ud83c\udfac",
+    "seo_description": "Mahershala Ali, Giancarlo Esposito, and John Cho star in Your Mother Your Mother Your Mother. Discover what makes this 2026 crime drama special.",
+    "movie": {
+      "id": 1437396,
+      "title": "Your Mother Your Mother Your Mother",
+      "original_title": "Your Mother Your Mother Your Mother",
+      "slug": "your-mother-your-mother-your-mother",
+      "media_type": "movie",
+      "release_date": "2026-09-25",
+      "overview": "Latif, a devoutly religious hitman, struggles to balance work, faith and fatherhood. When his wife dies, he embarks on a desperate journey across Houston to protect his children, confronting the forces closing in around him \u2013 and the beliefs threatening to unravel within.",
+      "tagline": "",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 112,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 8,
+      "category": "upcoming",
+      "director": "Bassam Tariq",
+      "top_cast": [
+        "Mahershala Ali",
+        "John Cho",
+        "Giancarlo Esposito",
+        "Abubakr Ali",
+        "Laith Nakli",
+        "Adia"
+      ],
+      "poster_path": "/4KaPZSKnInnArErTTgy9Oy14leR.jpg",
+      "backdrop_path": "/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+      "backdrops": [
+        "/jiFLiatBtBALlAzV5R72gzspBad.jpg",
+        "/yNWe7RZFM9pCRO4bNfPxcjjdZ2r.jpg",
+        "/45Mbs6dmn2W0hvuyxXPDkKREHpP.jpg",
+        "/tIGhUiRy8wATmxhnzCsC0B1EBrT.jpg",
+        "/iA4bYqnxuR3biLGnIrHg4MhFD0j.jpg",
+        "/9NVMpGTVYFpCVRXvpeWME7CpWs3.jpg",
+        "/1BuWFjftTpz14FnKOoCAI8PxDJ2.jpg",
+        "/xu6ZxWdaw5oJiUHDudisfVCSX6x.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "UPCOMING THRILLER",
+        "title": "A Hitman's Ultimate Test",
+        "text": "Two-time Oscar winner Mahershala Ali leads an emotionally charged crime thriller. Discover why this upcoming 2026 release is already grabbing major industry buzz.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Faith, Blood, and Family",
+        "text": "Latif is a devout hitman balancing prayer and deadly contracts. When personal tragedy strikes, he races through Houston to guard his kids as enemies close in.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "An Unbeatable Ensemble",
+        "text": "Ali shares the screen with titans Giancarlo Esposito and John Cho. Together, they power a raw clash between spiritual devotion, syndicate loyalty, and survival.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Bassam Tariq's Gritty Vision",
+        "text": "Director Bassam Tariq brings a tight 112-minute runtime packed with visceral street combat and powerful moral dilemmas set against the humid backdrop of Texas.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      },
+      {
+        "id": "page-5",
+        "badge": "WHAT TO EXPECT",
+        "title": "Houston Underworld Chaos",
+        "text": "Moving beyond typical action cliches, this story examines inner conviction under pressure. It is shaping up to be one of autumn 2026's most compelling theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      },
+      {
+        "id": "page-6",
+        "badge": "SAVE THE DATE",
+        "title": "Coming September 2026",
+        "text": "Prepare for the adrenaline rush when the movie arrives in theaters on September 25, 2026. Stay ahead of every trailer reveal and casting update.",
+        "backdrop_index": 5,
+        "cta_text": "Track Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1437396"
+      }
+    ],
+    "date_published": "2026-10-19T23:26:41Z",
+    "date_modified": "2026-10-19T23:26:41Z",
+    "published_at": "2026-10-19T23:26:41Z"
+  },
+  {
+    "title": "Iron Man: 5 Hidden Easter Eggs & MCU Clues \ud83d\udca5\ud83e\udd16",
+    "seo_description": "Uncover hidden easter eggs, Captain America cameos, and post-credit secrets in Marvel's Iron Man (2008).",
+    "movie": {
+      "id": 1726,
+      "title": "Iron Man",
+      "original_title": "Iron Man",
+      "slug": "iron-man",
+      "media_type": "movie",
+      "release_date": "2008-04-30",
+      "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+      "tagline": "Heroes aren't born. They're built.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 126,
+      "seasons": null,
+      "vote_average": 7.7,
+      "vote_count": 29010,
+      "category": "theories_easter_eggs",
+      "director": "Jon Favreau",
+      "top_cast": [
+        "Robert Downey Jr.",
+        "Terrence Howard",
+        "Jeff Bridges",
+        "Gwyneth Paltrow",
+        "Leslie Bibb",
+        "Shaun Toub"
+      ],
+      "poster_path": "/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
+      "backdrop_path": "/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+      "backdrops": [
+        "/cKvDv2LpwVEqbdXWoQl4XgGN6le.jpg",
+        "/A1m5BJznmmsDyj25AnhDyFbBSJJ.jpg",
+        "/cyecB7godJ6kNHGONFjUyVN9OX5.jpg",
+        "/55RIH0MvyCRKLjx1RjEICF9SvAj.jpg",
+        "/s6cQgJSkviamXAXBggT2xmj7JiG.jpg",
+        "/8EgxSaVRZwcm3pWChyW4j7yPplq.jpg",
+        "/cdsjxSR55VS80IiJfrQ9i9pWqrp.jpg",
+        "/35zMyj13eAXn1X7B27mr9jQSQQb.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "HIDDEN DETAILS",
+        "title": "Iron Man's Secret Clues \ud83d\udca5",
+        "text": "In 2008, Jon Favreau kicked off the Marvel Cinematic Universe. Hidden within Tony Stark's debut are mind-bending details that shaped 15 years of superhero history.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      },
+      {
+        "id": "page-2",
+        "badge": "CAPTAIN AMERICA CAMEO",
+        "title": "Cap's Shield on the Workbench",
+        "text": "Sharp-eyed fans spotted an unfinished replica of Captain America's vibranium shield in Stark's workshop\u2014years before Steve Rogers thawed out in modern MCU canon.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      },
+      {
+        "id": "page-3",
+        "badge": "COMIC LORE",
+        "title": "The Real Ten Rings Threat",
+        "text": "Tony Stark's captors weren't random militants. Their insignia foreshadowed the ancient Ten Rings criminal syndicate, paving the way for Shang-Chi and the true Mandarin.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      },
+      {
+        "id": "page-4",
+        "badge": "POST-CREDITS REVEAL",
+        "title": "The Avengers Initiative Born",
+        "text": "Nick Fury stepped out of the shadows with an iconic line: 'You've become part of a bigger universe.' That 30-second scene birthed modern cinematic universes forever.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      },
+      {
+        "id": "page-5",
+        "badge": "FAN THEORIES",
+        "title": "Kang's Secret Timeline",
+        "text": "Die-hard Marvel theorists believe Tony's armor breakthroughs were secretly guided across the Sacred Timeline by He Who Remains to guarantee an Endgame victory.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      },
+      {
+        "id": "page-6",
+        "badge": "EXPAND THE LORE",
+        "title": "Relive The MCU Genesis",
+        "text": "From scrap metal in a cave to the ultimate superhero franchise, Iron Man never stops revealing secrets. Ready to rewatch and uncover them all?",
+        "backdrop_index": 5,
+        "cta_text": "Explore MCU Secrets",
+        "cta_url": "https://www.themoviedb.org/movie/1726"
+      }
+    ],
+    "date_published": "2026-10-19T23:26:41Z",
+    "date_modified": "2026-10-19T23:26:41Z",
+    "published_at": "2026-10-19T23:26:41Z"
+  },
+  {
     "title": "PAW Patrol: Secrets Behind The Billion-Dollar Pup Empire \ud83d\udc3e\ud83d\udea8",
     "seo_description": "Discover how PAW Patrol grew from a clever rescue puppy concept into a multi-billion-dollar global entertainment juggernaut for kids.",
     "movie": {
