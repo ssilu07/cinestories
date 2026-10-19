@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-18T22:19:49.031206+00:00",
-  "total_stories": 181,
+  "generated_at": "2026-10-19T05:52:52.705694+00:00",
+  "total_stories": 185,
   "stories": [
+    {
+      "id": 57532,
+      "slug": "paw-patrol",
+      "title": "PAW Patrol: Secrets Behind The Billion-Dollar Pup Empire \ud83d\udc3e\ud83d\udea8",
+      "url": "https://cinematicbites.com/stories/paw-patrol/",
+      "category": "series",
+      "release_date": "2013-08-12",
+      "rating": 7.0
+    },
+    {
+      "id": 1771323,
+      "slug": "super-scam-me",
+      "title": "Super Scam Me: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/super-scam-me/",
+      "category": "trending",
+      "release_date": "2026-10-17",
+      "rating": 10.0
+    },
+    {
+      "id": 1564614,
+      "slug": "leviticus",
+      "title": "Leviticus: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/leviticus/",
+      "category": "upcoming",
+      "release_date": "2026-06-17",
+      "rating": 6.8
+    },
+    {
+      "id": 1242898,
+      "slug": "predator-badlands",
+      "title": "Predator: Badlands: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/predator-badlands/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-11-05",
+      "rating": 7.8
+    },
     {
       "id": 45140,
       "slug": "teen-titans-go",
