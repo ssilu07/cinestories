@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-19T23:28:32.948064+00:00",
-  "total_stories": 189,
+  "generated_at": "2026-10-20T05:54:16.204414+00:00",
+  "total_stories": 193,
   "stories": [
+    {
+      "id": 12225,
+      "slug": "peppa-pig",
+      "title": "Peppa Pig: How a Pink Cartoon Conquered the World \ud83d\udc37\u2728",
+      "url": "https://cinematicbites.com/stories/peppa-pig/",
+      "category": "series",
+      "release_date": "2004-05-31",
+      "rating": 6.5
+    },
+    {
+      "id": 1380417,
+      "slug": "by-any-means",
+      "title": "By Any Means: The Shocking True FBI-Mob Alliance \ud83d\udd25\ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/by-any-means/",
+      "category": "trending",
+      "release_date": "2026-09-02",
+      "rating": 7.4
+    },
+    {
+      "id": 581,
+      "slug": "dances-with-wolves",
+      "title": "Dances with Wolves: The Epic Western That Made History \ud83d\udc3a\ud83c\udff9",
+      "url": "https://cinematicbites.com/stories/dances-with-wolves/",
+      "category": "upcoming",
+      "release_date": "1990-11-09",
+      "rating": 7.8
+    },
+    {
+      "id": 1061474,
+      "slug": "superman",
+      "title": "Superman: 5 Mind-Blowing DCU Easter Eggs \ud83e\uddb8\u200d\u2642\ufe0f\u2728",
+      "url": "https://cinematicbites.com/stories/superman/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-07-09",
+      "rating": 7.3
+    },
     {
       "id": 280110,
       "slug": "my-hero-academia-vigilantes",

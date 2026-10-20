@@ -1,5 +1,420 @@
 [
   {
+    "title": "Peppa Pig: How a Pink Cartoon Conquered the World \ud83d\udc37\u2728",
+    "seo_description": "Discover how Peppa Pig grew from an indie British animation into a multi-billion dollar kids television phenomenon across 180 countries.",
+    "movie": {
+      "id": 12225,
+      "title": "Peppa Pig",
+      "original_title": "Peppa Pig",
+      "slug": "peppa-pig",
+      "media_type": "tv",
+      "release_date": "2004-05-31",
+      "overview": "Peppa Pig is an energetic piggy who lives with Mummy, Daddy, and little brother George. She loves to jump in mud puddles and make loud snorting noises.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Kids"
+      ],
+      "runtime": 50,
+      "seasons": 9,
+      "vote_average": 6.5,
+      "vote_count": 769,
+      "category": "series",
+      "director": "Neville Astley, Mark Baker (Creator)",
+      "top_cast": [
+        "John Sparkes",
+        "Morwenna Banks",
+        "Richard Ridings",
+        "Amelie Bea Smith",
+        "Alice May",
+        "Frances White"
+      ],
+      "poster_path": "/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
+      "backdrop_path": "/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
+      "backdrops": [
+        "/bosCVIUEG4S5v0SDcuNBnwcMB1J.jpg",
+        "/r9QAxAW2KGQaVnEOxXKJuZ6RSJe.jpg",
+        "/4WTnR8crFAahlOexHYJBHbYby9u.jpg",
+        "/uQ0kr5CbFGgF5thgv7LJS4MHg9F.jpg",
+        "/qKyczRO7EUJ0NHxIscmaZbmINYp.jpg",
+        "/28yQ4VmGjoykPscUQqXHzh9Z2op.jpg",
+        "/fnyS6gOv9tTjhHPl4A1aKEDgWEG.jpg",
+        "/h6SsBTEtVBpTK3FlIoabqhm82ld.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "GLOBAL PHENOMENON",
+        "title": "The Secret Power of Peppa Pig \ud83d\udc37",
+        "text": "Premiering in 2004, a simple British cartoon transformed into an international empire worth billions. How did Peppa capture toddlers worldwide?",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/12225"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE FORMULA",
+        "title": "Muddy Puddles & Pure Joy",
+        "text": "Creators Neville Astley and Mark Baker kept visuals minimal and storylines ultra-relatable: jumping in puddles, family dinners, and goofy snorts.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/12225"
+      },
+      {
+        "id": "page-3",
+        "badge": "BEHIND THE VOICES",
+        "title": "Meet The Real Peppa Voices",
+        "text": "Several young actresses have voiced Peppa over two decades, including Harley Bird and Amelie Bea Smith, alongside veteran narrator John Sparkes.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/12225"
+      },
+      {
+        "id": "page-4",
+        "badge": "CULTURAL QUIRKS",
+        "title": "The Famous Peppa Effect",
+        "text": "American parents reported their children suddenly speaking with posh British accents after binge-watching episodes on repeat during lockdowns.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/12225"
+      },
+      {
+        "id": "page-5",
+        "badge": "GLOBAL REACH",
+        "title": "A Multi-Billion Dollar Icon",
+        "text": "Broadcast across 180 countries in over 40 languages, Peppa evolved from bedtime entertainment into theme parks, music albums, and toys.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/12225"
+      },
+      {
+        "id": "page-6",
+        "badge": "STILL JUMPING",
+        "title": "Two Decades of Fun \u2728",
+        "text": "Twenty years later, Peppa Pig continues entertaining new generations. Check out full episode guides, voice cast credits, and streaming options.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Peppa Pig Details",
+        "cta_url": "https://www.themoviedb.org/tv/12225"
+      }
+    ],
+    "date_published": "2026-10-20T05:45:06Z",
+    "date_modified": "2026-10-20T05:45:06Z",
+    "published_at": "2026-10-20T05:45:06Z"
+  },
+  {
+    "title": "By Any Means: The Shocking True FBI-Mob Alliance \ud83d\udd25\ud83c\udfac",
+    "seo_description": "Discover 'By Any Means', the gritty true-crime thriller starring Yahya Abdul-Mateen II and Mark Wahlberg as an unlikely duo tackling 1960s murders.",
+    "movie": {
+      "id": 1380417,
+      "title": "By Any Means",
+      "original_title": "By Any Means",
+      "slug": "by-any-means",
+      "media_type": "movie",
+      "release_date": "2026-09-02",
+      "overview": "In 1960s Mississippi, a young Black FBI agent is forced to partner with a notorious mafia hitman to investigate a wave of brutal civil rights murders.",
+      "tagline": "The FBI couldn't crack it. So they called in the mob.",
+      "genres": [
+        "History",
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 107,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 34,
+      "category": "trending",
+      "director": "Elegance Bratton",
+      "top_cast": [
+        "Yahya Abdul-Mateen II",
+        "Mark Wahlberg",
+        "Nicole Beharie",
+        "Josh Lucas",
+        "David Strathairn",
+        "Giancarlo Esposito"
+      ],
+      "poster_path": "/f4hdIed8vh10O8TkQ1CkHS8MQ3G.jpg",
+      "backdrop_path": "/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+      "backdrops": [
+        "/eAouIDoMDhLetm6CtmDKIGEaaCi.jpg",
+        "/7rm286JRbyuywK4tBWRcMulah.jpg",
+        "/jUeaettqxlwhHguTtHbGis2w2nW.jpg",
+        "/zYrX5CXtgVXpCmpufXljhtQvLci.jpg",
+        "/m34Uq5AwIy4GsGrxkUjokMprdf6.jpg",
+        "/csa0L17nCL82g5nYxoW3vuyHs6.jpg",
+        "/1jANqIbqrWJZb8GM5Kb3L6U8iHi.jpg",
+        "/oecIml6MU4ZzshtVIs0i9Qsvngm.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "Unlikely Allies in Mississippi",
+        "text": "When federal agents hit a dead end in 1960s Mississippi, they turned to the mafia. 'By Any Means' brings this unbelievable true-inspired saga to the screen.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Justice Takes an Unholy Turn",
+        "text": "Yahya Abdul-Mateen II portrays a Black FBI agent forced to team up with a ruthless mob hitman, played by Mark Wahlberg, to expose civil rights murders.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "A Powerhouse Ensemble",
+        "text": "Nicole Beharie, David Strathairn, and Giancarlo Esposito elevate the drama, adding layered gravitas to an already explosive, tension-soaked investigation.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Vision of Elegance Bratton",
+        "text": "Director Elegance Bratton brings sharp realism to the 107-minute runtime, capturing the raw danger and uneasy alliances of the civil rights era.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      },
+      {
+        "id": "page-5",
+        "badge": "INSIDER TRIVIA",
+        "title": "Rooted in Hidden Reality",
+        "text": "The premise reflects actual covert arrangements where the Bureau tapped underworld figures to break the wall of silence surrounding southern hate groups.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Early Buzz is Escalating",
+        "text": "Sporting a solid 7.4 rating and massive buzz among crime history fans, this intense period piece is already one of the most anticipated releases.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1380417"
+      }
+    ],
+    "date_published": "2026-10-20T05:45:06Z",
+    "date_modified": "2026-10-20T05:45:06Z",
+    "published_at": "2026-10-20T05:45:06Z"
+  },
+  {
+    "title": "Dances with Wolves: The Epic Western That Made History \ud83d\udc3a\ud83c\udff9",
+    "seo_description": "Discover the incredible story, Oscar-winning glory, and behind-the-scenes secrets of Kevin Costner's masterpiece Dances with Wolves.",
+    "movie": {
+      "id": 581,
+      "title": "Dances with Wolves",
+      "original_title": "Dances with Wolves",
+      "slug": "dances-with-wolves",
+      "media_type": "movie",
+      "release_date": "1990-11-09",
+      "overview": "Wounded Civil War soldier John Dunbar tries to commit suicide\u2014and becomes a hero instead. As a reward, he's assigned to his dream post, a remote junction on the Western frontier, and soon makes unlikely friends with the local Sioux tribe.",
+      "tagline": "Inside everyone is a frontier waiting to be discovered.",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Western"
+      ],
+      "runtime": 181,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 4870,
+      "category": "upcoming",
+      "director": "Kevin Costner",
+      "top_cast": [
+        "Kevin Costner",
+        "Mary McDonnell",
+        "Graham Greene",
+        "Rodney A. Grant",
+        "Floyd 'Red Crow' Westerman",
+        "Tantoo Cardinal"
+      ],
+      "poster_path": "/hw0ZEHAaTqTxSXGVwUFX7uvanSA.jpg",
+      "backdrop_path": "/ywWva4trKw7f3wtbz81Fe3FnrtC.jpg",
+      "backdrops": [
+        "/ywWva4trKw7f3wtbz81Fe3FnrtC.jpg",
+        "/f6YvaVqqNjAHYI4uC64ChpwqrUg.jpg",
+        "/ifnRFDSlMdLFs9Xjem6WewM68GD.jpg",
+        "/aXKUodFZfaMMm2nM4rdekrNgvE2.jpg",
+        "/nN1MbnJ0HGgOl89URb2falcNXex.jpg",
+        "/sy5pOrBd3OHiXkOCBOAXFcyzoeY.jpg",
+        "/2BSujoWEqlo7WdnGP4IdI6D25vl.jpg",
+        "/qZsHffaxCA6YWeiJJys8hK7S6Qf.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "HOLLYWOOD LEGACY",
+        "title": "A Legendary Frontier Odyssey",
+        "text": "Before conquering Hollywood, Kevin Costner risked his entire reputation on a three-hour Western that critics predicted would sink. Instead, it became an unforgettable global blockbuster.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Journey Beyond the Border",
+        "text": "Wounded Union officer John Dunbar requests an isolated remote outpost. Stranded along the rugged Great Plains, he builds an unexpected, life-altering bond with the local Lakota Sioux.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      },
+      {
+        "id": "page-3",
+        "badge": "CAST & CULTURE",
+        "title": "Groundbreaking Authenticity",
+        "text": "Costner cast authentic Native American actors including Graham Greene and Floyd Westerman, demanding genuine Lakota dialogue with English subtitles\u2014a bold, unprecedented Hollywood move for 1990.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Taming the Buffalo Stampede",
+        "text": "Filming the legendary buffalo hunt required 3,500 real bison across South Dakota plains. Costner did his own high-speed riding stunts, narrowly dodging catastrophic accidents on set.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      },
+      {
+        "id": "page-5",
+        "badge": "ACADEMY SWEEP",
+        "title": "7 Historic Oscar Wins",
+        "text": "Defying every Hollywood skeptic, the adventure grossed $424 million worldwide and dominated the 63rd Academy Awards, snagging Best Picture and Best Director for Costner.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Relive the Frontier Magic",
+        "text": "Over three decades later, this sweeping cinematic adventure remains an unmatched triumph of American cinema. Ready to revisit the epic journey?",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/581"
+      }
+    ],
+    "date_published": "2026-10-20T05:45:06Z",
+    "date_modified": "2026-10-20T05:45:06Z",
+    "published_at": "2026-10-20T05:45:06Z"
+  },
+  {
+    "title": "Superman: 5 Mind-Blowing DCU Easter Eggs \ud83e\uddb8\u200d\u2642\ufe0f\u2728",
+    "seo_description": "Explore the wild comic secrets, hidden DC cameos, and multiverse theories packed into James Gunn's 2025 Superman reboot.",
+    "movie": {
+      "id": 1061474,
+      "title": "Superman",
+      "original_title": "Superman",
+      "slug": "superman",
+      "media_type": "movie",
+      "release_date": "2025-07-09",
+      "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
+      "tagline": "Look up.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "runtime": 130,
+      "seasons": null,
+      "vote_average": 7.3,
+      "vote_count": 5620,
+      "category": "theories_easter_eggs",
+      "director": "James Gunn",
+      "top_cast": [
+        "David Corenswet",
+        "Rachel Brosnahan",
+        "Nicholas Hoult",
+        "Edi Gathegi",
+        "Nathan Fillion",
+        "Isabela Merced"
+      ],
+      "poster_path": "/ldyfo0BKmz5rWtJJKCvwaNS4cJT.jpg",
+      "backdrop_path": "/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg",
+      "backdrops": [
+        "/yRBc6WY3r1Fz5Cjd6DhSvzqunED.jpg",
+        "/eGX66zonvc4bXg3rM08RUxdYSDx.jpg",
+        "/aJDLz1748CIMZkCkyISYe5Hl6I7.jpg",
+        "/eU7IfdWq8KQy0oNd4kKXS0QUR08.jpg",
+        "/ApRxyHFuvv5yghedxXPJSm9FEDe.jpg",
+        "/pMGCVVyr60jSGjFhsTvjlIZNySW.jpg",
+        "/1ItGGdOYifWNRJ3fNhiS9SSmdZM.jpg",
+        "/g62G6aBcAcJv3ClCKmJgmHarHvq.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "DCU SECRETS",
+        "title": "Look Up: The Clues Begin",
+        "text": "James Gunn officially resets the DC Universe with Superman. Hidden details in Metropolis tease a massive interconnected world right from the opening frames.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      },
+      {
+        "id": "page-2",
+        "badge": "EASTER EGG",
+        "title": "Kingdom Come Heritage",
+        "text": "David Corenswet wears the iconic 'S' shield featuring visual echoes of Mark Waid and Alex Ross's legendary comic arc Kingdom Come, teasing a veteran hero conflict.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      },
+      {
+        "id": "page-3",
+        "badge": "HIDDEN ALLIES",
+        "title": "Enter The Authority",
+        "text": "Hawkgirl, Mister Terrific, and Guy Gardner aren't just guest stars. Sneaky tech references hint at Lex Luthor engineering early superhero corporate control.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      },
+      {
+        "id": "page-4",
+        "badge": "FAN THEORIES",
+        "title": "Luthor's Secret Army",
+        "text": "Nicholas Hoult's Lex Luthor operates Apex-level research labs. Fans spotted blueprints matching Brainiac technology and the enigmatic pocket dimension, the Phantom Zone.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      },
+      {
+        "id": "page-5",
+        "badge": "LORE BREAKDOWN",
+        "title": "Supergirl's Pathway",
+        "text": "Subtle Kryptonian ruins reveal a crash site connecting Clark Kent directly to Kara Zor-El's upcoming Woman of Tomorrow sci-fi odyssey across the cosmos.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      },
+      {
+        "id": "page-6",
+        "badge": "WHAT'S NEXT",
+        "title": "The New DC Era Unfolds",
+        "text": "With gods and monsters unleashed across Metropolis, the stage is set for Chapter 1. Check out more details and track future DCU projects now.",
+        "backdrop_index": 5,
+        "cta_text": "Explore DCU Details",
+        "cta_url": "https://www.themoviedb.org/movie/1061474"
+      }
+    ],
+    "date_published": "2026-10-20T05:45:06Z",
+    "date_modified": "2026-10-20T05:45:06Z",
+    "published_at": "2026-10-20T05:45:06Z"
+  },
+  {
     "title": "My Hero Academia: Vigilantes \u2014 Grittier Heroes Unleashed! \u26a1\ud83e\uddb8\u200d\u2642\ufe0f",
     "seo_description": "Explore My Hero Academia: Vigilantes, the darker spin-off following illegal heroes taking to the streets before the main series timeline.",
     "movie": {

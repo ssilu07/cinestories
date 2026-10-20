@@ -1132,5 +1132,29 @@
     "published_at": "2026-10-19T23:26:41Z",
     "modified_at": "2026-10-19T23:26:41Z",
     "category": "theories_easter_eggs"
+  },
+  "peppa-pig": {
+    "title": "Peppa Pig",
+    "published_at": "2026-10-20T05:45:06Z",
+    "modified_at": "2026-10-20T05:45:06Z",
+    "category": "series"
+  },
+  "by-any-means": {
+    "title": "By Any Means",
+    "published_at": "2026-10-20T05:45:06Z",
+    "modified_at": "2026-10-20T05:45:06Z",
+    "category": "trending"
+  },
+  "dances-with-wolves": {
+    "title": "Dances with Wolves",
+    "published_at": "2026-10-20T05:45:06Z",
+    "modified_at": "2026-10-20T05:45:06Z",
+    "category": "upcoming"
+  },
+  "superman": {
+    "title": "Superman",
+    "published_at": "2026-10-20T05:45:06Z",
+    "modified_at": "2026-10-20T05:45:06Z",
+    "category": "theories_easter_eggs"
   }
 }
