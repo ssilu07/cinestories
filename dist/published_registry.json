@@ -1180,5 +1180,29 @@
     "published_at": "2026-10-20T16:33:00Z",
     "modified_at": "2026-10-20T16:33:00Z",
     "category": "theories_easter_eggs"
+  },
+  "homeland": {
+    "title": "Homeland",
+    "published_at": "2026-10-20T23:00:23Z",
+    "modified_at": "2026-10-20T23:00:23Z",
+    "category": "series"
+  },
+  "hexed": {
+    "title": "Hexed",
+    "published_at": "2026-10-20T23:00:23Z",
+    "modified_at": "2026-10-20T23:00:23Z",
+    "category": "trending"
+  },
+  "klara-and-the-sun": {
+    "title": "Klara and the Sun",
+    "published_at": "2026-10-20T23:00:23Z",
+    "modified_at": "2026-10-20T23:00:23Z",
+    "category": "upcoming"
+  },
+  "venom-the-last-dance": {
+    "title": "Venom: The Last Dance",
+    "published_at": "2026-10-20T23:00:23Z",
+    "modified_at": "2026-10-20T23:00:23Z",
+    "category": "theories_easter_eggs"
   }
 }

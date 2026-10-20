@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-20T16:35:29.716178+00:00",
-  "total_stories": 197,
+  "generated_at": "2026-10-20T23:03:53.901362+00:00",
+  "total_stories": 201,
   "stories": [
+    {
+      "id": 1407,
+      "slug": "homeland",
+      "title": "Homeland: Secrets Behind the Spy Thriller \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/homeland/",
+      "category": "series",
+      "release_date": "2011-10-02",
+      "rating": 7.6
+    },
+    {
+      "id": 1538497,
+      "slug": "hexed",
+      "title": "Hexed: Disney's Wild New Witch Realm Revealed! \ud83d\udd2e\u2728",
+      "url": "https://cinematicbites.com/stories/hexed/",
+      "category": "trending",
+      "release_date": "2026-11-25",
+      "rating": 0.0
+    },
+    {
+      "id": 858035,
+      "slug": "klara-and-the-sun",
+      "title": "Klara and the Sun: Jenna Ortega's Sci-Fi Drama \ud83e\udd16\u2728",
+      "url": "https://cinematicbites.com/stories/klara-and-the-sun/",
+      "category": "upcoming",
+      "release_date": "2026-10-21",
+      "rating": 0.0
+    },
+    {
+      "id": 912649,
+      "slug": "venom-the-last-dance",
+      "title": "Venom: The Last Dance: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/venom-the-last-dance/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-10-22",
+      "rating": 6.7
+    },
     {
       "id": 220542,
       "slug": "the-apothecary-diaries",
