@@ -1,5 +1,417 @@
 [
   {
+    "title": "The Apothecary Diaries: The Untold Story & Secrets",
+    "seo_description": "Discover The Apothecary Diaries: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 220542,
+      "title": "The Apothecary Diaries",
+      "original_title": "\u85ac\u5c4b\u306e\u3072\u3068\u308a\u3054\u3068",
+      "slug": "the-apothecary-diaries",
+      "media_type": "tv",
+      "release_date": "2023-10-22",
+      "overview": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when imperial heirs fall ill, she decides to step in and find a cure! This catches the eye of Jinshi, a handsome palace official who promotes her. Now, she's making a name for herself solving medical mysteries!",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 23,
+      "seasons": 1,
+      "vote_average": 8.7,
+      "vote_count": 672,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Aoi Yuuki",
+        "Takeo Otsuka",
+        "Katsuyuki Konishi"
+      ],
+      "poster_path": "/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+      "backdrop_path": "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+      "backdrops": [
+        "/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+        "/4kR7cOsf6r86nrHL9UHzxgoQXAz.jpg",
+        "/yPmfhkHhjWR5VEg0QcUXVYjaiNn.jpg",
+        "/lJuQBW4w1x6NgD514xDPqZ2Lbpz.jpg",
+        "/ASAtJGXmOE99YoAH0ZkF8rBNrF.jpg",
+        "/dfQtPf0lw9C1MWYFMJseM5RZI6P.jpg",
+        "/dgu9KPcgm3cGkB1UNrjrjDHFO6t.jpg",
+        "/gWXOBY0qF5LON44GtpyaDPFsCF0.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Apothecary Diaries",
+        "text": "Experience the global phenomenon of The Apothecary Diaries. Rated 8.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Maomao lived a peaceful life with her apothecary father. Until one day, she's sold as a lowly servant to the emperor's palace. But she wasn't meant for a compliant life among royalty. So when...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Aoi Yuuki, Takeo Otsuka, Katsuyuki Konishi, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.7/10 on TMDB",
+        "text": "With an impressive 8.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Apothecary Diaries? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/220542"
+      }
+    ],
+    "date_published": "2026-10-20T16:33:00Z",
+    "date_modified": "2026-10-20T16:33:00Z",
+    "published_at": "2026-10-20T16:33:00Z"
+  },
+  {
+    "title": "Wildwood: The Untold Story & Secrets",
+    "seo_description": "Discover Wildwood: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 791523,
+      "title": "Wildwood",
+      "original_title": "Wildwood",
+      "slug": "wildwood",
+      "media_type": "movie",
+      "release_date": "2026-10-19",
+      "overview": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+      "tagline": "How far would you go for those you love?",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy"
+      ],
+      "runtime": 132,
+      "seasons": null,
+      "vote_average": 9.3,
+      "vote_count": 3,
+      "category": "trending",
+      "director": "Travis Knight",
+      "top_cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulligan",
+        "Mahershala Ali",
+        "Angela Bassett",
+        "Awkwafina"
+      ],
+      "poster_path": "/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+      "backdrop_path": "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+      "backdrops": [
+        "/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+        "/xY6ItkVktNDMD2WyLXpNq48PJHy.jpg",
+        "/nfxw1zpFVASVt4ZVZubjQ2R9lJ.jpg",
+        "/7S9zJTVtK3dvhChTO1MDVu4bmBu.jpg",
+        "/vLsUQtNYhc7WmdvXuKZ4QWo272Q.jpg",
+        "/rVjVuYiHAjftgr19i5Bzy6nzJwW.jpg",
+        "/syWdo2DlYe4TdzO18y6RoqXUQco.jpg",
+        "/5PviCeavBVrkcZH1gCBTcNMBpx.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Wildwood",
+        "text": "How far would you go for those you love? Rated 9.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Peyton Elizabeth Lee, Jacob Tremblay, Carey Mulligan, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Travis Knight.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Travis Knight",
+        "text": "Filmmaker Travis Knight pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 9.3/10 on TMDB",
+        "text": "With an impressive 9.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Wildwood? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/791523"
+      }
+    ],
+    "date_published": "2026-10-20T16:33:00Z",
+    "date_modified": "2026-10-20T16:33:00Z",
+    "published_at": "2026-10-20T16:33:00Z"
+  },
+  {
+    "title": "Godzilla Minus Zero: The Untold Story & Secrets",
+    "seo_description": "Discover Godzilla Minus Zero: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1381071,
+      "title": "Godzilla Minus Zero",
+      "original_title": "\u30b4\u30b8\u30e9-0.0",
+      "slug": "godzilla-minus-zero",
+      "media_type": "movie",
+      "release_date": "2026-11-03",
+      "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant.",
+      "tagline": "Feel it all.",
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Action"
+      ],
+      "runtime": 135,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "upcoming",
+      "director": "Takashi Yamazaki",
+      "top_cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada",
+        "Kuranosuke Sasaki",
+        "Jun Kunimura",
+        "Miou Tanaka"
+      ],
+      "poster_path": "/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+      "backdrop_path": "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+      "backdrops": [
+        "/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+        "/hyFjwZslMzCQlt7FByPvJciVf4C.jpg",
+        "/zVp0TZwTOyrmIbv9lgKoJENlKLx.jpg",
+        "/drSQQgzsgXt9NIO9I2n6Bp4lBci.jpg",
+        "/rhCg3n4wIu2wkT607h7znedYZBj.jpg",
+        "/cYxQ5Q9IyHf6gZoXCrzOFOErMNw.jpg",
+        "/6Qz4lkQR34myr5tsOnAQFdcbuuX.jpg",
+        "/oiL12oK3fiWCV6lA8zslI3H6zRK.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Godzilla Minus Zero",
+        "text": "Feel it all. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Takashi Yamazaki.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Takashi Yamazaki",
+        "text": "Filmmaker Takashi Yamazaki pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Godzilla Minus Zero? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1381071"
+      }
+    ],
+    "date_published": "2026-10-20T16:33:00Z",
+    "date_modified": "2026-10-20T16:33:00Z",
+    "published_at": "2026-10-20T16:33:00Z"
+  },
+  {
+    "title": "Spider-Man: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 557,
+      "title": "Spider-Man",
+      "original_title": "Spider-Man",
+      "slug": "spider-man",
+      "media_type": "movie",
+      "release_date": "2002-05-01",
+      "overview": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+      "tagline": "Go for the ultimate spin.",
+      "genres": [
+        "Action",
+        "Science Fiction"
+      ],
+      "runtime": 121,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 21615,
+      "category": "theories_easter_eggs",
+      "director": "Sam Raimi",
+      "top_cast": [
+        "Tobey Maguire",
+        "Willem Dafoe",
+        "Kirsten Dunst",
+        "James Franco",
+        "Cliff Robertson",
+        "Rosemary Harris"
+      ],
+      "poster_path": "/or6XJBVpcEbIkma0V9zshnbEtx4.jpg",
+      "backdrop_path": "/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+      "backdrops": [
+        "/no2cllXSRA56LPipQnuPlg3RuTL.jpg",
+        "/zQ8AxTPiCiS5nnwXpwTBPBHSaa5.jpg",
+        "/2PDTWfuBWQKVC7aPAqJK5UCpz08.jpg",
+        "/jHxCeXnSchAuwHnmVatTgqMYdX8.jpg",
+        "/muth4OYamXf41G2evdrLEg8d3om.jpg",
+        "/qJzloL8O9YHhiWBrhlPfKAtZu2I.jpg",
+        "/sWvxBXNtCOaGdtpKNLiOqmwb10N.jpg",
+        "/zp33lkXqcZWyr7iMxzt3lNDtcPv.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man",
+        "text": "Go for the ultimate spin. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tobey Maguire, Willem Dafoe, Kirsten Dunst, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Sam Raimi.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Sam Raimi",
+        "text": "Filmmaker Sam Raimi pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/557"
+      }
+    ],
+    "date_published": "2026-10-20T16:33:00Z",
+    "date_modified": "2026-10-20T16:33:00Z",
+    "published_at": "2026-10-20T16:33:00Z"
+  },
+  {
     "title": "Peppa Pig: How a Pink Cartoon Conquered the World \ud83d\udc37\u2728",
     "seo_description": "Discover how Peppa Pig grew from an indie British animation into a multi-billion dollar kids television phenomenon across 180 countries.",
     "movie": {

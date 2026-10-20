@@ -1156,5 +1156,29 @@
     "published_at": "2026-10-20T05:45:06Z",
     "modified_at": "2026-10-20T05:45:06Z",
     "category": "theories_easter_eggs"
+  },
+  "the-apothecary-diaries": {
+    "title": "The Apothecary Diaries",
+    "published_at": "2026-10-20T16:33:00Z",
+    "modified_at": "2026-10-20T16:33:00Z",
+    "category": "series"
+  },
+  "wildwood": {
+    "title": "Wildwood",
+    "published_at": "2026-10-20T16:33:00Z",
+    "modified_at": "2026-10-20T16:33:00Z",
+    "category": "trending"
+  },
+  "godzilla-minus-zero": {
+    "title": "Godzilla Minus Zero",
+    "published_at": "2026-10-20T16:33:00Z",
+    "modified_at": "2026-10-20T16:33:00Z",
+    "category": "upcoming"
+  },
+  "spider-man": {
+    "title": "Spider-Man",
+    "published_at": "2026-10-20T16:33:00Z",
+    "modified_at": "2026-10-20T16:33:00Z",
+    "category": "theories_easter_eggs"
   }
 }

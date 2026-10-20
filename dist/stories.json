@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-20T05:54:16.204414+00:00",
-  "total_stories": 193,
+  "generated_at": "2026-10-20T16:35:29.716178+00:00",
+  "total_stories": 197,
   "stories": [
+    {
+      "id": 220542,
+      "slug": "the-apothecary-diaries",
+      "title": "The Apothecary Diaries: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-apothecary-diaries/",
+      "category": "series",
+      "release_date": "2023-10-22",
+      "rating": 8.7
+    },
+    {
+      "id": 791523,
+      "slug": "wildwood",
+      "title": "Wildwood: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/wildwood/",
+      "category": "trending",
+      "release_date": "2026-10-19",
+      "rating": 9.3
+    },
+    {
+      "id": 1381071,
+      "slug": "godzilla-minus-zero",
+      "title": "Godzilla Minus Zero: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/godzilla-minus-zero/",
+      "category": "upcoming",
+      "release_date": "2026-11-03",
+      "rating": 0.0
+    },
+    {
+      "id": 557,
+      "slug": "spider-man",
+      "title": "Spider-Man: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/spider-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2002-05-01",
+      "rating": 7.4
+    },
     {
       "id": 12225,
       "slug": "peppa-pig",
