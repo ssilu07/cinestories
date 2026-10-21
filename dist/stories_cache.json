@@ -1,5 +1,415 @@
 [
   {
+    "title": "Cyberpunk: Edgerunners \u2014 Night City's Wild Netflix Revival \u26a1\ud83e\udd16",
+    "seo_description": "Discover how Cyberpunk: Edgerunners became an explosive global hit on Netflix, revitalizing the iconic sci-fi gaming franchise.",
+    "movie": {
+      "id": 105248,
+      "title": "Cyberpunk: Edgerunners",
+      "original_title": "Cyberpunk: Edgerunners",
+      "slug": "cyberpunk-edgerunners",
+      "media_type": "tv",
+      "release_date": "2022-09-13",
+      "overview": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw \u2014 an edgerunner.",
+      "tagline": "New legends. Same Night City.",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Crime"
+      ],
+      "runtime": 50,
+      "seasons": 2,
+      "vote_average": 8.5,
+      "vote_count": 2044,
+      "category": "series",
+      "director": "Rafa\u0142 Jaki, Bartosz Sztybor (Creator)",
+      "top_cast": [
+        "Momoka Terasawa",
+        "Akari Kito",
+        "Koki Uchiyama",
+        "Kentaro Tone"
+      ],
+      "poster_path": "/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg",
+      "backdrop_path": "/3UbHGmu9vIMSC5uNfnGt7DjetqT.jpg",
+      "backdrops": [
+        "/obzl1uYiC8gevu2YZIifw42hRt5.jpg",
+        "/3UbHGmu9vIMSC5uNfnGt7DjetqT.jpg",
+        "/w0lU7U89Fm4K8BQD4hJQpQthxu9.jpg",
+        "/9Mo7R35rv14LVYLHdU5Cq7dJuGv.jpg",
+        "/qHYdWT5NYqtlYpvQKOqZaq2mTrk.jpg",
+        "/gLlemMoIN4vbKvZvOWInWGxeQNL.jpg",
+        "/bRE6zX4iOAejLOQCHryoV5WNu8G.jpg",
+        "/aQJW88GolybGrVqzIC2hI6coUr.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "ANIME PHENOMENON",
+        "title": "Night City Reborn",
+        "text": "When Cyberpunk: Edgerunners dropped on Netflix, it did the unthinkable: revived an entire gaming franchise while delivering one of the decade's most explosive, emotional anime sagas.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/105248"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "High Tech, Low Life",
+        "text": "Follow David Martinez, a reckless street kid who loses everything and decides to survive by becoming an 'edgerunner'\u2014a black-market mercenary chasing glory in a lethal neon metropolis.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/105248"
+      },
+      {
+        "id": "page-3",
+        "badge": "BEHIND THE LENS",
+        "title": "Trigger's Kinetic Chaos",
+        "text": "Famed animation powerhouse Studio Trigger injected their signature kinetic pacing and ultra-stylized action into CD Projekt Red's gritty lore, creating visual fireworks in every frame.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/105248"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Soundtrack Domination",
+        "text": "The series propelled Rosa Walton's song 'I Really Want to Stay at Your House' up global viral charts, transforming an overlooked track into an emotional anthem.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/105248"
+      },
+      {
+        "id": "page-5",
+        "badge": "CULTURAL IMPACT",
+        "title": "The Ultimate Revival",
+        "text": "With an 8.5/10 rating across thousands of fan reviews, Edgerunners single-handedly pushed over one million concurrent players back into the original video game within weeks.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/105248"
+      },
+      {
+        "id": "page-6",
+        "badge": "MUST WATCH",
+        "title": "Become a Legend",
+        "text": "Ready to take the plunge into Night City? Stream all ten adrenaline-fueled episodes on Netflix and experience David and Lucy's unforgettable journey.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Series Details",
+        "cta_url": "https://www.themoviedb.org/tv/105248"
+      }
+    ],
+    "date_published": "2026-10-21T05:48:19Z",
+    "date_modified": "2026-10-21T05:48:19Z",
+    "published_at": "2026-10-21T05:48:19Z"
+  },
+  {
+    "title": "Tiny Fugitives: The Untold Story & Secrets",
+    "seo_description": "Discover Tiny Fugitives: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1513253,
+      "title": "Tiny Fugitives",
+      "original_title": "Tiny Fugitives",
+      "slug": "tiny-fugitives",
+      "media_type": "movie",
+      "release_date": "2026-09-18",
+      "overview": "A reckless group of twelve year olds set out on a mission to spend the rest of their lives at sleepaway camp. They'll just have to get past Bob - the camp's deranged, relentless, 50-year-old lifer counselor.",
+      "tagline": "Summer ain't over yet.",
+      "genres": [
+        "Comedy"
+      ],
+      "runtime": 99,
+      "seasons": null,
+      "vote_average": 10.0,
+      "vote_count": 1,
+      "category": "trending",
+      "director": "Michael Lewen",
+      "top_cast": [
+        "Johnny Knoxville",
+        "Benjamin Pajak",
+        "Aaron D. Harris",
+        "Isa Bernal Steiner",
+        "Jay Baruchel",
+        "Blake Anderson"
+      ],
+      "poster_path": "/unJWfg66bFwrGD31nBFoOQfkuba.jpg",
+      "backdrop_path": "/15jKdedj6I13GLWHM9wiyGQe7OX.jpg",
+      "backdrops": [
+        "/15jKdedj6I13GLWHM9wiyGQe7OX.jpg",
+        "/dWuKeIxbWszZgnxtQYw9vH8mw6h.jpg",
+        "/oQn3QUqF6D3bXGpNaxqwtzKJQCQ.jpg",
+        "/evWya2tViqfaw4LFaWhaWjtbtjt.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Tiny Fugitives",
+        "text": "Summer ain't over yet. Rated 10.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A reckless group of twelve year olds set out on a mission to spend the rest of their lives at sleepaway camp. They'll just have to get past Bob - the camp's deranged, relentless,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Johnny Knoxville, Benjamin Pajak, Aaron D. Harris, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Michael Lewen.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Michael Lewen",
+        "text": "Filmmaker Michael Lewen pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 10.0/10 on TMDB",
+        "text": "With an impressive 10.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Tiny Fugitives? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1513253"
+      }
+    ],
+    "date_published": "2026-10-21T05:48:19Z",
+    "date_modified": "2026-10-21T05:48:19Z",
+    "published_at": "2026-10-21T05:48:19Z"
+  },
+  {
+    "title": "La Bola Negra: Pen\u00e9lope Cruz\u2019s Bold New Epic \ud83c\udfac\u2728",
+    "seo_description": "Javier Ambrossi unites Pen\u00e9lope Cruz and Miguel Bernardeau in the daring drama La bola negra. Discover the buzz ahead of its 2026 premiere.",
+    "movie": {
+      "id": 1422041,
+      "title": "La bola negra",
+      "original_title": "La bola negra",
+      "slug": "la-bola-negra",
+      "media_type": "movie",
+      "release_date": "2026-09-25",
+      "overview": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+      "tagline": "Love leaves a legacy.",
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "runtime": 155,
+      "seasons": null,
+      "vote_average": 8.3,
+      "vote_count": 90,
+      "category": "upcoming",
+      "director": "Javier Ambrossi",
+      "top_cast": [
+        "Guitarricadelafuente",
+        "Miguel Bernardeau",
+        "Carlos Gonz\u00e1lez",
+        "Milo Quifes",
+        "Lola Due\u00f1as",
+        "Pen\u00e9lope Cruz"
+      ],
+      "poster_path": "/jT5SR5qc9KvVg7HUEmjMWEUYMce.jpg",
+      "backdrop_path": "/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+      "backdrops": [
+        "/bDsmYvrzto7xrEwqDpLC3SPhn9A.jpg",
+        "/wM4LLukeBIfhjn7LcVP6VIced4p.jpg",
+        "/nA0bMFS66n4Eac76dF7DiapH3eL.jpg",
+        "/hVn6r7Fvm43v2QRnLbuqD8mIPML.jpg",
+        "/toaF7weZaKRmdpQyUY7xxN3X9ic.jpg",
+        "/3pU1CGpgpiez1S1xVFEoxUBW52T.jpg",
+        "/8TzXngI47d60TFnM5i91PAlXdKo.jpg",
+        "/g7NjHHMtNfuhRKBbo8fSFhsJepl.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "A Daring Spanish Epic",
+        "text": "Director Javier Ambrossi returns with La bola negra, a sweeping 155-minute historical drama spanning three distinct eras of love, war, and sacrifice.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Three Lives, Three Eras",
+        "text": "The story traces three men across different generations. Linked by forbidden desire, hidden pain, and enduring memory, their intertwined fates reveal how love shapes history.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Cruz & Bernardeau Lead",
+        "text": "Oscar winner Pen\u00e9lope Cruz joins Elite star Miguel Bernardeau, Lola Due\u00f1as, and musical breakout Guitarricadelafuente in an extraordinary acting ensemble.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Ambrossi's Vision",
+        "text": "Acclaimed filmmaker Javier Ambrossi crafts an ambitious visual journey, exploring the personal cost of identity against the brutal backdrop of conflict.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      },
+      {
+        "id": "page-5",
+        "badge": "EARLY BUZZ",
+        "title": "Rave Early Reactions",
+        "text": "Early private industry screenings have sparked immense buzz and an exceptional 8.3/10 rating, positioning this ambitious feature as an upcoming awards frontrunner.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Releasing September 2026",
+        "text": "Mark your calendar for September 25, 2026. Prepare for an unforgettable cinematic journey proving that genuine passion outlasts time.",
+        "backdrop_index": 5,
+        "cta_text": "Discover More Details",
+        "cta_url": "https://www.themoviedb.org/movie/1422041"
+      }
+    ],
+    "date_published": "2026-10-21T05:48:19Z",
+    "date_modified": "2026-10-21T05:48:19Z",
+    "published_at": "2026-10-21T05:48:19Z"
+  },
+  {
+    "title": "The Transformers: The Movie: The Untold Story & Secrets",
+    "seo_description": "Discover The Transformers: The Movie: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1857,
+      "title": "The Transformers: The Movie",
+      "original_title": "The Transformers: The Movie",
+      "slug": "the-transformers-the-movie",
+      "media_type": "movie",
+      "release_date": "1986-08-08",
+      "overview": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons.",
+      "tagline": "Beyond good. Beyond evil. Beyond your wildest imagination.",
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Action",
+        "Adventure",
+        "Family"
+      ],
+      "runtime": 85,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 652,
+      "category": "theories_easter_eggs",
+      "director": "Nelson Shin",
+      "top_cast": [
+        "Judd Nelson",
+        "Peter Cullen",
+        "Frank Welker",
+        "Leonard Nimoy",
+        "Orson Welles",
+        "Casey Kasem"
+      ],
+      "poster_path": "/xJ5W0mOAWCVaXmU0pBZh4NjSRv2.jpg",
+      "backdrop_path": "/e0djmN1YD6NcbLX6T0nSNKIvrrT.jpg",
+      "backdrops": [
+        "/e0djmN1YD6NcbLX6T0nSNKIvrrT.jpg",
+        "/81q8YHuN0AIrATPzX70DlrCpR4t.jpg",
+        "/1aKpYQCntDkskpOQbChTCNbZX4k.jpg",
+        "/n0mZ8zDCWBn9wycjXqTmkLLOiJa.jpg",
+        "/7jszi6RKsHRxvUrVBYd4scgYubW.jpg",
+        "/ekppa3eJm51s389jBX6dgt7CjYc.jpg",
+        "/dTk2fIx31XGn715NFcfEnbnDj8P.jpg",
+        "/vnl05JPZF4MzY6EZ9KkKTNBiOTr.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "The Transformers: The Movie",
+        "text": "Beyond good. Beyond evil. Beyond your wildest imagination. Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "The Autobots must stop a colossal planet-consuming robot who goes after the Autobot Matrix of Leadership. At the same time, they must defend themselves against an all-out attack from the Decepticons.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Judd Nelson, Peter Cullen, Frank Welker, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Nelson Shin.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Nelson Shin",
+        "text": "Filmmaker Nelson Shin pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Transformers: The Movie? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1857"
+      }
+    ],
+    "date_published": "2026-10-21T05:48:19Z",
+    "date_modified": "2026-10-21T05:48:19Z",
+    "published_at": "2026-10-21T05:48:19Z"
+  },
+  {
     "title": "Homeland: Secrets Behind the Spy Thriller \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\ud83d\udd25",
     "seo_description": "Uncover how Homeland redefined TV espionage, Claire Danes' ferocious performance, and the shocking secrets behind the Emmy-winning series.",
     "movie": {
