@@ -1,5 +1,418 @@
 [
   {
+    "title": "JoJo's Bizarre Adventure: The Untold Story & Secrets",
+    "seo_description": "Discover JoJo's Bizarre Adventure: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 45790,
+      "title": "JoJo's Bizarre Adventure",
+      "original_title": "\u30b8\u30e7\u30b8\u30e7\u306e\u5947\u5999\u306a\u5192\u967a",
+      "slug": "jojos-bizarre-adventure",
+      "media_type": "tv",
+      "release_date": "2012-10-06",
+      "overview": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 24,
+      "seasons": 6,
+      "vote_average": 8.5,
+      "vote_count": 1686,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Shogo Sakata",
+        "Yohei Azakami",
+        "Kaito Ishikawa",
+        "Rie Takahashi",
+        "Kenta Miyake"
+      ],
+      "poster_path": "/ogAWwbh3frWtiTyyXrZaVFtqCgp.jpg",
+      "backdrop_path": "/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+      "backdrops": [
+        "/l2gc2dPRUPe3bAfYCRTjc6uAMmB.jpg",
+        "/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+        "/mLKN1dsimKPiXCZ48KED0X8a02t.jpg",
+        "/tZVSRbtOBNmULvBbPvcDnSIQNGA.jpg",
+        "/3fU68HROXn03dj8mBQyYSwiefq2.jpg",
+        "/fVT4PCzKbh9UgYNVHLilWnUTjJH.jpg",
+        "/nLD0n1yD80oy9as4zhJRPppWCNU.jpg",
+        "/loLPI1lmL0TMk7aItDhY62Qz8iZ.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "JoJo's Bizarre Adventure",
+        "text": "Experience the global phenomenon of JoJo's Bizarre Adventure. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Follow the intergenerational feud between the Joestar Family and various forces of evil, the most prominent of which is Dio Brando and his followers.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Shogo Sakata, Yohei Azakami, Kaito Ishikawa, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.5/10 on TMDB",
+        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into JoJo's Bizarre Adventure? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/45790"
+      }
+    ],
+    "date_published": "2026-10-21T16:50:49Z",
+    "date_modified": "2026-10-21T16:50:49Z",
+    "published_at": "2026-10-21T16:50:49Z"
+  },
+  {
+    "title": "The Intern: The Untold Story & Secrets",
+    "seo_description": "Discover The Intern: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 607833,
+      "title": "The Intern",
+      "original_title": "\uc778\ud134",
+      "slug": "the-intern",
+      "media_type": "movie",
+      "release_date": "2026-09-16",
+      "overview": "A story about what happens when  Seon-wu, the CEO of a fashion company who is more passionate than anyone when it comes to work, hires Ki-ho, who has a wealth of life experience, as a silver intern.",
+      "tagline": "[FIRST DAY] of the new job.",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 133,
+      "seasons": null,
+      "vote_average": 6.5,
+      "vote_count": 4,
+      "category": "trending",
+      "director": "Kim Do-young",
+      "top_cast": [
+        "Choi Min-sik",
+        "Han So-hee",
+        "Kim Jun-han",
+        "Ryu Hye-young",
+        "Kim Keum-soon",
+        "Kim Yo-han"
+      ],
+      "poster_path": "/sjgvN09XBKwehs4oK5HTiPfUcrw.jpg",
+      "backdrop_path": "/OroFBNgB2RBzj2X65CweVhhQQG.jpg",
+      "backdrops": [
+        "/OroFBNgB2RBzj2X65CweVhhQQG.jpg",
+        "/aLclJIlogNxPw07fa89P97w5FYX.jpg",
+        "/px9lPVw88Skd3YVSKR52fPyGRk7.jpg",
+        "/12SukaVVegDsAl3Kjn2rgcmUCuH.jpg",
+        "/hcQWIV25Vlpzwpn41GgrFUP1KZ5.jpg",
+        "/4yVTZ5II9FW0h4n9UvAn6E5yh7a.jpg",
+        "/qtvEZGEaHfGtoUY6b6mGORET0r0.jpg",
+        "/jKAsbaB2LBfIiLmRLM2RCysGBLR.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Intern",
+        "text": "[FIRST DAY] of the new job. Rated 6.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A story about what happens when Seon-wu, the CEO of a fashion company who is more passionate than anyone when it comes to work, hires Ki-ho, who has a wealth of life experience, as...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Choi Min-sik, Han So-hee, Kim Jun-han, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Kim Do-young.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Kim Do-young",
+        "text": "Filmmaker Kim Do-young pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.5/10 on TMDB",
+        "text": "With an impressive 6.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Intern? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/607833"
+      }
+    ],
+    "date_published": "2026-10-21T16:50:49Z",
+    "date_modified": "2026-10-21T16:50:49Z",
+    "published_at": "2026-10-21T16:50:49Z"
+  },
+  {
+    "title": "Dune: The Untold Story & Secrets",
+    "seo_description": "Discover Dune: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 438631,
+      "title": "Dune",
+      "original_title": "Dune",
+      "slug": "dune",
+      "media_type": "movie",
+      "release_date": "2021-09-15",
+      "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence - a commodity capable of unlocking humanity's greatest potential - only those who can conquer their fear will survive.",
+      "tagline": "It begins.",
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 155,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 15760,
+      "category": "upcoming",
+      "director": "Denis Villeneuve",
+      "top_cast": [
+        "Timoth\u00e9e Chalamet",
+        "Rebecca Ferguson",
+        "Oscar Isaac",
+        "Jason Momoa",
+        "Stellan Skarsg\u00e5rd",
+        "Stephen McKinley Henderson"
+      ],
+      "poster_path": "/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg",
+      "backdrop_path": "/qVgZu5BTx6pu4owCvVOm4zjTfOi.jpg",
+      "backdrops": [
+        "/h61Kc0NC7d90jNwXfBx5js7DnSQ.jpg",
+        "/qVgZu5BTx6pu4owCvVOm4zjTfOi.jpg",
+        "/zRKQW58MBEY078AxkHxEJzUskCl.jpg",
+        "/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg",
+        "/h3HsfV8Kn9Sz2QWUYYdP5ya23hx.jpg",
+        "/lzWHmYdfeFiMIY4JaMmtR7GEli3.jpg",
+        "/wYMbnrdRCREjNLwFlG5SLWzBjui.jpg",
+        "/jKhsC3yguywiKF1XA6OlslFhlwT.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Dune",
+        "text": "It begins. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Timoth\u00e9e Chalamet, Rebecca Ferguson, Oscar Isaac, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Denis Villeneuve.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Denis Villeneuve",
+        "text": "Filmmaker Denis Villeneuve pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Dune? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/438631"
+      }
+    ],
+    "date_published": "2026-10-21T16:50:49Z",
+    "date_modified": "2026-10-21T16:50:49Z",
+    "published_at": "2026-10-21T16:50:49Z"
+  },
+  {
+    "title": "Black Panther: The Untold Story & Secrets",
+    "seo_description": "Discover Black Panther: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 284054,
+      "title": "Black Panther",
+      "original_title": "Black Panther",
+      "slug": "black-panther",
+      "media_type": "movie",
+      "release_date": "2018-02-13",
+      "overview": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black Panther mantle to join with ex-girlfriend Nakia, the queen-mother, his princess-kid sister, members of the Dora Milaje (the Wakandan 'special forces') and an American secret agent, to prevent Wakanda from being dragged into a world war.",
+      "tagline": "Long live the king.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 135,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 24125,
+      "category": "theories_easter_eggs",
+      "director": "Ryan Coogler",
+      "top_cast": [
+        "Chadwick Boseman",
+        "Michael B. Jordan",
+        "Lupita Nyong'o",
+        "Danai Gurira",
+        "Martin Freeman",
+        "Daniel Kaluuya"
+      ],
+      "poster_path": "/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+      "backdrop_path": "/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
+      "backdrops": [
+        "/b6ZJZHUdMEFECvGiDpJjlfUWela.jpg",
+        "/19Ed4XgjahPm4U8JT7SnntERIlt.jpg",
+        "/6ELJEzQJ3Y45HczvreC3dg0GV5R.jpg",
+        "/AlFqBwJnokrp9zWTXOUv7uhkaeq.jpg",
+        "/tM5BDQvwh9QiHC6f57EFpFKrtDW.jpg",
+        "/sIwFcU1pql5a3LdZGxsRKi9JfTL.jpg",
+        "/ut3n6iLMF79vDqyKFU6PeojZZpQ.jpg",
+        "/4K92giNstjy4Waz35bAsqt83J1F.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Black Panther",
+        "text": "Long live the king. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "King T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Ryan Coogler.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Ryan Coogler",
+        "text": "Filmmaker Ryan Coogler pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Black Panther? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/284054"
+      }
+    ],
+    "date_published": "2026-10-21T16:50:49Z",
+    "date_modified": "2026-10-21T16:50:49Z",
+    "published_at": "2026-10-21T16:50:49Z"
+  },
+  {
     "title": "Cyberpunk: Edgerunners \u2014 Night City's Wild Netflix Revival \u26a1\ud83e\udd16",
     "seo_description": "Discover how Cyberpunk: Edgerunners became an explosive global hit on Netflix, revitalizing the iconic sci-fi gaming franchise.",
     "movie": {

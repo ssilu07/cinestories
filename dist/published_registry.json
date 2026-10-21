@@ -1228,5 +1228,29 @@
     "published_at": "2026-10-21T05:48:19Z",
     "modified_at": "2026-10-21T05:48:19Z",
     "category": "theories_easter_eggs"
+  },
+  "jojos-bizarre-adventure": {
+    "title": "JoJo's Bizarre Adventure",
+    "published_at": "2026-10-21T16:50:49Z",
+    "modified_at": "2026-10-21T16:50:49Z",
+    "category": "series"
+  },
+  "the-intern": {
+    "title": "The Intern",
+    "published_at": "2026-10-21T16:50:49Z",
+    "modified_at": "2026-10-21T16:50:49Z",
+    "category": "trending"
+  },
+  "dune": {
+    "title": "Dune",
+    "published_at": "2026-10-21T16:50:49Z",
+    "modified_at": "2026-10-21T16:50:49Z",
+    "category": "upcoming"
+  },
+  "black-panther": {
+    "title": "Black Panther",
+    "published_at": "2026-10-21T16:50:49Z",
+    "modified_at": "2026-10-21T16:50:49Z",
+    "category": "theories_easter_eggs"
   }
 }

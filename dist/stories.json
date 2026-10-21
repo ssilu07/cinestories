@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-21T05:57:15.566652+00:00",
-  "total_stories": 205,
+  "generated_at": "2026-10-21T16:51:11.576534+00:00",
+  "total_stories": 209,
   "stories": [
+    {
+      "id": 45790,
+      "slug": "jojos-bizarre-adventure",
+      "title": "JoJo's Bizarre Adventure: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/jojos-bizarre-adventure/",
+      "category": "series",
+      "release_date": "2012-10-06",
+      "rating": 8.5
+    },
+    {
+      "id": 607833,
+      "slug": "the-intern",
+      "title": "The Intern: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-intern/",
+      "category": "trending",
+      "release_date": "2026-09-16",
+      "rating": 6.5
+    },
+    {
+      "id": 438631,
+      "slug": "dune",
+      "title": "Dune: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/dune/",
+      "category": "upcoming",
+      "release_date": "2021-09-15",
+      "rating": 7.8
+    },
+    {
+      "id": 284054,
+      "slug": "black-panther",
+      "title": "Black Panther: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/black-panther/",
+      "category": "theories_easter_eggs",
+      "release_date": "2018-02-13",
+      "rating": 7.4
+    },
     {
       "id": 105248,
       "slug": "cyberpunk-edgerunners",
