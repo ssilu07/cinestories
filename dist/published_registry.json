@@ -1252,5 +1252,29 @@
     "published_at": "2026-10-21T16:50:49Z",
     "modified_at": "2026-10-21T16:50:49Z",
     "category": "theories_easter_eggs"
+  },
+  "from": {
+    "title": "FROM",
+    "published_at": "2026-10-21T23:04:24Z",
+    "modified_at": "2026-10-21T23:04:24Z",
+    "category": "series"
+  },
+  "the-musical": {
+    "title": "The Musical",
+    "published_at": "2026-10-21T23:04:24Z",
+    "modified_at": "2026-10-21T23:04:24Z",
+    "category": "trending"
+  },
+  "wild-horse-nine": {
+    "title": "Wild Horse Nine",
+    "published_at": "2026-10-21T23:04:24Z",
+    "modified_at": "2026-10-21T23:04:24Z",
+    "category": "upcoming"
+  },
+  "world-war-z": {
+    "title": "World War Z",
+    "published_at": "2026-10-21T23:04:24Z",
+    "modified_at": "2026-10-21T23:04:24Z",
+    "category": "theories_easter_eggs"
   }
 }

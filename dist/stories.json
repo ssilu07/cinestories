@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-21T16:51:11.576534+00:00",
-  "total_stories": 209,
+  "generated_at": "2026-10-21T23:09:29.568170+00:00",
+  "total_stories": 213,
   "stories": [
+    {
+      "id": 124364,
+      "slug": "from",
+      "title": "FROM: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/from/",
+      "category": "series",
+      "release_date": "2022-02-20",
+      "rating": 8.5
+    },
+    {
+      "id": 1579941,
+      "slug": "the-musical",
+      "title": "The Musical: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-musical/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": 7.3
+    },
+    {
+      "id": 891621,
+      "slug": "wild-horse-nine",
+      "title": "Wild Horse Nine: Martin McDonagh's Wild New Thriller \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/wild-horse-nine/",
+      "category": "upcoming",
+      "release_date": "2026-10-30",
+      "rating": 0.0
+    },
+    {
+      "id": 72190,
+      "slug": "world-war-z",
+      "title": "World War Z: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/world-war-z/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-06-19",
+      "rating": 6.9
+    },
     {
       "id": 45790,
       "slug": "jojos-bizarre-adventure",

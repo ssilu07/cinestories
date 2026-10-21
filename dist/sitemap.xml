@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/from/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/m7eiSGHFzr584zFmetGqkqaU6BN.jpg</image:loc>
+      <image:title>This 8.5-Rated Nightmare Town Mystery Is TV's Most Addictive Thriller Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-musical/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/n7k5GQrIOKYNs7IWsuslyo1b0XE.jpg</image:loc>
+      <image:title>Inside 'The Musical': Why Rob Lowe’s School Feud Is Comedy Gold Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/wild-horse-nine/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/b17UWf3LqHgKolQkXckne32qv0.jpg</image:loc>
+      <image:title>Wild Horse Nine: Martin McDonagh's Wild New Thriller 🎬🔥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/world-war-z/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/kg2FOT2Oe5PSCgs3L4vLel6B7ck.jpg</image:loc>
+      <image:title>Inside World War Z: The Wild Zombie Clues and Twists You Missed Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/jojos-bizarre-adventure/</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>daily</changefreq>
@@ -2100,6 +2140,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/from/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pRtJagIxpfODzzb0T0NAvZSzErC.jpg</image:loc>
+      <image:title>FROM Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-musical/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/paoRPVNta4eYyPO1vsdHTK8dUYa.jpg</image:loc>
+      <image:title>The Musical Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/wild-horse-nine/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg</image:loc>
+      <image:title>Wild Horse Nine Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/world-war-z/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg</image:loc>
+      <image:title>World War Z Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
