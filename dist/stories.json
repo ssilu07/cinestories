@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-21T23:09:29.568170+00:00",
-  "total_stories": 213,
+  "generated_at": "2026-10-22T06:00:36.206077+00:00",
+  "total_stories": 217,
   "stories": [
+    {
+      "id": 203857,
+      "slug": "the-diplomat",
+      "title": "Why The Diplomat Is Netflix's Smartest Thriller \ud83c\udfdb\ufe0f\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/the-diplomat/",
+      "category": "series",
+      "release_date": "2023-04-20",
+      "rating": 7.6
+    },
+    {
+      "id": 1195803,
+      "slug": "wicker",
+      "title": "Olivia Colman Weaves Love in 'Wicker' \ud83c\udf3e\u2728",
+      "url": "https://cinematicbites.com/stories/wicker/",
+      "category": "trending",
+      "release_date": "2026-10-21",
+      "rating": 6.2
+    },
+    {
+      "id": 656908,
+      "slug": "ramayana-rise-of-a-legend",
+      "title": "Ramayana Rise of a Legend: India's $100M Epic \ud83c\udff9\u2728",
+      "url": "https://cinematicbites.com/stories/ramayana-rise-of-a-legend/",
+      "category": "upcoming",
+      "release_date": "2026-11-05",
+      "rating": 0.0
+    },
+    {
+      "id": 315635,
+      "slug": "spider-man-homecoming",
+      "title": "Spider-Man: Homecoming: 5 Hidden MCU Easter Eggs \ud83d\udd77\ufe0f\ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/spider-man-homecoming/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-07-05",
+      "rating": 7.3
+    },
     {
       "id": 124364,
       "slug": "from",

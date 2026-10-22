@@ -1276,5 +1276,29 @@
     "published_at": "2026-10-21T23:04:24Z",
     "modified_at": "2026-10-21T23:04:24Z",
     "category": "theories_easter_eggs"
+  },
+  "the-diplomat": {
+    "title": "The Diplomat",
+    "published_at": "2026-10-22T05:51:14Z",
+    "modified_at": "2026-10-22T05:51:14Z",
+    "category": "series"
+  },
+  "wicker": {
+    "title": "Wicker",
+    "published_at": "2026-10-22T05:51:14Z",
+    "modified_at": "2026-10-22T05:51:14Z",
+    "category": "trending"
+  },
+  "ramayana-rise-of-a-legend": {
+    "title": "Ramayana: Rise of a Legend",
+    "published_at": "2026-10-22T05:51:14Z",
+    "modified_at": "2026-10-22T05:51:14Z",
+    "category": "upcoming"
+  },
+  "spider-man-homecoming": {
+    "title": "Spider-Man: Homecoming",
+    "published_at": "2026-10-22T05:51:14Z",
+    "modified_at": "2026-10-22T05:51:14Z",
+    "category": "theories_easter_eggs"
   }
 }
