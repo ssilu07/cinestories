@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Oct 2026 06:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 16:52:35 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Better Call Saul: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/better-call-saul/</link>
+      <description>Explore Better Call Saul: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/better-call-saul/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/rfxryDIv8huejujg4JueDJx8zCz.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/rfxryDIv8huejujg4JueDJx8zCz.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Dave Franco and Macon Blair Team Up for Wild Crime Comedy 'Idiots' 🚗</title>
+      <link>https://cinematicbites.com/articles/idiots/</link>
+      <description>Dave Franco and O'Shea Jackson Jr. lead Macon Blair's chaotic crime road trip 'Idiots.' Here is why audiences are talking about this reckless joyride.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/idiots/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/lneqlgbg3XUjNaeGYk8arhgzczo.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/lneqlgbg3XUjNaeGYk8arhgzczo.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>How Kubrick's 2001: A Space Odyssey Predicted Our Worst AI Fears 🚀</title>
+      <link>https://cinematicbites.com/articles/2001-a-space-odyssey/</link>
+      <description>Decades before modern AI anxieties, Stanley Kubrick and HAL 9000 changed sci-fi cinema forever with groundbreaking practical effects and existential dread.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/2001-a-space-odyssey/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/w5IDXtifKntw0ajv2co7jFlTQDM.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/w5IDXtifKntw0ajv2co7jFlTQDM.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Spider-Man: Into the Spider-Verse: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/spider-man-into-the-spider-verse/</link>
+      <description>Explore Spider-Man: Into the Spider-Verse: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/spider-man-into-the-spider-verse/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/1ntePsIqeklfmrQJqZPncCydsqY.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/1ntePsIqeklfmrQJqZPncCydsqY.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Why The Diplomat Is Netflix's Smartest Thriller 🏛️💥</title>
       <link>https://cinematicbites.com/articles/the-diplomat/</link>
@@ -425,42 +461,6 @@
       <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/i5E9H7Ik0u61ylDDTbmUpTL3Yw.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Secret History of Shrek: How a Costly Reshoot Made Oscar History 🧅</title>
-      <link>https://cinematicbites.com/articles/shrek/</link>
-      <description>From Chris Farley's lost cut to Mike Myers' Scottish gamble, explore how Shrek defied industry odds to reinvent modern Hollywood animation.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/shrek/</guid>
-      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/w0eKUOEog2ImtktCHAMUZws8qif.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Masters of the Universe: 5 Deep Lore Clues Travis Knight Hid in Eternia</title>
-      <link>https://cinematicbites.com/articles/masters-of-the-universe/</link>
-      <description>From Prince Keldor clues to vintage minicomic nods, here are the wildest hidden details and theories in 2026's Masters of the Universe reboot.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/masters-of-the-universe/</guid>
-      <pubDate>Sun, 18 Oct 2026 15:34:20 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/5MUMB3aPEPEQPCIAaygXFUTWE9Y.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>JUJUTSU KAISEN: Why Anime's Dark Hit Rules Global Screens ⚡🔥</title>
-      <link>https://cinematicbites.com/articles/jujutsu-kaisen/</link>
-      <description>Explore JUJUTSU KAISEN: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/jujutsu-kaisen/</guid>
-      <pubDate>Sun, 18 Oct 2026 05:31:49 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/qpin8cASXEVtwhzNsprHYFiOAGk.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/qpin8cASXEVtwhzNsprHYFiOAGk.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Moana: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/moana/</link>
-      <description>Explore Moana: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/moana/</guid>
-      <pubDate>Sun, 18 Oct 2026 05:31:49 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/c6BPbkO5Npt1OdwttAxCFo06wtH.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

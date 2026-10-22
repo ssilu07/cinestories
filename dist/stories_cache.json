@@ -1,5 +1,419 @@
 [
   {
+    "title": "Better Call Saul: The Untold Story & Secrets",
+    "seo_description": "Discover Better Call Saul: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 60059,
+      "title": "Better Call Saul",
+      "original_title": "Better Call Saul",
+      "slug": "better-call-saul",
+      "media_type": "tv",
+      "release_date": "2015-02-08",
+      "overview": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is \u201cfixer\u201d Mike Ehrmantraut. The series tracks Jimmy\u2019s transformation into Saul Goodman, the man who puts \u201ccriminal\u201d in \u201ccriminal lawyer\".",
+      "tagline": "Putting the \"criminal\" in \"criminal lawyer.\"",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 6,
+      "vote_average": 8.7,
+      "vote_count": 7002,
+      "category": "series",
+      "director": "Vince Gilligan, Peter Gould (Creator)",
+      "top_cast": [
+        "Bob Odenkirk",
+        "Jonathan Banks",
+        "Rhea Seehorn",
+        "Tony Dalton",
+        "Giancarlo Esposito"
+      ],
+      "poster_path": "/fC2HDm5t0kHl7mTm7jxMR31b7by.jpg",
+      "backdrop_path": "/rfxryDIv8huejujg4JueDJx8zCz.jpg",
+      "backdrops": [
+        "/rfxryDIv8huejujg4JueDJx8zCz.jpg",
+        "/og2jKploGHYnCz68vV1nRSEE0xV.jpg",
+        "/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg",
+        "/u5pPTiLMEvxaPtdhF2Wj6YTXI2h.jpg",
+        "/hPea3Qy5Gd6z4kJLUruBbwAH8Rm.jpg",
+        "/nT91taow0c4Rcgu8FoEIvttBmeO.jpg",
+        "/g46J68trmbXNmIQe97LS5hwWOQV.jpg",
+        "/fhVjFMVFW53w2YY75VR9lfii416.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Better Call Saul",
+        "text": "Putting the \"criminal\" in \"criminal lawyer.\" Rated 8.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Bob Odenkirk, Jonathan Banks, Rhea Seehorn, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Vince Gilligan, Peter Gould (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Vince Gilligan, Peter Gould (Creator)",
+        "text": "Filmmaker Vince Gilligan, Peter Gould (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.7/10 on TMDB",
+        "text": "With an impressive 8.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Better Call Saul? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/60059"
+      }
+    ],
+    "date_published": "2026-10-22T16:51:04Z",
+    "date_modified": "2026-10-22T16:51:04Z",
+    "published_at": "2026-10-22T16:51:04Z"
+  },
+  {
+    "title": "Idiots: The Untold Story & Secrets",
+    "seo_description": "Discover Idiots: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 445466,
+      "title": "Idiots",
+      "original_title": "Idiots",
+      "slug": "idiots",
+      "media_type": "movie",
+      "release_date": "2026-08-20",
+      "overview": "Two rock-bottom drivers transport a wealthy teen to rehab, but their simple job spirals into a chaotic journey of drugs, danger, and crime as their passenger derails their plans.",
+      "tagline": "They're doing their best.",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "runtime": 100,
+      "seasons": null,
+      "vote_average": 6.1,
+      "vote_count": 64,
+      "category": "trending",
+      "director": "Macon Blair",
+      "top_cast": [
+        "Dave Franco",
+        "O'Shea Jackson Jr.",
+        "Mason Thames",
+        "Kiernan Shipka",
+        "Peter Dinklage",
+        "Nicholas Braun"
+      ],
+      "poster_path": "/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
+      "backdrop_path": "/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
+      "backdrops": [
+        "/lneqlgbg3XUjNaeGYk8arhgzczo.jpg",
+        "/keFyE4bqrfiXruon9i44q2tMKbl.jpg",
+        "/ekyoTI99J7uGquYHl724lvylO7s.jpg",
+        "/hsoeOmnFMPI8hbKatDBHxkCqQSd.jpg",
+        "/qpeijpZIDBeJvVV9CJjMGJtkKh.jpg",
+        "/cWWKFcsW9Hi0bVPXTQGeYb2Upi8.jpg",
+        "/oq5PIxgGU6Xi0W7j7wg4YCmJykm.jpg",
+        "/jFU2DMRZ7aF16n2n5Z4Saf929Eb.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Idiots",
+        "text": "They're doing their best. Rated 6.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Two rock-bottom drivers transport a wealthy teen to rehab, but their simple job spirals into a chaotic journey of drugs, danger, and crime as their passenger derails their plans.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Dave Franco, O'Shea Jackson Jr., Mason Thames, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Macon Blair.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Macon Blair",
+        "text": "Filmmaker Macon Blair pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.1/10 on TMDB",
+        "text": "With an impressive 6.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Idiots? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/445466"
+      }
+    ],
+    "date_published": "2026-10-22T16:51:04Z",
+    "date_modified": "2026-10-22T16:51:04Z",
+    "published_at": "2026-10-22T16:51:04Z"
+  },
+  {
+    "title": "2001: A Space Odyssey \u2013 Secrets of Sci-Fi's Greatest Epic \ud83d\ude80\u2728",
+    "seo_description": "Unpack the visionary genius, eerie HAL 9000 mysteries, and groundbreaking effects behind Stanley Kubrick's 2001: A Space Odyssey.",
+    "movie": {
+      "id": 62,
+      "title": "2001: A Space Odyssey",
+      "original_title": "2001: A Space Odyssey",
+      "slug": "2001-a-space-odyssey",
+      "media_type": "movie",
+      "release_date": "1968-04-02",
+      "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
+      "tagline": "An epic drama of adventure and exploration.",
+      "genres": [
+        "Science Fiction",
+        "Mystery",
+        "Adventure"
+      ],
+      "runtime": 149,
+      "seasons": null,
+      "vote_average": 8.0,
+      "vote_count": 13069,
+      "category": "upcoming",
+      "director": "Stanley Kubrick",
+      "top_cast": [
+        "Keir Dullea",
+        "Gary Lockwood",
+        "William Sylvester",
+        "Douglas Rain",
+        "Daniel Richter",
+        "Leonard Rossiter"
+      ],
+      "poster_path": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg",
+      "backdrop_path": "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+      "backdrops": [
+        "/9yTOU2SvTfAEHDPEG5qraLoe4MI.jpg",
+        "/w5IDXtifKntw0ajv2co7jFlTQDM.jpg",
+        "/spoZUN4X1KiOc5S0plOyGAXLNtb.jpg",
+        "/yfnDgz3Kiv0IkdujrFRh1vcd7Yu.jpg",
+        "/6gyZF4SeifiUUYDELkCS8nOqsu2.jpg",
+        "/kCEXA22ASuq7Y29jnngyaisyA0X.jpg",
+        "/vCkC4lHpJZNVUGzdWAF09UKK8by.jpg",
+        "/6faN1hBt70v5eDmI7GvDXx9LZRz.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "CINEMA ICON",
+        "title": "Beyond the Infinite",
+        "text": "Before Apollo 11 touched lunar dust, Stanley Kubrick took audiences across space and time. Decades later, this sci-fi landmark still leaves moviegoers questioning human existence.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "A Cosmic Mystery",
+        "text": "When a bizarre black monolith is unearthed on the Moon, a crew sets off toward Jupiter. Their mission companion? HAL 9000, an artificial intelligence with chilling motivations.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      },
+      {
+        "id": "page-3",
+        "badge": "MAN VS MACHINE",
+        "title": "Meet HAL 9000",
+        "text": "Voiced with calm terror by Douglas Rain, HAL proved that a glowing red eye and soft speech could be scarier than any alien monster ever conceived.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Zero CGI Magic",
+        "text": "Kubrick created every dazzling space shot practically. Using rotating sets, front-projection, and meticulous model work, the visual effects earned the film an Academy Award.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE ENIGMA",
+        "title": "The Stargate Climax",
+        "text": "That psychedelic voyage and surreal hotel room ending sparked endless debates. Kubrick intentionally avoided easy answers, trusting viewers to feel rather than decipher the mystery.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      },
+      {
+        "id": "page-6",
+        "badge": "LASTING LEGACY",
+        "title": "Cinema Redefined",
+        "text": "From Star Wars to Interstellar, modern space adventures trace their roots right here. Experience the groundbreaking odyssey that changed Hollywood forever.",
+        "backdrop_index": 5,
+        "cta_text": "Discover More Details",
+        "cta_url": "https://www.themoviedb.org/movie/62"
+      }
+    ],
+    "date_published": "2026-10-22T16:51:04Z",
+    "date_modified": "2026-10-22T16:51:04Z",
+    "published_at": "2026-10-22T16:51:04Z"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: Into the Spider-Verse: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 324857,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "original_title": "Spider-Man: Into the Spider-Verse",
+      "slug": "spider-man-into-the-spider-verse",
+      "media_type": "movie",
+      "release_date": "2018-12-06",
+      "overview": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+      "tagline": "Enter a universe where more than one wears the mask.",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 117,
+      "seasons": null,
+      "vote_average": 8.4,
+      "vote_count": 18053,
+      "category": "theories_easter_eggs",
+      "director": "Bob Persichetti",
+      "top_cast": [
+        "Shameik Moore",
+        "Jake Johnson",
+        "Hailee Steinfeld",
+        "Mahershala Ali",
+        "Brian Tyree Henry",
+        "Lily Tomlin"
+      ],
+      "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+      "backdrop_path": "/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
+      "backdrops": [
+        "/1ntePsIqeklfmrQJqZPncCydsqY.jpg",
+        "/qGQf2OHIkoh89K8XeKQzhxczf96.jpg",
+        "/b9YkKJcW3pPaXgMZu9uoT7v9yRB.jpg",
+        "/hlCq6Qh9GVtuNcGZF4mQYluaZix.jpg",
+        "/8mnXR9rey5uQ08rZAvzojKWbDQS.jpg",
+        "/kJq2u9aSji9gMXFrruIuACnX7nT.jpg",
+        "/oc0zEejZ8OJVQrqBeiBG5Ulp8Cm.jpg",
+        "/e7CE5vx4KqUuz0peKdHRVZB0Pn8.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "text": "Enter a universe where more than one wears the mask. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Shameik Moore, Jake Johnson, Hailee Steinfeld, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Bob Persichetti.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Bob Persichetti",
+        "text": "Filmmaker Bob Persichetti pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man: Into the Spider-Verse? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/324857"
+      }
+    ],
+    "date_published": "2026-10-22T16:51:04Z",
+    "date_modified": "2026-10-22T16:51:04Z",
+    "published_at": "2026-10-22T16:51:04Z"
+  },
+  {
     "title": "Why The Diplomat Is Netflix's Smartest Thriller \ud83c\udfdb\ufe0f\ud83d\udca5",
     "seo_description": "Explore why political thriller The Diplomat starring Keri Russell and Rufus Sewell hooked viewers worldwide with sharp wit and high-stakes intrigue.",
     "movie": {

@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-22T06:00:36.206077+00:00",
-  "total_stories": 217,
+  "generated_at": "2026-10-22T16:52:35.304612+00:00",
+  "total_stories": 221,
   "stories": [
+    {
+      "id": 60059,
+      "slug": "better-call-saul",
+      "title": "Better Call Saul: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/better-call-saul/",
+      "category": "series",
+      "release_date": "2015-02-08",
+      "rating": 8.7
+    },
+    {
+      "id": 445466,
+      "slug": "idiots",
+      "title": "Idiots: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/idiots/",
+      "category": "trending",
+      "release_date": "2026-08-20",
+      "rating": 6.1
+    },
+    {
+      "id": 62,
+      "slug": "2001-a-space-odyssey",
+      "title": "2001: A Space Odyssey \u2013 Secrets of Sci-Fi's Greatest Epic \ud83d\ude80\u2728",
+      "url": "https://cinematicbites.com/stories/2001-a-space-odyssey/",
+      "category": "upcoming",
+      "release_date": "1968-04-02",
+      "rating": 8.0
+    },
+    {
+      "id": 324857,
+      "slug": "spider-man-into-the-spider-verse",
+      "title": "Spider-Man: Into the Spider-Verse: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/spider-man-into-the-spider-verse/",
+      "category": "theories_easter_eggs",
+      "release_date": "2018-12-06",
+      "rating": 8.4
+    },
     {
       "id": 203857,
       "slug": "the-diplomat",

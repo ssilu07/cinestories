@@ -1300,5 +1300,29 @@
     "published_at": "2026-10-22T05:51:14Z",
     "modified_at": "2026-10-22T05:51:14Z",
     "category": "theories_easter_eggs"
+  },
+  "better-call-saul": {
+    "title": "Better Call Saul",
+    "published_at": "2026-10-22T16:51:04Z",
+    "modified_at": "2026-10-22T16:51:04Z",
+    "category": "series"
+  },
+  "idiots": {
+    "title": "Idiots",
+    "published_at": "2026-10-22T16:51:04Z",
+    "modified_at": "2026-10-22T16:51:04Z",
+    "category": "trending"
+  },
+  "2001-a-space-odyssey": {
+    "title": "2001: A Space Odyssey",
+    "published_at": "2026-10-22T16:51:04Z",
+    "modified_at": "2026-10-22T16:51:04Z",
+    "category": "upcoming"
+  },
+  "spider-man-into-the-spider-verse": {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "published_at": "2026-10-22T16:51:04Z",
+    "modified_at": "2026-10-22T16:51:04Z",
+    "category": "theories_easter_eggs"
   }
 }
