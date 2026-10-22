@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/lucifer/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ta5oblpMlEcIPIS2YGcq9XEkWK2.jpg</image:loc>
+      <image:title>Why Lucifer Became Television's Most Irresistible Guilty Pleasure 😈 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-cat-in-the-hat/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg</image:loc>
+      <image:title>The Cat in the Hat: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/monster-mia/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg</image:loc>
+      <image:title>Monster Mia: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/terminator-2-judgment-day/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg</image:loc>
+      <image:title>Why Terminator 2’s Subtlest Details Still Stun Fans 30+ Years Later Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/better-call-saul/</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>daily</changefreq>
@@ -2220,6 +2260,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/lucifer/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ekZobS8isE6mA53RAiGDG93hBxL.jpg</image:loc>
+      <image:title>Lucifer Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-cat-in-the-hat/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/mWN6knIVJ2o7eGwSm7mOgSCwNUc.jpg</image:loc>
+      <image:title>The Cat in the Hat Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/monster-mia/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/yQAczp5MMJs9neodhcm3spv9xtv.jpg</image:loc>
+      <image:title>Monster Mia Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/terminator-2-judgment-day/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/jFTVD4XoWQTcg7wdyJKa8PEds5q.jpg</image:loc>
+      <image:title>Terminator 2: Judgment Day Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

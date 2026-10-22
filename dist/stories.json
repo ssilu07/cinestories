@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-22T16:52:35.304612+00:00",
-  "total_stories": 221,
+  "generated_at": "2026-10-22T23:06:17.221867+00:00",
+  "total_stories": 225,
   "stories": [
+    {
+      "id": 63174,
+      "slug": "lucifer",
+      "title": "Lucifer: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/lucifer/",
+      "category": "series",
+      "release_date": "2016-01-25",
+      "rating": 8.4
+    },
+    {
+      "id": 1117898,
+      "slug": "the-cat-in-the-hat",
+      "title": "The Cat in the Hat: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-cat-in-the-hat/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 0.0
+    },
+    {
+      "id": 1572116,
+      "slug": "monster-mia",
+      "title": "Monster Mia: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/monster-mia/",
+      "category": "upcoming",
+      "release_date": "2026-09-03",
+      "rating": 8.9
+    },
+    {
+      "id": 280,
+      "slug": "terminator-2-judgment-day",
+      "title": "Terminator 2: Judgment Day: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/terminator-2-judgment-day/",
+      "category": "theories_easter_eggs",
+      "release_date": "1991-07-03",
+      "rating": 8.2
+    },
     {
       "id": 60059,
       "slug": "better-call-saul",

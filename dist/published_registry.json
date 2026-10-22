@@ -1324,5 +1324,29 @@
     "published_at": "2026-10-22T16:51:04Z",
     "modified_at": "2026-10-22T16:51:04Z",
     "category": "theories_easter_eggs"
+  },
+  "lucifer": {
+    "title": "Lucifer",
+    "published_at": "2026-10-22T23:02:58Z",
+    "modified_at": "2026-10-22T23:02:58Z",
+    "category": "series"
+  },
+  "the-cat-in-the-hat": {
+    "title": "The Cat in the Hat",
+    "published_at": "2026-10-22T23:02:58Z",
+    "modified_at": "2026-10-22T23:02:58Z",
+    "category": "trending"
+  },
+  "monster-mia": {
+    "title": "Monster Mia",
+    "published_at": "2026-10-22T23:02:58Z",
+    "modified_at": "2026-10-22T23:02:58Z",
+    "category": "upcoming"
+  },
+  "terminator-2-judgment-day": {
+    "title": "Terminator 2: Judgment Day",
+    "published_at": "2026-10-22T23:02:58Z",
+    "modified_at": "2026-10-22T23:02:58Z",
+    "category": "theories_easter_eggs"
   }
 }
