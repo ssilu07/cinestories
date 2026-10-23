@@ -1420,5 +1420,29 @@
     "published_at": "2026-10-23T16:42:22Z",
     "modified_at": "2026-10-23T16:42:22Z",
     "category": "theories_easter_eggs"
+  },
+  "my-little-pony-friendship-is-magic": {
+    "title": "My Little Pony: Friendship Is Magic",
+    "published_at": "2026-10-23T22:57:34Z",
+    "modified_at": "2026-10-23T22:57:34Z",
+    "category": "series"
+  },
+  "gajab-raat": {
+    "title": "Gajab Raat",
+    "published_at": "2026-10-23T22:57:34Z",
+    "modified_at": "2026-10-23T22:57:34Z",
+    "category": "trending"
+  },
+  "vampire-carnival": {
+    "title": "Vampire Carnival",
+    "published_at": "2026-10-23T22:57:34Z",
+    "modified_at": "2026-10-23T22:57:34Z",
+    "category": "upcoming"
+  },
+  "thunderbolts": {
+    "title": "Thunderbolts*",
+    "published_at": "2026-10-23T22:57:34Z",
+    "modified_at": "2026-10-23T22:57:34Z",
+    "category": "theories_easter_eggs"
   }
 }

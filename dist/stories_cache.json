@@ -1,5 +1,404 @@
 [
   {
+    "title": "My Little Pony: Friendship Is Magic: The Untold Story & Secrets",
+    "seo_description": "Discover My Little Pony: Friendship Is Magic: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 33765,
+      "title": "My Little Pony: Friendship Is Magic",
+      "original_title": "My Little Pony: Friendship Is Magic",
+      "slug": "my-little-pony-friendship-is-magic",
+      "media_type": "tv",
+      "release_date": "2010-10-10",
+      "overview": "Journey to the enchanted land of Equestria, where unicorn Twilight Sparkle and her pals have adventures and learn valuable lessons about friendship.",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Sci-Fi & Fantasy",
+        "Kids"
+      ],
+      "runtime": 22,
+      "seasons": 9,
+      "vote_average": 8.2,
+      "vote_count": 782,
+      "category": "series",
+      "director": "Lauren Faust (Creator)",
+      "top_cast": [
+        "Tara Strong",
+        "Ashleigh Ball",
+        "Andrea Libman",
+        "Tabitha St. Germain",
+        "Cathy Weseluck",
+        "Nicole Oliver"
+      ],
+      "poster_path": "/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg",
+      "backdrop_path": "/gOyIKp7adMCzFrYjc5rxmt2PNhi.jpg",
+      "backdrops": [
+        "/gOyIKp7adMCzFrYjc5rxmt2PNhi.jpg",
+        "/9CDv67ZGopG57I5kBrdUQf0yJKm.jpg",
+        "/pFwj45K4xTcjaQzVksraJfSn2gz.jpg",
+        "/v7QYuCGzbXgUDqbr4z7PTigtu6C.jpg",
+        "/f8suwmcabeTAq8GO9RzK1eUBxMc.jpg",
+        "/omL3sd4bctdEmA8aqj1zlBqRZHS.jpg",
+        "/4jByGZlYpRpvSSJDZWRa6hAQU2p.jpg",
+        "/aXVy9weAnAsZ2ymjVkTe3ag323N.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "My Little Pony: Friendship Is Magic",
+        "text": "Experience the global phenomenon of My Little Pony: Friendship Is Magic. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Journey to the enchanted land of Equestria, where unicorn Twilight Sparkle and her pals have adventures and learn valuable lessons about friendship.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tara Strong, Ashleigh Ball, Andrea Libman, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Lauren Faust (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Lauren Faust (Creator)",
+        "text": "Filmmaker Lauren Faust (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into My Little Pony: Friendship Is Magic? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/33765"
+      }
+    ],
+    "date_published": "2026-10-23T22:57:34Z",
+    "date_modified": "2026-10-23T22:57:34Z",
+    "published_at": "2026-10-23T22:57:34Z"
+  },
+  {
+    "title": "Gajab Raat: Manoj Bajpayee\u2019s Darkest Crime Thriller Yet? \ud83d\udea8\ud83c\udfac",
+    "seo_description": "Manoj Bajpayee stars in Gajab Raat, an intense crime thriller tracking one chaotic night of corruption and danger. Here is what to expect.",
+    "movie": {
+      "id": 1453407,
+      "title": "Gajab Raat",
+      "original_title": "\u0917\u093c\u091c\u093c\u092c \u0930\u093e\u0924",
+      "slug": "gajab-raat",
+      "media_type": "movie",
+      "release_date": "2026-10-23",
+      "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+      "tagline": "",
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 123,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Ritesh Shah",
+      "top_cast": [
+        "Manoj Bajpayee",
+        "Nushrratt Bharuccha",
+        "Saqib Saleem",
+        "Divya Dutta",
+        "Kiku Sharda",
+        "Shraddha Das"
+      ],
+      "poster_path": "/lbxsAJpf5dajPkEjsMWKNWfgaI5.jpg",
+      "backdrop_path": "/cdcW8GeAyBLPVBhTbOoTlBywNtp.jpg",
+      "backdrops": [
+        "/cdcW8GeAyBLPVBhTbOoTlBywNtp.jpg",
+        "/sAyBUF97N31WGGFPXDGE8XAOhUL.jpg",
+        "/vbc5FyBHMlBq8y6xWmMNjd84g84.jpg",
+        "/fjYFlM7tF8a0QV3lrdivTeae22k.jpg",
+        "/33PHTsQhWkaBa7XFZPu99qBUxvL.jpg",
+        "/xNKiiYD6yDqIezkbgMr3ZBcWqQ2.jpg",
+        "/6FTINdLWFCaMujYWjwdNQVcQIio.jpg",
+        "/mH2V69GwBb8OoKgnL5pIP8g6eox.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "One Fatal Night Begins",
+        "text": "A corrupt officer makes one unexpected choice that sparks absolute chaos. Manoj Bajpayee returns in Gajab Raat for a gritty, relentless nocturnal ride.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Mercy Turns Deadly",
+        "text": "When an ethically compromised cop helps an injured young girl, he walks straight into a perilous criminal web. One misstep triggers an uncontrollable downward spiral.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      },
+      {
+        "id": "page-3",
+        "badge": "POWERHOUSE CAST",
+        "title": "Stellar Ensemble Assembled",
+        "text": "Manoj Bajpayee leads alongside Nushrratt Bharuccha, Saqib Saleem, and Divya Dutta. This fierce dynamic brings intense drama to every twist of the clock.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Ritesh Shah at the Helm",
+        "text": "Acclaimed screenwriter Ritesh Shah directs this tense 123-minute thriller, packing raw realism, unpredictable turns, and moral ambiguity into every single minute.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      },
+      {
+        "id": "page-5",
+        "badge": "HIGH ANTICIPATION",
+        "title": "Noir Thrills Await",
+        "text": "Fans of relentless crime dramas are buzzing over Bajpayee's morally fractured lawman. With tension escalating in real time, expectations are soaring through the roof.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Track Gajab Raat Updates",
+        "text": "Set for a pulse-pounding premiere, Gajab Raat promises gritty action and unmatched tension. Stay tuned for official teasers, trailers, and release news!",
+        "backdrop_index": 5,
+        "cta_text": "Learn More on TMDB",
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      }
+    ],
+    "date_published": "2026-10-23T22:57:34Z",
+    "date_modified": "2026-10-23T22:57:34Z",
+    "published_at": "2026-10-23T22:57:34Z"
+  },
+  {
+    "title": "Vampire Carnival: Jason Isaacs' Dark Horror Romance \ud83c\udfaa\ud83e\ude78",
+    "seo_description": "Jason Isaacs and Nell Verlaque star in Vampire Carnival, an upcoming gothic horror romance arriving in theaters October 2026.",
+    "movie": {
+      "id": 1634905,
+      "title": "Vampire Carnival",
+      "original_title": "Vampire Carnival",
+      "slug": "vampire-carnival",
+      "media_type": "movie",
+      "release_date": "2026-10-07",
+      "overview": "When a grief-stricken young woman visits a mysterious, traveling carnival in her small town, she becomes seduced into a dangerous world of pleasure and deception.",
+      "tagline": "",
+      "genres": [
+        "Horror",
+        "Romance"
+      ],
+      "runtime": 0,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "upcoming",
+      "director": "Justin Powell",
+      "top_cast": [
+        "Nell Verlaque",
+        "Jason Isaacs",
+        "Paulina Ch\u00e1vez",
+        "Kieron Moore",
+        "Eoin Macken",
+        "Alicia Sanz"
+      ],
+      "poster_path": "/ihxByv2GHUxz7g82mhVlYp9pCj3.jpg",
+      "backdrop_path": "/qlI7haUeRut1fJFuB1YITNWkmCy.jpg",
+      "backdrops": [
+        "/qlI7haUeRut1fJFuB1YITNWkmCy.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "A Sinister Seduction",
+        "text": "Prepare for a spine-chilling fusion of romance and gothic terror. Vampire Carnival brings dark carnival lore to life with a star-studded ensemble cast.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1634905"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Into the Shadows",
+        "text": "Mourning a deep loss, a young woman steps inside a visiting midnight carnival. What begins as curiosity swiftly unravels into a thrilling trap of pleasure and danger.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1634905"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "An Electrifying Cast",
+        "text": "Scream icon Nell Verlaque stars alongside veteran Jason Isaacs, Paulina Ch\u00e1vez, and Kieron Moore for an alluring, high-stakes clash of fangs and desire.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1634905"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Justin Powell Directs",
+        "text": "Director Justin Powell crafts an eerie, stylized nightmare that blends classic blood-soaked folklore with modern psychological suspense.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1634905"
+      },
+      {
+        "id": "page-5",
+        "badge": "SAVE THE DATE",
+        "title": "Arriving October 2026",
+        "text": "Targeting an October 7, 2026 release, Vampire Carnival is poised to rule the Halloween season. Ready to step inside the big top?",
+        "backdrop_index": 0,
+        "cta_text": "Track Vampire Carnival",
+        "cta_url": "https://www.themoviedb.org/movie/1634905"
+      }
+    ],
+    "date_published": "2026-10-23T22:57:34Z",
+    "date_modified": "2026-10-23T22:57:34Z",
+    "published_at": "2026-10-23T22:57:34Z"
+  },
+  {
+    "title": "Thunderbolts*: The Untold Story & Secrets",
+    "seo_description": "Discover Thunderbolts*: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 986056,
+      "title": "Thunderbolts*",
+      "original_title": "Thunderbolts*",
+      "slug": "thunderbolts",
+      "media_type": "movie",
+      "release_date": "2025-04-30",
+      "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+      "tagline": "Everyone deserves a second shot.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 127,
+      "seasons": null,
+      "vote_average": 7.3,
+      "vote_count": 4218,
+      "category": "theories_easter_eggs",
+      "director": "Jake Schreier",
+      "top_cast": [
+        "Florence Pugh",
+        "Sebastian Stan",
+        "Julia Louis-Dreyfus",
+        "Lewis Pullman",
+        "David Harbour",
+        "Wyatt Russell"
+      ],
+      "poster_path": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
+      "backdrop_path": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+      "backdrops": [
+        "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+        "/wSdWEc1G3OUWg8HAzNLqOZ9Gd43.jpg",
+        "/jYCyTdPfgT01IOJWDnnetr9RDX6.jpg",
+        "/dA3bM1H6aythAMCEfVJKPf5AyWb.jpg",
+        "/o74jujryamQ0Woyi9ekXfmdJ5P1.jpg",
+        "/x5TDIFuNlYaESI7R3KjlbDesIqV.jpg",
+        "/nACHaepaCBPRhfqlt99D7DjvBH5.jpg",
+        "/bGU4dm3IKO4ciuOLVEXz5qxCDmA.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Thunderbolts*",
+        "text": "Everyone deserves a second shot. Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Florence Pugh, Sebastian Stan, Julia Louis-Dreyfus, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jake Schreier.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jake Schreier",
+        "text": "Filmmaker Jake Schreier pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.3/10 on TMDB",
+        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Thunderbolts*? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/986056"
+      }
+    ],
+    "date_published": "2026-10-23T22:57:34Z",
+    "date_modified": "2026-10-23T22:57:34Z",
+    "published_at": "2026-10-23T22:57:34Z"
+  },
+  {
     "title": "Vikings: The Untold Story & Secrets",
     "seo_description": "Discover Vikings: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
