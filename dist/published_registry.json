@@ -1348,5 +1348,29 @@
     "published_at": "2026-10-22T23:02:58Z",
     "modified_at": "2026-10-22T23:02:58Z",
     "category": "theories_easter_eggs"
+  },
+  "ninjago-masters-of-spinjitzu": {
+    "title": "Ninjago: Masters of Spinjitzu",
+    "published_at": "2026-10-23T04:55:41Z",
+    "modified_at": "2026-10-23T04:55:41Z",
+    "category": "series"
+  },
+  "v": {
+    "title": "V",
+    "published_at": "2026-10-23T04:55:41Z",
+    "modified_at": "2026-10-23T04:55:41Z",
+    "category": "trending"
+  },
+  "rolling-loud-the-movie": {
+    "title": "Rolling Loud: The Movie",
+    "published_at": "2026-10-23T04:55:41Z",
+    "modified_at": "2026-10-23T04:55:41Z",
+    "category": "upcoming"
+  },
+  "captain-america-civil-war": {
+    "title": "Captain America: Civil War",
+    "published_at": "2026-10-23T04:55:41Z",
+    "modified_at": "2026-10-23T04:55:41Z",
+    "category": "theories_easter_eggs"
   }
 }

@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-22T23:06:17.221867+00:00",
-  "total_stories": 225,
+  "generated_at": "2026-10-23T04:57:02.205259+00:00",
+  "total_stories": 229,
   "stories": [
+    {
+      "id": 38693,
+      "slug": "ninjago-masters-of-spinjitzu",
+      "title": "Ninjago: Masters of Spinjitzu - 6 Secrets Behind the Hit \u26a1\ud83e\udd4b",
+      "url": "https://cinematicbites.com/stories/ninjago-masters-of-spinjitzu/",
+      "category": "series",
+      "release_date": "2012-01-11",
+      "rating": 8.0
+    },
+    {
+      "id": 1567937,
+      "slug": "v",
+      "title": "Inside 'V': The 1990s Crime Epic Starring Cinema Legends \ud83c\udfac\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/v/",
+      "category": "trending",
+      "release_date": "2026-08-19",
+      "rating": 6.3
+    },
+    {
+      "id": 1336166,
+      "slug": "rolling-loud-the-movie",
+      "title": "Rolling Loud: The Movie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/rolling-loud-the-movie/",
+      "category": "upcoming",
+      "release_date": "2026-10-02",
+      "rating": 8.0
+    },
+    {
+      "id": 271110,
+      "slug": "captain-america-civil-war",
+      "title": "Captain America: Civil War: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/captain-america-civil-war/",
+      "category": "theories_easter_eggs",
+      "release_date": "2016-04-27",
+      "rating": 7.5
+    },
     {
       "id": 63174,
       "slug": "lucifer",
