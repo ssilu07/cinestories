@@ -40,7 +40,7 @@
     --primary-glow: rgba(225, 29, 72, 0.4);
     --gold: #f59e0b;
     --bg-dark: #090b10;
-    --card-bg: rgba(10, 14, 23, 0.85);
+    --card-bg: rgba(10, 14, 23, 0.88);
     --border-subtle: rgba(255, 255, 255, 0.14);
     --text-main: #ffffff;
     --text-muted: #cbd5e1;
@@ -60,10 +60,11 @@
     bottom: 0;
     background: linear-gradient(
       180deg,
-      rgba(9, 11, 16, 0.6) 0%,
-      rgba(9, 11, 16, 0.05) 25%,
-      rgba(9, 11, 16, 0.45) 55%,
-      rgba(9, 11, 16, 0.85) 80%,
+      rgba(9, 11, 16, 0.65) 0%,
+      rgba(9, 11, 16, 0.15) 18%,
+      rgba(9, 11, 16, 0.0) 35%,
+      rgba(9, 11, 16, 0.3) 55%,
+      rgba(9, 11, 16, 0.82) 78%,
       rgba(9, 11, 16, 0.98) 100%
     );
     pointer-events: none;
@@ -78,9 +79,12 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: max(30px, env(safe-area-inset-top, 30px)) 16px max(24px, env(safe-area-inset-bottom, 24px));
+    padding: max(26px, env(safe-area-inset-top, 26px)) clamp(10px, 3.5vw, 18px) max(18px, env(safe-area-inset-bottom, 18px));
     box-sizing: border-box;
     pointer-events: none;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
   }
   .final-slide-wrapper {
     padding-bottom: max(78px, calc(env(safe-area-inset-bottom, 0px) + 78px));
@@ -91,126 +95,162 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: auto;
-    padding-right: 48px;
+    padding-right: 44px;
     box-sizing: border-box;
     z-index: 10;
     pointer-events: auto;
+    gap: 8px;
   }
   .story-close-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    background: rgba(9, 11, 16, 0.82);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    gap: 5px;
+    background: rgba(9, 11, 16, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.28);
     color: #ffffff;
-    padding: 7px 14px 7px 10px;
+    padding: 6px 12px 6px 9px;
     border-radius: 999px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: clamp(11.5px, 2.8vw, 13px);
     font-weight: 700;
     letter-spacing: 0.3px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+    flex-shrink: 0;
   }
   .story-close-btn svg {
     color: #fda4af;
+    flex-shrink: 0;
   }
   .story-brand-badge {
-    font-size: 11px;
+    font-size: clamp(9.5px, 2.4vw, 11px);
     font-weight: 700;
     color: #fbbf24;
-    background: rgba(9, 11, 16, 0.75);
-    padding: 5px 12px;
+    background: rgba(9, 11, 16, 0.78);
+    padding: 4px 10px;
     border-radius: 999px;
     border: 1px solid rgba(251, 191, 36, 0.3);
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
   .content-card {
     background: var(--card-bg);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border: 1px solid var(--border-subtle);
-    border-radius: 20px;
-    padding: 20px 18px;
+    border-radius: clamp(14px, 3.8vw, 20px);
+    padding: clamp(12px, 3.2vw, 18px) clamp(12px, 3.2vw, 18px);
     box-shadow: 0 16px 36px rgba(0, 0, 0, 0.65);
     margin-top: auto;
     pointer-events: auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 48%;
+    overflow: hidden;
   }
   .final-nav-row {
-    margin-top: 14px;
-    padding-top: 12px;
+    margin-top: clamp(8px, 1.8vw, 12px);
+    padding-top: clamp(6px, 1.5vw, 10px);
     border-top: 1px solid rgba(255, 255, 255, 0.12);
   }
   .btn-return-home {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     color: #38bdf8;
     text-decoration: none;
-    font-size: 13px;
+    font-size: clamp(11.5px, 2.8vw, 13px);
     font-weight: 700;
+  }
+  .badge-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: clamp(6px, 1.8vw, 10px);
   }
   .badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background: linear-gradient(135deg, var(--primary) 0%, var(--gold) 100%);
     color: #ffffff;
-    font-size: 11px;
+    font-size: clamp(9px, 2.3vw, 10.5px);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    padding: 4px 12px;
+    letter-spacing: clamp(0.5px, 0.2vw, 1.2px);
+    padding: 3px clamp(7px, 1.8vw, 11px);
     border-radius: 999px;
-    margin-bottom: 12px;
+    margin-bottom: 0;
+    white-space: nowrap;
   }
   .category-pill {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     background: rgba(255, 255, 255, 0.15);
     color: #f1f5f9;
-    font-size: 10px;
+    font-size: clamp(8.5px, 2.1vw, 10px);
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 3px 8px;
+    letter-spacing: 0.8px;
+    padding: 2.5px 7px;
     border-radius: 6px;
-    margin-left: 6px;
+    margin-left: 0;
     vertical-align: middle;
+    white-space: nowrap;
   }
   .slide-title {
-    font-size: clamp(19px, 4.8vw, 24px);
+    font-size: clamp(17px, 4.6vw, 23px);
     font-weight: 800;
     line-height: 1.25;
-    margin: 0 0 10px 0;
+    margin: 0 0 clamp(6px, 1.8vw, 10px) 0;
     color: #ffffff;
     letter-spacing: -0.3px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
   }
   .cover-title {
-    font-size: clamp(22px, 5.5vw, 28px);
+    font-size: clamp(20px, 5.2vw, 27px);
     font-weight: 900;
-    line-height: 1.15;
-    margin: 0 0 10px 0;
+    line-height: 1.18;
+    margin: 0 0 clamp(6px, 1.8vw, 10px) 0;
     color: #ffffff;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
   }
   .slide-text {
-    font-size: clamp(13.5px, 3.4vw, 15px);
-    line-height: 1.48;
+    font-size: clamp(12.5px, 3.2vw, 14.5px);
+    line-height: 1.45;
     color: var(--text-muted);
-    margin: 0 0 12px 0;
+    margin: 0 0 clamp(8px, 2vw, 12px) 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .meta-chips {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
+    gap: clamp(4px, 1.4vw, 7px);
+    margin-top: clamp(6px, 1.5vw, 10px);
   }
   .chip {
-    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    font-size: clamp(9.5px, 2.4vw, 11px);
     font-weight: 600;
     color: #e2e8f0;
     background: rgba(255, 255, 255, 0.1);
-    padding: 4px 10px;
-    border-radius: 8px;
+    padding: 3px clamp(6px, 1.6vw, 9px);
+    border-radius: 7px;
     border: 1px solid rgba(255, 255, 255, 0.08);
+    white-space: nowrap;
   }
   .chip-rating {
     background: rgba(245, 158, 11, 0.2);
@@ -219,37 +259,75 @@
   }
   .pulse-indicator {
     display: inline-block;
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: var(--primary);
-    margin-right: 6px;
+    margin-right: 5px;
     vertical-align: middle;
+  }
+  @media (max-width: 350px) {
+    .content-wrapper {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .content-card {
+      padding: 10px 10px;
+      border-radius: 12px;
+    }
+    .story-top-bar {
+      padding-right: 32px;
+    }
+    .story-close-btn span {
+      display: none;
+    }
+    .story-close-btn {
+      padding: 6px;
+      border-radius: 50%;
+    }
   }
   @media (max-height: 680px) {
     .content-wrapper {
-      padding-top: max(24px, env(safe-area-inset-top, 24px));
-      padding-bottom: max(16px, env(safe-area-inset-bottom, 16px));
+      padding-top: max(22px, env(safe-area-inset-top, 22px));
+      padding-bottom: max(14px, env(safe-area-inset-bottom, 14px));
     }
     .final-slide-wrapper {
       padding-bottom: max(68px, calc(env(safe-area-inset-bottom, 0px) + 68px));
     }
     .content-card {
-      padding: 16px 14px;
-      border-radius: 16px;
+      padding: 10px 12px;
+      border-radius: 14px;
     }
     .cover-title {
-      font-size: 21px;
-      margin-bottom: 6px;
+      font-size: 19px;
+      margin-bottom: 4px;
     }
     .slide-title {
-      font-size: 18px;
-      margin-bottom: 6px;
+      font-size: 16px;
+      margin-bottom: 4px;
     }
     .slide-text {
-      font-size: 13px;
-      line-height: 1.4;
-      margin-bottom: 8px;
+      font-size: 12px;
+      line-height: 1.35;
+      -webkit-line-clamp: 2;
+      margin-bottom: 6px;
+    }
+    .badge {
+      font-size: 9px;
+      padding: 2px 7px;
+    }
+    .meta-chips {
+      gap: 4px;
+      margin-top: 5px;
+    }
+    .chip {
+      padding: 2px 6px;
+      font-size: 9.5px;
+    }
+  }
+  @media (min-height: 800px) {
+    .slide-text {
+      -webkit-line-clamp: 4;
     }
   }
 
@@ -329,7 +407,7 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <div>
+                    <div class="badge-row">
                       <span class="badge"><span class="pulse-indicator"></span>🔥 BINGE PHENOMENON</span>
                       <span class="category-pill">series</span>
                     </div>
@@ -364,7 +442,9 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <span class="badge">THE MASTERMIND PLOT</span>
+                    <div class="badge-row">
+                      <span class="badge">THE MASTERMIND PLOT</span>
+                    </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Shocking Twist Ahead</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Ted Lasso, an American football coach, moves to England when he&#x27;s hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the...</p>
                     
@@ -392,7 +472,9 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <span class="badge">STAR POWER</span>
+                    <div class="badge-row">
+                      <span class="badge">STAR POWER</span>
+                    </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Powerhouse Ensemble</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Led by Jason Sudeikis, Hannah Waddingham, Jeremy Swift, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator).</p>
                     <div class="meta-chips"><span class="chip">👤 Jason Sudeikis</span><span class="chip">👤 Hannah Waddingham</span><span class="chip">👤 Jeremy Swift</span></div>
@@ -420,7 +502,9 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <span class="badge">BEHIND THE LENS</span>
+                    <div class="badge-row">
+                      <span class="badge">BEHIND THE LENS</span>
+                    </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Directed by Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator)</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Filmmaker Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.</p>
                     
@@ -448,7 +532,9 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <span class="badge">AUDIENCE REACTION</span>
+                    <div class="badge-row">
+                      <span class="badge">AUDIENCE REACTION</span>
+                    </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Rated 8.4/10 on TMDB</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">With an impressive 8.4/10 community score, fans and critics hail it as one of the year&#x27;s standout theatrical events.</p>
                     
@@ -476,7 +562,9 @@
                   </div>
         
                   <div class="content-card" animate-in="fade-in">
-                    <span class="badge">YOUR TICKET</span>
+                    <div class="badge-row">
+                      <span class="badge">YOUR TICKET</span>
+                    </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Catch It On The Big Screen</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Ready to dive into Ted Lasso? Discover showtimes, official trailers, and cast interviews today.</p>
                     <div class="meta-chips">
