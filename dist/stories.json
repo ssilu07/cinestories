@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-23T04:57:02.205259+00:00",
-  "total_stories": 229,
+  "generated_at": "2026-10-23T05:50:44.758109+00:00",
+  "total_stories": 233,
   "stories": [
+    {
+      "id": 56570,
+      "slug": "outlander",
+      "title": "Outlander: Why Fans Are Still Obsessed \u23f3\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "url": "https://cinematicbites.com/stories/outlander/",
+      "category": "series",
+      "release_date": "2014-08-09",
+      "rating": 8.2
+    },
+    {
+      "id": 1563627,
+      "slug": "a-better-jianghu",
+      "title": "A Better Jianghu: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/a-better-jianghu/",
+      "category": "trending",
+      "release_date": "2026-09-27",
+      "rating": 6.5
+    },
+    {
+      "id": 1340206,
+      "slug": "tuner",
+      "title": "Tuner: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/tuner/",
+      "category": "upcoming",
+      "release_date": "2026-05-21",
+      "rating": 7.6
+    },
+    {
+      "id": 61791,
+      "slug": "rise-of-the-planet-of-the-apes",
+      "title": "Rise of the Planet of the Apes: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/rise-of-the-planet-of-the-apes/",
+      "category": "theories_easter_eggs",
+      "release_date": "2011-08-03",
+      "rating": 7.4
+    },
     {
       "id": 38693,
       "slug": "ninjago-masters-of-spinjitzu",

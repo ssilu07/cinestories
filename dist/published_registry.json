@@ -1372,5 +1372,29 @@
     "published_at": "2026-10-23T04:55:41Z",
     "modified_at": "2026-10-23T04:55:41Z",
     "category": "theories_easter_eggs"
+  },
+  "outlander": {
+    "title": "Outlander",
+    "published_at": "2026-10-23T05:49:41Z",
+    "modified_at": "2026-10-23T05:49:41Z",
+    "category": "series"
+  },
+  "a-better-jianghu": {
+    "title": "A Better Jianghu",
+    "published_at": "2026-10-23T05:49:41Z",
+    "modified_at": "2026-10-23T05:49:41Z",
+    "category": "trending"
+  },
+  "tuner": {
+    "title": "Tuner",
+    "published_at": "2026-10-23T05:49:41Z",
+    "modified_at": "2026-10-23T05:49:41Z",
+    "category": "upcoming"
+  },
+  "rise-of-the-planet-of-the-apes": {
+    "title": "Rise of the Planet of the Apes",
+    "published_at": "2026-10-23T05:49:41Z",
+    "modified_at": "2026-10-23T05:49:41Z",
+    "category": "theories_easter_eggs"
   }
 }
