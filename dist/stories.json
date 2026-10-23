@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-23T05:50:44.758109+00:00",
-  "total_stories": 233,
+  "generated_at": "2026-10-23T16:50:08.166101+00:00",
+  "total_stories": 237,
   "stories": [
+    {
+      "id": 44217,
+      "slug": "vikings",
+      "title": "Vikings: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/vikings/",
+      "category": "series",
+      "release_date": "2013-03-03",
+      "rating": 8.1
+    },
+    {
+      "id": 1780005,
+      "slug": "surviving-hurricane-otis",
+      "title": "Surviving Hurricane Otis: Inside the Terrifying Epic \ud83c\udf0a\u26a1",
+      "url": "https://cinematicbites.com/stories/surviving-hurricane-otis/",
+      "category": "trending",
+      "release_date": "2026-10-23",
+      "rating": 0.0
+    },
+    {
+      "id": 1185344,
+      "slug": "the-beast",
+      "title": "The Beast: Samuel L. Jackson Unleashes Presidential Chaos \ud83d\udca5 Presidenti",
+      "url": "https://cinematicbites.com/stories/the-beast/",
+      "category": "upcoming",
+      "release_date": "2026-10-08",
+      "rating": 5.7
+    },
+    {
+      "id": 667538,
+      "slug": "transformers-rise-of-the-beasts",
+      "title": "Transformers: Rise of the Beasts: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/transformers-rise-of-the-beasts/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-06-06",
+      "rating": 7.2
+    },
     {
       "id": 56570,
       "slug": "outlander",
