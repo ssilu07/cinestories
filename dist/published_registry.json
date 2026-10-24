@@ -1492,5 +1492,29 @@
     "published_at": "2026-10-24T15:35:52Z",
     "modified_at": "2026-10-24T15:35:52Z",
     "category": "theories_easter_eggs"
+  },
+  "where-the-mask-ends": {
+    "title": "Where the Mask Ends",
+    "published_at": "2026-10-24T22:18:12Z",
+    "modified_at": "2026-10-24T22:18:12Z",
+    "category": "series"
+  },
+  "love-language": {
+    "title": "Love Language",
+    "published_at": "2026-10-24T22:18:12Z",
+    "modified_at": "2026-10-24T22:18:12Z",
+    "category": "trending"
+  },
+  "the-shining": {
+    "title": "The Shining",
+    "published_at": "2026-10-24T22:18:12Z",
+    "modified_at": "2026-10-24T22:18:12Z",
+    "category": "upcoming"
+  },
+  "godzilla-minus-one": {
+    "title": "Godzilla Minus One",
+    "published_at": "2026-10-24T22:18:12Z",
+    "modified_at": "2026-10-24T22:18:12Z",
+    "category": "theories_easter_eggs"
   }
 }
