@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-24T05:37:09.641874+00:00",
-  "total_stories": 245,
+  "generated_at": "2026-10-24T15:40:07.948784+00:00",
+  "total_stories": 249,
   "stories": [
+    {
+      "id": 96677,
+      "slug": "lupin",
+      "title": "Lupin: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/lupin/",
+      "category": "series",
+      "release_date": "2021-01-08",
+      "rating": 7.7
+    },
+    {
+      "id": 1477104,
+      "slug": "shaun-the-sheep-the-beast-of-mossy-bottom",
+      "title": "Shaun the Sheep's Spooky Sci-Fi Twist! \ud83d\udc11\ud83c\udf83",
+      "url": "https://cinematicbites.com/stories/shaun-the-sheep-the-beast-of-mossy-bottom/",
+      "category": "trending",
+      "release_date": "2026-09-17",
+      "rating": 7.4
+    },
+    {
+      "id": 1401459,
+      "slug": "fjord",
+      "title": "Fjord: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/fjord/",
+      "category": "upcoming",
+      "release_date": "2026-06-13",
+      "rating": 7.2
+    },
+    {
+      "id": 284053,
+      "slug": "thor-ragnarok",
+      "title": "Thor: Ragnarok: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/thor-ragnarok/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-10-24",
+      "rating": 7.6
+    },
     {
       "id": 688,
       "slug": "the-west-wing",

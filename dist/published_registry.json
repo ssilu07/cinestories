@@ -1468,5 +1468,29 @@
     "published_at": "2026-10-24T05:31:24Z",
     "modified_at": "2026-10-24T05:31:24Z",
     "category": "theories_easter_eggs"
+  },
+  "lupin": {
+    "title": "Lupin",
+    "published_at": "2026-10-24T15:35:52Z",
+    "modified_at": "2026-10-24T15:35:52Z",
+    "category": "series"
+  },
+  "shaun-the-sheep-the-beast-of-mossy-bottom": {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "published_at": "2026-10-24T15:35:52Z",
+    "modified_at": "2026-10-24T15:35:52Z",
+    "category": "trending"
+  },
+  "fjord": {
+    "title": "Fjord",
+    "published_at": "2026-10-24T15:35:52Z",
+    "modified_at": "2026-10-24T15:35:52Z",
+    "category": "upcoming"
+  },
+  "thor-ragnarok": {
+    "title": "Thor: Ragnarok",
+    "published_at": "2026-10-24T15:35:52Z",
+    "modified_at": "2026-10-24T15:35:52Z",
+    "category": "theories_easter_eggs"
   }
 }

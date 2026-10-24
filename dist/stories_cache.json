@@ -1,5 +1,415 @@
 [
   {
+    "title": "Lupin: The Untold Story & Secrets",
+    "seo_description": "Discover Lupin: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 96677,
+      "title": "Lupin",
+      "original_title": "Lupin",
+      "slug": "lupin",
+      "media_type": "tv",
+      "release_date": "2021-01-08",
+      "overview": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+      "tagline": "Two Lupins. One too many.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 3,
+      "vote_average": 7.7,
+      "vote_count": 2706,
+      "category": "series",
+      "director": "George Kay, Fran\u00e7ois Uzan, Marie Roussin, Florent Meyer, Tigran Rosine (Creator)",
+      "top_cast": [
+        "Omar Sy"
+      ],
+      "poster_path": "/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+      "backdrop_path": "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+      "backdrops": [
+        "/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg",
+        "/cIWgxOpIGFozpcDOAhdvegWp2A9.jpg",
+        "/kB5JAdCOF7p4G0799OXARy8l70W.jpg",
+        "/9JcBVJO5wXbja2JD8XESnJ1Kify.jpg",
+        "/jgAZYiuRV37pCxmhx8NTdhE36RL.jpg",
+        "/IONmheNL3iMogzOYX0PYlpmkxA.jpg",
+        "/dVHeJXUzHJJGadB2wvpuAn6fsdN.jpg",
+        "/surX2URjLlZZ6fmkTFs0EFIUV2H.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Lupin",
+        "text": "Two Lupins. One too many. Rated 7.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Inspired by the adventures of Ars\u00e8ne Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Omar Sy, the film boasts phenomenal on-screen chemistry and career-defining performances directed by George Kay, Fran\u00e7ois Uzan, Marie Roussin, Florent Meyer, Tigran Rosine (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by George Kay, Fran\u00e7ois Uzan, Marie Roussin, Florent Meyer, Tigran Rosine (Creator)",
+        "text": "Filmmaker George Kay, Fran\u00e7ois Uzan, Marie Roussin, Florent Meyer, Tigran Rosine (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.7/10 on TMDB",
+        "text": "With an impressive 7.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Lupin? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/96677"
+      }
+    ],
+    "date_published": "2026-10-24T15:35:52Z",
+    "date_modified": "2026-10-24T15:35:52Z",
+    "published_at": "2026-10-24T15:35:52Z"
+  },
+  {
+    "title": "Shaun the Sheep's Spooky Sci-Fi Twist! \ud83d\udc11\ud83c\udf83",
+    "seo_description": "Shaun the Sheep faces a wild Halloween creature! Check out the sci-fi chaos and spooky fun coming to Mossy Bottom Farm.",
+    "movie": {
+      "id": 1477104,
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "slug": "shaun-the-sheep-the-beast-of-mossy-bottom",
+      "media_type": "movie",
+      "release_date": "2026-09-17",
+      "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+      "tagline": "What's that coming over the hill?",
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "runtime": 81,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 31,
+      "category": "trending",
+      "director": "Steve Cox",
+      "top_cast": [
+        "Justin Fletcher",
+        "John Sparkes",
+        "Nina Sosanya",
+        "Kate Harbour",
+        "Rich Webber",
+        "Emma Tate"
+      ],
+      "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+      "backdrop_path": "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "backdrops": [
+        "/iUFQd0mzDOUCsc8qVwUcNhFIe2P.jpg",
+        "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+        "/izLG3cxbG89nK75OHyd1zvjR7n8.jpg",
+        "/wiknXwyB7PTpW8jInA4tZr7QYCe.jpg",
+        "/ws4SvzInJPRdjOQnZPqZuBbTokU.jpg",
+        "/eILyBxBJfN0DmMc077Cq5svbnT6.jpg",
+        "/yBty9IhUUarPFqOf7Nd9CQUW49v.jpg",
+        "/feIIWaIk5mGDZO3HqUdyOI2tzNS.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "A Wild Beast Unleashed",
+        "text": "Mossy Bottom Farm takes an eerie turn! Shaun the Sheep returns with a spooky sci-fi twist just in time for Halloween mischief.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Science Gone Haywire",
+        "text": "When the Farmer accidentally ruins the pumpkin patch, Shaun uses mad science to fix it. Instead, a terrifying creature emerges from the dark woods.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      },
+      {
+        "id": "page-3",
+        "badge": "BEHIND THE LENS",
+        "title": "Aardman Magic Returns",
+        "text": "Directed by Steve Cox, voice icon Justin Fletcher reprises Shaun alongside John Sparkes and Nina Sosanya for 81 minutes of inventive stop-motion comedy.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      },
+      {
+        "id": "page-4",
+        "badge": "GENRE BLEND",
+        "title": "Halloween Meets Sci-Fi",
+        "text": "Trading simple barnyard antics for classic creature-feature vibes, this animated romp blends cozy British slapstick with wild laboratory experiments gone wrong.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      },
+      {
+        "id": "page-5",
+        "badge": "EARLY BUZZ",
+        "title": "Critically Acclaimed",
+        "text": "Scoring a solid 7.4/10 with early viewers, animation fans are already praising Shaun's spooky adventure as an instant seasonal favorite.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Ready for the Beast?",
+        "text": "What is coming over the hill? Discover Shaun's wildest adventure yet and find out how Mossy Bottom survives Halloween night.",
+        "backdrop_index": 5,
+        "cta_text": "Explore Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      }
+    ],
+    "date_published": "2026-10-24T15:35:52Z",
+    "date_modified": "2026-10-24T15:35:52Z",
+    "published_at": "2026-10-24T15:35:52Z"
+  },
+  {
+    "title": "Fjord: The Untold Story & Secrets",
+    "seo_description": "Discover Fjord: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1401459,
+      "title": "Fjord",
+      "original_title": "Fjord",
+      "slug": "fjord",
+      "media_type": "movie",
+      "release_date": "2026-06-13",
+      "overview": "Following the deaths of Mihai's parents, Mihai and Lisbeth Gheorghiu leave their life behind in Romania and move with their children to a remote village in Norway, hoping to rebuild their lives near Lisbeth's family. There, they grow close to their neighbors, the Halbergs, whose warmth gives them hope for a fresh start. But the fragile peace begins to unravel when the Gheorghiu family\u2019s young daughter, Elia, arrives at school covered in bruises.",
+      "tagline": "When does protection become control?",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 146,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 91,
+      "category": "upcoming",
+      "director": "Cristian Mungiu",
+      "top_cast": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Lisa Carlehed",
+        "Ellen Dorrit Petersen",
+        "Lisa Loven Kongsli",
+        "Henrikke Lund Olsen"
+      ],
+      "poster_path": "/rhKlzjAJCEKUjxEk1qwr4bgbXlG.jpg",
+      "backdrop_path": "/rCYzSP07jCA1HuFvrwgaEAPHitT.jpg",
+      "backdrops": [
+        "/rCYzSP07jCA1HuFvrwgaEAPHitT.jpg",
+        "/1on8a6DEzhBTjHOKyLWGyaG58jF.jpg",
+        "/cwAX59yVTiH1bRQckdWcymVCrdp.jpg",
+        "/qiiwyZucueR2xgbYoqATsBRUlBX.jpg",
+        "/iPVAMaI0W4lr7Rl56m0H388eR5.jpg",
+        "/mkzwS3ihBAyjrNZALu6cM7F1mHu.jpg",
+        "/ronUH8vKXQI8hazM7FJvUZtMAY.jpg",
+        "/kP3ozGrqzThV3wcdpUkyz2SdZky.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Fjord",
+        "text": "When does protection become control? Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Following the deaths of Mihai's parents, Mihai and Lisbeth Gheorghiu leave their life behind in Romania and move with their children to a remote village in Norway, hoping to rebuild their lives near Lisbeth's...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Sebastian Stan, Renate Reinsve, Lisa Carlehed, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Cristian Mungiu.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Cristian Mungiu",
+        "text": "Filmmaker Cristian Mungiu pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Fjord? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1401459"
+      }
+    ],
+    "date_published": "2026-10-24T15:35:52Z",
+    "date_modified": "2026-10-24T15:35:52Z",
+    "published_at": "2026-10-24T15:35:52Z"
+  },
+  {
+    "title": "Thor: Ragnarok: The Untold Story & Secrets",
+    "seo_description": "Discover Thor: Ragnarok: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 284053,
+      "title": "Thor: Ragnarok",
+      "original_title": "Thor: Ragnarok",
+      "slug": "thor-ragnarok",
+      "media_type": "movie",
+      "release_date": "2017-10-24",
+      "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+      "tagline": "No hammer. No problem.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Science Fiction"
+      ],
+      "runtime": 131,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 22664,
+      "category": "theories_easter_eggs",
+      "director": "Taika Waititi",
+      "top_cast": [
+        "Chris Hemsworth",
+        "Mark Ruffalo",
+        "Tom Hiddleston",
+        "Cate Blanchett",
+        "Idris Elba",
+        "Jeff Goldblum"
+      ],
+      "poster_path": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+      "backdrop_path": "/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg",
+      "backdrops": [
+        "/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg",
+        "/xfH3mYQ9x3pQmExyTfokxVUbfVr.jpg",
+        "/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg",
+        "/5wNUJs23rT5rTBacNyf5h83AynM.jpg",
+        "/6YozDnrA2fXdIbB5nWDFHtB5ZY6.jpg",
+        "/kaIfm5ryEOwYg8mLbq8HkPuM1Fo.jpg",
+        "/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+        "/AeH2ez3nOX2YEwkYJ79QbCXZsI7.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Thor: Ragnarok",
+        "text": "No hammer. No problem. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Chris Hemsworth, Mark Ruffalo, Tom Hiddleston, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Taika Waititi.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Taika Waititi",
+        "text": "Filmmaker Taika Waititi pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Thor: Ragnarok? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/284053"
+      }
+    ],
+    "date_published": "2026-10-24T15:35:52Z",
+    "date_modified": "2026-10-24T15:35:52Z",
+    "published_at": "2026-10-24T15:35:52Z"
+  },
+  {
     "title": "The West Wing: The Untold Story & Secrets",
     "seo_description": "Discover The West Wing: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Oct 2026 05:37:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:40:07 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Lupin: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/lupin/</link>
+      <description>Explore Lupin: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/lupin/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:35:52 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Shaun the Sheep's Spooky Sci-Fi Twist! 🐑🎃</title>
+      <link>https://cinematicbites.com/articles/shaun-the-sheep-the-beast-of-mossy-bottom/</link>
+      <description>Explore Shaun the Sheep: The Beast of Mossy Bottom: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/shaun-the-sheep-the-beast-of-mossy-bottom/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:35:52 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Fjord: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/fjord/</link>
+      <description>Explore Fjord: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/fjord/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:35:52 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/rCYzSP07jCA1HuFvrwgaEAPHitT.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/rCYzSP07jCA1HuFvrwgaEAPHitT.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Thor: Ragnarok: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/thor-ragnarok/</link>
+      <description>Explore Thor: Ragnarok: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/thor-ragnarok/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:35:52 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/vLmHH8jAy8Jq8uBsLucd3592WGh.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Why The West Wing Remains The Gold Standard Of Television Drama</title>
       <link>https://cinematicbites.com/articles/the-west-wing/</link>
@@ -425,42 +461,6 @@
       <pubDate>Tue, 20 Oct 2026 23:00:23 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/wZ9Me7OndzgBOEAa8nSBNPu3Sl4.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Jenna Ortega Replaces Goth With AI: Inside Klara and the Sun</title>
-      <link>https://cinematicbites.com/articles/klara-and-the-sun/</link>
-      <description>Taika Waititi directs Jenna Ortega and Amy Adams in Kazuo Ishiguro's poignant sci-fi tale Klara and the Sun. Here is what makes it a must-watch.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/klara-and-the-sun/</guid>
-      <pubDate>Tue, 20 Oct 2026 23:00:23 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/s4E7NDJCOG3wqc5psv2RLr9QfUm.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why Venom: The Last Dance Changes Eddie Brock Forever 🎬</title>
-      <link>https://cinematicbites.com/articles/venom-the-last-dance/</link>
-      <description>Tom Hardy bows out in Venom: The Last Dance. Here is why the chaotic symbiote finale delivers heart, alien mayhem, and genuine closure.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/venom-the-last-dance/</guid>
-      <pubDate>Tue, 20 Oct 2026 23:00:23 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Apothecary Diaries: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/the-apothecary-diaries/</link>
-      <description>Explore The Apothecary Diaries: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/the-apothecary-diaries/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:33:00 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Wildwood: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/wildwood/</link>
-      <description>Explore Wildwood: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/wildwood/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:33:00 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
