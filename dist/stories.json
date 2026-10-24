@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-23T23:05:18.646219+00:00",
-  "total_stories": 241,
+  "generated_at": "2026-10-24T05:37:09.641874+00:00",
+  "total_stories": 245,
   "stories": [
+    {
+      "id": 688,
+      "slug": "the-west-wing",
+      "title": "The West Wing: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-west-wing/",
+      "category": "series",
+      "release_date": "1999-09-22",
+      "rating": 8.3
+    },
+    {
+      "id": 1290418,
+      "slug": "the-cycle",
+      "title": "The Cycle: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-cycle/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 7.8
+    },
+    {
+      "id": 1126097,
+      "slug": "charlie-harper",
+      "title": "Charlie Harper: Romance, Ambition & Heartbreak \ud83d\udc94\ud83c\udf73",
+      "url": "https://cinematicbites.com/stories/charlie-harper/",
+      "category": "upcoming",
+      "release_date": "2026-09-24",
+      "rating": 7.5
+    },
+    {
+      "id": 429617,
+      "slug": "spider-man-far-from-home",
+      "title": "Spider-Man: Far From Home: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/spider-man-far-from-home/",
+      "category": "theories_easter_eggs",
+      "release_date": "2019-06-28",
+      "rating": 7.4
+    },
     {
       "id": 33765,
       "slug": "my-little-pony-friendship-is-magic",

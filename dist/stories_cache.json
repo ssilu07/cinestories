@@ -1,5 +1,416 @@
 [
   {
+    "title": "The West Wing: The Untold Story & Secrets",
+    "seo_description": "Discover The West Wing: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 688,
+      "title": "The West Wing",
+      "original_title": "The West Wing",
+      "slug": "the-west-wing",
+      "media_type": "tv",
+      "release_date": "1999-09-22",
+      "overview": "The West Wing provides a glimpse into presidential politics in the nation's capital as it tells the stories of the members of a fictional presidential administration. These interesting characters have humor and dedication that touches the heart while the politics that they discuss touch on everyday life.",
+      "tagline": "Right place. Right time. Right man.",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 7,
+      "vote_average": 8.3,
+      "vote_count": 624,
+      "category": "series",
+      "director": "Aaron Sorkin (Creator)",
+      "top_cast": [
+        "Martin Sheen",
+        "Allison Janney",
+        "John Spencer",
+        "Bradley Whitford",
+        "Joshua Malina",
+        "Alan Alda"
+      ],
+      "poster_path": "/yz1qWFZ8kjgQjqB9NX5kWMetX4w.jpg",
+      "backdrop_path": "/67nEeu5DGCflZUFRiNNySISEtV9.jpg",
+      "backdrops": [
+        "/67nEeu5DGCflZUFRiNNySISEtV9.jpg",
+        "/yZ9nB3p0xrjqtCEhwvOow5XtZLb.jpg",
+        "/lRQfDdrutFoACnjEgDx1uobXEw.jpg",
+        "/o6ixncGLOtRPz78vEIy9p1cOn9J.jpg",
+        "/7MxXkbpZs1FQCcTaVeRNwNhIo9w.jpg",
+        "/x3khDTfkKmwt4nOBly0RYBXVBbb.jpg",
+        "/o7GEQUdiMO2EnRSSF8avZDFRkcP.jpg",
+        "/pwqg6lqcmiPUkqHwMkhNAcBgrHk.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The West Wing",
+        "text": "Right place. Right time. Right man. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "The West Wing provides a glimpse into presidential politics in the nation's capital as it tells the stories of the members of a fictional presidential administration. These interesting characters have humor and dedication that...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Martin Sheen, Allison Janney, John Spencer, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Aaron Sorkin (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Aaron Sorkin (Creator)",
+        "text": "Filmmaker Aaron Sorkin (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The West Wing? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/688"
+      }
+    ],
+    "date_published": "2026-10-24T05:31:24Z",
+    "date_modified": "2026-10-24T05:31:24Z",
+    "published_at": "2026-10-24T05:31:24Z"
+  },
+  {
+    "title": "The Cycle: The Untold Story & Secrets",
+    "seo_description": "Discover The Cycle: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1290418,
+      "title": "The Cycle",
+      "original_title": "The Cycle",
+      "slug": "the-cycle",
+      "media_type": "movie",
+      "release_date": "2026-09-24",
+      "overview": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "tagline": "You can't bury the past forever.",
+      "genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 111,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 5,
+      "category": "trending",
+      "director": "Jordan Downey",
+      "top_cast": [
+        "Deborah Ann Woll",
+        "Jeffrey Donovan",
+        "Gretchen Corbett",
+        "Jack Doolan",
+        "Will Hochman",
+        "Dana Millican"
+      ],
+      "poster_path": "/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "backdrop_path": "/uRIItK2ahR1ewVSBICiBFQrAVB2.jpg",
+      "backdrops": [
+        "/uRIItK2ahR1ewVSBICiBFQrAVB2.jpg",
+        "/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg",
+        "/7ndnW5JoAXKgUxfo07IUqachGww.jpg",
+        "/lryq0R1untzuXUVRp6qKUyLCNqe.jpg",
+        "/t4vkdXixFJu74VQhjGXhFx6bM9F.jpg",
+        "/3SMHKsqPG6Mun3SQIbYLMurEgix.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Cycle",
+        "text": "You can't bury the past forever. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Deborah Ann Woll, Jeffrey Donovan, Gretchen Corbett, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jordan Downey.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jordan Downey",
+        "text": "Filmmaker Jordan Downey pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Cycle? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1290418"
+      }
+    ],
+    "date_published": "2026-10-24T05:31:24Z",
+    "date_modified": "2026-10-24T05:31:24Z",
+    "published_at": "2026-10-24T05:31:24Z"
+  },
+  {
+    "title": "Charlie Harper: Romance, Ambition & Heartbreak \ud83d\udc94\ud83c\udf73",
+    "seo_description": "Emilia Jones and Nick Robinson star in Charlie Harper, an upcoming drama asking if love can survive divergent career dreams.",
+    "movie": {
+      "id": 1126097,
+      "title": "Charlie Harper",
+      "original_title": "Charlie Harper",
+      "slug": "charlie-harper",
+      "media_type": "movie",
+      "release_date": "2026-09-24",
+      "overview": "As an ambitious chef and her struggling partner move to a new city to start fresh, the stark divide in their drives tests the limits of their love.",
+      "tagline": "is love enough?",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "runtime": 102,
+      "seasons": null,
+      "vote_average": 7.5,
+      "vote_count": 2,
+      "category": "upcoming",
+      "director": "Tom Dean",
+      "top_cast": [
+        "Nick Robinson",
+        "Emilia Jones",
+        "Nicholas Cirillo",
+        "Jonathan Gregg",
+        "Jessica Blackmore",
+        "Virginia Tucker"
+      ],
+      "poster_path": "/9Nf8Pluoi1JrT6S0qDsDMndFnlz.jpg",
+      "backdrop_path": "/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
+      "backdrops": [
+        "/wNj3vgm13CyKb04xIq7NQ8zTY1e.jpg",
+        "/4px8n3g8ZY7yj49VgxbrbJEGhk8.jpg",
+        "/hjv36wufH8Y8iZIb2rBKw9tlUDG.jpg",
+        "/zXlMTtztzq8KfOfqhyHpKYYm5sn.jpg",
+        "/tQeZYEmkwxKBgfLeSgmnj7hcR48.jpg",
+        "/aVrgwgmlgTloiecaHKY4Us6VFvy.jpg",
+        "/mhefetKwrWegZAXO5RT4YtHlv57.jpg",
+        "/lPCPc7nmcQXOF4k31F1YP2HMClP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "FIRST LOOK",
+        "title": "Charlie Harper: Can Love Last?",
+        "text": "Emilia Jones and Nick Robinson unite for an emotionally charged romantic drama tackling raw ambition and fragile devotion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "A Risky Fresh Start",
+        "text": "An ambitious chef relocates to jumpstart her culinary dreams, but her partner's stagnant career creates a painful rift in their relationship.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Dynamic Young Leads",
+        "text": "CODA breakout Emilia Jones and Love, Simon star Nick Robinson join forces, promising nuanced emotional chemistry on screen.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Intimate Filmmaking",
+        "text": "Director Tom Dean helms this 102-minute feature, capturing the high-stakes friction between kitchen pressures and heartfelt commitment.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      },
+      {
+        "id": "page-5",
+        "badge": "THE CORE THEME",
+        "title": "Is Love Really Enough?",
+        "text": "Rather than standard melodrama, the story confronts the modern economic struggles and personal drift young couples secretly fear.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Arriving Fall 2026",
+        "text": "Set to arrive on September 24, 2026, Charlie Harper is poised to be an indie drama highlight of the season.",
+        "backdrop_index": 5,
+        "cta_text": "View Movie Details",
+        "cta_url": "https://www.themoviedb.org/movie/1126097"
+      }
+    ],
+    "date_published": "2026-10-24T05:31:24Z",
+    "date_modified": "2026-10-24T05:31:24Z",
+    "published_at": "2026-10-24T05:31:24Z"
+  },
+  {
+    "title": "Spider-Man: Far From Home: The Untold Story & Secrets",
+    "seo_description": "Discover Spider-Man: Far From Home: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 429617,
+      "title": "Spider-Man: Far From Home",
+      "original_title": "Spider-Man: Far From Home",
+      "slug": "spider-man-far-from-home",
+      "media_type": "movie",
+      "release_date": "2019-06-28",
+      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "tagline": "It's time to step up.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 129,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 17795,
+      "category": "theories_easter_eggs",
+      "director": "Jon Watts",
+      "top_cast": [
+        "Tom Holland",
+        "Jake Gyllenhaal",
+        "Samuel L. Jackson",
+        "Marisa Tomei",
+        "Jon Favreau",
+        "Zendaya"
+      ],
+      "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "backdrop_path": "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
+      "backdrops": [
+        "/wqBW5ltBJu0gs26yCc8shQQV82d.jpg",
+        "/vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg",
+        "/34jW8LvjRplM8Pv06cBFDpLlenR.jpg",
+        "/ng6SSB3JhbcpKTwbPDsRwUYK8Cq.jpg",
+        "/3o4NzKxeGSSsrrHnwGKrd3qHK0V.jpg",
+        "/dihW2yTsvQlust7mSuAqJDtqW7k.jpg",
+        "/6V3KHX1ajN7KLS20oqys3z2itPm.jpg",
+        "/5myQbDzw3l8K9yofUXRJ4UTVgam.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Spider-Man: Far From Home",
+        "text": "It's time to step up. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Holland, Jake Gyllenhaal, Samuel L. Jackson, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jon Watts.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jon Watts",
+        "text": "Filmmaker Jon Watts pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Spider-Man: Far From Home? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/429617"
+      }
+    ],
+    "date_published": "2026-10-24T05:31:24Z",
+    "date_modified": "2026-10-24T05:31:24Z",
+    "published_at": "2026-10-24T05:31:24Z"
+  },
+  {
     "title": "My Little Pony: Friendship Is Magic: The Untold Story & Secrets",
     "seo_description": "Discover My Little Pony: Friendship Is Magic: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

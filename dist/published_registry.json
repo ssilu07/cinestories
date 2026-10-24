@@ -1444,5 +1444,29 @@
     "published_at": "2026-10-23T22:57:34Z",
     "modified_at": "2026-10-23T22:57:34Z",
     "category": "theories_easter_eggs"
+  },
+  "the-west-wing": {
+    "title": "The West Wing",
+    "published_at": "2026-10-24T05:31:24Z",
+    "modified_at": "2026-10-24T05:31:24Z",
+    "category": "series"
+  },
+  "the-cycle": {
+    "title": "The Cycle",
+    "published_at": "2026-10-24T05:31:24Z",
+    "modified_at": "2026-10-24T05:31:24Z",
+    "category": "trending"
+  },
+  "charlie-harper": {
+    "title": "Charlie Harper",
+    "published_at": "2026-10-24T05:31:24Z",
+    "modified_at": "2026-10-24T05:31:24Z",
+    "category": "upcoming"
+  },
+  "spider-man-far-from-home": {
+    "title": "Spider-Man: Far From Home",
+    "published_at": "2026-10-24T05:31:24Z",
+    "modified_at": "2026-10-24T05:31:24Z",
+    "category": "theories_easter_eggs"
   }
 }
