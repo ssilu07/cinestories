@@ -1516,5 +1516,29 @@
     "published_at": "2026-10-24T22:18:12Z",
     "modified_at": "2026-10-24T22:18:12Z",
     "category": "theories_easter_eggs"
+  },
+  "seal-team": {
+    "title": "SEAL Team",
+    "published_at": "2026-10-25T05:48:33Z",
+    "modified_at": "2026-10-25T05:48:33Z",
+    "category": "series"
+  },
+  "the-end-of-oak-street": {
+    "title": "The End of Oak Street",
+    "published_at": "2026-10-25T05:48:33Z",
+    "modified_at": "2026-10-25T05:48:33Z",
+    "category": "trending"
+  },
+  "the-only-living-pickpocket-in-new-york": {
+    "title": "The Only Living Pickpocket in New York",
+    "published_at": "2026-10-25T05:48:33Z",
+    "modified_at": "2026-10-25T05:48:33Z",
+    "category": "upcoming"
+  },
+  "despicable-me-4": {
+    "title": "Despicable Me 4",
+    "published_at": "2026-10-25T05:48:33Z",
+    "modified_at": "2026-10-25T05:48:33Z",
+    "category": "theories_easter_eggs"
   }
 }

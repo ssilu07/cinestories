@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-24T22:25:50.268823+00:00",
-  "total_stories": 253,
+  "generated_at": "2026-10-25T05:50:28.468236+00:00",
+  "total_stories": 257,
   "stories": [
+    {
+      "id": 71789,
+      "slug": "seal-team",
+      "title": "Why SEAL Team Became a Global Military Drama Sensation \ud83c\udf96\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/seal-team/",
+      "category": "series",
+      "release_date": "2017-09-27",
+      "rating": 8.0
+    },
+    {
+      "id": 1101383,
+      "slug": "the-end-of-oak-street",
+      "title": "The End of Oak Street: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-end-of-oak-street/",
+      "category": "trending",
+      "release_date": "2026-08-12",
+      "rating": 7.1
+    },
+    {
+      "id": 1458099,
+      "slug": "the-only-living-pickpocket-in-new-york",
+      "title": "The Only Living Pickpocket in New York: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-only-living-pickpocket-in-new-york/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 6.5
+    },
+    {
+      "id": 519182,
+      "slug": "despicable-me-4",
+      "title": "Despicable Me 4: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/despicable-me-4/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-06-20",
+      "rating": 7.0
+    },
     {
       "id": 300146,
       "slug": "where-the-mask-ends",
