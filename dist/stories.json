@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-25T18:53:45.685160+00:00",
-  "total_stories": 265,
+  "generated_at": "2026-10-25T22:28:37.851549+00:00",
+  "total_stories": 269,
   "stories": [
+    {
+      "id": 209867,
+      "slug": "frieren-beyond-journeys-end",
+      "title": "Frieren: Beyond Journey's End: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/frieren-beyond-journeys-end/",
+      "category": "series",
+      "release_date": "2023-09-29",
+      "rating": 8.8
+    },
+    {
+      "id": 687163,
+      "slug": "project-hail-mary",
+      "title": "Project Hail Mary: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/project-hail-mary/",
+      "category": "trending",
+      "release_date": "2026-03-15",
+      "rating": 8.6
+    },
+    {
+      "id": 745,
+      "slug": "the-sixth-sense",
+      "title": "The Sixth Sense: Shocking Secrets Behind the Twist \ud83d\udc7b\ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/the-sixth-sense/",
+      "category": "upcoming",
+      "release_date": "1999-08-06",
+      "rating": 8.0
+    },
+    {
+      "id": 283995,
+      "slug": "guardians-of-the-galaxy-vol-2",
+      "title": "Guardians of the Galaxy Vol. 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/guardians-of-the-galaxy-vol-2/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-04-25",
+      "rating": 7.6
+    },
     {
       "id": 61222,
       "slug": "bojack-horseman",

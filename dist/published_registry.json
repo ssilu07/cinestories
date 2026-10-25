@@ -1588,5 +1588,29 @@
     "published_at": "2026-10-25T18:47:46Z",
     "modified_at": "2026-10-25T18:47:46Z",
     "category": "theories_easter_eggs"
+  },
+  "frieren-beyond-journeys-end": {
+    "title": "Frieren: Beyond Journey's End",
+    "published_at": "2026-10-25T22:22:22Z",
+    "modified_at": "2026-10-25T22:22:22Z",
+    "category": "series"
+  },
+  "project-hail-mary": {
+    "title": "Project Hail Mary",
+    "published_at": "2026-10-25T22:22:22Z",
+    "modified_at": "2026-10-25T22:22:22Z",
+    "category": "trending"
+  },
+  "the-sixth-sense": {
+    "title": "The Sixth Sense",
+    "published_at": "2026-10-25T22:22:22Z",
+    "modified_at": "2026-10-25T22:22:22Z",
+    "category": "upcoming"
+  },
+  "guardians-of-the-galaxy-vol-2": {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "published_at": "2026-10-25T22:22:22Z",
+    "modified_at": "2026-10-25T22:22:22Z",
+    "category": "theories_easter_eggs"
   }
 }

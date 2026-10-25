@@ -1,5 +1,421 @@
 [
   {
+    "title": "Frieren: Beyond Journey's End: The Untold Story & Secrets",
+    "seo_description": "Discover Frieren: Beyond Journey's End: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 209867,
+      "title": "Frieren: Beyond Journey's End",
+      "original_title": "\u846c\u9001\u306e\u30d5\u30ea\u30fc\u30ec\u30f3",
+      "slug": "frieren-beyond-journeys-end",
+      "media_type": "tv",
+      "release_date": "2023-09-29",
+      "overview": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity's mortality. She takes on a new apprentice and promises to fulfill old friends' dying wishes. Can an elven mind make peace with the nature of life and death? Frieren embarks on her quest to find out.",
+      "tagline": "Living means being known and remembered by someone.",
+      "genres": [
+        "Animation",
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 25,
+      "seasons": 1,
+      "vote_average": 8.8,
+      "vote_count": 1005,
+      "category": "series",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Atsumi Tanezaki",
+        "Kana Ichinose",
+        "Chiaki Kobayashi",
+        "Nobuhiko Okamoto",
+        "Hiroki Touchi",
+        "Yoji Ueda"
+      ],
+      "poster_path": "/dqZENchTd7lp5zht7BdlqM7RBhD.jpg",
+      "backdrop_path": "/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+      "backdrops": [
+        "/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+        "/vnEbPrBGoZItDSv7bfvLBXTpurR.jpg",
+        "/emGCHnRPru5LLWcKbSFzUEUisac.jpg",
+        "/c0y8ScAJnSs5xMZ9b1lm2k9gSwz.jpg",
+        "/6lsGhDDYnmYiRQSFPEmJmdZpp4h.jpg",
+        "/cDe4PSDVxcKRRSsYQgoWVTK2bph.jpg",
+        "/yHplKy1xgF8ItpKmjkKuItZTPaa.jpg",
+        "/7MAay3erkzNvgLhCypKYoyDup8X.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Frieren: Beyond Journey's End",
+        "text": "Living means being known and remembered by someone. Rated 8.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "After the party of heroes defeated the Demon King, they restored peace to the land and returned to lives of solitude. Generations pass, and the elven mage Frieren comes face to face with humanity's...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Atsumi Tanezaki, Kana Ichinose, Chiaki Kobayashi, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.8/10 on TMDB",
+        "text": "With an impressive 8.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Frieren: Beyond Journey's End? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/209867"
+      }
+    ],
+    "date_published": "2026-10-25T22:22:22Z",
+    "date_modified": "2026-10-25T22:22:22Z",
+    "published_at": "2026-10-25T22:22:22Z"
+  },
+  {
+    "title": "Project Hail Mary: The Untold Story & Secrets",
+    "seo_description": "Discover Project Hail Mary: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 687163,
+      "title": "Project Hail Mary",
+      "original_title": "Project Hail Mary",
+      "slug": "project-hail-mary",
+      "media_type": "movie",
+      "release_date": "2026-03-15",
+      "overview": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction.",
+      "tagline": "Believe in the Hail Mary.",
+      "genres": [
+        "Science Fiction",
+        "Adventure"
+      ],
+      "runtime": 157,
+      "seasons": null,
+      "vote_average": 8.6,
+      "vote_count": 8513,
+      "category": "trending",
+      "director": "Phil Lord",
+      "top_cast": [
+        "Ryan Gosling",
+        "Sandra H\u00fcller",
+        "James Ortiz",
+        "Lionel Boyce",
+        "Milana Vayntrub",
+        "Ken Leung"
+      ],
+      "poster_path": "/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
+      "backdrop_path": "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+      "backdrops": [
+        "/wLWvHcQz7N13DvSOTV7bHgwGXpT.jpg",
+        "/8Tfys3mDZVp4tNoH2ktm06a0Tau.jpg",
+        "/qL4dBGLkWOVP5vImN7EEoqJQYd8.jpg",
+        "/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
+        "/afHAM9qOTmrVDeaLIU7zfssotUY.jpg",
+        "/o2xLxY1LdwBMsrGD9hjIaOrIQm6.jpg",
+        "/ckgitpsGKUFVO8yHinQdKSSyrFC.jpg",
+        "/fFyLcR22R4ynrecqjMniKXm0UTp.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Project Hail Mary",
+        "text": "Believe in the Hail Mary. Rated 8.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ryan Gosling, Sandra H\u00fcller, James Ortiz, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Phil Lord.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Phil Lord",
+        "text": "Filmmaker Phil Lord pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.6/10 on TMDB",
+        "text": "With an impressive 8.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Project Hail Mary? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/687163"
+      }
+    ],
+    "date_published": "2026-10-25T22:22:22Z",
+    "date_modified": "2026-10-25T22:22:22Z",
+    "published_at": "2026-10-25T22:22:22Z"
+  },
+  {
+    "title": "The Sixth Sense: Shocking Secrets Behind the Twist \ud83d\udc7b\ud83c\udfac",
+    "seo_description": "Discover how M. Night Shyamalan pulled off cinema's greatest plot twist in The Sixth Sense, starring Bruce Willis and Haley Joel Osment.",
+    "movie": {
+      "id": 745,
+      "title": "The Sixth Sense",
+      "original_title": "The Sixth Sense",
+      "slug": "the-sixth-sense",
+      "media_type": "movie",
+      "release_date": "1999-08-06",
+      "overview": "Following an unexpected tragedy, child psychologist Malcolm Crowe meets a nine year old boy named Cole Sear, who is hiding a dark secret.",
+      "tagline": "Not every gift is a blessing.",
+      "genres": [
+        "Mystery",
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 107,
+      "seasons": null,
+      "vote_average": 8.0,
+      "vote_count": 13512,
+      "category": "upcoming",
+      "director": "M. Night Shyamalan",
+      "top_cast": [
+        "Bruce Willis",
+        "Haley Joel Osment",
+        "Toni Collette",
+        "Olivia Williams",
+        "Trevor Morgan",
+        "Donnie Wahlberg"
+      ],
+      "poster_path": "/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg",
+      "backdrop_path": "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+      "backdrops": [
+        "/6TjllWT3cGrPFyqDXurVZ3L8bBi.jpg",
+        "/paUKxrbN2ww0JeT2JtvgAuaGlPf.jpg",
+        "/qiE177JJAyRUoqLPa1yGipGq2AZ.jpg",
+        "/grG6sAPaJXcm2bHOzzKAFt0xhUn.jpg",
+        "/4g9V7WarVzwzOhutsF9JyVxKRiW.jpg",
+        "/fsdB4yMwqIUg6zqYtbUBFYC38lo.jpg",
+        "/y9Ej4T0UPybJS5IGW0y0tK0VBjU.jpg",
+        "/rFDIRF4O2ef0A1dCF8GPg0OWSFk.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "CINEMA LEGEND",
+        "title": "A Chilling Sensation",
+        "text": "When The Sixth Sense arrived in 1999, it shattered box office records and redefined psychological thrillers forever. Can you still spot the clues hidden in plain sight?",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "A Terrifying Gift",
+        "text": "Child psychologist Malcolm Crowe takes on Cole Sear, an isolated nine-year-old boy plagued by visits from spirits. Neither realizes how deeply their fates are connected.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Unforgettable Roles",
+        "text": "Bruce Willis delivered stunning emotional vulnerability alongside Haley Joel Osment, whose haunting performance earned him an Oscar nomination at just eleven years old.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "The Clue in the Color Red",
+        "text": "Director M. Night Shyamalan deliberately used the color red throughout the film to mark anything connected to the supernatural realm, from doorknobs to clothing.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      },
+      {
+        "id": "page-5",
+        "badge": "CULTURAL IMPACT",
+        "title": "The Ultimate Twist",
+        "text": "Grossing over $670 million globally, the film transformed Shyamalan into a household name and gifted pop culture its most quoted line: 'I see dead people.'",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      },
+      {
+        "id": "page-6",
+        "badge": "TIMELESS THRILLER",
+        "title": "Ready to Rewatch?",
+        "text": "Experience this suspense classic again and track every subtle breadcrumb leading up to the unforgettable finale.",
+        "backdrop_index": 5,
+        "cta_text": "Explore The Sixth Sense",
+        "cta_url": "https://www.themoviedb.org/movie/745"
+      }
+    ],
+    "date_published": "2026-10-25T22:22:22Z",
+    "date_modified": "2026-10-25T22:22:22Z",
+    "published_at": "2026-10-25T22:22:22Z"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2: The Untold Story & Secrets",
+    "seo_description": "Discover Guardians of the Galaxy Vol. 2: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 283995,
+      "title": "Guardians of the Galaxy Vol. 2",
+      "original_title": "Guardians of the Galaxy Vol. 2",
+      "slug": "guardians-of-the-galaxy-vol-2",
+      "media_type": "movie",
+      "release_date": "2017-04-25",
+      "overview": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+      "tagline": "Obviously.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Action"
+      ],
+      "runtime": 137,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 23649,
+      "category": "theories_easter_eggs",
+      "director": "James Gunn",
+      "top_cast": [
+        "Chris Pratt",
+        "Zoe Salda\u00f1a",
+        "Dave Bautista",
+        "Vin Diesel",
+        "Bradley Cooper",
+        "Kurt Russell"
+      ],
+      "poster_path": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
+      "backdrop_path": "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+      "backdrops": [
+        "/aJn9XeesqsrSLKcHfHP4u5985hn.jpg",
+        "/xpFIaHL7Rm5kKLcEPDEMpjh4Xq6.jpg",
+        "/tM894AtE7UQTJEoQG6qF6mdfSUT.jpg",
+        "/n3gb8oqP9BeRCUsCmZVaT5eltPH.jpg",
+        "/bW93ycPSSi3Hxx1NvlMX5qm2mQu.jpg",
+        "/co0LAS5Ml4CSzzXD5IN1pgpr1ei.jpg",
+        "/9vzPDpQEmWYyiZr3nbw06gBg5h6.jpg",
+        "/uwH7DgD2Y7uUtmNTD1t97K0ZG2a.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "text": "Obviously. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "The Guardians must fight to keep their newfound family together as they unravel the mysteries of Peter Quill's true parentage.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Chris Pratt, Zoe Salda\u00f1a, Dave Bautista, the film boasts phenomenal on-screen chemistry and career-defining performances directed by James Gunn.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by James Gunn",
+        "text": "Filmmaker James Gunn pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Guardians of the Galaxy Vol. 2? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/283995"
+      }
+    ],
+    "date_published": "2026-10-25T22:22:22Z",
+    "date_modified": "2026-10-25T22:22:22Z",
+    "published_at": "2026-10-25T22:22:22Z"
+  },
+  {
     "title": "BoJack Horseman: The Untold Story & Secrets",
     "seo_description": "Discover BoJack Horseman: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
