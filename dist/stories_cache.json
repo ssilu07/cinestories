@@ -1,5 +1,414 @@
 [
   {
+    "title": "BoJack Horseman: The Untold Story & Secrets",
+    "seo_description": "Discover BoJack Horseman: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 61222,
+      "title": "BoJack Horseman",
+      "original_title": "BoJack Horseman",
+      "slug": "bojack-horseman",
+      "media_type": "tv",
+      "release_date": "2014-08-22",
+      "overview": "Meet the most beloved sitcom horse of the '90s , 20 years later. He's a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+      "tagline": "Don't look back. You're not going that way.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 6,
+      "vote_average": 8.5,
+      "vote_count": 3002,
+      "category": "series",
+      "director": "Raphael Bob-Waksberg (Creator)",
+      "top_cast": [
+        "Will Arnett",
+        "Aaron Paul",
+        "Alison Brie",
+        "Amy Sedaris",
+        "Paul F. Tompkins"
+      ],
+      "poster_path": "/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg",
+      "backdrop_path": "/81BCTObfPk0EvarJpUgnGXHvM9x.jpg",
+      "backdrops": [
+        "/81BCTObfPk0EvarJpUgnGXHvM9x.jpg",
+        "/qFYDJUIFh8zgEDy3EvnHwhgOl0S.jpg",
+        "/y64WatnpvoeudfapTPx9QFVKbqM.jpg",
+        "/AmIHaw6CQWOfBCQYom15Jzsu7OB.jpg",
+        "/gyacCuhegTPmYkt8VEyFwmfM5dj.jpg",
+        "/2vyRUFoCya3iwpnvWEqJ14ObwBp.jpg",
+        "/5sSLJk03LmOpEV8QNVlssFcdkbG.jpg",
+        "/7CNJ7YEieROPUsm2DUJSNZxORM.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "BoJack Horseman",
+        "text": "Don't look back. You're not going that way. Rated 8.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Meet the most beloved sitcom horse of the '90s , 20 years later. He's a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Will Arnett, Aaron Paul, Alison Brie, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Raphael Bob-Waksberg (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Raphael Bob-Waksberg (Creator)",
+        "text": "Filmmaker Raphael Bob-Waksberg (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.5/10 on TMDB",
+        "text": "With an impressive 8.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into BoJack Horseman? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/61222"
+      }
+    ],
+    "date_published": "2026-10-25T18:47:46Z",
+    "date_modified": "2026-10-25T18:47:46Z",
+    "published_at": "2026-10-25T18:47:46Z"
+  },
+  {
+    "title": "Queen at Sea: The Untold Story & Secrets",
+    "seo_description": "Discover Queen at Sea: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1021848,
+      "title": "Queen at Sea",
+      "original_title": "Queen at Sea",
+      "slug": "queen-at-sea",
+      "media_type": "movie",
+      "release_date": "2026-09-18",
+      "overview": "As advanced dementia erodes an older woman's ability to communicate her inner life, her husband and daughter struggle to act in her best interests, navigating love and the fragile boundaries between care, protection and autonomy.",
+      "tagline": "",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 121,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 4,
+      "category": "trending",
+      "director": "Lance Hammer",
+      "top_cast": [
+        "Juliette Binoche",
+        "Tom Courtenay",
+        "Anna Calder-Marshall",
+        "Florence Hunt",
+        "Steven Cree",
+        "Michelle Jeram"
+      ],
+      "poster_path": "/ueYawr1nldKchzyP8Q9KJpn31SK.jpg",
+      "backdrop_path": "/308iVAhH5ByQb0wvaJmY3o79apn.jpg",
+      "backdrops": [
+        "/308iVAhH5ByQb0wvaJmY3o79apn.jpg",
+        "/uamyuT0gNRXbS5fgsnLVbydifk7.jpg",
+        "/2ympxpU19kBupduNgLuvpDSun0l.jpg",
+        "/4VfNqaqILX6XbUEuVfybIXYmW6L.jpg",
+        "/b3aHkkUZuQb2GHwAubNvgXFUzfw.jpg",
+        "/1nSyQNaN7P1Cbl1RMTuBVoogtIr.jpg",
+        "/1Ji7qYdHDv3k5BLShiCjwcOu4fG.jpg",
+        "/bRV4sXjdJKs1Jojbo9jkvpH7E2V.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Queen at Sea",
+        "text": "Experience the global phenomenon of Queen at Sea. Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "As advanced dementia erodes an older woman's ability to communicate her inner life, her husband and daughter struggle to act in her best interests, navigating love and the fragile boundaries between care, protection and...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Juliette Binoche, Tom Courtenay, Anna Calder-Marshall, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Lance Hammer.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Lance Hammer",
+        "text": "Filmmaker Lance Hammer pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Queen at Sea? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1021848"
+      }
+    ],
+    "date_published": "2026-10-25T18:47:46Z",
+    "date_modified": "2026-10-25T18:47:46Z",
+    "published_at": "2026-10-25T18:47:46Z"
+  },
+  {
+    "title": "Ghost Soldier: The Untold Story & Secrets",
+    "seo_description": "Discover Ghost Soldier: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1562642,
+      "title": "Ghost Soldier",
+      "original_title": "Ghost Soldier",
+      "slug": "ghost-soldier",
+      "media_type": "movie",
+      "release_date": "2026-11-04",
+      "overview": "Henry \u201cFitz\u201d Fitzgerald has spent years living quietly off the grid, hiding from a past few people know anything about. But when a powerful foreign corporation moves into his hometown to seize his neighbors\u2019 land for a massive payday, Fitz is forced to reveal who he really is: a former Special Forces soldier and advanced weapons developer. Armed with experimental technology, lethal combat skills, and an unwavering code of justice, Fitz wages a one-man war against an enemy that never saw him coming.",
+      "tagline": "He's not a threat, he's a guarantee.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "runtime": 90,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "upcoming",
+      "director": "William Eubank",
+      "top_cast": [
+        "Jim Caviezel",
+        "Olivia Thirlby",
+        "Beau Knapp",
+        "Garret Dillahunt",
+        "Shea Whigham",
+        "Alexej Manvelov"
+      ],
+      "poster_path": "/8Y4oJ5iUs3hgPcDB3SIEmsNYjZk.jpg",
+      "backdrop_path": "/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
+      "backdrops": [
+        "/ggqvhSdAASrseKuMlzk51sbvbE8.jpg",
+        "/rhtE77mUo6I1LBGbtnVphRxcnQb.jpg",
+        "/oG2xaOERbYKs9RtEtOBkkDqqChb.jpg",
+        "/xN8v8UqG14qOFXSOgc0JrHsB1lN.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Ghost Soldier",
+        "text": "He's not a threat, he's a guarantee. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Henry \u201cFitz\u201d Fitzgerald has spent years living quietly off the grid, hiding from a past few people know anything about. But when a powerful foreign corporation moves into his hometown to seize his neighbors\u2019...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jim Caviezel, Olivia Thirlby, Beau Knapp, the film boasts phenomenal on-screen chemistry and career-defining performances directed by William Eubank.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by William Eubank",
+        "text": "Filmmaker William Eubank pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Ghost Soldier? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1562642"
+      }
+    ],
+    "date_published": "2026-10-25T18:47:46Z",
+    "date_modified": "2026-10-25T18:47:46Z",
+    "published_at": "2026-10-25T18:47:46Z"
+  },
+  {
+    "title": "Sonic the Hedgehog 3: The Untold Story & Secrets",
+    "seo_description": "Discover Sonic the Hedgehog 3: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 939243,
+      "title": "Sonic the Hedgehog 3",
+      "original_title": "Sonic the Hedgehog 3",
+      "slug": "sonic-the-hedgehog-3",
+      "media_type": "movie",
+      "release_date": "2024-12-19",
+      "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+      "tagline": "New adventure. New rival.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Comedy",
+        "Family"
+      ],
+      "runtime": 110,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 3521,
+      "category": "theories_easter_eggs",
+      "director": "Jeff Fowler",
+      "top_cast": [
+        "Ben Schwartz",
+        "Jim Carrey",
+        "Keanu Reeves",
+        "Idris Elba",
+        "Colleen O'Shaughnessey",
+        "James Marsden"
+      ],
+      "poster_path": "/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg",
+      "backdrop_path": "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+      "backdrops": [
+        "/zOpe0eHsq0A2NvNyBbtT6sj53qV.jpg",
+        "/noPEm6Vu9Lm6QUdTGLOyRgk4M6s.jpg",
+        "/b85bJfrTOSJ7M5Ox0yp4lxIxdG1.jpg",
+        "/crSL7DkgwyLIaRRIb7xM2ejZbca.jpg",
+        "/3Be8kvRZsvKn1rQFHMLVLEUX9Sn.jpg",
+        "/a71Rge7daE0omJBuWZe0aXneGq5.jpg",
+        "/6DlU7NNBk4mvthlydxbAUkYOwoZ.jpg",
+        "/2O5VKyrbzJ2SdOQ6pHswCkrny1F.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Sonic the Hedgehog 3",
+        "text": "New adventure. New rival. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ben Schwartz, Jim Carrey, Keanu Reeves, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jeff Fowler.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jeff Fowler",
+        "text": "Filmmaker Jeff Fowler pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Sonic the Hedgehog 3? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/939243"
+      }
+    ],
+    "date_published": "2026-10-25T18:47:46Z",
+    "date_modified": "2026-10-25T18:47:46Z",
+    "published_at": "2026-10-25T18:47:46Z"
+  },
+  {
     "title": "The Loud House: The Untold Story & Secrets",
     "seo_description": "Discover The Loud House: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

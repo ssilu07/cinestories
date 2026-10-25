@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-25T15:51:18.774042+00:00",
-  "total_stories": 261,
+  "generated_at": "2026-10-25T18:53:45.685160+00:00",
+  "total_stories": 265,
   "stories": [
+    {
+      "id": 61222,
+      "slug": "bojack-horseman",
+      "title": "BoJack Horseman: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/bojack-horseman/",
+      "category": "series",
+      "release_date": "2014-08-22",
+      "rating": 8.5
+    },
+    {
+      "id": 1021848,
+      "slug": "queen-at-sea",
+      "title": "Queen at Sea: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/queen-at-sea/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": 7.2
+    },
+    {
+      "id": 1562642,
+      "slug": "ghost-soldier",
+      "title": "Ghost Soldier: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/ghost-soldier/",
+      "category": "upcoming",
+      "release_date": "2026-11-04",
+      "rating": 0.0
+    },
+    {
+      "id": 939243,
+      "slug": "sonic-the-hedgehog-3",
+      "title": "Sonic the Hedgehog 3: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/sonic-the-hedgehog-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-12-19",
+      "rating": 7.6
+    },
     {
       "id": 68073,
       "slug": "the-loud-house",

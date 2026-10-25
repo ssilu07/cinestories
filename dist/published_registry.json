@@ -1564,5 +1564,29 @@
     "published_at": "2026-10-25T15:46:24Z",
     "modified_at": "2026-10-25T15:46:24Z",
     "category": "theories_easter_eggs"
+  },
+  "bojack-horseman": {
+    "title": "BoJack Horseman",
+    "published_at": "2026-10-25T18:47:46Z",
+    "modified_at": "2026-10-25T18:47:46Z",
+    "category": "series"
+  },
+  "queen-at-sea": {
+    "title": "Queen at Sea",
+    "published_at": "2026-10-25T18:47:46Z",
+    "modified_at": "2026-10-25T18:47:46Z",
+    "category": "trending"
+  },
+  "ghost-soldier": {
+    "title": "Ghost Soldier",
+    "published_at": "2026-10-25T18:47:46Z",
+    "modified_at": "2026-10-25T18:47:46Z",
+    "category": "upcoming"
+  },
+  "sonic-the-hedgehog-3": {
+    "title": "Sonic the Hedgehog 3",
+    "published_at": "2026-10-25T18:47:46Z",
+    "modified_at": "2026-10-25T18:47:46Z",
+    "category": "theories_easter_eggs"
   }
 }
