@@ -1,5 +1,417 @@
 [
   {
+    "title": "The Loud House: The Untold Story & Secrets",
+    "seo_description": "Discover The Loud House: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 68073,
+      "title": "The Loud House",
+      "original_title": "The Loud House",
+      "slug": "the-loud-house",
+      "media_type": "tv",
+      "release_date": "2016-05-02",
+      "overview": "Welcome to the Loud House, where life can get pretty crazy. One boy, TEN girls?! Lincoln Loud wouldn\u2019t change it for the world!",
+      "tagline": "",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Kids"
+      ],
+      "runtime": 11,
+      "seasons": 10,
+      "vote_average": 7.8,
+      "vote_count": 584,
+      "category": "series",
+      "director": "Chris Savino (Creator)",
+      "top_cast": [
+        "Nick Fisher",
+        "Cristina Pucelli",
+        "Grey DeLisle",
+        "Liliana Mumy",
+        "Nika Futterman",
+        "Jessica DiCicco"
+      ],
+      "poster_path": "/v0xMCeZIkgBUQtiije0IDc8ReHr.jpg",
+      "backdrop_path": "/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+      "backdrops": [
+        "/jQmYRTt29hTNFGdNdwFVazOrDpO.jpg",
+        "/36iVELhma9MawHkdMDPNRX8onEu.jpg",
+        "/9Ja0VieZlC7dgzPay0rvvzcbnHg.jpg",
+        "/9uVEgikhAxaOXMgvmKBsawXlPBE.jpg",
+        "/dCsfeBF4gZy4nZHwTRuVm07fhJF.jpg",
+        "/wc4FD1wIpnmrXUr11s3RE92a3nJ.jpg",
+        "/o123eAQ3zQK5jbxINCOb6REe4PZ.jpg",
+        "/3gjKiA3sJNoV3yxaUeibLQbVPqm.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "The Loud House",
+        "text": "Experience the global phenomenon of The Loud House. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Welcome to the Loud House, where life can get pretty crazy. One boy, TEN girls?! Lincoln Loud wouldn\u2019t change it for the world!",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Nick Fisher, Cristina Pucelli, Grey DeLisle, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Chris Savino (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Chris Savino (Creator)",
+        "text": "Filmmaker Chris Savino (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Loud House? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/68073"
+      }
+    ],
+    "date_published": "2026-10-25T15:46:24Z",
+    "date_modified": "2026-10-25T15:46:24Z",
+    "published_at": "2026-10-25T15:46:24Z"
+  },
+  {
+    "title": "Mutiny: The Untold Story & Secrets",
+    "seo_description": "Discover Mutiny: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1288445,
+      "title": "Mutiny",
+      "original_title": "Mutiny",
+      "slug": "mutiny",
+      "media_type": "movie",
+      "release_date": "2026-08-19",
+      "overview": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "tagline": "There's blood in the water.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "runtime": 96,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 949,
+      "category": "trending",
+      "director": "Jean-Fran\u00e7ois Richet",
+      "top_cast": [
+        "Jason Statham",
+        "Annabelle Wallis",
+        "Roland M\u00f8ller",
+        "Ramon Tikaram",
+        "Arnas Fedaravi\u010dius",
+        "Jason Wong"
+      ],
+      "poster_path": "/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "backdrop_path": "/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+      "backdrops": [
+        "/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+        "/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
+        "/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+        "/jUdV706J4d3nUEbfimqVnGZqTbW.jpg",
+        "/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
+        "/rjZ3QSoiSOzCFOP69kBCbt7Ptk2.jpg",
+        "/h32xFjJutKJcdLLDIk53GmiH8cu.jpg",
+        "/6tzDQDtUCh3DONxCJSoN8Y2zpRx.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Mutiny",
+        "text": "There's blood in the water. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jason Statham, Annabelle Wallis, Roland M\u00f8ller, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jean-Fran\u00e7ois Richet.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jean-Fran\u00e7ois Richet",
+        "text": "Filmmaker Jean-Fran\u00e7ois Richet pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Mutiny? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1288445"
+      }
+    ],
+    "date_published": "2026-10-25T15:46:24Z",
+    "date_modified": "2026-10-25T15:46:24Z",
+    "published_at": "2026-10-25T15:46:24Z"
+  },
+  {
+    "title": "A Talent for Murder: The Untold Story & Secrets",
+    "seo_description": "Discover A Talent for Murder: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1084409,
+      "title": "A Talent for Murder",
+      "original_title": "A Talent for Murder",
+      "slug": "a-talent-for-murder",
+      "media_type": "movie",
+      "release_date": "2026-10-23",
+      "overview": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more sinister.",
+      "tagline": "The end is where the plotting begins.",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 6.0,
+      "vote_count": 1,
+      "category": "upcoming",
+      "director": "Anton Corbijn",
+      "top_cast": [
+        "Helen Mirren",
+        "Alden Ehrenreich",
+        "Olivia Cooke",
+        "Juliet Stevenson",
+        "James Faulkner",
+        "Brid Brennan"
+      ],
+      "poster_path": "/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
+      "backdrop_path": "/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+      "backdrops": [
+        "/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+        "/4L3A8Utofrsg7fY7FGGG5aL2f61.jpg",
+        "/wMFrj1eyaA5TgYZQyvKwDfP3e3i.jpg",
+        "/iEU6qoekt9VqKeBfVKf6VoAfHby.jpg",
+        "/c7m6HkQkdL9prHxQ3Tp1peRViG9.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "A Talent for Murder",
+        "text": "The end is where the plotting begins. Rated 6.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Helen Mirren, Alden Ehrenreich, Olivia Cooke, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Anton Corbijn.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Anton Corbijn",
+        "text": "Filmmaker Anton Corbijn pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.0/10 on TMDB",
+        "text": "With an impressive 6.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into A Talent for Murder? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1084409"
+      }
+    ],
+    "date_published": "2026-10-25T15:46:24Z",
+    "date_modified": "2026-10-25T15:46:24Z",
+    "published_at": "2026-10-25T15:46:24Z"
+  },
+  {
+    "title": "Black Adam: The Untold Story & Secrets",
+    "seo_description": "Discover Black Adam: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 436270,
+      "title": "Black Adam",
+      "original_title": "Black Adam",
+      "slug": "black-adam",
+      "media_type": "movie",
+      "release_date": "2022-10-19",
+      "overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods\u2014and imprisoned just as quickly\u2014Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "tagline": "The world needed a hero. It got Black Adam.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 125,
+      "seasons": null,
+      "vote_average": 6.8,
+      "vote_count": 7351,
+      "category": "theories_easter_eggs",
+      "director": "Jaume Collet-Serra",
+      "top_cast": [
+        "Dwayne Johnson",
+        "Aldis Hodge",
+        "Noah Centineo",
+        "Sarah Shahi",
+        "Quintessa Swindell",
+        "Marwan Kenzari"
+      ],
+      "poster_path": "/rCtreCr4xiYEWDQTebybolIh6Xe.jpg",
+      "backdrop_path": "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+      "backdrops": [
+        "/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
+        "/5sHE4jKJtA9fCkaMeaVUy6KHc2W.jpg",
+        "/grATqZhXqK9wN7nH0BzjVIgatZD.jpg",
+        "/zplntIhzXyBiXFYWReETxh0uyFF.jpg",
+        "/nRMLvHwk6ODbEmzGpMo462sWKXs.jpg",
+        "/zZOitKW7TTexnUgXtBDL16J9EZ2.jpg",
+        "/lu9zNcGQKTGiKbbHpAsqxwrGy4W.jpg",
+        "/djw8wHB9XiqzgzqWOWJqx0kmO6L.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Black Adam",
+        "text": "The world needed a hero. It got Black Adam. Rated 6.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods\u2014and imprisoned just as quickly\u2014Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Dwayne Johnson, Aldis Hodge, Noah Centineo, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jaume Collet-Serra.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jaume Collet-Serra",
+        "text": "Filmmaker Jaume Collet-Serra pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.8/10 on TMDB",
+        "text": "With an impressive 6.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Black Adam? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/436270"
+      }
+    ],
+    "date_published": "2026-10-25T15:46:24Z",
+    "date_modified": "2026-10-25T15:46:24Z",
+    "published_at": "2026-10-25T15:46:24Z"
+  },
+  {
     "title": "Why SEAL Team Became a Global Military Drama Sensation \ud83c\udf96\ufe0f\ud83d\udd25",
     "seo_description": "Discover how David Boreanaz and SEAL Team redefined modern military drama on television with gritty authenticity and unmatched action.",
     "movie": {

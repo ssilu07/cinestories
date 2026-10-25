@@ -1540,5 +1540,29 @@
     "published_at": "2026-10-25T05:48:33Z",
     "modified_at": "2026-10-25T05:48:33Z",
     "category": "theories_easter_eggs"
+  },
+  "the-loud-house": {
+    "title": "The Loud House",
+    "published_at": "2026-10-25T15:46:24Z",
+    "modified_at": "2026-10-25T15:46:24Z",
+    "category": "series"
+  },
+  "mutiny": {
+    "title": "Mutiny",
+    "published_at": "2026-10-25T15:46:24Z",
+    "modified_at": "2026-10-25T15:46:24Z",
+    "category": "trending"
+  },
+  "a-talent-for-murder": {
+    "title": "A Talent for Murder",
+    "published_at": "2026-10-25T15:46:24Z",
+    "modified_at": "2026-10-25T15:46:24Z",
+    "category": "upcoming"
+  },
+  "black-adam": {
+    "title": "Black Adam",
+    "published_at": "2026-10-25T15:46:24Z",
+    "modified_at": "2026-10-25T15:46:24Z",
+    "category": "theories_easter_eggs"
   }
 }
