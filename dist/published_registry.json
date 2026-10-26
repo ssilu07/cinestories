@@ -1660,5 +1660,29 @@
     "published_at": "2026-10-26T18:26:56Z",
     "modified_at": "2026-10-26T18:26:56Z",
     "category": "theories_easter_eggs"
+  },
+  "brooklyn-nine-nine": {
+    "title": "Brooklyn Nine-Nine",
+    "published_at": "2026-10-26T23:38:42Z",
+    "modified_at": "2026-10-26T23:38:42Z",
+    "category": "series"
+  },
+  "the-hunger-games-sunrise-on-the-reaping": {
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "published_at": "2026-10-26T23:38:42Z",
+    "modified_at": "2026-10-26T23:38:42Z",
+    "category": "trending"
+  },
+  "train-to-busan": {
+    "title": "Train to Busan",
+    "published_at": "2026-10-26T23:38:42Z",
+    "modified_at": "2026-10-26T23:38:42Z",
+    "category": "upcoming"
+  },
+  "rage-of-stars": {
+    "title": "Rage of Stars",
+    "published_at": "2026-10-26T23:38:42Z",
+    "modified_at": "2026-10-26T23:38:42Z",
+    "category": "theories_easter_eggs"
   }
 }

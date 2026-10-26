@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-26T18:27:20.477629+00:00",
-  "total_stories": 277,
+  "generated_at": "2026-10-26T23:39:24.891706+00:00",
+  "total_stories": 281,
   "stories": [
+    {
+      "id": 48891,
+      "slug": "brooklyn-nine-nine",
+      "title": "Brooklyn Nine-Nine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/brooklyn-nine-nine/",
+      "category": "series",
+      "release_date": "2013-09-17",
+      "rating": 8.2
+    },
+    {
+      "id": 1300968,
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "title": "The Hunger Games: Sunrise on the Reaping: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-hunger-games-sunrise-on-the-reaping/",
+      "category": "trending",
+      "release_date": "2026-11-18",
+      "rating": 0.0
+    },
+    {
+      "id": 396535,
+      "slug": "train-to-busan",
+      "title": "Train to Busan: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/train-to-busan/",
+      "category": "upcoming",
+      "release_date": "2016-07-20",
+      "rating": 7.8
+    },
+    {
+      "id": 1323244,
+      "slug": "rage-of-stars",
+      "title": "Rage of Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/rage-of-stars/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-08-06",
+      "rating": 6.5
+    },
     {
       "id": 1395,
       "slug": "gossip-girl",

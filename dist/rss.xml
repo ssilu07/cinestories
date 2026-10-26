@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 18:27:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:39:24 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Brooklyn Nine-Nine: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/brooklyn-nine-nine/</link>
+      <description>Explore Brooklyn Nine-Nine: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/brooklyn-nine-nine/</guid>
+      <pubDate>Mon, 26 Oct 2026 23:38:42 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Hunger Games: Sunrise on the Reaping: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-hunger-games-sunrise-on-the-reaping/</link>
+      <description>Explore The Hunger Games: Sunrise on the Reaping: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-hunger-games-sunrise-on-the-reaping/</guid>
+      <pubDate>Mon, 26 Oct 2026 23:38:42 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Train to Busan: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/train-to-busan/</link>
+      <description>Explore Train to Busan: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/train-to-busan/</guid>
+      <pubDate>Mon, 26 Oct 2026 23:38:42 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Rage of Stars: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/rage-of-stars/</link>
+      <description>Explore Rage of Stars: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/rage-of-stars/</guid>
+      <pubDate>Mon, 26 Oct 2026 23:38:42 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/z7lZgL5tzefTfhyRtouThFhsuUS.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/z7lZgL5tzefTfhyRtouThFhsuUS.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Gossip Girl: The Untold Story &amp; Secrets</title>
       <link>https://cinematicbites.com/articles/gossip-girl/</link>
@@ -425,42 +461,6 @@
       <pubDate>Fri, 23 Oct 2026 05:49:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/xH7Fpxdi6zfOetciX8Rkx48cfrv.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/xH7Fpxdi6zfOetciX8Rkx48cfrv.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Tuner: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/tuner/</link>
-      <description>Explore Tuner: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/tuner/</guid>
-      <pubDate>Fri, 23 Oct 2026 05:49:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/y04gpYp8rJoUud6vf8okqHIdP4V.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/y04gpYp8rJoUud6vf8okqHIdP4V.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Rise of the Planet of the Apes: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/rise-of-the-planet-of-the-apes/</link>
-      <description>Explore Rise of the Planet of the Apes: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/rise-of-the-planet-of-the-apes/</guid>
-      <pubDate>Fri, 23 Oct 2026 05:49:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/6cCF0KMUO2QmrVsQFujkQduREXX.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/6cCF0KMUO2QmrVsQFujkQduREXX.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>How Lego's Ninjago Defied Cancellation to Become a Fantasy Giant 🥋</title>
-      <link>https://cinematicbites.com/articles/ninjago-masters-of-spinjitzu/</link>
-      <description>From a humble toy tie-in to an 8.0/10 global epic, discover how fan passion saved Ninjago: Masters of Spinjitzu and redefined animated storytelling.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/ninjago-masters-of-spinjitzu/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:55:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ptEtIr3rVuAJpmbwaLJJqND6HVq.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ptEtIr3rVuAJpmbwaLJJqND6HVq.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Inside 'V': The 1990s Crime Epic Starring Cinema Legends 🎬💥</title>
-      <link>https://cinematicbites.com/articles/v/</link>
-      <description>Explore V: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/v/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:55:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/c1hrosrq2q56Afn7aZHJZqA1Dn6.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/c1hrosrq2q56Afn7aZHJZqA1Dn6.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

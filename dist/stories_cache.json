@@ -1,5 +1,415 @@
 [
   {
+    "title": "Brooklyn Nine-Nine: The Untold Story & Secrets",
+    "seo_description": "Discover Brooklyn Nine-Nine: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 48891,
+      "title": "Brooklyn Nine-Nine",
+      "original_title": "Brooklyn Nine-Nine",
+      "slug": "brooklyn-nine-nine",
+      "media_type": "tv",
+      "release_date": "2013-09-17",
+      "overview": "A single-camera ensemble comedy following the lives of an eclectic group of detectives in a New York precinct, including one slacker who is forced to shape up when he gets a new boss.",
+      "tagline": "The law. Without the order.",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "runtime": 50,
+      "seasons": 8,
+      "vote_average": 8.2,
+      "vote_count": 4211,
+      "category": "series",
+      "director": "Daniel J. Goor, Michael Schur (Creator)",
+      "top_cast": [
+        "Andy Samberg",
+        "Melissa Fumero",
+        "Terry Crews",
+        "Joe Lo Truglio",
+        "Stephanie Beatriz",
+        "Andre Braugher"
+      ],
+      "poster_path": "/mpjlDzVjp7oyHUe2LaF9ltKe6f1.jpg",
+      "backdrop_path": "/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg",
+      "backdrops": [
+        "/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg",
+        "/wyspZaGs7CXceV3Ct7NJhcKNDkn.jpg",
+        "/vbLl9JL0SxemW5OyI9CzCQdlcX3.jpg",
+        "/jTiQAusGG4dVLSb1WHme9I9R4NN.jpg",
+        "/yMxKoqSA30c2gNxWshUb9KqhMEf.jpg",
+        "/5oIp3IxxpFmDugSBLCsc7QQThYD.jpg",
+        "/ncC9ZgZuKOdaVm7yXinUn26Qyok.jpg",
+        "/yC1XtMElJ8wfLnyRLn8BJOEYAOM.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Brooklyn Nine-Nine",
+        "text": "The law. Without the order. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "A single-camera ensemble comedy following the lives of an eclectic group of detectives in a New York precinct, including one slacker who is forced to shape up when he gets a new boss.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Andy Samberg, Melissa Fumero, Terry Crews, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Daniel J. Goor, Michael Schur (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Daniel J. Goor, Michael Schur (Creator)",
+        "text": "Filmmaker Daniel J. Goor, Michael Schur (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Brooklyn Nine-Nine? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/48891"
+      }
+    ],
+    "date_published": "2026-10-26T23:38:42Z",
+    "date_modified": "2026-10-26T23:38:42Z",
+    "published_at": "2026-10-26T23:38:42Z"
+  },
+  {
+    "title": "The Hunger Games: Sunrise on the Reaping: The Untold Story & Secrets",
+    "seo_description": "Discover The Hunger Games: Sunrise on the Reaping: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1300968,
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "original_title": "The Hunger Games: Sunrise on the Reaping",
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "media_type": "movie",
+      "release_date": "2026-11-18",
+      "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+      "tagline": "Welcome to the Second Quarter Quell.",
+      "genres": [
+        "Science Fiction",
+        "Action",
+        "Adventure"
+      ],
+      "runtime": 158,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "trending",
+      "director": "Francis Lawrence",
+      "top_cast": [
+        "Joseph Zada",
+        "Ralph Fiennes",
+        "Jesse Plemons",
+        "Whitney Peak",
+        "Elle Fanning",
+        "Mckenna Grace"
+      ],
+      "poster_path": "/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+      "backdrop_path": "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+      "backdrops": [
+        "/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+        "/cCGTwo2qtzKcvXvFvkvXO4J2f2D.jpg",
+        "/6bM4RwgUsL8hPz5FjFDKM0vrDu2.jpg",
+        "/rdLax1R7YPEVi9z3fTofzthAOAD.jpg",
+        "/v6qJrvLOIEvfKUAhy1xNUtruOs0.jpg",
+        "/oEDuHEef57DDoyZG4QTrzrofpr8.jpg",
+        "/oRsu3HqtGOQlPZIIT0XLYGf0Z60.jpg",
+        "/497KYpXqaxh99RPMVmsxAg76Nal.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Hunger Games: Sunrise on the Re",
+        "text": "Welcome to the Second Quarter Quell. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Joseph Zada, Ralph Fiennes, Jesse Plemons, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Francis Lawrence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Francis Lawrence",
+        "text": "Filmmaker Francis Lawrence pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Hunger Games: Sunrise on the Reaping? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1300968"
+      }
+    ],
+    "date_published": "2026-10-26T23:38:42Z",
+    "date_modified": "2026-10-26T23:38:42Z",
+    "published_at": "2026-10-26T23:38:42Z"
+  },
+  {
+    "title": "Train to Busan: The Untold Story & Secrets",
+    "seo_description": "Discover Train to Busan: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 396535,
+      "title": "Train to Busan",
+      "original_title": "\ubd80\uc0b0\ud589",
+      "slug": "train-to-busan",
+      "media_type": "movie",
+      "release_date": "2016-07-20",
+      "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+      "tagline": "Life-or-death survival begins.",
+      "genres": [
+        "Action",
+        "Horror",
+        "Thriller",
+        "Adventure"
+      ],
+      "runtime": 118,
+      "seasons": null,
+      "vote_average": 7.8,
+      "vote_count": 8881,
+      "category": "upcoming",
+      "director": "Yeon Sang-ho",
+      "top_cast": [
+        "Gong Yoo",
+        "Kim Su-an",
+        "Jung Yu-mi",
+        "Don Lee",
+        "Choi Woo-shik",
+        "An So-hee"
+      ],
+      "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+      "backdrop_path": "/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+      "backdrops": [
+        "/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+        "/qFKb25O9ROiGYt3GwtuXG5Lb2J.jpg",
+        "/fVpFOcQyHJM2di9upgSIwWD5wac.jpg",
+        "/oHalVwoJukEunPvpwq7rqRuLkyN.jpg",
+        "/3TYsRXQFD6Ui0GKz9xaVei8ULq6.jpg",
+        "/aKISIT8ir0UhHD4yRHDzpK4b6yS.jpg",
+        "/eT9fTSTjsCCmdQJ62EpxvePGANc.jpg",
+        "/6B9HaZYBG1ugyd5g6at6F3n4wOw.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Train to Busan",
+        "text": "Life-or-death survival begins. Rated 7.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Gong Yoo, Kim Su-an, Jung Yu-mi, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Yeon Sang-ho.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Yeon Sang-ho",
+        "text": "Filmmaker Yeon Sang-ho pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.8/10 on TMDB",
+        "text": "With an impressive 7.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Train to Busan? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/396535"
+      }
+    ],
+    "date_published": "2026-10-26T23:38:42Z",
+    "date_modified": "2026-10-26T23:38:42Z",
+    "published_at": "2026-10-26T23:38:42Z"
+  },
+  {
+    "title": "Rage of Stars: The Untold Story & Secrets",
+    "seo_description": "Discover Rage of Stars: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1323244,
+      "title": "Rage of Stars",
+      "original_title": "Rage of Stars",
+      "slug": "rage-of-stars",
+      "media_type": "movie",
+      "release_date": "2026-08-06",
+      "overview": "A story about a woman from the International Special Forces Unit, who has a premonition about the impending end of humanity.",
+      "tagline": "",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 6.5,
+      "vote_count": 247,
+      "category": "theories_easter_eggs",
+      "director": "\u0141ukasz R\u00f3g",
+      "top_cast": [
+        "Andrea Tivadar",
+        "Jord Knotter",
+        "Jack McEvoy",
+        "Elijah Rowen",
+        "Ma\u0142gorzata Klara",
+        "Mayu Grali\u0144ska Sakai"
+      ],
+      "poster_path": "/oLld47ZT1I3iecM3OWhIphohQUJ.jpg",
+      "backdrop_path": "/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+      "backdrops": [
+        "/z7lZgL5tzefTfhyRtouThFhsuUS.jpg",
+        "/ntsanGObt78CKPhg3ghbYl07k1w.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Rage of Stars",
+        "text": "Experience the global phenomenon of Rage of Stars. Rated 6.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "A story about a woman from the International Special Forces Unit, who has a premonition about the impending end of humanity.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Andrea Tivadar, Jord Knotter, Jack McEvoy, the film boasts phenomenal on-screen chemistry and career-defining performances directed by \u0141ukasz R\u00f3g.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by \u0141ukasz R\u00f3g",
+        "text": "Filmmaker \u0141ukasz R\u00f3g pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.5/10 on TMDB",
+        "text": "With an impressive 6.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Rage of Stars? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1323244"
+      }
+    ],
+    "date_published": "2026-10-26T23:38:42Z",
+    "date_modified": "2026-10-26T23:38:42Z",
+    "published_at": "2026-10-26T23:38:42Z"
+  },
+  {
     "title": "Gossip Girl: The Untold Story & Secrets",
     "seo_description": "Discover Gossip Girl: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
