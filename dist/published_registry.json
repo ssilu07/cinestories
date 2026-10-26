@@ -1612,5 +1612,29 @@
     "published_at": "2026-10-25T22:22:22Z",
     "modified_at": "2026-10-25T22:22:22Z",
     "category": "theories_easter_eggs"
+  },
+  "riverdale": {
+    "title": "Riverdale",
+    "published_at": "2026-10-26T05:51:29Z",
+    "modified_at": "2026-10-26T05:51:29Z",
+    "category": "series"
+  },
+  "the-awakening": {
+    "title": "The Awakening",
+    "published_at": "2026-10-26T05:51:29Z",
+    "modified_at": "2026-10-26T05:51:29Z",
+    "category": "trending"
+  },
+  "flywheel-ignition-of-the-soul": {
+    "title": "Flywheel: Ignition of the Soul",
+    "published_at": "2026-10-26T05:51:29Z",
+    "modified_at": "2026-10-26T05:51:29Z",
+    "category": "upcoming"
+  },
+  "oblivion": {
+    "title": "Oblivion",
+    "published_at": "2026-10-26T05:51:29Z",
+    "modified_at": "2026-10-26T05:51:29Z",
+    "category": "theories_easter_eggs"
   }
 }

@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 22:28:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 05:51:39 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Riverdale: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/riverdale/</link>
+      <description>Explore Riverdale: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/riverdale/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:51:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/kb9XvtEnDhBVVit4eeKygqll4EA.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/kb9XvtEnDhBVVit4eeKygqll4EA.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Awakening: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-awakening/</link>
+      <description>Explore The Awakening: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-awakening/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:51:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/75MLVCmQ4QougShkx3OlUbJbuSK.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/75MLVCmQ4QougShkx3OlUbJbuSK.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Flywheel: Ignition of the Soul: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/flywheel-ignition-of-the-soul/</link>
+      <description>Explore Flywheel: Ignition of the Soul: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/flywheel-ignition-of-the-soul/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:51:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/w6GQVp1mCiEDwje8AS93CbEN75I.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/w6GQVp1mCiEDwje8AS93CbEN75I.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Oblivion: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/oblivion/</link>
+      <description>Explore Oblivion: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/oblivion/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:51:29 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/2kVt8oj1cSz4GAP0Hi8SESOiH0T.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/2kVt8oj1cSz4GAP0Hi8SESOiH0T.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Why Anime Epic 'Frieren' Is Breaking Hearts and Breaking Records 🪄</title>
       <link>https://cinematicbites.com/articles/frieren-beyond-journeys-end/</link>
@@ -425,42 +461,6 @@
       <pubDate>Thu, 22 Oct 2026 23:02:58 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Monster Mia: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/monster-mia/</link>
-      <description>Explore Monster Mia: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/monster-mia/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:02:58 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why Terminator 2’s Subtlest Details Still Stun Fans 30+ Years Later</title>
-      <link>https://cinematicbites.com/articles/terminator-2-judgment-day/</link>
-      <description>From Robert Patrick's lethal sprint to Linda Hamilton's fierce transformation, explore the hidden secrets behind James Cameron's iconic action blockbuster.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/terminator-2-judgment-day/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:02:58 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/izkMjmhauFx9DjoBQqM5sM5WAwE.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Better Call Saul: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/better-call-saul/</link>
-      <description>Explore Better Call Saul: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/better-call-saul/</guid>
-      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/rfxryDIv8huejujg4JueDJx8zCz.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/rfxryDIv8huejujg4JueDJx8zCz.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Dave Franco and Macon Blair Team Up for Wild Crime Comedy 'Idiots' 🚗</title>
-      <link>https://cinematicbites.com/articles/idiots/</link>
-      <description>Dave Franco and O'Shea Jackson Jr. lead Macon Blair's chaotic crime road trip 'Idiots.' Here is why audiences are talking about this reckless joyride.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/idiots/</guid>
-      <pubDate>Thu, 22 Oct 2026 16:51:04 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/lneqlgbg3XUjNaeGYk8arhgzczo.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/lneqlgbg3XUjNaeGYk8arhgzczo.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

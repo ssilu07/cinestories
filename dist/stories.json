@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-25T22:28:37.851549+00:00",
-  "total_stories": 269,
+  "generated_at": "2026-10-26T05:51:39.306942+00:00",
+  "total_stories": 273,
   "stories": [
+    {
+      "id": 69050,
+      "slug": "riverdale",
+      "title": "Riverdale: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/riverdale/",
+      "category": "series",
+      "release_date": "2017-01-26",
+      "rating": 8.4
+    },
+    {
+      "id": 1657630,
+      "slug": "the-awakening",
+      "title": "The Awakening: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-awakening/",
+      "category": "trending",
+      "release_date": "2026-10-29",
+      "rating": 7.2
+    },
+    {
+      "id": 1511171,
+      "slug": "flywheel-ignition-of-the-soul",
+      "title": "Flywheel: Ignition of the Soul: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/flywheel-ignition-of-the-soul/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 75612,
+      "slug": "oblivion",
+      "title": "Oblivion: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/oblivion/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-04-10",
+      "rating": 6.7
+    },
     {
       "id": 209867,
       "slug": "frieren-beyond-journeys-end",

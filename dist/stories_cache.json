@@ -1,5 +1,408 @@
 [
   {
+    "title": "Riverdale: The Untold Story & Secrets",
+    "seo_description": "Discover Riverdale: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 69050,
+      "title": "Riverdale",
+      "original_title": "Riverdale",
+      "slug": "riverdale",
+      "media_type": "tv",
+      "release_date": "2017-01-26",
+      "overview": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\u2019s wholesome facade.",
+      "tagline": "To save the future, they must survive the past.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 45,
+      "seasons": 7,
+      "vote_average": 8.4,
+      "vote_count": 13813,
+      "category": "series",
+      "director": "Roberto Aguirre-Sacasa (Creator)",
+      "top_cast": [
+        "KJ Apa",
+        "Lili Reinhart",
+        "Camila Mendes",
+        "Cole Sprouse",
+        "Madelaine Petsch",
+        "Casey Cott"
+      ],
+      "poster_path": "/d8mmn9thQ5dBk2qbv6BCqGUXWK3.jpg",
+      "backdrop_path": "/kb9XvtEnDhBVVit4eeKygqll4EA.jpg",
+      "backdrops": [
+        "/kb9XvtEnDhBVVit4eeKygqll4EA.jpg",
+        "/mrGd5M3kPkAKynZruOAwsadsr9w.jpg",
+        "/9hvhGtcsGhQY58pukw8w55UEUbL.jpg",
+        "/colNDt09PACkwtCgWILJQ8i6vSR.jpg",
+        "/2AyySFf6MSoR7bavBvoBLck2gpo.jpg",
+        "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+        "/pISoRxxnc93Rw6k9RhPJmsvWUMq.jpg",
+        "/qZtAf4Z1lazGQoYVXiHOrvLr5lI.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Riverdale",
+        "text": "To save the future, they must survive the past. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "Set in the present, the series offers a bold, subversive take on Archie, Betty, Veronica and their friends, exploring the surreality of small-town life, the darkness and weirdness bubbling beneath Riverdale\u2019s wholesome facade.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by KJ Apa, Lili Reinhart, Camila Mendes, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Roberto Aguirre-Sacasa (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Roberto Aguirre-Sacasa (Creator)",
+        "text": "Filmmaker Roberto Aguirre-Sacasa (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Riverdale? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/69050"
+      }
+    ],
+    "date_published": "2026-10-26T05:51:29Z",
+    "date_modified": "2026-10-26T05:51:29Z",
+    "published_at": "2026-10-26T05:51:29Z"
+  },
+  {
+    "title": "The Awakening: The Untold Story & Secrets",
+    "seo_description": "Discover The Awakening: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1657630,
+      "title": "The Awakening",
+      "original_title": "El despertar",
+      "slug": "the-awakening",
+      "media_type": "movie",
+      "release_date": "2026-10-29",
+      "overview": "An elite military unit on a mission in the South American jungle encounters a deadly supernatural force revealing an ancient presence that continues to claim anyone who dares enter its domain.",
+      "tagline": "",
+      "genres": [
+        "Horror",
+        "Action",
+        "War",
+        "Fantasy",
+        "Thriller"
+      ],
+      "runtime": 96,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 4,
+      "category": "trending",
+      "director": "Jaime Osorio M\u00e1rquez",
+      "top_cast": [
+        "Claudio Cata\u00f1o",
+        "Alejandro Buitrago",
+        "Hector S\u00e1nchez",
+        "Andrea Olaya",
+        "Quique Sanmartin",
+        "Jaisson Jeack"
+      ],
+      "poster_path": "/7pUGiRg9Gq1JqmmNSJLLSonOKum.jpg",
+      "backdrop_path": "/75MLVCmQ4QougShkx3OlUbJbuSK.jpg",
+      "backdrops": [
+        "/75MLVCmQ4QougShkx3OlUbJbuSK.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Awakening",
+        "text": "Experience the global phenomenon of The Awakening. Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "An elite military unit on a mission in the South American jungle encounters a deadly supernatural force revealing an ancient presence that continues to claim anyone who dares enter its domain.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Claudio Cata\u00f1o, Alejandro Buitrago, Hector S\u00e1nchez, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jaime Osorio M\u00e1rquez.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jaime Osorio M\u00e1rquez",
+        "text": "Filmmaker Jaime Osorio M\u00e1rquez pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Awakening? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1657630"
+      }
+    ],
+    "date_published": "2026-10-26T05:51:29Z",
+    "date_modified": "2026-10-26T05:51:29Z",
+    "published_at": "2026-10-26T05:51:29Z"
+  },
+  {
+    "title": "Flywheel: Ignition of the Soul: The Untold Story & Secrets",
+    "seo_description": "Discover Flywheel: Ignition of the Soul: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1511171,
+      "title": "Flywheel: Ignition of the Soul",
+      "original_title": "A Virada: Igni\u00e7\u00e3o da Alma",
+      "slug": "flywheel-ignition-of-the-soul",
+      "media_type": "movie",
+      "release_date": "2026-10-16",
+      "overview": "In Rio de Janeiro, Noah Silva is a smooth-talking, used-car salesman whose 'do whatever it takes' approach to business and life begins to unravel at home and at work. After a series of wake-up calls, Noah is forced to confront the cost of his choices. He begins a difficult and deeply personal journey to restore his integrity while trying to win back the hearts of his wife and son.",
+      "tagline": "",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 125,
+      "seasons": null,
+      "vote_average": 0.0,
+      "vote_count": 0,
+      "category": "upcoming",
+      "director": "Alessandro Barros",
+      "top_cast": [
+        "M\u00e1rio Bregieira",
+        "P\u00e9rola Faria",
+        "Felipe Folgosi",
+        "Alex Kendrick",
+        "Adriano Canind\u00e9",
+        "Guilherme Tavares"
+      ],
+      "poster_path": "/2JvQAcERn9q7kYDU9GEfsUpQP0A.jpg",
+      "backdrop_path": "/w6GQVp1mCiEDwje8AS93CbEN75I.jpg",
+      "backdrops": [
+        "/w6GQVp1mCiEDwje8AS93CbEN75I.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Flywheel: Ignition of the Soul",
+        "text": "Experience the global phenomenon of Flywheel: Ignition of the Soul. Rated 0.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "In Rio de Janeiro, Noah Silva is a smooth-talking, used-car salesman whose 'do whatever it takes' approach to business and life begins to unravel at home and at work. After a series of wake-up...",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by M\u00e1rio Bregieira, P\u00e9rola Faria, Felipe Folgosi, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Alessandro Barros.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Alessandro Barros",
+        "text": "Filmmaker Alessandro Barros pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 0.0/10 on TMDB",
+        "text": "With an impressive 0.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Flywheel: Ignition of the Soul? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1511171"
+      }
+    ],
+    "date_published": "2026-10-26T05:51:29Z",
+    "date_modified": "2026-10-26T05:51:29Z",
+    "published_at": "2026-10-26T05:51:29Z"
+  },
+  {
+    "title": "Oblivion: The Untold Story & Secrets",
+    "seo_description": "Discover Oblivion: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 75612,
+      "title": "Oblivion",
+      "original_title": "Oblivion",
+      "slug": "oblivion",
+      "media_type": "movie",
+      "release_date": "2013-04-10",
+      "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack\u2019s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful  stranger from a downed spacecraft. Her arrival triggers a chain of events that  forces him to question everything he knows and puts the fate of humanity in his hands.",
+      "tagline": "Earth is a memory worth fighting for.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Adventure",
+        "Mystery"
+      ],
+      "runtime": 124,
+      "seasons": null,
+      "vote_average": 6.7,
+      "vote_count": 11963,
+      "category": "theories_easter_eggs",
+      "director": "Joseph Kosinski",
+      "top_cast": [
+        "Tom Cruise",
+        "Morgan Freeman",
+        "Olga Kurylenko",
+        "Andrea Riseborough",
+        "Nikolaj Coster-Waldau",
+        "Melissa Leo"
+      ],
+      "poster_path": "/eO3r38fwnhb58M1YgcjQBd3VNcp.jpg",
+      "backdrop_path": "/2kVt8oj1cSz4GAP0Hi8SESOiH0T.jpg",
+      "backdrops": [
+        "/2kVt8oj1cSz4GAP0Hi8SESOiH0T.jpg",
+        "/aTEZcPvsHiLkdnKL7CGSqR9GpNq.jpg",
+        "/tenUPIMnLO9QUcvAtakp0xSAYTz.jpg",
+        "/52hSmfZmO2jzOFgh9hkfRVWVtu2.jpg",
+        "/1d6q2DIcUFv7mBNjUbfa7gZ65Sj.jpg",
+        "/19AqfWi8S99tDmp7hskCeDQuwLU.jpg",
+        "/Pv6vu1lxgct3GWhUXVVOMZwNlZ.jpg",
+        "/sbkYWB5QcfT00gLUkbNE5LTdhIX.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Oblivion",
+        "text": "Earth is a memory worth fighting for. Rated 6.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs,...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Cruise, Morgan Freeman, Olga Kurylenko, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Joseph Kosinski.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Joseph Kosinski",
+        "text": "Filmmaker Joseph Kosinski pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.7/10 on TMDB",
+        "text": "With an impressive 6.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Oblivion? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/75612"
+      }
+    ],
+    "date_published": "2026-10-26T05:51:29Z",
+    "date_modified": "2026-10-26T05:51:29Z",
+    "published_at": "2026-10-26T05:51:29Z"
+  },
+  {
     "title": "Frieren: Beyond Journey's End: The Untold Story & Secrets",
     "seo_description": "Discover Frieren: Beyond Journey's End: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
