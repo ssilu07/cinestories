@@ -1636,5 +1636,29 @@
     "published_at": "2026-10-26T05:51:29Z",
     "modified_at": "2026-10-26T05:51:29Z",
     "category": "theories_easter_eggs"
+  },
+  "gossip-girl": {
+    "title": "Gossip Girl",
+    "published_at": "2026-10-26T18:26:56Z",
+    "modified_at": "2026-10-26T18:26:56Z",
+    "category": "series"
+  },
+  "the-dog-stars": {
+    "title": "The Dog Stars",
+    "published_at": "2026-10-26T18:26:56Z",
+    "modified_at": "2026-10-26T18:26:56Z",
+    "category": "trending"
+  },
+  "ghost-in-the-cell": {
+    "title": "Ghost in the Cell",
+    "published_at": "2026-10-26T18:26:56Z",
+    "modified_at": "2026-10-26T18:26:56Z",
+    "category": "upcoming"
+  },
+  "man-of-steel": {
+    "title": "Man of Steel",
+    "published_at": "2026-10-26T18:26:56Z",
+    "modified_at": "2026-10-26T18:26:56Z",
+    "category": "theories_easter_eggs"
   }
 }

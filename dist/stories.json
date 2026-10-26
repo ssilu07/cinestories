@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-26T05:51:39.306942+00:00",
-  "total_stories": 273,
+  "generated_at": "2026-10-26T18:27:20.477629+00:00",
+  "total_stories": 277,
   "stories": [
+    {
+      "id": 1395,
+      "slug": "gossip-girl",
+      "title": "Gossip Girl: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/gossip-girl/",
+      "category": "series",
+      "release_date": "2007-09-19",
+      "rating": 8.1
+    },
+    {
+      "id": 1384216,
+      "slug": "the-dog-stars",
+      "title": "The Dog Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-dog-stars/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 6.6
+    },
+    {
+      "id": 1393326,
+      "slug": "ghost-in-the-cell",
+      "title": "Ghost in the Cell: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/ghost-in-the-cell/",
+      "category": "upcoming",
+      "release_date": "2026-04-16",
+      "rating": 6.9
+    },
+    {
+      "id": 49521,
+      "slug": "man-of-steel",
+      "title": "Man of Steel: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/man-of-steel/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-06-12",
+      "rating": 6.7
+    },
     {
       "id": 69050,
       "slug": "riverdale",

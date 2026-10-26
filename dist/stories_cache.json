@@ -1,5 +1,419 @@
 [
   {
+    "title": "Gossip Girl: The Untold Story & Secrets",
+    "seo_description": "Discover Gossip Girl: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1395,
+      "title": "Gossip Girl",
+      "original_title": "Gossip Girl",
+      "slug": "gossip-girl",
+      "media_type": "tv",
+      "release_date": "2007-09-19",
+      "overview": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+      "tagline": "You're nobody until you're talked about.",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 6,
+      "vote_average": 8.1,
+      "vote_count": 2370,
+      "category": "series",
+      "director": "Stephanie Savage, Josh Schwartz (Creator)",
+      "top_cast": [
+        "Blake Lively",
+        "Leighton Meester",
+        "Penn Badgley",
+        "Chace Crawford",
+        "Ed Westwick",
+        "Kaylee DeFer"
+      ],
+      "poster_path": "/ep03M6KKZGeljOizPEbt3Geja5n.jpg",
+      "backdrop_path": "/5RWAjCYhu3D8Ai2QBYP7GjaxFb3.jpg",
+      "backdrops": [
+        "/5RWAjCYhu3D8Ai2QBYP7GjaxFb3.jpg",
+        "/f1oditpv2BaFLO1fWv3E5JzjQGv.jpg",
+        "/b9bcixO9CqMRmTv7dyafr09YaAm.jpg",
+        "/flGOsubRpuvPyElepKgKfWzSMHb.jpg",
+        "/dZOumHbzzzr8u7wnrHgh1tc3VnU.jpg",
+        "/A0iMouueP0Hy2I9TjfWs9TxO1iU.jpg",
+        "/ernU5piuyXXKnkCyx0uqjqqoMyE.jpg",
+        "/kDUCF6thgPwPwOzpVHldp0ULdjj.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd25 BINGE PHENOMENON",
+        "title": "Gossip Girl",
+        "text": "You're nobody until you're talked about. Rated 8.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE MASTERMIND PLOT",
+        "title": "Shocking Twist Ahead",
+        "text": "An exclusive group of privileged teens from a posh prep school on Manhattan's Upper East Side whose lives revolve around the blog of the all-knowing albeit ultra-secretive Gossip Girl.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Blake Lively, Leighton Meester, Penn Badgley, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Stephanie Savage, Josh Schwartz (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Stephanie Savage, Josh Schwartz (Creator)",
+        "text": "Filmmaker Stephanie Savage, Josh Schwartz (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.1/10 on TMDB",
+        "text": "With an impressive 8.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Gossip Girl? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1395"
+      }
+    ],
+    "date_published": "2026-10-26T18:26:56Z",
+    "date_modified": "2026-10-26T18:26:56Z",
+    "published_at": "2026-10-26T18:26:56Z"
+  },
+  {
+    "title": "The Dog Stars: The Untold Story & Secrets",
+    "seo_description": "Discover The Dog Stars: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1384216,
+      "title": "The Dog Stars",
+      "original_title": "The Dog Stars",
+      "slug": "the-dog-stars",
+      "media_type": "movie",
+      "release_date": "2026-08-26",
+      "overview": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he\u2019s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
+      "tagline": "At the end of the world, no one survives alone.",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Adventure"
+      ],
+      "runtime": 119,
+      "seasons": null,
+      "vote_average": 6.6,
+      "vote_count": 314,
+      "category": "trending",
+      "director": "Ridley Scott",
+      "top_cast": [
+        "Jacob Elordi",
+        "Josh Brolin",
+        "Margaret Qualley",
+        "Guy Pearce",
+        "Benedict Wong",
+        "Allison Janney"
+      ],
+      "poster_path": "/5O616X9vmRzQdB68PHzBewPittd.jpg",
+      "backdrop_path": "/yhCHnkidQdR3lksbdyFxduRXFPK.jpg",
+      "backdrops": [
+        "/yhCHnkidQdR3lksbdyFxduRXFPK.jpg",
+        "/quAHqi4zBrB5fIfHvgrqiG4xzAC.jpg",
+        "/3k7GzxOdLZkN3eZsuhLi2eRzkXO.jpg",
+        "/hR6QVdjy3Tky1mtzdPqTsFS2nQ.jpg",
+        "/joVtII9prX3MC4a2LfoKsiMWET3.jpg",
+        "/srbk1HHT6eKjguGVOJVSHFA691R.jpg",
+        "/rxuSFjiINfMk62a9aQ9Itbn4gVj.jpg",
+        "/zBOKwwuhgRQKGL9x1bc1RtiYpZI.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Dog Stars",
+        "text": "At the end of the world, no one survives alone. Rated 6.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jacob Elordi, Josh Brolin, Margaret Qualley, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Ridley Scott.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Ridley Scott",
+        "text": "Filmmaker Ridley Scott pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.6/10 on TMDB",
+        "text": "With an impressive 6.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Dog Stars? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1384216"
+      }
+    ],
+    "date_published": "2026-10-26T18:26:56Z",
+    "date_modified": "2026-10-26T18:26:56Z",
+    "published_at": "2026-10-26T18:26:56Z"
+  },
+  {
+    "title": "Ghost in the Cell: The Untold Story & Secrets",
+    "seo_description": "Discover Ghost in the Cell: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1393326,
+      "title": "Ghost in the Cell",
+      "original_title": "Ghost in the Cell",
+      "slug": "ghost-in-the-cell",
+      "media_type": "movie",
+      "release_date": "2026-04-16",
+      "overview": "In a notorious prison, an invisible force begins killing inmates brutally, compelling enemy gangs and corrupt guards to work together as they try to survive the mounting bloodshed.",
+      "tagline": "",
+      "genres": [
+        "Horror",
+        "Comedy",
+        "Thriller"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 6.9,
+      "vote_count": 105,
+      "category": "upcoming",
+      "director": "Joko Anwar",
+      "top_cast": [
+        "Abimana Aryasatya",
+        "Bront Palarae",
+        "Dimas Danang",
+        "Endy Arfian",
+        "Lukman Sardi",
+        "Mike Lucock"
+      ],
+      "poster_path": "/zxcMdx0w5Zmg8yZuuiS7CJ8vOea.jpg",
+      "backdrop_path": "/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+      "backdrops": [
+        "/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg",
+        "/afk22GzX3YZoG6XRsD3T2QRn0lv.jpg",
+        "/unEj3lNA48RKVQDdzeaTxKHtE4C.jpg",
+        "/9viKaHznJCcNId1vkfQjXtTEJkE.jpg",
+        "/zhBeydlF1mifTOWqvAlOg8QblcO.jpg",
+        "/tC9s5FN3HRzIuJr0zPcUcFWNgML.jpg",
+        "/dVmAMw5sWqzlwwWgK9vaVf1edKt.jpg",
+        "/mk4gBlUCw5TAgIWQ8TVwSSgDYky.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Ghost in the Cell",
+        "text": "Experience the global phenomenon of Ghost in the Cell. Rated 6.9/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "In a notorious prison, an invisible force begins killing inmates brutally, compelling enemy gangs and corrupt guards to work together as they try to survive the mounting bloodshed.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Abimana Aryasatya, Bront Palarae, Dimas Danang, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Joko Anwar.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Joko Anwar",
+        "text": "Filmmaker Joko Anwar pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.9/10 on TMDB",
+        "text": "With an impressive 6.9/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Ghost in the Cell? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1393326"
+      }
+    ],
+    "date_published": "2026-10-26T18:26:56Z",
+    "date_modified": "2026-10-26T18:26:56Z",
+    "published_at": "2026-10-26T18:26:56Z"
+  },
+  {
+    "title": "Man of Steel: The Untold Story & Secrets",
+    "seo_description": "Discover Man of Steel: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 49521,
+      "title": "Man of Steel",
+      "original_title": "Man of Steel",
+      "slug": "man-of-steel",
+      "media_type": "movie",
+      "release_date": "2013-06-12",
+      "overview": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to do. But the hero in him must emerge if he is to save the world from annihilation and become the symbol of hope for all mankind.",
+      "tagline": "You are not alone.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Science Fiction"
+      ],
+      "runtime": 143,
+      "seasons": null,
+      "vote_average": 6.7,
+      "vote_count": 16754,
+      "category": "theories_easter_eggs",
+      "director": "Zack Snyder",
+      "top_cast": [
+        "Henry Cavill",
+        "Amy Adams",
+        "Michael Shannon",
+        "Diane Lane",
+        "Russell Crowe",
+        "Antje Traue"
+      ],
+      "poster_path": "/8GFtkImmK0K1VaUChR0n9O61CFU.jpg",
+      "backdrop_path": "/69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg",
+      "backdrops": [
+        "/69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg",
+        "/gXEwpePVhDKpuD81tmFdfbtbTfZ.jpg",
+        "/4oYBCR2CWtKpfkOKCzpmlE5EdxY.jpg",
+        "/dlPw6SESWNudgriKvNxJJLJryLq.jpg",
+        "/j2MlEEpA3wgwQiJB6p1UHC50oiw.jpg",
+        "/81z8rAPDyguXpsnq5kI3GMjMIzg.jpg",
+        "/zNTanXDNMlp0IKrL8jmEjhojCfS.jpg",
+        "/8nyDpaseUUO91MX1MSXbygTSEE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83e\uddb8\u200d\u2642\ufe0f MULTIVERSE DECODED",
+        "title": "Man of Steel",
+        "text": "You are not alone. Rated 6.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE POST-CREDIT CLUE",
+        "title": "Shocking Twist Ahead",
+        "text": "A young boy learns that he has extraordinary powers and is not of this earth. As a young man, he journeys to discover where he came from and what he was sent here to...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Henry Cavill, Amy Adams, Michael Shannon, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Zack Snyder.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Zack Snyder",
+        "text": "Filmmaker Zack Snyder pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.7/10 on TMDB",
+        "text": "With an impressive 6.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Man of Steel? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/49521"
+      }
+    ],
+    "date_published": "2026-10-26T18:26:56Z",
+    "date_modified": "2026-10-26T18:26:56Z",
+    "published_at": "2026-10-26T18:26:56Z"
+  },
+  {
     "title": "Riverdale: The Untold Story & Secrets",
     "seo_description": "Discover Riverdale: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

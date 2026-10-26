@@ -5,13 +5,49 @@
     <link>https://cinematicbites.com/</link>
     <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 05:51:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:27:20 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
       <title>MoviePulse</title>
       <link>https://cinematicbites.com/</link>
     </image>
+    <item>
+      <title>Gossip Girl: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/gossip-girl/</link>
+      <description>Explore Gossip Girl: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/gossip-girl/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:26:56 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/5RWAjCYhu3D8Ai2QBYP7GjaxFb3.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/5RWAjCYhu3D8Ai2QBYP7GjaxFb3.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Dog Stars: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/the-dog-stars/</link>
+      <description>Explore The Dog Stars: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/the-dog-stars/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:26:56 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/yhCHnkidQdR3lksbdyFxduRXFPK.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/yhCHnkidQdR3lksbdyFxduRXFPK.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Ghost in the Cell: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/ghost-in-the-cell/</link>
+      <description>Explore Ghost in the Cell: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/ghost-in-the-cell/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:26:56 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/tK3QdOOrX4qEkmSlvrmc8cK7iOU.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Man of Steel: The Untold Story &amp; Secrets</title>
+      <link>https://cinematicbites.com/articles/man-of-steel/</link>
+      <description>Explore Man of Steel: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/man-of-steel/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:26:56 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Riverdale: The Untold Story &amp; Secrets</title>
       <link>https://cinematicbites.com/articles/riverdale/</link>
@@ -425,42 +461,6 @@
       <pubDate>Fri, 23 Oct 2026 04:55:41 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/c1hrosrq2q56Afn7aZHJZqA1Dn6.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/c1hrosrq2q56Afn7aZHJZqA1Dn6.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Rolling Loud: The Movie: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/rolling-loud-the-movie/</link>
-      <description>Explore Rolling Loud: The Movie: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/rolling-loud-the-movie/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:55:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/eQC3h5fyEjNhSULe7yQlFaDkSub.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/eQC3h5fyEjNhSULe7yQlFaDkSub.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Captain America: Civil War: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/captain-america-civil-war/</link>
-      <description>Explore Captain America: Civil War: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/captain-america-civil-war/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:55:41 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/7FWlcZq3r6525LWOcvO9kNWurN1.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/7FWlcZq3r6525LWOcvO9kNWurN1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Why Lucifer Became Television's Most Irresistible Guilty Pleasure 😈</title>
-      <link>https://cinematicbites.com/articles/lucifer/</link>
-      <description>How Tom Ellis turned DC's devil into an 8.4-rated sensation that conquered fans across six wildly entertaining seasons.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/lucifer/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:02:58 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/ta5oblpMlEcIPIS2YGcq9XEkWK2.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/ta5oblpMlEcIPIS2YGcq9XEkWK2.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Cat in the Hat: The Untold Story &amp; Secrets</title>
-      <link>https://cinematicbites.com/articles/the-cat-in-the-hat/</link>
-      <description>Explore The Cat in the Hat: cast highlights, hidden trivia, critical reception, and streaming breakdown.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/the-cat-in-the-hat/</guid>
-      <pubDate>Thu, 22 Oct 2026 23:02:58 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/tqaEZxmZyzvN0bPXHRKmJHxXVVe.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
