@@ -1480,5 +1480,29 @@
     "published_at": "2026-10-27T17:41:38Z",
     "modified_at": "2026-10-27T17:41:38Z",
     "category": "upcoming"
+  },
+  "top-gun-maverick": {
+    "title": "Top Gun: Maverick",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "netflix_hits"
+  },
+  "crystal-lake": {
+    "title": "Crystal Lake",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "streaming_charts"
+  },
+  "mutiny": {
+    "title": "Mutiny",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "trending"
+  },
+  "shaun-the-sheep-the-beast-of-mossy-bottom": {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "upcoming"
   }
 }

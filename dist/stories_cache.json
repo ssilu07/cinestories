@@ -1,5 +1,417 @@
 [
   {
+    "title": "Top Gun: Maverick: The Untold Story & Secrets",
+    "seo_description": "Discover Top Gun: Maverick: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 361743,
+      "title": "Top Gun: Maverick",
+      "original_title": "Top Gun: Maverick",
+      "slug": "top-gun-maverick",
+      "media_type": "movie",
+      "release_date": "2022-05-21",
+      "overview": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+      "tagline": "Feel the need... The need for speed.",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "runtime": 131,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 11800,
+      "category": "netflix_hits",
+      "director": "Joseph Kosinski",
+      "top_cast": [
+        "Tom Cruise",
+        "Miles Teller",
+        "Jennifer Connelly",
+        "Bashir Salahuddin",
+        "Jon Hamm",
+        "Charles Parnell"
+      ],
+      "poster_path": "/n0YuM4f5lvGAP6MAW2kBIzugXnc.jpg",
+      "backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+      "backdrops": [
+        "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+        "/5AcP07WJl1VZbnloLZrMVgYjR2s.jpg",
+        "/kBSSbN1sOiJtXjAGVZXxHJR9Kox.jpg",
+        "/odJ4hx6g6vBt4lBWKFD1tI8WS4x.jpg",
+        "/vvfjmGd4iypwE89e3ZkhEsTNQyH.jpg",
+        "/m1aaLpSnmq72jMu5vIbBEdyR508.jpg",
+        "/u9tWvLMKCRryraFCoLhDdLC0gP1.jpg",
+        "/f0GJgpzXlCXeY771LuVKfoj4VmW.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd34 NETFLIX TOP RELEASE",
+        "title": "Top Gun: Maverick",
+        "text": "Feel the need... The need for speed. Rated 8.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Tom Cruise, Miles Teller, Jennifer Connelly, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Joseph Kosinski.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Joseph Kosinski",
+        "text": "Filmmaker Joseph Kosinski pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.2/10 on TMDB",
+        "text": "With an impressive 8.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Top Gun: Maverick? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/361743"
+      }
+    ],
+    "date_published": "2026-10-27T23:37:39Z",
+    "date_modified": "2026-10-27T23:37:39Z",
+    "published_at": "2026-10-27T23:37:39Z"
+  },
+  {
+    "title": "Crystal Lake: The Untold Story & Secrets",
+    "seo_description": "Discover Crystal Lake: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 213562,
+      "title": "Crystal Lake",
+      "original_title": "Crystal Lake",
+      "slug": "crystal-lake",
+      "media_type": "tv",
+      "release_date": "2026-10-15",
+      "overview": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door digging into her past, a disturbing chain of events is set into motion, leaving the townspeople of Crystal Lake wondering: just who is Pam Voorhees?",
+      "tagline": "Rage is a mother.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 8.7,
+      "vote_count": 267,
+      "category": "streaming_charts",
+      "director": "Brad Caleb Kane (Creator)",
+      "top_cast": [
+        "Linda Cardellini",
+        "William Catlett",
+        "Gwendolyn Sundstrom",
+        "Cameron Scoggins",
+        "Devin Kessler"
+      ],
+      "poster_path": "/3ENhExiD2fcjk5FX0AcAXcvLu9N.jpg",
+      "backdrop_path": "/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+      "backdrops": [
+        "/6thBvfTt3j29UOmyi9ycCRems0q.jpg",
+        "/wxiBsKFEOOFK8eQStWOykNORlXY.jpg",
+        "/3qbNgNqMFrEEhIl43UKD9oxCkOw.jpg",
+        "/l55uCBgRdNStoOrbiLys6xHxiIe.jpg",
+        "/fIKqWFPPSBM0RuLVoJLNVGdJJTA.jpg",
+        "/zADLXmT6YnlSitV3diAtcwVRM2M.jpg",
+        "/5z5yynwihKGkupR2bXIWxO1IZVZ.jpg",
+        "/c1RP38PbwfCaQjSSotniS01uvuY.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "Crystal Lake",
+        "text": "Rage is a mother. Rated 8.7/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "Single mother Pam Voorhees has been unable to shake her grief after her young, sickly son Jason tragically drowned in the town lake almost a year before. When two strangers arrive at Pam's door...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Linda Cardellini, William Catlett, Gwendolyn Sundstrom, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Brad Caleb Kane (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Brad Caleb Kane (Creator)",
+        "text": "Filmmaker Brad Caleb Kane (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.7/10 on TMDB",
+        "text": "With an impressive 8.7/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Crystal Lake? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/213562"
+      }
+    ],
+    "date_published": "2026-10-27T23:37:39Z",
+    "date_modified": "2026-10-27T23:37:39Z",
+    "published_at": "2026-10-27T23:37:39Z"
+  },
+  {
+    "title": "Mutiny: The Untold Story & Secrets",
+    "seo_description": "Discover Mutiny: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1288445,
+      "title": "Mutiny",
+      "original_title": "Mutiny",
+      "slug": "mutiny",
+      "media_type": "movie",
+      "release_date": "2026-08-19",
+      "overview": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+      "tagline": "There's blood in the water.",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "runtime": 96,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 974,
+      "category": "trending",
+      "director": "Jean-Fran\u00e7ois Richet",
+      "top_cast": [
+        "Jason Statham",
+        "Annabelle Wallis",
+        "Roland M\u00f8ller",
+        "Ramon Tikaram",
+        "Arnas Fedaravi\u010dius",
+        "Jason Wong"
+      ],
+      "poster_path": "/pu2VxGlpGwffOx292w18b1tv96j.jpg",
+      "backdrop_path": "/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+      "backdrops": [
+        "/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg",
+        "/qDa0fqDqIBCovRp975RvtGPcuN3.jpg",
+        "/frG3IO5kCrnyXDt1q9x4JtToSw3.jpg",
+        "/jUdV706J4d3nUEbfimqVnGZqTbW.jpg",
+        "/xYro90dW4z7es4JG1vo1bmZ0lUN.jpg",
+        "/rjZ3QSoiSOzCFOP69kBCbt7Ptk2.jpg",
+        "/h32xFjJutKJcdLLDIk53GmiH8cu.jpg",
+        "/6tzDQDtUCh3DONxCJSoN8Y2zpRx.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Mutiny",
+        "text": "There's blood in the water. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "After witnessing his billionaire boss' murder and being framed for the crime, Cole Reed boards a cargo ship on a one-man crusade to avenge his boss' death only to discover an international conspiracy.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jason Statham, Annabelle Wallis, Roland M\u00f8ller, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jean-Fran\u00e7ois Richet.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jean-Fran\u00e7ois Richet",
+        "text": "Filmmaker Jean-Fran\u00e7ois Richet pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Mutiny? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1288445"
+      }
+    ],
+    "date_published": "2026-10-27T23:37:39Z",
+    "date_modified": "2026-10-27T23:37:39Z",
+    "published_at": "2026-10-27T23:37:39Z"
+  },
+  {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom: The Untold Story & Secre",
+    "seo_description": "Discover Shaun the Sheep: The Beast of Mossy Bottom: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1477104,
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "original_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "slug": "shaun-the-sheep-the-beast-of-mossy-bottom",
+      "media_type": "movie",
+      "release_date": "2026-09-17",
+      "overview": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast appears in the woods.",
+      "tagline": "What's that coming over the hill?",
+      "genres": [
+        "Animation",
+        "Science Fiction",
+        "Comedy"
+      ],
+      "runtime": 81,
+      "seasons": null,
+      "vote_average": 7.3,
+      "vote_count": 38,
+      "category": "upcoming",
+      "director": "Steve Cox",
+      "top_cast": [
+        "Justin Fletcher",
+        "John Sparkes",
+        "Nina Sosanya",
+        "Kate Harbour",
+        "Rich Webber",
+        "Emma Tate"
+      ],
+      "poster_path": "/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg",
+      "backdrop_path": "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+      "backdrops": [
+        "/iUFQd0mzDOUCsc8qVwUcNhFIe2P.jpg",
+        "/mG8tVv1RPAKnARWxKTND5dRgMpw.jpg",
+        "/izLG3cxbG89nK75OHyd1zvjR7n8.jpg",
+        "/wiknXwyB7PTpW8jInA4tZr7QYCe.jpg",
+        "/ws4SvzInJPRdjOQnZPqZuBbTokU.jpg",
+        "/eILyBxBJfN0DmMc077Cq5svbnT6.jpg",
+        "/yBty9IhUUarPFqOf7Nd9CQUW49v.jpg",
+        "/feIIWaIk5mGDZO3HqUdyOI2tzNS.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Shaun the Sheep: The Beast of Mossy",
+        "text": "What's that coming over the hill? Rated 7.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go awry when a wild beast...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Justin Fletcher, John Sparkes, Nina Sosanya, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Steve Cox.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Steve Cox",
+        "text": "Filmmaker Steve Cox pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.3/10 on TMDB",
+        "text": "With an impressive 7.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Shaun the Sheep: The Beast of Mossy Bottom? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1477104"
+      }
+    ],
+    "date_published": "2026-10-27T23:37:39Z",
+    "date_modified": "2026-10-27T23:37:39Z",
+    "published_at": "2026-10-27T23:37:39Z"
+  },
+  {
     "title": "Reporting Live: The Untold Story & Secrets",
     "seo_description": "Discover Reporting Live: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
