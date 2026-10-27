@@ -1408,5 +1408,29 @@
     "published_at": "2023-06-16T00:00:00Z",
     "modified_at": "2026-10-26T12:16:16Z",
     "category": "netflix_hits"
+  },
+  "surviving-hurricane-otis": {
+    "title": "Surviving Hurricane Otis",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "netflix_hits"
+  },
+  "lupin": {
+    "title": "Lupin",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "streaming_charts"
+  },
+  "the-dog-stars": {
+    "title": "The Dog Stars",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "trending"
+  },
+  "the-awakening": {
+    "title": "The Awakening",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "upcoming"
   }
 }
