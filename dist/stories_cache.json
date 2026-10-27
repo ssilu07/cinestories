@@ -1,5 +1,419 @@
 [
   {
+    "title": "Gajab Raat: The Untold Story & Secrets",
+    "seo_description": "Discover Gajab Raat: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1453407,
+      "title": "Gajab Raat",
+      "original_title": "\u0917\u093c\u091c\u093c\u092c \u0930\u093e\u0924",
+      "slug": "gajab-raat",
+      "media_type": "movie",
+      "release_date": "2026-10-23",
+      "overview": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+      "tagline": "",
+      "genres": [
+        "Thriller",
+        "Crime"
+      ],
+      "runtime": 124,
+      "seasons": null,
+      "vote_average": 5.1,
+      "vote_count": 6,
+      "category": "netflix_hits",
+      "director": "Ritesh Shah",
+      "top_cast": [
+        "Manoj Bajpayee",
+        "Divya Dutta",
+        "Akshay Oberoi",
+        "Saqib Saleem",
+        "Shraddha Das",
+        "Rajiv Gupta"
+      ],
+      "poster_path": "/e4N7M52cBbyi24xLga8yI6yt1u1.jpg",
+      "backdrop_path": "/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+      "backdrops": [
+        "/8I4YFWgi9IZW4VUi398A0BqLnm.jpg",
+        "/rPXwYyTRHmGQvMwf8YOX98YTUC7.jpg",
+        "/sAyBUF97N31WGGFPXDGE8XAOhUL.jpg",
+        "/vbc5FyBHMlBq8y6xWmMNjd84g84.jpg",
+        "/fjYFlM7tF8a0QV3lrdivTeae22k.jpg",
+        "/33PHTsQhWkaBa7XFZPu99qBUxvL.jpg",
+        "/xNKiiYD6yDqIezkbgMr3ZBcWqQ2.jpg",
+        "/6FTINdLWFCaMujYWjwdNQVcQIio.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd34 NETFLIX TOP RELEASE",
+        "title": "Gajab Raat",
+        "text": "Experience the global phenomenon of Gajab Raat. Rated 5.1/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "A corrupt, troubled cop's night spirals out of control when a reluctant act of mercy toward an injured girl pulls him into a deadly web of crime.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Manoj Bajpayee, Divya Dutta, Akshay Oberoi, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Ritesh Shah.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Ritesh Shah",
+        "text": "Filmmaker Ritesh Shah pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.1/10 on TMDB",
+        "text": "With an impressive 5.1/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Gajab Raat? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1453407"
+      }
+    ],
+    "date_published": "2026-10-27T06:03:46Z",
+    "date_modified": "2026-10-27T06:03:46Z",
+    "published_at": "2026-10-27T06:03:46Z"
+  },
+  {
+    "title": "The Terminal List: The Untold Story & Secrets",
+    "seo_description": "Discover The Terminal List: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 120911,
+      "title": "The Terminal List",
+      "original_title": "The Terminal List",
+      "slug": "the-terminal-list",
+      "media_type": "tv",
+      "release_date": "2022-06-30",
+      "overview": "Navy SEAL Commander James Reece turns to vengeance as he investigates the mysterious forces behind the murder of his entire platoon. Free from the military's command structure, Reece applies the lessons he's learned from nearly two decades of warfare to hunt down the people responsible.",
+      "tagline": "The mission isn't over.",
+      "genres": [
+        "Action & Adventure",
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 2,
+      "vote_average": 8.0,
+      "vote_count": 1279,
+      "category": "streaming_charts",
+      "director": "David DiGilio (Creator)",
+      "top_cast": [
+        "Chris Pratt",
+        "Constance Wu",
+        "Tom Hopper",
+        "Dar Salim",
+        "Olga Kurylenko",
+        "Yul Vazquez"
+      ],
+      "poster_path": "/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg",
+      "backdrop_path": "/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg",
+      "backdrops": [
+        "/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg",
+        "/98mdtfkJ77vVikylIbOQYfJvxpJ.jpg",
+        "/eqLwFXX0R7U0crdgQcj0Rxjb9uc.jpg",
+        "/yQTQL9pliY6vpRt8HkjUJrKymBb.jpg",
+        "/16pCkWuoPEqNDbgAUlhurz4T4vL.jpg",
+        "/1S2FHyL4QbThFfLAd90BS30lM8A.jpg",
+        "/jmr1WYG8sE5nrFqmtUGU2PoW0sX.jpg",
+        "/9qfGObZQsYSVuNLrLRdYgcHlBSw.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "The Terminal List",
+        "text": "The mission isn't over. Rated 8.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "Navy SEAL Commander James Reece turns to vengeance as he investigates the mysterious forces behind the murder of his entire platoon. Free from the military's command structure, Reece applies the lessons he's learned from...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Chris Pratt, Constance Wu, Tom Hopper, the film boasts phenomenal on-screen chemistry and career-defining performances directed by David DiGilio (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by David DiGilio (Creator)",
+        "text": "Filmmaker David DiGilio (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.0/10 on TMDB",
+        "text": "With an impressive 8.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Terminal List? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/120911"
+      }
+    ],
+    "date_published": "2026-10-27T06:03:46Z",
+    "date_modified": "2026-10-27T06:03:46Z",
+    "published_at": "2026-10-27T06:03:46Z"
+  },
+  {
+    "title": "The Cycle: The Untold Story & Secrets",
+    "seo_description": "Discover The Cycle: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1290418,
+      "title": "The Cycle",
+      "original_title": "The Cycle",
+      "slug": "the-cycle",
+      "media_type": "movie",
+      "release_date": "2026-09-24",
+      "overview": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+      "tagline": "You can't bury the past forever.",
+      "genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "runtime": 111,
+      "seasons": null,
+      "vote_average": 7.4,
+      "vote_count": 28,
+      "category": "trending",
+      "director": "Jordan Downey",
+      "top_cast": [
+        "Deborah Ann Woll",
+        "Jeffrey Donovan",
+        "Gretchen Corbett",
+        "Jack Doolan",
+        "Will Hochman",
+        "Dana Millican"
+      ],
+      "poster_path": "/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg",
+      "backdrop_path": "/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+      "backdrops": [
+        "/bgHW6AJl2SdKzxglvf9tshXbI84.jpg",
+        "/uRIItK2ahR1ewVSBICiBFQrAVB2.jpg",
+        "/7ndnW5JoAXKgUxfo07IUqachGww.jpg",
+        "/lryq0R1untzuXUVRp6qKUyLCNqe.jpg",
+        "/t4vkdXixFJu74VQhjGXhFx6bM9F.jpg",
+        "/3SMHKsqPG6Mun3SQIbYLMurEgix.jpg",
+        "/3CIYPqdWTc74Th8VCLhH7COTmqp.jpg",
+        "/23WDcialULvwUkm1N9c1Ooxs3Es.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Cycle",
+        "text": "You can't bury the past forever. Rated 7.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Deborah Ann Woll, Jeffrey Donovan, Gretchen Corbett, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jordan Downey.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jordan Downey",
+        "text": "Filmmaker Jordan Downey pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.4/10 on TMDB",
+        "text": "With an impressive 7.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Cycle? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1290418"
+      }
+    ],
+    "date_published": "2026-10-27T06:03:46Z",
+    "date_modified": "2026-10-27T06:03:46Z",
+    "published_at": "2026-10-27T06:03:46Z"
+  },
+  {
+    "title": "Tuner: The Untold Story & Secrets",
+    "seo_description": "Discover Tuner: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1340206,
+      "title": "Tuner",
+      "original_title": "Tuner",
+      "slug": "tuner",
+      "media_type": "movie",
+      "release_date": "2026-05-21",
+      "overview": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+      "tagline": "Everybody has one hidden talent.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 108,
+      "seasons": null,
+      "vote_average": 7.6,
+      "vote_count": 607,
+      "category": "upcoming",
+      "director": "Daniel Roher",
+      "top_cast": [
+        "Leo Woodall",
+        "Dustin Hoffman",
+        "Havana Rose Liu",
+        "Lior Raz",
+        "Tovah Feldshuh",
+        "Jean Reno"
+      ],
+      "poster_path": "/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg",
+      "backdrop_path": "/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+      "backdrops": [
+        "/y04gpYp8rJoUud6vf8okqHIdP4V.jpg",
+        "/qjjNeT3uIS1WlRXIYAoCIncyMOi.jpg",
+        "/jLuDMKRriFxuGpPuESD1nEXCB8i.jpg",
+        "/sT5Inhc0aaReSZoufWgfJTQUbKp.jpg",
+        "/5k0SdQeQV2xEaGBXG1Oc8d05bkL.jpg",
+        "/rwqQn4F32WTyl1kRob86rRBCj90.jpg",
+        "/xmfscD1z15s72tzNFDqSov1hR1F.jpg",
+        "/3jKH8xyt2R2vSShqGDkZhd8kwM.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Tuner",
+        "text": "Everybody has one hidden talent. Rated 7.6/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A gifted piano tuner's meticulous skills for tuning pianos lead him to discover an unexpected aptitude for cracking safes, turning his life upside down.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Leo Woodall, Dustin Hoffman, Havana Rose Liu, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Daniel Roher.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Daniel Roher",
+        "text": "Filmmaker Daniel Roher pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.6/10 on TMDB",
+        "text": "With an impressive 7.6/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Tuner? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1340206"
+      }
+    ],
+    "date_published": "2026-10-27T06:03:46Z",
+    "date_modified": "2026-10-27T06:03:46Z",
+    "published_at": "2026-10-27T06:03:46Z"
+  },
+  {
     "title": "Surviving Hurricane Otis: The Untold Story & Secrets",
     "seo_description": "Discover Surviving Hurricane Otis: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {

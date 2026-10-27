@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/gajab-raat/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/8I4YFWgi9IZW4VUi398A0BqLnm.jpg</image:loc>
+      <image:title>Why Manoj Bajpayee's Gritty 'Gajab Raat' Has Fans Divided 🚔 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-terminal-list/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/2qS2LGqsAyT1NEDeIj24Hp2IR10.jpg</image:loc>
+      <image:title>The Terminal List: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-cycle/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/bgHW6AJl2SdKzxglvf9tshXbI84.jpg</image:loc>
+      <image:title>The Cycle: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/tuner/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/y04gpYp8rJoUud6vf8okqHIdP4V.jpg</image:loc>
+      <image:title>Tuner: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/surviving-hurricane-otis/</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>daily</changefreq>
@@ -2400,6 +2440,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/gajab-raat/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/e4N7M52cBbyi24xLga8yI6yt1u1.jpg</image:loc>
+      <image:title>Gajab Raat Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-terminal-list/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/xyFAzP7RKK8cARCSalIZ9A9T0jV.jpg</image:loc>
+      <image:title>The Terminal List Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-cycle/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/n5gSNf55KWfDc9hqP4H1KCCSutE.jpg</image:loc>
+      <image:title>The Cycle Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/tuner/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5OvA3i9wZs5jHu0DCrfmXlzAM67.jpg</image:loc>
+      <image:title>Tuner Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
