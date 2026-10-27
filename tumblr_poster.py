@@ -132,43 +132,55 @@ def format_tumblr_caption(article: Dict[str, Any], domain: str) -> str:
 
     # Call To Action links
     lines.append("<hr>")
-    lines.append(f'<p>⚡ <b>Experience the Full Visual Web Story:</b><br><a href="{story_url}">👉 Click here to watch {html.escape(title)} Web Story</a></p>')
-    lines.append(f'<p>📖 <b>Deep-Dive Article & Trivia:</b><br><a href="{article_url}">Read full analysis on CineStories</a></p>')
+    lines.append(f'<p>🎞️ <i>Full visual Web Story & deep-dive analysis on CinematicBites:</i><br>👉 <a href="{story_url}"><b>Watch {html.escape(title)} Visual Story ➔</b></a> &nbsp;|&nbsp; <a href="{article_url}">Read Review</a></p>')
 
     return "\n".join(lines)
 
 def build_tumblr_tags(article: Dict[str, Any]) -> List[str]:
-    """Generate high-engagement Tumblr tags optimized for Tier-1 (US/UK/CA) movie fandoms."""
+    """
+    Generate high-engagement Tumblr tags.
+    CRITICAL: Tumblr search & tracked tags ONLY index the FIRST 5 TAGS!
+    Specific fandom, movie title, actors and subgenre MUST go first so fans actually find the post.
+    """
     movie = article.get("movie", {})
-    # Core Tier-1 trending entertainment tags on Tumblr
-    tags = [
-        "movies",
-        "cinema",
-        "films",
-        "cinephile",
-        "letterboxd",
-        "what to watch",
-        "movie recommendation",
-        "film review",
-        "cinestories"
-    ]
+    tags = []
 
+    # 1. Exact Movie Title (Priority #1 for tracked tags)
     title = movie.get("title")
     if title:
         tags.append(title.lower())
+        if ":" in title:
+            # e.g., 'Frieren: Beyond Journey\'s End' -> 'frieren'
+            tags.append(title.split(":")[0].strip().lower())
 
-    for genre in movie.get("genres", []):
-        tags.append(genre.lower())
-        tags.append(f"{genre.lower()} movies")
-
+    # 2. Key Actors (Fans track their favorite actors!)
     for actor in movie.get("top_cast", [])[:2]:
         tags.append(actor.lower())
 
+    # 3. Specific Genre / Subgenre
+    for genre in movie.get("genres", []):
+        tags.append(f"{genre.lower()} movies")
+        tags.append(genre.lower())
+
+    # 4. Director
     director = movie.get("director")
     if director:
-        tags.append(director.lower())
+        cleaned_dir = director.replace("(Creator)", "").strip()
+        tags.append(cleaned_dir.lower())
 
-    # De-duplicate while preserving order
+    # 5. High-volume Tier-1 Discovery Tags
+    tags.extend([
+        "what to watch",
+        "movie recommendation",
+        "cinephile",
+        "letterboxd",
+        "film review",
+        "cinema",
+        "movies",
+        "cinestories"
+    ])
+
+    # De-duplicate while preserving strict priority order
     seen = set()
     cleaned_tags = []
     for t in tags:

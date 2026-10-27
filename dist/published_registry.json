@@ -285,7 +285,7 @@
     "title": "Money Heist",
     "published_at": "2026-10-01T00:00:00Z",
     "modified_at": "2026-10-01T00:00:00Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "stranger-things": {
     "title": "Stranger Things",
@@ -309,7 +309,7 @@
     "title": "Wednesday",
     "published_at": "2026-10-01T00:00:00Z",
     "modified_at": "2026-10-01T00:00:00Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "game-of-thrones": {
     "title": "Game of Thrones",
@@ -321,7 +321,7 @@
     "title": "Squid Game",
     "published_at": "2026-10-01T00:00:00Z",
     "modified_at": "2026-10-01T00:00:00Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "the-last-of-us": {
     "title": "The Last of Us",
@@ -393,7 +393,7 @@
     "title": "365 Days",
     "published_at": "2026-10-01T00:00:00Z",
     "modified_at": "2026-10-01T00:00:00Z",
-    "category": "steamy_thrillers"
+    "category": "netflix_hits"
   },
   "basic-instinct": {
     "title": "Basic Instinct",
@@ -1209,7 +1209,7 @@
     "title": "Cyberpunk: Edgerunners",
     "published_at": "2026-10-21T05:48:19Z",
     "modified_at": "2026-10-21T05:48:19Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "tiny-fugitives": {
     "title": "Tiny Fugitives",
@@ -1281,7 +1281,7 @@
     "title": "The Diplomat",
     "published_at": "2026-10-22T05:51:14Z",
     "modified_at": "2026-10-22T05:51:14Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "wicker": {
     "title": "Wicker",
@@ -1329,7 +1329,7 @@
     "title": "Lucifer",
     "published_at": "2026-10-22T23:02:58Z",
     "modified_at": "2026-10-22T23:02:58Z",
-    "category": "series"
+    "category": "netflix_hits"
   },
   "the-cat-in-the-hat": {
     "title": "The Cat in the Hat",
@@ -1349,340 +1349,64 @@
     "modified_at": "2026-10-22T23:02:58Z",
     "category": "theories_easter_eggs"
   },
-  "ninjago-masters-of-spinjitzu": {
-    "title": "Ninjago: Masters of Spinjitzu",
-    "published_at": "2026-10-23T04:55:41Z",
-    "modified_at": "2026-10-23T04:55:41Z",
-    "category": "series"
+  "rebel-ridge": {
+    "title": "Rebel Ridge",
+    "published_at": "2024-09-06T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "v": {
-    "title": "V",
-    "published_at": "2026-10-23T04:55:41Z",
-    "modified_at": "2026-10-23T04:55:41Z",
-    "category": "trending"
+  "hit-man": {
+    "title": "Hit Man",
+    "published_at": "2024-06-07T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "rolling-loud-the-movie": {
-    "title": "Rolling Loud: The Movie",
-    "published_at": "2026-10-23T04:55:41Z",
-    "modified_at": "2026-10-23T04:55:41Z",
-    "category": "upcoming"
+  "damsel": {
+    "title": "Damsel",
+    "published_at": "2024-03-08T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "captain-america-civil-war": {
-    "title": "Captain America: Civil War",
-    "published_at": "2026-10-23T04:55:41Z",
-    "modified_at": "2026-10-23T04:55:41Z",
-    "category": "theories_easter_eggs"
+  "beverly-hills-cop-axel-f": {
+    "title": "Beverly Hills Cop: Axel F",
+    "published_at": "2024-07-03T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "outlander": {
-    "title": "Outlander",
-    "published_at": "2026-10-23T05:49:41Z",
-    "modified_at": "2026-10-23T05:49:41Z",
-    "category": "series"
+  "under-paris": {
+    "title": "Under Paris",
+    "published_at": "2024-06-05T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "a-better-jianghu": {
-    "title": "A Better Jianghu",
-    "published_at": "2026-10-23T05:49:41Z",
-    "modified_at": "2026-10-23T05:49:41Z",
-    "category": "trending"
+  "the-union": {
+    "title": "The Union",
+    "published_at": "2024-08-16T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "tuner": {
-    "title": "Tuner",
-    "published_at": "2026-10-23T05:49:41Z",
-    "modified_at": "2026-10-23T05:49:41Z",
-    "category": "upcoming"
+  "leave-the-world-behind": {
+    "title": "Leave the World Behind",
+    "published_at": "2023-12-08T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "rise-of-the-planet-of-the-apes": {
-    "title": "Rise of the Planet of the Apes",
-    "published_at": "2026-10-23T05:49:41Z",
-    "modified_at": "2026-10-23T05:49:41Z",
-    "category": "theories_easter_eggs"
+  "society-of-the-snow": {
+    "title": "Society of the Snow",
+    "published_at": "2023-12-15T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "vikings": {
-    "title": "Vikings",
-    "published_at": "2026-10-23T16:42:22Z",
-    "modified_at": "2026-10-23T16:42:22Z",
-    "category": "series"
+  "glass-onion": {
+    "title": "Glass Onion: A Knives Out Mystery",
+    "published_at": "2022-12-23T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   },
-  "surviving-hurricane-otis": {
-    "title": "Surviving Hurricane Otis",
-    "published_at": "2026-10-23T16:42:22Z",
-    "modified_at": "2026-10-23T16:42:22Z",
-    "category": "trending"
-  },
-  "the-beast": {
-    "title": "The Beast",
-    "published_at": "2026-10-23T16:42:22Z",
-    "modified_at": "2026-10-23T16:42:22Z",
-    "category": "upcoming"
-  },
-  "transformers-rise-of-the-beasts": {
-    "title": "Transformers: Rise of the Beasts",
-    "published_at": "2026-10-23T16:42:22Z",
-    "modified_at": "2026-10-23T16:42:22Z",
-    "category": "theories_easter_eggs"
-  },
-  "my-little-pony-friendship-is-magic": {
-    "title": "My Little Pony: Friendship Is Magic",
-    "published_at": "2026-10-23T22:57:34Z",
-    "modified_at": "2026-10-23T22:57:34Z",
-    "category": "series"
-  },
-  "gajab-raat": {
-    "title": "Gajab Raat",
-    "published_at": "2026-10-23T22:57:34Z",
-    "modified_at": "2026-10-23T22:57:34Z",
-    "category": "trending"
-  },
-  "vampire-carnival": {
-    "title": "Vampire Carnival",
-    "published_at": "2026-10-23T22:57:34Z",
-    "modified_at": "2026-10-23T22:57:34Z",
-    "category": "upcoming"
-  },
-  "thunderbolts": {
-    "title": "Thunderbolts*",
-    "published_at": "2026-10-23T22:57:34Z",
-    "modified_at": "2026-10-23T22:57:34Z",
-    "category": "theories_easter_eggs"
-  },
-  "the-west-wing": {
-    "title": "The West Wing",
-    "published_at": "2026-10-24T05:31:24Z",
-    "modified_at": "2026-10-24T05:31:24Z",
-    "category": "series"
-  },
-  "the-cycle": {
-    "title": "The Cycle",
-    "published_at": "2026-10-24T05:31:24Z",
-    "modified_at": "2026-10-24T05:31:24Z",
-    "category": "trending"
-  },
-  "charlie-harper": {
-    "title": "Charlie Harper",
-    "published_at": "2026-10-24T05:31:24Z",
-    "modified_at": "2026-10-24T05:31:24Z",
-    "category": "upcoming"
-  },
-  "spider-man-far-from-home": {
-    "title": "Spider-Man: Far From Home",
-    "published_at": "2026-10-24T05:31:24Z",
-    "modified_at": "2026-10-24T05:31:24Z",
-    "category": "theories_easter_eggs"
-  },
-  "lupin": {
-    "title": "Lupin",
-    "published_at": "2026-10-24T15:35:52Z",
-    "modified_at": "2026-10-24T15:35:52Z",
-    "category": "series"
-  },
-  "shaun-the-sheep-the-beast-of-mossy-bottom": {
-    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-    "published_at": "2026-10-24T15:35:52Z",
-    "modified_at": "2026-10-24T15:35:52Z",
-    "category": "trending"
-  },
-  "fjord": {
-    "title": "Fjord",
-    "published_at": "2026-10-24T15:35:52Z",
-    "modified_at": "2026-10-24T15:35:52Z",
-    "category": "upcoming"
-  },
-  "thor-ragnarok": {
-    "title": "Thor: Ragnarok",
-    "published_at": "2026-10-24T15:35:52Z",
-    "modified_at": "2026-10-24T15:35:52Z",
-    "category": "theories_easter_eggs"
-  },
-  "where-the-mask-ends": {
-    "title": "Where the Mask Ends",
-    "published_at": "2026-10-24T22:18:12Z",
-    "modified_at": "2026-10-24T22:18:12Z",
-    "category": "series"
-  },
-  "love-language": {
-    "title": "Love Language",
-    "published_at": "2026-10-24T22:18:12Z",
-    "modified_at": "2026-10-24T22:18:12Z",
-    "category": "trending"
-  },
-  "the-shining": {
-    "title": "The Shining",
-    "published_at": "2026-10-24T22:18:12Z",
-    "modified_at": "2026-10-24T22:18:12Z",
-    "category": "upcoming"
-  },
-  "godzilla-minus-one": {
-    "title": "Godzilla Minus One",
-    "published_at": "2026-10-24T22:18:12Z",
-    "modified_at": "2026-10-24T22:18:12Z",
-    "category": "theories_easter_eggs"
-  },
-  "seal-team": {
-    "title": "SEAL Team",
-    "published_at": "2026-10-25T05:48:33Z",
-    "modified_at": "2026-10-25T05:48:33Z",
-    "category": "series"
-  },
-  "the-end-of-oak-street": {
-    "title": "The End of Oak Street",
-    "published_at": "2026-10-25T05:48:33Z",
-    "modified_at": "2026-10-25T05:48:33Z",
-    "category": "trending"
-  },
-  "the-only-living-pickpocket-in-new-york": {
-    "title": "The Only Living Pickpocket in New York",
-    "published_at": "2026-10-25T05:48:33Z",
-    "modified_at": "2026-10-25T05:48:33Z",
-    "category": "upcoming"
-  },
-  "despicable-me-4": {
-    "title": "Despicable Me 4",
-    "published_at": "2026-10-25T05:48:33Z",
-    "modified_at": "2026-10-25T05:48:33Z",
-    "category": "theories_easter_eggs"
-  },
-  "the-loud-house": {
-    "title": "The Loud House",
-    "published_at": "2026-10-25T15:46:24Z",
-    "modified_at": "2026-10-25T15:46:24Z",
-    "category": "series"
-  },
-  "mutiny": {
-    "title": "Mutiny",
-    "published_at": "2026-10-25T15:46:24Z",
-    "modified_at": "2026-10-25T15:46:24Z",
-    "category": "trending"
-  },
-  "a-talent-for-murder": {
-    "title": "A Talent for Murder",
-    "published_at": "2026-10-25T15:46:24Z",
-    "modified_at": "2026-10-25T15:46:24Z",
-    "category": "upcoming"
-  },
-  "black-adam": {
-    "title": "Black Adam",
-    "published_at": "2026-10-25T15:46:24Z",
-    "modified_at": "2026-10-25T15:46:24Z",
-    "category": "theories_easter_eggs"
-  },
-  "bojack-horseman": {
-    "title": "BoJack Horseman",
-    "published_at": "2026-10-25T18:47:46Z",
-    "modified_at": "2026-10-25T18:47:46Z",
-    "category": "series"
-  },
-  "queen-at-sea": {
-    "title": "Queen at Sea",
-    "published_at": "2026-10-25T18:47:46Z",
-    "modified_at": "2026-10-25T18:47:46Z",
-    "category": "trending"
-  },
-  "ghost-soldier": {
-    "title": "Ghost Soldier",
-    "published_at": "2026-10-25T18:47:46Z",
-    "modified_at": "2026-10-25T18:47:46Z",
-    "category": "upcoming"
-  },
-  "sonic-the-hedgehog-3": {
-    "title": "Sonic the Hedgehog 3",
-    "published_at": "2026-10-25T18:47:46Z",
-    "modified_at": "2026-10-25T18:47:46Z",
-    "category": "theories_easter_eggs"
-  },
-  "frieren-beyond-journeys-end": {
-    "title": "Frieren: Beyond Journey's End",
-    "published_at": "2026-10-25T22:22:22Z",
-    "modified_at": "2026-10-25T22:22:22Z",
-    "category": "series"
-  },
-  "project-hail-mary": {
-    "title": "Project Hail Mary",
-    "published_at": "2026-10-25T22:22:22Z",
-    "modified_at": "2026-10-25T22:22:22Z",
-    "category": "trending"
-  },
-  "the-sixth-sense": {
-    "title": "The Sixth Sense",
-    "published_at": "2026-10-25T22:22:22Z",
-    "modified_at": "2026-10-25T22:22:22Z",
-    "category": "upcoming"
-  },
-  "guardians-of-the-galaxy-vol-2": {
-    "title": "Guardians of the Galaxy Vol. 2",
-    "published_at": "2026-10-25T22:22:22Z",
-    "modified_at": "2026-10-25T22:22:22Z",
-    "category": "theories_easter_eggs"
-  },
-  "riverdale": {
-    "title": "Riverdale",
-    "published_at": "2026-10-26T05:51:29Z",
-    "modified_at": "2026-10-26T05:51:29Z",
-    "category": "series"
-  },
-  "the-awakening": {
-    "title": "The Awakening",
-    "published_at": "2026-10-26T05:51:29Z",
-    "modified_at": "2026-10-26T05:51:29Z",
-    "category": "trending"
-  },
-  "flywheel-ignition-of-the-soul": {
-    "title": "Flywheel: Ignition of the Soul",
-    "published_at": "2026-10-26T05:51:29Z",
-    "modified_at": "2026-10-26T05:51:29Z",
-    "category": "upcoming"
-  },
-  "oblivion": {
-    "title": "Oblivion",
-    "published_at": "2026-10-26T05:51:29Z",
-    "modified_at": "2026-10-26T05:51:29Z",
-    "category": "theories_easter_eggs"
-  },
-  "gossip-girl": {
-    "title": "Gossip Girl",
-    "published_at": "2026-10-26T18:26:56Z",
-    "modified_at": "2026-10-26T18:26:56Z",
-    "category": "series"
-  },
-  "the-dog-stars": {
-    "title": "The Dog Stars",
-    "published_at": "2026-10-26T18:26:56Z",
-    "modified_at": "2026-10-26T18:26:56Z",
-    "category": "trending"
-  },
-  "ghost-in-the-cell": {
-    "title": "Ghost in the Cell",
-    "published_at": "2026-10-26T18:26:56Z",
-    "modified_at": "2026-10-26T18:26:56Z",
-    "category": "upcoming"
-  },
-  "man-of-steel": {
-    "title": "Man of Steel",
-    "published_at": "2026-10-26T18:26:56Z",
-    "modified_at": "2026-10-26T18:26:56Z",
-    "category": "theories_easter_eggs"
-  },
-  "brooklyn-nine-nine": {
-    "title": "Brooklyn Nine-Nine",
-    "published_at": "2026-10-26T23:38:42Z",
-    "modified_at": "2026-10-26T23:38:42Z",
-    "category": "series"
-  },
-  "the-hunger-games-sunrise-on-the-reaping": {
-    "title": "The Hunger Games: Sunrise on the Reaping",
-    "published_at": "2026-10-26T23:38:42Z",
-    "modified_at": "2026-10-26T23:38:42Z",
-    "category": "trending"
-  },
-  "train-to-busan": {
-    "title": "Train to Busan",
-    "published_at": "2026-10-26T23:38:42Z",
-    "modified_at": "2026-10-26T23:38:42Z",
-    "category": "upcoming"
-  },
-  "rage-of-stars": {
-    "title": "Rage of Stars",
-    "published_at": "2026-10-26T23:38:42Z",
-    "modified_at": "2026-10-26T23:38:42Z",
-    "category": "theories_easter_eggs"
+  "extraction-2": {
+    "title": "Extraction 2",
+    "published_at": "2023-06-16T00:00:00Z",
+    "modified_at": "2026-10-26T12:16:16Z",
+    "category": "netflix_hits"
   }
 }

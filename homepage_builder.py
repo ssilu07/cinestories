@@ -541,9 +541,11 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     }}
 
     .badge-netflix_hits {{
-      background: rgba(229, 9, 20, 0.25);
-      color: #ff4d4d;
-      border: 1px solid rgba(229, 9, 20, 0.45);
+      background: linear-gradient(135deg, #e50914, #b20710);
+      color: #fff;
+      font-weight: 700;
+      box-shadow: 0 2px 10px rgba(229, 9, 20, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.2);
     }}
 
     .rating-badge {{

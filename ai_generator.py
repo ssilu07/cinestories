@@ -239,7 +239,10 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
         is_sitcom = category == "where_are_they_now"
 
         # Punchy badge
-        if is_streaming:
+        if category == "netflix_hits":
+            badge_1 = "🔴 NETFLIX TOP RELEASE"
+            badge_2 = "STREAMING #1 BREAKDOWN"
+        elif is_streaming:
             badge_1 = "📊 WEEKLY LEADERBOARD"
             badge_2 = "STREAMING #1 BREAKDOWN"
         elif is_theories:
@@ -443,7 +446,9 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
         elif movie.get("hook_title"):
             headline = movie.get("hook_title")
         else:
-            if category == "streaming_charts":
+            if category == "netflix_hits":
+                headline = f"Why {title} Is Dominating Netflix's Global Movie Charts 🔴🍿"
+            elif category == "streaming_charts":
                 headline = f"Why {title} Is Dominating Global Streaming Charts This Week 🍿"
             elif category == "theories_easter_eggs":
                 headline = f"{title}: 5 Mind-Blowing Easter Eggs & Theories Explained ⚡"

@@ -89,7 +89,7 @@ class TMDBClient:
             "popular_series": ("/tv/popular", "tv", {}),
             "cult_classic": ("/movie/top_rated", "movie", {}),
             "streaming_charts": ("/trending/tv/week", "tv", {}),
-            "netflix_hits": ("/discover/tv", "tv", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
+            "netflix_hits": ("/discover/movie", "movie", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
             "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28", "sort_by": "popularity.desc"}),
             "where_are_they_now": ("/discover/tv", "tv", {"sort_by": "vote_count.desc", "first_air_date.lte": "2018-01-01"}),
             "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,10749", "sort_by": "popularity.desc"})
@@ -253,7 +253,7 @@ class TMDBClient:
             "seasons": seasons,
             "vote_average": round(data.get("vote_average", 0.0), 1),
             "vote_count": data.get("vote_count", 0),
-            "category": "series",
+            "category": category,
             "director": f"{creator_name} (Creator)",
             "top_cast": top_cast,
             "poster_path": data.get("poster_path", ""),
@@ -319,6 +319,7 @@ class TMDBClient:
             return fresh_titles
 
         discovery_strategies = [
+            ("/discover/movie", "movie", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
             ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
             ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|337|350", "watch_region": "US", "sort_by": "popularity.desc"}),
             ("/discover/movie", "movie", "trending", {"primary_release_year": "2025", "sort_by": "revenue.desc"}),

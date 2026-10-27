@@ -29,6 +29,7 @@ def build_discover_feed_html(
     """
     now_str = datetime.now(timezone.utc).strftime("%B %d, %Y")
     total_articles = len(articles)
+    netflix_count = sum(1 for a in articles if a.get("movie", {}).get("category") == "netflix_hits")
 
     feed_cards_data = []
     for art in articles:
@@ -66,7 +67,9 @@ def build_discover_feed_html(
     cards_html_list = []
     for c in feed_cards_data:
         cat = c["category"]
-        if cat == "streaming_charts":
+        if cat == "netflix_hits":
+            cat_label = "Netflix Hits"
+        elif cat == "streaming_charts":
             cat_label = "Weekly Top 10"
         elif cat == "theories_easter_eggs":
             cat_label = "Marvel & DC Theories"
@@ -644,6 +647,7 @@ def build_discover_feed_html(
     
     <div class="filter-pills" id="filterPills">
       <button class="filter-pill active" data-filter="all">🔥 All ({total_articles})</button>
+      <button class="filter-pill" data-filter="netflix_hits">🔴 Netflix ({netflix_count})</button>
       <button class="filter-pill" data-filter="streaming_charts">🍿 Streaming Charts</button>
       <button class="filter-pill" data-filter="theories_easter_eggs">🦸 Marvel & DC Theories</button>
       <button class="filter-pill" data-filter="where_are_they_now">✨ Where Are They Now?</button>
