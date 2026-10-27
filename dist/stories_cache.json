@@ -1,5 +1,407 @@
 [
   {
+    "title": "Reporting Live: The Untold Story & Secrets",
+    "seo_description": "Discover Reporting Live: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1389172,
+      "title": "Reporting Live",
+      "original_title": "\u0930\u093f\u092a\u094b\u0930\u094d\u091f\u093f\u0902\u0917 \u0932\u093e\u0907\u0935",
+      "slug": "reporting-live",
+      "media_type": "movie",
+      "release_date": "2026-10-09",
+      "overview": "A young reporter and her reluctant cameraman chase a story, only to get entangled in an illegal sand-mining racket run by a ruthless syndicate.",
+      "tagline": "Some stories refuse to be buried.",
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 116,
+      "seasons": null,
+      "vote_average": 7.0,
+      "vote_count": 8,
+      "category": "netflix_hits",
+      "director": "Dhruv Tripathi",
+      "top_cast": [
+        "Parineeti Chopra",
+        "Deven Bhojani",
+        "Adil Hussain",
+        "Shekhar Suman",
+        "Amol Palekar",
+        "Nassar"
+      ],
+      "poster_path": "/xVabS4lTi6IMscr2FOucxydE6ZD.jpg",
+      "backdrop_path": "/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+      "backdrops": [
+        "/faJB8DXU0LXwq5ebMLj5drz8S4N.jpg",
+        "/sKb5B0bhh0VAkpj0eWUQM5QJFBM.jpg",
+        "/iAyOkcRfsGQ0tM8YUNfxmWsz2Lv.jpg",
+        "/tYYCsmVYr1bobqBl1FGer84SSHl.jpg",
+        "/k1iWfhjB4XefNkhcJQ6uuALtPRP.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udd34 NETFLIX TOP RELEASE",
+        "title": "Reporting Live",
+        "text": "Some stories refuse to be buried. Rated 7.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "A young reporter and her reluctant cameraman chase a story, only to get entangled in an illegal sand-mining racket run by a ruthless syndicate.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Parineeti Chopra, Deven Bhojani, Adil Hussain, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Dhruv Tripathi.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Dhruv Tripathi",
+        "text": "Filmmaker Dhruv Tripathi pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.0/10 on TMDB",
+        "text": "With an impressive 7.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Reporting Live? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1389172"
+      }
+    ],
+    "date_published": "2026-10-27T17:41:38Z",
+    "date_modified": "2026-10-27T17:41:38Z",
+    "published_at": "2026-10-27T17:41:38Z"
+  },
+  {
+    "title": "Bleach: The Untold Story & Secrets",
+    "seo_description": "Discover Bleach: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 30984,
+      "title": "Bleach",
+      "original_title": "BLEACH",
+      "slug": "bleach",
+      "media_type": "tv",
+      "release_date": "2004-10-05",
+      "overview": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life is changed forever. Now, with a newfound wealth of spiritual energy, Ichigo discovers his true calling: to protect the living and the dead from evil.",
+      "tagline": "",
+      "genres": [
+        "Action & Adventure",
+        "Animation",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 24,
+      "seasons": 2,
+      "vote_average": 8.4,
+      "vote_count": 2318,
+      "category": "streaming_charts",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Masakazu Morita",
+        "Fumiko Orikasa",
+        "Hiroki Yasumoto",
+        "Yuki Matsuoka",
+        "Noriaki Sugiyama"
+      ],
+      "poster_path": "/2EewmxXe72ogD0EaWM8gqa0ccIw.jpg",
+      "backdrop_path": "/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+      "backdrops": [
+        "/o0NsbcIvsllg6CJX0FBFY8wWbsn.jpg",
+        "/qtfMr08KQsWXnCHY0a96N8NpQ2l.jpg",
+        "/mFKys64gbDQrFqwUheGwXQwo2JK.jpg",
+        "/jg0QQvSPC7m0yBefRgTrBJBKSKp.jpg",
+        "/aXO5vBpGEl2xUfhJtZyLWeLY5ZJ.jpg",
+        "/sCKZGHWhjThVz3tKPADKcf1uONX.jpg",
+        "/ndtziuJPbDgKNjHEk1CTB9VCV6J.jpg",
+        "/d8pipPG6EEvqFu1KnHvCk0xMALV.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "Bleach",
+        "text": "Experience the global phenomenon of Bleach. Rated 8.4/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "For as long as he can remember, Ichigo Kurosaki has been able to see ghosts. But when he meets Rukia, a Soul Reaper who battles evil spirits known as Hollows, he finds his life...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Masakazu Morita, Fumiko Orikasa, Hiroki Yasumoto, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Visionary Showrunner (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Visionary Showrunner (Creator)",
+        "text": "Filmmaker Visionary Showrunner (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.4/10 on TMDB",
+        "text": "With an impressive 8.4/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Bleach? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/30984"
+      }
+    ],
+    "date_published": "2026-10-27T17:41:38Z",
+    "date_modified": "2026-10-27T17:41:38Z",
+    "published_at": "2026-10-27T17:41:38Z"
+  },
+  {
+    "title": "The Stunt Driver: The Untold Story & Secrets",
+    "seo_description": "Discover The Stunt Driver: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1562777,
+      "title": "The Stunt Driver",
+      "original_title": "The Stunt Driver",
+      "slug": "the-stunt-driver",
+      "media_type": "movie",
+      "release_date": "2026-09-25",
+      "overview": "Based on a true story, a Canadian stunt driver recruits a top sports manager and rocket car designers to attempt a record-breaking jump across the Saint Lawrence River, hoping to achieve fame and fortune.",
+      "tagline": "",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "History"
+      ],
+      "runtime": 99,
+      "seasons": null,
+      "vote_average": 5.0,
+      "vote_count": 1,
+      "category": "trending",
+      "director": "Michael Dowse",
+      "top_cast": [
+        "Jay Baruchel",
+        "Ed Helms",
+        "Ben Foster",
+        "Laurence Leboeuf",
+        "Joe Cobden",
+        "Marc Beaupr\u00e9"
+      ],
+      "poster_path": "/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
+      "backdrop_path": "/mCSWDVb87GpfQKEyvHIlBt6Obht.jpg",
+      "backdrops": [
+        "/mCSWDVb87GpfQKEyvHIlBt6Obht.jpg",
+        "/5e67ofJqBUK9GlIIPlNalbm8PLn.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Stunt Driver",
+        "text": "Experience the global phenomenon of The Stunt Driver. Rated 5.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Based on a true story, a Canadian stunt driver recruits a top sports manager and rocket car designers to attempt a record-breaking jump across the Saint Lawrence River, hoping to achieve fame and fortune.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Jay Baruchel, Ed Helms, Ben Foster, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Michael Dowse.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Michael Dowse",
+        "text": "Filmmaker Michael Dowse pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.0/10 on TMDB",
+        "text": "With an impressive 5.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Stunt Driver? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1562777"
+      }
+    ],
+    "date_published": "2026-10-27T17:41:38Z",
+    "date_modified": "2026-10-27T17:41:38Z",
+    "published_at": "2026-10-27T17:41:38Z"
+  },
+  {
+    "title": "A Talent for Murder: The Untold Story & Secrets",
+    "seo_description": "Discover A Talent for Murder: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1084409,
+      "title": "A Talent for Murder",
+      "original_title": "A Talent for Murder",
+      "slug": "a-talent-for-murder",
+      "media_type": "movie",
+      "release_date": "2026-10-23",
+      "overview": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more sinister.",
+      "tagline": "The end is where the plotting begins.",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 106,
+      "seasons": null,
+      "vote_average": 6.0,
+      "vote_count": 2,
+      "category": "upcoming",
+      "director": "Anton Corbijn",
+      "top_cast": [
+        "Helen Mirren",
+        "Alden Ehrenreich",
+        "Olivia Cooke",
+        "Juliet Stevenson",
+        "James Faulkner",
+        "Brid Brennan"
+      ],
+      "poster_path": "/mstDPKNKgSGFvVFVdfzeMNkcyw2.jpg",
+      "backdrop_path": "/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+      "backdrops": [
+        "/mfpjOQ6hsvMUIFyzWglwerbpgFS.jpg",
+        "/4L3A8Utofrsg7fY7FGGG5aL2f61.jpg",
+        "/wMFrj1eyaA5TgYZQyvKwDfP3e3i.jpg",
+        "/iEU6qoekt9VqKeBfVKf6VoAfHby.jpg",
+        "/c7m6HkQkdL9prHxQ3Tp1peRViG9.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "A Talent for Murder",
+        "text": "The end is where the plotting begins. Rated 6.0/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "A young man travels from New York to Switzerland to try to persuade acclaimed thriller writer Patricia Highsmith to write one final installment of her Tom Ripley series, with his efforts gradually turning more...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Helen Mirren, Alden Ehrenreich, Olivia Cooke, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Anton Corbijn.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Anton Corbijn",
+        "text": "Filmmaker Anton Corbijn pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.0/10 on TMDB",
+        "text": "With an impressive 6.0/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into A Talent for Murder? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": "https://www.themoviedb.org/movie/1084409"
+      }
+    ],
+    "date_published": "2026-10-27T17:41:38Z",
+    "date_modified": "2026-10-27T17:41:38Z",
+    "published_at": "2026-10-27T17:41:38Z"
+  },
+  {
     "title": "Gajab Raat: The Untold Story & Secrets",
     "seo_description": "Discover Gajab Raat: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
     "movie": {
