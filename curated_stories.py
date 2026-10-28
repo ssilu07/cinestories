@@ -54,7 +54,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream all 5 seasons of Money Heist and explore the spinoff universe of Berlin on Netflix today.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Series & Cast Details",
-                "cta_url": "https://www.themoviedb.org/tv/71446"
+                "cta_url": None
             }
         ]
     },
@@ -106,7 +106,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Relive every heart-stopping twist across the 5-film franchise as Final Destination: Bloodlines prepares to terrify theaters.",
                 "backdrop_index": 1,
                 "cta_text": "Check Franchise Details",
-                "cta_url": "https://www.themoviedb.org/movie/9532"
+                "cta_url": None
             }
         ]
     },
@@ -158,7 +158,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Catch up on every episode of Stranger Things before the Duffer Brothers conclude the epic saga.",
                 "backdrop_index": 1,
                 "cta_text": "View Series Cast & Episodes",
-                "cta_url": "https://www.themoviedb.org/tv/66732"
+                "cta_url": None
             }
         ]
     },
@@ -210,7 +210,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Catch every chaotic, unfiltered episode of The Boys on Prime Video and witness television history.",
                 "backdrop_index": 1,
                 "cta_text": "Explore The Boys Trivia",
-                "cta_url": "https://www.themoviedb.org/tv/76479"
+                "cta_url": None
             }
         ]
     },
@@ -262,7 +262,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Revisit Walter White and Saul Goodman's Albuquerque crime empire across Netflix and AMC.",
                 "backdrop_index": 1,
                 "cta_text": "Check Series Facts & Cast",
-                "cta_url": "https://www.themoviedb.org/tv/1396"
+                "cta_url": None
             }
         ]
     },
@@ -314,7 +314,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Prepare for Wednesday Season 2 as Nevermore opens its gates to darker villains and more supernatural chaos.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Wednesday Details",
-                "cta_url": "https://www.themoviedb.org/tv/119051"
+                "cta_url": None
             }
         ]
     },
@@ -366,7 +366,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Binge the complete 8 seasons of Game of Thrones and prequel House of the Dragon on Max today.",
                 "backdrop_index": 1,
                 "cta_text": "Discover GOT Lore & Cast",
-                "cta_url": "https://www.themoviedb.org/tv/1399"
+                "cta_url": None
             }
         ]
     },
@@ -418,7 +418,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience Interstellar in IMAX 70mm or 4K Ultra HD for the ultimate cosmic emotional voyage.",
                 "backdrop_index": 1,
                 "cta_text": "View Interstellar Credits",
-                "cta_url": "https://www.themoviedb.org/movie/157336"
+                "cta_url": None
             }
         ]
     },
@@ -470,7 +470,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Dive back into the dream architecture of Christopher Nolan's 4-time Oscar-winning sci-fi thriller.",
                 "backdrop_index": 1,
                 "cta_text": "Check Inception Details",
-                "cta_url": "https://www.themoviedb.org/movie/27205"
+                "cta_url": None
             }
         ]
     },
@@ -522,7 +522,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Heath Ledger won a posthumous Academy Award, forever etching The Dark Knight into film history.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Dark Knight Trivia",
-                "cta_url": "https://www.themoviedb.org/movie/155"
+                "cta_url": None
             }
         ]
     },
@@ -574,7 +574,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience nearly 3 hours of adrenaline-pumping stunt choreography in John Wick: Chapter 4 on 4K Blu-ray and digital platforms.",
                 "backdrop_index": 1,
                 "cta_text": "Check John Wick 4 Stats",
-                "cta_url": "https://www.themoviedb.org/movie/603692"
+                "cta_url": None
             }
         ]
     },
@@ -626,7 +626,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream Deadpool & Wolverine in IMAX Enhanced on Disney+ with exclusive behind-the-scenes gag reels.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Cameos & Cast",
-                "cta_url": "https://www.themoviedb.org/movie/533535"
+                "cta_url": None
             }
         ]
     },
@@ -678,7 +678,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience Dune: Part Two on 4K Ultra HD and stream the epic saga ahead of Denis Villeneuve's Dune Messiah.",
                 "backdrop_index": 1,
                 "cta_text": "Check Dune 2 Details",
-                "cta_url": "https://www.themoviedb.org/movie/693134"
+                "cta_url": None
             }
         ]
     },
@@ -730,7 +730,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience the blood and glory of Ridley Scott's Gladiator II on the biggest cinema screens worldwide.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Gladiator II Cast",
-                "cta_url": "https://www.themoviedb.org/movie/558449"
+                "cta_url": None
             }
         ]
     },
@@ -782,7 +782,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Plan your weekend watchlist now with our complete weekly breakdown of top 10 movies and series on streaming.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Top 10 Streaming Charts",
-                "cta_url": "https://www.themoviedb.org/tv"
+                "cta_url": None
             }
         ]
     },
@@ -834,7 +834,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream all 8 episodes of Fallout Season 1 in 4K HDR exclusively on Amazon Prime Video.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Fallout Cast & Season 2",
-                "cta_url": "https://www.themoviedb.org/tv/106379"
+                "cta_url": None
             }
         ]
     },
@@ -886,7 +886,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience both seasons of House of the Dragon streaming now on HBO Max.",
                 "backdrop_index": 1,
                 "cta_text": "Explore House of the Dragon",
-                "cta_url": "https://www.themoviedb.org/tv/94997"
+                "cta_url": None
             }
         ]
     },
@@ -938,7 +938,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Track upcoming Marvel release dates, comic connections, and post-credit breakdowns on CineStories.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Marvel Multiverse Guide",
-                "cta_url": "https://www.themoviedb.org/movie/533535"
+                "cta_url": None
             }
         ]
     },
@@ -990,7 +990,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Dive deeper into DC movie timelines, comic easter eggs, and casting updates today.",
                 "backdrop_index": 1,
                 "cta_text": "Explore DC Universe Cast & News",
-                "cta_url": "https://www.themoviedb.org/movie/414906"
+                "cta_url": None
             }
         ]
     },
@@ -1042,7 +1042,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream Spider-Man: No Way Home and explore full easter egg breakdowns on CineStories.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Spider-Man 4 Details",
-                "cta_url": "https://www.themoviedb.org/movie/634649"
+                "cta_url": None
             }
         ]
     },
@@ -1094,7 +1094,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Celebrate 30 years of laughter by streaming all 236 episodes of Friends and the HBO Reunion Special today.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Friends Cast Retrospective",
-                "cta_url": "https://www.themoviedb.org/tv/1668"
+                "cta_url": None
             }
         ]
     },
@@ -1146,7 +1146,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream all 9 seasons and exclusive Superfan episodes of The Office on Peacock and streaming platforms worldwide.",
                 "backdrop_index": 1,
                 "cta_text": "Explore The Office Cast & Trivia",
-                "cta_url": "https://www.themoviedb.org/tv/2316"
+                "cta_url": None
             }
         ]
     },
@@ -1198,7 +1198,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Explore more then-and-now retrospectives of your favorite 90s and 2000s childhood comedy legends on CineStories.",
                 "backdrop_index": 1,
                 "cta_text": "Explore 90s Sitcom Retrospectives",
-                "cta_url": "https://www.themoviedb.org/tv/2004"
+                "cta_url": None
             }
         ]
     },
@@ -1249,7 +1249,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Stream all three chapters of Fifty Shades on premium VOD platforms and explore full cast trivia today.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Fifty Shades Details",
-                "cta_url": "https://www.themoviedb.org/movie/216015"
+                "cta_url": None
             }
         ]
     },
@@ -1300,7 +1300,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Explore the full 365 Days movie universe, soundtrack, and cast profiles on CineStories today.",
                 "backdrop_index": 1,
                 "cta_text": "View 365 Days Details",
-                "cta_url": "https://www.themoviedb.org/movie/664413"
+                "cta_url": None
             }
         ]
     },
@@ -1351,7 +1351,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Experience Paul Verhoeven's uncut masterpiece in 4K UHD and explore retrospective cast interviews on CineStories.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Basic Instinct Details",
-                "cta_url": "https://www.themoviedb.org/movie/402"
+                "cta_url": None
             }
         ]
     },
@@ -1402,7 +1402,7 @@ CURATED_STORIES: Dict[str, Dict[str, Any]] = {
                 "text": "Watch Saltburn on Prime Video and uncover behind-the-scenes cinematography details on CineStories.",
                 "backdrop_index": 1,
                 "cta_text": "Explore Saltburn Details",
-                "cta_url": "https://www.themoviedb.org/movie/930564"
+                "cta_url": None
             }
         ]
     }

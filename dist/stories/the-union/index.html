@@ -149,6 +149,44 @@
     max-height: 48%;
     overflow: hidden;
   }
+  .final-nav-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: clamp(8px, 1.8vw, 12px);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .btn-next-story {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: linear-gradient(135deg, var(--primary) 0%, #f43f5e 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: clamp(12px, 2.8vw, 13px);
+    font-weight: 800;
+    padding: clamp(7px, 1.8vw, 9px) clamp(12px, 2.8vw, 16px);
+    border-radius: 999px;
+    box-shadow: 0 4px 12px var(--primary-glow);
+    flex: 1;
+    min-width: 130px;
+    letter-spacing: 0.3px;
+  }
+  .btn-read-article {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: clamp(11.5px, 2.6vw, 12.5px);
+    font-weight: 600;
+    padding: clamp(7px, 1.8vw, 9px) clamp(10px, 2.4vw, 14px);
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
   .final-nav-row {
     margin-top: clamp(8px, 1.8vw, 12px);
     padding-top: clamp(6px, 1.5vw, 10px);
@@ -563,13 +601,20 @@
         
                   <div class="content-card" animate-in="fade-in">
                     <div class="badge-row">
-                      <span class="badge">YOUR TICKET</span>
+                      <span class="badge">UP NEXT</span>
+                      <span class="category-pill">netflix hits</span>
                     </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">Catch It On The Big Screen</h2>
-                    <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Ready to dive into The Union? Discover showtimes, official trailers, and cast interviews today.</p>
-                    <div class="meta-chips">
-                      <span class="chip">🎬 Julian Farino</span>
-                      <span class="chip">🍿 TMDB #704239</span>
+                    <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">Swipe up or tap below to explore our next trending cinematic web story, or read the full article.</p>
+                    <div class="final-nav-buttons">
+                      <a href="https://cinematicbites.com/stories/leave-the-world-behind/" class="btn-next-story">
+                        <span>Read Next Story</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                      </a>
+                      <a href="https://cinematicbites.com/articles/the-union/" class="btn-read-article">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        <span>Full Article</span>
+                      </a>
                     </div>
                     <div class="final-nav-row">
                       <a href="/" class="btn-return-home">
@@ -581,7 +626,7 @@
                 </div>
               </amp-story-grid-layer>
               <amp-story-page-outlink layout="nodisplay">
-                <a href="https://www.themoviedb.org/movie/704239">Check Showtimes &amp; Full Details</a>
+                <a href="https://cinematicbites.com/stories/leave-the-world-behind/">Read Next: Leave the World Behind ➔</a>
               </amp-story-page-outlink>
             </amp-story-page>
 

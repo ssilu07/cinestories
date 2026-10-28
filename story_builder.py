@@ -8,7 +8,7 @@ import html
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional, Tuple
 from config import (
     DOMAIN_NAME,
     PUBLISHER_NAME,
@@ -150,6 +150,44 @@ AMP_CUSTOM_CSS = """
     box-sizing: border-box;
     max-height: 48%;
     overflow: hidden;
+  }
+  .final-nav-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: clamp(8px, 1.8vw, 12px);
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .btn-next-story {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: linear-gradient(135deg, var(--primary) 0%, #f43f5e 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: clamp(12px, 2.8vw, 13px);
+    font-weight: 800;
+    padding: clamp(7px, 1.8vw, 9px) clamp(12px, 2.8vw, 16px);
+    border-radius: 999px;
+    box-shadow: 0 4px 12px var(--primary-glow);
+    flex: 1;
+    min-width: 130px;
+    letter-spacing: 0.3px;
+  }
+  .btn-read-article {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: clamp(11.5px, 2.6vw, 12.5px);
+    font-weight: 600;
+    padding: clamp(7px, 1.8vw, 9px) clamp(10px, 2.4vw, 14px);
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
   }
   .final-nav-row {
     margin-top: clamp(8px, 1.8vw, 12px);
@@ -334,6 +372,41 @@ AMP_CUSTOM_CSS = """
   }
 """
 
+_STORY_CATALOG_CACHE = None
+
+def get_next_story_info(current_slug: str, domain: str = DOMAIN_NAME) -> Tuple[str, str]:
+    """
+    Returns (next_story_url, next_story_title) for seamless inter-story chaining on cinematicbites.com.
+    """
+    global _STORY_CATALOG_CACHE
+    if _STORY_CATALOG_CACHE is None:
+        cache_path = Path("dist/stories_cache.json")
+        if cache_path.exists():
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    _STORY_CATALOG_CACHE = json.load(f)
+            except Exception:
+                _STORY_CATALOG_CACHE = []
+        else:
+            _STORY_CATALOG_CACHE = []
+
+    if _STORY_CATALOG_CACHE:
+        slugs = [s.get("movie", {}).get("slug") for s in _STORY_CATALOG_CACHE if s.get("movie", {}).get("slug")]
+        if current_slug in slugs:
+            curr_idx = slugs.index(current_slug)
+            next_idx = (curr_idx + 1) % len(slugs)
+            next_s = _STORY_CATALOG_CACHE[next_idx]
+            n_slug = next_s.get("movie", {}).get("slug")
+            n_title = next_s.get("movie", {}).get("title") or next_s.get("title", "Next Story")
+            return f"{domain}/stories/{n_slug}/", n_title
+        elif slugs:
+            first_s = _STORY_CATALOG_CACHE[0]
+            f_slug = first_s.get("movie", {}).get("slug")
+            f_title = first_s.get("movie", {}).get("title") or first_s.get("title", "Next Story")
+            return f"{domain}/stories/{f_slug}/", f_title
+
+    return f"{domain}/discover/", "Trending Stories"
+
 def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) -> str:
     """
     Renders 100% AMP-valid HTML for an AMP Web Story.
@@ -468,11 +541,25 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
             </amp-story-page>
             """
         elif is_last:
-            # Final Slide: CTA slide
-            default_cta_text = "Explore Series & Streaming" if movie.get("media_type") == "tv" else "Check Showtimes & Tickets"
-            default_cta_url = f"https://www.themoviedb.org/tv/{movie.get('id')}" if movie.get("media_type") == "tv" else f"https://www.themoviedb.org/movie/{movie.get('id')}"
-            cta_text = html.escape(slide.get("cta_text") or default_cta_text)
-            cta_url = html.escape(slide.get("cta_url") or default_cta_url)
+            # Final Slide: Inter-story chaining & Next Story on site
+            movie_slug = movie.get("slug", "")
+            next_url = story_data.get("next_story_url")
+            next_title = story_data.get("next_story_title")
+            article_url = f"{domain}/articles/{movie_slug}/" if movie_slug else f"{domain}/discover/"
+
+            if not next_url:
+                next_url, next_title = get_next_story_info(movie_slug, domain=domain)
+
+            # Never link to themoviedb.org or external sites
+            cta_url = html.escape(next_url)
+            cta_text = f"Read Next: {next_title} ➔" if next_title and len(f"Read Next: {next_title} ➔") <= 38 else "Read Next Story ➔"
+
+            final_title = slide.get("title") or f"Up Next: {next_title}"
+            final_text = slide.get("text") or "Tap below to keep the momentum going with our next trending visual story, or dive into the full article."
+
+            # Replace any external TMDB references in slide text
+            if "themoviedb.org" in final_text or "showtimes" in final_text.lower():
+                final_text = "Swipe up or tap below to explore our next trending cinematic web story, or read the full article."
 
             slide_content = f"""
             <amp-story-page id="{page_id}">
@@ -485,13 +572,20 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
 {top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <div class="badge-row">
-                      <span class="badge">{badge_text}</span>
+                      <span class="badge">UP NEXT</span>
+                      <span class="category-pill">{category_name}</span>
                     </div>
-                    <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{slide_heading}</h2>
-                    <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">{slide_body}</p>
-                    <div class="meta-chips">
-                      <span class="chip">🎬 {html.escape(movie.get('director', 'Acclaimed Director'))}</span>
-                      <span class="chip">🍿 TMDB #{movie.get('id')}</span>
+                    <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{html.escape(final_title)}</h2>
+                    <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">{html.escape(final_text)}</p>
+                    <div class="final-nav-buttons">
+                      <a href="{cta_url}" class="btn-next-story">
+                        <span>Read Next Story</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                      </a>
+                      <a href="{article_url}" class="btn-read-article">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        <span>Full Article</span>
+                      </a>
                     </div>
                     <div class="final-nav-row">
                       <a href="/" class="btn-return-home">

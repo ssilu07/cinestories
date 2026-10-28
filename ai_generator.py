@@ -120,7 +120,7 @@ STRICT EDITORIAL & AMP COMPLIANCE RULES:
    - Slide 6 or 7 (Final Slide): Call-to-action slide (e.g., "Explore Weekly Streaming Charts", "See All Marvel Theories", "Watch Sitcom Retrospectives").
 4. WORD LIMIT: Each slide's text MUST be STRICTLY UNDER 40 WORDS. Bite-sized, snackable, punchy.
 5. Provide a valid 'backdrop_index' for each slide (integers between 0 and {max(0, len(movie.get('backdrops', [])) - 1)}).
-6. Set 'cta_text' on the final slide and 'cta_url' to "https://www.themoviedb.org/movie/{movie.get('id')}" or "https://www.themoviedb.org/tv/{movie.get('id')}".
+6. Final Slide: Call-to-action guiding reader to next visual story (Set 'cta_text' to "Read Next Story ➔") or "https://www.themoviedb.org/tv/{movie.get('id')}".
 
 ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
 - FORBIDDEN OVERUSED AI WORDS: Never use "delve", "testament to", "tapestry", "in a world where", "masterclass", "beacon", "it goes without saying".
@@ -186,13 +186,13 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
                 "text": truncated_text,
                 "backdrop_index": backdrop_idx,
                 "cta_text": s.get("cta_text"),
-                "cta_url": s.get("cta_url") or f"https://www.themoviedb.org/movie/{movie.get('id')}"
+                "cta_url": None
             })
 
         # Ensure final slide has CTA
         if clean_slides and not clean_slides[-1].get("cta_text"):
             clean_slides[-1]["cta_text"] = "Explore Full Details & Tickets"
-            clean_slides[-1]["cta_url"] = f"https://www.themoviedb.org/movie/{movie.get('id')}"
+            clean_slides[-1]["cta_url"] = None
 
         return {
             "title": title,
@@ -327,7 +327,7 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
                 "text": f"Ready to dive into {movie.get('title')}? Discover showtimes, official trailers, and cast interviews today.",
                 "backdrop_index": 0,
                 "cta_text": "Check Showtimes & Full Details",
-                "cta_url": f"https://www.themoviedb.org/movie/{movie.get('id')}"
+                "cta_url": None
             }
         ]
 
@@ -378,11 +378,19 @@ MOVIE DATA:
 STORY HIGHLIGHTS:
 {story_highlights}
 
-GOOGLE DISCOVER EDITORIAL GUIDELINES:
-1. Headline: Irresistible, curiosity-inducing, authentic under 75 characters (e.g. "Inside The Professor's Ultimate Heist: 5 Tactics You Missed 💰").
-2. Meta Description: Under 155 characters summarizing the key hook.
+GOOGLE DISCOVER & SEARCH INTENT EDITORIAL GUIDELINES:
+1. Headline: Irresistible, high-CTR, curiosity-inducing and authentic under 75 characters. Crucially, tailor the angle to the movie's genre/theme to match actual Google Search queries:
+   - Mystery / Thriller / Crime / Drama: Focus on "Ending Explained & Plot Twist Breakdown" or "What Really Happened".
+   - Documentary / Biography / True Story: Focus on "True Story Behind [Title]: Real Life Facts vs Fiction".
+   - Animation / Family / Comedy: Focus on "[Title] Review, Cast & Ending Breakdown: Worth Watching?".
+   - Superhero / Sci-Fi / Action: Focus on "Easter Eggs, Ending Explained & Mind-Blowing Theories".
+2. Meta Description: Direct and engaging, under 155 characters. Must mention the title, key hook (ending breakdown, major plot twist, cast highlight, or honest review).
 3. Key Takeaways: Exactly 3 to 4 punchy bullet points summarizing key facts for readers.
-4. Sections: Exactly 3 to 4 rich editorial sections covering the premise, star performances, behind-the-scenes secrets, and cultural impact (60-120 words each).
+4. Sections: Exactly 4 rich, distinct editorial sections (70-130 words each):
+   - Section 1: Plot Premise & Core Narrative Setup (Clear breakdown of the main storyline).
+   - Section 2: Climax & Ending Explained (Crucial for Search rankings: Explain the ending, final resolution, or shocking twists).
+   - Section 3: Cast Performances & Behind-The-Scenes Secrets (Highlight top cast actors by name and production craft).
+   - Section 4: Critical Review, Age Rating & Watch Guide (Honest review, age rating suitability, streaming/theatrical verdict).
 5. Verdict Summary: 1-2 punchy concluding sentences with a recommendation.
 6. Reading Time: 3 or 4 minutes.
 7. Who Should Watch: 1 honest sentence on which fans or viewers will love this most.
@@ -426,11 +434,11 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
 
     def _generate_article_fallback(self, movie: Dict[str, Any], story: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
         """
-        Deterministic, rich editorial synthesizer for Google Discover articles.
-        Generates 400+ words of structured journalism with distinct, non-repetitive sections.
+        Deterministic, rich editorial synthesizer for Google Discover & Search articles.
+        Generates 400+ words of structured journalism with distinct, non-repetitive, search-intent sections.
         """
         title = movie.get("title", "Featured Film")
-        director = movie.get("director") or "Visionary Filmmakers"
+        director = movie.get("director") or "Acclaimed Filmmakers"
         top_cast = movie.get("top_cast", [])
         cast_str = ", ".join(top_cast[:3]) if top_cast else "an acclaimed ensemble"
         rating = movie.get("vote_average", 7.8)
@@ -439,105 +447,92 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
         overview = movie.get("overview") or f"{title} continues to captivate global audiences with its gripping storyline and exceptional performances."
         category = movie.get("category", "trending")
 
-        # Use story title / hook if present
-        headline = None
+        # Genre & Search Intent Classification
+        genres_lower = [g.lower() for g in genres]
+        is_animation = any("animat" in g for g in genres_lower)
+        is_thriller = any(g in ["thriller", "mystery", "crime", "horror"] for g in genres_lower)
+        is_documentary = any(g in ["documentary", "history", "biography"] for g in genres_lower)
+        is_comedy_romance = any(g in ["comedy", "romance"] for g in genres_lower)
+
+        # High-CTR, Search-Intent Driven Headlines
         if story and story.get("title"):
             headline = story.get("title")
         elif movie.get("hook_title"):
             headline = movie.get("hook_title")
+        elif category == "theories_easter_eggs":
+            headline = f"{title}: 5 Mind-Blowing Easter Eggs & Ending Theories Explained"
+        elif category == "where_are_they_now":
+            headline = f"Where Are The Stars of {title} Today? The Shocking Journey"
+        elif category == "netflix_hits":
+            headline = f"Why {title} Is Dominating Global Charts: Ending & Review Breakdown"
+        elif is_documentary:
+            headline = f"{title} Real Story: True Life Facts Behind The Events"
+        elif is_animation:
+            headline = f"{title} Review, Cast & Ending Breakdown: Worth Watching?"
+        elif is_thriller:
+            headline = f"{title} Ending Explained & Full Plot Twist Breakdown"
+        elif is_comedy_romance:
+            headline = f"{title} Ending Explained, Cast & Honest Review Breakdown"
         else:
-            if category == "netflix_hits":
-                headline = f"Why {title} Is Dominating Netflix's Global Movie Charts 🔴🍿"
-            elif category == "streaming_charts":
-                headline = f"Why {title} Is Dominating Global Streaming Charts This Week 🍿"
-            elif category == "theories_easter_eggs":
-                headline = f"{title}: 5 Mind-Blowing Easter Eggs & Theories Explained ⚡"
-            elif category == "where_are_they_now":
-                headline = f"Where Are The Stars of {title} Today? The Shocking Journey ✨"
-            else:
-                headline = f"{title} Deep Dive: Cast, Hidden Clues & What Critics Are Saying 🎬"
+            headline = f"{title} Ending Explained, Review & Full Plot Breakdown"
 
-        # Handle ratings cleanly (avoid 0.0 rating glitches for unreleased/unrated titles)
+        # Safe ratings representation
         has_valid_rating = isinstance(rating, (int, float)) and rating > 0.0
-        rating_takeaway = (
-            f"Audience Reception: Currently certified with an impressive {rating}/10 community rating."
-            if has_valid_rating
-            else "Audience Reception: Highly anticipated title with strong pre-release buzz across fan forums."
-        )
-        reception_content = (
-            f"Currently holding a certified {rating}/10 community rating, discussions across entertainment forums highlight its memorable climax and rewatch value, cementing it as an essential recommendation for {genre_str} enthusiasts."
-            if has_valid_rating
-            else f"With excitement mounting ahead of its premiere, discussions across entertainment communities highlight massive anticipation, making this {genre_str} entry a standout for film watchlists."
-        )
-        buzz_content = (
-            f"With an outstanding {rating}/10 audience score, the title has sparked spirited debates across entertainment communities. It represents a bold statement for contemporary {genre_str} entertainment."
-            if has_valid_rating
-            else f"Generating substantial pre-release interest across film circles, this project stands out as a highly anticipated entry in contemporary {genre_str} cinema."
-        )
+        rating_text = f"holding a certified {rating}/10 community rating" if has_valid_rating else "generating tremendous pre-release excitement across film circles"
+
+        # Search-intent focused dynamic meta description (under 155 chars)
+        meta_desc = f"Full {title} breakdown: ending explained, complete plot summary, {cast_str} performances, age rating, and honest review verdict."
+        if len(meta_desc) > 155:
+            meta_desc = meta_desc[:152] + "..."
 
         # Key Takeaways
         takeaways = [
             f"Powerhouse Cast: Led by {cast_str} under the direction of {director}.",
-            rating_takeaway,
+            f"Audience Reception: Currently {rating_text} with strong community buzz.",
             f"Genre Highlights: Compelling {genre_str} storytelling with memorable character arcs.",
             f"Watch Format: Available for full cinematic analysis and visual slide exploration."
         ]
 
-        # Sections: Ensure 4 distinct, non-repetitive angles
-        sections = []
-        if story and len(story.get("slides", [])) >= 4:
-            slides = story.get("slides", [])
-            s1 = slides[0] if len(slides) > 0 else {}
-            s2 = slides[1] if len(slides) > 1 else {}
-            s3 = slides[2] if len(slides) > 2 else {}
-            s4 = slides[3] if len(slides) > 3 else {}
-
-            sections = [
-                {
-                    "heading": s1.get("title") or f"The Narrative Premise of {title}",
-                    "content": f"{s1.get('text', '')} {overview} From the opening sequence, audiences are thrust into high-stakes drama where unexpected developments continually reshape the narrative landscape and test the limits of its protagonists."
-                },
-                {
-                    "heading": s2.get("title") or "Ensemble Brilliance & Character Dynamics",
-                    "content": f"{s2.get('text', '')} The dynamic performances led by {cast_str} deliver authentic emotional resonance throughout. Under {director}'s steady direction, each character brings distinct weight to key confrontations without relying on easy genre tropes."
-                },
-                {
-                    "heading": s3.get("title") or "Behind The Scenes & Production Craft",
-                    "content": f"{s3.get('text', '')} The technical execution blends atmospheric cinematography with tight editing and rich audio design, giving the entire narrative a gripping sense of urgency, scale, and visual polish."
-                },
-                {
-                    "heading": s4.get("title") or "Cultural Impact & Audience Reception",
-                    "content": f"{s4.get('text', '')} {reception_content}"
-                }
-            ]
+        # Tailor sections specifically to search queries
+        if is_animation:
+            prod_craft = f"Directed by {director}, the animation blends expressive visual design with vibrant comedic timing. The voice work featuring {cast_str} injects authentic charm into every scene, making it appealing for both younger audiences and animation enthusiasts."
+            ending_text = f"The climax of {title} ties together its high-spirited journey with heart and humor. As the central conflict reaches its peak, the characters must rely on quick thinking and teamwork, delivering a satisfying and uplifting resolution."
+        elif is_documentary:
+            prod_craft = f"Filmmaker {director} presents meticulous investigative research, combining archival depth with compelling real-life testimony. The production balances candid revelations with journalistic integrity to separate truth from sensation."
+            ending_text = f"The ending of {title} brings critical revelations into focus, shedding light on the real-world impact and unanswered questions that continue to provoke debate long after the credits roll."
+        elif is_thriller:
+            prod_craft = f"Under {director}'s tight direction, {title} sustains unrelenting psychological tension. Meticulous cinematography, shadowy visual framing, and a sharp score keep viewers glued through every escalating confrontation."
+            ending_text = f"The ending of {title} delivers a shocking final twist that flips earlier narrative assumptions on their head. Key character motivations are re-contextualized in the closing moments, leaving audiences eager to re-watch the clues."
         else:
-            sections = [
-                {
-                    "heading": f"The High-Stakes Narrative of {title}",
-                    "content": f"{overview} What sets this title apart is how effectively the script balances intense narrative momentum with nuanced character beats, making every key turning point land with genuine emotional impact."
-                },
-                {
-                    "heading": "Star Power & Ensemble Performances",
-                    "content": f"The dynamic chemistry between {cast_str} elevates the production into top-tier territory. Under {director}'s guidance, each actor brings genuine conviction and depth to their respective roles."
-                },
-                {
-                    "heading": "Behind The Lens & Technical Precision",
-                    "content": f"From intricate production design to a propulsive soundscape, {title} showcases meticulous craftsmanship. Filmmakers favored immersive visual palettes and practical detail to establish authentic tone."
-                },
-                {
-                    "heading": "Cultural Buzz & Why Audiences Are Obsessed",
-                    "content": buzz_content
-                }
-            ]
+            prod_craft = f"Under {director}'s steady direction, {title} balances immersive storytelling with nuanced character beats. Standout performances from {cast_str} elevate the production, bringing emotional weight to key turning points."
+            ending_text = f"The ending of {title} resolves its central stakes with a memorable narrative payoff, balancing emotional closure with thought-provoking takeaways that linger well beyond the final scene."
+
+        sections = [
+            {
+                "heading": f"{title} Plot: Story Premise & Key Narrative Arcs",
+                "content": f"{overview} From the opening sequence, audiences are drawn into an engaging journey where unexpected developments continually test the limits and resolve of its central characters."
+            },
+            {
+                "heading": f"{title} Ending Explained: What Happened in the Climax?",
+                "content": ending_text
+            },
+            {
+                "heading": f"Cast Highlights & Behind-the-Scenes Facts",
+                "content": f"The dynamic chemistry among {cast_str} serves as the emotional backbone of the production. {prod_craft}"
+            },
+            {
+                "heading": f"{title} Review, Age Rating & Watch Guide",
+                "content": f"With audiences {rating_text}, {title} stands out as a rewarding watch for {genre_str} fans. Whether you're seeking gripping plot twists or memorable character moments, it is a recommended addition to your streaming watchlist."
+            }
+        ]
 
         verdict = f"{title} delivers a rewarding watch for fans of {genre_str}. Anchored by strong turns from {cast_str} and focused direction by {director}, it is an essential entry for your watchlist."
-
         who_should_watch = f"Fans of high-stakes {genre_str} entertainment who appreciate memorable ensemble acting and sharp direction by {director}."
         skip_if = f"Viewers looking for breezy, lighthearted comedy or those sensitive to tense, high-pressure conflict."
 
         return {
             "headline": headline[:75],
-            "meta_description": f"Explore {title}: cast highlights, hidden trivia, critical reception, and streaming breakdown.",
+            "meta_description": meta_desc,
             "key_takeaways": takeaways,
             "sections": sections,
             "verdict_summary": verdict,
