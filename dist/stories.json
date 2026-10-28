@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-27T23:40:17.250746+00:00",
-  "total_stories": 251,
+  "generated_at": "2026-10-28T06:54:28.507582+00:00",
+  "total_stories": 255,
   "stories": [
+    {
+      "id": 4488,
+      "slug": "friday-the-13th",
+      "title": "Why Friday the 13th Is Crushing Netflix Charts Worldwide! \ud83d\udd2a\ud83e\ude78",
+      "url": "https://cinematicbites.com/stories/friday-the-13th/",
+      "category": "netflix_hits",
+      "release_date": "1980-05-09",
+      "rating": 6.4
+    },
+    {
+      "id": 300146,
+      "slug": "where-the-mask-ends",
+      "title": "Where the Mask Ends: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/where-the-mask-ends/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-16",
+      "rating": 8.2
+    },
+    {
+      "id": 1635771,
+      "slug": "the-lost-ones",
+      "title": "Henry Golding's Darkest Thriller: The Lost Ones \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/the-lost-ones/",
+      "category": "trending",
+      "release_date": "2026-10-27",
+      "rating": 6.0
+    },
+    {
+      "id": 1401459,
+      "slug": "fjord",
+      "title": "Fjord: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/fjord/",
+      "category": "upcoming",
+      "release_date": "2026-06-13",
+      "rating": 7.2
+    },
     {
       "id": 361743,
       "slug": "top-gun-maverick",
