@@ -1,9 +1,189 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-28T06:57:18.835887+00:00",
-  "total_stories": 235,
+  "generated_at": "2026-10-28T07:24:40.611991+00:00",
+  "total_stories": 255,
   "stories": [
+    {
+      "id": 4488,
+      "slug": "friday-the-13th",
+      "title": "Why Friday the 13th Is Crushing Netflix Charts Worldwide! \ud83d\udd2a\ud83e\ude78",
+      "url": "https://cinematicbites.com/stories/friday-the-13th/",
+      "category": "netflix_hits",
+      "release_date": "1980-05-09",
+      "rating": 6.4
+    },
+    {
+      "id": 300146,
+      "slug": "where-the-mask-ends",
+      "title": "Where the Mask Ends: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/where-the-mask-ends/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-16",
+      "rating": 8.2
+    },
+    {
+      "id": 1635771,
+      "slug": "the-lost-ones",
+      "title": "Henry Golding's Darkest Thriller: The Lost Ones \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/the-lost-ones/",
+      "category": "trending",
+      "release_date": "2026-10-27",
+      "rating": 6.0
+    },
+    {
+      "id": 1401459,
+      "slug": "fjord",
+      "title": "Fjord: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/fjord/",
+      "category": "upcoming",
+      "release_date": "2026-06-13",
+      "rating": 7.2
+    },
+    {
+      "id": 361743,
+      "slug": "top-gun-maverick",
+      "title": "Top Gun: Maverick: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/top-gun-maverick/",
+      "category": "netflix_hits",
+      "release_date": "2022-05-21",
+      "rating": 8.2
+    },
+    {
+      "id": 213562,
+      "slug": "crystal-lake",
+      "title": "Crystal Lake: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/crystal-lake/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-15",
+      "rating": 8.7
+    },
+    {
+      "id": 1288445,
+      "slug": "mutiny",
+      "title": "Mutiny: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/mutiny/",
+      "category": "trending",
+      "release_date": "2026-08-19",
+      "rating": 7.6
+    },
+    {
+      "id": 1477104,
+      "slug": "shaun-the-sheep-the-beast-of-mossy-bottom",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom: The Untold Story & Secre",
+      "url": "https://cinematicbites.com/stories/shaun-the-sheep-the-beast-of-mossy-bottom/",
+      "category": "upcoming",
+      "release_date": "2026-09-17",
+      "rating": 7.3
+    },
+    {
+      "id": 1389172,
+      "slug": "reporting-live",
+      "title": "Reporting Live: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/reporting-live/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-09",
+      "rating": 7.0
+    },
+    {
+      "id": 30984,
+      "slug": "bleach",
+      "title": "Bleach: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/bleach/",
+      "category": "streaming_charts",
+      "release_date": "2004-10-05",
+      "rating": 8.4
+    },
+    {
+      "id": 1562777,
+      "slug": "the-stunt-driver",
+      "title": "The Stunt Driver: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-stunt-driver/",
+      "category": "trending",
+      "release_date": "2026-09-25",
+      "rating": 5.0
+    },
+    {
+      "id": 1084409,
+      "slug": "a-talent-for-murder",
+      "title": "A Talent for Murder: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/a-talent-for-murder/",
+      "category": "upcoming",
+      "release_date": "2026-10-23",
+      "rating": 6.0
+    },
+    {
+      "id": 1453407,
+      "slug": "gajab-raat",
+      "title": "Gajab Raat: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/gajab-raat/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-23",
+      "rating": 5.1
+    },
+    {
+      "id": 120911,
+      "slug": "the-terminal-list",
+      "title": "The Terminal List: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-terminal-list/",
+      "category": "streaming_charts",
+      "release_date": "2022-06-30",
+      "rating": 8.0
+    },
+    {
+      "id": 1290418,
+      "slug": "the-cycle",
+      "title": "The Cycle: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-cycle/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 7.4
+    },
+    {
+      "id": 1340206,
+      "slug": "tuner",
+      "title": "Tuner: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/tuner/",
+      "category": "upcoming",
+      "release_date": "2026-05-21",
+      "rating": 7.6
+    },
+    {
+      "id": 1780005,
+      "slug": "surviving-hurricane-otis",
+      "title": "Surviving Hurricane Otis: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/surviving-hurricane-otis/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-23",
+      "rating": 5.7
+    },
+    {
+      "id": 96677,
+      "slug": "lupin",
+      "title": "Lupin: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/lupin/",
+      "category": "streaming_charts",
+      "release_date": "2021-01-08",
+      "rating": 7.7
+    },
+    {
+      "id": 1384216,
+      "slug": "the-dog-stars",
+      "title": "The Dog Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-dog-stars/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 6.6
+    },
+    {
+      "id": 1657630,
+      "slug": "the-awakening",
+      "title": "The Awakening: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-awakening/",
+      "category": "upcoming",
+      "release_date": "2026-10-29",
+      "rating": 7.2
+    },
     {
       "id": 646097,
       "slug": "rebel-ridge",

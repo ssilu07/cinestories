@@ -1408,5 +1408,125 @@
     "published_at": "2023-06-16T00:00:00Z",
     "modified_at": "2026-10-26T12:16:16Z",
     "category": "netflix_hits"
+  },
+  "surviving-hurricane-otis": {
+    "title": "Surviving Hurricane Otis",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "netflix_hits"
+  },
+  "lupin": {
+    "title": "Lupin",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "streaming_charts"
+  },
+  "the-dog-stars": {
+    "title": "The Dog Stars",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "trending"
+  },
+  "the-awakening": {
+    "title": "The Awakening",
+    "published_at": "2026-10-27T04:25:59Z",
+    "modified_at": "2026-10-27T04:25:59Z",
+    "category": "upcoming"
+  },
+  "gajab-raat": {
+    "title": "Gajab Raat",
+    "published_at": "2026-10-27T06:03:46Z",
+    "modified_at": "2026-10-27T06:03:46Z",
+    "category": "netflix_hits"
+  },
+  "the-terminal-list": {
+    "title": "The Terminal List",
+    "published_at": "2026-10-27T06:03:46Z",
+    "modified_at": "2026-10-27T06:03:46Z",
+    "category": "streaming_charts"
+  },
+  "the-cycle": {
+    "title": "The Cycle",
+    "published_at": "2026-10-27T06:03:46Z",
+    "modified_at": "2026-10-27T06:03:46Z",
+    "category": "trending"
+  },
+  "tuner": {
+    "title": "Tuner",
+    "published_at": "2026-10-27T06:03:46Z",
+    "modified_at": "2026-10-27T06:03:46Z",
+    "category": "upcoming"
+  },
+  "reporting-live": {
+    "title": "Reporting Live",
+    "published_at": "2026-10-27T17:41:38Z",
+    "modified_at": "2026-10-27T17:41:38Z",
+    "category": "netflix_hits"
+  },
+  "bleach": {
+    "title": "Bleach",
+    "published_at": "2026-10-27T17:41:38Z",
+    "modified_at": "2026-10-27T17:41:38Z",
+    "category": "streaming_charts"
+  },
+  "the-stunt-driver": {
+    "title": "The Stunt Driver",
+    "published_at": "2026-10-27T17:41:38Z",
+    "modified_at": "2026-10-27T17:41:38Z",
+    "category": "trending"
+  },
+  "a-talent-for-murder": {
+    "title": "A Talent for Murder",
+    "published_at": "2026-10-27T17:41:38Z",
+    "modified_at": "2026-10-27T17:41:38Z",
+    "category": "upcoming"
+  },
+  "top-gun-maverick": {
+    "title": "Top Gun: Maverick",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "netflix_hits"
+  },
+  "crystal-lake": {
+    "title": "Crystal Lake",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "streaming_charts"
+  },
+  "mutiny": {
+    "title": "Mutiny",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "trending"
+  },
+  "shaun-the-sheep-the-beast-of-mossy-bottom": {
+    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+    "published_at": "2026-10-27T23:37:39Z",
+    "modified_at": "2026-10-27T23:37:39Z",
+    "category": "upcoming"
+  },
+  "friday-the-13th": {
+    "title": "Friday the 13th",
+    "published_at": "2026-10-28T06:42:39Z",
+    "modified_at": "2026-10-28T06:42:39Z",
+    "category": "netflix_hits"
+  },
+  "where-the-mask-ends": {
+    "title": "Where the Mask Ends",
+    "published_at": "2026-10-28T06:42:39Z",
+    "modified_at": "2026-10-28T06:42:39Z",
+    "category": "streaming_charts"
+  },
+  "the-lost-ones": {
+    "title": "The Lost Ones",
+    "published_at": "2026-10-28T06:42:39Z",
+    "modified_at": "2026-10-28T06:42:39Z",
+    "category": "trending"
+  },
+  "fjord": {
+    "title": "Fjord",
+    "published_at": "2026-10-28T06:42:39Z",
+    "modified_at": "2026-10-28T06:42:39Z",
+    "category": "upcoming"
   }
 }
