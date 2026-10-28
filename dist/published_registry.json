@@ -1528,5 +1528,29 @@
     "published_at": "2026-10-28T06:42:39Z",
     "modified_at": "2026-10-28T06:42:39Z",
     "category": "upcoming"
+  },
+  "demon-slayer-kimetsu-no-yaiba-infinity-castle": {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "published_at": "2026-10-28T18:03:57Z",
+    "modified_at": "2026-10-28T18:03:57Z",
+    "category": "netflix_hits"
+  },
+  "the-gift-of-deceit": {
+    "title": "The Gift of Deceit",
+    "published_at": "2026-10-28T18:03:57Z",
+    "modified_at": "2026-10-28T18:03:57Z",
+    "category": "streaming_charts"
+  },
+  "drive-the-pretenders": {
+    "title": "Drive - The Pretenders",
+    "published_at": "2026-10-28T18:03:57Z",
+    "modified_at": "2026-10-28T18:03:57Z",
+    "category": "trending"
+  },
+  "rolling-loud-the-movie": {
+    "title": "Rolling Loud: The Movie",
+    "published_at": "2026-10-28T18:03:57Z",
+    "modified_at": "2026-10-28T18:03:57Z",
+    "category": "upcoming"
   }
 }
