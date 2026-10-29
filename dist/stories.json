@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-29T06:51:37.247515+00:00",
-  "total_stories": 267,
+  "generated_at": "2026-10-29T23:57:31.443891+00:00",
+  "total_stories": 271,
   "stories": [
+    {
+      "id": 348,
+      "slug": "alien",
+      "title": "Alien: Why This 1979 Sci-Fi Shocker Tops Netflix Charts \ud83c\udf7f\ud83d\ude80",
+      "url": "https://cinematicbites.com/stories/alien/",
+      "category": "netflix_hits",
+      "release_date": "1979-05-25",
+      "rating": 8.2
+    },
+    {
+      "id": 153312,
+      "slug": "tulsa-king",
+      "title": "Tulsa King: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/tulsa-king/",
+      "category": "streaming_charts",
+      "release_date": "2022-11-13",
+      "rating": 8.3
+    },
+    {
+      "id": 1541477,
+      "slug": "you-me-us",
+      "title": "You, Me, Us: The Heartfelt New Comedy-Drama \ud83d\udc76\u2728",
+      "url": "https://cinematicbites.com/stories/you-me-us/",
+      "category": "trending",
+      "release_date": "2026-10-29",
+      "rating": 4.1
+    },
+    {
+      "id": 1458099,
+      "slug": "the-only-living-pickpocket-in-new-york",
+      "title": "The Only Living Pickpocket in New York: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-only-living-pickpocket-in-new-york/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 7.2
+    },
     {
       "id": 98,
       "slug": "gladiator",

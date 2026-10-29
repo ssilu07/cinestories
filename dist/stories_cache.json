@@ -1,5 +1,413 @@
 [
   {
+    "title": "Alien: Why This 1979 Sci-Fi Shocker Tops Netflix Charts \ud83c\udf7f\ud83d\ude80",
+    "seo_description": "Alien dominates streaming charts worldwide. Discover why Ridley Scott's 1979 sci-fi horror is an unstoppable hit on Netflix today.",
+    "movie": {
+      "id": 348,
+      "title": "Alien",
+      "original_title": "Alien",
+      "slug": "alien",
+      "media_type": "movie",
+      "release_date": "1979-05-25",
+      "overview": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
+      "tagline": "In space no one can hear you scream.",
+      "genres": [
+        "Horror",
+        "Science Fiction"
+      ],
+      "runtime": 117,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 17053,
+      "category": "netflix_hits",
+      "director": "Ridley Scott",
+      "top_cast": [
+        "Tom Skerritt",
+        "Sigourney Weaver",
+        "Veronica Cartwright",
+        "Harry Dean Stanton",
+        "John Hurt",
+        "Ian Holm"
+      ],
+      "poster_path": "/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg",
+      "backdrop_path": "/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+      "backdrops": [
+        "/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg",
+        "/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
+        "/3BNbh8ODH68JRLEc4YveMHuTcH1.jpg",
+        "/3epzWQQbtQWWY8Lq8tJ0GTrhjls.jpg",
+        "/zo1X8fCK0E6EQIH5mzkLqNwgXHz.jpg",
+        "/9V0C4ipJkFhFJ6KrTzJ0ocAadTM.jpg",
+        "/4t0KhAOOubY3wCvhXYEKUrG4ZGO.jpg",
+        "/90MLBXrHvO56TpjicYMlVVzNJiE.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "STREAMING PHENOMENON",
+        "title": "Why Alien Is Dominating Netflix \ud83d\ude80",
+        "text": "Ridley Scott's 1979 sci-fi horror classic is suddenly surging across global Top 10 charts. Here is how a timeless deep-space nightmare became an overnight binge obsession.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "GLOBAL TOP 10",
+        "title": "Crushing Charts in 90+ Countries",
+        "text": "Holding a stellar 93% Rotten Tomatoes score, the terrifying journey of the commercial ship Nostromo vaulted into international streaming ranks, captivating millions of new viewers.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "The Rise of Ellen Ripley",
+        "text": "Sigourney Weaver's breakout turn as Warrant Officer Ellen Ripley revolutionized modern action cinema. Her gritty determination against the Xenomorph remains a benchmark for screen heroines.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "That Unscripted Chestburster",
+        "text": "Director Ridley Scott kept the cast in the dark during the legendary dinner table reveal. The raw panic and visceral horror captured on camera were authentic shock reactions.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "POP CULTURE LEGACY",
+        "title": "Unrivaled Cosmic Claustrophobia",
+        "text": "Earning an elite 8.2 rating from fans, its tagline 'In space no one can hear you scream' still sets the gold standard for atmospheric, slow-burn creature features.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "WHAT TO BINGE NEXT",
+        "title": "Stream The Ultimate Thriller",
+        "text": "Ready to test your nerves in the dark? Experience the ultimate cosmic survival film and explore our curated breakdown of trending weekly streaming hits.",
+        "backdrop_index": 5,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-10-29T23:51:11Z",
+    "date_modified": "2026-10-29T23:51:11Z",
+    "published_at": "2026-10-29T23:51:11Z"
+  },
+  {
+    "title": "Tulsa King: The Untold Story & Secrets",
+    "seo_description": "Discover Tulsa King: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 153312,
+      "title": "Tulsa King",
+      "original_title": "Tulsa King",
+      "slug": "tulsa-king",
+      "media_type": "tv",
+      "release_date": "2022-11-13",
+      "overview": "New York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a crew.",
+      "tagline": "Storms break. Kings don't.",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 50,
+      "seasons": 4,
+      "vote_average": 8.3,
+      "vote_count": 2889,
+      "category": "streaming_charts",
+      "director": "Taylor Sheridan (Creator)",
+      "top_cast": [
+        "Sylvester Stallone",
+        "Martin Starr",
+        "Jay Will",
+        "Vincent Piazza",
+        "Annabella Sciorra",
+        "Chris Caldovino"
+      ],
+      "poster_path": "/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg",
+      "backdrop_path": "/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+      "backdrops": [
+        "/ro6mCt4rHkSrLpu86pphY8Jn2lb.jpg",
+        "/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg",
+        "/hcSdOzMv9tocHpJ4Xd7MDAF0dFF.jpg",
+        "/iAdMMDTlKKfHmEX8BTBwCDSqxdx.jpg",
+        "/v1d3baYqMfyQKxBHXu5Pmu6vTZ3.jpg",
+        "/tOVQvaIgi13Z5xVI3YkNnFD5rks.jpg",
+        "/4hvpOLNLnCYE0pGVa9ZPA3nRHHt.jpg",
+        "/ga1IclE6JGMh3RIa6BgOSUbJssx.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "Tulsa King",
+        "text": "Storms break. Kings don't. Rated 8.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "New York mafia capo Dwight \"The General\" Manfredi is released from prison after 25 years and exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Sylvester Stallone, Martin Starr, Jay Will, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Taylor Sheridan (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Taylor Sheridan (Creator)",
+        "text": "Filmmaker Taylor Sheridan (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.3/10 on TMDB",
+        "text": "With an impressive 8.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Tulsa King? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-10-29T23:51:11Z",
+    "date_modified": "2026-10-29T23:51:11Z",
+    "published_at": "2026-10-29T23:51:11Z"
+  },
+  {
+    "title": "You, Me, Us: The Heartfelt New Comedy-Drama \ud83d\udc76\u2728",
+    "seo_description": "Discover 'You, Me, Us', Daniele Luchetti's touching dramatic comedy about love, adoption, and the messy journey toward parenthood.",
+    "movie": {
+      "id": 1541477,
+      "title": "You, Me, Us",
+      "original_title": "Noi un po' meglio",
+      "slug": "you-me-us",
+      "media_type": "movie",
+      "release_date": "2026-10-29",
+      "overview": "A couple faces the difficult path to adoption, determined to become parents despite their complex vulnerabilities.",
+      "tagline": "",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "runtime": 0,
+      "seasons": null,
+      "vote_average": 4.1,
+      "vote_count": 4,
+      "category": "trending",
+      "director": "Daniele Luchetti",
+      "top_cast": [
+        "Elio Germano",
+        "Maria Chiara Giannetta",
+        "Lidia Vitale",
+        "Anna Bonaiuto",
+        "Diop Virginia",
+        "Francesca De Martini"
+      ],
+      "poster_path": "/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
+      "backdrop_path": "/u2Fiz8KC804t9Go2jG2KRxiGzRZ.jpg",
+      "backdrops": [
+        "/u2Fiz8KC804t9Go2jG2KRxiGzRZ.jpg",
+        "/i1HzXpWhDaSF95m8a3qqwrNczPH.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "A Quest for Family",
+        "text": "Can love overcome red tape and personal chaos? Daniele Luchetti's new film tackles the complex emotional rollercoaster of prospective parenthood with humor and heart.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Facing the Adoption Test",
+        "text": "A hopeful couple embarks on a daunting adoption journey. To build a family, they must confront not only bureaucratic obstacles but also their own deepest insecurities.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Germano & Giannetta Lead",
+        "text": "Acclaimed Italian actor Elio Germano teams up with Maria Chiara Giannetta, bringing raw honesty and comedic timing to their roles as vulnerability-laden prospective parents.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Daniele Luchetti Directs",
+        "text": "Known for balancing sensitive drama with genuine levity, Luchetti crafts an intimate portrait showing that perfection is never a prerequisite for loving a child.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "WHAT TO EXPECT",
+        "title": "Tears, Laughs, and Truth",
+        "text": "Supported by powerhouse actors Anna Bonaiuto and Lidia Vitale, the film navigates modern relationships with unflinching honesty, warm empathy, and sparkling wit.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Track More Releases",
+        "text": "Explore more upcoming indie dramas and festival standouts lighting up the international film scene this season.",
+        "backdrop_index": 1,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-10-29T23:51:11Z",
+    "date_modified": "2026-10-29T23:51:11Z",
+    "published_at": "2026-10-29T23:51:11Z"
+  },
+  {
+    "title": "The Only Living Pickpocket in New York: The Untold Story & Secrets",
+    "seo_description": "Discover The Only Living Pickpocket in New York: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1458099,
+      "title": "The Only Living Pickpocket in New York",
+      "original_title": "The Only Living Pickpocket in New York",
+      "slug": "the-only-living-pickpocket-in-new-york",
+      "media_type": "movie",
+      "release_date": "2026-10-16",
+      "overview": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles to make ends meet as he cares for his disabled wife, Rosie. When he unwittingly purloins and fences a valuable USB stick, Harry finds himself in a race against time to return the loot or face the rage of a vengeful crime family.",
+      "tagline": "",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 88,
+      "seasons": null,
+      "vote_average": 7.2,
+      "vote_count": 5,
+      "category": "upcoming",
+      "director": "Noah Segan",
+      "top_cast": [
+        "John Turturro",
+        "Giancarlo Esposito",
+        "Will Price",
+        "Tatiana Maslany",
+        "Victoria Moroles",
+        "Steve Buscemi"
+      ],
+      "poster_path": "/pNdB9va2AEPQe9UfhKAdIt8nus9.jpg",
+      "backdrop_path": "/nZLt2sLZTEOyK50TjwNlGqzWsp5.jpg",
+      "backdrops": [
+        "/nZLt2sLZTEOyK50TjwNlGqzWsp5.jpg",
+        "/uyNEBMVB9cqE7VkACf3TicGAVrU.jpg",
+        "/uy3HaLZpdx529vjfRDMCA8IhUhE.jpg",
+        "/tQTu9wgjbxd6p0jlpGua23sjAhx.jpg",
+        "/oahXjJ0UxnkJthITntGMrXVXQsJ.jpg",
+        "/gmbknlvCsGNNckihugHdDO0iffn.jpg",
+        "/1jHcuBG21puznpklrHOstvrUDmp.jpg",
+        "/b8Fo0GlKmI9ZaoCgmELxa7SGO0.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Only Living Pickpocket in New Y",
+        "text": "Experience the global phenomenon of The Only Living Pickpocket in New York. Rated 7.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Harry Lehman is an aging pickpocket who plies his trade with ever-diminishing returns in a drastically changed New York. Wallets stuffed with cash have been replaced by easily cancelled credit cards, and Harry struggles...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by John Turturro, Giancarlo Esposito, Will Price, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Noah Segan.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Noah Segan",
+        "text": "Filmmaker Noah Segan pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.2/10 on TMDB",
+        "text": "With an impressive 7.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Only Living Pickpocket in New York? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-10-29T23:51:11Z",
+    "date_modified": "2026-10-29T23:51:11Z",
+    "published_at": "2026-10-29T23:51:11Z"
+  },
+  {
     "title": "Why Gladiator Is Dominating Global Netflix Charts Again \u2694\ufe0f\ud83c\udf7f",
     "seo_description": "Ridley Scott's Oscar-winning epic Gladiator storms Netflix Top 10 charts worldwide. Discover why Russell Crowe's colosseum classic is a binge hit again.",
     "movie": {

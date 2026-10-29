@@ -1600,5 +1600,29 @@
     "published_at": "2026-10-29T06:50:18Z",
     "modified_at": "2026-10-29T06:50:18Z",
     "category": "upcoming"
+  },
+  "alien": {
+    "title": "Alien",
+    "published_at": "2026-10-29T23:51:11Z",
+    "modified_at": "2026-10-29T23:51:11Z",
+    "category": "netflix_hits"
+  },
+  "tulsa-king": {
+    "title": "Tulsa King",
+    "published_at": "2026-10-29T23:51:11Z",
+    "modified_at": "2026-10-29T23:51:11Z",
+    "category": "streaming_charts"
+  },
+  "you-me-us": {
+    "title": "You, Me, Us",
+    "published_at": "2026-10-29T23:51:11Z",
+    "modified_at": "2026-10-29T23:51:11Z",
+    "category": "trending"
+  },
+  "the-only-living-pickpocket-in-new-york": {
+    "title": "The Only Living Pickpocket in New York",
+    "published_at": "2026-10-29T23:51:11Z",
+    "modified_at": "2026-10-29T23:51:11Z",
+    "category": "upcoming"
   }
 }
