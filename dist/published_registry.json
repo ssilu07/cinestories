@@ -1552,5 +1552,29 @@
     "published_at": "2026-10-28T18:03:57Z",
     "modified_at": "2026-10-28T18:03:57Z",
     "category": "upcoming"
+  },
+  "twilight": {
+    "title": "Twilight",
+    "published_at": "2026-10-28T23:55:48Z",
+    "modified_at": "2026-10-28T23:55:48Z",
+    "category": "netflix_hits"
+  },
+  "south-park": {
+    "title": "South Park",
+    "published_at": "2026-10-28T23:55:48Z",
+    "modified_at": "2026-10-28T23:55:48Z",
+    "category": "streaming_charts"
+  },
+  "ali-g-who-iz-i": {
+    "title": "Ali G: Who Iz I?",
+    "published_at": "2026-10-28T23:55:48Z",
+    "modified_at": "2026-10-28T23:55:48Z",
+    "category": "trending"
+  },
+  "vampire-carnival": {
+    "title": "Vampire Carnival",
+    "published_at": "2026-10-28T23:55:48Z",
+    "modified_at": "2026-10-28T23:55:48Z",
+    "category": "upcoming"
   }
 }

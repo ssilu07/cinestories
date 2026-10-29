@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-28T18:10:17.068851+00:00",
-  "total_stories": 259,
+  "generated_at": "2026-10-29T00:02:13.972859+00:00",
+  "total_stories": 263,
   "stories": [
+    {
+      "id": 8966,
+      "slug": "twilight",
+      "title": "Why Twilight Conquered Netflix All Over Again \ud83c\udf32\ud83e\udddb\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/twilight/",
+      "category": "netflix_hits",
+      "release_date": "2008-11-20",
+      "rating": 6.3
+    },
+    {
+      "id": 2190,
+      "slug": "south-park",
+      "title": "South Park: Why It Still Rules Streaming Charts \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/south-park/",
+      "category": "streaming_charts",
+      "release_date": "1997-08-13",
+      "rating": 8.3
+    },
+    {
+      "id": 1727734,
+      "slug": "ali-g-who-iz-i",
+      "title": "Ali G: Who Iz I?: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/ali-g-who-iz-i/",
+      "category": "trending",
+      "release_date": "2026-10-22",
+      "rating": 6.5
+    },
+    {
+      "id": 1634905,
+      "slug": "vampire-carnival",
+      "title": "Vampire Carnival: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/vampire-carnival/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 0.0
+    },
     {
       "id": 1311031,
       "slug": "demon-slayer-kimetsu-no-yaiba-infinity-castle",
