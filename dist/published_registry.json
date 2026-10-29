@@ -1576,5 +1576,29 @@
     "published_at": "2026-10-28T23:55:48Z",
     "modified_at": "2026-10-28T23:55:48Z",
     "category": "upcoming"
+  },
+  "gladiator": {
+    "title": "Gladiator",
+    "published_at": "2026-10-29T06:50:18Z",
+    "modified_at": "2026-10-29T06:50:18Z",
+    "category": "netflix_hits"
+  },
+  "tigers-sniff-the-rose": {
+    "title": "Tigers Sniff the Rose",
+    "published_at": "2026-10-29T06:50:18Z",
+    "modified_at": "2026-10-29T06:50:18Z",
+    "category": "streaming_charts"
+  },
+  "hanging-by-a-wire": {
+    "title": "Hanging by a Wire",
+    "published_at": "2026-10-29T06:50:18Z",
+    "modified_at": "2026-10-29T06:50:18Z",
+    "category": "trending"
+  },
+  "the-beast": {
+    "title": "The Beast",
+    "published_at": "2026-10-29T06:50:18Z",
+    "modified_at": "2026-10-29T06:50:18Z",
+    "category": "upcoming"
   }
 }

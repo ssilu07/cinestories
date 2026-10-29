@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-29T00:02:13.972859+00:00",
-  "total_stories": 263,
+  "generated_at": "2026-10-29T06:51:37.247515+00:00",
+  "total_stories": 267,
   "stories": [
+    {
+      "id": 98,
+      "slug": "gladiator",
+      "title": "Why Gladiator Is Dominating Global Netflix Charts Again \u2694\ufe0f\ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/gladiator/",
+      "category": "netflix_hits",
+      "release_date": "2000-05-04",
+      "rating": 8.2
+    },
+    {
+      "id": 286171,
+      "slug": "tigers-sniff-the-rose",
+      "title": "Tigers Sniff the Rose: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/tigers-sniff-the-rose/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-23",
+      "rating": 9.3
+    },
+    {
+      "id": 1480856,
+      "slug": "hanging-by-a-wire",
+      "title": "Hanging by a Wire: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/hanging-by-a-wire/",
+      "category": "trending",
+      "release_date": "2026-10-21",
+      "rating": 5.2
+    },
+    {
+      "id": 1185344,
+      "slug": "the-beast",
+      "title": "The Beast: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-beast/",
+      "category": "upcoming",
+      "release_date": "2026-10-08",
+      "rating": 6.0
+    },
     {
       "id": 8966,
       "slug": "twilight",
