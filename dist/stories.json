@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-29T23:57:31.443891+00:00",
-  "total_stories": 271,
+  "generated_at": "2026-10-30T07:02:20.390362+00:00",
+  "total_stories": 275,
   "stories": [
+    {
+      "id": 242582,
+      "slug": "nightcrawler",
+      "title": "Why Nightcrawler Became a Global Netflix Thriller Hit \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/nightcrawler/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-23",
+      "rating": 7.7
+    },
+    {
+      "id": 292741,
+      "slug": "nocturne",
+      "title": "Nocturne: The New Crime Thriller Dominating Streaming Charts \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/nocturne/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-29",
+      "rating": 10.0
+    },
+    {
+      "id": 1165369,
+      "slug": "de-gaulle-libert\u00e9",
+      "title": "De Gaulle Libert\u00e9: France's Epic War Saga \u2694\ufe0f\ud83c\uddeb\ud83c\uddf7",
+      "url": "https://cinematicbites.com/stories/de-gaulle-libert\u00e9/",
+      "category": "trending",
+      "release_date": "2026-06-26",
+      "rating": 7.8
+    },
+    {
+      "id": 1511171,
+      "slug": "flywheel-ignition-of-the-soul",
+      "title": "Flywheel: Ignition of the Soul First Look \ud83d\ude97\u2728",
+      "url": "https://cinematicbites.com/stories/flywheel-ignition-of-the-soul/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
     {
       "id": 348,
       "slug": "alien",

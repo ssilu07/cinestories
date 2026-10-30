@@ -1624,5 +1624,29 @@
     "published_at": "2026-10-29T23:51:11Z",
     "modified_at": "2026-10-29T23:51:11Z",
     "category": "upcoming"
+  },
+  "nightcrawler": {
+    "title": "Nightcrawler",
+    "published_at": "2026-10-30T06:53:38Z",
+    "modified_at": "2026-10-30T06:53:38Z",
+    "category": "netflix_hits"
+  },
+  "nocturne": {
+    "title": "Nocturne",
+    "published_at": "2026-10-30T06:53:38Z",
+    "modified_at": "2026-10-30T06:53:38Z",
+    "category": "streaming_charts"
+  },
+  "de-gaulle-libert\u00e9": {
+    "title": "De Gaulle: Libert\u00e9",
+    "published_at": "2026-10-30T06:53:38Z",
+    "modified_at": "2026-10-30T06:53:38Z",
+    "category": "trending"
+  },
+  "flywheel-ignition-of-the-soul": {
+    "title": "Flywheel: Ignition of the Soul",
+    "published_at": "2026-10-30T06:53:38Z",
+    "modified_at": "2026-10-30T06:53:38Z",
+    "category": "upcoming"
   }
 }
