@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-30T07:02:20.390362+00:00",
-  "total_stories": 275,
+  "generated_at": "2026-10-30T23:30:58.217124+00:00",
+  "total_stories": 279,
   "stories": [
+    {
+      "id": 1515692,
+      "slug": "baththa",
+      "title": "Baththa: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/baththa/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-01",
+      "rating": 8.5
+    },
+    {
+      "id": 289517,
+      "slug": "dead-end-job",
+      "title": "Dead-End Job: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/dead-end-job/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-30",
+      "rating": 8.2
+    },
+    {
+      "id": 1507696,
+      "slug": "apocalypse-z-new-world",
+      "title": "Apocalypse Z: New World: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/apocalypse-z-new-world/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1300968,
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "title": "The Hunger Games: Sunrise on the Reaping: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-hunger-games-sunrise-on-the-reaping/",
+      "category": "upcoming",
+      "release_date": "2026-11-18",
+      "rating": 0.0
+    },
     {
       "id": 242582,
       "slug": "nightcrawler",
