@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-31T06:52:57.100296+00:00",
-  "total_stories": 283,
+  "generated_at": "2026-10-31T17:11:36.228221+00:00",
+  "total_stories": 287,
   "stories": [
+    {
+      "id": 315162,
+      "slug": "puss-in-boots-the-last-wish",
+      "title": "Puss in Boots 2: Why This Smash Hit Conquered Netflix Charts \ud83d\udc31\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/puss-in-boots-the-last-wish/",
+      "category": "netflix_hits",
+      "release_date": "2022-12-07",
+      "rating": 8.2
+    },
+    {
+      "id": 200875,
+      "slug": "it-welcome-to-derry",
+      "title": "Why 'Welcome to Derry' Is Dominating Streaming Charts \ud83c\udf88\ud83d\udcc8",
+      "url": "https://cinematicbites.com/stories/it-welcome-to-derry/",
+      "category": "streaming_charts",
+      "release_date": "2025-10-26",
+      "rating": 8.2
+    },
+    {
+      "id": 1789549,
+      "slug": "the-birthday-gift",
+      "title": "The Birthday\u200b Gift\u200b Ending Explained: The Climax & Shocking Twists Decod",
+      "url": "https://cinematicbites.com/stories/the-birthday-gift/",
+      "category": "trending",
+      "release_date": "2026-10-30",
+      "rating": 8.7
+    },
+    {
+      "id": 372058,
+      "slug": "your-name",
+      "title": "Your Name.: Hidden Details, Easter Eggs & Review Verdict \ud83c\udfa8",
+      "url": "https://cinematicbites.com/stories/your-name/",
+      "category": "upcoming",
+      "release_date": "2016-07-01",
+      "rating": 8.5
+    },
     {
       "id": 1297842,
       "slug": "goat",

@@ -1696,5 +1696,29 @@
     "published_at": "2026-10-31T06:46:12Z",
     "modified_at": "2026-10-31T06:46:12Z",
     "category": "upcoming"
+  },
+  "puss-in-boots-the-last-wish": {
+    "title": "Puss in Boots: The Last Wish",
+    "published_at": "2026-10-31T16:59:47Z",
+    "modified_at": "2026-10-31T16:59:47Z",
+    "category": "netflix_hits"
+  },
+  "it-welcome-to-derry": {
+    "title": "IT: Welcome to Derry",
+    "published_at": "2026-10-31T16:59:47Z",
+    "modified_at": "2026-10-31T16:59:47Z",
+    "category": "streaming_charts"
+  },
+  "the-birthday-gift": {
+    "title": "The Birthday\u200b Gift\u200b",
+    "published_at": "2026-10-31T16:59:47Z",
+    "modified_at": "2026-10-31T16:59:47Z",
+    "category": "trending"
+  },
+  "your-name": {
+    "title": "Your Name.",
+    "published_at": "2026-10-31T16:59:47Z",
+    "modified_at": "2026-10-31T16:59:47Z",
+    "category": "upcoming"
   }
 }
