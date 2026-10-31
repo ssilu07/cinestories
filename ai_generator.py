@@ -48,6 +48,80 @@ class DiscoverArticleData(BaseModel):
     who_should_watch: Optional[str] = Field(default=None, description="1 punchy sentence explaining who will love this movie/show")
     skip_if: Optional[str] = Field(default=None, description="1 honest sentence on who should skip this")
 
+def generate_high_ctr_headline(movie: Dict[str, Any]) -> str:
+    """
+    Generate irresistible, high-CTR, curiosity-inducing headlines for Google Discover & Search.
+    Tailors the angle strictly to movie genre and audience search psychology.
+    """
+    if movie.get("hook_title"):
+        return movie["hook_title"]
+
+    raw_title = movie.get("title", "Blockbuster")
+    # Clean any long secondary titles to keep punchy
+    clean_title = raw_title.split(":")[0].strip() if ":" in raw_title and len(raw_title) > 28 else raw_title
+    category = movie.get("category", "")
+    genres = [g.lower() for g in movie.get("genres", [])]
+    media_type = movie.get("media_type", "movie")
+
+    is_animation = any("animat" in g for g in genres)
+    is_thriller = any(g in ["thriller", "mystery", "crime", "horror"] for g in genres)
+    is_sci_fi = any(g in ["science fiction", "sci-fi", "action", "adventure"] for g in genres)
+    is_series = media_type == "tv" or category in ["series", "popular_series", "streaming_charts"]
+    is_netflix = category == "netflix_hits"
+    is_classic = category in ["cult_classic", "where_are_they_now"]
+
+    seed = sum(ord(c) for c in raw_title)
+
+    if category == "theories_easter_eggs":
+        options = [
+            f"{clean_title}: 5 Mind-Blowing Clues & Ending Theories Decoded ⚡",
+            f"The 1 Hidden Detail Fans Completely Missed in {clean_title} 🤯",
+            f"{clean_title} Ending Explained: What That Shocking Final Scene Means",
+            f"{clean_title}: Post-Credit Breakdown & Major Multiverse Clues 🦸‍♂️",
+        ]
+    elif is_thriller:
+        options = [
+            f"{clean_title} Ending Explained: The Shocking Final Twist Decoded 🔍",
+            f"What Really Happened at the Climax of {clean_title}? Clues Decoded",
+            f"{clean_title}: The Psychological Clues Hiding in Plain Sight 🕵️‍♂️",
+            f"The Twisted Climax of {clean_title}: Ending & Suspects Explained 💥",
+        ]
+    elif is_netflix or is_series:
+        options = [
+            f"Why {clean_title} Is Dominating Global Charts: Ending & Season Clues 🍿",
+            f"{clean_title}: The Real Reason It's Binge-Trending Worldwide 🔥",
+            f"{clean_title} Climax Decoded & What Comes Next for the Show 📺",
+            f"Inside {clean_title}: Why Audiences Are Obsessed With The Ending",
+        ]
+    elif is_animation:
+        options = [
+            f"{clean_title}: Hidden Details, Easter Eggs & Review Verdict 🎨",
+            f"Why Fans Are Obsessed with {clean_title}: Climax & Secrets Explained",
+            f"{clean_title} Ending & Easter Eggs: Is It Worth The Hype? ✨",
+        ]
+    elif is_classic:
+        options = [
+            f"Where Are The Cast Members of {clean_title} Today? The Untold Story",
+            f"Why {clean_title} Remains An Unbeatable Masterpiece Decades Later 🎬",
+            f"{clean_title}: The Real Story & BTS Secrets Behind the Cult Hit",
+        ]
+    elif is_sci_fi:
+        options = [
+            f"{clean_title}: Mind-Bending Plot Clues & Ending Secrets Explained 🚀",
+            f"The Hidden Visual Details That Change How You See {clean_title} ⚡",
+            f"{clean_title} Ending Explained: Unraveling The Final Revelation",
+        ]
+    else:
+        options = [
+            f"{clean_title} Ending Explained: The Climax & Shocking Twists Decoded 🎬",
+            f"Why {clean_title} Left Audiences Stunned: Full Plot & Clues Breakdown",
+            f"{clean_title}: The Secret Behind The Film's Biggest Revelation 🍿",
+        ]
+
+    chosen = options[seed % len(options)]
+    return chosen[:72]
+
+
 class AIGenerator:
     def __init__(self, api_key: Optional[str] = None, model: str = GEMINI_MODEL):
         self.api_key = (api_key or GEMINI_API_KEY).strip()
@@ -109,7 +183,8 @@ CATEGORY-SPECIFIC EDITORIAL ANGLE:
 - If Category is 'where_are_they_now': Focus on popular 90s/2000s sitcom stars, then-vs-now transformations, career shifts, secret hobbies (e.g. racing, directing, writing), net worth, and life today.
 
 STRICT EDITORIAL & AMP COMPLIANCE RULES:
-1. Story Title: Catchy, high-CTR SEO title under 70 characters with emojis (e.g. "Top 10 Streaming Hits This Week in US/UK 🍿📊", "Marvel Post-Credits: 6 Insane Easter Eggs 🦸‍♂️⚡", "Friends: Where Are The Central Perk Stars Today? ☕✨").
+1. Story Title: Catchy, high-CTR SEO title under 70 characters with emojis (e.g. "Top 10 Streaming Hits This Week in US/UK 🍿📊", "Marvel Post-Credits: 6 Insane Easter Eggs 🦸‍♂️⚡", "Stranger Things: Season Climax Decoded & Clues ⚡").
+   - NEVER use generic repetitive titles like '[Title]: The Untold Story & Secrets' or '[Title]: A Visual Journey'. Every title must offer a compelling curiosity hook.
 2. Number of Slides: Produce between 5 and 7 slides total.
 3. Slide Sequence:
    - Slide 1 (Cover): Title, category context, and an irresistible curiosity hook.
@@ -221,7 +296,7 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
                 "slides": slides
             }
 
-        title = movie.get("hook_title") or f"{movie.get('title')}: The Untold Story & Secrets"[:68]
+        title = generate_high_ctr_headline(movie)
         release_date = movie.get("release_date", "Trending")
         director = movie.get("director", "Visionary Creator")
         cast = movie.get("top_cast", ["Hollywood Stars"])
@@ -457,24 +532,8 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
         # High-CTR, Search-Intent Driven Headlines
         if story and story.get("title"):
             headline = story.get("title")
-        elif movie.get("hook_title"):
-            headline = movie.get("hook_title")
-        elif category == "theories_easter_eggs":
-            headline = f"{title}: 5 Mind-Blowing Easter Eggs & Ending Theories Explained"
-        elif category == "where_are_they_now":
-            headline = f"Where Are The Stars of {title} Today? The Shocking Journey"
-        elif category == "netflix_hits":
-            headline = f"Why {title} Is Dominating Global Charts: Ending & Review Breakdown"
-        elif is_documentary:
-            headline = f"{title} Real Story: True Life Facts Behind The Events"
-        elif is_animation:
-            headline = f"{title} Review, Cast & Ending Breakdown: Worth Watching?"
-        elif is_thriller:
-            headline = f"{title} Ending Explained & Full Plot Twist Breakdown"
-        elif is_comedy_romance:
-            headline = f"{title} Ending Explained, Cast & Honest Review Breakdown"
         else:
-            headline = f"{title} Ending Explained, Review & Full Plot Breakdown"
+            headline = generate_high_ctr_headline(movie)
 
         # Safe ratings representation
         has_valid_rating = isinstance(rating, (int, float)) and rating > 0.0

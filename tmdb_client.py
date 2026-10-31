@@ -82,17 +82,17 @@ class TMDBClient:
         Optionally skips items whose slugs are already in exclude_slugs to save API budget and avoid duplicates.
         """
         endpoint_map = {
-            "upcoming": ("/movie/upcoming", "movie", {}),
-            "now_playing": ("/movie/now_playing", "movie", {}),
-            "trending": ("/trending/movie/day", "movie", {}),
-            "series": ("/tv/popular", "tv", {}),
-            "popular_series": ("/tv/popular", "tv", {}),
-            "cult_classic": ("/movie/top_rated", "movie", {}),
+            "upcoming": ("/movie/upcoming", "movie", {"vote_count.gte": "5"}),
+            "now_playing": ("/movie/now_playing", "movie", {"vote_count.gte": "20"}),
+            "trending": ("/trending/movie/week", "movie", {}),
+            "series": ("/tv/popular", "tv", {"vote_count.gte": "50"}),
+            "popular_series": ("/tv/top_rated", "tv", {"vote_count.gte": "200"}),
+            "cult_classic": ("/movie/top_rated", "movie", {"vote_count.gte": "500"}),
             "streaming_charts": ("/trending/tv/week", "tv", {}),
-            "netflix_hits": ("/discover/movie", "movie", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
-            "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28", "sort_by": "popularity.desc"}),
-            "where_are_they_now": ("/discover/tv", "tv", {"sort_by": "vote_count.desc", "first_air_date.lte": "2018-01-01"}),
-            "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,10749", "sort_by": "popularity.desc"})
+            "netflix_hits": ("/discover/movie", "movie", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "80"}),
+            "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28,12", "sort_by": "popularity.desc", "vote_count.gte": "150"}),
+            "where_are_they_now": ("/discover/tv", "tv", {"sort_by": "vote_count.desc", "first_air_date.lte": "2018-01-01", "vote_count.gte": "300"}),
+            "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,80", "sort_by": "popularity.desc", "vote_count.gte": "80"})
         }
 
         entry = endpoint_map.get(category, ("/trending/movie/day", "movie", {}))
@@ -115,6 +115,21 @@ class TMDBClient:
                     cand_slug = slugify(cand_name)
                     if exclude_slugs and cand_slug in exclude_slugs:
                         continue
+
+                    # High-Buzz & Search Intent Filter (Drop obscure zero-search indie entries)
+                    item_pop = item.get("popularity", 0.0)
+                    item_votes = item.get("vote_count", 0)
+                    if category == "upcoming":
+                        if item_pop < 12.0 and item_votes < 5:
+                            continue
+                    else:
+                        if item_pop < 15.0 and item_votes < 40:
+                            continue
+
+                    # Require valid imagery
+                    if not item.get("poster_path") and not item.get("backdrop_path"):
+                        continue
+
                     if media_type == "tv":
                         detailed = self.get_tv_details(item["id"], category=category)
                     else:
@@ -319,15 +334,15 @@ class TMDBClient:
             return fresh_titles
 
         discovery_strategies = [
-            ("/discover/movie", "movie", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
-            ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc"}),
-            ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|337|350", "watch_region": "US", "sort_by": "popularity.desc"}),
-            ("/discover/movie", "movie", "trending", {"primary_release_year": "2025", "sort_by": "revenue.desc"}),
-            ("/discover/movie", "movie", "trending", {"primary_release_year": "2024", "sort_by": "revenue.desc"}),
-            ("/discover/movie", "movie", "theories_easter_eggs", {"with_genres": "878,28,12", "sort_by": "vote_count.desc"}),
-            ("/discover/movie", "movie", "cult_classic", {"sort_by": "vote_average.desc", "vote_count.gte": "800", "primary_release_date.gte": "2010-01-01"}),
-            ("/discover/movie", "movie", "steamy_thrillers", {"with_genres": "53,80", "sort_by": "popularity.desc"}),
-            ("/discover/tv", "tv", "where_are_they_now", {"sort_by": "vote_count.desc", "first_air_date.lte": "2019-01-01"}),
+            ("/discover/movie", "movie", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "100"}),
+            ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "100"}),
+            ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|337|350", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "150"}),
+            ("/discover/movie", "movie", "trending", {"primary_release_year": "2025", "sort_by": "revenue.desc", "vote_count.gte": "50"}),
+            ("/discover/movie", "movie", "trending", {"primary_release_year": "2024", "sort_by": "revenue.desc", "vote_count.gte": "150"}),
+            ("/discover/movie", "movie", "theories_easter_eggs", {"with_genres": "878,28,12", "sort_by": "vote_count.desc", "vote_count.gte": "300"}),
+            ("/discover/movie", "movie", "cult_classic", {"sort_by": "vote_average.desc", "vote_count.gte": "800", "primary_release_date.gte": "2005-01-01"}),
+            ("/discover/movie", "movie", "steamy_thrillers", {"with_genres": "53,80", "sort_by": "popularity.desc", "vote_count.gte": "120"}),
+            ("/discover/tv", "tv", "where_are_they_now", {"sort_by": "vote_count.desc", "first_air_date.lte": "2019-01-01", "vote_count.gte": "300"}),
         ]
 
         for endpoint, media_type, category, extra_params in discovery_strategies:
@@ -344,6 +359,12 @@ class TMDBClient:
                     cand_slug = slugify(cand_name)
                     if cand_slug in exclude:
                         continue
+
+                    item_pop = item.get("popularity", 0.0)
+                    item_votes = item.get("vote_count", 0)
+                    if item_pop < 15.0 and item_votes < 40:
+                        continue
+
                     if media_type == "tv":
                         detailed = self.get_tv_details(item["id"], category=category)
                     else:

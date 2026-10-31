@@ -28,6 +28,9 @@ PUBLISHER_LOGO_PATH = "/assets/logo.png"
 # Google Analytics 4 (GA4)
 GA_MEASUREMENT_ID = os.getenv("GA_MEASUREMENT_ID", "G-5T9C99C0KF").strip()
 
+# IndexNow Instant Indexing Protocol (Bing, Yandex, Naver)
+INDEXNOW_KEY = os.getenv("INDEXNOW_KEY", "c1ne570r1e5b17e58d21abf59e4b4f6c").strip()
+
 def get_ga_script(measurement_id: str = GA_MEASUREMENT_ID) -> str:
     """Return standard GA4 gtag.js snippet for non-AMP pages."""
     if not measurement_id:

@@ -103,6 +103,10 @@ jobs:
         run: |
           python validator.py
 
+      - name: Fast Indexing via IndexNow Protocol
+        run: |
+          python indexnow_submitter.py
+
       - name: Auto-Post Daily Stories to Tumblr
         env:
           TUMBLR_BLOG_NAME: ${{ secrets.TUMBLR_BLOG_NAME || 'sumits7196' }}

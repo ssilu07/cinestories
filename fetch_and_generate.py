@@ -394,6 +394,14 @@ def run_pipeline(
         else:
             print("[Validator] All Web Stories passed 100% AMP validation!")
 
+    # 8. IndexNow Instant Search Engine Notification
+    try:
+        from indexnow_submitter import submit_to_indexnow
+        print(f"[6/6] Submitting fresh URLs to IndexNow search engine protocol...")
+        submit_to_indexnow()
+    except Exception as e:
+        print(f"[IndexNow Notice] Auto-submission skipped or failed: {e}")
+
     print("\n" + "="*65)
     print("PIPELINE COMPLETED SUCCESSFULLY!")
     print(f"Output Directory : {DIST_DIR.resolve()}")
