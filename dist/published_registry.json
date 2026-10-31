@@ -1672,5 +1672,29 @@
     "published_at": "2026-10-30T23:30:40Z",
     "modified_at": "2026-10-30T23:30:40Z",
     "category": "upcoming"
+  },
+  "goat": {
+    "title": "GOAT",
+    "published_at": "2026-10-31T06:46:12Z",
+    "modified_at": "2026-10-31T06:46:12Z",
+    "category": "netflix_hits"
+  },
+  "dexter-resurrection": {
+    "title": "Dexter: Resurrection",
+    "published_at": "2026-10-31T06:46:12Z",
+    "modified_at": "2026-10-31T06:46:12Z",
+    "category": "streaming_charts"
+  },
+  "collision-course": {
+    "title": "Collision Course",
+    "published_at": "2026-10-31T06:46:12Z",
+    "modified_at": "2026-10-31T06:46:12Z",
+    "category": "trending"
+  },
+  "charlie-harper": {
+    "title": "Charlie Harper",
+    "published_at": "2026-10-31T06:46:12Z",
+    "modified_at": "2026-10-31T06:46:12Z",
+    "category": "upcoming"
   }
 }

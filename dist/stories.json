@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-30T23:30:58.217124+00:00",
-  "total_stories": 279,
+  "generated_at": "2026-10-31T06:52:57.100296+00:00",
+  "total_stories": 283,
   "stories": [
+    {
+      "id": 1297842,
+      "slug": "goat",
+      "title": "GOAT: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/goat/",
+      "category": "netflix_hits",
+      "release_date": "2026-02-11",
+      "rating": 8.0
+    },
+    {
+      "id": 259909,
+      "slug": "dexter-resurrection",
+      "title": "Dexter: Resurrection Crushes Streaming Charts \ud83e\ude78\ud83d\udcc8",
+      "url": "https://cinematicbites.com/stories/dexter-resurrection/",
+      "category": "streaming_charts",
+      "release_date": "2025-07-13",
+      "rating": 8.5
+    },
+    {
+      "id": 1571955,
+      "slug": "collision-course",
+      "title": "Collision Course: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/collision-course/",
+      "category": "trending",
+      "release_date": "2026-10-30",
+      "rating": 7.7
+    },
+    {
+      "id": 1126097,
+      "slug": "charlie-harper",
+      "title": "Charlie Harper: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/charlie-harper/",
+      "category": "upcoming",
+      "release_date": "2026-09-24",
+      "rating": 5.3
+    },
     {
       "id": 1515692,
       "slug": "baththa",
