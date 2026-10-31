@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-31T17:11:36.228221+00:00",
-  "total_stories": 287,
+  "generated_at": "2026-10-31T23:16:44.778500+00:00",
+  "total_stories": 291,
   "stories": [
+    {
+      "id": 1621552,
+      "slug": "facing-el-chapo",
+      "title": "Facing El Chapo Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/facing-el-chapo/",
+      "category": "netflix_hits",
+      "release_date": "2026-08-21",
+      "rating": 8.8
+    },
+    {
+      "id": 196322,
+      "slug": "dark-matter",
+      "title": "Dark Matter: Sci-Fi Thriller Storms Global Streaming Charts \ud83c\udf00\ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/dark-matter/",
+      "category": "streaming_charts",
+      "release_date": "2024-05-07",
+      "rating": 7.8
+    },
+    {
+      "id": 1101383,
+      "slug": "the-end-of-oak-street",
+      "title": "Suburbs Ripped Into Deep Space: The End of Oak Street \ud83c\udf0c\ud83d\ude80",
+      "url": "https://cinematicbites.com/stories/the-end-of-oak-street/",
+      "category": "trending",
+      "release_date": "2026-08-12",
+      "rating": 7.1
+    },
+    {
+      "id": 1629051,
+      "slug": "never-after-dark",
+      "title": "Never After Dark Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/never-after-dark/",
+      "category": "upcoming",
+      "release_date": "2026-06-05",
+      "rating": 7.3
+    },
     {
       "id": 315162,
       "slug": "puss-in-boots-the-last-wish",

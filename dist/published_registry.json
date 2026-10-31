@@ -1720,5 +1720,29 @@
     "published_at": "2026-10-31T16:59:47Z",
     "modified_at": "2026-10-31T16:59:47Z",
     "category": "upcoming"
+  },
+  "facing-el-chapo": {
+    "title": "Facing El Chapo",
+    "published_at": "2026-10-31T23:10:44Z",
+    "modified_at": "2026-10-31T23:10:44Z",
+    "category": "netflix_hits"
+  },
+  "dark-matter": {
+    "title": "Dark Matter",
+    "published_at": "2026-10-31T23:10:44Z",
+    "modified_at": "2026-10-31T23:10:44Z",
+    "category": "streaming_charts"
+  },
+  "the-end-of-oak-street": {
+    "title": "The End of Oak Street",
+    "published_at": "2026-10-31T23:10:44Z",
+    "modified_at": "2026-10-31T23:10:44Z",
+    "category": "trending"
+  },
+  "never-after-dark": {
+    "title": "Never After Dark",
+    "published_at": "2026-10-31T23:10:44Z",
+    "modified_at": "2026-10-31T23:10:44Z",
+    "category": "upcoming"
   }
 }
