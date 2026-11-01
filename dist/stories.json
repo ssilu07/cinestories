@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-10-31T23:16:44.778500+00:00",
-  "total_stories": 291,
+  "generated_at": "2026-11-01T07:14:30.660425+00:00",
+  "total_stories": 295,
   "stories": [
+    {
+      "id": 803796,
+      "slug": "kpop-demon-hunters",
+      "title": "KPop Demon Hunters Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/kpop-demon-hunters/",
+      "category": "netflix_hits",
+      "release_date": "2025-06-20",
+      "rating": 8.0
+    },
+    {
+      "id": 1413,
+      "slug": "american-horror-story",
+      "title": "What Really Happened at the Climax of American Horror Story? Clues Decod",
+      "url": "https://cinematicbites.com/stories/american-horror-story/",
+      "category": "streaming_charts",
+      "release_date": "2011-10-05",
+      "rating": 8.1
+    },
+    {
+      "id": 687163,
+      "slug": "project-hail-mary",
+      "title": "The Hidden Visual Details That Change How You See Project Hail Mary \u26a1",
+      "url": "https://cinematicbites.com/stories/project-hail-mary/",
+      "category": "trending",
+      "release_date": "2026-03-15",
+      "rating": 8.6
+    },
+    {
+      "id": 1284465,
+      "slug": "the-death-of-robin-hood",
+      "title": "The Death of Robin Hood: Mind-Bending Plot Clues & Ending Secrets Explai",
+      "url": "https://cinematicbites.com/stories/the-death-of-robin-hood/",
+      "category": "upcoming",
+      "release_date": "2026-06-18",
+      "rating": 6.7
+    },
     {
       "id": 1621552,
       "slug": "facing-el-chapo",

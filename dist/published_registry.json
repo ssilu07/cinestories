@@ -1744,5 +1744,29 @@
     "published_at": "2026-10-31T23:10:44Z",
     "modified_at": "2026-10-31T23:10:44Z",
     "category": "upcoming"
+  },
+  "kpop-demon-hunters": {
+    "title": "KPop Demon Hunters",
+    "published_at": "2026-11-01T07:14:10Z",
+    "modified_at": "2026-11-01T07:14:10Z",
+    "category": "netflix_hits"
+  },
+  "american-horror-story": {
+    "title": "American Horror Story",
+    "published_at": "2026-11-01T07:14:10Z",
+    "modified_at": "2026-11-01T07:14:10Z",
+    "category": "streaming_charts"
+  },
+  "project-hail-mary": {
+    "title": "Project Hail Mary",
+    "published_at": "2026-11-01T07:14:10Z",
+    "modified_at": "2026-11-01T07:14:10Z",
+    "category": "trending"
+  },
+  "the-death-of-robin-hood": {
+    "title": "The Death of Robin Hood",
+    "published_at": "2026-11-01T07:14:10Z",
+    "modified_at": "2026-11-01T07:14:10Z",
+    "category": "upcoming"
   }
 }
