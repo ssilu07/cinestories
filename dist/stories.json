@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-01T07:14:30.660425+00:00",
-  "total_stories": 295,
+  "generated_at": "2026-11-01T23:30:51.531064+00:00",
+  "total_stories": 299,
   "stories": [
+    {
+      "id": 350,
+      "slug": "the-devil-wears-prada",
+      "title": "Inside The Devil Wears Prada: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/stories/the-devil-wears-prada/",
+      "category": "netflix_hits",
+      "release_date": "2006-06-29",
+      "rating": 7.4
+    },
+    {
+      "id": 316702,
+      "slug": "final-table",
+      "title": "Final Table: The K-Drama Dominating Global Streaming Charts \ud83c\udf73\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/final-table/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-24",
+      "rating": 8.4
+    },
+    {
+      "id": 1567605,
+      "slug": "ebenezer",
+      "title": "Johnny Depp's Ebenezer: Shocking Dickens Origin \ud83c\udfa9\ud83d\udc7b",
+      "url": "https://cinematicbites.com/stories/ebenezer/",
+      "category": "trending",
+      "release_date": "2026-11-11",
+      "rating": 0.0
+    },
+    {
+      "id": 1562642,
+      "slug": "ghost-soldier",
+      "title": "The Twisted Climax of Ghost Soldier: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/ghost-soldier/",
+      "category": "upcoming",
+      "release_date": "2026-11-04",
+      "rating": 7.0
+    },
     {
       "id": 803796,
       "slug": "kpop-demon-hunters",

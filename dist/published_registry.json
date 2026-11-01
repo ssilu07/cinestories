@@ -1768,5 +1768,29 @@
     "published_at": "2026-11-01T07:14:10Z",
     "modified_at": "2026-11-01T07:14:10Z",
     "category": "upcoming"
+  },
+  "the-devil-wears-prada": {
+    "title": "The Devil Wears Prada",
+    "published_at": "2026-11-01T23:25:29Z",
+    "modified_at": "2026-11-01T23:25:29Z",
+    "category": "netflix_hits"
+  },
+  "final-table": {
+    "title": "Final Table",
+    "published_at": "2026-11-01T23:25:29Z",
+    "modified_at": "2026-11-01T23:25:29Z",
+    "category": "streaming_charts"
+  },
+  "ebenezer": {
+    "title": "Ebenezer",
+    "published_at": "2026-11-01T23:25:29Z",
+    "modified_at": "2026-11-01T23:25:29Z",
+    "category": "trending"
+  },
+  "ghost-soldier": {
+    "title": "Ghost Soldier",
+    "published_at": "2026-11-01T23:25:29Z",
+    "modified_at": "2026-11-01T23:25:29Z",
+    "category": "upcoming"
   }
 }
