@@ -1792,5 +1792,29 @@
     "published_at": "2026-11-01T23:25:29Z",
     "modified_at": "2026-11-01T23:25:29Z",
     "category": "upcoming"
+  },
+  "how-to-train-your-dragon": {
+    "title": "How to Train Your Dragon",
+    "published_at": "2026-11-02T07:27:25Z",
+    "modified_at": "2026-11-02T07:27:25Z",
+    "category": "netflix_hits"
+  },
+  "ghosts": {
+    "title": "Ghosts",
+    "published_at": "2026-11-02T07:27:25Z",
+    "modified_at": "2026-11-02T07:27:25Z",
+    "category": "streaming_charts"
+  },
+  "the-get-out": {
+    "title": "The Get Out",
+    "published_at": "2026-11-02T07:27:25Z",
+    "modified_at": "2026-11-02T07:27:25Z",
+    "category": "trending"
+  },
+  "fatherland": {
+    "title": "Fatherland",
+    "published_at": "2026-11-02T07:27:25Z",
+    "modified_at": "2026-11-02T07:27:25Z",
+    "category": "upcoming"
   }
 }
