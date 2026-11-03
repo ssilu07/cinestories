@@ -1816,5 +1816,29 @@
     "published_at": "2026-11-02T07:27:25Z",
     "modified_at": "2026-11-02T07:27:25Z",
     "category": "upcoming"
+  },
+  "whiplash": {
+    "title": "Whiplash",
+    "published_at": "2026-11-03T07:42:04Z",
+    "modified_at": "2026-11-03T07:42:04Z",
+    "category": "netflix_hits"
+  },
+  "tomorrow-is-ours": {
+    "title": "Tomorrow Is Ours",
+    "published_at": "2026-11-03T07:42:04Z",
+    "modified_at": "2026-11-03T07:42:04Z",
+    "category": "streaming_charts"
+  },
+  "feed": {
+    "title": "Feed",
+    "published_at": "2026-11-03T07:42:04Z",
+    "modified_at": "2026-11-03T07:42:04Z",
+    "category": "trending"
+  },
+  "blue-lock": {
+    "title": "Blue Lock",
+    "published_at": "2026-11-03T07:42:04Z",
+    "modified_at": "2026-11-03T07:42:04Z",
+    "category": "upcoming"
   }
 }

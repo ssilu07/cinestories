@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-02T07:33:10.566309+00:00",
-  "total_stories": 303,
+  "generated_at": "2026-11-03T07:42:22.579545+00:00",
+  "total_stories": 307,
   "stories": [
+    {
+      "id": 244786,
+      "slug": "whiplash",
+      "title": "Whiplash Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/whiplash/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-10",
+      "rating": 8.4
+    },
+    {
+      "id": 72879,
+      "slug": "tomorrow-is-ours",
+      "title": "Tomorrow Is Ours: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/tomorrow-is-ours/",
+      "category": "streaming_charts",
+      "release_date": "2017-07-17",
+      "rating": 6.3
+    },
+    {
+      "id": 1128204,
+      "slug": "feed",
+      "title": "Feed Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/feed/",
+      "category": "trending",
+      "release_date": "2026-08-06",
+      "rating": 5.8
+    },
+    {
+      "id": 1623376,
+      "slug": "blue-lock",
+      "title": "The Hidden Visual Details That Change How You See Blue Lock \u26a1",
+      "url": "https://cinematicbites.com/stories/blue-lock/",
+      "category": "upcoming",
+      "release_date": "2026-08-07",
+      "rating": 9.0
+    },
     {
       "id": 1087192,
       "slug": "how-to-train-your-dragon",
