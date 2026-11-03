@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-03T07:42:22.579545+00:00",
-  "total_stories": 307,
+  "generated_at": "2026-11-03T19:22:01.136272+00:00",
+  "total_stories": 311,
   "stories": [
+    {
+      "id": 228150,
+      "slug": "fury",
+      "title": "Fury Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/fury/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-15",
+      "rating": 7.5
+    },
+    {
+      "id": 293610,
+      "slug": "doctor-x-mafia-in-white",
+      "title": "Why Doctor X: Mafia in White Crushed Streaming Charts \ud83e\ude7a\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/doctor-x-mafia-in-white/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-09",
+      "rating": 9.4
+    },
+    {
+      "id": 1813355,
+      "slug": "a-story-of-derry",
+      "title": "What Really Happened at the Climax of A Story of Derry? Clues Decoded",
+      "url": "https://cinematicbites.com/stories/a-story-of-derry/",
+      "category": "trending",
+      "release_date": "2026-10-31",
+      "rating": 6.9
+    },
+    {
+      "id": 396535,
+      "slug": "train-to-busan",
+      "title": "Train to Busan: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/train-to-busan/",
+      "category": "upcoming",
+      "release_date": "2016-07-20",
+      "rating": 7.8
+    },
     {
       "id": 244786,
       "slug": "whiplash",

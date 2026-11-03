@@ -1840,5 +1840,29 @@
     "published_at": "2026-11-03T07:42:04Z",
     "modified_at": "2026-11-03T07:42:04Z",
     "category": "upcoming"
+  },
+  "fury": {
+    "title": "Fury",
+    "published_at": "2026-11-03T19:15:02Z",
+    "modified_at": "2026-11-03T19:15:02Z",
+    "category": "netflix_hits"
+  },
+  "doctor-x-mafia-in-white": {
+    "title": "Doctor X: Mafia in White",
+    "published_at": "2026-11-03T19:15:02Z",
+    "modified_at": "2026-11-03T19:15:02Z",
+    "category": "streaming_charts"
+  },
+  "a-story-of-derry": {
+    "title": "A Story of Derry",
+    "published_at": "2026-11-03T19:15:02Z",
+    "modified_at": "2026-11-03T19:15:02Z",
+    "category": "trending"
+  },
+  "train-to-busan": {
+    "title": "Train to Busan",
+    "published_at": "2026-11-03T19:15:02Z",
+    "modified_at": "2026-11-03T19:15:02Z",
+    "category": "upcoming"
   }
 }
