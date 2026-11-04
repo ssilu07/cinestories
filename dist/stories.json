@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-04T07:20:48.627115+00:00",
-  "total_stories": 315,
+  "generated_at": "2026-11-04T19:31:06.717816+00:00",
+  "total_stories": 319,
   "stories": [
+    {
+      "id": 12153,
+      "slug": "white-chicks",
+      "title": "White Chicks: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/white-chicks/",
+      "category": "netflix_hits",
+      "release_date": "2004-06-23",
+      "rating": 7.0
+    },
+    {
+      "id": 81723,
+      "slug": "the-gilded-age",
+      "title": "Inside The Gilded Age: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/stories/the-gilded-age/",
+      "category": "streaming_charts",
+      "release_date": "2022-01-24",
+      "rating": 7.7
+    },
+    {
+      "id": 1275779,
+      "slug": "disclosure-day",
+      "title": "The Twisted Climax of Disclosure Day: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/disclosure-day/",
+      "category": "trending",
+      "release_date": "2026-06-10",
+      "rating": 7.4
+    },
+    {
+      "id": 1368166,
+      "slug": "the-housemaid",
+      "title": "The Housemaid Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/the-housemaid/",
+      "category": "upcoming",
+      "release_date": "2025-12-18",
+      "rating": 7.2
+    },
     {
       "id": 940721,
       "slug": "godzilla-minus-one",

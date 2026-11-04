@@ -1888,5 +1888,29 @@
     "published_at": "2026-11-04T07:20:30Z",
     "modified_at": "2026-11-04T07:20:30Z",
     "category": "upcoming"
+  },
+  "white-chicks": {
+    "title": "White Chicks",
+    "published_at": "2026-11-04T19:30:40Z",
+    "modified_at": "2026-11-04T19:30:40Z",
+    "category": "netflix_hits"
+  },
+  "the-gilded-age": {
+    "title": "The Gilded Age",
+    "published_at": "2026-11-04T19:30:40Z",
+    "modified_at": "2026-11-04T19:30:40Z",
+    "category": "streaming_charts"
+  },
+  "disclosure-day": {
+    "title": "Disclosure Day",
+    "published_at": "2026-11-04T19:30:40Z",
+    "modified_at": "2026-11-04T19:30:40Z",
+    "category": "trending"
+  },
+  "the-housemaid": {
+    "title": "The Housemaid",
+    "published_at": "2026-11-04T19:30:40Z",
+    "modified_at": "2026-11-04T19:30:40Z",
+    "category": "upcoming"
   }
 }
