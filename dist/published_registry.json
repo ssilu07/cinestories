@@ -1864,5 +1864,29 @@
     "published_at": "2026-11-03T19:15:02Z",
     "modified_at": "2026-11-03T19:15:02Z",
     "category": "upcoming"
+  },
+  "godzilla-minus-one": {
+    "title": "Godzilla Minus One",
+    "published_at": "2026-11-04T07:20:30Z",
+    "modified_at": "2026-11-04T07:20:30Z",
+    "category": "netflix_hits"
+  },
+  "the-remarried-empress": {
+    "title": "The Remarried Empress",
+    "published_at": "2026-11-04T07:20:30Z",
+    "modified_at": "2026-11-04T07:20:30Z",
+    "category": "streaming_charts"
+  },
+  "my-best-friend": {
+    "title": "My Best Friend",
+    "published_at": "2026-11-04T07:20:30Z",
+    "modified_at": "2026-11-04T07:20:30Z",
+    "category": "trending"
+  },
+  "spirited-away": {
+    "title": "Spirited Away",
+    "published_at": "2026-11-04T07:20:30Z",
+    "modified_at": "2026-11-04T07:20:30Z",
+    "category": "upcoming"
   }
 }
