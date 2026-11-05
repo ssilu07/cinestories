@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-04T19:31:06.717816+00:00",
-  "total_stories": 319,
+  "generated_at": "2026-11-05T07:48:42.171032+00:00",
+  "total_stories": 323,
   "stories": [
+    {
+      "id": 1492640,
+      "slug": "unabomber",
+      "title": "The Twisted Climax of UNABOMBER: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/unabomber/",
+      "category": "netflix_hits",
+      "release_date": "2026-09-25",
+      "rating": 6.6
+    },
+    {
+      "id": 284833,
+      "slug": "avatar-seven-havens",
+      "title": "Inside Avatar: Seven Havens: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/stories/avatar-seven-havens/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-09",
+      "rating": 8.9
+    },
+    {
+      "id": 1570488,
+      "slug": "a-dogs-perfect-christmas",
+      "title": "A Dog's Perfect Christmas: The Secret Behind The Film's Biggest Revelati",
+      "url": "https://cinematicbites.com/stories/a-dogs-perfect-christmas/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 8.3
+    },
+    {
+      "id": 1669915,
+      "slug": "angel-and-the-badman",
+      "title": "Angel and the Badman Ending Explained: Unraveling The Final Revelation",
+      "url": "https://cinematicbites.com/stories/angel-and-the-badman/",
+      "category": "upcoming",
+      "release_date": "2026-10-08",
+      "rating": 9.7
+    },
     {
       "id": 12153,
       "slug": "white-chicks",

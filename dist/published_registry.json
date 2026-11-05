@@ -1912,5 +1912,29 @@
     "published_at": "2026-11-04T19:30:40Z",
     "modified_at": "2026-11-04T19:30:40Z",
     "category": "upcoming"
+  },
+  "unabomber": {
+    "title": "UNABOMBER",
+    "published_at": "2026-11-05T07:46:30Z",
+    "modified_at": "2026-11-05T07:46:30Z",
+    "category": "netflix_hits"
+  },
+  "avatar-seven-havens": {
+    "title": "Avatar: Seven Havens",
+    "published_at": "2026-11-05T07:46:30Z",
+    "modified_at": "2026-11-05T07:46:30Z",
+    "category": "streaming_charts"
+  },
+  "a-dogs-perfect-christmas": {
+    "title": "A Dog's Perfect Christmas",
+    "published_at": "2026-11-05T07:46:30Z",
+    "modified_at": "2026-11-05T07:46:30Z",
+    "category": "trending"
+  },
+  "angel-and-the-badman": {
+    "title": "Angel and the Badman",
+    "published_at": "2026-11-05T07:46:30Z",
+    "modified_at": "2026-11-05T07:46:30Z",
+    "category": "upcoming"
   }
 }
