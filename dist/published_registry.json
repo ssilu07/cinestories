@@ -1936,5 +1936,29 @@
     "published_at": "2026-11-05T07:46:30Z",
     "modified_at": "2026-11-05T07:46:30Z",
     "category": "upcoming"
+  },
+  "scarface": {
+    "title": "Scarface",
+    "published_at": "2026-11-06T00:53:23Z",
+    "modified_at": "2026-11-06T00:53:23Z",
+    "category": "netflix_hits"
+  },
+  "black-doves": {
+    "title": "Black Doves",
+    "published_at": "2026-11-06T00:53:23Z",
+    "modified_at": "2026-11-06T00:53:23Z",
+    "category": "streaming_charts"
+  },
+  "model-citizen": {
+    "title": "Model Citizen",
+    "published_at": "2026-11-06T00:53:23Z",
+    "modified_at": "2026-11-06T00:53:23Z",
+    "category": "trending"
+  },
+  "evil-dress": {
+    "title": "Evil Dress",
+    "published_at": "2026-11-06T00:53:23Z",
+    "modified_at": "2026-11-06T00:53:23Z",
+    "category": "upcoming"
   }
 }

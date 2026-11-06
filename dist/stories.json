@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-05T07:48:42.171032+00:00",
-  "total_stories": 323,
+  "generated_at": "2026-11-06T00:57:03.198951+00:00",
+  "total_stories": 327,
   "stories": [
+    {
+      "id": 111,
+      "slug": "scarface",
+      "title": "Scarface Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/scarface/",
+      "category": "netflix_hits",
+      "release_date": "1983-12-09",
+      "rating": 8.2
+    },
+    {
+      "id": 225385,
+      "slug": "black-doves",
+      "title": "Black Doves: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/black-doves/",
+      "category": "streaming_charts",
+      "release_date": "2024-12-05",
+      "rating": 7.0
+    },
+    {
+      "id": 1792170,
+      "slug": "model-citizen",
+      "title": "The Twisted Climax of Model Citizen: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/model-citizen/",
+      "category": "trending",
+      "release_date": "2026-11-03",
+      "rating": 7.3
+    },
+    {
+      "id": 1474226,
+      "slug": "evil-dress",
+      "title": "What Really Happened at the Climax of Evil Dress? Clues Decoded",
+      "url": "https://cinematicbites.com/stories/evil-dress/",
+      "category": "upcoming",
+      "release_date": "2026-02-13",
+      "rating": 6.7
+    },
     {
       "id": 1492640,
       "slug": "unabomber",
