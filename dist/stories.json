@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-06T04:33:23.286472+00:00",
-  "total_stories": 331,
+  "generated_at": "2026-11-06T07:46:32.079281+00:00",
+  "total_stories": 335,
   "stories": [
+    {
+      "id": 1062722,
+      "slug": "frankenstein",
+      "title": "Frankenstein Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/frankenstein/",
+      "category": "netflix_hits",
+      "release_date": "2025-10-17",
+      "rating": 7.6
+    },
+    {
+      "id": 314271,
+      "slug": "bass-x-machina",
+      "title": "Bass X Machina Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/bass-x-machina/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-03",
+      "rating": 7.7
+    },
+    {
+      "id": 1404304,
+      "slug": "the-isolate-thief",
+      "title": "The Hidden Visual Details That Change How You See The Isolate Thief \u26a1",
+      "url": "https://cinematicbites.com/stories/the-isolate-thief/",
+      "category": "trending",
+      "release_date": "2026-07-10",
+      "rating": 7.1
+    },
+    {
+      "id": 1145899,
+      "slug": "marsupilami",
+      "title": "The Hidden Visual Details That Change How You See Marsupilami \u26a1",
+      "url": "https://cinematicbites.com/stories/marsupilami/",
+      "category": "upcoming",
+      "release_date": "2026-02-04",
+      "rating": 6.3
+    },
     {
       "id": 949,
       "slug": "heat",

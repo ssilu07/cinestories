@@ -1984,5 +1984,29 @@
     "published_at": "2026-11-06T04:33:10Z",
     "modified_at": "2026-11-06T04:33:10Z",
     "category": "upcoming"
+  },
+  "frankenstein": {
+    "title": "Frankenstein",
+    "published_at": "2026-11-06T07:46:25Z",
+    "modified_at": "2026-11-06T07:46:25Z",
+    "category": "netflix_hits"
+  },
+  "bass-x-machina": {
+    "title": "Bass X Machina",
+    "published_at": "2026-11-06T07:46:25Z",
+    "modified_at": "2026-11-06T07:46:25Z",
+    "category": "streaming_charts"
+  },
+  "the-isolate-thief": {
+    "title": "The Isolate Thief",
+    "published_at": "2026-11-06T07:46:25Z",
+    "modified_at": "2026-11-06T07:46:25Z",
+    "category": "trending"
+  },
+  "marsupilami": {
+    "title": "Marsupilami",
+    "published_at": "2026-11-06T07:46:25Z",
+    "modified_at": "2026-11-06T07:46:25Z",
+    "category": "upcoming"
   }
 }
