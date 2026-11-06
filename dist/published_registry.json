@@ -1960,5 +1960,29 @@
     "published_at": "2026-11-06T00:53:23Z",
     "modified_at": "2026-11-06T00:53:23Z",
     "category": "upcoming"
+  },
+  "heat": {
+    "title": "Heat",
+    "published_at": "2026-11-06T04:33:10Z",
+    "modified_at": "2026-11-06T04:33:10Z",
+    "category": "netflix_hits"
+  },
+  "the-greatest": {
+    "title": "The Greatest",
+    "published_at": "2026-11-06T04:33:10Z",
+    "modified_at": "2026-11-06T04:33:10Z",
+    "category": "streaming_charts"
+  },
+  "overacting": {
+    "title": "Overacting",
+    "published_at": "2026-11-06T04:33:10Z",
+    "modified_at": "2026-11-06T04:33:10Z",
+    "category": "trending"
+  },
+  "rocky": {
+    "title": "Rocky",
+    "published_at": "2026-11-06T04:33:10Z",
+    "modified_at": "2026-11-06T04:33:10Z",
+    "category": "upcoming"
   }
 }

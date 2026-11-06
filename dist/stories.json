@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-06T00:57:03.198951+00:00",
-  "total_stories": 327,
+  "generated_at": "2026-11-06T04:33:23.286472+00:00",
+  "total_stories": 331,
   "stories": [
+    {
+      "id": 949,
+      "slug": "heat",
+      "title": "Heat: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/heat/",
+      "category": "netflix_hits",
+      "release_date": "1995-12-15",
+      "rating": 7.9
+    },
+    {
+      "id": 258989,
+      "slug": "the-greatest",
+      "title": "Why The Greatest Is Dominating Global Charts: Ending & Season Clues \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/the-greatest/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-04",
+      "rating": 5.2
+    },
+    {
+      "id": 1630420,
+      "slug": "overacting",
+      "title": "The Hidden Visual Details That Change How You See Overacting \u26a1",
+      "url": "https://cinematicbites.com/stories/overacting/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 6.0
+    },
+    {
+      "id": 1366,
+      "slug": "rocky",
+      "title": "Why Rocky Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/stories/rocky/",
+      "category": "upcoming",
+      "release_date": "1976-12-03",
+      "rating": 7.8
+    },
     {
       "id": 111,
       "slug": "scarface",
