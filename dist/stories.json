@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-06T07:46:32.079281+00:00",
-  "total_stories": 335,
+  "generated_at": "2026-11-07T00:12:13.574091+00:00",
+  "total_stories": 339,
   "stories": [
+    {
+      "id": 1124,
+      "slug": "the-prestige",
+      "title": "Why The Prestige Is Dominating Netflix Charts Right Now \ud83c\udfa9\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/the-prestige/",
+      "category": "netflix_hits",
+      "release_date": "2006-10-19",
+      "rating": 8.2
+    },
+    {
+      "id": 303044,
+      "slug": "campus-drivers",
+      "title": "Campus Drivers: Why This Romance Drama Rules Watchlists \ud83d\ude97\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/campus-drivers/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-06",
+      "rating": 7.4
+    },
+    {
+      "id": 1654940,
+      "slug": "one-year-to-live-buy-a-man",
+      "title": "Can Money Buy Love Before Time Runs Out? \u23f3\ud83d\udc94",
+      "url": "https://cinematicbites.com/stories/one-year-to-live-buy-a-man/",
+      "category": "trending",
+      "release_date": "2026-11-05",
+      "rating": 8.0
+    },
+    {
+      "id": 822653,
+      "slug": "puella-magi-madoka-magica-the-movie-walpurgisnacht-rising",
+      "title": "Madoka Magica: Walpurgisnacht Rising Clues & Date \ud83c\udf80\u23f3",
+      "url": "https://cinematicbites.com/stories/puella-magi-madoka-magica-the-movie-walpurgisnacht-rising/",
+      "category": "upcoming",
+      "release_date": "2026-08-28",
+      "rating": 8.0
+    },
     {
       "id": 1062722,
       "slug": "frankenstein",
