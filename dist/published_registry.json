@@ -2032,5 +2032,29 @@
     "published_at": "2026-11-06T23:59:40Z",
     "modified_at": "2026-11-06T23:59:40Z",
     "category": "upcoming"
+  },
+  "call-me-by-your-name": {
+    "title": "Call Me by Your Name",
+    "published_at": "2026-11-07T23:30:09Z",
+    "modified_at": "2026-11-07T23:30:09Z",
+    "category": "netflix_hits"
+  },
+  "stick": {
+    "title": "Stick",
+    "published_at": "2026-11-07T23:30:09Z",
+    "modified_at": "2026-11-07T23:30:09Z",
+    "category": "streaming_charts"
+  },
+  "possible-love": {
+    "title": "Possible Love",
+    "published_at": "2026-11-07T23:30:09Z",
+    "modified_at": "2026-11-07T23:30:09Z",
+    "category": "trending"
+  },
+  "i-swear": {
+    "title": "I Swear",
+    "published_at": "2026-11-07T23:30:09Z",
+    "modified_at": "2026-11-07T23:30:09Z",
+    "category": "upcoming"
   }
 }

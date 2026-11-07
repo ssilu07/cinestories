@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/call-me-by-your-name/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/4Xh2a1WeTp6b8Ksvug0pAMbX3dT.jpg</image:loc>
+      <image:title>Call Me by Your Name Ending Explained: The Heartbreaking Final Scene Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/stick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/2Bt2uXrIOQASBAsni2AGGqCCF14.jpg</image:loc>
+      <image:title>Stick Review, Cast &amp; Ending Breakdown: Is Wilson's Comeback Worth It? Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/possible-love/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/k0BY5D4Ya6NHhsvNYMmaabpvUtS.jpg</image:loc>
+      <image:title>Possible Love Ending Explained: Lee Chang-dong's Drama Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/i-swear/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/YnuLRK3ZWJvKerShvn0Ceuv0fh.jpg</image:loc>
+      <image:title>Why I Swear Left Audiences Stunned: Full Plot &amp; Clues Breakdown Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/the-prestige/</loc>
     <lastmod>2026-11-06</lastmod>
     <changefreq>daily</changefreq>
@@ -3400,6 +3440,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/tOqIwliWMovSIZ9DyvHcHI7p2im.jpg</image:loc>
       <image:title>Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War 🏛️⚔️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/call-me-by-your-name/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/gXiE0WveDnT0n5J4sW9TMxXF4oT.jpg</image:loc>
+      <image:title>Call Me by Your Name Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/stick/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/y8EWrf5Ry1WmYksWT7MOPWexvr5.jpg</image:loc>
+      <image:title>Stick Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/possible-love/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/1ERGPNiKtnEcsvJS1ywsmqmcIDO.jpg</image:loc>
+      <image:title>Possible Love Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/i-swear/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg</image:loc>
+      <image:title>I Swear Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
