@@ -1,5 +1,420 @@
 [
   {
+    "title": "Psycho: Why Hitchcock\u2019s Thriller Still Dominates Streaming \ud83d\udd2a\ud83c\udf7f",
+    "seo_description": "Alfred Hitchcock's Psycho continues to reign on streaming charts. Discover why this 1960 psychological thriller remains an unmatched binge obsession.",
+    "movie": {
+      "id": 539,
+      "title": "Psycho",
+      "original_title": "Psycho",
+      "slug": "psycho",
+      "media_type": "movie",
+      "release_date": "1960-06-22",
+      "overview": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+      "tagline": "A new and altogether different screen excitement!!!",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Mystery"
+      ],
+      "runtime": 109,
+      "seasons": null,
+      "vote_average": 8.4,
+      "vote_count": 11419,
+      "category": "netflix_hits",
+      "director": "Alfred Hitchcock",
+      "top_cast": [
+        "Anthony Perkins",
+        "Janet Leigh",
+        "Vera Miles",
+        "John Gavin",
+        "Martin Balsam",
+        "John McIntire"
+      ],
+      "poster_path": "/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+      "backdrop_path": "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+      "backdrops": [
+        "/mufF1aYvwdpKerhq5R1YrVcbJLY.jpg",
+        "/uif5fUshJrXyyDzfpzp1DLw3N0S.jpg",
+        "/kZGaVeXSkkvrpMYvD97sxHj291k.jpg",
+        "/k2ZDzJjZDtYZ3F4g7af4bb3eQ05.jpg",
+        "/5A9dsIpb7876nU9QrWEGziDmj0r.jpg",
+        "/3g7O9VlG4ZuKIU0RJkXVg2wXvzb.jpg",
+        "/43zpFIEBRrm7CxQkeDfXgMrMdHa.jpg",
+        "/cTCNlTVb2HXmhGOPqPbhwNhDAIo.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "STREAMING PHENOMENON",
+        "title": "A Vintage Shocker Climbs Back",
+        "text": "Decades after terrifying theaters, Alfred Hitchcock's horror landmark surged straight into streaming Top 10 lists worldwide. Modern binge-watchers are discovering why fear never goes out of style.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "One Wrong Turn at Bates Motel",
+        "text": "Marion Crane flees town with stolen cash, checking into an eerie roadside motel managed by quiet Norman Bates. What begins as a gritty heist turns into a chilling cat-and-mouse nightmare.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "CHILLING LEAD",
+        "title": "Anthony Perkins' Dark Turn",
+        "text": "Anthony Perkins created an indelible archetype of suburban dread. His nuanced portrayal of Norman Bates earned legendary status, maintaining an incredible 8.4 rating across over 11,000 fan votes.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Pure Cinematic Shock Value",
+        "text": "Hitchcock used chocolate syrup for blood and stitched 78 camera setups into a 45-second shower sequence. His rule forbidding late theater admissions revolutionized modern film marketing forever.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "CRITICAL ACCLAIM",
+        "title": "Near-Perfect Score Today",
+        "text": "Holding an elite 96% approval on Rotten Tomatoes, this psychological mystery constantly hooks new generations. It remains proof that psychological tension trumps digital gore every single time.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "THE VERDICT",
+        "title": "Stream The Ultimate Classic",
+        "text": "Ready to revisit cinema's most famous twist? Experience the horror foundation that inspired modern psychological thrillers before it leaves your streaming watchlist.",
+        "backdrop_index": 5,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T17:45:38Z",
+    "date_modified": "2026-11-08T17:45:38Z",
+    "published_at": "2026-11-08T17:45:38Z"
+  },
+  {
+    "title": "The Institute: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+    "seo_description": "Discover The Institute: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 253372,
+      "title": "The Institute",
+      "original_title": "The Institute",
+      "slug": "the-institute",
+      "media_type": "tv",
+      "release_date": "2025-07-13",
+      "overview": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of unusual abilities. In a nearby town, haunted former police officer Tim Jamieson has come looking to start a new life, but the peace and quiet won\u2019t last, as his story and Luke\u2019s are destined to collide.",
+      "tagline": "",
+      "genres": [
+        "Mystery",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 58,
+      "seasons": 2,
+      "vote_average": 7.5,
+      "vote_count": 214,
+      "category": "streaming_charts",
+      "director": "Benjamin Cavell (Creator)",
+      "top_cast": [
+        "Ben Barnes",
+        "Joe Freeman",
+        "Simone Miller",
+        "Fionn Laird",
+        "Hannah Galway",
+        "Robert Joy"
+      ],
+      "poster_path": "/7JXZdWifaa6wL0XLRi0GJOlOA8y.jpg",
+      "backdrop_path": "/9LALiE3I9dInFmMlI1BvzlhFMmP.jpg",
+      "backdrops": [
+        "/9LALiE3I9dInFmMlI1BvzlhFMmP.jpg",
+        "/6E1CyqJ4WwTqyl0crJq4DAkL24B.jpg",
+        "/8geqgP5wmeaHhsASAGEolVN8Zf3.jpg",
+        "/mcU5nwUqPJB6GeElDhKA68LKhqD.jpg",
+        "/v4w7CSoBDpdXf2udAgtaOCkeOD2.jpg",
+        "/8O4O9ZdkAvaahhvMLrjDci1feD6.jpg",
+        "/zfWQd6pQN5aWCRiYU88kZcVJz0v.jpg",
+        "/ejIjAzCvXQvAO9ZhnsBePkBOQwF.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\ud83d\udcca WEEKLY LEADERBOARD",
+        "title": "The Institute",
+        "text": "Experience the global phenomenon of The Institute. Rated 7.5/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "STREAMING #1 BREAKDOWN",
+        "title": "Shocking Twist Ahead",
+        "text": "When 14 year old genius Luke Ellis is kidnapped, he awakens at The Institute, a facility full of children who all got there the same way he did, and who are all possessed of...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Ben Barnes, Joe Freeman, Simone Miller, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Benjamin Cavell (Creator).",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Benjamin Cavell (Creator)",
+        "text": "Filmmaker Benjamin Cavell (Creator) pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 7.5/10 on TMDB",
+        "text": "With an impressive 7.5/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Institute? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T17:45:38Z",
+    "date_modified": "2026-11-08T17:45:38Z",
+    "published_at": "2026-11-08T17:45:38Z"
+  },
+  {
+    "title": "All Wishes Come True: 2026's Wild Mythic Comedy \ud83c\udfad\u2728",
+    "seo_description": "Discover 'All Wishes Come True!', 2026's breakout fantasy-comedy animated hit where eight mortal underdogs outsmart the gods to become legends.",
+    "movie": {
+      "id": 1633056,
+      "title": "All Wishes Come True!",
+      "original_title": "\u516b\u4ed9\uff01",
+      "slug": "all-wishes-come-true",
+      "media_type": "movie",
+      "release_date": "2026-07-10",
+      "overview": "Eight grassroot mortals use their street smarts and hilarious schemes to defy powerful gods, earning their title as the Eight Immortals.",
+      "tagline": "",
+      "genres": [
+        "Comedy",
+        "Animation",
+        "Fantasy",
+        "Adventure"
+      ],
+      "runtime": 143,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 35,
+      "category": "trending",
+      "director": "Mu Zhengyang",
+      "top_cast": [
+        "Chen Hao",
+        "Li Shaozhe",
+        "Lidong",
+        "Huang Guo",
+        "Dong Tianyi",
+        "Yu Pengli"
+      ],
+      "poster_path": "/wJ9FLxq3Q6D4ve8TUepYsr0PL3p.jpg",
+      "backdrop_path": "/aazqIVNIqgRp3YwUNv5nEhdJE0T.jpg",
+      "backdrops": [
+        "/aazqIVNIqgRp3YwUNv5nEhdJE0T.jpg",
+        "/lMK3FnMfQ9O3DiC7hi4J2XBzNf.jpg",
+        "/39TJMjEHs3PuCam1stIaXNjyg6a.jpg",
+        "/dtKzg52NNJDc2n1rfvvH8PfTO7.jpg",
+        "/2Gg8Lq8v5taBBR1JrDuhviNUjSB.jpg",
+        "/pAFBrYQCVkKUjkiz5w9myaeE7cO.jpg",
+        "/8yPHuDwpfE3VFtGB9opEpTn4NNF.jpg",
+        "/htr2grETav1CyJlRkeXVZ98N0Vl.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "TRENDING NOW",
+        "title": "Mortals Defy the Heavens",
+        "text": "An epic animated adventure is turning ancient mythology upside down. Meet the eight unlikely misfits set to outsmart celestial gods and conquer ancient realms.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Street Smarts vs. Divine Might",
+        "text": "Armed with raw wit and absurd schemes, eight ordinary mortals challenge divine powers. Their chaotic journey crafts the legend of the famed Eight Immortals.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Vibrant Comedic Chemistry",
+        "text": "Voiced by Chen Hao, Li Shaozhe, and a stellar comedic ensemble, director Mu Zhengyang packs the 143-minute runtime with laugh-out-loud banter and high-stakes chaos.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "VISUAL FEAST",
+        "title": "Next-Gen Eastern Fantasy",
+        "text": "Blending traditional folklore with cutting-edge 3D animation, the movie delivers dazzling martial arts duels, mystical beast encounters, and stunning mythical vistas.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "EARLY BUZZ",
+        "title": "Sensational 8.2 Fan Score",
+        "text": "Early previews sparked massive word-of-mouth acclaim. Viewers praise its balance of emotional underdog heart with non-stop slapstick comedy.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "DON'T MISS",
+        "title": "Summer 2026 Big Screen Run",
+        "text": "Catch this rebellious fantasy spectacle lighting up theaters this July. Don't miss how ordinary outcasts become eternal legends.",
+        "backdrop_index": 5,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T17:45:38Z",
+    "date_modified": "2026-11-08T17:45:38Z",
+    "published_at": "2026-11-08T17:45:38Z"
+  },
+  {
+    "title": "The Mortuary Assistant: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f",
+    "seo_description": "Discover The Mortuary Assistant: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1470130,
+      "title": "The Mortuary Assistant",
+      "original_title": "The Mortuary Assistant",
+      "slug": "the-mortuary-assistant",
+      "media_type": "movie",
+      "release_date": "2026-02-13",
+      "overview": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward \u2014 embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts working the night shift, things take a dark turn.",
+      "tagline": "Alone with the dead.",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "runtime": 91,
+      "seasons": null,
+      "vote_average": 5.2,
+      "vote_count": 238,
+      "category": "upcoming",
+      "director": "Jeremiah Kipp",
+      "top_cast": [
+        "Willa Holland",
+        "Paul Sparks",
+        "John Adams",
+        "Mark Steger",
+        "Shelly Gibson",
+        "Emily Bennett"
+      ],
+      "poster_path": "/72AoFPC5TY4DfJwXXS9rPwPeReD.jpg",
+      "backdrop_path": "/gM1kQRPwOVW1Eos5tVWqcYmHR5S.jpg",
+      "backdrops": [
+        "/gM1kQRPwOVW1Eos5tVWqcYmHR5S.jpg",
+        "/fxFMm8AiJneAU5v2gRNEhbcA9WH.jpg",
+        "/nVwfrUSAR1fMerxvlxj1oc4XNtR.jpg",
+        "/4ez96orCYhqpeNkRLhmaxXdlM34.jpg",
+        "/pATv9QKvaoww1BxmC9zJIjA1fLF.jpg",
+        "/jxRQl1hPEGLaHmV8Ym2auVdCUmp.jpg",
+        "/5g8gIBNmflsuf4QAoAgpEIAy3I3.jpg",
+        "/ggoPC8FSTXws27DEPXMMSaEXr20.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "The Mortuary Assistant",
+        "text": "Alone with the dead. Rated 5.2/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward \u2014 embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Willa Holland, Paul Sparks, John Adams, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Jeremiah Kipp.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Jeremiah Kipp",
+        "text": "Filmmaker Jeremiah Kipp pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 5.2/10 on TMDB",
+        "text": "With an impressive 5.2/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into The Mortuary Assistant? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T17:45:38Z",
+    "date_modified": "2026-11-08T17:45:38Z",
+    "published_at": "2026-11-08T17:45:38Z"
+  },
+  {
     "title": "Why Ice Age Is Crushing Netflix Global Top 10 Charts \u2744\ufe0f\ud83e\udda3",
     "seo_description": "Discover why the 2002 animated classic Ice Age is dominating global Netflix charts decades later with massive streaming viewership.",
     "movie": {

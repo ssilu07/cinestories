@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-08T07:07:40.371610+00:00",
-  "total_stories": 347,
+  "generated_at": "2026-11-08T17:55:15.433310+00:00",
+  "total_stories": 351,
   "stories": [
+    {
+      "id": 539,
+      "slug": "psycho",
+      "title": "Psycho: Why Hitchcock\u2019s Thriller Still Dominates Streaming \ud83d\udd2a\ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/psycho/",
+      "category": "netflix_hits",
+      "release_date": "1960-06-22",
+      "rating": 8.4
+    },
+    {
+      "id": 253372,
+      "slug": "the-institute",
+      "title": "The Institute: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-institute/",
+      "category": "streaming_charts",
+      "release_date": "2025-07-13",
+      "rating": 7.5
+    },
+    {
+      "id": 1633056,
+      "slug": "all-wishes-come-true",
+      "title": "All Wishes Come True: 2026's Wild Mythic Comedy \ud83c\udfad\u2728",
+      "url": "https://cinematicbites.com/stories/all-wishes-come-true/",
+      "category": "trending",
+      "release_date": "2026-07-10",
+      "rating": 8.2
+    },
+    {
+      "id": 1470130,
+      "slug": "the-mortuary-assistant",
+      "title": "The Mortuary Assistant: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-mortuary-assistant/",
+      "category": "upcoming",
+      "release_date": "2026-02-13",
+      "rating": 5.2
+    },
     {
       "id": 425,
       "slug": "ice-age",

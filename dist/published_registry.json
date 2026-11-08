@@ -2080,5 +2080,29 @@
     "published_at": "2026-11-08T06:59:36Z",
     "modified_at": "2026-11-08T06:59:36Z",
     "category": "upcoming"
+  },
+  "psycho": {
+    "title": "Psycho",
+    "published_at": "2026-11-08T17:45:38Z",
+    "modified_at": "2026-11-08T17:45:38Z",
+    "category": "netflix_hits"
+  },
+  "the-institute": {
+    "title": "The Institute",
+    "published_at": "2026-11-08T17:45:38Z",
+    "modified_at": "2026-11-08T17:45:38Z",
+    "category": "streaming_charts"
+  },
+  "all-wishes-come-true": {
+    "title": "All Wishes Come True!",
+    "published_at": "2026-11-08T17:45:38Z",
+    "modified_at": "2026-11-08T17:45:38Z",
+    "category": "trending"
+  },
+  "the-mortuary-assistant": {
+    "title": "The Mortuary Assistant",
+    "published_at": "2026-11-08T17:45:38Z",
+    "modified_at": "2026-11-08T17:45:38Z",
+    "category": "upcoming"
   }
 }
