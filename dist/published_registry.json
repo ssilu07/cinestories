@@ -2104,5 +2104,29 @@
     "published_at": "2026-11-08T17:45:38Z",
     "modified_at": "2026-11-08T17:45:38Z",
     "category": "upcoming"
+  },
+  "memento": {
+    "title": "Memento",
+    "published_at": "2026-11-08T23:29:50Z",
+    "modified_at": "2026-11-08T23:29:50Z",
+    "category": "netflix_hits"
+  },
+  "the-lord-of-the-rings-the-rings-of-power": {
+    "title": "The Lord of the Rings: The Rings of Power",
+    "published_at": "2026-11-08T23:29:50Z",
+    "modified_at": "2026-11-08T23:29:50Z",
+    "category": "streaming_charts"
+  },
+  "musk": {
+    "title": "Musk",
+    "published_at": "2026-11-08T23:29:50Z",
+    "modified_at": "2026-11-08T23:29:50Z",
+    "category": "trending"
+  },
+  "i-play-rocky": {
+    "title": "I Play Rocky",
+    "published_at": "2026-11-08T23:29:50Z",
+    "modified_at": "2026-11-08T23:29:50Z",
+    "category": "upcoming"
   }
 }

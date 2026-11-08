@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-08T17:55:15.433310+00:00",
-  "total_stories": 351,
+  "generated_at": "2026-11-08T23:40:06.964625+00:00",
+  "total_stories": 355,
   "stories": [
+    {
+      "id": 77,
+      "slug": "memento",
+      "title": "Why Christopher Nolan's 'Memento' Stormed Netflix Top 10 \ud83e\udde0\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/memento/",
+      "category": "netflix_hits",
+      "release_date": "2000-10-11",
+      "rating": 8.2
+    },
+    {
+      "id": 84773,
+      "slug": "the-lord-of-the-rings-the-rings-of-power",
+      "title": "Rings of Power: Why Middle-earth Rules Streaming Charts \u2694\ufe0f\ud83d\udc51",
+      "url": "https://cinematicbites.com/stories/the-lord-of-the-rings-the-rings-of-power/",
+      "category": "streaming_charts",
+      "release_date": "2022-09-01",
+      "rating": 7.2
+    },
+    {
+      "id": 1096228,
+      "slug": "musk",
+      "title": "Musk: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/musk/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.3
+    },
+    {
+      "id": 1286656,
+      "slug": "i-play-rocky",
+      "title": "Why I Play Rocky Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/stories/i-play-rocky/",
+      "category": "upcoming",
+      "release_date": "2026-11-06",
+      "rating": 8.8
+    },
     {
       "id": 539,
       "slug": "psycho",

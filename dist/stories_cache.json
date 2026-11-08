@@ -1,5 +1,416 @@
 [
   {
+    "title": "Why Christopher Nolan's 'Memento' Stormed Netflix Top 10 \ud83e\udde0\ud83d\udd25",
+    "seo_description": "Discover how Christopher Nolan's mind-bending neo-noir thriller Memento climbed global streaming charts as an unmissable puzzle binge.",
+    "movie": {
+      "id": 77,
+      "title": "Memento",
+      "original_title": "Memento",
+      "slug": "memento",
+      "media_type": "movie",
+      "release_date": "2000-10-11",
+      "overview": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+      "tagline": "Some memories are best forgotten.",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "runtime": 113,
+      "seasons": null,
+      "vote_average": 8.2,
+      "vote_count": 17014,
+      "category": "netflix_hits",
+      "director": "Christopher Nolan",
+      "top_cast": [
+        "Guy Pearce",
+        "Carrie-Anne Moss",
+        "Joe Pantoliano",
+        "Mark Boone Junior",
+        "Russ Fega",
+        "Jorja Fox"
+      ],
+      "poster_path": "/nzlv62aC0octS5AklAiWpXLX9Z0.jpg",
+      "backdrop_path": "/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
+      "backdrops": [
+        "/7Wev9JMo6R5XAfz2KDvXb7oPMmy.jpg",
+        "/8pwCb7amg8Tvr9FZZJGt7J4OwLV.jpg",
+        "/v4u9FnSOpLEjPIAhbKClM45LJoJ.jpg",
+        "/q2CtXYjp9IlnfBcPktNkBPsuAEO.jpg",
+        "/5wmhPm9UmAFsVAwYjk5ZDjuqoW0.jpg",
+        "/epS46vDl8yeLDReM1LDFJJLj2yL.jpg",
+        "/pQwjOUfcB4hRdEenA2JOP6ijXoH.jpg",
+        "/njjZmNJkn8o2FhFwP078LEdBtRZ.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "STREAMING HIT",
+        "title": "Why 'Memento' Is Back on Top",
+        "text": "Christopher Nolan's breakout puzzle thriller shocked streaming charts by leaping into the global Top 10. Decades after debut, it is holding millions spellbound on Netflix.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE PREMISE",
+        "title": "Revenge Without Memory",
+        "text": "Guy Pearce plays Leonard, an amnesiac hunting his wife's killer using Polaroids and permanent tattoos. Telling the mystery backward forces viewers to share his terrifying disorientation.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "CRITICAL ACCLAIM",
+        "title": "An 8.2 Rating Phenomenon",
+        "text": "Scoring an elite 8.2 on IMDb and near-unanimous critical praise, the indie sensation proved Nolan's genius long before Oppenheimer, attracting brand-new generations of binge watchers.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "INSIDER TRIVIA",
+        "title": "Filmed in Only 25 Days",
+        "text": "Operating on a shoestring $4.5 million budget, Nolan shot the non-linear labyrinth in under a month. Carrie-Anne Moss and Joe Pantoliano signed on right after The Matrix.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "REWATCH FACTOR",
+        "title": "Built for Instant Rewatches",
+        "text": "Fans obsessively pause every frame to spot subtle clues. That unique backward-forward structure turns passive viewing into an interactive mystery game audiences replay immediately.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "NEXT OBSESSION",
+        "title": "Unravel More Mind-Benders",
+        "text": "Ready for another thrilling puzzle that keeps you guessing until the final frame? Explore our curated streaming recommendations and hidden gems.",
+        "backdrop_index": 5,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T23:29:50Z",
+    "date_modified": "2026-11-08T23:29:50Z",
+    "published_at": "2026-11-08T23:29:50Z"
+  },
+  {
+    "title": "Rings of Power: Why Middle-earth Rules Streaming Charts \u2694\ufe0f\ud83d\udc51",
+    "seo_description": "Explore how Prime Video's The Rings of Power dominated global streaming charts with massive viewership and epic scale.",
+    "movie": {
+      "id": 84773,
+      "title": "The Lord of the Rings: The Rings of Power",
+      "original_title": "The Lord of the Rings: The Rings of Power",
+      "slug": "the-lord-of-the-rings-the-rings-of-power",
+      "media_type": "tv",
+      "release_date": "2022-09-01",
+      "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of N\u00famenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+      "tagline": "Evil has had many names.",
+      "genres": [
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "runtime": 50,
+      "seasons": 3,
+      "vote_average": 7.2,
+      "vote_count": 4012,
+      "category": "streaming_charts",
+      "director": "Patrick McKay, John D. Payne (Creator)",
+      "top_cast": [
+        "Morfydd Clark",
+        "Robert Aramayo",
+        "Owain Arthur",
+        "Sophia Nomvete",
+        "Markella Kavenagh",
+        "Ismael Cruz Cordova"
+      ],
+      "poster_path": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+      "backdrop_path": "/achmETPRJZc9QVXsMPgHwYEyNar.jpg",
+      "backdrops": [
+        "/4pPzwFluOzZg9nOXvECZC4bSSlx.jpg",
+        "/achmETPRJZc9QVXsMPgHwYEyNar.jpg",
+        "/9CeFKnC6BFKmXnSLKIWcueJIkoW.jpg",
+        "/pdfCr8W0wBCpdjbZXSxnKhZtosP.jpg",
+        "/1rO4xoCo4Z5WubK0OwdVll3DPYo.jpg",
+        "/ukewRnKD05Si7DkED2tSKBTXeEd.jpg",
+        "/uVukvj5r9jEMva78IfaGWMNwGe.jpg",
+        "/vpc8qVhFvu0SM4USg72bHPRmOPL.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "STREAMING SMASH",
+        "title": "Middle-earth Reclaims Top Spot",
+        "text": "Prime Video's flagship fantasy crushed global streaming charts with over 25 million opening-day viewers, instantly breaking all-time platform records worldwide.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "CHART METRICS",
+        "title": "Billion-Minute Domination",
+        "text": "Entering Nielsen's top streaming rankings, the epic series racked up over 1.25 billion minutes viewed in a single week across US households.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "EPIC SCALE",
+        "title": "Second Age Awakens",
+        "text": "Set thousands of years before Frodo's journey, Morfydd Clark shines as Galadriel alongside an expansive cast mapping uncharted realms of Tolkien lore.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BUDGET POWER",
+        "title": "Most Expensive Show Ever",
+        "text": "A staggering $465 million production budget for Season 1 funded lavish practical sets, cutting-edge VFX, and cinematic battles rarely seen on television.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE DIVIDE",
+        "title": "Fan Debates Heat Up",
+        "text": "Racking up thousands of community votes, the fantasy blockbuster sparked passionate debate between book purists and casual viewers craving weekly spectacle.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "WHAT'S NEXT",
+        "title": "Track More Streaming Hits",
+        "text": "As the battle for Middle-earth continues, see which hit shows are breaking weekly streaming records right now.",
+        "backdrop_index": 5,
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T23:29:50Z",
+    "date_modified": "2026-11-08T23:29:50Z",
+    "published_at": "2026-11-08T23:29:50Z"
+  },
+  {
+    "title": "Musk: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+    "seo_description": "Discover Musk: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1096228,
+      "title": "Musk",
+      "original_title": "Musk",
+      "slug": "musk",
+      "media_type": "movie",
+      "release_date": "2026-10-09",
+      "overview": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+      "tagline": "An unflinching look at Earth's most unchecked man.",
+      "genres": [
+        "Documentary"
+      ],
+      "runtime": 238,
+      "seasons": null,
+      "vote_average": 6.3,
+      "vote_count": 22,
+      "category": "trending",
+      "director": "Alex Gibney",
+      "top_cast": [
+        "Elon Musk",
+        "Alex Gibney",
+        "Justine Musk",
+        "Ashley St. Clair",
+        "Kara Swisher",
+        "Martin Eberhard"
+      ],
+      "poster_path": "/kTOeFV92c3QHJ3bEkT660P7BcWN.jpg",
+      "backdrop_path": "/1CfHIKczBiAauSRBiNQ90bjLsCM.jpg",
+      "backdrops": [
+        "/1CfHIKczBiAauSRBiNQ90bjLsCM.jpg",
+        "/rbF8b5NqcN5SprJmWz9CwGquMGa.jpg",
+        "/15i6pWOTf3CjX9NWpJmutgNAIeS.jpg",
+        "/jgk2xePFKLvgEVk6RrV739cq7Rd.jpg",
+        "/9WtPqcvdENG9mSZt4igiBN3KdxL.jpg",
+        "/y7BisWvgXACfGPRWXVyWJ4Owh1Y.jpg",
+        "/zMuUwQUwp7L4UJHkeaJhtgAzDuw.jpg",
+        "/dmZWibPzBUlBSn2jN0TzAiYW3N5.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "Musk",
+        "text": "An unflinching look at Earth's most unchecked man. Rated 6.3/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "An incisive look behind the legend of Elon Musk, the world's most heralded \"inventor-entrepreneur\" who has enormous influence on the world in which we all live.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Elon Musk, Alex Gibney, Justine Musk, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Alex Gibney.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Alex Gibney",
+        "text": "Filmmaker Alex Gibney pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 6.3/10 on TMDB",
+        "text": "With an impressive 6.3/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into Musk? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T23:29:50Z",
+    "date_modified": "2026-11-08T23:29:50Z",
+    "published_at": "2026-11-08T23:29:50Z"
+  },
+  {
+    "title": "Why I Play Rocky Left Audiences Stunned: Full Plot & Clues Breakdown",
+    "seo_description": "Discover I Play Rocky: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+    "movie": {
+      "id": 1286656,
+      "title": "I Play Rocky",
+      "original_title": "I Play Rocky",
+      "slug": "i-play-rocky",
+      "media_type": "movie",
+      "release_date": "2026-11-06",
+      "overview": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky\u2014he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+      "tagline": "The true underdog story.",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "runtime": 128,
+      "seasons": null,
+      "vote_average": 8.8,
+      "vote_count": 11,
+      "category": "upcoming",
+      "director": "Peter Farrelly",
+      "top_cast": [
+        "Anthony Ippolito",
+        "AnnaSophia Robb",
+        "P.J. Byrne",
+        "Toby Kebbell",
+        "Jay Duplass",
+        "Tracy Letts"
+      ],
+      "poster_path": "/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+      "backdrop_path": "/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+      "backdrops": [
+        "/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+        "/iQkFjJu8JzNRi8qvvHZs1HvF9Lr.jpg",
+        "/s8rbN31SVv0lo7cg9aAJb9Pb2VU.jpg",
+        "/psRHA3Rfpn6MpOy0lPeFDCsIo6T.jpg",
+        "/qi8B7qAspRH2W2bi2DYPrKyfCj7.jpg",
+        "/dMkkn8Yk2uRqKGlZxQb2eeJUYal.jpg",
+        "/5x4DmAC1Me02SCKcxFpTWPsyxLm.jpg",
+        "/oleqnn5d81MG3Oy1gfqjsbBkA9F.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 BLOCKBUSTER ALERT",
+        "title": "I Play Rocky",
+        "text": "The true underdog story. Rated 8.8/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "THE EPIC CONFLICT",
+        "title": "Shocking Twist Ahead",
+        "text": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky\u2014he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets...",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "STAR POWER",
+        "title": "Powerhouse Ensemble",
+        "text": "Led by Anthony Ippolito, AnnaSophia Robb, P.J. Byrne, the film boasts phenomenal on-screen chemistry and career-defining performances directed by Peter Farrelly.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "BEHIND THE LENS",
+        "title": "Directed by Peter Farrelly",
+        "text": "Filmmaker Peter Farrelly pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "AUDIENCE REACTION",
+        "title": "Rated 8.8/10 on TMDB",
+        "text": "With an impressive 8.8/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "YOUR TICKET",
+        "title": "Catch It On The Big Screen",
+        "text": "Ready to dive into I Play Rocky? Discover showtimes, official trailers, and cast interviews today.",
+        "backdrop_index": 0,
+        "cta_text": "Check Showtimes & Full Details",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-08T23:29:50Z",
+    "date_modified": "2026-11-08T23:29:50Z",
+    "published_at": "2026-11-08T23:29:50Z"
+  },
+  {
     "title": "Psycho: Why Hitchcock\u2019s Thriller Still Dominates Streaming \ud83d\udd2a\ud83c\udf7f",
     "seo_description": "Alfred Hitchcock's Psycho continues to reign on streaming charts. Discover why this 1960 psychological thriller remains an unmatched binge obsession.",
     "movie": {
