@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-07T23:41:20.184469+00:00",
-  "total_stories": 343,
+  "generated_at": "2026-11-08T07:07:40.371610+00:00",
+  "total_stories": 347,
   "stories": [
+    {
+      "id": 425,
+      "slug": "ice-age",
+      "title": "Why Ice Age Is Crushing Netflix Global Top 10 Charts \u2744\ufe0f\ud83e\udda3",
+      "url": "https://cinematicbites.com/stories/ice-age/",
+      "category": "netflix_hits",
+      "release_date": "2002-03-14",
+      "rating": 7.4
+    },
+    {
+      "id": 456,
+      "slug": "the-simpsons",
+      "title": "The Simpsons: Why It Still Dominates Streaming Charts \ud83d\udcfa\u26a1",
+      "url": "https://cinematicbites.com/stories/the-simpsons/",
+      "category": "streaming_charts",
+      "release_date": "1989-12-17",
+      "rating": 8.0
+    },
+    {
+      "id": 1165366,
+      "slug": "de-gaulle-r\u00e9sistance",
+      "title": "De Gaulle: R\u00e9sistance: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/de-gaulle-r\u00e9sistance/",
+      "category": "trending",
+      "release_date": "2026-06-03",
+      "rating": 7.8
+    },
+    {
+      "id": 1430077,
+      "slug": "hokum",
+      "title": "Hokum Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/hokum/",
+      "category": "upcoming",
+      "release_date": "2026-04-29",
+      "rating": 6.8
+    },
     {
       "id": 398818,
       "slug": "call-me-by-your-name",

@@ -2056,5 +2056,29 @@
     "published_at": "2026-11-07T23:30:09Z",
     "modified_at": "2026-11-07T23:30:09Z",
     "category": "upcoming"
+  },
+  "ice-age": {
+    "title": "Ice Age",
+    "published_at": "2026-11-08T06:59:36Z",
+    "modified_at": "2026-11-08T06:59:36Z",
+    "category": "netflix_hits"
+  },
+  "the-simpsons": {
+    "title": "The Simpsons",
+    "published_at": "2026-11-08T06:59:36Z",
+    "modified_at": "2026-11-08T06:59:36Z",
+    "category": "streaming_charts"
+  },
+  "de-gaulle-r\u00e9sistance": {
+    "title": "De Gaulle: R\u00e9sistance",
+    "published_at": "2026-11-08T06:59:36Z",
+    "modified_at": "2026-11-08T06:59:36Z",
+    "category": "trending"
+  },
+  "hokum": {
+    "title": "Hokum",
+    "published_at": "2026-11-08T06:59:36Z",
+    "modified_at": "2026-11-08T06:59:36Z",
+    "category": "upcoming"
   }
 }
