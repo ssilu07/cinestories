@@ -2128,5 +2128,29 @@
     "published_at": "2026-11-08T23:29:50Z",
     "modified_at": "2026-11-08T23:29:50Z",
     "category": "upcoming"
+  },
+  "the-twilight-saga-new-moon": {
+    "title": "The Twilight Saga: New Moon",
+    "published_at": "2026-11-09T22:04:12Z",
+    "modified_at": "2026-11-09T22:04:12Z",
+    "category": "netflix_hits"
+  },
+  "jimmy-kimmel-live": {
+    "title": "Jimmy Kimmel Live!",
+    "published_at": "2026-11-09T22:04:12Z",
+    "modified_at": "2026-11-09T22:04:12Z",
+    "category": "streaming_charts"
+  },
+  "reawakened-man": {
+    "title": "Reawakened Man",
+    "published_at": "2026-11-09T22:04:12Z",
+    "modified_at": "2026-11-09T22:04:12Z",
+    "category": "trending"
+  },
+  "blades-of-the-guardians": {
+    "title": "Blades of the Guardians",
+    "published_at": "2026-11-09T22:04:12Z",
+    "modified_at": "2026-11-09T22:04:12Z",
+    "category": "upcoming"
   }
 }

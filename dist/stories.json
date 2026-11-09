@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-08T23:40:06.964625+00:00",
-  "total_stories": 355,
+  "generated_at": "2026-11-09T22:14:59.450130+00:00",
+  "total_stories": 359,
   "stories": [
+    {
+      "id": 18239,
+      "slug": "the-twilight-saga-new-moon",
+      "title": "Why New Moon Reignited a Global Netflix Frenzy \ud83d\udc3a\ud83e\ude78",
+      "url": "https://cinematicbites.com/stories/the-twilight-saga-new-moon/",
+      "category": "netflix_hits",
+      "release_date": "2009-11-18",
+      "rating": 6.0
+    },
+    {
+      "id": 1489,
+      "slug": "jimmy-kimmel-live",
+      "title": "Jimmy Kimmel Live! Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/jimmy-kimmel-live/",
+      "category": "streaming_charts",
+      "release_date": "2003-01-26",
+      "rating": 5.3
+    },
+    {
+      "id": 961214,
+      "slug": "reawakened-man",
+      "title": "Reawakened Man Ending Explained: Unraveling The Final Revelation",
+      "url": "https://cinematicbites.com/stories/reawakened-man/",
+      "category": "trending",
+      "release_date": "2026-09-30",
+      "rating": 3.1
+    },
+    {
+      "id": 1305781,
+      "slug": "blades-of-the-guardians",
+      "title": "The Hidden Visual Details That Change How You See Blades of the Guardian",
+      "url": "https://cinematicbites.com/stories/blades-of-the-guardians/",
+      "category": "upcoming",
+      "release_date": "2026-02-17",
+      "rating": 8.2
+    },
     {
       "id": 77,
       "slug": "memento",
