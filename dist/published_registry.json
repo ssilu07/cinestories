@@ -2236,5 +2236,29 @@
     "published_at": "2026-11-10T11:10:00Z",
     "modified_at": "2026-11-10T11:10:00Z",
     "category": "theories_easter_eggs"
+  },
+  "365-days-this-day": {
+    "title": "365 Days: This Day",
+    "published_at": "2026-11-10T11:11:49Z",
+    "modified_at": "2026-11-10T11:11:49Z",
+    "category": "netflix_hits"
+  },
+  "when-i-meet-the-moon": {
+    "title": "When I Meet the Moon",
+    "published_at": "2026-11-10T11:11:49Z",
+    "modified_at": "2026-11-10T11:11:49Z",
+    "category": "streaming_charts"
+  },
+  "misty-green": {
+    "title": "Misty Green",
+    "published_at": "2026-11-10T11:11:49Z",
+    "modified_at": "2026-11-10T11:11:49Z",
+    "category": "trending"
+  },
+  "second-chance-holiday": {
+    "title": "Second Chance Holiday",
+    "published_at": "2026-11-10T11:11:49Z",
+    "modified_at": "2026-11-10T11:11:49Z",
+    "category": "upcoming"
   }
 }
