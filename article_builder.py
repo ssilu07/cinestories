@@ -12,6 +12,7 @@ Strictly compliant with Google Discover guidelines:
 
 import html
 import json
+from urllib.parse import quote
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Any, List
@@ -84,6 +85,11 @@ def build_discover_article_html(
 
     article_url = f"{domain}/articles/{slug}/"
     story_url = f"{domain}/stories/{slug}/"
+    share_text = f"{headline} - Read full breakdown on CineStories"
+    encoded_share_text = quote(share_text)
+    encoded_url = quote(article_url)
+    encoded_headline = quote(headline)
+    encoded_backdrop = quote(backdrop_url)
 
     # JSON-LD Schema (NewsArticle for Discover)
     schema_data = {
@@ -488,26 +494,146 @@ def build_discover_article_html(
     .share-actions {{
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
+      flex-wrap: wrap;
     }}
 
     .share-btn {{
-      padding: 7px 12px;
-      font-size: 12px;
-      font-weight: 600;
-      background: rgba(255, 255, 255, 0.05);
+      padding: 6px 12px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--surface-border);
-      border-radius: var(--radius-sm);
+      border-radius: 999px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      transition: all 0.2s;
+      gap: 5px;
+      text-decoration: none;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
     }}
 
     .share-btn:hover {{
-      background: rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.15);
       color: #fff;
+    }}
+
+    .share-whatsapp {{
+      color: #25d366;
+      border-color: rgba(37, 211, 102, 0.35);
+      background: rgba(37, 211, 102, 0.08);
+    }}
+    .share-whatsapp:hover {{
+      background: #25d366;
+      color: #0b0f19;
+    }}
+
+    .share-pinterest {{
+      color: #f43f5e;
+      border-color: rgba(244, 63, 94, 0.35);
+      background: rgba(244, 63, 94, 0.08);
+    }}
+    .share-pinterest:hover {{
+      background: #e60023;
+      color: #fff;
+    }}
+
+    .share-telegram {{
+      color: #38bdf8;
+      border-color: rgba(56, 189, 248, 0.35);
+      background: rgba(56, 189, 248, 0.08);
+    }}
+    .share-telegram:hover {{
+      background: #0284c7;
+      color: #fff;
+    }}
+
+    .viral-share-box {{
+      margin: 36px 0;
+      padding: 24px;
+      background: linear-gradient(135deg, rgba(225, 29, 72, 0.12) 0%, rgba(245, 158, 11, 0.09) 100%);
+      border: 1px solid rgba(225, 29, 72, 0.3);
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }}
+
+    .viral-share-text h4 {{
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0 0 6px 0;
+    }}
+
+    .viral-share-text p {{
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin: 0;
+      line-height: 1.5;
+    }}
+
+    .viral-share-btns {{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }}
+
+    .btn-share-wa {{
+      background: #25d366;
+      color: #0b0f19;
+      padding: 9px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-wa:hover {{
+      transform: translateY(-2px);
+    }}
+
+    .btn-share-pin {{
+      background: #e60023;
+      color: #fff;
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-pin:hover {{
+      transform: translateY(-2px);
+    }}
+
+    .btn-share-tg {{
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-tg:hover {{
+      background: #38bdf8;
+      color: #000;
     }}
 
     /* Hero Backdrop Image (Google Discover 1200px+ format) */
@@ -921,8 +1047,11 @@ def build_discover_article_html(
         </div>
       </div>
       <div class="share-actions">
-        <button class="share-btn" onclick="navigator.clipboard.writeText(window.location.href); alert('Link copied to clipboard!');">📋 Copy Link</button>
-        <a class="share-btn" href="https://twitter.com/intent/tweet?text={html.escape(headline)}&url={article_url}" target="_blank" rel="noopener">🐦 Tweet</a>
+        <a class="share-btn share-whatsapp" href="https://api.whatsapp.com/send?text={encoded_share_text}%20{encoded_url}" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="share-btn share-pinterest" href="https://pinterest.com/pin/create/button/?url={encoded_url}&media={encoded_backdrop}&description={encoded_headline}" target="_blank" rel="noopener">📌 Pin</a>
+        <a class="share-btn share-telegram" href="https://t.me/share/url?url={encoded_url}&text={encoded_share_text}" target="_blank" rel="noopener">✈️ Telegram</a>
+        <a class="share-btn" href="https://twitter.com/intent/tweet?text={encoded_headline}&url={encoded_url}" target="_blank" rel="noopener">🐦 Tweet</a>
+        <button class="share-btn" onclick="navigator.clipboard.writeText(window.location.href); alert('Link copied to clipboard!');">📋 Copy</button>
       </div>
     </div>
 
@@ -984,6 +1113,25 @@ def build_discover_article_html(
 
     <!-- Editorial Verdict -->
     {verdict_html}
+
+    <!-- Viral Share Box (Drive High-Engagement Referral Loops) -->
+    <div class="viral-share-box">
+      <div class="viral-share-text">
+        <h4>⚡ Share The Climax Clues With Your Friends</h4>
+        <p>Think they missed this ending detail? Send this breakdown directly to your WhatsApp group or Pinterest board.</p>
+      </div>
+      <div class="viral-share-btns">
+        <a class="btn-share-wa" href="https://api.whatsapp.com/send?text={encoded_share_text}%20{encoded_url}" target="_blank" rel="noopener">
+          <span>💬 Share on WhatsApp</span>
+        </a>
+        <a class="btn-share-pin" href="https://pinterest.com/pin/create/button/?url={encoded_url}&media={encoded_backdrop}&description={encoded_headline}" target="_blank" rel="noopener">
+          <span>📌 Save to Pinterest</span>
+        </a>
+        <a class="btn-share-tg" href="https://t.me/share/url?url={encoded_url}&text={encoded_share_text}" target="_blank" rel="noopener">
+          <span>✈️ Telegram</span>
+        </a>
+      </div>
+    </div>
 
     <!-- Related Articles -->
     {related_section}
