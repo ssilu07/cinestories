@@ -21,19 +21,27 @@ from curated_stories import CURATED_STORIES
 from curated_articles import CURATED_ARTICLES
 
 # Structured Output Schemas
+class PollData(BaseModel):
+    id: str = Field(description="Unique poll ID, e.g. 'poll-slug-climax'")
+    type: str = Field(default="binary", description="Poll type, always 'binary'")
+    prompt: str = Field(description="High-engagement binary controversy question under 45 characters, e.g. 'Did he survive the climax?' or 'Was the twist staged?'")
+    option1: str = Field(description="Option 1 text under 20 characters, e.g. 'Yes, survived 🔥' or 'Real truth'")
+    option2: str = Field(description="Option 2 text under 20 characters, e.g. 'No, hallucination 💀' or 'Staged drama'")
+
 class SlideData(BaseModel):
     id: str = Field(description="Unique slide page ID, e.g. 'page-1', 'page-2'")
-    badge: str = Field(description="Short uppercase kicker/badge (e.g., 'THE PREMISE', 'STAR POWER', 'BEHIND THE LENS', 'INSIDER TRIVIA', 'FAN THEORIES', 'DON'T MISS')")
-    title: str = Field(description="Snappy headline for the slide, under 35 characters")
-    text: str = Field(description="Bite-sized story text. STRICTLY maximum 40 words. Engaging, snackable, spoiler-free.")
+    badge: str = Field(description="High-voltage viral kicker badge with emoji (e.g., '🔥 CLIMAX TWIST', '⚡ ENDING DECODED', '🔍 CLUE #1', '❓ BURNING MYSTERY', '💡 THE DECODED TRUTH', '🎬 POST-CREDITS LORE', '🩸 TRUE STORY FACTS', '🗳️ FAN VERDICT POLL')")
+    title: str = Field(description="Curiosity-inducing headline under 35 characters that commands reader attention")
+    text: str = Field(description="Bite-sized story text revealing scene clues, twists, or theories. STRICTLY maximum 40 words.")
     backdrop_index: int = Field(description="0-based index of backdrop image to display from the backdrops list")
+    poll: Optional[PollData] = Field(default=None, description="Interactive binary poll on the final slide (mandatory for the final slide)")
     cta_text: Optional[str] = Field(default=None, description="Optional call-to-action button text, used on the final slide")
     cta_url: Optional[str] = Field(default=None, description="Optional CTA outlink URL")
 
 class WebStoryData(BaseModel):
-    title: str = Field(description="Catchy SEO Title under 70 characters optimized for Google Discover & Search CTR")
-    seo_description: str = Field(description="SEO meta description under 155 characters summarizing the story")
-    slides: List[SlideData] = Field(description="Sequence of 5 to 7 slides following the mandatory narrative arc")
+    title: str = Field(description="Irresistible high-CTR viral headline under 70 characters adhering to post-viewing curiosity formulas")
+    seo_description: str = Field(description="SEO meta description under 155 characters teasing the climax clues and ending breakdown")
+    slides: List[SlideData] = Field(description="Sequence of 6 to 8 slides following the 8-slide viral retention arc")
 
 class ArticleSection(BaseModel):
     heading: str = Field(description="Snappy section subheading under 50 characters")
@@ -52,71 +60,69 @@ class DiscoverArticleData(BaseModel):
 def generate_high_ctr_headline(movie: Dict[str, Any]) -> str:
     """
     Generate irresistible, high-CTR, curiosity-inducing headlines for Google Discover & Search.
-    Tailors the angle strictly to movie genre and audience search psychology.
+    Directly aligns with audience post-viewing search psychology: ending explained, hidden clues,
+    betrayals, and real story vs fiction.
     """
     if movie.get("hook_title"):
         return movie["hook_title"]
 
     raw_title = movie.get("title", "Blockbuster")
-    # Clean any long secondary titles to keep punchy
-    clean_title = raw_title.split(":")[0].strip() if ":" in raw_title and len(raw_title) > 28 else raw_title
+    clean_title = raw_title.split(":")[0].strip() if ":" in raw_title and len(raw_title) > 26 else raw_title
     category = movie.get("category", "")
     genres = [g.lower() for g in movie.get("genres", [])]
     media_type = movie.get("media_type", "movie")
 
     is_animation = any("animat" in g for g in genres)
     is_thriller = any(g in ["thriller", "mystery", "crime", "horror"] for g in genres)
-    is_sci_fi = any(g in ["science fiction", "sci-fi", "action", "adventure"] for g in genres)
-    is_series = media_type == "tv" or category in ["series", "popular_series", "streaming_charts"]
+    is_sci_fi = any(g in ["science fiction", "sci-fi", "action", "fantasy"] for g in genres)
+    is_series = media_type == "tv" or category in ["series", "popular_series", "streaming_charts", "ott_blockbusters"]
     is_netflix = category == "netflix_hits"
     is_classic = category in ["cult_classic", "where_are_they_now"]
 
     seed = sum(ord(c) for c in raw_title)
 
-    if category == "theories_easter_eggs":
+    if is_thriller:
         options = [
-            f"{clean_title}: 5 Mind-Blowing Clues & Ending Theories Decoded ⚡",
-            f"The 1 Hidden Detail Fans Completely Missed in {clean_title} 🤯",
-            f"{clean_title} Ending Explained: What That Shocking Final Scene Means",
-            f"{clean_title}: Post-Credit Breakdown & Major Multiverse Clues 🦸‍♂️",
-        ]
-    elif is_thriller:
-        options = [
-            f"{clean_title} Ending Explained: The Shocking Final Twist Decoded 🔍",
-            f"What Really Happened at the Climax of {clean_title}? Clues Decoded",
-            f"{clean_title}: The Psychological Clues Hiding in Plain Sight 🕵️‍♂️",
-            f"The Twisted Climax of {clean_title}: Ending & Suspects Explained 💥",
+            f"{clean_title} Ending Explained: The Climax Twist Decoded 🔍",
+            f"Who Really Pulled The Trigger in {clean_title}? 3 Clues You Missed 🕵️‍♂️",
+            f"{clean_title}: The Shocking Climax & Hidden Motive Decoded 💥",
+            f"The Horrific True Story Behind {clean_title}: Real Facts vs Drama 🩸",
+            f"What Really Happened at the End of {clean_title}? Decoded ⚡"
         ]
     elif is_netflix or is_series:
         options = [
-            f"Why {clean_title} Is Dominating Global Charts: Ending & Season Clues 🍿",
-            f"{clean_title}: The Real Reason It's Binge-Trending Worldwide 🔥",
-            f"{clean_title} Climax Decoded & What Comes Next for the Show 📺",
-            f"Inside {clean_title}: Why Audiences Are Obsessed With The Ending",
-        ]
-    elif is_animation:
-        options = [
-            f"{clean_title}: Hidden Details, Easter Eggs & Review Verdict 🎨",
-            f"Why Fans Are Obsessed with {clean_title}: Climax & Secrets Explained",
-            f"{clean_title} Ending & Easter Eggs: Is It Worth The Hype? ✨",
-        ]
-    elif is_classic:
-        options = [
-            f"Where Are The Cast Members of {clean_title} Today? The Untold Story",
-            f"Why {clean_title} Remains An Unbeatable Masterpiece Decades Later 🎬",
-            f"{clean_title}: The Real Story & BTS Secrets Behind the Cult Hit",
+            f"{clean_title} Ending Explained: The Climax Clues You Missed 📺",
+            f"Why They Betrayed Everyone in {clean_title}: The Hidden Deal 💥",
+            f"{clean_title} Season Finale Decoded: What That Final Scene Means ⚡",
+            f"The 1 Insane Clue In {clean_title} That Fans Completely Missed 🤯",
+            f"{clean_title} Season 2 Roadmap: Release Date, Cast & Unresolved Clues 🔥"
         ]
     elif is_sci_fi:
         options = [
-            f"{clean_title}: Mind-Bending Plot Clues & Ending Secrets Explained 🚀",
-            f"The Hidden Visual Details That Change How You See {clean_title} ⚡",
-            f"{clean_title} Ending Explained: Unraveling The Final Revelation",
+            f"{clean_title} Post-Credits Scene Decoded: Major Sequel Clues 🎬",
+            f"{clean_title} Ending Explained: The Multiverse Secret Decoded ⚡",
+            f"Did They Actually Survive? {clean_title} Climax Theory Explained 🚀",
+            f"The 1 Hidden Detail in {clean_title} That Changes Everything 🤯",
+            f"{clean_title}: 5 Mind-Blowing Clues & Climax Secrets Decoded 💥"
+        ]
+    elif is_animation:
+        options = [
+            f"{clean_title} Ending & Post-Credits Secrets: What Fans Missed 🎨",
+            f"Why Audiences Are Obsessed with {clean_title}: Climax Decoded ✨",
+            f"{clean_title}: The Secret Easter Eggs Hiding in Plain Sight 🍿"
+        ]
+    elif is_classic:
+        options = [
+            f"Why {clean_title} Remains An Unbeatable Masterpiece Decades Later 🎬",
+            f"The Mind-Bending Secret Behind {clean_title}'s Famous Climax ⚡",
+            f"{clean_title}: The Real Story & BTS Secrets Behind the Cult Hit 💀"
         ]
     else:
         options = [
-            f"{clean_title} Ending Explained: The Climax & Shocking Twists Decoded 🎬",
-            f"Why {clean_title} Left Audiences Stunned: Full Plot & Clues Breakdown",
-            f"{clean_title}: The Secret Behind The Film's Biggest Revelation 🍿",
+            f"{clean_title} Ending Explained: The Climax & Final Twists Decoded 🎬",
+            f"Why {clean_title} Left Audiences Stunned: Clues Decoded ⚡",
+            f"What Really Happened at the Climax of {clean_title}? 🔍",
+            f"{clean_title}: The Secret Behind The Film's Biggest Revelation 🍿"
         ]
 
     chosen = options[seed % len(options)]
@@ -159,48 +165,51 @@ class AIGenerator:
         return self._generate_fallback(movie)
 
     def _generate_with_gemini(self, movie: Dict[str, Any]) -> Optional[Dict[str, Any]]:
-        """Call Gemini API with structured output prompting."""
+        """Call Gemini API with structured output prompting enforcing the viral retention arc."""
         prompt = f"""
-You are an expert Hollywood entertainment journalist and mobile visual storytelling editor.
-Transform the following raw movie data into an AMP Web Story designed for maximum engagement on Google Discover.
+You are an investigative Hollywood entertainment journalist and viral visual storytelling editor for Google Discover & Search.
+DO NOT write a boring Wikipedia synopsis, generic premise overview, or standard movie review.
+The fundamental engine of Google Discover virality is POST-VIEWING AUDIENCE OBSESSION:
+Viewers have just watched the movie or show on Netflix, Prime Video, Disney+, or in theaters, and are frantically searching for:
+- "Ending Explained"
+- "Who really did it?"
+- "What did that final scene mean?"
+- "The subtle clues & easter eggs 99% missed"
+- "Is it based on a real story?"
+- "Season 2 / Sequel roadmap"
 
-MOVIE DATA:
+ENTERTAINMENT ASSET:
 - Title: {movie.get('title')}
 - Release Date: {movie.get('release_date')}
 - Tagline: {movie.get('tagline') or 'N/A'}
 - Genres: {', '.join(movie.get('genres', []))}
-- Director: {movie.get('director')}
+- Director/Showrunner: {movie.get('director')}
 - Top Cast: {', '.join(movie.get('top_cast', []))}
 - Overview: {movie.get('overview')}
 - Audience Rating: {movie.get('vote_average')}/10 ({movie.get('vote_count')} votes)
-- Runtime: {movie.get('runtime')} mins
+- Runtime/Seasons: {movie.get('runtime')} mins / {movie.get('seasons') or 1} seasons
 - Category: {movie.get('category')}
 - Available Backdrops Count: {len(movie.get('backdrops', []))}
 
-CATEGORY-SPECIFIC EDITORIAL ANGLE:
-- If Category is 'netflix_hits': Focus on global Netflix viewership rankings, Top 10 chart dominance across 90+ countries, season renewals, Rotten Tomatoes scores, and why it became an overnight binge obsession.
-- If Category is 'streaming_charts': Focus on weekly US & UK streaming viewership ranks (Netflix/HBO/Prime), million hours viewed, chart dominance, and why audiences can't stop binging.
-- If Category is 'theories_easter_eggs': Focus on post-credit scene breakdown, hidden comic easter eggs, Marvel/DC multiverse connections, villain reveals, and Secret Wars / DCU fan theories.
-- If Category is 'where_are_they_now': Focus on popular 90s/2000s sitcom stars, then-vs-now transformations, career shifts, secret hobbies (e.g. racing, directing, writing), net worth, and life today.
+MANDATORY 7 TO 8 SLIDE VIRAL RETENTION ARC:
+Every Web Story MUST follow this high-retention narrative arc:
+- Slide 1 (Cover Hook): High-voltage curiosity hook commanding attention. Badge: '🔥 CLIMAX TWIST' or '⚡ ENDING DECODED' or '👑 THE SHOCKING BETRAYAL'.
+- Slide 2 (The Burning Mystery / Conflict): The exact moment or conflict that left audiences gasping and asking questions. Badge: '❓ BURNING MYSTERY' or '🕵️ WHAT WE SAW'.
+- Slide 3 (Clue #1 / The Hidden Detail): A subtle visual, dialogue, or narrative clue that casual viewers missed. Badge: '🔍 CLUE #1: [Brief Detail]'.
+- Slide 4 (Clue #2 / The Motive or Real Truth): The deeper motive, secret pact, or real-life counterpart behind the event. Badge: '🧩 CLUE #2: [Brief Detail]' or '🩸 TRUE STORY FACTS'.
+- Slide 5 (The Decoded Climax): The canonical truth or director's explanation resolving the twist. Badge: '💡 THE DECODED TRUTH' or '💥 CLIMAX EXPLAINED'.
+- Slide 6 (Franchise Future / Sequel Roadmap): What comes next (Season 2/sequel status, filming updates, release window). Badge: '🎬 SEQUEL ROADMAP' or '📺 NEXT SEASON CLUES'.
+- Slide 7 (Fan Controversy / Unresolved Question): The lingering debate dividing viewers online. Badge: '🤯 UNANSWERED QUESTION'.
+- Slide 8 (Interactive Fan Verdict Poll): Mandatory binary poll slide! Badge: '🗳️ FAN VERDICT POLL'.
+  - Provide a valid 'poll' object with a high-controversy binary question (prompt under 45 chars, e.g. "Did they survive?", "Was it staged?", "Loved the ending?"), option1 (e.g. "Yes, 100% 🔥"), option2 (e.g. "No, staged 👎").
+  - Set 'cta_text' to "Read Next Story ➔".
 
-STRICT EDITORIAL & AMP COMPLIANCE RULES:
-1. Story Title: Catchy, high-CTR SEO title under 70 characters with emojis (e.g. "Top 10 Streaming Hits This Week in US/UK 🍿📊", "Marvel Post-Credits: 6 Insane Easter Eggs 🦸‍♂️⚡", "Stranger Things: Season Climax Decoded & Clues ⚡").
-   - NEVER use generic repetitive titles like '[Title]: The Untold Story & Secrets' or '[Title]: A Visual Journey'. Every title must offer a compelling curiosity hook.
-2. Number of Slides: Produce between 5 and 7 slides total.
-3. Slide Sequence:
-   - Slide 1 (Cover): Title, category context, and an irresistible curiosity hook.
-   - Slide 2: Core premise / #1 streaming rank / first big easter egg / lead sitcom star update.
-   - Slide 3: Major highlight / key characters or chart-toppers / director or actor transformation.
-   - Slide 4: Behind-the-scenes trivia / shock theory / wild career transition.
-   - Slide 5: Cultural impact / fan community debate / lasting legacy.
-   - Slide 6 or 7 (Final Slide): Call-to-action slide (e.g., "Explore Weekly Streaming Charts", "See All Marvel Theories", "Watch Sitcom Retrospectives").
-4. WORD LIMIT: Each slide's text MUST be STRICTLY UNDER 40 WORDS. Bite-sized, snackable, punchy.
-5. Provide a valid 'backdrop_index' for each slide (integers between 0 and {max(0, len(movie.get('backdrops', [])) - 1)}).
-6. Final Slide: Call-to-action guiding reader to next visual story (Set 'cta_text' to "Read Next Story ➔") or "https://www.themoviedb.org/tv/{movie.get('id')}".
-
-ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
-- FORBIDDEN OVERUSED AI WORDS: Never use "delve", "testament to", "tapestry", "in a world where", "masterclass", "beacon", "it goes without saying".
-- Keep every slide distinct, fresh, and grounded in real cinematic facts.
+STRICT AMP & QUALITY RULES:
+1. WORD LIMIT: Each slide's text MUST be STRICTLY UNDER 40 WORDS. Bite-sized, fast-paced, punchy.
+2. Story Title: Irresistible high-CTR title under 70 characters following viral curiosity formulas (e.g., "[Title] Ending Explained: The Climax Twist & 3 Clues Decoded ⚡").
+3. Slide Titles: Under 35 characters.
+4. Backdrop Index: Valid integer between 0 and {max(0, len(movie.get('backdrops', [])) - 1)}.
+5. FORBIDDEN WORDS: Never use "delve", "testament to", "tapestry", "in a world where", "masterclass", "beacon", "it goes without saying".
 """
 
         # Enforce rate-limit pacing to avoid bursts and 429 quota exhaustion
@@ -235,13 +244,16 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
         return None
 
     def _sanitize_story_data(self, data: Dict[str, Any], movie: Dict[str, Any]) -> Dict[str, Any]:
-        """Ensure title length, word limits, and slide constraints are strictly met."""
-        title = data.get("title", f"{movie.get('title')}: Everything You Need To Know")[:70].strip()
+        """Ensure title length, word limits, slide constraints, and interactive binary polls are strictly met."""
+        title = data.get("title") or generate_high_ctr_headline(movie)
+        title = title[:70].strip()
         seo_description = data.get("seo_description", movie.get("overview", "")[:150]).strip()
         
         raw_slides = data.get("slides", [])
         clean_slides = []
         max_backdrops = max(1, len(movie.get("backdrops", [])))
+        clean_title = movie.get("title", "this title").split(":")[0].strip()
+        slug = movie.get("slug", "story")
 
         for i, s in enumerate(raw_slides):
             words = s.get("text", "").split()
@@ -255,20 +267,48 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
             if not isinstance(backdrop_idx, int) or backdrop_idx >= max_backdrops:
                 backdrop_idx = i % max_backdrops
 
-            clean_slides.append({
+            badge_text = s.get("badge") or f"HIGHLIGHT #{i+1}"
+            badge_text = badge_text.upper().strip()
+
+            slide_dict = {
                 "id": f"page-{i+1}",
-                "badge": s.get("badge", f"HIGHLIGHT #{i+1}").upper(),
+                "badge": badge_text,
                 "title": s.get("title", f"Slide {i+1}")[:45],
                 "text": truncated_text,
                 "backdrop_index": backdrop_idx,
                 "cta_text": s.get("cta_text"),
                 "cta_url": None
-            })
+            }
 
-        # Ensure final slide has CTA
-        if clean_slides and not clean_slides[-1].get("cta_text"):
-            clean_slides[-1]["cta_text"] = "Explore Full Details & Tickets"
-            clean_slides[-1]["cta_url"] = None
+            # Preserve or validate poll object if present
+            if s.get("poll"):
+                poll_raw = s.get("poll")
+                if isinstance(poll_raw, dict):
+                    slide_dict["poll"] = {
+                        "id": poll_raw.get("id") or f"poll-{slug}-{i+1}",
+                        "type": "binary",
+                        "prompt": str(poll_raw.get("prompt", f"Did you like the {clean_title} climax?"))[:45],
+                        "option1": str(poll_raw.get("option1", "Loved it 🔥"))[:20],
+                        "option2": str(poll_raw.get("option2", "Disappointed 👎"))[:20]
+                    }
+
+            clean_slides.append(slide_dict)
+
+        # Guarantee final slide has viral badge, interactive binary poll, and seamless next story CTA
+        if clean_slides:
+            final_slide = clean_slides[-1]
+            if not final_slide.get("badge") or "HIGHLIGHT" in final_slide.get("badge", ""):
+                final_slide["badge"] = "🗳️ FAN VERDICT POLL"
+            if not final_slide.get("poll"):
+                final_slide["poll"] = {
+                    "id": f"poll-{slug}-verdict",
+                    "type": "binary",
+                    "prompt": f"Did the {clean_title} ending satisfy you?"[:45],
+                    "option1": "Genius twist 🔥",
+                    "option2": "Felt rushed 👎"
+                }
+            final_slide["cta_text"] = "Read Next Story ➔"
+            final_slide["cta_url"] = None
 
         return {
             "title": title,
@@ -279,7 +319,8 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
 
     def _generate_fallback(self, movie: Dict[str, Any]) -> Dict[str, Any]:
         """
-        Deterministic, high-quality story synthesizer with punchy, viral headlines.
+        Deterministic, viral hook storytelling synthesizer.
+        Produces a high-retention 7-slide story with cliffhanger decoders and interactive binary poll.
         """
         slug = movie.get("slug", "")
         if slug in CURATED_STORIES:
@@ -298,49 +339,21 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
             }
 
         title = generate_high_ctr_headline(movie)
-        release_date = movie.get("release_date", "Trending")
-        director = movie.get("director", "Visionary Creator")
-        cast = movie.get("top_cast", ["Hollywood Stars"])
-        cast_str = ", ".join(cast[:3]) if cast else "An all-star cast"
-        tagline = movie.get("tagline") or f"Experience the global phenomenon of {movie.get('title')}."
+        clean_title = movie.get("title", "this title").split(":")[0].strip()
+        director = movie.get("director", "The Filmmakers")
+        cast = movie.get("top_cast", ["The ensemble cast"])
+        cast_str = ", ".join(cast[:3]) if cast else "The lead stars"
         genres = ", ".join(movie.get("genres", ["Cinema"]))
-        rating = movie.get("vote_average", 8.4)
+        rating = movie.get("vote_average", 8.2)
         overview = movie.get("overview", "")
         max_backdrops = max(1, len(movie.get("backdrops", [])))
         category = movie.get("category", "")
-        is_tv = movie.get("media_type") == "tv"
-        is_cult = category == "cult_classic"
-        is_streaming = category == "streaming_charts"
-        is_theories = category == "theories_easter_eggs"
-        is_sitcom = category == "where_are_they_now"
+        is_tv = movie.get("media_type") == "tv" or category in ["series", "popular_series", "streaming_charts", "ott_blockbusters"]
 
-        # Punchy badge
-        if category == "netflix_hits":
-            badge_1 = "🔴 NETFLIX TOP RELEASE"
-            badge_2 = "STREAMING #1 BREAKDOWN"
-        elif is_streaming:
-            badge_1 = "📊 WEEKLY LEADERBOARD"
-            badge_2 = "STREAMING #1 BREAKDOWN"
-        elif is_theories:
-            badge_1 = "🦸‍♂️ MULTIVERSE DECODED"
-            badge_2 = "THE POST-CREDIT CLUE"
-        elif is_sitcom:
-            badge_1 = "🕰️ WHERE ARE THEY NOW?"
-            badge_2 = "THE ICONIC ERA"
-        elif is_tv:
-            badge_1 = "🔥 BINGE PHENOMENON"
-            badge_2 = "THE MASTERMIND PLOT"
-        elif is_cult:
-            badge_1 = "💀 CULT LEGEND"
-            badge_2 = "THE TERRIFYING PREMISE"
-        else:
-            badge_1 = "⚡ BLOCKBUSTER ALERT"
-            badge_2 = "THE EPIC CONFLICT"
-
-        # Truncate overview for slide 2 under 36 words
+        # Truncate overview for slide 2 under 34 words
         ov_words = overview.split()
-        if len(ov_words) > 34:
-            plot_text = " ".join(ov_words[:34]) + "..."
+        if len(ov_words) > 32:
+            plot_text = " ".join(ov_words[:32]) + "..."
         else:
             plot_text = " ".join(ov_words) if ov_words else f"A pulse-pounding masterpiece in {genres}."
 
@@ -348,68 +361,85 @@ ANTI-SPAM & GOOGLE QUALITY PROTOCOL:
             # Slide 1: Cover Hook
             {
                 "id": "page-1",
-                "badge": badge_1,
-                "title": movie.get("title")[:35],
-                "text": f"{tagline} Rated {rating}/10 with millions of obsessed fans worldwide. Here is why you cannot look away.",
+                "badge": "⚡ ENDING DECODED",
+                "title": f"The Climax Of {clean_title}"[:35],
+                "text": f"The breathtaking finale of {clean_title} left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
                 "backdrop_index": 0,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 2: Plot hook
+            # Slide 2: The Burning Mystery
             {
                 "id": "page-2",
-                "badge": badge_2,
-                "title": "Shocking Twist Ahead",
-                "text": plot_text,
+                "badge": "❓ BURNING MYSTERY",
+                "title": "The Unseen Conflict",
+                "text": f"{plot_text} Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
                 "backdrop_index": 1 % max_backdrops,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 3: Cast highlight
+            # Slide 3: Clue #1
             {
                 "id": "page-3",
-                "badge": "STAR POWER",
-                "title": "Powerhouse Ensemble",
-                "text": f"Led by {cast_str}, the film boasts phenomenal on-screen chemistry and career-defining performances directed by {director}.",
+                "badge": "🔍 CLUE #1: HIDDEN MOTIVE",
+                "title": "Secrets in Plain Sight",
+                "text": f"Led by {cast_str}, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
                 "backdrop_index": 2 % max_backdrops,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 4: Behind the scenes / Spectacle
+            # Slide 4: Clue #2
             {
                 "id": "page-4",
-                "badge": "BEHIND THE LENS",
-                "title": f"Directed by {director}",
-                "text": f"Filmmaker {director} pushed cinematic boundaries with practical stunts and groundbreaking IMAX visuals for total audience immersion.",
+                "badge": "🧩 CLUE #2: DIRECTOR'S VISION",
+                "title": f"Crafted by {director}",
+                "text": f"Director {director} placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
                 "backdrop_index": 3 % max_backdrops,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 5: Critical Reception & Buzz
+            # Slide 5: The Decoded Truth
             {
                 "id": "page-5",
-                "badge": "AUDIENCE REACTION",
-                "title": f"Rated {rating}/10 on TMDB",
-                "text": f"With an impressive {rating}/10 community score, fans and critics hail it as one of the year's standout theatrical events.",
+                "badge": "💡 THE DECODED TRUTH",
+                "title": "What The Climax Confirms",
+                "text": f"The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
                 "backdrop_index": 4 % max_backdrops,
                 "cta_text": None,
                 "cta_url": None
             },
-            # Slide 6: Final CTA slide
+            # Slide 6: Franchise Future / Sequel Roadmap
             {
                 "id": "page-6",
-                "badge": "YOUR TICKET",
-                "title": "Catch It On The Big Screen",
-                "text": f"Ready to dive into {movie.get('title')}? Discover showtimes, official trailers, and cast interviews today.",
+                "badge": "🎬 WHAT COMES NEXT",
+                "title": "Sequel & Franchise Lore" if not is_tv else "Next Season Roadmap",
+                "text": f"Holding an impressive {rating}/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
+                "backdrop_index": 5 % max_backdrops,
+                "cta_text": None,
+                "cta_url": None
+            },
+            # Slide 7: Interactive Binary Poll Slide
+            {
+                "id": "page-7",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "What Is Your Verdict?",
+                "text": f"Did the climax of {clean_title} satisfy you, or did it leave you needing answers? Cast your vote below.",
                 "backdrop_index": 0,
-                "cta_text": "Check Showtimes & Full Details",
+                "poll": {
+                    "id": f"poll-{slug}-verdict",
+                    "type": "binary",
+                    "prompt": f"Did the {clean_title} ending satisfy you?"[:45],
+                    "option1": "Genius twist 🔥",
+                    "option2": "Felt rushed 👎"
+                },
+                "cta_text": "Read Next Story ➔",
                 "cta_url": None
             }
         ]
 
         return {
             "title": title,
-            "seo_description": f"Discover {movie.get('title')}: cast, plot, behind-the-scenes trivia, and audience buzz in this visual AMP Web Story.",
+            "seo_description": f"Full {clean_title} climax breakdown: ending explained, hidden clues decoded, {cast_str} performances, and sequel prospects.",
             "movie": movie,
             "slides": slides
         }

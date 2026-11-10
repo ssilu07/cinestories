@@ -625,7 +625,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
 {top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <div class="badge-row">
-                      <span class="badge">UP NEXT</span>
+                      <span class="badge">{badge_text}</span>
                       <span class="category-pill">{category_name}</span>
                     </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{html.escape(final_title)}</h2>

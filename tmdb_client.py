@@ -78,24 +78,26 @@ class TMDBClient:
 
     def get_items_by_category(self, category: str, limit: int = 15, exclude_slugs: Optional[set] = None) -> List[Dict[str, Any]]:
         """
-        Fetch items by category: 'trending', 'series', 'cult_classic', 'upcoming', 'now_playing'.
+        Fetch items by category: 'trending', 'series', 'cult_classic', 'upcoming', 'now_playing', 'netflix_hits', 'ott_blockbusters'.
         Optionally skips items whose slugs are already in exclude_slugs to save API budget and avoid duplicates.
+        Enforces a freshness filter (>= 2023) so automated runs only surface modern trending content.
         """
         endpoint_map = {
             "upcoming": ("/movie/upcoming", "movie", {"vote_count.gte": "5"}),
             "now_playing": ("/movie/now_playing", "movie", {"vote_count.gte": "20"}),
-            "trending": ("/trending/movie/week", "movie", {}),
-            "series": ("/tv/popular", "tv", {"vote_count.gte": "50"}),
-            "popular_series": ("/tv/top_rated", "tv", {"vote_count.gte": "200"}),
+            "trending": ("/trending/all/day", "mixed", {}),
+            "series": ("/tv/popular", "tv", {"first_air_date.gte": "2023-01-01", "vote_count.gte": "30"}),
+            "popular_series": ("/tv/top_rated", "tv", {"first_air_date.gte": "2023-01-01", "vote_count.gte": "50"}),
             "cult_classic": ("/movie/top_rated", "movie", {"vote_count.gte": "500"}),
             "streaming_charts": ("/trending/tv/week", "tv", {}),
-            "netflix_hits": ("/discover/movie", "movie", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "80"}),
-            "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28,12", "sort_by": "popularity.desc", "vote_count.gte": "150"}),
-            "where_are_they_now": ("/discover/tv", "tv", {"sort_by": "vote_count.desc", "first_air_date.lte": "2018-01-01", "vote_count.gte": "300"}),
-            "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,80", "sort_by": "popularity.desc", "vote_count.gte": "80"})
+            "netflix_hits": ("/discover/tv", "tv", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "30"}),
+            "theories_easter_eggs": ("/discover/movie", "movie", {"with_genres": "878,28,12", "sort_by": "popularity.desc", "primary_release_date.gte": "2023-01-01", "vote_count.gte": "80"}),
+            "ott_blockbusters": ("/discover/tv", "tv", {"with_watch_providers": "8|9|119|337|350", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "40"}),
+            "where_are_they_now": ("/discover/tv", "tv", {"with_watch_providers": "8|9|119|337|350", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "40"}),
+            "steamy_thrillers": ("/discover/movie", "movie", {"with_genres": "53,80", "sort_by": "popularity.desc", "primary_release_date.gte": "2023-01-01", "vote_count.gte": "50"})
         }
 
-        entry = endpoint_map.get(category, ("/trending/movie/day", "movie", {}))
+        entry = endpoint_map.get(category, ("/trending/all/day", "mixed", {}))
         endpoint = entry[0]
         media_type = entry[1]
         extra_params = entry[2] if len(entry) > 2 else {}
@@ -123,14 +125,26 @@ class TMDBClient:
                         if item_pop < 12.0 and item_votes < 5:
                             continue
                     else:
-                        if item_pop < 15.0 and item_votes < 40:
+                        if item_pop < 15.0 and item_votes < 30:
                             continue
+
+                    # Freshness filter: Drop old catalog content unless category is cult_classic
+                    rel_date = item.get("release_date") or item.get("first_air_date") or ""
+                    if category != "cult_classic" and rel_date:
+                        try:
+                            rel_year = int(rel_date.split("-")[0])
+                            if rel_year < 2023:
+                                continue
+                        except Exception:
+                            pass
 
                     # Require valid imagery
                     if not item.get("poster_path") and not item.get("backdrop_path"):
                         continue
 
-                    if media_type == "tv":
+                    # Determine effective media type (mixed handles /trending/all/day)
+                    effective_type = item.get("media_type") or media_type
+                    if effective_type == "tv":
                         detailed = self.get_tv_details(item["id"], category=category)
                     else:
                         detailed = self.get_movie_details(item["id"], category=category)
@@ -334,15 +348,13 @@ class TMDBClient:
             return fresh_titles
 
         discovery_strategies = [
-            ("/discover/movie", "movie", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "100"}),
-            ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "100"}),
-            ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|337|350", "watch_region": "US", "sort_by": "popularity.desc", "vote_count.gte": "150"}),
-            ("/discover/movie", "movie", "trending", {"primary_release_year": "2025", "sort_by": "revenue.desc", "vote_count.gte": "50"}),
-            ("/discover/movie", "movie", "trending", {"primary_release_year": "2024", "sort_by": "revenue.desc", "vote_count.gte": "150"}),
-            ("/discover/movie", "movie", "theories_easter_eggs", {"with_genres": "878,28,12", "sort_by": "vote_count.desc", "vote_count.gte": "300"}),
-            ("/discover/movie", "movie", "cult_classic", {"sort_by": "vote_average.desc", "vote_count.gte": "800", "primary_release_date.gte": "2005-01-01"}),
-            ("/discover/movie", "movie", "steamy_thrillers", {"with_genres": "53,80", "sort_by": "popularity.desc", "vote_count.gte": "120"}),
-            ("/discover/tv", "tv", "where_are_they_now", {"sort_by": "vote_count.desc", "first_air_date.lte": "2019-01-01", "vote_count.gte": "300"}),
+            ("/trending/all/day", "mixed", "trending", {}),
+            ("/discover/tv", "tv", "netflix_hits", {"with_watch_providers": "8", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "30"}),
+            ("/discover/tv", "tv", "streaming_charts", {"with_watch_providers": "8|9|119|337|350", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "40"}),
+            ("/discover/movie", "movie", "trending", {"primary_release_date.gte": "2024-01-01", "sort_by": "popularity.desc", "vote_count.gte": "30"}),
+            ("/discover/movie", "movie", "theories_easter_eggs", {"with_genres": "878,28,12", "primary_release_date.gte": "2023-01-01", "sort_by": "popularity.desc", "vote_count.gte": "80"}),
+            ("/discover/movie", "movie", "steamy_thrillers", {"with_genres": "53,80", "primary_release_date.gte": "2023-01-01", "sort_by": "popularity.desc", "vote_count.gte": "40"}),
+            ("/discover/tv", "tv", "ott_blockbusters", {"with_watch_providers": "8|9|119|337|350", "watch_region": "US", "sort_by": "popularity.desc", "first_air_date.gte": "2023-01-01", "vote_count.gte": "30"}),
         ]
 
         for endpoint, media_type, category, extra_params in discovery_strategies:
@@ -362,10 +374,21 @@ class TMDBClient:
 
                     item_pop = item.get("popularity", 0.0)
                     item_votes = item.get("vote_count", 0)
-                    if item_pop < 15.0 and item_votes < 40:
+                    if item_pop < 15.0 and item_votes < 25:
                         continue
 
-                    if media_type == "tv":
+                    # Filter out older titles
+                    rel_date = item.get("release_date") or item.get("first_air_date") or ""
+                    if rel_date:
+                        try:
+                            rel_year = int(rel_date.split("-")[0])
+                            if rel_year < 2023:
+                                continue
+                        except Exception:
+                            pass
+
+                    effective_type = item.get("media_type") or media_type
+                    if effective_type == "tv":
                         detailed = self.get_tv_details(item["id"], category=category)
                     else:
                         detailed = self.get_movie_details(item["id"], category=category)
