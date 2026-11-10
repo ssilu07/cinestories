@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T12:21:27.674590+00:00",
-  "total_stories": 385,
+  "generated_at": "2026-11-10T12:22:20.013268+00:00",
+  "total_stories": 389,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 212989,
+      "slug": "lego-ninjago-dragons-rising",
+      "title": "LEGO Ninjago Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/stories/lego-ninjago-dragons-rising/",
+      "category": "netflix_hits",
+      "release_date": "2023-06-01",
+      "rating": 8.1
+    },
+    {
+      "id": 303745,
+      "slug": "love-in-disguise",
+      "title": "What Really Happened at the End of Love in Disguise? Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/love-in-disguise/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-19",
+      "rating": 9.1
+    },
+    {
+      "id": 330613,
+      "slug": "the-rules",
+      "title": "What Really Happened at the End of The Rules? Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-rules/",
+      "category": "trending",
+      "release_date": "2026-10-28",
+      "rating": 8.5
+    },
+    {
+      "id": 125988,
+      "slug": "silo",
+      "title": "Silo Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/stories/silo/",
+      "category": "ott_blockbusters",
+      "release_date": "2023-05-04",
+      "rating": 8.2
     },
     {
       "id": 209867,

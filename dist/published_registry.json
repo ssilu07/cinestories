@@ -2308,5 +2308,29 @@
     "published_at": "2026-11-10T12:13:43Z",
     "modified_at": "2026-11-10T12:13:43Z",
     "category": "ott_blockbusters"
+  },
+  "lego-ninjago-dragons-rising": {
+    "title": "LEGO Ninjago: Dragons Rising",
+    "published_at": "2026-11-10T12:22:07Z",
+    "modified_at": "2026-11-10T12:22:07Z",
+    "category": "netflix_hits"
+  },
+  "love-in-disguise": {
+    "title": "Love in Disguise",
+    "published_at": "2026-11-10T12:22:07Z",
+    "modified_at": "2026-11-10T12:22:07Z",
+    "category": "streaming_charts"
+  },
+  "the-rules": {
+    "title": "The Rules",
+    "published_at": "2026-11-10T12:22:07Z",
+    "modified_at": "2026-11-10T12:22:07Z",
+    "category": "trending"
+  },
+  "silo": {
+    "title": "Silo",
+    "published_at": "2026-11-10T12:22:07Z",
+    "modified_at": "2026-11-10T12:22:07Z",
+    "category": "ott_blockbusters"
   }
 }
