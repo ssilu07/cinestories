@@ -2284,5 +2284,29 @@
     "published_at": "2026-11-10T11:42:41Z",
     "modified_at": "2026-11-10T11:42:41Z",
     "category": "upcoming"
+  },
+  "frieren-beyond-journeys-end": {
+    "title": "Frieren: Beyond Journey's End",
+    "published_at": "2026-11-10T12:13:43Z",
+    "modified_at": "2026-11-10T12:13:43Z",
+    "category": "netflix_hits"
+  },
+  "sunshine-through-the-rain": {
+    "title": "Sunshine Through the Rain",
+    "published_at": "2026-11-10T12:13:43Z",
+    "modified_at": "2026-11-10T12:13:43Z",
+    "category": "streaming_charts"
+  },
+  "under-siege": {
+    "title": "Under Siege",
+    "published_at": "2026-11-10T12:13:43Z",
+    "modified_at": "2026-11-10T12:13:43Z",
+    "category": "trending"
+  },
+  "the-girlfriend": {
+    "title": "The Girlfriend",
+    "published_at": "2026-11-10T12:13:43Z",
+    "modified_at": "2026-11-10T12:13:43Z",
+    "category": "ott_blockbusters"
   }
 }
