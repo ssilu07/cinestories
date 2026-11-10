@@ -55,11 +55,11 @@ def get_latest_urls(limit: int = 50) -> List[str]:
     if stories_json.exists():
         try:
             data = json.loads(stories_json.read_text(encoding="utf-8"))
-            if isinstance(data, list):
-                for item in data[:limit]:
-                    slug = item.get("slug")
-                    if slug:
-                        urls.append(f"{DOMAIN_NAME}/stories/{slug}/")
+            story_list = data if isinstance(data, list) else data.get("stories", [])
+            for item in story_list[:limit]:
+                slug = item.get("slug")
+                if slug:
+                    urls.append(f"{DOMAIN_NAME}/stories/{slug}/")
         except Exception as e:
             print(f"[!] Notice reading stories.json for IndexNow: {e}")
 

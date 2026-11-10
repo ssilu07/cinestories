@@ -1,9 +1,99 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T08:15:08.864124+00:00",
-  "total_stories": 363,
+  "generated_at": "2026-11-10T11:10:01.162770+00:00",
+  "total_stories": 373,
   "stories": [
+    {
+      "id": 101352,
+      "slug": "panchayat-season-3",
+      "title": "Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending Decoded",
+      "url": "https://cinematicbites.com/stories/panchayat-season-3/",
+      "category": "series",
+      "release_date": "2024-05-28",
+      "rating": 8.7
+    },
+    {
+      "id": 84105,
+      "slug": "mirzapur-season-3",
+      "title": "Why Kaleen Bhaiya Killed Sharad Shukla: The Hidden Deal in Mirzapur 3!",
+      "url": "https://cinematicbites.com/stories/mirzapur-season-3/",
+      "category": "series",
+      "release_date": "2024-07-05",
+      "rating": 8.5
+    },
+    {
+      "id": 1112426,
+      "slug": "stree-2",
+      "title": "Is Akshay Kumar the 'Thanos' of Maddock Universe? Stree 2 Post-Credits Decoded!",
+      "url": "https://cinematicbites.com/stories/stree-2/",
+      "category": "cult_classic",
+      "release_date": "2024-08-15",
+      "rating": 7.4
+    },
+    {
+      "id": 801688,
+      "slug": "kalki-2898-ad",
+      "title": "Why Prabhas is Karna, Not Kalki: The Mind-Blowing Climax of Kalki 2898 AD!",
+      "url": "https://cinematicbites.com/stories/kalki-2898-ad/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-06-27",
+      "rating": 7.6
+    },
+    {
+      "id": 1344437,
+      "slug": "sector-36",
+      "title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
+      "url": "https://cinematicbites.com/stories/sector-36/",
+      "category": "netflix_hits",
+      "release_date": "2024-09-13",
+      "rating": 7.1
+    },
+    {
+      "id": 1341113,
+      "slug": "do-patti",
+      "title": "Did Dhruv Really Try to Kill Saumya? The Shocking Twist Ending of Do Patti Decoded!",
+      "url": "https://cinematicbites.com/stories/do-patti/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-25",
+      "rating": 6.8
+    },
+    {
+      "id": 1014505,
+      "slug": "devara-part-1",
+      "title": "The Next 'Katappa' Mystery: Why Did Vara Murder His Own Father Devara?",
+      "url": "https://cinematicbites.com/stories/devara-part-1/",
+      "category": "trending",
+      "release_date": "2024-09-27",
+      "rating": 7.0
+    },
+    {
+      "id": 1022789,
+      "slug": "pushpa-2-the-rule",
+      "title": "Pushpa 2 Ending Decoded: What That Shocking Wedding Blast Means for Pushpa 3!",
+      "url": "https://cinematicbites.com/stories/pushpa-2-the-rule/",
+      "category": "upcoming",
+      "release_date": "2024-12-05",
+      "rating": 8.0
+    },
+    {
+      "id": 93405,
+      "slug": "squid-game-season-2",
+      "title": "The Brutal Betrayal: Why Gi-hun\u2019s Armed Coup Failed in Squid Game Season 2!",
+      "url": "https://cinematicbites.com/stories/squid-game-season-2/",
+      "category": "netflix_hits",
+      "release_date": "2024-12-26",
+      "rating": 8.1
+    },
+    {
+      "id": 1269325,
+      "slug": "singham-again",
+      "title": "Chulbul Pandey Joins Singham: The Post-Credits Crossover That Broke the Internet!",
+      "url": "https://cinematicbites.com/stories/singham-again/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-11-01",
+      "rating": 6.5
+    },
     {
       "id": 1318447,
       "slug": "apex",

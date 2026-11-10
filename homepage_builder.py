@@ -15,6 +15,7 @@ from config import (
     SITE_TAGLINE,
     DIST_DIR,
     TMDB_IMAGE_POSTER,
+    TMDB_IMAGE_BACKDROP,
     get_ga_script,
     get_adsense_script
 )
@@ -65,6 +66,83 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             "genres": m.get("genres", []),
             "slides_count": len(s.get("slides", []))
         })
+
+    # Breakout Viral Hero Carousel generation (top 10 featured stories)
+    featured_stories = stories[:10]
+    carousel_slides_parts = []
+    carousel_dots_parts = []
+
+    for idx, s in enumerate(featured_stories):
+        active_class = "active" if idx == 0 else ""
+        m = s.get("movie", {})
+        slug = m.get("slug", "")
+        m_title = html.escape(m.get("title", ""))
+        headline = html.escape(s.get("title") or m.get("hook_title") or m.get("title", ""))
+        teaser = html.escape(m.get("catchy_teaser") or s.get("seo_description", ""))
+        b_path = m.get("backdrop_path")
+        b_url = f"{TMDB_IMAGE_BACKDROP}{b_path}" if b_path and b_path.startswith("/") else (b_path or f"{domain}/assets/logo.png")
+        cat = m.get("category", "trending")
+        
+        if "netflix" in cat or any(k in slug for k in ["squid", "sector", "patti"]):
+            platform = "NETFLIX"
+        elif any(k in slug for k in ["panchayat", "mirzapur", "singham"]):
+            platform = "PRIME VIDEO"
+        elif any(k in slug for k in ["stree", "pushpa", "devara", "kalki"]):
+            platform = "JIOCINEMA / THEATERS"
+        else:
+            platform = cat.replace("_", " ").upper()
+
+        slide_html = f"""
+        <div class="carousel-slide {active_class}" data-slide-index="{idx}">
+          <div class="slide-media-wrap">
+            <img src="{b_url}" alt="{m_title}" class="slide-bg" loading="{'eager' if idx == 0 else 'lazy'}" width="1280" height="720">
+            <div class="slide-scrim"></div>
+          </div>
+          <div class="slide-content">
+            <div class="slide-badges">
+              <span class="viral-glow-badge">🔥 BREAKOUT VIRAL HOOK</span>
+              <span class="platform-badge">{platform}</span>
+              <span class="platform-badge">★ {m.get('vote_average', 8.5)}</span>
+            </div>
+            <h3 class="slide-headline">{headline}</h3>
+            <p class="slide-teaser">{teaser}</p>
+            <div class="slide-actions">
+              <a href="/stories/{slug}/" class="btn-carousel-primary card-link" aria-label="Watch Web Story for {m_title}">
+                <span>⚡ Watch Web Story</span>
+              </a>
+              <a href="/articles/{slug}/" class="btn-carousel-secondary" aria-label="Read full article for {m_title}">
+                <span>📖 Read Climax Breakdown</span>
+              </a>
+            </div>
+          </div>
+        </div>"""
+        carousel_slides_parts.append(slide_html)
+        carousel_dots_parts.append(f'<button class="carousel-dot {active_class}" data-index="{idx}" aria-label="Slide {idx + 1}"></button>')
+
+    carousel_slides_html = "\n".join(carousel_slides_parts)
+    carousel_indicators_html = "\n".join(carousel_dots_parts)
+
+    hero_carousel_html = f"""
+    <!-- Breakout Viral Hero Carousel -->
+    <div class="hero-carousel-container" id="heroCarousel" aria-roledescription="carousel" aria-label="Trending Breakout Stories">
+      <div class="carousel-track" id="carouselTrack">
+        {carousel_slides_html}
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="carousel-arrow prev-arrow" id="carouselPrev" aria-label="Previous story">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="carousel-arrow next-arrow" id="carouselNext" aria-label="Next story">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+
+      <!-- Carousel Pagination Indicators -->
+      <div class="carousel-indicators" id="carouselIndicators">
+        {carousel_indicators_html}
+      </div>
+    </div>
+    """
 
     cards_json = json.dumps(cards_data)
 
@@ -810,6 +888,251 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       display: block;
       background: #090b10;
     }}
+    /* Hero Carousel Styling */
+    .hero-carousel-container {{
+      position: relative;
+      width: 100%;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-top: 24px;
+      margin-bottom: 32px;
+      border: 1px solid rgba(225, 29, 72, 0.35);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(225, 29, 72, 0.2);
+      aspect-ratio: 16 / 9;
+      max-height: 520px;
+      background: var(--surface);
+    }}
+
+    .carousel-track {{
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }}
+
+    .carousel-slide {{
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.6s;
+      display: flex;
+      align-items: flex-end;
+      padding: clamp(20px, 4vw, 44px);
+      box-sizing: border-box;
+    }}
+
+    .carousel-slide.active {{
+      opacity: 1;
+      visibility: visible;
+      z-index: 2;
+    }}
+
+    .slide-media-wrap {{
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }}
+
+    .slide-bg {{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+    }}
+
+    .slide-scrim {{
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(9, 11, 16, 0.1) 0%,
+        rgba(9, 11, 16, 0.4) 40%,
+        rgba(9, 11, 16, 0.88) 75%,
+        rgba(9, 11, 16, 0.98) 100%
+      );
+    }}
+
+    .slide-content {{
+      position: relative;
+      z-index: 3;
+      max-width: 820px;
+    }}
+
+    .slide-badges {{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }}
+
+    .viral-glow-badge {{
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #e11d48, #f59e0b);
+      color: #fff;
+      box-shadow: 0 2px 14px rgba(225, 29, 72, 0.5);
+    }}
+
+    .platform-badge {{
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #f8fafc;
+    }}
+
+    .slide-headline {{
+      font-size: clamp(20px, 3.2vw, 34px);
+      font-weight: 900;
+      line-height: 1.25;
+      letter-spacing: -0.6px;
+      color: #ffffff;
+      margin-bottom: 10px;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
+    }}
+
+    .slide-teaser {{
+      font-size: clamp(13px, 1.8vw, 15px);
+      color: #cbd5e1;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-width: 680px;
+    }}
+
+    .slide-actions {{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }}
+
+    .btn-carousel-primary {{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 22px;
+      background: var(--primary);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 999px;
+      text-decoration: none;
+      box-shadow: 0 4px 16px var(--primary-glow);
+      transition: transform 0.2s, background 0.2s;
+    }}
+
+    .btn-carousel-primary:hover {{
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+    }}
+
+    .btn-carousel-secondary {{
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 20px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 999px;
+      text-decoration: none;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all 0.2s;
+    }}
+
+    .btn-carousel-secondary:hover {{
+      background: rgba(255, 255, 255, 0.18);
+    }}
+
+    .carousel-arrow {{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 5;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(9, 11, 16, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: all 0.2s;
+    }}
+
+    .carousel-arrow:hover {{
+      background: var(--primary);
+      border-color: var(--primary);
+      transform: translateY(-50%) scale(1.08);
+    }}
+
+    .prev-arrow {{ left: 16px; }}
+    .next-arrow {{ right: 16px; }}
+
+    .carousel-indicators {{
+      position: absolute;
+      bottom: 16px;
+      right: 24px;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }}
+
+    .carousel-dot {{
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border: none;
+      padding: 0;
+    }}
+
+    .carousel-dot.active {{
+      width: 26px;
+      background: var(--primary);
+      box-shadow: 0 0 10px var(--primary-glow);
+    }}
+
+    @media (max-width: 640px) {{
+      .hero-carousel-container {{
+        aspect-ratio: 4 / 5;
+        max-height: none;
+      }}
+      .carousel-arrow {{
+        display: none;
+      }}
+      .slide-content {{
+        padding-bottom: 24px;
+      }}
+      .carousel-indicators {{
+        left: 20px;
+        right: auto;
+        bottom: 14px;
+      }}
+    }}
   </style>
 </head>
 <body>
@@ -845,6 +1168,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <p class="hero-subtitle">
       Explore immersive, fast-loading Google AMP Web Stories. Discover weekly Netflix, HBO &amp; Prime Top 10 releases (US/UK), deep Marvel &amp; DC post-credit theories, and nostalgic &ldquo;Where Are They Now?&rdquo; sitcom retrospectives.
     </p>
+
+    {hero_carousel_html}
 
     <!-- Controls Bar: Filter Pills & Search -->
     <div class="controls-bar">
@@ -1008,6 +1333,61 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         document.body.style.overflow = '';
       }}
     }});
+    // Hero Carousel Engine
+    const carouselSlides = document.querySelectorAll('.carousel-slide');
+    const carouselDots = document.querySelectorAll('.carousel-dot');
+    const prevBtn = document.getElementById('carouselPrev');
+    const nextBtn = document.getElementById('carouselNext');
+    let currentSlide = 0;
+    let autoSlideTimer = null;
+
+    function goToSlide(index) {{
+      if (!carouselSlides.length) return;
+      carouselSlides[currentSlide].classList.remove('active');
+      if (carouselDots[currentSlide]) carouselDots[currentSlide].classList.remove('active');
+      currentSlide = (index + carouselSlides.length) % carouselSlides.length;
+      carouselSlides[currentSlide].classList.add('active');
+      if (carouselDots[currentSlide]) carouselDots[currentSlide].classList.add('active');
+    }}
+
+    function nextCarouselSlide() {{ goToSlide(currentSlide + 1); }}
+    function prevCarouselSlide() {{ goToSlide(currentSlide - 1); }}
+
+    if (prevBtn) prevBtn.addEventListener('click', () => {{ prevCarouselSlide(); resetTimer(); }});
+    if (nextBtn) nextBtn.addEventListener('click', () => {{ nextCarouselSlide(); resetTimer(); }});
+
+    carouselDots.forEach((dot, idx) => {{
+      dot.addEventListener('click', () => {{ goToSlide(idx); resetTimer(); }});
+    }});
+
+    function startTimer() {{
+      autoSlideTimer = setInterval(nextCarouselSlide, 5000);
+    }}
+    function resetTimer() {{
+      clearInterval(autoSlideTimer);
+      startTimer();
+    }}
+    startTimer();
+
+    // Touch Swipe Support
+    let touchStartX = 0;
+    const carouselEl = document.getElementById('heroCarousel');
+    if (carouselEl) {{
+      carouselEl.addEventListener('touchstart', (e) => {{
+        touchStartX = e.changedTouches[0].screenX;
+        clearInterval(autoSlideTimer);
+      }}, {{ passive: true }});
+
+      carouselEl.addEventListener('touchend', (e) => {{
+        const touchEndX = e.changedTouches[0].screenX;
+        if (touchStartX - touchEndX > 50) nextCarouselSlide();
+        else if (touchEndX - touchStartX > 50) prevCarouselSlide();
+        startTimer();
+      }}, {{ passive: true }});
+
+      carouselEl.addEventListener('mouseenter', () => clearInterval(autoSlideTimer));
+      carouselEl.addEventListener('mouseleave', () => startTimer());
+    }}
   </script>
 </body>
 </html>

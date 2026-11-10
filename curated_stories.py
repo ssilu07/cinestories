@@ -7,6 +7,738 @@ Strictly compliant with Google AMP Web Story guidelines (Word count < 40 words p
 from typing import Dict, Any
 
 CURATED_STORIES: Dict[str, Dict[str, Any]] = {
+
+    # 1. Panchayat Season 3
+    "panchayat-season-3": {
+        "title": "Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending Decoded",
+        "seo_description": "Unpack the 3 crucial clues behind the shocking bus stand shooting of Pradhan Ji in Panchayat Season 3.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "⚡ CLIFFHANGER CLIMAX",
+                "title": "The Phulera Bloodshed",
+                "text": "Two masked motorbike assassins pulled triggers at the Phulera bus stand. Pradhan Ji was shot in the shoulder. But who ordered the hit?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "❓ THE BURNING MYSTERY",
+                "title": "Did Vidhayak Really Do It?",
+                "text": "Local MLA Vidhayak Ji has violent motives, but shooting Pradhan Ji days before the election guarantees an overwhelming sympathy wave for Phulera's camp.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🔍 CLUE #1: SHOULDER SHOT",
+                "title": "A Non-Fatal Wound",
+                "text": "The assassins had point-blank range, yet chose the shoulder rather than a fatal chest shot. Professional hit or a staged political drama?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🕵️ CLUE #2: BHUSHAN'S CALL",
+                "title": "The Informer's Alibi",
+                "text": "Banrakas Bhushan was standing near the market when the shooting occurred. His frantic reaction proved even the opposition camp was caught completely off guard.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "💡 THE DECODED TRUTH",
+                "title": "The Sympathy Wave Strategy",
+                "text": "With Manju Devi trailing in initial village opinion, a near-fatal shooting completely turned public sentiment. Pradhan Ji secured the election in blood.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🚜 VILLAGE POLITICS",
+                "title": "Real UP Panchayat Elections",
+                "text": "Director Deepak Kumar Mishra confirmed Season 4 focuses heavily on the police investigation and the fallout of the bus stand brawl.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-7",
+                "badge": "📺 SEASON 4 ROADMAP",
+                "title": "Sachiv Ji's Transfer Blocked",
+                "text": "Abhishek's transfer is officially suspended due to the criminal FIR. Season 4 will premiere on Amazon Prime Video in late 2025.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "What Do You Believe?",
+                "text": "Cast your vote below on who really pulled the strings behind the Phulera assassination attempt.",
+                "backdrop_index": 1,
+                "poll": {
+                    "id": "poll-panchayat-s3",
+                    "type": "binary",
+                    "prompt": "Did Pradhan Ji stage the shooting?",
+                    "option1": "Yes, 100% staged",
+                    "option2": "No, Vidhayak did it"
+                },
+                "cta_text": "Read Full Season 3 Breakdown",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 2. Mirzapur Season 3
+    "mirzapur-season-3": {
+        "title": "Why Kaleen Bhaiya Killed Sharad Shukla: The Hidden Deal in Mirzapur 3!",
+        "seo_description": "Unravel the shocking climax betrayal, Madhuri's hidden pact, and Maqbool's return in Mirzapur Season 3.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "👑 THRONE BETRAYAL",
+                "title": "The 10-Second Reign",
+                "text": "Sharad Shukla touched the throne of Mirzapur for barely ten seconds before a bullet ended his life. But who pulled the strings?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🤝 THE SECRET PACT",
+                "title": "Madhuri's Hidden Deal",
+                "text": "Chief Minister Madhuri Yadav promised Kaleen Bhaiya absolute immunity and Purvanchal control on one chilling condition: eliminate Sharad Shukla.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🩸 GUDDU'S MADNESS",
+                "title": "The Fall of Guddu Pandit",
+                "text": "Addicted to power and drugs, Guddu Pandit lost control of the streets, paving the way for Akhandanand Tripathi's calculated return.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎭 ROBIN'S FATE",
+                "title": "A Tragic Murder",
+                "text": "Guddu crushing Robin's throat in a fit of rage shattered his alliance with Dimpy, isolating himself completely before his arrest.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🎬 POST-CREDITS STINGER",
+                "title": "Maqbool Returns",
+                "text": "In the final post-credits scene, Beena Tripathi secretly contacts exiled enforcer Maqbool Khan, setting up an explosive vengeance arc.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "⚔️ JAIL ESCAPE SETUP",
+                "title": "Guddu Behind Bars",
+                "text": "With Golu orchestrating his rescue from prison, Guddu prepares for an all-out war across Uttar Pradesh in Season 4.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-7",
+                "badge": "📺 SEASON 4 RELEASE",
+                "title": "The Ultimate Finale",
+                "text": "Mirzapur Season 4 has officially entered pre-production, aiming for a late 2025 release on Amazon Prime Video.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Who Rules Mirzapur?",
+                "text": "Vote on who deserves to sit on the blood-soaked throne of Mirzapur in Season 4.",
+                "backdrop_index": 1,
+                "poll": {
+                    "id": "poll-mirzapur-s3",
+                    "type": "binary",
+                    "prompt": "Who will conquer Mirzapur in S4?",
+                    "option1": "Kaleen Bhaiya",
+                    "option2": "Guddu Pandit"
+                },
+                "cta_text": "Read Full Mirzapur 3 Breakdown",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 3. Stree 2
+    "stree-2": {
+        "title": "Is Akshay Kumar the 'Thanos' of Maddock Universe? Stree 2 Post-Credits Decoded!",
+        "seo_description": "Decode the shocking Sarkata post-credits scene, Akshay Kumar's supervillain role, and Shraddha's parentage in Stree 2.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "👻 CHANDERI UNIVERSE",
+                "title": "The Headless Menace",
+                "text": "The headless demon Sarkata terrified the women of Chanderi, forcing the town to unite with the spirit of Stree.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🔥 POST-CREDITS SHOCK",
+                "title": "Akshay Kumar Revealed",
+                "text": "Locked inside an asylum, Akshay Kumar plays Sarkata's descendant who inhales the demon's ashes to become the universe's ultimate supervillain.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "🩸 SHRADDHA'S SECRET",
+                "title": "Daughter of Stree",
+                "text": "Shraddha Kapoor's mysterious character was finally revealed as the biological daughter of the original Stree spirit from 1824.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🐺 BHEDIYA CROSSOVER",
+                "title": "Varun Dhawan's Entry",
+                "text": "Bhaskar transforms into Bhediya to battle Sarkata alongside Vicky, officially cementing the interconnected Maddock Supernatural Universe.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "🧠 THE THANOS PARALLEL",
+                "title": "Maddock's Master Villain",
+                "text": "Director Amar Kaushik confirmed Akshay Kumar's character will serve as the overarching villain across Stree 3, Bhediya 2, and Thama.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "💰 600 CRORE RECORD",
+                "title": "Box Office History",
+                "text": "Stree 2 shattered all records to become the highest-grossing Hindi film in domestic box office history, crossing 600 crore net.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "🔮 WHAT'S NEXT",
+                "title": "Roadmap to Stree 3",
+                "text": "Ayushmann Khurrana enters next in Thama as a vampire, leading directly into the massive ensemble showdown of Stree 3.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Ultimate Showdown Vote",
+                "text": "Who will defeat Akshay Kumar's supervillain in the Maddock Universe finale?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-stree-2",
+                    "type": "binary",
+                    "prompt": "Who defeats Sarkata's heir?",
+                    "option1": "Stree & Shraddha",
+                    "option2": "Bhediya & Vicky"
+                },
+                "cta_text": "Read Stree 2 Universe Guide",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 4. Kalki 2898 AD
+    "kalki-2898-ad": {
+        "title": "Why Prabhas is Karna, Not Kalki: The Mind-Blowing Climax of Kalki 2898 AD!",
+        "seo_description": "Unpack the epic Mahabharata connections, Bhairava's Karna awakening, and Supreme Yaskin's Gandiva bow in Kalki 2898 AD.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🏹 MAHABHARAT PROPHECY",
+                "title": "Divine Reincarnation",
+                "text": "In the dystopian wasteland of Kasi, bounty hunter Bhairava unwittingly unlocks cosmic power when he touches the divine staff Vijaya.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "⚡ THE KARNA REVEAL",
+                "title": "Not Kalki, But Karna!",
+                "text": "As the sun rises, memories of the Kurukshetra war ignite. Bhairava is revealed to be the reincarnation of Suryaputra Karna.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "🛡️ ASHWATTHAMA'S BOW",
+                "title": "The Immortal Recognizes Him",
+                "text": "Amitabh Bachchan's towering Ashwatthama stops his attack in awe, recognizing his fallen comrade's unmatched archery stance.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "👑 SUPREME YASKIN",
+                "title": "Kamal Haasan's Threat",
+                "text": "Supreme Yaskin absorbs the divine serum from Sumathi's unborn child and lifts Arjuna's legendary bow Gandiva.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "🌟 THE ACTUAL KALKI",
+                "title": "Sumathi's Unborn Child",
+                "text": "Director Nag Ashwin clarified that Deepika Padukone's unborn child is the true 10th avatar of Vishnu, not Bhairava.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "⚔️ PART 2 CONFLICT",
+                "title": "Karna vs Arjuna's Bow",
+                "text": "Kalki Part 2 will feature an epic mythological collision: Karna's reincarnation defending Kalki against Yaskin wielding Gandiva.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "🎬 CINEMATIC SCALE",
+                "title": "Global Box Office Giant",
+                "text": "Grossing over 1,000 crores worldwide, Kalki 2898 AD revolutionized Indian sci-fi filmmaking on a grand scale.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Mythological Clash Vote",
+                "text": "Who will triumph in the climactic battlefield of Kalki 2898 AD Part 2?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-kalki-2898",
+                    "type": "binary",
+                    "prompt": "Who wins the Part 2 duel?",
+                    "option1": "Bhairava (Karna)",
+                    "option2": "Supreme Yaskin"
+                },
+                "cta_text": "Read Kalki Climax Decoded",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 5. Sector 36
+    "sector-36": {
+        "title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
+        "seo_description": "Explore the chilling true crime origins, Vikrant Massey's interrogation scene, and police files behind Sector 36.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🔪 DARK CRIME THRILLER",
+                "title": "The House of Horrors",
+                "text": "A dilapidated bungalow in Sector 36 hides a sadistic butcher preying on slum children while local authorities look the other way.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🩸 VIKRANT'S MONSTER",
+                "title": "Prem Singh's Confession",
+                "text": "Vikrant Massey delivers a chilling performance as Prem, casually eating fried fish while describing his gruesome crimes without emotion.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "⚖️ THE NITHARI REALITY",
+                "title": "True 2006 Police Files",
+                "text": "Sector 36 is inspired by the infamous 2006 Nithari serial killings in Noida, where skulls and bones were unearthed from drainage ditches.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🕵️ THE TRAGIC COP",
+                "title": "Inspector Pandey's Awakening",
+                "text": "Deepak Dobriyal's Inspector Ram Charan Pandey transforms from a bribed cop to an obsessed father after his own daughter is targeted.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "🏛️ SYSTEMIC COLLAPSE",
+                "title": "Why the Rich Escape",
+                "text": "The film boldly illustrates how political influence shielded wealthy mastermind Bassi, mirroring the real-world Nithari court acquittals.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "⚠️ THE GRIM FINALE",
+                "title": "No Triumphant Justice",
+                "text": "Instead of a Bollywood heroic victory, Pandey is ruthlessly executed, leaving the corrupt hierarchy completely intact.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "📺 NETFLIX RECEPTION",
+                "title": "Critically Acclaimed Hit",
+                "text": "Directed by Aditya Nimbalkar, Sector 36 ranked among Netflix's top non-English films worldwide within 48 hours.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "True Crime Impact Vote",
+                "text": "Did Sector 36 portray the systemic failure of the justice system accurately?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-sector-36",
+                    "type": "binary",
+                    "prompt": "Did Sector 36 capture real Nithari?",
+                    "option1": "Yes, chillingly accurate",
+                    "option2": "Fictionalized too much"
+                },
+                "cta_text": "Read Sector 36 True Story",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 6. Do Patti
+    "do-patti": {
+        "title": "Did Dhruv Really Try to Kill Saumya? The Shocking Twist Ending of Do Patti Decoded!",
+        "seo_description": "Decode the twin sister paraglider conspiracy, Kriti Sanon's double role, and Kajol's moral dilemma in Do Patti.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🎭 IDENTICAL TWINS",
+                "title": "The Misty Hills Mystery",
+                "text": "In the picturesque town of Devigarh, identical twin sisters Saumya and Shailee play a lethal psychological game of deception.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🪂 SABOTAGED PARAGLIDER",
+                "title": "The Attempted Murder",
+                "text": "Saumya plunges from the sky in a sabotaged paraglider crash. All evidence points directly to her abusive husband Dhruv Sood.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "💡 THE TWIST ENDING",
+                "title": "The Mastermind Plan",
+                "text": "The paraglider harness was intentionally tampered with by the sisters themselves to send Dhruv to prison for attempted murder.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "📜 SECTION 498A",
+                "title": "Legal Loopholes Exposed",
+                "text": "Unable to secure justice against domestic abuse under weak laws, Saumya engineered an attempted murder charge to guarantee Dhruv's conviction.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "⚖️ KAJOL'S DILEMMA",
+                "title": "Inspector Vidya's Choice",
+                "text": "Kajol's Inspector Vidya uncovers the truth, but tears up the evidence in court, choosing moral justice over corrupt legality.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "🌟 KRITI'S DOUBLE ROLE",
+                "title": "Career-Best Performance",
+                "text": "Kriti Sanon delivered contrasting shades of vulnerability and venom as producer and lead in her first double role.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "📊 CHART-TOPPING RUN",
+                "title": "Global Netflix Success",
+                "text": "Do Patti reached the Global Top 10 on Netflix across 25 countries, generating viral social debates on domestic abuse laws.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Moral Dilemma Vote",
+                "text": "Was Inspector Vidya right to tear up the evidence and let the twins walk free?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-do-patti",
+                    "type": "binary",
+                    "prompt": "Did Kajol do the right thing?",
+                    "option1": "Yes, moral justice won",
+                    "option2": "No, breaking law is wrong"
+                },
+                "cta_text": "Read Do Patti Twist Decoded",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 7. Devara: Part 1
+    "devara-part-1": {
+        "title": "The Next 'Katappa' Mystery: Why Did Vara Murder His Own Father Devara?",
+        "seo_description": "Unpack the shocking patricide climax, the Red Sea shark battle, and Devara Part 2 setup in Jr NTR's action epic.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🌊 COASTAL CARNAGE",
+                "title": "The Smuggling Clans",
+                "text": "Four coastal villages fight over illegal sea smuggling until Devara demands an immediate end to blood-soaked piracy.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🦈 UNDERWATER TERROR",
+                "title": "The Shark Sequence",
+                "text": "Jr NTR delivers a legendary sea battle, riding and butchering a ferocious shark while retrieving contraband from the ocean deep.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "⚔️ THE GHOST ON WATER",
+                "title": "Fear Governs the Sea",
+                "text": "When Devara vanishes, his legendary weapons continue appearing on the shore, keeping the treacherous Bhaira terrified of the dark water.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🩸 THE PATRICIDE SHOCK",
+                "title": "Vara Killed Devara!",
+                "text": "The climax unleashes the biggest twist: mild-mannered son Vara stabbed his own father Devara in cold blood years ago.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "❓ WHY DID VARA KILL HIM?",
+                "title": "The Katappa Secret",
+                "text": "Did Devara order his son to sacrifice him to become an immortal symbol of fear, or did Vara have a sinister betrayal motive?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "👑 JR NTR'S DUAL ROLE",
+                "title": "Fierce vs Mild-Mannered",
+                "text": "Jr NTR's masterful physical transformation between the commanding father Devara and the cowardly son Vara stunned audiences.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "🎬 PART 2 ROADMAP",
+                "title": "The War of the Seas",
+                "text": "Devara Part 2 will unravel the true reason behind the patricide and pit Vara against Saif Ali Khan's vengeful Bhaira.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "The Big Mystery Vote",
+                "text": "Why did Vara murder his own father Devara?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-devara",
+                    "type": "binary",
+                    "prompt": "Why did Vara kill Devara?",
+                    "option1": "Devara ordered him to",
+                    "option2": "Vara secretly betrayed him"
+                },
+                "cta_text": "Read Devara Climax Breakdown",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 8. Pushpa 2: The Rule
+    "pushpa-2-the-rule": {
+        "title": "Pushpa 2 Ending Decoded: What That Shocking Wedding Blast Means for Pushpa 3!",
+        "seo_description": "Decode the high-octane Jaathara fight, Shekawat's revenge, and the Pushpa 3: The Rampage cliffhanger stinger.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🪓 THE SYNDICATE KING",
+                "title": "Pushpa Raj Rules",
+                "text": "Pushpa Raj establishes undisputed dominion over red sandalwood smuggling, challenging the entire state machinery.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🔥 JAATHARA SPECTACLE",
+                "title": "The Saree Fight",
+                "text": "Allu Arjun's breathtaking Jaathara dance sequence in blue silk saree and ghungroos set internet records with 100M views.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "👮 SHEKAWAT'S VENGEANCE",
+                "title": "The Climax Standoff",
+                "text": "Fahadh Faasil's humiliated SP Bhanwar Singh Shekawat unleashes an unhinged, scorched-earth strategy to execute Pushpa.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "💥 WEDDING CLIFFHANGER",
+                "title": "The Blast That Shook Fans",
+                "text": "An explosive ambush during a high-profile wedding leaves characters fighting for survival and pushes Pushpa into exile.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "🌍 INTERNATIONAL SCALE",
+                "title": "Red Sandalwood Empire",
+                "text": "Director Sukumar expands the battlefield beyond Seshachalam into ports in Japan, Malaysia, and the Middle East.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "⚡ PUSHPA 3 STINGER",
+                "title": "The Rampage Begins",
+                "text": "The post-credits title card officially confirms Pushpa 3: The Rampage, setting up an international syndicate war.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "💰 1,500 CRORE TARGET",
+                "title": "Box Office Juggernaut",
+                "text": "Pushpa 2 shattered advance booking records worldwide, cementing Allu Arjun as a pan-Indian box office powerhouse.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Sequel Hype Vote",
+                "text": "Will Pushpa 3: The Rampage cross the 2,000 crore mark globally?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-pushpa-2",
+                    "type": "binary",
+                    "prompt": "Will Pushpa 3 beat Pushpa 2?",
+                    "option1": "Yes, 2,000 Cr+ beast",
+                    "option2": "No, Part 2 was peak"
+                },
+                "cta_text": "Read Pushpa 2 Ending Decoded",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 9. Squid Game Season 2
+    "squid-game-season-2": {
+        "title": "The Brutal Betrayal: Why Gi-hun’s Armed Coup Failed in Squid Game Season 2!",
+        "seo_description": "Unpack the failed dormitory rebellion, the Front Man's psychological war, and new deadly games in Squid Game S2.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🦑 RETURN TO THE ARENA",
+                "title": "Player 456 is Back",
+                "text": "Three years after winning billions, Seong Gi-hun returns to the deadly island with crimson hair and a vow to dismantle the games.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "🔫 THE ARMED REBELLION",
+                "title": "Undercover Infiltration",
+                "text": "Gi-hun coordinates an armed insurrection inside the dormitories, teaming up with unexpected allies to target the pink guards.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "💔 THE BRUTAL BETRAYAL",
+                "title": "Why the Coup Failed",
+                "text": "When given the choice between freedom and a growing piggy bank of 45.6 billion won, the players vote 'O' to keep playing.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🎭 THE FRONT MAN'S GAME",
+                "title": "Lee Byung-hun's Trap",
+                "text": "The Front Man anticipated Gi-hun's rebellion, proving that human greed is the games' greatest weapon against reform.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "☠️ DEADLY NEW TRIALS",
+                "title": "Nostalgic Nightmares",
+                "text": "Season 2 introduces sadistic twists on traditional Korean childhood schoolyard games, eliminating contestants in seconds.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "📺 GLOBAL NETFLIX TITAN",
+                "title": "Record-Breaking Debut",
+                "text": "Squid Game Season 2 shattered Netflix premiere records across 90 countries on December 26, 2024.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-7",
+                "badge": "🔮 SEASON 3 FINALE",
+                "title": "The Final War in 2025",
+                "text": "Director Hwang Dong-hyuk shot Season 2 and Season 3 back-to-back. The series finale arrives on Netflix in mid-2025.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Gi-hun's Fate Vote",
+                "text": "Can Seong Gi-hun ever truly destroy the Squid Game organization?",
+                "backdrop_index": 1,
+                "poll": {
+                    "id": "poll-squid-game-s2",
+                    "type": "binary",
+                    "prompt": "Can Gi-hun end the game?",
+                    "option1": "Yes, Front Man dies",
+                    "option2": "No, the system wins"
+                },
+                "cta_text": "Read Squid Game 2 Climax",
+                "cta_url": None
+            }
+        ]
+    },
+
+    # 10. Singham Again
+    "singham-again": {
+        "title": "Chulbul Pandey Joins Singham: The Post-Credits Crossover That Broke the Internet!",
+        "seo_description": "Decode the epic Salman Khan Chulbul Pandey post-credits crossover, Ramayana allegory, and Cop Universe future in Singham Again.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "🦁 THE COP UNIVERSE",
+                "title": "Mission in Sri Lanka",
+                "text": "Bajirao Singham launches a cross-border rescue mission to save Avni from dangerous international terrorist Danger Lanka.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "📖 RAMAYANA ALLEGORY",
+                "title": "Mythological Parallels",
+                "text": "Rohit Shetty structured the narrative around the Ramayana: Singham as Rama, Avni as Sita, Simmba as Hanuman, and Sooryavanshi as Lakshmana.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-3",
+                "badge": "🔥 CHULBUL PANDEY CAMEO",
+                "title": "The Stinger That Blew Up",
+                "text": "Salman Khan swaggered onto screen in the post-credits scene, putting on his aviators to officially join the Cop Universe.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "🤝 SHETTY X DABANGG",
+                "title": "Mission Chulbul Singham",
+                "text": "Rohit Shetty and Salman Khan confirmed a standalone crossover film featuring Chulbul Pandey alongside Ajay Devgn's Singham.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-5",
+                "badge": "⚡ LADY SINGHAM",
+                "title": "Deepika's Shakti Shetty",
+                "text": "Deepika Padukone debuted as SP Shakti Shetty, bringing ruthless martial arts combat and cracking comedy into the squad.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-6",
+                "badge": "💥 DIWALI BOX OFFICE",
+                "title": "350 Crore Blockbuster",
+                "text": "Clashing against Bhool Bhulaiyaa 3, Singham Again delivered colossal Diwali collections backed by immense star power.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-7",
+                "badge": "🔮 WHAT'S NEXT",
+                "title": "Future of the Universe",
+                "text": "With Dabangg, Singham, Sooryavanshi, and Simmba under one banner, Bollywood's biggest franchise prepares for Mission 2026.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-8",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Universe Ranking Vote",
+                "text": "Who is your favorite cop in Rohit Shetty's expanded Cop Universe?",
+                "backdrop_index": 0,
+                "poll": {
+                    "id": "poll-singham-again",
+                    "type": "binary",
+                    "prompt": "Who is the top cop?",
+                    "option1": "Bajirao Singham",
+                    "option2": "Chulbul Pandey"
+                },
+                "cta_text": "Read Singham Again Post-Credits",
+                "cta_url": None
+            }
+        ]
+    }
+,
+
     # 1. Money Heist
     "money-heist": {
         "title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed 💰",

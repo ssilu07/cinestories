@@ -18,6 +18,7 @@ from config import (
     MIN_ARTICLE_WORDS
 )
 from curated_stories import CURATED_STORIES
+from curated_articles import CURATED_ARTICLES
 
 # Structured Output Schemas
 class SlideData(BaseModel):
@@ -512,6 +513,11 @@ HUMAN EDITORIAL TOUCH & ANTI-SPAM PROTOCOL:
         Deterministic, rich editorial synthesizer for Google Discover & Search articles.
         Generates 400+ words of structured journalism with distinct, non-repetitive, search-intent sections.
         """
+        slug = movie.get("slug", "")
+        if slug in CURATED_ARTICLES:
+            art = dict(CURATED_ARTICLES[slug])
+            art["movie"] = movie
+            return art
         title = movie.get("title", "Featured Film")
         director = movie.get("director") or "Acclaimed Filmmakers"
         top_cast = movie.get("top_cast", [])

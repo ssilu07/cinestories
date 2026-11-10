@@ -43,6 +43,19 @@ def generate_sitemap(
     ET.SubElement(discover_url, "changefreq").text = "hourly"
     ET.SubElement(discover_url, "priority").text = "0.95"
 
+    VIRAL_BREAKOUT_SLUGS = {
+        "panchayat-season-3",
+        "mirzapur-season-3",
+        "stree-2",
+        "kalki-2898-ad",
+        "sector-36",
+        "do-patti",
+        "devara-part-1",
+        "pushpa-2-the-rule",
+        "squid-game-season-2",
+        "singham-again"
+    }
+
     # 3. Google Discover Article URLs
     if articles:
         for article in articles:
@@ -59,8 +72,10 @@ def generate_sitemap(
             item_mod = article.get("date_modified") or article.get("date_published") or article.get("published_at")
             art_lastmod = item_mod[:10] if item_mod and len(item_mod) >= 10 else today_str
             ET.SubElement(url_elem, "lastmod").text = art_lastmod
-            ET.SubElement(url_elem, "changefreq").text = "daily"
-            ET.SubElement(url_elem, "priority").text = "0.85"
+            
+            is_viral = slug in VIRAL_BREAKOUT_SLUGS
+            ET.SubElement(url_elem, "changefreq").text = "hourly" if is_viral else "daily"
+            ET.SubElement(url_elem, "priority").text = "1.0" if is_viral else "0.85"
 
             # 1280px Backdrop Image tag for Google Chrome Discover
             backdrop_path = movie.get("backdrop_path")
@@ -85,8 +100,10 @@ def generate_sitemap(
         item_mod = story.get("date_modified") or story.get("date_published") or story.get("published_at")
         story_lastmod = item_mod[:10] if item_mod and len(item_mod) >= 10 else today_str
         ET.SubElement(url_elem, "lastmod").text = story_lastmod
-        ET.SubElement(url_elem, "changefreq").text = "weekly"
-        ET.SubElement(url_elem, "priority").text = "0.80"
+        
+        is_viral = slug in VIRAL_BREAKOUT_SLUGS
+        ET.SubElement(url_elem, "changefreq").text = "hourly" if is_viral else "weekly"
+        ET.SubElement(url_elem, "priority").text = "1.0" if is_viral else "0.80"
 
         # Poster Image tag for Web Story
         poster_path = movie.get("poster_path")

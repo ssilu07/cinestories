@@ -508,6 +508,13 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     }
     schema_json = json.dumps(schema_data, indent=2)
 
+    # Check for interactive poll elements across slides
+    has_interactive = any(bool(s.get("poll")) for s in story_data.get("slides", []))
+    interactive_head_script = (
+        '    <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>'
+        if has_interactive else ""
+    )
+
     # Generate slides
     slides = story_data.get("slides", [])
     slides_html_parts = []
@@ -540,6 +547,23 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                     <span class="story-brand-badge">⚡ {publisher}</span>
                   </div>
         """
+
+        poll_info = slide.get("poll")
+        poll_html = ""
+        if poll_info:
+            p_id = html.escape(str(poll_info.get("id") or f"poll-{movie.get('slug', 'story')}-{idx + 1}"))
+            p_prompt = html.escape(str(poll_info.get("prompt") or "What is your verdict?"))
+            p_opt1 = html.escape(str(poll_info.get("option1") or "Yes"))
+            p_opt2 = html.escape(str(poll_info.get("option2") or "No"))
+            p_endpoint = f"{domain}/api/poll"
+            poll_html = f"""
+                    <amp-story-interactive-binary-poll
+                      id="{p_id}"
+                      endpoint="{p_endpoint}"
+                      prompt-text="{p_prompt}"
+                      option-1-text="{p_opt1}"
+                      option-2-text="{p_opt2}">
+                    </amp-story-interactive-binary-poll>"""
 
         if is_first:
             # Slide 1: Cover slide
@@ -606,6 +630,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                     </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{html.escape(final_title)}</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">{html.escape(final_text)}</p>
+{poll_html}
                     <div class="final-nav-buttons">
                       <a href="{cta_url}" class="btn-next-story">
                         <span>Read Next Story</span>
@@ -652,6 +677,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
                     </div>
                     <h2 class="slide-title" animate-in="fly-in-bottom" animate-in-delay="0.1s">{slide_heading}</h2>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.2s">{slide_body}</p>
+{poll_html}
                     {cast_preview}
                   </div>
                 </div>
@@ -691,6 +717,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+{interactive_head_script}
 {ads_head_script}
 
     <!-- AMP Boilerplate CSS -->

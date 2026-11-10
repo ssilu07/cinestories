@@ -4,7 +4,270 @@ Legendary TV Series, and Cult Franchises with 100% authentic, verified 200 OK TM
 Includes high-CTR hook titles and catchy teasers for maximum engagement.
 """
 
-SAMPLE_MEDIA = [
+SAMPLE_MEDIA = [
+    # 1. Panchayat Season 3
+    {
+        "id": 101352,
+        "title": "Panchayat Season 3",
+        "original_title": "Panchayat",
+        "slug": "panchayat-season-3",
+        "media_type": "tv",
+        "release_date": "2024-05-28",
+        "hook_title": "The 3 Clues You Missed: Did Pradhan Ji Stage His Own Shooting in Panchayat S3?",
+        "catchy_teaser": "Masked assassins on motorbikes. A bullet in the shoulder. Did Phulera's Pradhan Ji fake the ambush?",
+        "overview": "As Phulera village prepares for high-stakes panchayat elections, political rivalry erupts into a violent assassination attempt on Pradhan Ji.",
+        "tagline": "Elections in Phulera are a matter of life and death.",
+        "genres": ["Comedy", "Drama"],
+        "runtime": 45,
+        "seasons": 3,
+        "vote_average": 8.7,
+        "vote_count": 890,
+        "category": "series",
+        "director": "Deepak Kumar Mishra",
+        "top_cast": ["Jitendra Kumar", "Neena Gupta", "Raghubir Yadav", "Faisal Malik", "Chandan Roy"],
+        "poster_path": "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
+        "backdrop_path": "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+        "backdrops": [
+            "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+            "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
+        ]
+    },
+    # 2. Mirzapur Season 3
+    {
+        "id": 84105,
+        "title": "Mirzapur Season 3",
+        "original_title": "Mirzapur",
+        "slug": "mirzapur-season-3",
+        "media_type": "tv",
+        "release_date": "2024-07-05",
+        "hook_title": "Why Kaleen Bhaiya Killed Sharad Shukla: The Hidden Deal in Mirzapur 3!",
+        "catchy_teaser": "Sharad Shukla touched the Mirzapur throne for 10 seconds before a bullet ended him. Unravel Kaleen Bhaiya's betrayal.",
+        "overview": "With Munna dead and Akhandanand Tripathi wounded in exile, Purvanchal descends into gang warfare for the throne of Mirzapur.",
+        "tagline": "The throne belongs to whoever has the courage to take it.",
+        "genres": ["Crime", "Drama", "Action"],
+        "runtime": 55,
+        "seasons": 3,
+        "vote_average": 8.5,
+        "vote_count": 1200,
+        "category": "series",
+        "director": "Gurmmeet Singh",
+        "top_cast": ["Pankaj Tripathi", "Ali Fazal", "Shweta Tripathi", "Rasika Dugal", "Vijay Varma"],
+        "poster_path": "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
+        "backdrop_path": "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+        "backdrops": [
+            "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+            "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
+        ]
+    },
+    # 3. Stree 2
+    {
+        "id": 1112426,
+        "title": "Stree 2",
+        "original_title": "Stree 2: Sarkate Ka Aatank",
+        "slug": "stree-2",
+        "media_type": "movie",
+        "release_date": "2024-08-15",
+        "hook_title": "Is Akshay Kumar the 'Thanos' of Maddock Universe? Stree 2 Post-Credits Decoded!",
+        "catchy_teaser": "Sarkata's ashes inhaled in an asylum. Shraddha's secret parentage. Inside Bollywood's biggest horror universe.",
+        "overview": "When the headless demon Sarkata abducts the women of Chanderi, Vicky and his friends must unite with the mysterious female spirit to save their town.",
+        "tagline": "Aatank Ka Naya Roop.",
+        "genres": ["Comedy", "Horror"],
+        "runtime": 147,
+        "seasons": None,
+        "vote_average": 7.4,
+        "vote_count": 1600,
+        "category": "cult_classic",
+        "director": "Amar Kaushik",
+        "top_cast": ["Shraddha Kapoor", "Rajkummar Rao", "Pankaj Tripathi", "Abhishek Banerjee", "Aparshakti Khurana"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 4. Kalki 2898 AD
+    {
+        "id": 801688,
+        "title": "Kalki 2898 AD",
+        "original_title": "Kalki 2898 AD",
+        "slug": "kalki-2898-ad",
+        "media_type": "movie",
+        "release_date": "2024-06-27",
+        "hook_title": "Why Prabhas is Karna, Not Kalki: The Mind-Blowing Climax of Kalki 2898 AD!",
+        "catchy_teaser": "The divine staff awakened memories of the Mahabharata. Ashwatthama bowed in shock. Discover the Karna reincarnation.",
+        "overview": "In the post-apocalyptic desert city of Kasi, a bounty hunter unwittingly crosses paths with ancient immortals protecting an unborn child destined to reshape humanity.",
+        "tagline": "The future of the world begins in Kasi.",
+        "genres": ["Sci-Fi", "Action", "Fantasy"],
+        "runtime": 181,
+        "seasons": None,
+        "vote_average": 7.6,
+        "vote_count": 2100,
+        "category": "theories_easter_eggs",
+        "director": "Nag Ashwin",
+        "top_cast": ["Prabhas", "Amitabh Bachchan", "Kamal Haasan", "Deepika Padukone", "Disha Patani"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 5. Sector 36
+    {
+        "id": 1344437,
+        "title": "Sector 36",
+        "original_title": "Sector 36",
+        "slug": "sector-36",
+        "media_type": "movie",
+        "release_date": "2024-09-13",
+        "hook_title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
+        "catchy_teaser": "Prem Singh eating casually while detailing child slayings. How much of Netflix's dark crime thriller actually happened?",
+        "overview": "Inspired by true events in 2006, a corrupt police officer investigates mysterious child disappearances from a Delhi slum, leading to a sadistic industrial bungalow.",
+        "tagline": "The truth is darker than you imagine.",
+        "genres": ["Crime", "Thriller", "Drama"],
+        "runtime": 124,
+        "seasons": None,
+        "vote_average": 7.1,
+        "vote_count": 450,
+        "category": "netflix_hits",
+        "director": "Aditya Nimbalkar",
+        "top_cast": ["Vikrant Massey", "Deepak Dobriyal", "Akash Khurana", "Darshan Jariwala"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 6. Do Patti
+    {
+        "id": 1341113,
+        "title": "Do Patti",
+        "original_title": "Do Patti",
+        "slug": "do-patti",
+        "media_type": "movie",
+        "release_date": "2024-10-25",
+        "hook_title": "Did Dhruv Really Try to Kill Saumya? The Shocking Twist Ending of Do Patti Decoded!",
+        "catchy_teaser": "Identical twin sisters. A sabotaged paraglider harness. Was Inspector Vidya right to let them walk free?",
+        "overview": "In the misty hills of Devigarh, a tough police inspector investigates an attempted murder case involving twin sisters and a wealthy, violent businessman.",
+        "tagline": "Two faces. One dangerous game.",
+        "genres": ["Mystery", "Thriller", "Drama"],
+        "runtime": 126,
+        "seasons": None,
+        "vote_average": 6.8,
+        "vote_count": 320,
+        "category": "netflix_hits",
+        "director": "Shashanka Chaturvedi",
+        "top_cast": ["Kajol", "Kriti Sanon", "Shaheer Sheikh", "Tanvi Azmi"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 7. Devara: Part 1
+    {
+        "id": 1014505,
+        "title": "Devara: Part 1",
+        "original_title": "Devara",
+        "slug": "devara-part-1",
+        "media_type": "movie",
+        "release_date": "2024-09-27",
+        "hook_title": "The Next 'Katappa' Mystery: Why Did Vara Murder His Own Father Devara?",
+        "catchy_teaser": "Mild-mannered Vara stabbed his father in cold blood. Did Devara ask his own son to kill him to protect the Red Sea?",
+        "overview": "A heroic sea warrior Devara refuses to continue illegal smuggling, sparking a deadly vendetta that ends in a shocking patricide.",
+        "tagline": "Fear walks on water.",
+        "genres": ["Action", "Drama"],
+        "runtime": 178,
+        "seasons": None,
+        "vote_average": 7.0,
+        "vote_count": 780,
+        "category": "trending",
+        "director": "Koratala Siva",
+        "top_cast": ["Jr NTR", "Saif Ali Khan", "Janhvi Kapoor", "Prakash Raj", "Srikanth"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 8. Pushpa 2: The Rule
+    {
+        "id": 1022789,
+        "title": "Pushpa 2: The Rule",
+        "original_title": "Pushpa 2: The Rule",
+        "slug": "pushpa-2-the-rule",
+        "media_type": "movie",
+        "release_date": "2024-12-05",
+        "hook_title": "Pushpa 2 Ending Decoded: What That Shocking Wedding Blast Means for Pushpa 3!",
+        "catchy_teaser": "SP Shekawat's revenge. An explosive wedding cliffhanger. What Pushpa's international syndicate means for The Rampage.",
+        "overview": "Pushpa Raj establishes absolute supremacy over red sandalwood smuggling, confronting the ruthless revenge of SP Bhanwar Singh Shekawat.",
+        "tagline": "Rule begins here.",
+        "genres": ["Action", "Crime", "Thriller"],
+        "runtime": 200,
+        "seasons": None,
+        "vote_average": 8.0,
+        "vote_count": 1900,
+        "category": "upcoming",
+        "director": "Sukumar",
+        "top_cast": ["Allu Arjun", "Rashmika Mandanna", "Fahadh Faasil", "Jagapathi Babu", "Prakash Raj"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
+    # 9. Squid Game Season 2
+    {
+        "id": 93405,
+        "title": "Squid Game Season 2",
+        "original_title": "오징어 게임 시즌 2",
+        "slug": "squid-game-season-2",
+        "media_type": "tv",
+        "release_date": "2024-12-26",
+        "hook_title": "The Brutal Betrayal: Why Gi-hun’s Armed Coup Failed in Squid Game Season 2!",
+        "catchy_teaser": "Player 456 returned with weapons and a plan to end the game. Why did player greed destroy his rebellion?",
+        "overview": "Years after winning the deadly games, Seong Gi-hun returns to the arena with an undercover rebellion, facing a psychological war against the Front Man.",
+        "tagline": "The real game begins now.",
+        "genres": ["Action & Adventure", "Mystery", "Drama"],
+        "runtime": 60,
+        "seasons": 2,
+        "vote_average": 8.1,
+        "vote_count": 15000,
+        "category": "netflix_hits",
+        "director": "Hwang Dong-hyuk",
+        "top_cast": ["Lee Jung-jae", "Lee Byung-hun", "Wi Ha-joon", "Yim Si-wan", "Kang Ha-neul"],
+        "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+        "backdrop_path": "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+        "backdrops": [
+            "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+            "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+        ]
+    },
+    # 10. Singham Again
+    {
+        "id": 1269325,
+        "title": "Singham Again",
+        "original_title": "Singham Again",
+        "slug": "singham-again",
+        "media_type": "movie",
+        "release_date": "2024-11-01",
+        "hook_title": "Chulbul Pandey Joins Singham: The Post-Credits Crossover That Broke the Internet!",
+        "catchy_teaser": "Salman Khan's aviators in the collar. Rohit Shetty unites the Cop Universe with Dabangg for Mission Chulbul Singham.",
+        "overview": "Bajirao Singham leads an all-star police task force across borders to rescue his kidnapped wife from a terrorist syndicate in Sri Lanka.",
+        "tagline": "The roar echoes louder than ever.",
+        "genres": ["Action", "Drama"],
+        "runtime": 144,
+        "seasons": None,
+        "vote_average": 6.5,
+        "vote_count": 820,
+        "category": "theories_easter_eggs",
+        "director": "Rohit Shetty",
+        "top_cast": ["Ajay Devgn", "Kareena Kapoor Khan", "Akshay Kumar", "Ranveer Singh", "Salman Khan"],
+        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrops": [
+            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+        ]
+    },
     # 1. Money Heist (La Casa de Papel)
     {
         "id": 71446,

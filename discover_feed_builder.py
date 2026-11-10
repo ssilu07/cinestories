@@ -64,6 +64,12 @@ def build_discover_feed_html(
 
     cards_json = json.dumps(feed_cards_data)
 
+    VIRAL_SPOTLIGHT_SLUGS = {
+        'panchayat-season-3', 'mirzapur-season-3', 'stree-2', 'kalki-2898-ad',
+        'sector-36', 'do-patti', 'devara-part-1', 'pushpa-2-the-rule',
+        'squid-game-season-2', 'singham-again'
+    }
+
     cards_html_list = []
     for c in feed_cards_data:
         cat = c["category"]
@@ -84,12 +90,16 @@ def build_discover_feed_html(
         else:
             cat_label = cat.replace("_", " ").title()
 
+        is_spotlight = c["slug"] in VIRAL_SPOTLIGHT_SLUGS
+        spotlight_class = " spotlight-card" if is_spotlight else ""
+        spotlight_tag = '<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>\n              ' if is_spotlight else ""
+
         card_html = f"""
-        <article class="discover-card" data-category="{cat}" data-title="{html.escape(c['headline'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}">
+        <article class="discover-card{spotlight_class}" data-category="{cat}" data-title="{html.escape(c['headline'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}">
           <a href="{c['article_url']}" class="card-media-link" aria-label="{html.escape(c['headline'])}">
             <div class="card-img-wrap">
               <img src="{c['backdrop_url']}" alt="{html.escape(c['headline'])}" class="card-img" loading="lazy" width="600" height="338">
-              <span class="card-cat-badge">{cat_label}</span>
+              {spotlight_tag}<span class="card-cat-badge">{cat_label}</span>
               <span class="card-rating-badge">★ {c['rating']}</span>
             </div>
           </a>
@@ -394,6 +404,32 @@ def build_discover_feed_html(
       transform: translateY(-3px);
       border-color: rgba(255, 255, 255, 0.2);
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }}
+
+    .discover-card.spotlight-card {{
+      border: 1px solid rgba(225, 29, 72, 0.45);
+      box-shadow: 0 10px 32px rgba(225, 29, 72, 0.2), 0 0 20px rgba(225, 29, 72, 0.12);
+    }}
+
+    .spotlight-tag {{
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      font-size: 10.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #e11d48, #f59e0b);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(225, 29, 72, 0.5);
+      z-index: 2;
+    }}
+
+    .discover-card.spotlight-card .card-cat-badge {{
+      left: auto;
+      right: 12px;
     }}
 
     .card-media-link {{
