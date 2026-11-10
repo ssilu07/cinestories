@@ -2152,5 +2152,29 @@
     "published_at": "2026-11-09T22:04:12Z",
     "modified_at": "2026-11-09T22:04:12Z",
     "category": "upcoming"
+  },
+  "apex": {
+    "title": "Apex",
+    "published_at": "2026-11-10T08:04:53Z",
+    "modified_at": "2026-11-10T08:04:53Z",
+    "category": "netflix_hits"
+  },
+  "rick-and-morty": {
+    "title": "Rick and Morty",
+    "published_at": "2026-11-10T08:04:53Z",
+    "modified_at": "2026-11-10T08:04:53Z",
+    "category": "streaming_charts"
+  },
+  "the-good-lawyer": {
+    "title": "The Good Lawyer",
+    "published_at": "2026-11-10T08:04:53Z",
+    "modified_at": "2026-11-10T08:04:53Z",
+    "category": "trending"
+  },
+  "how-to-rob-a-bank": {
+    "title": "How to Rob a Bank",
+    "published_at": "2026-11-10T08:04:53Z",
+    "modified_at": "2026-11-10T08:04:53Z",
+    "category": "upcoming"
   }
 }

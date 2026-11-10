@@ -1,9 +1,45 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-09T22:14:59.450130+00:00",
-  "total_stories": 359,
+  "generated_at": "2026-11-10T08:15:08.864124+00:00",
+  "total_stories": 363,
   "stories": [
+    {
+      "id": 1318447,
+      "slug": "apex",
+      "title": "Apex: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/apex/",
+      "category": "netflix_hits",
+      "release_date": "2026-04-24",
+      "rating": 6.9
+    },
+    {
+      "id": 60625,
+      "slug": "rick-and-morty",
+      "title": "Inside Rick and Morty: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/stories/rick-and-morty/",
+      "category": "streaming_charts",
+      "release_date": "2013-12-02",
+      "rating": 8.7
+    },
+    {
+      "id": 1616419,
+      "slug": "the-good-lawyer",
+      "title": "The Good Lawyer: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-good-lawyer/",
+      "category": "trending",
+      "release_date": "2026-09-11",
+      "rating": 8.5
+    },
+    {
+      "id": 1437511,
+      "slug": "how-to-rob-a-bank",
+      "title": "What Really Happened at the Climax of How to Rob a Bank? Clues Decoded",
+      "url": "https://cinematicbites.com/stories/how-to-rob-a-bank/",
+      "category": "upcoming",
+      "release_date": "2026-11-10",
+      "rating": 8.0
+    },
     {
       "id": 18239,
       "slug": "the-twilight-saga-new-moon",
