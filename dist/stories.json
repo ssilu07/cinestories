@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T12:19:33.307522+00:00",
-  "total_stories": 381,
+  "generated_at": "2026-11-10T12:21:27.674590+00:00",
+  "total_stories": 385,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 209867,
+      "slug": "frieren-beyond-journeys-end",
+      "title": "Frieren Season 2 Roadmap: Release Date, Cast & Unresolved Clues \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/frieren-beyond-journeys-end/",
+      "category": "netflix_hits",
+      "release_date": "2023-09-29",
+      "rating": 8.8
+    },
+    {
+      "id": 307853,
+      "slug": "sunshine-through-the-rain",
+      "title": "The 1 Insane Clue In Sunshine Through the Rain That Fans Completely Miss",
+      "url": "https://cinematicbites.com/stories/sunshine-through-the-rain/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-06",
+      "rating": 9.5
+    },
+    {
+      "id": 297491,
+      "slug": "under-siege",
+      "title": "Under Siege Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/under-siege/",
+      "category": "trending",
+      "release_date": "2026-11-06",
+      "rating": 6.0
+    },
+    {
+      "id": 253376,
+      "slug": "the-girlfriend",
+      "title": "Who Really Pulled The Trigger in The Girlfriend? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642",
+      "url": "https://cinematicbites.com/stories/the-girlfriend/",
+      "category": "ott_blockbusters",
+      "release_date": "2025-09-10",
+      "rating": 7.2
     },
     {
       "id": 679,
