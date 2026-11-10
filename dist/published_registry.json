@@ -2260,5 +2260,29 @@
     "published_at": "2026-11-10T11:11:49Z",
     "modified_at": "2026-11-10T11:11:49Z",
     "category": "upcoming"
+  },
+  "aliens": {
+    "title": "Aliens",
+    "published_at": "2026-11-10T11:42:41Z",
+    "modified_at": "2026-11-10T11:42:41Z",
+    "category": "netflix_hits"
+  },
+  "the-devils-plan": {
+    "title": "The Devil's Plan",
+    "published_at": "2026-11-10T11:42:41Z",
+    "modified_at": "2026-11-10T11:42:41Z",
+    "category": "streaming_charts"
+  },
+  "im-game": {
+    "title": "I'm Game",
+    "published_at": "2026-11-10T11:42:41Z",
+    "modified_at": "2026-11-10T11:42:41Z",
+    "category": "trending"
+  },
+  "focker-in-law": {
+    "title": "Focker-in-Law",
+    "published_at": "2026-11-10T11:42:41Z",
+    "modified_at": "2026-11-10T11:42:41Z",
+    "category": "upcoming"
   }
 }

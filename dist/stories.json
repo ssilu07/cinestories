@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T11:40:03.177791+00:00",
-  "total_stories": 377,
+  "generated_at": "2026-11-10T11:43:19.656396+00:00",
+  "total_stories": 381,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 679,
+      "slug": "aliens",
+      "title": "Aliens Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/aliens/",
+      "category": "netflix_hits",
+      "release_date": "1986-07-18",
+      "rating": 8.0
+    },
+    {
+      "id": 214582,
+      "slug": "the-devils-plan",
+      "title": "The Devil's Plan Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/the-devils-plan/",
+      "category": "streaming_charts",
+      "release_date": "2023-09-26",
+      "rating": 7.6
+    },
+    {
+      "id": 1250502,
+      "slug": "im-game",
+      "title": "The Twisted Climax of I'm Game: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/im-game/",
+      "category": "trending",
+      "release_date": "2026-09-03",
+      "rating": 7.2
+    },
+    {
+      "id": 1400336,
+      "slug": "focker-in-law",
+      "title": "Focker-in-Law: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/focker-in-law/",
+      "category": "upcoming",
+      "release_date": "2026-11-21",
+      "rating": 0.0
     },
     {
       "id": 829557,
