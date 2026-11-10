@@ -36,4 +36,9 @@ Thumbs.db
 credentials*.json
 *tumblr_pending*.json
 
+# Test runner artifacts
+adversarial_*.py
+*test_suite*.py
+temp_*.py
+
 

@@ -20,6 +20,20 @@ from config import (
     get_adsense_script
 )
 
+# Canonical 10 Breakout Viral Spotlight Slugs pinned in the Hero Carousel
+VIRAL_SPOTLIGHT_SLUGS: List[str] = [
+    "panchayat-season-3",
+    "mirzapur-season-3",
+    "stree-2",
+    "kalki-2898-ad",
+    "sector-36",
+    "do-patti",
+    "devara-part-1",
+    "pushpa-2-the-rule",
+    "squid-game-season-2",
+    "singham-again"
+]
+
 def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME) -> str:
     """
     Renders the modern, dark cinema-themed landing page.
@@ -36,9 +50,34 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     upcoming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "upcoming")
     steamy_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "steamy_thrillers")
 
+    # Pin breakout viral stories for the Hero Carousel using VIRAL_SPOTLIGHT_SLUGS
+    story_map: Dict[str, Dict[str, Any]] = {}
+    for s in stories:
+        m = s.get("movie", {}) if isinstance(s.get("movie"), dict) else {}
+        s_slug = m.get("slug") or s.get("slug")
+        if s_slug and s_slug not in story_map:
+            story_map[s_slug] = s
+
+    # 1. Pinned breakout stories in canonical order matching VIRAL_SPOTLIGHT_SLUGS
+    pinned_stories: List[Dict[str, Any]] = [
+        story_map[slug] for slug in VIRAL_SPOTLIGHT_SLUGS if slug in story_map
+    ]
+
+    # 2. Backfill with remaining stories if fewer than 10 breakout stories are present
+    pinned_slug_set = {
+        (s.get("movie", {}).get("slug") or s.get("slug"))
+        for s in pinned_stories
+    }
+    remaining_stories = [
+        s for s in stories
+        if (s.get("movie", {}).get("slug") or s.get("slug")) not in pinned_slug_set
+    ]
+    featured_stories = (pinned_stories + remaining_stories)[:10]
+    ordered_stories = pinned_stories + remaining_stories
+
     # Prepare cards data
     cards_data = []
-    for s in stories:
+    for s in ordered_stories:
         m = s.get("movie", {})
         slug = m.get("slug", "story")
         poster = m.get("poster_path")
@@ -67,8 +106,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             "slides_count": len(s.get("slides", []))
         })
 
-    # Breakout Viral Hero Carousel generation (top 10 featured stories)
-    featured_stories = stories[:10]
+    # Breakout Viral Hero Carousel generation (pinned 10 breakout viral stories)
     carousel_slides_parts = []
     carousel_dots_parts = []
 
@@ -1402,7 +1440,17 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
     with open(index_file, "w", encoding="utf-8") as f:
         f.write(html_str)
 
-    # Save stories.json manifest
+    # Save stories.json manifest (prioritizing pinned breakout titles)
+    story_map_m: Dict[str, Dict[str, Any]] = {}
+    for s in stories:
+        m = s.get("movie", {}) if isinstance(s.get("movie"), dict) else {}
+        s_slug = m.get("slug") or s.get("slug")
+        if s_slug and s_slug not in story_map_m:
+            story_map_m[s_slug] = s
+    pinned_m = [story_map_m[slug] for slug in VIRAL_SPOTLIGHT_SLUGS if slug in story_map_m]
+    pinned_set_m = {(s.get("movie", {}).get("slug") or s.get("slug")) for s in pinned_m}
+    ordered_manifest = pinned_m + [s for s in stories if (s.get("movie", {}).get("slug") or s.get("slug")) not in pinned_set_m]
+
     manifest_data = {
         "site_name": SITE_NAME,
         "domain": domain,
@@ -1418,7 +1466,7 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
                 "release_date": s.get("movie", {}).get("release_date"),
                 "rating": s.get("movie", {}).get("vote_average")
             }
-            for s in stories
+            for s in ordered_manifest
         ]
     }
     with open(output_dir / "stories.json", "w", encoding="utf-8") as f:

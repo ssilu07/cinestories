@@ -18,7 +18,8 @@ from config import (
     SITEMAP_PATH,
     ARTICLES_JSON_PATH,
     STORIES_JSON_PATH,
-    REGISTRY_PATH
+    REGISTRY_PATH,
+    TARGET_BREAKOUT_SLUGS
 )
 from sample_data import SAMPLE_MEDIA
 from curated_stories import CURATED_STORIES
@@ -130,46 +131,50 @@ def main():
     cache_stories_path = DIST_DIR / "stories_cache.json"
     cache_articles_path = DIST_DIR / "articles_cache.json"
 
+    from fetch_and_generate import anchor_catalog_items, story_fallback_builder, article_fallback_builder
+
     # Merge stories
-    combined_stories = list(new_stories)
-    seen_story_slugs = set(TARGET_BREAKOUT_SLUGS)
+    old_stories = []
     if cache_stories_path.exists():
         try:
             with open(cache_stories_path, "r", encoding="utf-8") as f:
                 old_stories = json.load(f)
-            for s in old_stories:
-                s_slug = s.get("movie", {}).get("slug")
-                if s_slug and s_slug not in seen_story_slugs:
-                    combined_stories.append(s)
-                    seen_story_slugs.add(s_slug)
         except Exception as e:
             print(f"[!] Warning reading old stories cache: {e}")
+
+    combined_stories = anchor_catalog_items(
+        new_items=new_stories,
+        old_items=old_stories,
+        target_slugs=TARGET_BREAKOUT_SLUGS,
+        fallback_builder=story_fallback_builder
+    )
 
     with open(cache_stories_path, "w", encoding="utf-8") as f:
         json.dump(combined_stories, f, indent=2, default=str)
 
     # Merge articles
-    combined_articles = list(new_articles)
-    seen_art_slugs = set(TARGET_BREAKOUT_SLUGS)
+    old_articles = []
     if cache_articles_path.exists():
         try:
             with open(cache_articles_path, "r", encoding="utf-8") as f:
                 old_articles = json.load(f)
-            for a in old_articles:
-                a_slug = a.get("movie", {}).get("slug")
-                if a_slug and a_slug not in seen_art_slugs:
-                    combined_articles.append(a)
-                    seen_art_slugs.add(a_slug)
         except Exception as e:
             print(f"[!] Warning reading old articles cache: {e}")
+
+    combined_articles = anchor_catalog_items(
+        new_items=new_articles,
+        old_items=old_articles,
+        target_slugs=TARGET_BREAKOUT_SLUGS,
+        fallback_builder=article_fallback_builder
+    )
 
     with open(cache_articles_path, "w", encoding="utf-8") as f:
         json.dump(combined_articles, f, indent=2, default=str)
     with open(ARTICLES_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(combined_articles, f, indent=2, default=str)
 
-    print(f"  ✓ Updated stories_cache.json: {len(combined_stories)} total stories")
-    print(f"  ✓ Updated articles_cache.json: {len(combined_articles)} total articles")
+    print(f"  ✓ Updated stories_cache.json: {len(combined_stories)} total stories (10 breakout titles anchored at indices 0..9)")
+    print(f"  ✓ Updated articles_cache.json: {len(combined_articles)} total articles (10 breakout titles anchored at indices 0..9)")
 
     # 3. Rebuild Portals, Sitemap, Feeds
     print("\n[4/5] Rebuilding Homepage, Discover Feed, Sitemap, and RSS Feeds...")

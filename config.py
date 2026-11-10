@@ -126,3 +126,18 @@ ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
 DISCOVER_DIR.mkdir(parents=True, exist_ok=True)
 ASSETS_DIR.mkdir(parents=True, exist_ok=True)
 
+# 10 Breakout Viral Content Slate (Permanent Anchor at head of catalogs & hero carousel)
+TARGET_BREAKOUT_SLUGS = [
+    "panchayat-season-3",
+    "mirzapur-season-3",
+    "stree-2",
+    "kalki-2898-ad",
+    "sector-36",
+    "do-patti",
+    "devara-part-1",
+    "pushpa-2-the-rule",
+    "squid-game-season-2",
+    "singham-again"
+]
+VIRAL_SPOTLIGHT_SLUGS = TARGET_BREAKOUT_SLUGS
+

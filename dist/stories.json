@@ -1,45 +1,9 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T11:14:20.761621+00:00",
+  "generated_at": "2026-11-10T11:40:03.177791+00:00",
   "total_stories": 377,
   "stories": [
-    {
-      "id": 829557,
-      "slug": "365-days-this-day",
-      "title": "Inside 365 Days: This Day: Why Audiences Are Obsessed With The Ending",
-      "url": "https://cinematicbites.com/stories/365-days-this-day/",
-      "category": "netflix_hits",
-      "release_date": "2022-04-26",
-      "rating": 5.9
-    },
-    {
-      "id": 270431,
-      "slug": "when-i-meet-the-moon",
-      "title": "Why When I Meet the Moon Is Dominating Global Charts: Ending & Season Cl",
-      "url": "https://cinematicbites.com/stories/when-i-meet-the-moon/",
-      "category": "streaming_charts",
-      "release_date": "2026-11-05",
-      "rating": 9.2
-    },
-    {
-      "id": 1381221,
-      "slug": "misty-green",
-      "title": "Why Misty Green Left Audiences Stunned: Full Plot & Clues Breakdown",
-      "url": "https://cinematicbites.com/stories/misty-green/",
-      "category": "trending",
-      "release_date": "2026-10-09",
-      "rating": 6.8
-    },
-    {
-      "id": 1801870,
-      "slug": "second-chance-holiday",
-      "title": "Why Second Chance Holiday Left Audiences Stunned: Full Plot & Clues Brea",
-      "url": "https://cinematicbites.com/stories/second-chance-holiday/",
-      "category": "upcoming",
-      "release_date": "2026-11-17",
-      "rating": 0.0
-    },
     {
       "id": 101352,
       "slug": "panchayat-season-3",
@@ -129,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 829557,
+      "slug": "365-days-this-day",
+      "title": "Inside 365 Days: This Day: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/stories/365-days-this-day/",
+      "category": "netflix_hits",
+      "release_date": "2022-04-26",
+      "rating": 5.9
+    },
+    {
+      "id": 270431,
+      "slug": "when-i-meet-the-moon",
+      "title": "Why When I Meet the Moon Is Dominating Global Charts: Ending & Season Cl",
+      "url": "https://cinematicbites.com/stories/when-i-meet-the-moon/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-05",
+      "rating": 9.2
+    },
+    {
+      "id": 1381221,
+      "slug": "misty-green",
+      "title": "Why Misty Green Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/stories/misty-green/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.8
+    },
+    {
+      "id": 1801870,
+      "slug": "second-chance-holiday",
+      "title": "Why Second Chance Holiday Left Audiences Stunned: Full Plot & Clues Brea",
+      "url": "https://cinematicbites.com/stories/second-chance-holiday/",
+      "category": "upcoming",
+      "release_date": "2026-11-17",
+      "rating": 0.0
     },
     {
       "id": 1318447,

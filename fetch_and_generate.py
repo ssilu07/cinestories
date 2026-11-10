@@ -48,7 +48,8 @@ from config import (
     STORIES_PER_CATEGORY_LIMIT,
     REGISTRY_PATH,
     API_PACING_SECONDS,
-    ADSENSE_CLIENT_ID
+    ADSENSE_CLIENT_ID,
+    TARGET_BREAKOUT_SLUGS
 )
 from tmdb_client import TMDBClient
 from ai_generator import AIGenerator
@@ -95,6 +96,99 @@ def write_ads_txt(dist_dir: Path, client_id: str):
     content = f"google.com, {pub_id}, DIRECT, f08c47fec0942fa0\n"
     with open(dist_dir / "ads.txt", "w", encoding="utf-8") as f:
         f.write(content)
+
+def story_fallback_builder(slug: str) -> Optional[Dict[str, Any]]:
+    """Synthesizes story dictionary from sample_data and curated_stories if missing from cache."""
+    try:
+        from sample_data import SAMPLE_MEDIA
+        from curated_stories import CURATED_STORIES
+        movie = next((m for m in SAMPLE_MEDIA if m.get("slug") == slug), None)
+        story_curated = CURATED_STORIES.get(slug)
+        if movie and story_curated:
+            now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            return {
+                "title": story_curated.get("title", movie["title"]),
+                "seo_description": story_curated.get("seo_description", movie.get("overview", "")[:150]),
+                "movie": movie,
+                "slides": story_curated.get("slides", []),
+                "date_published": now_iso,
+                "date_modified": now_iso,
+                "published_at": now_iso
+            }
+    except Exception:
+        pass
+    return None
+
+def article_fallback_builder(slug: str) -> Optional[Dict[str, Any]]:
+    """Synthesizes article dictionary from sample_data and curated_articles if missing from cache."""
+    try:
+        from sample_data import SAMPLE_MEDIA
+        from curated_articles import CURATED_ARTICLES
+        movie = next((m for m in SAMPLE_MEDIA if m.get("slug") == slug), None)
+        art_curated = CURATED_ARTICLES.get(slug)
+        if movie and art_curated:
+            now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            art_data = dict(art_curated)
+            art_data["movie"] = movie
+            art_data["date_published"] = now_iso
+            art_data["date_modified"] = now_iso
+            art_data["published_at"] = now_iso
+            return art_data
+    except Exception:
+        pass
+    return None
+
+def anchor_catalog_items(
+    new_items: List[Dict[str, Any]],
+    old_items: List[Dict[str, Any]],
+    target_slugs: List[str] = TARGET_BREAKOUT_SLUGS,
+    fallback_builder = None
+) -> List[Dict[str, Any]]:
+    """
+    Merges new and old catalog items while guaranteeing that target_slugs
+    remain permanently anchored at indices 0..9 in canonical order.
+    New items appear starting at index 10, followed by historical items.
+    """
+    items_by_slug: Dict[str, Dict[str, Any]] = {}
+    for item in old_items:
+        slug = item.get("movie", {}).get("slug") or item.get("slug")
+        if slug and slug not in items_by_slug:
+            items_by_slug[slug] = item
+
+    for item in new_items:
+        slug = item.get("movie", {}).get("slug") or item.get("slug")
+        if slug:
+            items_by_slug[slug] = item
+
+    # 1. Anchored head: Exactly the 10 breakout viral titles in canonical order
+    anchored_head = []
+    for slug in target_slugs:
+        if slug in items_by_slug:
+            anchored_head.append(items_by_slug[slug])
+        elif fallback_builder:
+            fb = fallback_builder(slug)
+            if fb:
+                anchored_head.append(fb)
+                items_by_slug[slug] = fb
+
+    # 2. Body: Freshly generated items not in target_slugs
+    anchored_slugs = set(target_slugs)
+    remaining_new = []
+    for item in new_items:
+        slug = item.get("movie", {}).get("slug") or item.get("slug")
+        if slug and slug not in anchored_slugs:
+            remaining_new.append(item)
+            anchored_slugs.add(slug)
+
+    # 3. Tail: Historical items not in target_slugs
+    remaining_old = []
+    for item in old_items:
+        slug = item.get("movie", {}).get("slug") or item.get("slug")
+        if slug and slug not in anchored_slugs:
+            remaining_old.append(item)
+            anchored_slugs.add(slug)
+
+    return anchored_head + remaining_new + remaining_old
 
 def load_published_registry(registry_path: Path, dist_dir: Path) -> Dict[str, Any]:
     """
@@ -331,50 +425,52 @@ def run_pipeline(
     save_published_registry(registry, REGISTRY_PATH)
     print(f"\n      -> Successfully published {len(new_stories)} new high-quality pieces today.\n")
 
-    # 5. Accumulate with existing cache
-    print(f"[3/6] Merging new entries into site catalogs...")
+    # 5. Accumulate with existing cache (Anchoring 10 breakout viral titles at indices 0..9)
+    print(f"[3/6] Merging new entries into site catalogs (anchoring 10 breakout viral titles at head)...")
     cache_stories_path = DIST_DIR / "stories_cache.json"
     cache_articles_path = DIST_DIR / "articles_cache.json"
 
     # Stories merge
-    combined_stories = list(new_stories)
-    seen_story_slugs = {s.get("movie", {}).get("slug") for s in combined_stories if s.get("movie", {}).get("slug")}
+    old_stories = []
     if cache_stories_path.exists():
         try:
             with open(cache_stories_path, "r", encoding="utf-8") as f:
                 old_stories = json.load(f)
-            for os_item in old_stories:
-                os_slug = os_item.get("movie", {}).get("slug")
-                if os_slug and os_slug not in seen_story_slugs:
-                    combined_stories.append(os_item)
-                    seen_story_slugs.add(os_slug)
         except Exception as e:
             print(f"[Cache] Note: could not load stories cache: {e}")
+
+    combined_stories = anchor_catalog_items(
+        new_items=new_stories,
+        old_items=old_stories,
+        target_slugs=TARGET_BREAKOUT_SLUGS,
+        fallback_builder=story_fallback_builder
+    )
 
     with open(cache_stories_path, "w", encoding="utf-8") as f:
         json.dump(combined_stories, f, indent=2, default=str)
 
     # Articles merge
-    combined_articles = list(new_articles)
-    seen_art_slugs = {a.get("movie", {}).get("slug") for a in combined_articles if a.get("movie", {}).get("slug")}
+    old_articles = []
     if cache_articles_path.exists():
         try:
             with open(cache_articles_path, "r", encoding="utf-8") as f:
                 old_articles = json.load(f)
-            for oa_item in old_articles:
-                oa_slug = oa_item.get("movie", {}).get("slug")
-                if oa_slug and oa_slug not in seen_art_slugs:
-                    combined_articles.append(oa_item)
-                    seen_art_slugs.add(oa_slug)
         except Exception as e:
             print(f"[Cache] Note: could not load articles cache: {e}")
+
+    combined_articles = anchor_catalog_items(
+        new_items=new_articles,
+        old_items=old_articles,
+        target_slugs=TARGET_BREAKOUT_SLUGS,
+        fallback_builder=article_fallback_builder
+    )
 
     with open(cache_articles_path, "w", encoding="utf-8") as f:
         json.dump(combined_articles, f, indent=2, default=str)
     with open(ARTICLES_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(combined_articles, f, indent=2, default=str)
 
-    print(f"      -> Total catalog size: {len(combined_stories)} Web Stories | {len(combined_articles)} Articles.\n")
+    print(f"      -> Total catalog size: {len(combined_stories)} Web Stories | {len(combined_articles)} Articles (10 Breakout Titles anchored at indices 0..9).\n")
 
     # 6. Build Discover Feed Portal, Homepage, Policy Pages & Sitemap
     print(f"[4/6] Rebuilding Discover feed portal, visual homepage, policy pages, and XML sitemap...")

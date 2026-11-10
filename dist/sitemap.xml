@@ -13,46 +13,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://cinematicbites.com/articles/365-days-this-day/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/zBG5Mg29NH9xxpWMMG7BIvKwYhL.jpg</image:loc>
-      <image:title>Inside 365 Days: This Day: Why Audiences Are Obsessed With The Ending Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/articles/when-i-meet-the-moon/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/Agg3jHAbPAnKdTEfBcESa6hefdW.jpg</image:loc>
-      <image:title>Why When I Meet the Moon Is Dominating Global Charts: Ending &amp; Season Cl Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/articles/misty-green/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg</image:loc>
-      <image:title>Why Misty Green Left Audiences Stunned: Full Plot &amp; Clues Breakdown Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/articles/second-chance-holiday/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/ocYYXEi2THSMFG25QR2SLtVH2jb.jpg</image:loc>
-      <image:title>Why Second Chance Holiday Left Audiences Stunned: Full Plot &amp; Clues Brea Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://cinematicbites.com/articles/panchayat-season-3/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>hourly</changefreq>
@@ -150,6 +110,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg</image:loc>
       <image:title>Chulbul Pandey Enters the Cop Universe: Singham Again Post-Credits Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/365-days-this-day/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/zBG5Mg29NH9xxpWMMG7BIvKwYhL.jpg</image:loc>
+      <image:title>Inside 365 Days: This Day: Why Audiences Are Obsessed With The Ending Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/when-i-meet-the-moon/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/Agg3jHAbPAnKdTEfBcESa6hefdW.jpg</image:loc>
+      <image:title>Why When I Meet the Moon Is Dominating Global Charts: Ending &amp; Season Cl Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/misty-green/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/vb8ynrTs7xp7gaEIplf0zcjJZeh.jpg</image:loc>
+      <image:title>Why Misty Green Left Audiences Stunned: Full Plot &amp; Clues Breakdown Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/second-chance-holiday/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ocYYXEi2THSMFG25QR2SLtVH2jb.jpg</image:loc>
+      <image:title>Why Second Chance Holiday Left Audiences Stunned: Full Plot &amp; Clues Brea Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -3783,46 +3783,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://cinematicbites.com/stories/365-days-this-day/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg</image:loc>
-      <image:title>365 Days: This Day Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/stories/when-i-meet-the-moon/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/fhbttPIgdiS6lXlPA1LSeiwSGvI.jpg</image:loc>
-      <image:title>When I Meet the Moon Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/stories/misty-green/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg</image:loc>
-      <image:title>Misty Green Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/stories/second-chance-holiday/</loc>
-    <lastmod>2026-11-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/lSDX9TKJ0y4Jn5CDR0qLral5G2Z.jpg</image:loc>
-      <image:title>Second Chance Holiday Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://cinematicbites.com/stories/panchayat-season-3/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>hourly</changefreq>
@@ -3920,6 +3880,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg</image:loc>
       <image:title>Singham Again Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/365-days-this-day/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg</image:loc>
+      <image:title>365 Days: This Day Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/when-i-meet-the-moon/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/fhbttPIgdiS6lXlPA1LSeiwSGvI.jpg</image:loc>
+      <image:title>When I Meet the Moon Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/misty-green/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/dUFtfnSfUK5IUfC5XMlMEY36EAp.jpg</image:loc>
+      <image:title>Misty Green Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/second-chance-holiday/</loc>
+    <lastmod>2026-11-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/lSDX9TKJ0y4Jn5CDR0qLral5G2Z.jpg</image:loc>
+      <image:title>Second Chance Holiday Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
