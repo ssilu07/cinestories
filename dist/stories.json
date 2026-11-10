@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T12:22:20.013268+00:00",
-  "total_stories": 389,
+  "generated_at": "2026-11-10T19:28:04.338946+00:00",
+  "total_stories": 393,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 208569,
+      "slug": "will-trent",
+      "title": "Will Trent Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/will-trent/",
+      "category": "netflix_hits",
+      "release_date": "2023-01-03",
+      "rating": 7.3
+    },
+    {
+      "id": 231620,
+      "slug": "natural-high",
+      "title": "The 1 Insane Clue In Natural High That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/stories/natural-high/",
+      "category": "streaming_charts",
+      "release_date": "2023-08-13",
+      "rating": 7.5
+    },
+    {
+      "id": 1402181,
+      "slug": "scene",
+      "title": "What Really Happened at the End of Scene? Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/scene/",
+      "category": "trending",
+      "release_date": "2026-11-05",
+      "rating": 8.5
+    },
+    {
+      "id": 1457866,
+      "slug": "the-further-mis-adventures-of-cliff-booth",
+      "title": "Who Really Pulled The Trigger in THE FURTHER MIS-ADVENTURES OF CLIFF BOO",
+      "url": "https://cinematicbites.com/stories/the-further-mis-adventures-of-cliff-booth/",
+      "category": "upcoming",
+      "release_date": "2026-11-25",
+      "rating": 0.0
     },
     {
       "id": 212989,

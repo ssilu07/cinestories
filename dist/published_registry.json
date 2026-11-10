@@ -2332,5 +2332,29 @@
     "published_at": "2026-11-10T12:22:07Z",
     "modified_at": "2026-11-10T12:22:07Z",
     "category": "ott_blockbusters"
+  },
+  "will-trent": {
+    "title": "Will Trent",
+    "published_at": "2026-11-10T19:27:47Z",
+    "modified_at": "2026-11-10T19:27:47Z",
+    "category": "netflix_hits"
+  },
+  "natural-high": {
+    "title": "Natural High",
+    "published_at": "2026-11-10T19:27:47Z",
+    "modified_at": "2026-11-10T19:27:47Z",
+    "category": "streaming_charts"
+  },
+  "scene": {
+    "title": "Scene",
+    "published_at": "2026-11-10T19:27:47Z",
+    "modified_at": "2026-11-10T19:27:47Z",
+    "category": "trending"
+  },
+  "the-further-mis-adventures-of-cliff-booth": {
+    "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH",
+    "published_at": "2026-11-10T19:27:47Z",
+    "modified_at": "2026-11-10T19:27:47Z",
+    "category": "upcoming"
   }
 }
