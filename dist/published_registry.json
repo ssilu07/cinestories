@@ -2380,5 +2380,29 @@
     "published_at": "2026-11-11T00:28:41Z",
     "modified_at": "2026-11-11T00:28:41Z",
     "category": "upcoming"
+  },
+  "black-rabbit": {
+    "title": "Black Rabbit",
+    "published_at": "2026-11-11T07:35:24Z",
+    "modified_at": "2026-11-11T07:35:24Z",
+    "category": "netflix_hits"
+  },
+  "alls-fair": {
+    "title": "All's Fair",
+    "published_at": "2026-11-11T07:35:24Z",
+    "modified_at": "2026-11-11T07:35:24Z",
+    "category": "streaming_charts"
+  },
+  "one-of-a-kind-romance": {
+    "title": "One of a Kind Romance",
+    "published_at": "2026-11-11T07:35:24Z",
+    "modified_at": "2026-11-11T07:35:24Z",
+    "category": "trending"
+  },
+  "treasure-trekkers": {
+    "title": "Treasure Trekkers",
+    "published_at": "2026-11-11T07:35:24Z",
+    "modified_at": "2026-11-11T07:35:24Z",
+    "category": "upcoming"
   }
 }
