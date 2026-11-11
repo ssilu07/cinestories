@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-10T19:28:04.338946+00:00",
-  "total_stories": 393,
+  "generated_at": "2026-11-11T00:32:02.478617+00:00",
+  "total_stories": 397,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 236235,
+      "slug": "the-gentlemen",
+      "title": "The Gentlemen Ending Explained: Clues & Season 2 Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-gentlemen/",
+      "category": "netflix_hits",
+      "release_date": "2024-03-07",
+      "rating": 7.9
+    },
+    {
+      "id": 279185,
+      "slug": "the-torment",
+      "title": "Who Really Pulled The Trigger in The Torment? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-torment/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-02",
+      "rating": 7.0
+    },
+    {
+      "id": 275139,
+      "slug": "phony",
+      "title": "Who Really Pulled The Trigger in Phony? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/phony/",
+      "category": "trending",
+      "release_date": "2026-10-20",
+      "rating": 7.3
+    },
+    {
+      "id": 1383731,
+      "slug": "protector",
+      "title": "Protector: The Shocking Climax & Hidden Motive Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/protector/",
+      "category": "upcoming",
+      "release_date": "2026-02-20",
+      "rating": 8.4
     },
     {
       "id": 208569,

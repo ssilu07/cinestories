@@ -2356,5 +2356,29 @@
     "published_at": "2026-11-10T19:27:47Z",
     "modified_at": "2026-11-10T19:27:47Z",
     "category": "upcoming"
+  },
+  "the-gentlemen": {
+    "title": "The Gentlemen",
+    "published_at": "2026-11-11T00:28:41Z",
+    "modified_at": "2026-11-11T00:28:41Z",
+    "category": "netflix_hits"
+  },
+  "the-torment": {
+    "title": "The Torment",
+    "published_at": "2026-11-11T00:28:41Z",
+    "modified_at": "2026-11-11T00:28:41Z",
+    "category": "streaming_charts"
+  },
+  "phony": {
+    "title": "Phony",
+    "published_at": "2026-11-11T00:28:41Z",
+    "modified_at": "2026-11-11T00:28:41Z",
+    "category": "trending"
+  },
+  "protector": {
+    "title": "Protector",
+    "published_at": "2026-11-11T00:28:41Z",
+    "modified_at": "2026-11-11T00:28:41Z",
+    "category": "upcoming"
   }
 }
