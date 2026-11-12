@@ -2404,5 +2404,29 @@
     "published_at": "2026-11-11T07:35:24Z",
     "modified_at": "2026-11-11T07:35:24Z",
     "category": "upcoming"
+  },
+  "tomb-raider-the-legend-of-lara-croft": {
+    "title": "Tomb Raider: The Legend of Lara Croft",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "netflix_hits"
+  },
+  "the-silent-storm": {
+    "title": "The Silent Storm",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "streaming_charts"
+  },
+  "the-gospel-of-christmas": {
+    "title": "The Gospel of Christmas",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "trending"
+  },
+  "rivals": {
+    "title": "Rivals",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "ott_blockbusters"
   }
 }

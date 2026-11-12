@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cinematicbites.com/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/discover/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -110,6 +110,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg</image:loc>
       <image:title>Chulbul Pandey Enters the Cop Universe: Singham Again Post-Credits Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/tomb-raider-the-legend-of-lara-croft/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/zbaUXbBBLmGmHARAVurvUJbIEWt.jpg</image:loc>
+      <image:title>Lara Croft Legend Ending Explained: Easter Eggs &amp; Dual-Pistol Tease Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-silent-storm/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/m5tiVhzIFIqDyIPwOsHDsMDGMsK.jpg</image:loc>
+      <image:title>The Silent Storm Ending Explained: The Truth Behind Operation Grain Rain Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-gospel-of-christmas/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/v6HTcvMFbscM0Uz5ab3hoeGWYaY.jpg</image:loc>
+      <image:title>What Really Happened at the Climax of The Gospel of Christmas? 🔍 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/rivals/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg</image:loc>
+      <image:title>Rivals Ending Explained: The Climax Clues You Missed 📺 Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -3334,7 +3374,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/link-click/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3344,7 +3384,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/visionquest/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3354,7 +3394,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/carrie/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3364,7 +3404,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/spider-man-brand-new-day/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3374,7 +3414,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/animals/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3384,7 +3424,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/hope/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3394,7 +3434,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/barbara-karlich-talk-um-4/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3404,7 +3444,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/watch-what-happens-live-with-andy-cohen/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3414,7 +3454,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/come-home-love-lo-and-behold/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3424,7 +3464,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/avatar-aang-the-last-airbender/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3434,7 +3474,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/batman-knightfall-part-1-knightfall/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3444,7 +3484,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/swapped/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3454,7 +3494,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/drawn-together/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3464,7 +3504,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/my-fault/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3474,7 +3514,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-gorge/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3484,7 +3524,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/fall-2-deadpoint/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3494,7 +3534,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/runner/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3504,7 +3544,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-fix/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3514,7 +3554,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/below/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3524,7 +3564,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/lanterns/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3534,7 +3574,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/matchbox-the-movie/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3544,7 +3584,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3554,7 +3594,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/fifty-shades-of-grey/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3564,7 +3604,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/take-charge-of-my-heart/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3574,7 +3614,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/insidious-out-of-the-further/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3584,7 +3624,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/digger/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3594,7 +3634,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/reacher/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3604,7 +3644,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/east-of-eden/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3614,7 +3654,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/one-piece/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3624,7 +3664,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/resident-evil/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3634,7 +3674,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/coyote-vs-acme/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3644,7 +3684,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/marshals/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3654,7 +3694,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-uprising/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3664,7 +3704,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-tonight-show-starring-jimmy-fallon/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3674,7 +3714,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/coven-academy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3684,7 +3724,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/black-clover/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3694,7 +3734,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/avengers-doomsday/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3704,7 +3744,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3714,7 +3754,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/fallout-prime-video/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3724,7 +3764,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/house-of-the-dragon/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3734,7 +3774,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/shogun/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3744,7 +3784,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/marvel-post-credit-theories/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3754,7 +3794,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/dc-easter-eggs-theories/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3764,7 +3804,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/spiderman-venom-post-credits/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3774,7 +3814,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/friends-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3784,7 +3824,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-office-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3794,7 +3834,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/sitcom-stars-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3804,7 +3844,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/money-heist/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3814,7 +3854,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/stranger-things/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3824,7 +3864,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-boys/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3834,7 +3874,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/breaking-bad/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3844,7 +3884,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/wednesday/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3854,7 +3894,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/game-of-thrones/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3864,7 +3904,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/squid-game/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3874,7 +3914,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-last-of-us/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3884,7 +3924,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/john-wick-chapter-4/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3894,7 +3934,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/deadpool-and-wolverine/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3904,7 +3944,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/dune-part-two/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3914,7 +3954,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/twisters/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3924,7 +3964,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/poor-things/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3934,7 +3974,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/final-destination/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3944,7 +3984,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/interstellar/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3954,7 +3994,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/inception/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3964,7 +4004,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/the-dark-knight/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3974,7 +4014,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/oppenheimer/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3984,7 +4024,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/365-days/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -3994,7 +4034,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/basic-instinct/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -4004,7 +4044,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/saltburn/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -4014,7 +4054,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/gladiator-ii/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -4120,6 +4160,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg</image:loc>
       <image:title>Singham Again Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/tomb-raider-the-legend-of-lara-croft/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/1WF982MFHGmsURH13HMQP51Dgr3.jpg</image:loc>
+      <image:title>Tomb Raider: The Legend of Lara Croft Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-silent-storm/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/c8UHaCOfzyQYagHv7vAAOkrmgDb.jpg</image:loc>
+      <image:title>The Silent Storm Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-gospel-of-christmas/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/k5OOd5sMEqPlKKhgFnkj1jBhNTf.jpg</image:loc>
+      <image:title>The Gospel of Christmas Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/rivals/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg</image:loc>
+      <image:title>Rivals Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
@@ -7344,7 +7424,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/link-click/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7354,7 +7434,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/visionquest/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7364,7 +7444,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/carrie/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7374,7 +7454,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/spider-man-brand-new-day/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7384,7 +7464,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/animals/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7394,7 +7474,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/hope/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7404,7 +7484,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/barbara-karlich-talk-um-4/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7414,7 +7494,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/watch-what-happens-live-with-andy-cohen/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7424,7 +7504,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/come-home-love-lo-and-behold/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7434,7 +7514,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/avatar-aang-the-last-airbender/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7444,7 +7524,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/batman-knightfall-part-1-knightfall/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7454,7 +7534,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/swapped/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7464,7 +7544,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/drawn-together/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7474,7 +7554,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/my-fault/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7484,7 +7564,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-gorge/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7494,7 +7574,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/fall-2-deadpoint/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7504,7 +7584,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/runner/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7514,7 +7594,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-fix/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7524,7 +7604,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/below/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7534,7 +7614,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/lanterns/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7544,7 +7624,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/matchbox-the-movie/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7554,7 +7634,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7564,7 +7644,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/fifty-shades-of-grey/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7574,7 +7654,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/take-charge-of-my-heart/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7584,7 +7664,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/insidious-out-of-the-further/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7594,7 +7674,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/digger/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7604,7 +7684,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/reacher/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7614,7 +7694,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/east-of-eden/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7624,7 +7704,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/one-piece/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7634,7 +7714,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/resident-evil/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7644,7 +7724,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/coyote-vs-acme/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7654,7 +7734,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/marshals/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7664,7 +7744,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-uprising/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7674,7 +7754,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-tonight-show-starring-jimmy-fallon/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7684,7 +7764,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/coven-academy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7694,7 +7774,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/black-clover/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7704,7 +7784,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/avengers-doomsday/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7714,7 +7794,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/streaming-weekly-top-10-us-uk/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7724,7 +7804,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/fallout-prime-video/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7734,7 +7814,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/house-of-the-dragon/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7744,7 +7824,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/shogun/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7754,7 +7834,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/marvel-post-credit-theories/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7764,7 +7844,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/dc-easter-eggs-theories/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7774,7 +7854,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/spiderman-venom-post-credits/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7784,7 +7864,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/friends-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7794,7 +7874,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-office-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7804,7 +7884,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/sitcom-stars-where-are-they-now/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7814,7 +7894,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/money-heist/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7824,7 +7904,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/stranger-things/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7834,7 +7914,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-boys/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7844,7 +7924,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/breaking-bad/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7854,7 +7934,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/wednesday/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7864,7 +7944,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/game-of-thrones/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7874,7 +7954,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/squid-game/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7884,7 +7964,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-last-of-us/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7894,7 +7974,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/john-wick-chapter-4/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7904,7 +7984,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/deadpool-and-wolverine/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7914,7 +7994,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/dune-part-two/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7924,7 +8004,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/twisters/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7934,7 +8014,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/poor-things/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7944,7 +8024,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/final-destination/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7954,7 +8034,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/interstellar/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7964,7 +8044,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/inception/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7974,7 +8054,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/the-dark-knight/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7984,7 +8064,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/oppenheimer/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -7994,7 +8074,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/365-days/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -8004,7 +8084,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/basic-instinct/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -8014,7 +8094,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/saltburn/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -8024,7 +8104,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/stories/gladiator-ii/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
     <image:image>
@@ -8033,32 +8113,342 @@
     </image:image>
   </url>
   <url>
+    <loc>https://cinematicbites.com/stories/a-better-jianghu/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/bZiLsUBgffuVHeKKQ2I9ydQUkFC.jpg</image:loc>
+      <image:title>A Better Jianghu Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/black-adam/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rCtreCr4xiYEWDQTebybolIh6Xe.jpg</image:loc>
+      <image:title>Black Adam Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/bojack-horseman/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg</image:loc>
+      <image:title>BoJack Horseman Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/brooklyn-nine-nine/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/mpjlDzVjp7oyHUe2LaF9ltKe6f1.jpg</image:loc>
+      <image:title>Brooklyn Nine-Nine Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/captain-america-civil-war/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg</image:loc>
+      <image:title>Captain America: Civil War Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/despicable-me-4/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/wWba3TaojhK7NdycRhoQpsG0FaH.jpg</image:loc>
+      <image:title>Despicable Me 4 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/ghost-in-the-cell/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/zxcMdx0w5Zmg8yZuuiS7CJ8vOea.jpg</image:loc>
+      <image:title>Ghost in the Cell Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/gossip-girl/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ep03M6KKZGeljOizPEbt3Geja5n.jpg</image:loc>
+      <image:title>Gossip Girl Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/guardians-of-the-galaxy-vol-2/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg</image:loc>
+      <image:title>Guardians of the Galaxy Vol. 2 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/love-language/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/sCQde3BSMpDgA1qpE0zzboFdwl0.jpg</image:loc>
+      <image:title>Love Language Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/man-of-steel/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/8GFtkImmK0K1VaUChR0n9O61CFU.jpg</image:loc>
+      <image:title>Man of Steel Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/my-little-pony-friendship-is-magic/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/uvCchgn7uUUE2MJfhzg39M4RaZW.jpg</image:loc>
+      <image:title>My Little Pony: Friendship Is Magic Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/ninjago-masters-of-spinjitzu/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/wz6ZqlyndVpdRayZi1gbYHWcqFi.jpg</image:loc>
+      <image:title>Ninjago: Masters of Spinjitzu Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/oblivion/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/eO3r38fwnhb58M1YgcjQBd3VNcp.jpg</image:loc>
+      <image:title>Oblivion Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/outlander/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/oftZNfyTVNU7IfOqoGLoT8MGvNs.jpg</image:loc>
+      <image:title>Outlander Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/queen-at-sea/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ueYawr1nldKchzyP8Q9KJpn31SK.jpg</image:loc>
+      <image:title>Queen at Sea Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/rage-of-stars/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/oLld47ZT1I3iecM3OWhIphohQUJ.jpg</image:loc>
+      <image:title>Rage of Stars Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/rise-of-the-planet-of-the-apes/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/oqA45qMyyo1TtrnVEBKxqmTPhbN.jpg</image:loc>
+      <image:title>Rise of the Planet of the Apes Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/riverdale/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/d8mmn9thQ5dBk2qbv6BCqGUXWK3.jpg</image:loc>
+      <image:title>Riverdale Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/seal-team/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/6iSnec83UEMgLOXAtGYwaVNHLjR.jpg</image:loc>
+      <image:title>SEAL Team Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/sonic-the-hedgehog-3/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/d8Ryb8AunYAuycVKDp5HpdWPKgC.jpg</image:loc>
+      <image:title>Sonic the Hedgehog 3 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/spider-man-far-from-home/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg</image:loc>
+      <image:title>Spider-Man: Far From Home Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-loud-house/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/v0xMCeZIkgBUQtiije0IDc8ReHr.jpg</image:loc>
+      <image:title>The Loud House Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-shining/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/uAR0AWqhQL1hQa69UDEbb2rE5Wx.jpg</image:loc>
+      <image:title>The Shining Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-sixth-sense/</loc>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg</image:loc>
+      <image:title>The Sixth Sense Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/the-west-wing/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/yz1qWFZ8kjgQjqB9NX5kWMetX4w.jpg</image:loc>
+      <image:title>The West Wing Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/thor-ragnarok/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg</image:loc>
+      <image:title>Thor: Ragnarok Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/thunderbolts/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg</image:loc>
+      <image:title>Thunderbolts* Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/transformers-rise-of-the-beasts/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/gPbM0MK8CP8A174rmUwGsADNYKD.jpg</image:loc>
+      <image:title>Transformers: Rise of the Beasts Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/v/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/rNqQQ3hFknhKpy8OTyGfzk7FY20.jpg</image:loc>
+      <image:title>V Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/vikings/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg</image:loc>
+      <image:title>Vikings Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/about/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/editorial/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/privacy/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/terms/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/contact/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
