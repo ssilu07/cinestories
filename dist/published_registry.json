@@ -2452,5 +2452,29 @@
     "published_at": "2026-11-13T00:56:54Z",
     "modified_at": "2026-11-13T00:56:54Z",
     "category": "ott_blockbusters"
+  },
+  "shine-on-me": {
+    "title": "Shine on Me",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "netflix_hits"
+  },
+  "the-ramparts-of-ice": {
+    "title": "The Ramparts of Ice",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "streaming_charts"
+  },
+  "never-surrender": {
+    "title": "Never Surrender",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "trending"
+  },
+  "off-campus": {
+    "title": "Off Campus",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "ott_blockbusters"
   }
 }

@@ -1,8 +1,8 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-13T01:09:17.861080+00:00",
-  "total_stories": 440,
+  "generated_at": "2026-11-13T07:44:50.877869+00:00",
+  "total_stories": 444,
   "stories": [
     {
       "id": 101352,
@@ -93,6 +93,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 278577,
+      "slug": "shine-on-me",
+      "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/shine-on-me/",
+      "category": "netflix_hits",
+      "release_date": "2025-12-22",
+      "rating": 8.5
+    },
+    {
+      "id": 283428,
+      "slug": "the-ramparts-of-ice",
+      "title": "The 1 Insane Clue In The Ramparts of Ice That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/stories/the-ramparts-of-ice/",
+      "category": "streaming_charts",
+      "release_date": "2026-04-02",
+      "rating": 8.6
+    },
+    {
+      "id": 1616687,
+      "slug": "never-surrender",
+      "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
+      "url": "https://cinematicbites.com/stories/never-surrender/",
+      "category": "trending",
+      "release_date": "2026-11-12",
+      "rating": 7.9
+    },
+    {
+      "id": 273240,
+      "slug": "off-campus",
+      "title": "Off Campus Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/stories/off-campus/",
+      "category": "ott_blockbusters",
+      "release_date": "2026-05-13",
+      "rating": 8.8
     },
     {
       "id": 82452,
