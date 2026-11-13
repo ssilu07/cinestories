@@ -1094,6 +1094,478 @@
     "published_at": "2026-11-10T12:21:26Z"
   },
   {
+    "title": "The 1 Insane Clue In Tomb Raider That Fans Completely Missed \ud83e\udd2f",
+    "seo_description": "Full Tomb Raider climax breakdown: ending explained, hidden clues decoded, Hayley Atwell, Karen Fukuhara, O-T Fagbenle performances, and sequel prospects.",
+    "movie": {
+      "id": 117830,
+      "title": "Tomb Raider: The Legend of Lara Croft",
+      "original_title": "Tomb Raider: The Legend of Lara Croft",
+      "slug": "tomb-raider-the-legend-of-lara-croft",
+      "media_type": "tv",
+      "release_date": "2024-10-10",
+      "overview": "Thrust into a high-stakes chase around the world, fearless adventurer Lara Croft confronts her traumatic past while unraveling an ancient mystery.",
+      "tagline": "",
+      "genres": [
+        "Action & Adventure",
+        "Animation"
+      ],
+      "runtime": 50,
+      "seasons": 2,
+      "vote_average": 6.5,
+      "vote_count": 165,
+      "category": "netflix_hits",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "Hayley Atwell",
+        "Karen Fukuhara",
+        "O-T Fagbenle",
+        "Allen Maldonado"
+      ],
+      "poster_path": "/1WF982MFHGmsURH13HMQP51Dgr3.jpg",
+      "backdrop_path": "/zbaUXbBBLmGmHARAVurvUJbIEWt.jpg",
+      "backdrops": [
+        "/zbaUXbBBLmGmHARAVurvUJbIEWt.jpg",
+        "/84JyVOIJt0xXxnH5CgnkxXhCpoo.jpg",
+        "/pgUEKCJLbdjK7x0MScFUPWt0iWB.jpg",
+        "/uLpFgL3HPag6NW7odb6nO0CzmtR.jpg",
+        "/t0sgb6ih2AplRPx31zjqih6WFC7.jpg",
+        "/iuL1uoZjVWbYA5cAEllBR4Lg13K.jpg",
+        "/94qWpm0EjFJzhojO120JzWoNM2u.jpg",
+        "/sLs4MmjvJ8RRNBgBeho9uUtnlB5.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 ENDING DECODED",
+        "title": "The Climax Of Tomb Raider",
+        "text": "The breathtaking finale of Tomb Raider left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2753 BURNING MYSTERY",
+        "title": "The Unseen Conflict",
+        "text": "Thrust into a high-stakes chase around the world, fearless adventurer Lara Croft confronts her traumatic past while unraveling an ancient mystery. Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
+        "title": "Secrets in Plain Sight",
+        "text": "Led by Hayley Atwell, Karen Fukuhara, O-T Fagbenle, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
+        "title": "Crafted by Visionary Showrunner (Creator)",
+        "text": "Director Visionary Showrunner (Creator) placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udca1 THE DECODED TRUTH",
+        "title": "What The Climax Confirms",
+        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac WHAT COMES NEXT",
+        "title": "Next Season Roadmap",
+        "text": "Holding an impressive 6.5/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
+        "backdrop_index": 5,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-7",
+        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
+        "title": "What Is Your Verdict?",
+        "text": "Did the climax of Tomb Raider satisfy you, or did it leave you needing answers? Cast your vote below.",
+        "backdrop_index": 0,
+        "poll": {
+          "id": "poll-tomb-raider-the-legend-of-lara-croft-verdict",
+          "type": "binary",
+          "prompt": "Did the Tomb Raider ending satisfy you?",
+          "option1": "Genius twist \ud83d\udd25",
+          "option2": "Felt rushed \ud83d\udc4e"
+        },
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-13T11:11:45Z",
+    "date_modified": "2026-11-13T11:11:45Z",
+    "published_at": "2026-11-13T11:11:45Z"
+  },
+  {
+    "title": "What Really Happened at the End of The Body? Decoded \u26a1",
+    "seo_description": "Full The Body climax breakdown: ending explained, hidden clues decoded, Kristina Bogic, Sara Boustany, Geena Meszaros performances, and sequel prospects.",
+    "movie": {
+      "id": 291507,
+      "title": "The Body",
+      "original_title": "The Body",
+      "slug": "the-body",
+      "media_type": "tv",
+      "release_date": "2026-11-11",
+      "overview": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
+      "tagline": "They pray hard and sin harder.",
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "runtime": 50,
+      "seasons": 1,
+      "vote_average": 7.6,
+      "vote_count": 16,
+      "category": "streaming_charts",
+      "director": "Quinn Shephard (Creator)",
+      "top_cast": [
+        "Kristina Bogic",
+        "Sara Boustany",
+        "Geena Meszaros",
+        "Nnamdi Asomugha",
+        "Louisa Krause",
+        "Shirley Chen"
+      ],
+      "poster_path": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+      "backdrops": [
+        "/nlmZnWtJwn5FnedWF52nHmdkNy.jpg",
+        "/6TyUv9Nqm0JOobdRCgO4EWMYPFz.jpg",
+        "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
+        "/yfLPesZIbTrwBE9BzmiK4ypqz3L.jpg",
+        "/fJz7SZhuVnywlXOz9IYsIE33u8j.jpg",
+        "/t4rbkRLvBxWLqpgze1FPKzITi7m.jpg",
+        "/nYFNkwT1NHOKiwPoBPEmzdvEXGQ.jpg",
+        "/lSTYgfCNLAEPxMlQImlXweONjT6.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 ENDING DECODED",
+        "title": "The Climax Of The Body",
+        "text": "The breathtaking finale of The Body left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2753 BURNING MYSTERY",
+        "title": "The Unseen Conflict",
+        "text": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell. Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
+        "title": "Secrets in Plain Sight",
+        "text": "Led by Kristina Bogic, Sara Boustany, Geena Meszaros, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
+        "title": "Crafted by Quinn Shephard (Creator)",
+        "text": "Director Quinn Shephard (Creator) placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udca1 THE DECODED TRUTH",
+        "title": "What The Climax Confirms",
+        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac WHAT COMES NEXT",
+        "title": "Next Season Roadmap",
+        "text": "Holding an impressive 7.6/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
+        "backdrop_index": 5,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-7",
+        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
+        "title": "What Is Your Verdict?",
+        "text": "Did the climax of The Body satisfy you, or did it leave you needing answers? Cast your vote below.",
+        "backdrop_index": 0,
+        "poll": {
+          "id": "poll-the-body-verdict",
+          "type": "binary",
+          "prompt": "Did the The Body ending satisfy you?",
+          "option1": "Genius twist \ud83d\udd25",
+          "option2": "Felt rushed \ud83d\udc4e"
+        },
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-13T11:11:45Z",
+    "date_modified": "2026-11-13T11:11:45Z",
+    "published_at": "2026-11-13T11:11:45Z"
+  },
+  {
+    "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
+    "seo_description": "Full Never Surrender climax breakdown: ending explained, hidden clues decoded, Lukman Sardi, Callista Arum, Sulthan Hamonangan performances, and sequel prospects.",
+    "movie": {
+      "id": 1616687,
+      "title": "Never Surrender",
+      "original_title": "Serangan Balik",
+      "slug": "never-surrender",
+      "media_type": "movie",
+      "release_date": "2026-11-12",
+      "overview": "An ex-soldier and his grandchildren battle against ruthless criminals in a remote village. To survive, they must also confront their fears and regrets.",
+      "tagline": "",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 137,
+      "seasons": null,
+      "vote_average": 7.9,
+      "vote_count": 7,
+      "category": "trending",
+      "director": "Sidharta Tata",
+      "top_cast": [
+        "Lukman Sardi",
+        "Callista Arum",
+        "Sulthan Hamonangan",
+        "Derby Romero",
+        "Donny Alamsyah",
+        "Ismi Melinda"
+      ],
+      "poster_path": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
+      "backdrop_path": "/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+      "backdrops": [
+        "/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
+        "/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
+        "/hir35iIjs1FIzp7PrY1JK2Eg40n.jpg",
+        "/1ngwrORtxlaCFMnJBTaQp2O2U3e.jpg",
+        "/idWYM68ru3F43zCR8nLksJSyG8V.jpg",
+        "/oFXfw4CynigC70uJ8tyHtJ9rv5u.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 ENDING DECODED",
+        "title": "The Climax Of Never Surrender",
+        "text": "The breathtaking finale of Never Surrender left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2753 BURNING MYSTERY",
+        "title": "The Unseen Conflict",
+        "text": "An ex-soldier and his grandchildren battle against ruthless criminals in a remote village. To survive, they must also confront their fears and regrets. Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
+        "title": "Secrets in Plain Sight",
+        "text": "Led by Lukman Sardi, Callista Arum, Sulthan Hamonangan, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
+        "title": "Crafted by Sidharta Tata",
+        "text": "Director Sidharta Tata placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udca1 THE DECODED TRUTH",
+        "title": "What The Climax Confirms",
+        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac WHAT COMES NEXT",
+        "title": "Sequel & Franchise Lore",
+        "text": "Holding an impressive 7.9/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
+        "backdrop_index": 5,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-7",
+        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
+        "title": "What Is Your Verdict?",
+        "text": "Did the climax of Never Surrender satisfy you, or did it leave you needing answers? Cast your vote below.",
+        "backdrop_index": 0,
+        "poll": {
+          "id": "poll-never-surrender-verdict",
+          "type": "binary",
+          "prompt": "Did the Never Surrender ending satisfy you?",
+          "option1": "Genius twist \ud83d\udd25",
+          "option2": "Felt rushed \ud83d\udc4e"
+        },
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-13T11:11:45Z",
+    "date_modified": "2026-11-13T11:11:45Z",
+    "published_at": "2026-11-13T11:11:45Z"
+  },
+  {
+    "title": "Rivals Ending Explained: The Climax Clues You Missed \ud83d\udcfa",
+    "seo_description": "Full Rivals climax breakdown: ending explained, hidden clues decoded, David Tennant, Aidan Turner, Danny Dyer performances, and sequel prospects.",
+    "movie": {
+      "id": 208921,
+      "title": "Rivals",
+      "original_title": "Rivals",
+      "slug": "rivals",
+      "media_type": "tv",
+      "release_date": "2024-10-18",
+      "overview": "It is 1986 and Britain is booming. \"Rivals\" dives headfirst into the cutthroat world of TV where hair-dos are big and ambitions are even bigger. Deals are brokered in boardrooms, as well as bedrooms. Nobody can be sure who will come out on top. With every man and woman out only for themselves, can true love really blossom?",
+      "tagline": "",
+      "genres": [
+        "Drama"
+      ],
+      "runtime": 50,
+      "seasons": 2,
+      "vote_average": 7.4,
+      "vote_count": 95,
+      "category": "ott_blockbusters",
+      "director": "Visionary Showrunner (Creator)",
+      "top_cast": [
+        "David Tennant",
+        "Aidan Turner",
+        "Danny Dyer",
+        "Alex Hassell",
+        "Nafessa Williams",
+        "Bella Maclean"
+      ],
+      "poster_path": "/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
+      "backdrop_path": "/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
+      "backdrops": [
+        "/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
+        "/cs7oHZHKoIdNJKcwizVaO6rIpr8.jpg",
+        "/voHguIB0uVIMIrIBw7ZsYSELTwL.jpg",
+        "/7v1HIgHDlxUZh2LhLRqczjVPFvH.jpg",
+        "/vSX2kRUzDy6IpNUxPgN6vMIaLto.jpg",
+        "/q068UOnQo59OWFWxAKxEvy8c4Yy.jpg",
+        "/2Cfc3ivscM2CnUwB2ggE5CGQ3jI.jpg",
+        "/u5LxFDdeZHjtyNcSXfGO7LjSWwm.jpg"
+      ]
+    },
+    "slides": [
+      {
+        "id": "page-1",
+        "badge": "\u26a1 ENDING DECODED",
+        "title": "The Climax Of Rivals",
+        "text": "The breathtaking finale of Rivals left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
+        "backdrop_index": 0,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-2",
+        "badge": "\u2753 BURNING MYSTERY",
+        "title": "The Unseen Conflict",
+        "text": "It is 1986 and Britain is booming. \"Rivals\" dives headfirst into the cutthroat world of TV where hair-dos are big and ambitions are even bigger. Deals are brokered in boardrooms, as well... Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
+        "backdrop_index": 1,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-3",
+        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
+        "title": "Secrets in Plain Sight",
+        "text": "Led by David Tennant, Aidan Turner, Danny Dyer, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
+        "backdrop_index": 2,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-4",
+        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
+        "title": "Crafted by Visionary Showrunner (Creator)",
+        "text": "Director Visionary Showrunner (Creator) placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
+        "backdrop_index": 3,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-5",
+        "badge": "\ud83d\udca1 THE DECODED TRUTH",
+        "title": "What The Climax Confirms",
+        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
+        "backdrop_index": 4,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-6",
+        "badge": "\ud83c\udfac WHAT COMES NEXT",
+        "title": "Next Season Roadmap",
+        "text": "Holding an impressive 7.4/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
+        "backdrop_index": 5,
+        "cta_text": null,
+        "cta_url": null
+      },
+      {
+        "id": "page-7",
+        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
+        "title": "What Is Your Verdict?",
+        "text": "Did the climax of Rivals satisfy you, or did it leave you needing answers? Cast your vote below.",
+        "backdrop_index": 0,
+        "poll": {
+          "id": "poll-rivals-verdict",
+          "type": "binary",
+          "prompt": "Did the Rivals ending satisfy you?",
+          "option1": "Genius twist \ud83d\udd25",
+          "option2": "Felt rushed \ud83d\udc4e"
+        },
+        "cta_text": "Read Next Story \u2794",
+        "cta_url": null
+      }
+    ],
+    "date_published": "2026-11-13T11:11:45Z",
+    "date_modified": "2026-11-13T11:11:45Z",
+    "published_at": "2026-11-13T11:11:45Z"
+  },
+  {
     "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
     "seo_description": "Full Shine on Me climax breakdown: ending explained, hidden clues decoded, Song Weilong, Zhao Jinmai performances, and sequel prospects.",
     "movie": {
@@ -1313,124 +1785,6 @@
           "id": "poll-the-ramparts-of-ice-verdict",
           "type": "binary",
           "prompt": "Did the The Ramparts of Ice ending satisfy yo",
-          "option1": "Genius twist \ud83d\udd25",
-          "option2": "Felt rushed \ud83d\udc4e"
-        },
-        "cta_text": "Read Next Story \u2794",
-        "cta_url": null
-      }
-    ],
-    "date_published": "2026-11-13T07:44:33Z",
-    "date_modified": "2026-11-13T07:44:33Z",
-    "published_at": "2026-11-13T07:44:33Z"
-  },
-  {
-    "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
-    "seo_description": "Full Never Surrender climax breakdown: ending explained, hidden clues decoded, Lukman Sardi, Callista Arum, Sulthan Hamonangan performances, and sequel prospects.",
-    "movie": {
-      "id": 1616687,
-      "title": "Never Surrender",
-      "original_title": "Serangan Balik",
-      "slug": "never-surrender",
-      "media_type": "movie",
-      "release_date": "2026-11-12",
-      "overview": "An ex-soldier and his grandchildren battle against ruthless criminals in a remote village. To survive, they must also confront their fears and regrets.",
-      "tagline": "",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "runtime": 137,
-      "seasons": null,
-      "vote_average": 7.9,
-      "vote_count": 7,
-      "category": "trending",
-      "director": "Sidharta Tata",
-      "top_cast": [
-        "Lukman Sardi",
-        "Callista Arum",
-        "Sulthan Hamonangan",
-        "Derby Romero",
-        "Donny Alamsyah",
-        "Ismi Melinda"
-      ],
-      "poster_path": "/hKROmLddpzpjkxKKVFYFRAOXX1b.jpg",
-      "backdrop_path": "/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
-      "backdrops": [
-        "/umxN2kMcUm6VoxSOdcEcQoXuC4q.jpg",
-        "/bjt53Hjqwl9VrtJkDv39GwmE1QN.jpg",
-        "/hir35iIjs1FIzp7PrY1JK2Eg40n.jpg",
-        "/1ngwrORtxlaCFMnJBTaQp2O2U3e.jpg",
-        "/idWYM68ru3F43zCR8nLksJSyG8V.jpg",
-        "/oFXfw4CynigC70uJ8tyHtJ9rv5u.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\u26a1 ENDING DECODED",
-        "title": "The Climax Of Never Surrender",
-        "text": "The breathtaking finale of Never Surrender left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "\u2753 BURNING MYSTERY",
-        "title": "The Unseen Conflict",
-        "text": "An ex-soldier and his grandchildren battle against ruthless criminals in a remote village. To survive, they must also confront their fears and regrets. Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
-        "title": "Secrets in Plain Sight",
-        "text": "Led by Lukman Sardi, Callista Arum, Sulthan Hamonangan, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
-        "title": "Crafted by Sidharta Tata",
-        "text": "Director Sidharta Tata placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "\ud83d\udca1 THE DECODED TRUTH",
-        "title": "What The Climax Confirms",
-        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "\ud83c\udfac WHAT COMES NEXT",
-        "title": "Sequel & Franchise Lore",
-        "text": "Holding an impressive 7.9/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
-        "backdrop_index": 5,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-7",
-        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
-        "title": "What Is Your Verdict?",
-        "text": "Did the climax of Never Surrender satisfy you, or did it leave you needing answers? Cast your vote below.",
-        "backdrop_index": 0,
-        "poll": {
-          "id": "poll-never-surrender-verdict",
-          "type": "binary",
-          "prompt": "Did the Never Surrender ending satisfy you?",
           "option1": "Genius twist \ud83d\udd25",
           "option2": "Felt rushed \ud83d\udc4e"
         },
@@ -1681,125 +2035,6 @@
     "published_at": "2026-11-13T00:56:54Z"
   },
   {
-    "title": "What Really Happened at the End of The Body? Decoded \u26a1",
-    "seo_description": "Full The Body climax breakdown: ending explained, hidden clues decoded, Kristina Bogic, Sara Boustany, Geena Meszaros performances, and sequel prospects.",
-    "movie": {
-      "id": 291507,
-      "title": "The Body",
-      "original_title": "The Body",
-      "slug": "the-body",
-      "media_type": "tv",
-      "release_date": "2026-11-11",
-      "overview": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell.",
-      "tagline": "They pray hard and sin harder.",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "runtime": 50,
-      "seasons": 1,
-      "vote_average": 7.6,
-      "vote_count": 13,
-      "category": "streaming_charts",
-      "director": "Quinn Shephard (Creator)",
-      "top_cast": [
-        "Kristina Bogic",
-        "Sara Boustany",
-        "Geena Meszaros",
-        "Nnamdi Asomugha",
-        "Louisa Krause",
-        "Shirley Chen"
-      ],
-      "poster_path": "/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
-      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-      "backdrops": [
-        "/nlmZnWtJwn5FnedWF52nHmdkNy.jpg",
-        "/6TyUv9Nqm0JOobdRCgO4EWMYPFz.jpg",
-        "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg",
-        "/yfLPesZIbTrwBE9BzmiK4ypqz3L.jpg",
-        "/fJz7SZhuVnywlXOz9IYsIE33u8j.jpg",
-        "/t4rbkRLvBxWLqpgze1FPKzITi7m.jpg",
-        "/nYFNkwT1NHOKiwPoBPEmzdvEXGQ.jpg",
-        "/lSTYgfCNLAEPxMlQImlXweONjT6.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\u26a1 ENDING DECODED",
-        "title": "The Climax Of The Body",
-        "text": "The breathtaking finale of The Body left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "\u2753 BURNING MYSTERY",
-        "title": "The Unseen Conflict",
-        "text": "On Halloween night, an all-girls dance squad tumbles into Catholic guilt, unholy desires and ghostly visions when an initiation goes to hell. Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
-        "title": "Secrets in Plain Sight",
-        "text": "Led by Kristina Bogic, Sara Boustany, Geena Meszaros, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
-        "title": "Crafted by Quinn Shephard (Creator)",
-        "text": "Director Quinn Shephard (Creator) placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "\ud83d\udca1 THE DECODED TRUTH",
-        "title": "What The Climax Confirms",
-        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "\ud83c\udfac WHAT COMES NEXT",
-        "title": "Next Season Roadmap",
-        "text": "Holding an impressive 7.6/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
-        "backdrop_index": 5,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-7",
-        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
-        "title": "What Is Your Verdict?",
-        "text": "Did the climax of The Body satisfy you, or did it leave you needing answers? Cast your vote below.",
-        "backdrop_index": 0,
-        "poll": {
-          "id": "poll-the-body-verdict",
-          "type": "binary",
-          "prompt": "Did the The Body ending satisfy you?",
-          "option1": "Genius twist \ud83d\udd25",
-          "option2": "Felt rushed \ud83d\udc4e"
-        },
-        "cta_text": "Read Next Story \u2794",
-        "cta_url": null
-      }
-    ],
-    "date_published": "2026-11-13T00:56:54Z",
-    "date_modified": "2026-11-13T00:56:54Z",
-    "published_at": "2026-11-13T00:56:54Z"
-  },
-  {
     "title": "Who Really Pulled The Trigger in The Good Daughter? 3 Clues You Missed \ud83d\udd75",
     "seo_description": "Full The Good Daughter climax breakdown: ending explained, hidden clues decoded, Rose Byrne, Meghann Fahy, Brendan Gleeson performances, and sequel prospects.",
     "movie": {
@@ -2035,132 +2270,6 @@
     "published_at": "2026-11-13T00:56:54Z"
   },
   {
-    "title": "Lara Croft Legend Ending Explained: The Climax Twist Decoded \u26a1",
-    "seo_description": "Unpack the explosive climax of Tomb Raider: The Legend of Lara Croft on Netflix. Discover hidden clues, trauma arcs, and Season 2 setups.",
-    "movie": {
-      "id": 117830,
-      "title": "Tomb Raider: The Legend of Lara Croft",
-      "original_title": "Tomb Raider: The Legend of Lara Croft",
-      "slug": "tomb-raider-the-legend-of-lara-croft",
-      "media_type": "tv",
-      "release_date": "2024-10-10",
-      "overview": "Thrust into a high-stakes chase around the world, fearless adventurer Lara Croft confronts her traumatic past while unraveling an ancient mystery.",
-      "tagline": "",
-      "genres": [
-        "Action & Adventure",
-        "Animation"
-      ],
-      "runtime": 50,
-      "seasons": 2,
-      "vote_average": 6.5,
-      "vote_count": 165,
-      "category": "netflix_hits",
-      "director": "Visionary Showrunner (Creator)",
-      "top_cast": [
-        "Hayley Atwell",
-        "Karen Fukuhara",
-        "O-T Fagbenle",
-        "Allen Maldonado"
-      ],
-      "poster_path": "/1WF982MFHGmsURH13HMQP51Dgr3.jpg",
-      "backdrop_path": "/zbaUXbBBLmGmHARAVurvUJbIEWt.jpg",
-      "backdrops": [
-        "/zbaUXbBBLmGmHARAVurvUJbIEWt.jpg",
-        "/84JyVOIJt0xXxnH5CgnkxXhCpoo.jpg",
-        "/pgUEKCJLbdjK7x0MScFUPWt0iWB.jpg",
-        "/uLpFgL3HPag6NW7odb6nO0CzmtR.jpg",
-        "/t0sgb6ih2AplRPx31zjqih6WFC7.jpg",
-        "/iuL1uoZjVWbYA5cAEllBR4Lg13K.jpg",
-        "/94qWpm0EjFJzhojO120JzWoNM2u.jpg",
-        "/sLs4MmjvJ8RRNBgBeho9uUtnlB5.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\u26a1 ENDING DECODED",
-        "title": "The Brutal Climax Revealed",
-        "text": "Lara Croft's harrowing journey pushed her to the brink. The final showdown shattered ancient myths and revealed the real cost of chasing relics.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "\u2753 BURNING MYSTERY",
-        "title": "The Danger of the Stones",
-        "text": "Devereaux wielded apocalyptic power through the peril stone. Why did Lara risk everything instead of destroying the artifact immediately?",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "\ud83d\udd0d CLUE #1: THE HALLUCINATIONS",
-        "title": "Shadows of Yamatai",
-        "text": "Notice the spectral flashes during combat? They directly mirror Lara's survivor guilt from Yamatai, proving her true battle was internal grief.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "\ud83e\udde9 CLUE #2: ROTH'S LEGACY",
-        "title": "The Relic Connection",
-        "text": "The stolen box was never just an heirloom. It held the key to Conrad Roth's secret pacts, forcing Lara to face her mentor's dark omissions.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "\ud83d\udca1 THE DECODED TRUTH",
-        "title": "Breaking the Cycle",
-        "text": "By releasing the stone's destructive power into the earth, Lara finally severed the ties of survivor guilt. She fought not to hoard, but to heal.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "\ud83d\udcfa NEXT SEASON CLUES",
-        "title": "Season 2 Unleashed",
-        "text": "With Camilla and Zip by her side, the ending bridges Lara straight into the iconic dual-pistol era. Ancient organizations are already hunting her.",
-        "backdrop_index": 5,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-7",
-        "badge": "\ud83e\udd2f UNANSWERED QUESTION",
-        "title": "Did Lara Go Too Far?",
-        "text": "Fans are intensely debating whether Lara unleashed an even deadlier curse on the globe by rejecting the relic's containment.",
-        "backdrop_index": 6,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-8",
-        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
-        "title": "What's Your Take?",
-        "text": "Did Lara Croft make the right choice sacrificing ancient power to save her humanity?",
-        "backdrop_index": 7,
-        "cta_text": "Read Next Story \u2794",
-        "cta_url": null,
-        "poll": {
-          "id": "poll-lara-relic-choice",
-          "type": "binary",
-          "prompt": "Did Lara make the right call?",
-          "option1": "Right choice \ud83c\udff9",
-          "option2": "Huge mistake \ud83d\udc80"
-        }
-      }
-    ],
-    "date_published": "2026-11-12T19:40:49Z",
-    "date_modified": "2026-11-12T19:40:49Z",
-    "published_at": "2026-11-12T19:40:49Z"
-  },
-  {
     "title": "The Silent Storm Season 2 Roadmap: Release Date, Cast & Unresolved Clues",
     "seo_description": "Full The Silent Storm climax breakdown: ending explained, hidden clues decoded, Jing Boran, Zhang Songwen, Sun Yizhou performances, and sequel prospects.",
     "movie": {
@@ -2383,124 +2492,6 @@
           "id": "poll-the-gospel-of-christmas-verdict",
           "type": "binary",
           "prompt": "Did the The Gospel of Christmas ending satisf",
-          "option1": "Genius twist \ud83d\udd25",
-          "option2": "Felt rushed \ud83d\udc4e"
-        },
-        "cta_text": "Read Next Story \u2794",
-        "cta_url": null
-      }
-    ],
-    "date_published": "2026-11-12T19:40:49Z",
-    "date_modified": "2026-11-12T19:40:49Z",
-    "published_at": "2026-11-12T19:40:49Z"
-  },
-  {
-    "title": "Rivals Ending Explained: The Climax Clues You Missed \ud83d\udcfa",
-    "seo_description": "Full Rivals climax breakdown: ending explained, hidden clues decoded, David Tennant, Aidan Turner, Danny Dyer performances, and sequel prospects.",
-    "movie": {
-      "id": 208921,
-      "title": "Rivals",
-      "original_title": "Rivals",
-      "slug": "rivals",
-      "media_type": "tv",
-      "release_date": "2024-10-18",
-      "overview": "It is 1986 and Britain is booming. \"Rivals\" dives headfirst into the cutthroat world of TV where hair-dos are big and ambitions are even bigger. Deals are brokered in boardrooms, as well as bedrooms. Nobody can be sure who will come out on top. With every man and woman out only for themselves, can true love really blossom?",
-      "tagline": "",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 50,
-      "seasons": 2,
-      "vote_average": 7.5,
-      "vote_count": 94,
-      "category": "ott_blockbusters",
-      "director": "Visionary Showrunner (Creator)",
-      "top_cast": [
-        "David Tennant",
-        "Aidan Turner",
-        "Danny Dyer",
-        "Alex Hassell",
-        "Nafessa Williams",
-        "Bella Maclean"
-      ],
-      "poster_path": "/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg",
-      "backdrop_path": "/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
-      "backdrops": [
-        "/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg",
-        "/cs7oHZHKoIdNJKcwizVaO6rIpr8.jpg",
-        "/voHguIB0uVIMIrIBw7ZsYSELTwL.jpg",
-        "/7v1HIgHDlxUZh2LhLRqczjVPFvH.jpg",
-        "/vSX2kRUzDy6IpNUxPgN6vMIaLto.jpg",
-        "/q068UOnQo59OWFWxAKxEvy8c4Yy.jpg",
-        "/2Cfc3ivscM2CnUwB2ggE5CGQ3jI.jpg",
-        "/u5LxFDdeZHjtyNcSXfGO7LjSWwm.jpg"
-      ]
-    },
-    "slides": [
-      {
-        "id": "page-1",
-        "badge": "\u26a1 ENDING DECODED",
-        "title": "The Climax Of Rivals",
-        "text": "The breathtaking finale of Rivals left audiences stunned with burning questions. What really happened in that final scene? Here is the decoded truth.",
-        "backdrop_index": 0,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-2",
-        "badge": "\u2753 BURNING MYSTERY",
-        "title": "The Unseen Conflict",
-        "text": "It is 1986 and Britain is booming. \"Rivals\" dives headfirst into the cutthroat world of TV where hair-dos are big and ambitions are even bigger. Deals are brokered in boardrooms, as well... Behind the visual chaos lies a deeper psychological confrontation that re-contextualizes the entire storyline.",
-        "backdrop_index": 1,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-3",
-        "badge": "\ud83d\udd0d CLUE #1: HIDDEN MOTIVE",
-        "title": "Secrets in Plain Sight",
-        "text": "Led by David Tennant, Aidan Turner, Danny Dyer, subtle dialogue cues in the second act secretly telegraphed the climactic betrayal long before the final sequence.",
-        "backdrop_index": 2,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-4",
-        "badge": "\ud83e\udde9 CLUE #2: DIRECTOR'S VISION",
-        "title": "Crafted by Visionary Showrunner (Creator)",
-        "text": "Director Visionary Showrunner (Creator) placed intentional visual easter eggs and shadow play throughout key scenes, foreshadowing the inevitable twist.",
-        "backdrop_index": 3,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-5",
-        "badge": "\ud83d\udca1 THE DECODED TRUTH",
-        "title": "What The Climax Confirms",
-        "text": "The closing moments resolve the immediate stakes while revealing that the true fallout is only just beginning for the surviving characters.",
-        "backdrop_index": 4,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-6",
-        "badge": "\ud83c\udfac WHAT COMES NEXT",
-        "title": "Next Season Roadmap",
-        "text": "Holding an impressive 7.5/10 score, fan communities are already dissecting plot clues that point directly to the next installment.",
-        "backdrop_index": 5,
-        "cta_text": null,
-        "cta_url": null
-      },
-      {
-        "id": "page-7",
-        "badge": "\ud83d\uddf3\ufe0f FAN VERDICT POLL",
-        "title": "What Is Your Verdict?",
-        "text": "Did the climax of Rivals satisfy you, or did it leave you needing answers? Cast your vote below.",
-        "backdrop_index": 0,
-        "poll": {
-          "id": "poll-rivals-verdict",
-          "type": "binary",
-          "prompt": "Did the Rivals ending satisfy you?",
           "option1": "Genius twist \ud83d\udd25",
           "option2": "Felt rushed \ud83d\udc4e"
         },

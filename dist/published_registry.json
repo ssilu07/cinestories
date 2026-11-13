@@ -2590,5 +2590,29 @@
     "published_at": "2026-10-23T16:42:22Z",
     "modified_at": "2026-10-23T16:42:22Z",
     "category": "series"
+  },
+  "tomb-raider-the-legend-of-lara-croft": {
+    "title": "Tomb Raider: The Legend of Lara Croft",
+    "published_at": "2026-11-13T11:11:45Z",
+    "modified_at": "2026-11-13T11:11:45Z",
+    "category": "netflix_hits"
+  },
+  "the-body": {
+    "title": "The Body",
+    "published_at": "2026-11-13T11:11:45Z",
+    "modified_at": "2026-11-13T11:11:45Z",
+    "category": "streaming_charts"
+  },
+  "never-surrender": {
+    "title": "Never Surrender",
+    "published_at": "2026-11-13T11:11:45Z",
+    "modified_at": "2026-11-13T11:11:45Z",
+    "category": "trending"
+  },
+  "rivals": {
+    "title": "Rivals",
+    "published_at": "2026-11-13T11:11:45Z",
+    "modified_at": "2026-11-13T11:11:45Z",
+    "category": "ott_blockbusters"
   }
 }

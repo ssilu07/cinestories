@@ -2,7 +2,7 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-13T10:46:29.021870+00:00",
+  "generated_at": "2026-11-13T11:12:56.199214+00:00",
   "total_stories": 444,
   "stories": [
     {
@@ -96,6 +96,42 @@
       "rating": 6.5
     },
     {
+      "id": 117830,
+      "slug": "tomb-raider-the-legend-of-lara-croft",
+      "title": "The 1 Insane Clue In Tomb Raider That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/stories/tomb-raider-the-legend-of-lara-croft/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-10",
+      "rating": 6.5
+    },
+    {
+      "id": 291507,
+      "slug": "the-body",
+      "title": "What Really Happened at the End of The Body? Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-body/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-11",
+      "rating": 7.6
+    },
+    {
+      "id": 1616687,
+      "slug": "never-surrender",
+      "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
+      "url": "https://cinematicbites.com/stories/never-surrender/",
+      "category": "trending",
+      "release_date": "2026-11-12",
+      "rating": 7.9
+    },
+    {
+      "id": 208921,
+      "slug": "rivals",
+      "title": "Rivals Ending Explained: The Climax Clues You Missed \ud83d\udcfa",
+      "url": "https://cinematicbites.com/stories/rivals/",
+      "category": "ott_blockbusters",
+      "release_date": "2024-10-18",
+      "rating": 7.4
+    },
+    {
       "id": 278577,
       "slug": "shine-on-me",
       "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
@@ -112,15 +148,6 @@
       "category": "streaming_charts",
       "release_date": "2026-04-02",
       "rating": 8.6
-    },
-    {
-      "id": 1616687,
-      "slug": "never-surrender",
-      "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
-      "url": "https://cinematicbites.com/stories/never-surrender/",
-      "category": "trending",
-      "release_date": "2026-11-12",
-      "rating": 7.9
     },
     {
       "id": 273240,
@@ -141,15 +168,6 @@
       "rating": 7.8
     },
     {
-      "id": 291507,
-      "slug": "the-body",
-      "title": "What Really Happened at the End of The Body? Decoded \u26a1",
-      "url": "https://cinematicbites.com/stories/the-body/",
-      "category": "streaming_charts",
-      "release_date": "2026-11-11",
-      "rating": 7.6
-    },
-    {
       "id": 249565,
       "slug": "the-good-daughter",
       "title": "Who Really Pulled The Trigger in The Good Daughter? 3 Clues You Missed \ud83d\udd75",
@@ -168,15 +186,6 @@
       "rating": 8.2
     },
     {
-      "id": 117830,
-      "slug": "tomb-raider-the-legend-of-lara-croft",
-      "title": "Lara Croft Legend Ending Explained: The Climax Twist Decoded \u26a1",
-      "url": "https://cinematicbites.com/stories/tomb-raider-the-legend-of-lara-croft/",
-      "category": "netflix_hits",
-      "release_date": "2024-10-10",
-      "rating": 6.5
-    },
-    {
       "id": 279155,
       "slug": "the-silent-storm",
       "title": "The Silent Storm Season 2 Roadmap: Release Date, Cast & Unresolved Clues",
@@ -193,15 +202,6 @@
       "category": "trending",
       "release_date": "2026-11-11",
       "rating": 6.0
-    },
-    {
-      "id": 208921,
-      "slug": "rivals",
-      "title": "Rivals Ending Explained: The Climax Clues You Missed \ud83d\udcfa",
-      "url": "https://cinematicbites.com/stories/rivals/",
-      "category": "ott_blockbusters",
-      "release_date": "2024-10-18",
-      "rating": 7.5
     },
     {
       "id": 249039,
