@@ -2614,5 +2614,29 @@
     "published_at": "2026-11-13T11:11:45Z",
     "modified_at": "2026-11-13T11:11:45Z",
     "category": "ott_blockbusters"
+  },
+  "avatar-the-last-airbender": {
+    "title": "Avatar: The Last Airbender",
+    "published_at": "2026-11-13T19:22:36Z",
+    "modified_at": "2026-11-13T19:22:36Z",
+    "category": "netflix_hits"
+  },
+  "the-good-daughter": {
+    "title": "The Good Daughter",
+    "published_at": "2026-11-13T19:22:36Z",
+    "modified_at": "2026-11-13T19:22:36Z",
+    "category": "streaming_charts"
+  },
+  "allen": {
+    "title": "Allen",
+    "published_at": "2026-11-13T19:22:36Z",
+    "modified_at": "2026-11-13T19:22:36Z",
+    "category": "trending"
+  },
+  "hazbin-hotel": {
+    "title": "Hazbin Hotel",
+    "published_at": "2026-11-13T19:22:36Z",
+    "modified_at": "2026-11-13T19:22:36Z",
+    "category": "ott_blockbusters"
   }
 }
