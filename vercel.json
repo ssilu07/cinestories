@@ -6,6 +6,46 @@
   "buildCommand": null,
   "headers": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-vercel-ip-country",
+          "value": "IN"
+        }
+      ],
+      "headers": [
+        {
+          "key": "Set-Cookie",
+          "value": "cinestories_edge_country=IN; Path=/; SameSite=Lax"
+        },
+        {
+          "key": "Vary",
+          "value": "x-vercel-ip-country"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "x-vercel-ip-country",
+          "value": "(?!IN$).+"
+        }
+      ],
+      "headers": [
+        {
+          "key": "Set-Cookie",
+          "value": "cinestories_edge_country=TIER1; Path=/; SameSite=Lax"
+        },
+        {
+          "key": "Vary",
+          "value": "x-vercel-ip-country"
+        }
+      ]
+    },
+    {
       "source": "/discover/(.*)",
       "headers": [
         {

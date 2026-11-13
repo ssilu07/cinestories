@@ -1,8 +1,9 @@
 {
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
-  "generated_at": "2026-11-11T07:40:53.006634+00:00",
-  "total_stories": 401,
+  "lang": "en",
+  "generated_at": "2026-11-13T10:17:31.732640+00:00",
+  "total_stories": 432,
   "stories": [
     {
       "id": 101352,
@@ -3612,6 +3613,285 @@
       "category": "upcoming",
       "release_date": "2024-11-22",
       "rating": 6.8
+    },
+    {
+      "id": null,
+      "slug": "a-better-jianghu",
+      "title": "A Better Jianghu: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/a-better-jianghu/",
+      "category": "trending",
+      "release_date": "2026-09-27",
+      "rating": "6.5"
+    },
+    {
+      "id": null,
+      "slug": "black-adam",
+      "title": "Black Adam: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/black-adam/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-10-19",
+      "rating": "6.8"
+    },
+    {
+      "id": null,
+      "slug": "bojack-horseman",
+      "title": "BoJack Horseman: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/bojack-horseman/",
+      "category": "series",
+      "release_date": "2014-08-22",
+      "rating": "8.5"
+    },
+    {
+      "id": null,
+      "slug": "brooklyn-nine-nine",
+      "title": "Brooklyn Nine-Nine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/brooklyn-nine-nine/",
+      "category": "series",
+      "release_date": "2013-09-17",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "captain-america-civil-war",
+      "title": "Captain America: Civil War: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/captain-america-civil-war/",
+      "category": "theories_easter_eggs",
+      "release_date": "2016-04-27",
+      "rating": "7.5"
+    },
+    {
+      "id": null,
+      "slug": "despicable-me-4",
+      "title": "Despicable Me 4: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/despicable-me-4/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-06-20",
+      "rating": "7.0"
+    },
+    {
+      "id": null,
+      "slug": "ghost-in-the-cell",
+      "title": "Ghost in the Cell: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/ghost-in-the-cell/",
+      "category": "upcoming",
+      "release_date": "2026-04-16",
+      "rating": "6.9"
+    },
+    {
+      "id": null,
+      "slug": "gossip-girl",
+      "title": "Gossip Girl: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/gossip-girl/",
+      "category": "series",
+      "release_date": "2007-09-19",
+      "rating": "8.1"
+    },
+    {
+      "id": null,
+      "slug": "guardians-of-the-galaxy-vol-2",
+      "title": "Guardians of the Galaxy Vol. 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/guardians-of-the-galaxy-vol-2/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-04-25",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "love-language",
+      "title": "Love Language: Chlo\u00eb Grace Moretz\u2019s Wild Rom-Com \ud83d\udc8d\u2728",
+      "url": "https://cinematicbites.com/stories/love-language/",
+      "category": "trending",
+      "release_date": "2026-10-23",
+      "rating": "10.0"
+    },
+    {
+      "id": null,
+      "slug": "man-of-steel",
+      "title": "Man of Steel: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/man-of-steel/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-06-12",
+      "rating": "6.7"
+    },
+    {
+      "id": null,
+      "slug": "my-little-pony-friendship-is-magic",
+      "title": "My Little Pony: Friendship Is Magic: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/my-little-pony-friendship-is-magic/",
+      "category": "series",
+      "release_date": "2010-10-10",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "ninjago-masters-of-spinjitzu",
+      "title": "Ninjago: Masters of Spinjitzu - 6 Secrets Behind the Hit \u26a1\ud83e\udd4b",
+      "url": "https://cinematicbites.com/stories/ninjago-masters-of-spinjitzu/",
+      "category": "series",
+      "release_date": "2012-01-11",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "oblivion",
+      "title": "Oblivion: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/oblivion/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-04-10",
+      "rating": "6.7"
+    },
+    {
+      "id": null,
+      "slug": "outlander",
+      "title": "Outlander: Why Fans Are Still Obsessed \u23f3\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "url": "https://cinematicbites.com/stories/outlander/",
+      "category": "series",
+      "release_date": "2014-08-09",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "queen-at-sea",
+      "title": "Queen at Sea: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/queen-at-sea/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": "7.2"
+    },
+    {
+      "id": null,
+      "slug": "rage-of-stars",
+      "title": "Rage of Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/rage-of-stars/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-08-06",
+      "rating": "6.5"
+    },
+    {
+      "id": null,
+      "slug": "rise-of-the-planet-of-the-apes",
+      "title": "Rise of the Planet of the Apes: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/rise-of-the-planet-of-the-apes/",
+      "category": "theories_easter_eggs",
+      "release_date": "2011-08-03",
+      "rating": "7.4"
+    },
+    {
+      "id": null,
+      "slug": "riverdale",
+      "title": "Riverdale: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/riverdale/",
+      "category": "series",
+      "release_date": "2017-01-26",
+      "rating": "8.4"
+    },
+    {
+      "id": null,
+      "slug": "seal-team",
+      "title": "Why SEAL Team Became a Global Military Drama Sensation \ud83c\udf96\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/seal-team/",
+      "category": "series",
+      "release_date": "2017-09-27",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "sonic-the-hedgehog-3",
+      "title": "Sonic the Hedgehog 3: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/sonic-the-hedgehog-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-12-19",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "spider-man-far-from-home",
+      "title": "Spider-Man: Far From Home: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/spider-man-far-from-home/",
+      "category": "theories_easter_eggs",
+      "release_date": "2019-06-28",
+      "rating": "7.4"
+    },
+    {
+      "id": null,
+      "slug": "the-loud-house",
+      "title": "The Loud House: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-loud-house/",
+      "category": "series",
+      "release_date": "2016-05-02",
+      "rating": "7.8"
+    },
+    {
+      "id": null,
+      "slug": "the-shining",
+      "title": "The Shining: Secrets of the Overlook Hotel \ud83e\ude93\u2744\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-shining/",
+      "category": "upcoming",
+      "release_date": "1980-05-23",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "the-sixth-sense",
+      "title": "The Sixth Sense: Shocking Secrets Behind the Twist \ud83d\udc7b\ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/the-sixth-sense/",
+      "category": "upcoming",
+      "release_date": "1999-08-06",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "the-west-wing",
+      "title": "The West Wing: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/the-west-wing/",
+      "category": "series",
+      "release_date": "1999-09-22",
+      "rating": "8.3"
+    },
+    {
+      "id": null,
+      "slug": "thor-ragnarok",
+      "title": "Thor: Ragnarok: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/thor-ragnarok/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-10-24",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "thunderbolts",
+      "title": "Thunderbolts*: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/thunderbolts/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-04-30",
+      "rating": "7.3"
+    },
+    {
+      "id": null,
+      "slug": "transformers-rise-of-the-beasts",
+      "title": "Transformers: Rise of the Beasts: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/transformers-rise-of-the-beasts/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-06-06",
+      "rating": "7.2"
+    },
+    {
+      "id": null,
+      "slug": "v",
+      "title": "Inside 'V': The 1990s Crime Epic Starring Cinema Legends \ud83c\udfac\ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/v/",
+      "category": "trending",
+      "release_date": "2026-08-19",
+      "rating": "6.3"
+    },
+    {
+      "id": null,
+      "slug": "vikings",
+      "title": "Vikings: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/stories/vikings/",
+      "category": "series",
+      "release_date": "2013-03-03",
+      "rating": "8.1"
     }
   ]
 }

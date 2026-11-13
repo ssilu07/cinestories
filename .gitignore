@@ -40,5 +40,8 @@ credentials*.json
 adversarial_*.py
 *test_suite*.py
 temp_*.py
+.agents/
+dist/e2e_report.json
+
 
 

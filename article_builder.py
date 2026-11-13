@@ -1,13 +1,14 @@
 """
 Article Builder module for CineStories / MoviePulse.
 Renders standalone, responsive, ultra-fast loading Discover-optimized article HTML pages:
-dist/articles/[slug]/index.html
+dist/articles/[slug]/index.html and dist/hi/articles/[slug]/index.html
 
 Strictly compliant with Google Discover guidelines:
 1. max-image-preview:large robots meta tag
 2. High-res 1200px+ landscape images (TMDB w1280)
 3. Schema.org NewsArticle JSON-LD structured data
 4. Mobile-first, high contrast typography with cross-linking to Web Stories
+5. Viral-grade tactile micro-delights (toast notification, celebratory sparkles)
 """
 
 import html
@@ -30,11 +31,20 @@ from config import (
 def build_discover_article_html(
     article: Dict[str, Any],
     domain: str = DOMAIN_NAME,
-    related_articles: List[Dict[str, Any]] = None
+    related_articles: List[Dict[str, Any]] = None,
+    lang: str = "en"
 ) -> str:
     """
     Renders a Google Discover-optimized article HTML document.
+    Supports English ("en") and Hindi ("hi") with bidirectional hreflangs,
+    streamlined mobile header, reading progress bar, verified editorial byline,
+    and celebratory copy-to-clipboard toast delight.
     """
+    is_hi = (lang == "hi")
+    html_lang = "hi" if is_hi else "en"
+    og_locale = "hi_IN" if is_hi else "en_US"
+    in_lang = "hi-IN" if is_hi else "en-US"
+
     movie = article.get("movie", {})
     slug = movie.get("slug", "movie-article")
     movie_title = movie.get("title", "Featured Story")
@@ -43,17 +53,17 @@ def build_discover_article_html(
     category = movie.get("category", "trending")
     category_label = category.replace("_", " ").title()
     if category == "streaming_charts":
-        category_label = "Weekly Top 10"
+        category_label = "साप्ताहिक टॉप 10" if is_hi else "Weekly Top 10"
     elif category == "theories_easter_eggs":
-        category_label = "Marvel & DC Theories"
+        category_label = "मार्वल व डीसी थ्योरीज़" if is_hi else "Marvel & DC Theories"
     elif category == "where_are_they_now":
-        category_label = "Where Are They Now?"
+        category_label = "अब कहाँ हैं सितारे?" if is_hi else "Where Are They Now?"
     elif category == "series":
-        category_label = "TV Series"
+        category_label = "टीवी सीरीज़" if is_hi else "TV Series"
     elif category == "cult_classic":
-        category_label = "Cult Classic"
+        category_label = "कल्ट क्लासिक" if is_hi else "Cult Classic"
     elif category == "steamy_thrillers":
-        category_label = "Bold & Steamy Thrillers"
+        category_label = "बोल्ड व थ्रिलर" if is_hi else "Bold & Steamy Thrillers"
 
     # Images
     backdrop_path = movie.get("backdrop_path")
@@ -78,53 +88,115 @@ def build_discover_article_html(
     seasons = movie.get("seasons")
     director = movie.get("director", "Unknown")
     top_cast = movie.get("top_cast", [])
-    cast_str = ", ".join(top_cast[:4]) if top_cast else "Ensemble Cast"
+    cast_str = ", ".join(top_cast[:4]) if top_cast else ("मुख्य कलाकार" if is_hi else "Ensemble Cast")
     genres = movie.get("genres", ["Entertainment"])
     genres_str = " • ".join(genres[:3])
     reading_time = article.get("reading_time_mins", 3)
 
-    article_url = f"{domain}/articles/{slug}/"
-    story_url = f"{domain}/stories/{slug}/"
-    share_text = f"{headline} - Read full breakdown on CineStories"
+    # Localized routing
+    prefix = "/hi" if is_hi else ""
+    canonical_url = f"{domain}{prefix}/articles/{slug}/"
+    story_url = f"{prefix}/stories/{slug}/"
+    home_url = f"{prefix}/"
+    discover_url = f"{prefix}/discover/"
+    en_article_url = f"{domain}/articles/{slug}/"
+    hi_article_url = f"{domain}/hi/articles/{slug}/"
+
+    share_text = f"{headline} - Read full breakdown on CineStories" if not is_hi else f"{headline} - सिनेस्टोरीज़ पर पूरा विश्लेषण पढ़ें"
     encoded_share_text = quote(share_text)
-    encoded_url = quote(article_url)
+    encoded_url = quote(canonical_url)
     encoded_headline = quote(headline)
     encoded_backdrop = quote(backdrop_url)
 
-    # JSON-LD Schema (NewsArticle for Discover)
+    # Localized labels
+    home_label = "होम" if is_hi else "Home"
+    discover_label = "डिस्कवर" if is_hi else "Discover"
+    discover_btn_label = "📰 डिस्कवर फीड" if is_hi else "📰 Discover Feed"
+    story_btn_label = "⚡ वेब स्टोरी" if is_hi else "⚡ Web Story"
+    about_label = "हमारे बारे में" if is_hi else "About Us"
+    editorial_label = "संपादकीय नीति" if is_hi else "Editorial"
+    contact_label = "संपर्क" if is_hi else "Contact"
+    read_time_label = f"⏱ {reading_time} मिनट पठन" if is_hi else f"⏱ {reading_time} min read"
+    author_role = "प्रमाणित फैक्ट-चेक विश्लेषण" if is_hi else "Fact-Checked &amp; Verified"
+    who_label = "✓ किसे पसंद आएगी:" if is_hi else "✓ Who Will Love This:"
+    skip_label = "⚠️ किसे छोड़नी चाहिए:" if is_hi else "⚠️ Who Should Pass:"
+    takeaways_heading = "पाठकों के लिए मुख्य बातें" if is_hi else "Key Takeaways for Readers"
+    verdict_badge = "संपादक की राय" if is_hi else "EDITOR'S TAKE"
+    story_callout_h4 = "⚡ दृश्य वेब स्टोरी उपलब्ध है" if is_hi else "⚡ Visual Web Story Available"
+    story_callout_p = "समय कम है? इस कहानी को तेज, 6-स्लाइड इंटरएक्टिव गूगल एएमपी वेब स्टोरी के रूप में देखें।" if is_hi else "Short on time? Experience this story as a fast, interactive 6-slide Google AMP Web Story."
+    launch_story_btn_text = "वेब स्टोरी देखें" if is_hi else "Tap to Launch Web Story"
+    viral_h4 = "⚡ क्लाइमेक्स विवरण दोस्तों के साथ साझा करें" if is_hi else "⚡ Share The Climax Clues With Your Friends"
+    viral_p = "क्या उन्हें यह महत्वपूर्ण विवरण याद नहीं रहा? इस समीक्षा को सीधे अपने व्हाट्सएप ग्रुप पर भेजें।" if is_hi else "Think they missed this ending detail? Send this breakdown directly to your WhatsApp group or Pinterest board."
+    wa_share_label = "💬 व्हाट्सएप पर साझा करें" if is_hi else "💬 Share on WhatsApp"
+    pin_share_label = "📌 पिंटरेस्ट पर सेव करें" if is_hi else "📌 Save to Pinterest"
+    copy_share_label = "📋 लिंक कॉपी करें" if is_hi else "📋 Copy Link"
+    toast_copy_msg = "आर्टिकल लिंक कॉपी हो गया! 🎉" if is_hi else "Article link copied to clipboard! 🎉"
+    related_title = "गूगल डिस्कवर में ट्रेंडिंग" if is_hi else "Trending in Google Discover"
+
+    # JSON-LD Schema (NewsArticle & BreadcrumbList for Discover)
     schema_data = {
         "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": article_url
-        },
-        "headline": headline[:110],
-        "description": meta_desc,
-        "image": [
-            backdrop_url,
-            poster_url
-        ],
-        "datePublished": pub_iso,
-        "dateModified": mod_iso,
-        "author": {
-            "@type": "Person",
-            "name": "Marcus Vance",
-            "jobTitle": "Senior Film & Streaming Critic",
-            "url": f"{domain}/about/"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": PUBLISHER_NAME,
-            "logo": {
-                "@type": "ImageObject",
-                "url": logo_url,
-                "width": 512,
-                "height": 512
+        "@graph": [
+            {
+                "@type": "NewsArticle",
+                "@id": f"{canonical_url}#article",
+                "isPartOf": {
+                    "@type": "WebPage",
+                    "@id": canonical_url
+                },
+                "headline": headline[:110],
+                "description": meta_desc,
+                "image": [
+                    backdrop_url,
+                    poster_url
+                ],
+                "datePublished": pub_iso,
+                "dateModified": mod_iso,
+                "inLanguage": in_lang,
+                "author": {
+                    "@type": "Organization",
+                    "name": "CineStories Editorial Board",
+                    "url": f"{domain}/about/"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": PUBLISHER_NAME,
+                    "url": f"{domain}/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": logo_url,
+                        "width": 512,
+                        "height": 512
+                    }
+                },
+                "articleSection": category_label,
+                "keywords": [movie_title] + genres + ["Google Discover", "Cinema", "Web Stories"]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{canonical_url}#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": home_label,
+                        "item": f"{domain}{prefix}/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": discover_label,
+                        "item": f"{domain}{prefix}/discover/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": headline[:60],
+                        "item": canonical_url
+                    }
+                ]
             }
-        },
-        "articleSection": category_label,
-        "keywords": [movie_title] + genres + ["Google Discover", "Cinema", "Web Stories"]
+        ]
     }
     schema_json = json.dumps(schema_data, indent=2)
 
@@ -138,14 +210,14 @@ def build_discover_article_html(
 
     audience_guide_html = f"""
     <div class="audience-guide-card">
-      <div class="guide-tag">🎯 AUDIENCE & WATCHLIST GUIDE</div>
+      <div class="guide-tag">🎯 AUDIENCE &amp; WATCHLIST GUIDE</div>
       <div class="guide-row">
         <div class="guide-col">
-          <span class="guide-label green">✓ Who Will Love This:</span>
+          <span class="guide-label green">{who_label}</span>
           <p>{html.escape(who_watch)}</p>
         </div>
         <div class="guide-col">
-          <span class="guide-label amber">⚠️ Who Should Pass:</span>
+          <span class="guide-label amber">{skip_label}</span>
           <p>{html.escape(skip_if)}</p>
         </div>
       </div>
@@ -159,7 +231,7 @@ def build_discover_article_html(
     <div class="takeaways-box">
       <div class="takeaways-header">
         <span class="takeaways-icon">⚡</span>
-        <h3>Key Takeaways for Readers</h3>
+        <h3>{takeaways_heading}</h3>
       </div>
       <ul class="takeaways-list">
         {takeaways_items}
@@ -185,12 +257,35 @@ def build_discover_article_html(
     verdict = article.get("verdict_summary", "")
     verdict_html = f"""
     <div class="verdict-card">
-      <div class="verdict-tag">EDITOR'S TAKE</div>
+      <div class="verdict-tag">{verdict_badge}</div>
       <p>{html.escape(verdict)}</p>
     </div>
     """ if verdict else ""
 
     # Related articles
+    if not related_articles:
+        try:
+            if is_hi:
+                from curated_articles_hi import CURATED_ARTICLES_HI
+                related_articles = [
+                    {
+                        "movie": {"slug": s, "title": CURATED_ARTICLES_HI[s].get("headline", s), "category": "trending"},
+                        "headline": CURATED_ARTICLES_HI[s].get("headline", s)
+                    }
+                    for s in list(CURATED_ARTICLES_HI.keys()) if s != slug
+                ][:3]
+            else:
+                from curated_articles import CURATED_ARTICLES
+                related_articles = [
+                    {
+                        "movie": {"slug": s, "title": CURATED_ARTICLES[s].get("headline", s), "category": "trending"},
+                        "headline": CURATED_ARTICLES[s].get("headline", s)
+                    }
+                    for s in list(CURATED_ARTICLES.keys())[:10] if s != slug
+                ][:3]
+        except Exception:
+            related_articles = []
+
     related_html_list = []
     if related_articles:
         for rel in related_articles[:3]:
@@ -199,7 +294,7 @@ def build_discover_article_html(
             r_title = rel.get("headline") or r_movie.get("title", "")
             r_thumb = f"{TMDB_IMAGE_BACKDROP}{r_movie.get('backdrop_path')}" if r_movie.get('backdrop_path') else f"{domain}/assets/logo.png"
             related_html_list.append(f"""
-            <a href="/articles/{r_slug}/" class="related-card">
+            <a href="{prefix}/articles/{r_slug}/" class="related-card">
               <img src="{r_thumb}" alt="{html.escape(r_title)}" loading="lazy" width="280" height="158">
               <div class="related-info">
                 <h4>{html.escape(r_title)}</h4>
@@ -208,16 +303,32 @@ def build_discover_article_html(
             </a>
             """)
     related_section = f"""
-    <div class="related-section">
-      <h3 class="section-title">Trending in Google Discover</h3>
+    <div class="related-section related-articles">
+      <h3 class="section-title">{related_title}</h3>
       <div class="related-grid">
         {"".join(related_html_list)}
       </div>
     </div>
     """ if related_html_list else ""
 
+    # Language Switcher Pill Markup
+    if is_hi:
+        lang_switch_html = f"""
+        <div class="lang-switch-pill" role="group" aria-label="Language Selector">
+          <a href="/articles/{slug}/" class="lang-pill" aria-label="Read in English">🇺🇸 EN</a>
+          <span class="lang-pill active" aria-current="page">🇮🇳 हिं</span>
+        </div>
+        """
+    else:
+        lang_switch_html = f"""
+        <div class="lang-switch-pill" role="group" aria-label="Language Selector">
+          <span class="lang-pill active" aria-current="page">🇺🇸 EN</span>
+          <a href="/hi/articles/{slug}/" class="lang-pill" aria-label="हिंदी में पढ़ें">🇮🇳 हिं</a>
+        </div>
+        """
+
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{html_lang}">
 <head>
 {get_ga_script()}
 {get_adsense_script()}
@@ -228,12 +339,18 @@ def build_discover_article_html(
   <!-- Critical Google Discover Meta Tag -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="description" content="{html.escape(meta_desc)}">
-  <link rel="canonical" href="{article_url}">
+  <link rel="canonical" href="{canonical_url}">
+  
+  <!-- Bidirectional Hreflangs -->
+  <link rel="alternate" hreflang="en" href="{en_article_url}">
+  <link rel="alternate" hreflang="hi" href="{hi_article_url}">
+  <link rel="alternate" hreflang="x-default" href="{en_article_url}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
+  <meta property="og:locale" content="{og_locale}">
   <meta property="og:site_name" content="{SITE_NAME}">
-  <meta property="og:url" content="{article_url}">
+  <meta property="og:url" content="{canonical_url}">
   <meta property="og:title" content="{html.escape(headline)}">
   <meta property="og:description" content="{html.escape(meta_desc)}">
   <meta property="og:image" content="{backdrop_url}">
@@ -241,8 +358,8 @@ def build_discover_article_html(
   <meta property="og:image:width" content="1280">
   <meta property="og:image:height" content="720">
   <meta property="og:image:alt" content="{html.escape(movie_title)} Cover">
-  <meta property="article:published_time" content="{today_iso}">
-  <meta property="article:modified_time" content="{today_iso}">
+  <meta property="article:published_time" content="{pub_iso}">
+  <meta property="article:modified_time" content="{mod_iso}">
   <meta property="article:section" content="{category_label}">
   
   <!-- Twitter Cards -->
@@ -256,7 +373,7 @@ def build_discover_article_html(
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Structured Data JSON-LD -->
   <script type="application/ld+json">
@@ -279,7 +396,7 @@ def build_discover_article_html(
       --radius-sm: 8px;
       --radius-md: 14px;
       --radius-lg: 20px;
-      --max-width: 840px;
+      --max-width: 820px;
     }}
 
     * {{
@@ -289,19 +406,32 @@ def build_discover_article_html(
     }}
 
     body {{
-      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: 'Outfit', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background-color: var(--bg);
       color: var(--text);
-      line-height: 1.75;
+      line-height: 1.8;
       font-size: 18px;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      overflow-x: hidden;
     }}
 
     a {{
       color: inherit;
       text-decoration: none;
+    }}
+
+    /* Top Reading Scroll Progress Bar */
+    .reading-progress-bar {{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent-gold));
+      z-index: 1000;
+      width: 0%;
+      transition: width 0.1s linear;
     }}
 
     /* Top Navigation Bar */
@@ -311,8 +441,9 @@ def build_discover_article_html(
       z-index: 50;
       background: rgba(9, 11, 16, 0.88);
       backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--surface-border);
-      padding: 14px 20px;
+      padding: 12px 16px;
     }}
 
     .nav-container {{
@@ -321,39 +452,96 @@ def build_discover_article_html(
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      gap: 12px;
     }}
 
     .brand-wrap {{
       display: flex;
       align-items: center;
       gap: 10px;
+      flex-shrink: 0;
     }}
 
     .brand-logo {{
       width: 36px;
       height: 36px;
       border-radius: 8px;
+      display: block;
     }}
 
     .brand-title {{
-      font-size: 19px;
+      font-size: 18px;
       font-weight: 800;
       letter-spacing: -0.5px;
+      white-space: nowrap;
     }}
 
     .brand-tag {{
-      font-size: 10px;
+      font-size: 9.5px;
       color: var(--accent-gold);
       font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
+      white-space: nowrap;
     }}
 
     .nav-links {{
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
+      flex-shrink: 0;
+    }}
+
+    .nav-link-item {{
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 8px;
+      transition: color 0.2s ease;
+    }}
+
+    .nav-link-item:hover {{
+      color: #fff;
+    }}
+
+    /* Language Switcher Pill */
+    .lang-switch-pill {{
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      border-radius: 999px;
+      padding: 2px 4px;
+      gap: 2px;
+      flex-shrink: 0;
+    }}
+
+    .lang-pill {{
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 999px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      display: inline-block;
+      line-height: 1.2;
+    }}
+
+    .lang-pill:hover {{
+      color: #fff;
+    }}
+
+    .lang-pill:active {{
+      transform: scale(0.96);
+    }}
+
+    .lang-pill.active {{
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 2px 8px var(--primary-glow);
     }}
 
     .nav-btn {{
@@ -364,14 +552,19 @@ def build_discover_article_html(
       font-size: 13px;
       font-weight: 600;
       border-radius: var(--radius-sm);
-      transition: all 0.2s ease;
+      transition: all 0.15s ease;
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid var(--surface-border);
+      white-space: nowrap;
     }}
 
     .nav-btn:hover {{
       background: rgba(255, 255, 255, 0.12);
       color: #fff;
+    }}
+
+    .nav-btn:active {{
+      transform: scale(0.97);
     }}
 
     .nav-btn-primary {{
@@ -383,6 +576,39 @@ def build_discover_article_html(
 
     .nav-btn-primary:hover {{
       background: var(--primary-hover);
+    }}
+
+    @media (max-width: 768px) {{
+      .nav-link-desktop {{
+        display: none !important;
+      }}
+      .brand-tag {{
+        display: none;
+      }}
+    }}
+
+    @media (max-width: 420px) {{
+      .navbar {{
+        padding: 8px 10px;
+      }}
+      .nav-container {{
+        gap: 6px;
+      }}
+      .brand-logo {{
+        width: 30px;
+        height: 30px;
+      }}
+      .brand-title {{
+        font-size: 16px;
+      }}
+      .lang-pill {{
+        font-size: 11px;
+        padding: 3px 6px;
+      }}
+      .nav-btn {{
+        padding: 6px 10px;
+        font-size: 12px;
+      }}
     }}
 
     /* Main Article Container */
@@ -452,14 +678,21 @@ def build_discover_article_html(
     }}
 
     /* Author & Date Byline */
+    .author-meta, .article-meta {{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }}
+
     .byline-bar {{
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 14px;
       padding-bottom: 24px;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
       border-bottom: 1px solid var(--surface-border);
     }}
 
@@ -479,16 +712,34 @@ def build_discover_article_html(
       justify-content: center;
       font-weight: 800;
       font-size: 16px;
+      color: #fff;
+      flex-shrink: 0;
     }}
 
     .author-details h4 {{
       font-size: 15px;
       font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }}
 
     .author-details p {{
       font-size: 12px;
       color: var(--text-muted);
+    }}
+
+    .verified-badge {{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #38bdf8;
+      color: #0b0f19;
+      font-size: 10px;
+      font-weight: 900;
     }}
 
     .share-actions {{
@@ -500,7 +751,7 @@ def build_discover_article_html(
 
     .share-btn {{
       padding: 6px 12px;
-      font-size: 11.5px;
+      font-size: 12px;
       font-weight: 700;
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--surface-border);
@@ -511,12 +762,16 @@ def build_discover_article_html(
       gap: 5px;
       text-decoration: none;
       color: var(--text-muted);
-      transition: all 0.2s ease;
+      transition: all 0.15s ease;
     }}
 
     .share-btn:hover {{
       background: rgba(255, 255, 255, 0.15);
       color: #fff;
+    }}
+
+    .share-btn:active {{
+      transform: scale(0.96);
     }}
 
     .share-whatsapp {{
@@ -547,93 +802,6 @@ def build_discover_article_html(
     .share-telegram:hover {{
       background: #0284c7;
       color: #fff;
-    }}
-
-    .viral-share-box {{
-      margin: 36px 0;
-      padding: 24px;
-      background: linear-gradient(135deg, rgba(225, 29, 72, 0.12) 0%, rgba(245, 158, 11, 0.09) 100%);
-      border: 1px solid rgba(225, 29, 72, 0.3);
-      border-radius: var(--radius-lg);
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    }}
-
-    .viral-share-text h4 {{
-      font-size: 18px;
-      font-weight: 800;
-      color: #fff;
-      margin: 0 0 6px 0;
-    }}
-
-    .viral-share-text p {{
-      font-size: 13.5px;
-      color: var(--text-muted);
-      margin: 0;
-      line-height: 1.5;
-    }}
-
-    .viral-share-btns {{
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-items: center;
-    }}
-
-    .btn-share-wa {{
-      background: #25d366;
-      color: #0b0f19;
-      padding: 9px 18px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 800;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
-      transition: transform 0.15s ease;
-    }}
-    .btn-share-wa:hover {{
-      transform: translateY(-2px);
-    }}
-
-    .btn-share-pin {{
-      background: #e60023;
-      color: #fff;
-      padding: 9px 16px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 700;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: transform 0.15s ease;
-    }}
-    .btn-share-pin:hover {{
-      transform: translateY(-2px);
-    }}
-
-    .btn-share-tg {{
-      background: rgba(56, 189, 248, 0.15);
-      color: #38bdf8;
-      border: 1px solid rgba(56, 189, 248, 0.35);
-      padding: 9px 16px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 700;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: transform 0.15s ease;
-    }}
-    .btn-share-tg:hover {{
-      background: #38bdf8;
-      color: #000;
     }}
 
     /* Hero Backdrop Image (Google Discover 1200px+ format) */
@@ -707,7 +875,7 @@ def build_discover_article_html(
       align-items: center;
       gap: 8px;
       box-shadow: 0 4px 14px var(--primary-glow);
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.15s, box-shadow 0.15s;
       white-space: nowrap;
     }}
 
@@ -716,9 +884,13 @@ def build_discover_article_html(
       box-shadow: 0 6px 20px rgba(225, 29, 72, 0.6);
     }}
 
+    .launch-story-btn:active {{
+      transform: scale(0.97);
+    }}
+
     /* Key Takeaways Box */
     .takeaways-box {{
-      background: var(--surface-card);
+      background: linear-gradient(135deg, rgba(21, 26, 40, 0.95), rgba(16, 20, 31, 0.9));
       border-left: 4px solid var(--accent-gold);
       border-radius: 0 var(--radius-md) var(--radius-md) 0;
       padding: 24px;
@@ -726,6 +898,7 @@ def build_discover_article_html(
       border-top: 1px solid var(--surface-border);
       border-right: 1px solid var(--surface-border);
       border-bottom: 1px solid var(--surface-border);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
     }}
 
     .takeaways-header {{
@@ -766,24 +939,33 @@ def build_discover_article_html(
       font-size: 14px;
     }}
 
-    /* Article Body Sections */
+    /* Article Body Sections - Enhanced Reading Experience */
+    .article-body {{
+      max-width: 740px;
+      margin: 0 auto 36px;
+    }}
+
     .article-section {{
-      margin-bottom: 36px;
+      margin-bottom: 32px;
     }}
 
     .article-section h2 {{
       font-size: clamp(20px, 3vw, 26px);
       font-weight: 800;
       color: #ffffff;
+      margin-top: 32px;
       margin-bottom: 14px;
       letter-spacing: -0.5px;
-      line-height: 1.3;
+      line-height: 1.35;
+      border-left: 3px solid var(--primary);
+      padding-left: 14px;
     }}
 
     .article-section p {{
       color: #cbd5e1;
-      line-height: 1.8;
-      margin-bottom: 16px;
+      line-height: 1.85;
+      margin-bottom: 18px;
+      font-size: 17.5px;
     }}
 
     /* Movie Specs Card */
@@ -884,6 +1066,103 @@ def build_discover_article_html(
       line-height: 1.7;
     }}
 
+    /* Viral Share Box */
+    .viral-share-box {{
+      margin: 36px 0;
+      padding: 24px;
+      background: linear-gradient(135deg, rgba(225, 29, 72, 0.12) 0%, rgba(245, 158, 11, 0.09) 100%);
+      border: 1px solid rgba(225, 29, 72, 0.3);
+      border-radius: var(--radius-lg);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }}
+
+    .viral-share-text h4 {{
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+      margin: 0 0 6px 0;
+    }}
+
+    .viral-share-text p {{
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin: 0;
+      line-height: 1.5;
+    }}
+
+    .viral-share-btns {{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }}
+
+    .btn-share-wa {{
+      background: #25d366;
+      color: #0b0f19;
+      padding: 9px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-wa:hover {{
+      transform: translateY(-2px);
+    }}
+    .btn-share-wa:active {{
+      transform: scale(0.97);
+    }}
+
+    .btn-share-pin {{
+      background: #e60023;
+      color: #fff;
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-pin:hover {{
+      transform: translateY(-2px);
+    }}
+    .btn-share-pin:active {{
+      transform: scale(0.97);
+    }}
+
+    .btn-share-tg {{
+      background: rgba(56, 189, 248, 0.15);
+      color: #38bdf8;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      padding: 9px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: transform 0.15s ease;
+    }}
+    .btn-share-tg:hover {{
+      background: #38bdf8;
+      color: #000;
+    }}
+    .btn-share-tg:active {{
+      transform: scale(0.97);
+    }}
+
     /* Related Grid */
     .related-section {{
       margin-top: 56px;
@@ -919,6 +1198,10 @@ def build_discover_article_html(
       border-color: rgba(225, 29, 72, 0.5);
     }}
 
+    .related-card:active {{
+      transform: scale(0.98);
+    }}
+
     .related-card img {{
       width: 100%;
       height: 140px;
@@ -944,6 +1227,58 @@ def build_discover_article_html(
     .related-info span {{
       font-size: 11px;
       color: var(--text-muted);
+    }}
+
+    /* Toast Notification */
+    .toast-notification {{
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: rgba(16, 20, 31, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(225, 29, 72, 0.4);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-size: 13.5px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      z-index: 9999;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+      pointer-events: none;
+    }}
+
+    .toast-notification.show {{
+      transform: translateY(0);
+      opacity: 1;
+    }}
+
+    /* Sparkles */
+    .sparkle-particle {{
+      position: fixed;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 10001;
+      animation: sparkleAnim 0.8s ease-out forwards;
+    }}
+
+    @keyframes sparkleAnim {{
+      0% {{
+        transform: scale(0.4) translateY(0);
+        opacity: 1;
+      }}
+      100% {{
+        transform: scale(1.6) translateY(-40px);
+        opacity: 0;
+      }}
     }}
 
     /* Footer */
@@ -991,24 +1326,37 @@ def build_discover_article_html(
       .specs-card {{
         grid-template-columns: 1fr 1fr;
       }}
+      .article-section h2 {{
+        font-size: 20px;
+      }}
+      .article-section p {{
+        font-size: 16.5px;
+      }}
     }}
   </style>
 </head>
 <body>
 
+  <!-- Top Reading Scroll Progress Bar -->
+  <div id="readingProgress" class="reading-progress-bar" aria-hidden="true"></div>
+
   <!-- Navigation -->
   <nav class="navbar">
     <div class="nav-container">
-      <a href="/" class="brand-wrap" aria-label="{SITE_NAME} Home">
+      <a href="{home_url}" class="brand-wrap" aria-label="{SITE_NAME} Home">
         <img src="/assets/logo.png" alt="{SITE_NAME}" class="brand-logo" width="36" height="36">
         <div>
           <div class="brand-title">{SITE_NAME}</div>
-          <div class="brand-tag">DISCOVER & STORIES</div>
+          <div class="brand-tag">DISCOVER &amp; STORIES</div>
         </div>
       </a>
       <div class="nav-links">
-        <a href="/discover/" class="nav-btn" aria-label="Chrome Discover Feed">📰 Discover Feed</a>
-        <a href="{story_url}" class="nav-btn nav-btn-primary" aria-label="Watch AMP Story">⚡ Web Story</a>
+        <a href="/about/" class="nav-link-item nav-link-desktop">{about_label}</a>
+        <a href="/editorial/" class="nav-link-item nav-link-desktop">{editorial_label}</a>
+        <a href="/contact/" class="nav-link-item nav-link-desktop">{contact_label}</a>
+        {lang_switch_html}
+        <a href="{discover_url}" class="nav-btn" aria-label="Chrome Discover Feed">{discover_btn_label}</a>
+        <a href="{story_url}" class="nav-btn nav-btn-primary" aria-label="Watch AMP Story">{story_btn_label}</a>
       </div>
     </div>
   </nav>
@@ -1018,11 +1366,11 @@ def build_discover_article_html(
     
     <!-- Breadcrumbs -->
     <div class="breadcrumbs">
-      <a href="/">Home</a>
+      <a href="{home_url}">{home_label}</a>
       <span>›</span>
-      <a href="/discover/">Discover</a>
+      <a href="{discover_url}">{discover_label}</a>
       <span>›</span>
-      <a href="/discover/?category={category}">{category_label}</a>
+      <a href="{discover_url}?category={category}">{category_label}</a>
       <span>›</span>
       <span>{html.escape(movie_title)}</span>
     </div>
@@ -1030,7 +1378,7 @@ def build_discover_article_html(
     <!-- Header Meta Badges -->
     <div class="article-header-meta">
       <span class="category-badge">{category_label}</span>
-      <span class="read-time-pill">⏱ {reading_time} min read</span>
+      <span class="read-time-pill">{read_time_label}</span>
       <span class="read-time-pill">📅 {date_display}</span>
     </div>
 
@@ -1040,10 +1388,13 @@ def build_discover_article_html(
     <!-- Byline & Social Share -->
     <div class="byline-bar">
       <div class="author-info">
-        <div class="author-avatar">MV</div>
+        <a href="/about/" class="author-avatar" title="CineStories Editorial Board" style="text-decoration: none;">EB</a>
         <div class="author-details">
-          <h4>Marcus Vance</h4>
-          <p>Senior Entertainment Critic • Fact-Checked & Verified</p>
+          <h4>
+            <a href="/about/" style="color: inherit; text-decoration: none;">CineStories Editorial Board</a>
+            <span class="verified-badge" title="Verified Human Review" aria-label="Verified Human Review">✓</span>
+          </h4>
+          <p><a href="/editorial/" style="color: var(--text-muted); text-decoration: underline; text-decoration-color: rgba(255,255,255,0.2);">🛡️ {author_role}</a></p>
         </div>
       </div>
       <div class="share-actions">
@@ -1051,7 +1402,7 @@ def build_discover_article_html(
         <a class="share-btn share-pinterest" href="https://pinterest.com/pin/create/button/?url={encoded_url}&media={encoded_backdrop}&description={encoded_headline}" target="_blank" rel="noopener">📌 Pin</a>
         <a class="share-btn share-telegram" href="https://t.me/share/url?url={encoded_url}&text={encoded_share_text}" target="_blank" rel="noopener">✈️ Telegram</a>
         <a class="share-btn" href="https://twitter.com/intent/tweet?text={encoded_headline}&url={encoded_url}" target="_blank" rel="noopener">🐦 Tweet</a>
-        <button class="share-btn" onclick="navigator.clipboard.writeText(window.location.href); alert('Link copied to clipboard!');">📋 Copy</button>
+        <button class="share-btn" onclick="copyArticleLink()" aria-label="Copy article link to clipboard">{copy_share_label}</button>
       </div>
     </div>
 
@@ -1067,11 +1418,11 @@ def build_discover_article_html(
     <!-- Interactive Cross-Link to Web Story -->
     <div class="story-callout">
       <div class="story-callout-text">
-        <h4>⚡ Visual Web Story Available</h4>
-        <p>Short on time? Experience this story as a fast, interactive 6-slide Google AMP Web Story.</p>
+        <h4>{story_callout_h4}</h4>
+        <p>{story_callout_p}</p>
       </div>
       <a href="{story_url}" class="launch-story-btn">
-        <span>Tap to Launch Web Story</span>
+        <span>{launch_story_btn_text}</span>
         <span>👉</span>
       </a>
     </div>
@@ -1117,15 +1468,15 @@ def build_discover_article_html(
     <!-- Viral Share Box (Drive High-Engagement Referral Loops) -->
     <div class="viral-share-box">
       <div class="viral-share-text">
-        <h4>⚡ Share The Climax Clues With Your Friends</h4>
-        <p>Think they missed this ending detail? Send this breakdown directly to your WhatsApp group or Pinterest board.</p>
+        <h4>{viral_h4}</h4>
+        <p>{viral_p}</p>
       </div>
       <div class="viral-share-btns">
         <a class="btn-share-wa" href="https://api.whatsapp.com/send?text={encoded_share_text}%20{encoded_url}" target="_blank" rel="noopener">
-          <span>💬 Share on WhatsApp</span>
+          <span>{wa_share_label}</span>
         </a>
         <a class="btn-share-pin" href="https://pinterest.com/pin/create/button/?url={encoded_url}&media={encoded_backdrop}&description={encoded_headline}" target="_blank" rel="noopener">
-          <span>📌 Save to Pinterest</span>
+          <span>{pin_share_label}</span>
         </a>
         <a class="btn-share-tg" href="https://t.me/share/url?url={encoded_url}&text={encoded_share_text}" target="_blank" rel="noopener">
           <span>✈️ Telegram</span>
@@ -1138,22 +1489,82 @@ def build_discover_article_html(
 
   </main>
 
+  <!-- Toast Notification & Celebratory Feedback -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite">
+    <span>✨</span>
+    <span>{toast_copy_msg}</span>
+  </div>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-container">
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/discover/">Discover Feed</a>
-        <a href="/about/">About Us</a>
-        <a href="/editorial/">Editorial Policy</a>
+      <div class="footer-links" role="navigation" aria-label="Footer Navigation">
+        <a href="{home_url}">{home_label}</a>
+        <a href="{discover_url}">{discover_label}</a>
+        <a href="/about/">{about_label}</a>
+        <a href="/editorial/">{editorial_label}</a>
         <a href="/privacy/">Privacy Policy</a>
         <a href="/terms/">Terms of Service</a>
-        <a href="/contact/">Contact Us</a>
+        <a href="/contact/">{contact_label}</a>
         <a href="/sitemap.xml">XML Sitemap</a>
       </div>
-      <p>© {datetime.now(timezone.utc).year} {PUBLISHER_NAME}. Independent entertainment analysis. Movie metadata & imagery powered by TMDB.</p>
+      <p>© {datetime.now(timezone.utc).year} {PUBLISHER_NAME}. Independent entertainment analysis. Movie metadata &amp; imagery powered by TMDB.</p>
     </div>
   </footer>
+
+  <script>
+    function copyArticleLink() {{
+      var url = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {{
+        navigator.clipboard.writeText(url).then(showToast).catch(function() {{ fallbackCopy(url); }});
+      }} else {{
+        fallbackCopy(url);
+      }}
+    }}
+    function fallbackCopy(text) {{
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {{
+        document.execCommand('copy');
+        showToast();
+      }} catch (e) {{
+        prompt('Copy link:', text);
+      }}
+      document.body.removeChild(ta);
+    }}
+    function showToast() {{
+      var toast = document.getElementById('toastNotification');
+      if (toast) {{
+        toast.classList.add('show');
+        celebrateSparkles();
+        setTimeout(function() {{ toast.classList.remove('show'); }}, 3000);
+      }}
+    }}
+    function celebrateSparkles() {{
+      for (var i = 0; i < 12; i++) {{
+        var s = document.createElement('div');
+        s.className = 'sparkle-particle';
+        s.style.left = (Math.random() * 80 + 10) + 'vw';
+        s.style.top = (Math.random() * 60 + 20) + 'vh';
+        s.style.backgroundColor = ['#e11d48', '#f59e0b', '#38bdf8', '#34d399'][Math.floor(Math.random() * 4)];
+        document.body.appendChild(s);
+        (function(el) {{
+          setTimeout(function() {{ if (el.parentNode) el.parentNode.removeChild(el); }}, 800);
+        }})(s);
+      }}
+    }}
+    window.addEventListener('scroll', function() {{
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+      var bar = document.getElementById("readingProgress");
+      if (bar) bar.style.width = scrolled + "%";
+    }}, {{ passive: true }});
+  </script>
 
 </body>
 </html>

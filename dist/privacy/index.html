@@ -1,37 +1,213 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
-  <script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-5T9C99C0KF');
   </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Privacy Policy | MoviePulse</title>
+<meta content="Privacy Policy for MoviePulse. Comprehensive GDPR (8 rights), CCPA/CPRA compliance disclosures, cookie inventory, and Google AdSense guidelines." name="description"/>
+<link href="https://cinematicbites.com/privacy/" rel="canonical"/>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy | MoviePulse</title>
-  <meta name="description" content="Privacy Policy for MoviePulse. Explains how we collect, use, and protect your information, including Google AdSense cookies and analytics.">
-  <link rel="canonical" href="https://cinematicbites.com/privacy/">
-  <link rel="icon" type="image/svg+xml" href="https://cinematicbites.com/assets/favicon.svg">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <style>
+<link href="https://cinematicbites.com/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<script>
+(function() {
+  try {
+    var searchParams = new URLSearchParams(window.location.search);
+    var simGeo = (searchParams.get('simulate_geo') || '').trim().toUpperCase();
+    var langParam = (searchParams.get('lang') || '').trim().toLowerCase();
+    var path = window.location.pathname || '/';
+    var isHindiPath = path === '/hi' || path === '/hi/' || path.indexOf('/hi/') === 0;
+
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+      return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function doRedirect(targetLang) {
+      var targetPath;
+      if (targetLang === 'hi') {
+        if (!isHindiPath) {
+          targetPath = '/hi' + (path === '/' ? '/' : path);
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      } else if (targetLang === 'en') {
+        if (isHindiPath) {
+          targetPath = path.replace(/^\/hi(\/|$)/, '/') || '/';
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      }
+    }
+
+    // Tier 1a: Test Query Parameter Override (?simulate_geo=IN/US or ?lang=hi/en)
+    if (simGeo) {
+      if (simGeo === 'IN') {
+        doRedirect('hi');
+        return;
+      } else if (/^[A-Z]{2}$/.test(simGeo)) {
+        doRedirect('en');
+        return;
+      }
+    }
+
+    if (langParam === 'hi' || langParam === 'en') {
+      doRedirect(langParam);
+      return;
+    }
+
+    // Detect if Edge IP country changed (e.g. user toggled VPN between India and US/Tier-1)
+    var edgeCountry = (getCookie('cinestories_edge_country') || '').trim().toUpperCase();
+    if (edgeCountry) {
+      var lastEdgeCountry = localStorage.getItem('cinestories_last_edge_country') || '';
+      if (lastEdgeCountry && lastEdgeCountry !== edgeCountry) {
+        localStorage.removeItem('cinestories_lang_manual');
+        localStorage.removeItem('cinestories_lang');
+        document.cookie = 'cinestories_lang_manual=; Path=/; Max-Age=0; SameSite=Lax';
+        document.cookie = 'cinestories_lang=; Path=/; Max-Age=0; SameSite=Lax';
+      }
+      localStorage.setItem('cinestories_last_edge_country', edgeCountry);
+    }
+
+    // Tier 1b: Explicit User Choice with Manual Flag
+    var manualFlag = localStorage.getItem('cinestories_lang_manual') || getCookie('cinestories_lang_manual');
+    var isManual = (manualFlag === 'true');
+    if (isManual) {
+      var savedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+      if (savedLang === 'hi' || savedLang === 'en') {
+        doRedirect(savedLang);
+        return;
+      }
+    }
+
+    // Tier 1c: Stored choice without manual flag
+    var storedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+    if (storedLang === 'hi' || storedLang === 'en') {
+      doRedirect(storedLang);
+      return;
+    }
+
+    // Tier 2: Edge CDN IP Country Cookie (set by Vercel x-vercel-ip-country header)
+    if (edgeCountry === 'IN') {
+      doRedirect('hi');
+      return;
+    } else if (edgeCountry && edgeCountry !== 'IN') {
+      doRedirect('en');
+      return;
+    }
+
+    // Tier 3: Zero-Latency Client Heuristics
+    // 3a. Timezone inspection
+    var tz = '';
+    try {
+      tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (e) {}
+
+    var indianTimezones = ['Asia/Kolkata', 'Asia/Calcutta', 'IST'];
+    if (indianTimezones.indexOf(tz) !== -1) {
+      doRedirect('hi');
+      return;
+    }
+
+    // 3b. Navigator languages
+    var navLangs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < navLangs.length; i++) {
+      var l = (navLangs[i] || '').trim().toLowerCase();
+      if (l === 'hi' || l.indexOf('hi-') === 0 || l.indexOf('hi_') === 0) {
+        doRedirect('hi');
+        return;
+      }
+    }
+
+    // Tier 4: Safe Fallback to English
+    if (isHindiPath && !isManual && !storedLang) {
+      // Keep on Hindi page if specifically visited without overriding
+    }
+  } catch (err) {
+    // Fail silently without interrupting page render
+  }
+})();
+</script>
+<script>
+function setLanguagePreference(targetLang) {
+  try {
+    localStorage.setItem('cinestories_lang', targetLang);
+    localStorage.setItem('cinestories_lang_manual', 'true');
+    var maxAge = 31536000;
+    document.cookie = 'cinestories_lang=' + encodeURIComponent(targetLang) + '; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+    document.cookie = 'cinestories_lang_manual=true; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+  } catch (e) {}
+}
+</script>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="MoviePulse" property="og:site_name"/>
+<meta content="https://cinematicbites.com/privacy/" property="og:url"/>
+<meta content="Privacy Policy | MoviePulse" property="og:title"/>
+<meta content="Privacy Policy for MoviePulse. Comprehensive GDPR (8 rights), CCPA/CPRA compliance disclosures, cookie inventory, and Google AdSense guidelines." property="og:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" property="og:image"/>
+<!-- Twitter Cards -->
+<meta content="summary" name="twitter:card"/>
+<meta content="@MoviePulse" name="twitter:site"/>
+<meta content="Privacy Policy | MoviePulse" name="twitter:title"/>
+<meta content="Privacy Policy for MoviePulse. Comprehensive GDPR (8 rights), CCPA/CPRA compliance disclosures, cookie inventory, and Google AdSense guidelines." name="twitter:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" name="twitter:image"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://cinematicbites.com/privacy/#webpage",
+      "url": "https://cinematicbites.com/privacy/",
+      "name": "Privacy Policy & Regulatory Disclosures",
+      "description": "Comprehensive Privacy Policy for MoviePulse. Covers GDPR user rights, California CCPA/CPRA disclosures, cookie schedule, and Google AdSense guidelines.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://cinematicbites.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Privacy Policy",
+            "item": "https://cinematicbites.com/privacy/"
+          }
+        ]
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}</script>
+<style>
     :root {
       --bg: #090b10;
       --surface: #10141f;
       --surface-border: rgba(255, 255, 255, 0.08);
       --primary: #e11d48;
+      --primary-hover: #f43f5e;
       --accent-gold: #f59e0b;
       --text: #ffffff;
       --text-muted: #94a3b8;
+      --text-dim: #64748b;
       --radius-lg: 20px;
+      --radius-md: 12px;
       --radius-sm: 8px;
     }
 
@@ -90,7 +266,13 @@
       line-height: 1.1;
     }
 
-    .btn-home {
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-nav {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -102,17 +284,46 @@
       font-size: 13px;
       font-weight: 600;
       text-decoration: none;
-      transition: background 0.2s ease;
+      transition: all 0.2s ease;
     }
 
-    .btn-home:hover {
+    .btn-nav:hover {
       background: rgba(225, 29, 72, 0.2);
       border-color: var(--primary);
+      color: #fff;
+    }
+
+    .btn-nav-primary {
+      background: rgba(225, 29, 72, 0.15);
+      border-color: rgba(225, 29, 72, 0.4);
+      color: #fda4af;
+    }
+
+    .breadcrumb-nav {
+      max-width: 900px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+      width: 100%;
+      font-size: 13px;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-nav a:hover {
+      color: #fff;
     }
 
     .main-content {
       max-width: 900px;
-      margin: 40px auto 60px;
+      margin: 20px auto 60px;
       padding: 0 24px;
       flex-grow: 1;
       width: 100%;
@@ -122,7 +333,7 @@
       background: var(--surface);
       border: 1px solid var(--surface-border);
       border-radius: var(--radius-lg);
-      padding: 40px 36px;
+      padding: 44px 38px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 
@@ -155,28 +366,31 @@
       font-size: 20px;
       font-weight: 800;
       color: #fff;
-      margin: 32px 0 12px;
+      margin: 36px 0 14px;
       border-bottom: 1px solid var(--surface-border);
       padding-bottom: 8px;
+      letter-spacing: -0.2px;
     }
 
     .content-body h3 {
       font-size: 16px;
       font-weight: 700;
       color: #e2e8f0;
-      margin: 20px 0 8px;
+      margin: 22px 0 10px;
     }
 
     .content-body p {
       color: var(--text-muted);
       margin-bottom: 16px;
       font-size: 15px;
+      line-height: 1.75;
     }
 
-    .content-body ul {
+    .content-body ul, .content-body ol {
       margin: 0 0 20px 24px;
       color: var(--text-muted);
       font-size: 15px;
+      line-height: 1.7;
     }
 
     .content-body li {
@@ -186,16 +400,315 @@
     .content-body a {
       color: #38bdf8;
       text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     .callout-box {
-      background: rgba(225, 29, 72, 0.1);
+      background: rgba(225, 29, 72, 0.08);
       border-left: 4px solid var(--primary);
-      padding: 16px 20px;
+      padding: 18px 22px;
       border-radius: var(--radius-sm);
       margin: 24px 0;
-      font-size: 14px;
+      font-size: 14.5px;
       color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 4px solid #38bdf8;
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    /* Team Grid for About Page */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin: 24px 0 32px;
+    }
+
+    .team-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(225, 29, 72, 0.35);
+    }
+
+    .team-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .team-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary) 0%, #9333ea 100%);
+      color: #fff;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .team-role {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-gold);
+    }
+
+    .team-bio {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* Workflow Stages for Editorial Page */
+    .workflow-list {
+      list-style: none !important;
+      margin: 20px 0 !important;
+      padding: 0 !important;
+    }
+
+    .workflow-step {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .workflow-num {
+      display: inline-block;
+      background: rgba(225, 29, 72, 0.2);
+      color: #fda4af;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .workflow-step h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .workflow-step p {
+      margin-bottom: 0 !important;
+      font-size: 13.5px;
+    }
+
+    /* Cookie Schedule Table */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+    }
+
+    .policy-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      text-align: left;
+    }
+
+    .policy-table th {
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      white-space: nowrap;
+    }
+
+    .policy-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      color: var(--text-muted);
+    }
+
+    .policy-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Interactive Contact Form */
+    .contact-form-wrap {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      margin: 28px 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+      margin-bottom: 18px;
+    }
+
+    .form-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .form-label .req {
+      color: var(--primary);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: #090b10;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
+    }
+
+    .form-input.invalid, .form-select.invalid, .form-textarea.invalid {
+      border-color: #ef4444;
+      background: rgba(239, 68, 68, 0.04);
+    }
+
+    .form-feedback {
+      font-size: 12px;
+      color: #ef4444;
+      display: none;
+      margin-top: 4px;
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .btn-submit {
+      background: linear-gradient(135deg, var(--primary) 0%, #be123c 100%);
+      color: #fff;
+      border: none;
+      padding: 13px 28px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.15s ease, box-shadow 0.2s;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(225, 29, 72, 0.4);
+    }
+
+    .btn-submit:active {
+      transform: translateY(1px);
+    }
+
+    .success-card {
+      display: none;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .success-card h3 {
+      color: #34d399;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .ref-code {
+      display: inline-block;
+      font-family: monospace;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #f59e0b;
+      font-size: 14px;
+      margin: 8px 0 16px;
+    }
+
+    .btn-mailto-fallback {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      text-decoration: none !important;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      border: 1px solid var(--surface-border);
+      transition: background 0.2s;
+    }
+
+    .btn-mailto-fallback:hover {
+      background: rgba(255, 255, 255, 0.16);
     }
 
     .footer {
@@ -225,95 +738,296 @@
       color: var(--text-muted);
       text-decoration: none;
       font-size: 13px;
+      transition: color 0.2s;
     }
 
     .footer-links a:hover {
       color: #fff;
     }
+    
+/* Tactile Segmented Language Switcher Pill */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 3px;
+  gap: 2px;
+  user-select: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  vertical-align: middle;
+}
+
+.lang-switcher:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #94a3b8;
+  background: transparent;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  line-height: 1.2;
+}
+
+.lang-switcher .lang-pill .flag-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.lang-switcher .lang-pill .lang-text {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+}
+
+.lang-switcher .lang-pill:hover:not(.active) {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-0.5px);
+}
+
+.lang-switcher .lang-pill:active {
+  transform: scale(0.95);
+}
+
+.lang-switcher .lang-pill.active {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  cursor: default;
+}
+
+.lang-switcher .lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-weight: 300;
+  display: none; /* Segmented layout uses pill padding instead of divider */
+}
+
+/* AMP Story specific language switcher pill (No JS, pure CSS) */
+.amp-story-lang-switcher {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 100;
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+  padding: 3px;
+}
+
+.amp-story-lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #cbd5e1;
+}
+
+.amp-story-lang-switcher .lang-pill.active {
+  background: #e11d48;
+  color: #ffffff;
+}
+
   </style>
-</head>
+<link href="https://cinematicbites.com/privacy/" hreflang="en" rel="alternate"/><link href="https://cinematicbites.com/hi/privacy/" hreflang="hi" rel="alternate"/><link href="https://cinematicbites.com/privacy/" hreflang="x-default" rel="alternate"/></head>
 <body>
-
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="/" class="brand-wrap">
-        <img src="/assets/logo.png" alt="MoviePulse" class="brand-logo">
-        <div class="brand-text">
-          <h1>MoviePulse</h1>
-        </div>
-      </a>
-      <a href="/" class="btn-home">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-        <span>Back to Stories</span>
-      </a>
+<header class="navbar">
+<div class="nav-container">
+<a class="brand-wrap" href="https://cinematicbites.com/">
+<img alt="MoviePulse" class="brand-logo" height="38" src="/assets/logo.png" width="38"/>
+<div class="brand-text">
+<h1>MoviePulse</h1>
+</div>
+</a>
+<div class="nav-actions">
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-current="page" aria-label="Switch to English edition" class="lang-pill active" href="/privacy/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-label="हिंदी संस्करण चुनें" class="lang-pill" href="/hi/privacy/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<a class="btn-nav btn-nav-primary" href="https://cinematicbites.com/discover/">
+<span>📰</span>
+<span>Discover Feed</span>
+</a>
+<a class="btn-nav" href="https://cinematicbites.com/">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+<span>Back to Stories</span>
+</a>
+</div>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<a href="https://cinematicbites.com/">Home</a>
+<span>›</span>
+<span style="color: #fff;">Privacy Policy</span>
+</nav>
+<main class="main-content">
+<article class="page-card">
+<div class="page-kicker">CineStories Compliance &amp; Policy</div>
+<h1 class="page-title">Privacy Policy</h1>
+<div class="content-body">
+<p><em>Last Updated: October 2026 • Published by CineStories Digital Media Network</em></p>
+<p>At <strong>MoviePulse</strong> (accessible from <a href="https://cinematicbites.com/">https://cinematicbites.com</a>), the privacy and data security of our visitors are fundamental priorities. This Privacy Policy details the types of information we collect, the legal bases governing processing, our use of cookies and advertising technologies (including Google AdSense), and your rights under the <strong>General Data Protection Regulation (GDPR)</strong>, the <strong>California Consumer Privacy Act (CCPA)</strong>, and the <strong>California Privacy Rights Act (CPRA)</strong>.</p>
+<h2>1. Information We Collect</h2>
+<p>MoviePulse operates primarily as a static, privacy-preserving publication. We do not require visitor account registration, and we do not maintain invasive user tracking databases.</p>
+<h3>A. Automatically Collected Technical Telemetry</h3>
+<p>Like standard web publishers, our CDN and web servers log non-personally identifiable technical telemetry when you access our pages:</p>
+<ul>
+<li>Browser type, rendering engine, and operating system</li>
+<li>Referring URLs, entry pages, and exit pages</li>
+<li>Date, time, and duration of requests</li>
+<li>Internet Protocol (IP) address (utilized solely for edge CDN routing, fraud detection, and coarse country/region-level language routing; IP addresses are not merged with personal records)</li>
+</ul>
+<h3>B. Voluntarily Submitted Information</h3>
+<p>If you communicate with our editorial desk via our <a href="/contact/">interactive contact form</a> or direct email, we receive the information you choose to provide (such as your name, email address, inquiry subject, and message content). This data is used solely to respond to your inquiry and is never shared, sold, or rented to third-party marketers.</p>
+<h2>2. Cookie Schedule &amp; Tracking Technologies</h2>
+<p>Cookies are small text files stored on your browser to facilitate website functionality, remember preferences, and analyze readership traffic. The following table provides our complete, transparent cookie schedule:</p>
+<div class="table-wrap">
+<table class="policy-table">
+<thead>
+<tr>
+<th>Cookie Identifier</th>
+<th>Provider</th>
+<th>Classification</th>
+<th>Lifespan</th>
+<th>Operational Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>cinestories_lang</code></td>
+<td>CineStories</td>
+<td>Essential / Functional</td>
+<td>1 Year</td>
+<td>Stores user-selected language preference (e.g. English or Hindi) for seamless navigation across sessions.</td>
+</tr>
+<tr>
+<td><code>cinestories_lang_manual</code></td>
+<td>CineStories</td>
+<td>Essential / Functional</td>
+<td>1 Year</td>
+<td>Remembers manual language override so edge geolocation does not overwrite your deliberate choice.</td>
+</tr>
+<tr>
+<td><code>_ga</code>, <code>_ga_*</code></td>
+<td>Google Analytics 4</td>
+<td>Analytics &amp; Measurement</td>
+<td>14 Months</td>
+<td>Aggregates anonymous visitor metrics (page views, session duration, scroll depth) to evaluate content performance.</td>
+</tr>
+<tr>
+<td><code>__gads</code>, <code>__gpi</code></td>
+<td>Google AdSense</td>
+<td>Advertising &amp; Delivery</td>
+<td>13 Months</td>
+<td>Facilitates programmatic display ad serving, prevents repetitive ad exposure (frequency capping), and detects ad fraud.</td>
+</tr>
+<tr>
+<td><code>DART Cookie</code></td>
+<td>Google DoubleClick</td>
+<td>Advertising &amp; Targeting</td>
+<td>Session / 1 Year</td>
+<td>Serves contextual or interest-based ads based on visits across MoviePulse and other websites.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>3. Google AdSense &amp; DoubleClick DART Cookies</h2>
+<p>Google is an authorized third-party vendor on MoviePulse. Google uses cookies (including the DoubleClick DART cookie) to serve advertisements to visitors based on their visit to MoviePulse and other sites on the internet.</p>
+<ul>
+<li>Users may opt out of personalized advertising by visiting <a href="https://adssettings.google.com" rel="noopener" target="_blank">Google Ads Settings</a>.</li>
+<li>Alternatively, visitors can opt out of third-party vendor cookies for interest-based advertising by visiting the <a href="https://optout.networkadvertising.org" rel="noopener" target="_blank">Network Advertising Initiative (NAI) Opt-Out Page</a> or the <a href="https://youradchoices.com" rel="noopener" target="_blank">Digital Advertising Alliance (DAA) WebChoices Tool</a>.</li>
+<li>For visitors in jurisdictions requiring consent (such as the European Economic Area), personalized advertising cookies are deployed strictly following user consent.</li>
+</ul>
+<h2>4. European Union &amp; UK User Rights (GDPR)</h2>
+<p>Under Regulation (EU) 2016/679 (General Data Protection Regulation) and the UK Data Protection Act 2018, individuals residing in the EEA or UK enjoy eight fundamental statutory rights:</p>
+<ol>
+<li><strong>Right of Access (Article 15 GDPR):</strong> You have the right to request copies of any personal data we hold concerning you.</li>
+<li><strong>Right to Rectification (Article 16 GDPR):</strong> You have the right to request that we correct any information you believe is inaccurate or complete incomplete records.</li>
+<li><strong>Right to Erasure / “Right to be Forgotten” (Article 17 GDPR):</strong> You have the right to request the deletion of your personal data under certain statutory conditions.</li>
+<li><strong>Right to Restrict Processing (Article 18 GDPR):</strong> You have the right to request that we limit the processing of your personal data.</li>
+<li><strong>Right to Data Portability (Article 20 GDPR):</strong> You have the right to request that we transfer data we have collected to another organization or directly to you in a structured, machine-readable format.</li>
+<li><strong>Right to Object to Processing (Article 21 GDPR):</strong> You have the right to object to our processing of your personal data based on legitimate interests or for direct marketing.</li>
+<li><strong>Rights in Relation to Automated Decision-Making (Article 22 GDPR):</strong> You have the right not to be subject to a decision based solely on automated processing or profiling. MoviePulse does not engage in automated individual decision-making.</li>
+<li><strong>Right to Lodge a Complaint (Article 77 GDPR):</strong> You have the right to lodge a complaint with your national Data Protection Authority (DPA) if you believe our data processing infringes the GDPR.</li>
+</ol>
+<p><strong>Legal Bases for Processing:</strong> We process data under Article 6(1)(f) (Legitimate Interests) for website security, performance monitoring, and content delivery; and Article 6(1)(a) (Consent) for optional non-essential advertising cookies.</p>
+<h2>5. California Consumer Privacy Disclosures (CCPA &amp; CPRA)</h2>
+<p>This section applies exclusively to California residents under the California Consumer Privacy Act of 2018 (CCPA) and the California Privacy Rights Act of 2020 (CPRA):</p>
+<ul>
+<li><strong>Notice of Non-Sale of Personal Information:</strong> MoviePulse does <strong>NOT sell personal information</strong> of California consumers, nor do we sell or share personal information of consumers under 16 years of age.</li>
+<li><strong>Right to Know &amp; Access:</strong> You may request disclosure of the categories and specific pieces of personal information collected over the preceding 12 months.</li>
+<li><strong>Right to Delete:</strong> You may request the deletion of your personal information collected by us, subject to statutory exemptions.</li>
+<li><strong>Right to Correct:</strong> You may request that we correct inaccurate personal information maintained about you.</li>
+<li><strong>Right to Non-Discrimination:</strong> We will never deny services, charge different prices, or provide a different quality of service because you exercised your statutory privacy rights.</li>
+<li><strong>“Shine the Light” Law:</strong> Under California Civil Code Section 1798.83, California residents may request information regarding disclosure of personal data to third parties for direct marketing. We do not make such disclosures.</li>
+</ul>
+<h2>6. Children’s Privacy Protection (COPPA &amp; GDPR-K)</h2>
+<p>MoviePulse is an entertainment journalism portal designed for general audiences and is strictly not directed to children under 13 years of age (or under 16 in the European Union). We do not knowingly collect personally identifiable information from children. If you are a parent or guardian and believe your child has submitted personal details to our site, please contact us immediately, and we will delete such data from our records.</p>
+<h2>7. Data Retention &amp; Security Architecture</h2>
+<p>Our website utilizes industry-standard HTTPS encryption (TLS 1.3) across all endpoints. Technical logs generated by CDN edge nodes are retained for a rolling maximum of 30 days for cybersecurity auditing, after which they are permanently purged. Contact inquiries are retained only for the duration required to resolve your query.</p>
+<h2>8. Privacy Contact &amp; Exercising Your Rights</h2>
+<p>To exercise your GDPR or CCPA rights, or for inquiries regarding this policy, contact our designated privacy desk:</p>
+<div class="callout-box">
+<strong>Data Protection Officer:</strong> CineStories Privacy &amp; Legal Desk<br/>
+<strong>Email:</strong> <a href="mailto:editorial@cinestories.online">editorial@cinestories.online</a> (Reference: <code>Privacy Inquiry</code>)<br/>
+<strong>Backup Correspondence:</strong> <a href="mailto:sumits7196@gmail.com">sumits7196@gmail.com</a><br/>
+<strong>Response Time:</strong> Within thirty (30) calendar days as required by law.
     </div>
-  </header>
-
-  <main class="main-content">
-    <article class="page-card">
-      <div class="page-kicker">Legal &amp; Policy</div>
-      <h1 class="page-title">Privacy Policy</h1>
-      <div class="content-body">
-        
-            <p><em>Last updated: October 2026</em></p>
-            <p>At <strong>MoviePulse</strong>, accessible from <a href="https://cinematicbites.com/">https://cinematicbites.com</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document outlines the types of information that is collected and recorded by MoviePulse and how we use it.</p>
-
-            <h2>Information We Collect</h2>
-            <p>Like most modern web platforms, MoviePulse collects non-personally identifiable information that web browsers and servers typically make available, such as:</p>
-            <ul>
-              <li>Browser type and language preference</li>
-              <li>Referring website and exit pages</li>
-              <li>Date and time of each visitor request</li>
-              <li>Internet Protocol (IP) addresses for geolocation and fraud prevention</li>
-            </ul>
-
-            <h2>Cookies and Web Beacons</h2>
-            <p>MoviePulse uses standard cookies to store information about visitors' preferences and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type or other information.</p>
-
-            <h2>Google DoubleClick DART Cookie &amp; AdSense</h2>
-            <p>Google is one of the third-party vendors on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to our site and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a>.</p>
-
-            <h2>Our Advertising Partners</h2>
-            <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners include:</p>
-            <ul>
-              <li><strong>Google AdSense / Google Ad Manager:</strong> Privacy Policy available at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
-            </ul>
-            <p>Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on MoviePulse, which are sent directly to users' browser.</p>
-
-            <h2>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2>
-            <p>Under the CCPA, California consumers have the right to:</p>
-            <ul>
-              <li>Request that a business disclose the categories and specific pieces of personal data collected.</li>
-              <li>Request that a business delete any personal data collected about the consumer.</li>
-              <li>Request that a business not sell the consumer's personal data.</li>
-            </ul>
-
-            <h2>GDPR Data Protection Rights</h2>
-            <p>Every European user is entitled to the right to access, rectify, erase, restrict processing, and object to processing of their personal data.</p>
-
-            <h2>Children's Information</h2>
-            <p>MoviePulse does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately.</p>
-
-            <h2>Contact Us</h2>
-            <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at <a href="/contact/">our Contact page</a>.</p>
-            
-      </div>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 MoviePulse. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="/about/">About Us</a>
-        <a href="/editorial/">Editorial Policy</a>
-        <a href="/privacy/">Privacy Policy</a>
-        <a href="/terms/">Terms &amp; Disclaimer</a>
-        <a href="/contact/">Contact Us</a>
-        <a href="/sitemap.xml">Sitemap</a>
-      </div>
-    </div>
-  </footer>
-
+</div>
+</article>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<p style="font-size: 13px; color: var(--text-muted);">© 2026 CineStories Digital Media Network. All rights reserved.</p>
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-current="page" aria-label="Switch to English edition" class="lang-pill active" href="/privacy/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-label="हिंदी संस्करण चुनें" class="lang-pill" href="/hi/privacy/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<div aria-label="Footer Navigation" class="footer-links" role="navigation">
+<a href="https://cinematicbites.com/">Home</a>
+<a href="https://cinematicbites.com/discover/">Discover Feed</a>
+<a href="https://cinematicbites.com/about/">About Us</a>
+<a href="https://cinematicbites.com/editorial/">Editorial Policy</a>
+<a href="https://cinematicbites.com/privacy/">Privacy Policy</a>
+<a href="https://cinematicbites.com/terms/">Terms of Service</a>
+<a href="https://cinematicbites.com/contact/">Contact Us</a>
+<a href="/sitemap.xml">XML Sitemap</a>
+</div>
+</div>
+</footer>
 </body>
 </html>

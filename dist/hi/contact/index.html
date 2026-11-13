@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5T9C99C0KF');
+  </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Contact Us | MoviePulse</title>
+<meta content="Get in touch with the CineStories Editorial Board. Submit inquiries, factual corrections, copyright/DMCA notices, or press partnerships." name="description"/>
+<link href="https://cinematicbites.com/hi/contact/" rel="canonical"/>
+
+
+
+<link href="https://cinematicbites.com/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<script>
+(function() {
+  try {
+    var searchParams = new URLSearchParams(window.location.search);
+    var simGeo = (searchParams.get('simulate_geo') || '').trim().toUpperCase();
+    var langParam = (searchParams.get('lang') || '').trim().toLowerCase();
+    var path = window.location.pathname || '/';
+    var isHindiPath = path === '/hi' || path === '/hi/' || path.indexOf('/hi/') === 0;
+
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+      return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function doRedirect(targetLang) {
+      var targetPath;
+      if (targetLang === 'hi') {
+        if (!isHindiPath) {
+          targetPath = '/hi' + (path === '/' ? '/' : path);
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      } else if (targetLang === 'en') {
+        if (isHindiPath) {
+          targetPath = path.replace(/^\/hi(\/|$)/, '/') || '/';
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      }
+    }
+
+    // Tier 1a: Test Query Parameter Override (?simulate_geo=IN/US or ?lang=hi/en)
+    if (simGeo) {
+      if (simGeo === 'IN') {
+        doRedirect('hi');
+        return;
+      } else if (/^[A-Z]{2}$/.test(simGeo)) {
+        doRedirect('en');
+        return;
+      }
+    }
+
+    if (langParam === 'hi' || langParam === 'en') {
+      doRedirect(langParam);
+      return;
+    }
+
+    // Detect if Edge IP country changed (e.g. user toggled VPN between India and US/Tier-1)
+    var edgeCountry = (getCookie('cinestories_edge_country') || '').trim().toUpperCase();
+    if (edgeCountry) {
+      var lastEdgeCountry = localStorage.getItem('cinestories_last_edge_country') || '';
+      if (lastEdgeCountry && lastEdgeCountry !== edgeCountry) {
+        localStorage.removeItem('cinestories_lang_manual');
+        localStorage.removeItem('cinestories_lang');
+        document.cookie = 'cinestories_lang_manual=; Path=/; Max-Age=0; SameSite=Lax';
+        document.cookie = 'cinestories_lang=; Path=/; Max-Age=0; SameSite=Lax';
+      }
+      localStorage.setItem('cinestories_last_edge_country', edgeCountry);
+    }
+
+    // Tier 1b: Explicit User Choice with Manual Flag
+    var manualFlag = localStorage.getItem('cinestories_lang_manual') || getCookie('cinestories_lang_manual');
+    var isManual = (manualFlag === 'true');
+    if (isManual) {
+      var savedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+      if (savedLang === 'hi' || savedLang === 'en') {
+        doRedirect(savedLang);
+        return;
+      }
+    }
+
+    // Tier 1c: Stored choice without manual flag
+    var storedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+    if (storedLang === 'hi' || storedLang === 'en') {
+      doRedirect(storedLang);
+      return;
+    }
+
+    // Tier 2: Edge CDN IP Country Cookie (set by Vercel x-vercel-ip-country header)
+    if (edgeCountry === 'IN') {
+      doRedirect('hi');
+      return;
+    } else if (edgeCountry && edgeCountry !== 'IN') {
+      doRedirect('en');
+      return;
+    }
+
+    // Tier 3: Zero-Latency Client Heuristics
+    // 3a. Timezone inspection
+    var tz = '';
+    try {
+      tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (e) {}
+
+    var indianTimezones = ['Asia/Kolkata', 'Asia/Calcutta', 'IST'];
+    if (indianTimezones.indexOf(tz) !== -1) {
+      doRedirect('hi');
+      return;
+    }
+
+    // 3b. Navigator languages
+    var navLangs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < navLangs.length; i++) {
+      var l = (navLangs[i] || '').trim().toLowerCase();
+      if (l === 'hi' || l.indexOf('hi-') === 0 || l.indexOf('hi_') === 0) {
+        doRedirect('hi');
+        return;
+      }
+    }
+
+    // Tier 4: Safe Fallback to English
+    if (isHindiPath && !isManual && !storedLang) {
+      // Keep on Hindi page if specifically visited without overriding
+    }
+  } catch (err) {
+    // Fail silently without interrupting page render
+  }
+})();
+</script>
+<script>
+function setLanguagePreference(targetLang) {
+  try {
+    localStorage.setItem('cinestories_lang', targetLang);
+    localStorage.setItem('cinestories_lang_manual', 'true');
+    var maxAge = 31536000;
+    document.cookie = 'cinestories_lang=' + encodeURIComponent(targetLang) + '; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+    document.cookie = 'cinestories_lang_manual=true; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+  } catch (e) {}
+}
+</script>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="MoviePulse" property="og:site_name"/>
+<meta content="https://cinematicbites.com/hi/contact/" property="og:url"/>
+<meta content="Contact Us | MoviePulse" property="og:title"/>
+<meta content="Get in touch with the CineStories Editorial Board. Submit inquiries, factual corrections, copyright/DMCA notices, or press partnerships." property="og:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" property="og:image"/>
+<!-- Twitter Cards -->
+<meta content="summary" name="twitter:card"/>
+<meta content="@MoviePulse" name="twitter:site"/>
+<meta content="Contact Us | MoviePulse" name="twitter:title"/>
+<meta content="Get in touch with the CineStories Editorial Board. Submit inquiries, factual corrections, copyright/DMCA notices, or press partnerships." name="twitter:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" name="twitter:image"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ContactPage",
+      "@id": "https://cinematicbites.com/hi/contact/#webpage",
+      "url": "https://cinematicbites.com/hi/contact/",
+      "name": "Contact CineStories Editorial Desk & Inquiries",
+      "description": "Direct contact information, interactive inquiry form, editorial correction desk, and press inquiries for MoviePulse.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://cinematicbites.com/hi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Us",
+            "item": "https://cinematicbites.com/hi/contact/"
+          }
+        ]
+      },
+      "inLanguage": "hi-IN"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cinematicbites.com/#organization",
+      "name": "MoviePulse",
+      "legalName": "CineStories Digital Media Network",
+      "url": "https://cinematicbites.com/",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "editorial desk",
+          "email": "editorial@cinestories.online",
+          "availableLanguage": [
+            "English",
+            "Hindi"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "copyright claims",
+          "email": "dmca@cinestories.online",
+          "availableLanguage": [
+            "English"
+          ]
+        }
+      ],
+      "inLanguage": "hi-IN"
+    }
+  ]
+}</script>
+<style>
+    :root {
+      --bg: #090b10;
+      --surface: #10141f;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --primary: #e11d48;
+      --primary-hover: #f43f5e;
+      --accent-gold: #f59e0b;
+      --text: #ffffff;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --radius-lg: 20px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--surface-border);
+      padding: 16px 24px;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-nav:hover {
+      background: rgba(225, 29, 72, 0.2);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    .btn-nav-primary {
+      background: rgba(225, 29, 72, 0.15);
+      border-color: rgba(225, 29, 72, 0.4);
+      color: #fda4af;
+    }
+
+    .breadcrumb-nav {
+      max-width: 900px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+      width: 100%;
+      font-size: 13px;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-nav a:hover {
+      color: #fff;
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 20px auto 60px;
+      padding: 0 24px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .page-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-lg);
+      padding: 44px 38px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .page-card {
+        padding: 24px 20px;
+      }
+    }
+
+    .page-kicker {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .page-title {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-body h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 36px 0 14px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 8px;
+      letter-spacing: -0.2px;
+    }
+
+    .content-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin: 22px 0 10px;
+    }
+
+    .content-body p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .content-body ul, .content-body ol {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .content-body li {
+      margin-bottom: 8px;
+    }
+
+    .content-body a {
+      color: #38bdf8;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .callout-box {
+      background: rgba(225, 29, 72, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 4px solid #38bdf8;
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    /* Team Grid for About Page */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin: 24px 0 32px;
+    }
+
+    .team-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(225, 29, 72, 0.35);
+    }
+
+    .team-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .team-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary) 0%, #9333ea 100%);
+      color: #fff;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .team-role {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-gold);
+    }
+
+    .team-bio {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* Workflow Stages for Editorial Page */
+    .workflow-list {
+      list-style: none !important;
+      margin: 20px 0 !important;
+      padding: 0 !important;
+    }
+
+    .workflow-step {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .workflow-num {
+      display: inline-block;
+      background: rgba(225, 29, 72, 0.2);
+      color: #fda4af;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .workflow-step h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .workflow-step p {
+      margin-bottom: 0 !important;
+      font-size: 13.5px;
+    }
+
+    /* Cookie Schedule Table */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+    }
+
+    .policy-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      text-align: left;
+    }
+
+    .policy-table th {
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      white-space: nowrap;
+    }
+
+    .policy-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      color: var(--text-muted);
+    }
+
+    .policy-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Interactive Contact Form */
+    .contact-form-wrap {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      margin: 28px 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+      margin-bottom: 18px;
+    }
+
+    .form-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .form-label .req {
+      color: var(--primary);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: #090b10;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
+    }
+
+    .form-input.invalid, .form-select.invalid, .form-textarea.invalid {
+      border-color: #ef4444;
+      background: rgba(239, 68, 68, 0.04);
+    }
+
+    .form-feedback {
+      font-size: 12px;
+      color: #ef4444;
+      display: none;
+      margin-top: 4px;
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .btn-submit {
+      background: linear-gradient(135deg, var(--primary) 0%, #be123c 100%);
+      color: #fff;
+      border: none;
+      padding: 13px 28px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.15s ease, box-shadow 0.2s;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(225, 29, 72, 0.4);
+    }
+
+    .btn-submit:active {
+      transform: translateY(1px);
+    }
+
+    .success-card {
+      display: none;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .success-card h3 {
+      color: #34d399;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .ref-code {
+      display: inline-block;
+      font-family: monospace;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #f59e0b;
+      font-size: 14px;
+      margin: 8px 0 16px;
+    }
+
+    .btn-mailto-fallback {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      text-decoration: none !important;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      border: 1px solid var(--surface-border);
+      transition: background 0.2s;
+    }
+
+    .btn-mailto-fallback:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .footer {
+      background: var(--surface);
+      border-top: 1px solid var(--surface-border);
+      padding: 32px 24px;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+    
+/* Tactile Segmented Language Switcher Pill */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 3px;
+  gap: 2px;
+  user-select: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  vertical-align: middle;
+}
+
+.lang-switcher:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #94a3b8;
+  background: transparent;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  line-height: 1.2;
+}
+
+.lang-switcher .lang-pill .flag-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.lang-switcher .lang-pill .lang-text {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+}
+
+.lang-switcher .lang-pill:hover:not(.active) {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-0.5px);
+}
+
+.lang-switcher .lang-pill:active {
+  transform: scale(0.95);
+}
+
+.lang-switcher .lang-pill.active {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  cursor: default;
+}
+
+.lang-switcher .lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-weight: 300;
+  display: none; /* Segmented layout uses pill padding instead of divider */
+}
+
+/* AMP Story specific language switcher pill (No JS, pure CSS) */
+.amp-story-lang-switcher {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 100;
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+  padding: 3px;
+}
+
+.amp-story-lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #cbd5e1;
+}
+
+.amp-story-lang-switcher .lang-pill.active {
+  background: #e11d48;
+  color: #ffffff;
+}
+
+  </style>
+<link href="https://cinematicbites.com/contact/" hreflang="en" rel="alternate"/><link href="https://cinematicbites.com/hi/contact/" hreflang="hi" rel="alternate"/><link href="https://cinematicbites.com/contact/" hreflang="x-default" rel="alternate"/></head>
+<body>
+<header class="navbar">
+<div class="nav-container">
+<a class="brand-wrap" href="https://cinematicbites.com/hi/">
+<img alt="MoviePulse" class="brand-logo" height="38" src="/assets/logo.png" width="38"/>
+<div class="brand-text">
+<h1>MoviePulse</h1>
+</div>
+</a>
+<div class="nav-actions">
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-label="Switch to English edition" class="lang-pill" href="/contact/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-current="page" aria-label="हिंदी संस्करण चुनें" class="lang-pill active" href="/hi/contact/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<a class="btn-nav btn-nav-primary" href="https://cinematicbites.com/hi/discover/">
+<span>📰</span>
+<span>Discover Feed</span>
+</a>
+<a class="btn-nav" href="https://cinematicbites.com/hi/">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+<span>Back to Stories</span>
+</a>
+</div>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<a href="https://cinematicbites.com/hi/">Home</a>
+<span>›</span>
+<span style="color: #fff;">Contact Us</span>
+</nav>
+<main class="main-content">
+<article class="page-card">
+<div class="page-kicker">CineStories Compliance &amp; Policy</div>
+<h1 class="page-title">Contact Us</h1>
+<div class="content-body">
+<p>We welcome direct communication from our readers, film distributors, press representatives, and copyright holders. Whether you have an editorial correction, a story recommendation, a technical inquiry, or a copyright inquiry, please use the channels below to connect with the <strong>CineStories Editorial Board</strong>.</p>
+<h2>Official Communication Channels</h2>
+<div class="callout-box">
+<p><strong>Editorial &amp; General Inquiries:</strong> <a href="mailto:editorial@cinestories.online">editorial@cinestories.online</a> (Direct: <a href="mailto:sumits7196@gmail.com">sumits7196@gmail.com</a>)</p>
+<p style="margin-top: 6px;"><strong>DMCA &amp; Copyright Inquiries:</strong> <a href="mailto:dmca@cinestories.online">dmca@cinestories.online</a></p>
+<p style="margin-top: 6px;"><strong>Press, Advertising &amp; Partnerships:</strong> <a href="mailto:editorial@cinestories.online?subject=Press%20Inquiry">editorial@cinestories.online</a></p>
+<p style="margin-top: 6px;"><strong>Guaranteed Response Time:</strong> Within 24 to 48 business hours.</p>
+</div>
+<h2>Operating Entity &amp; Bureau Details</h2>
+<p><strong>Publisher:</strong> CineStories Digital Media Network<br/>
+<strong>Department:</strong> Visual Journalism &amp; Digital Media Desk<br/>
+<strong>Operating Hours:</strong> Monday – Friday, 09:00 – 18:00 UTC / IST<br/>
+<strong>Website:</strong> <a href="https://cinematicbites.com/">https://cinematicbites.com</a></p>
+<h2>Send Us a Message</h2>
+<p>Use our interactive inquiry form below to transmit your message directly to our desk. Submissions generate a unique reference ticket ID for easy tracking.</p>
+<div class="contact-form-wrap">
+<form id="contactForm" novalidate="" onsubmit="handleContactSubmit(event)">
+<!-- Anti-spam Honeypot field (hidden from genuine users) -->
+<input aria-hidden="true" autocomplete="off" id="gotchaField" name="_gotcha" style="display:none !important;" tabindex="-1" type="text"/>
+<div class="form-grid">
+<div class="form-group">
+<label class="form-label" for="senderName">Your Full Name <span class="req">*</span></label>
+<input class="form-input" id="senderName" minlength="2" placeholder="e.g. Alex Hunter" required="" type="text"/>
+<div class="form-feedback" id="nameError">Please enter your name (at least 2 characters).</div>
+</div>
+<div class="form-group">
+<label class="form-label" for="senderEmail">Email Address <span class="req">*</span></label>
+<input class="form-input" id="senderEmail" placeholder="e.g. alex@example.com" required="" type="email"/>
+<div class="form-feedback" id="emailError">Please enter a valid email address.</div>
+</div>
+</div>
+<div class="form-grid">
+<div class="form-group">
+<label class="form-label" for="inquiryType">Inquiry Classification <span class="req">*</span></label>
+<select class="form-select" id="inquiryType" required="">
+<option disabled="" selected="" value="">Select inquiry category...</option>
+<option value="Editorial Correction / Fact-Check">Editorial Correction / Fact-Check</option>
+<option value="Story Suggestion / Movie Request">Story Suggestion / Movie Request</option>
+<option value="DMCA / Copyright Notice">DMCA / Copyright Notice</option>
+<option value="Advertising &amp; Sponsorship">Advertising &amp; Sponsorship</option>
+<option value="Technical Issue / Bug Report">Technical Issue / Bug Report</option>
+<option value="General Feedback">General Feedback</option>
+</select>
+<div class="form-feedback" id="typeError">Please select an inquiry category.</div>
+</div>
+<div class="form-group">
+<label class="form-label" for="inquirySubject">Subject Line <span class="req">*</span></label>
+<input class="form-input" id="inquirySubject" minlength="4" placeholder="Brief summary of your inquiry" required="" type="text"/>
+<div class="form-feedback" id="subjectError">Please provide a subject line (at least 4 characters).</div>
+</div>
+</div>
+<div class="form-group full-width">
+<label class="form-label" for="inquiryMessage">Detailed Message <span class="req">*</span></label>
+<textarea class="form-textarea" id="inquiryMessage" minlength="10" placeholder="Include relevant URLs, film titles, or details to help us investigate and respond quickly..." required=""></textarea>
+<div class="form-feedback" id="messageError">Please provide your message details (at least 10 characters).</div>
+</div>
+<button class="btn-submit" id="submitBtn" type="submit">
+<svg fill="none" height="16" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="16"><line x1="22" x2="11" y1="2" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+<span>Send Message to Editorial Desk</span>
+</button>
+</form>
+<!-- Confirmation Card (displayed upon successful submission) -->
+<div aria-live="polite" class="success-card" id="successCard" role="alert">
+<svg fill="none" height="44" stroke="#34d399" stroke-width="2.5" style="margin: 0 auto 12px; display: block;" viewbox="0 0 24 24" width="44"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+<h3>Message Dispatched Successfully!</h3>
+<p>Thank you for contacting CineStories. Your inquiry has been logged with our editorial operations desk.</p>
+<div class="ref-code" id="refCodeDisplay">Ticket: CS-2026-XXXXX</div>
+<p style="font-size: 13.5px; color: var(--text-muted);">Our editorial team reviews submissions continuously and typically replies within 24 to 48 business hours.</p>
+<div>
+<a class="btn-mailto-fallback" href="#" id="mailtoFallbackBtn">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="14"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6"></path></svg>
+<span>Open In Email Client (Pre-filled)</span>
+</a>
+</div>
+<div style="margin-top: 14px;">
+<button onclick="resetContactForm()" style="background: none; border: none; color: #38bdf8; text-decoration: underline; font-size: 13px; cursor: pointer;" type="button">
+            Send Another Message
+          </button>
+</div>
+</div>
+</div>
+<h2>Guidance for Specific Inquiries</h2>
+<h3>Editorial Corrections</h3>
+<p>Please include the specific URL of the article or Web Story, the exact passage or slide containing the discrepancy, and reference links (e.g. official studio release or trade publication) so our fact-checking team can rapidly audit and update the piece.</p>
+<h3>Copyright / DMCA Takedown Inquiries</h3>
+<p>Please review our statutory requirements listed on our <a href="/terms/">Terms of Service &amp; DMCA page</a>. Ensure your notice contains the full statutory elements mandated under 17 U.S.C. § 512(c)(3) to allow expedited processing.</p>
+<script>
+      function handleContactSubmit(e) {
+        e.preventDefault();
+
+        // 1. Honeypot anti-spam check
+        const gotcha = document.getElementById('gotchaField').value;
+        if (gotcha) {
+          // Silently discard spam submission
+          console.warn('Spam detected via honeypot.');
+          return;
+        }
+
+        // 2. Field validation
+        const nameInput = document.getElementById('senderName');
+        const emailInput = document.getElementById('senderEmail');
+        const typeInput = document.getElementById('inquiryType');
+        const subjectInput = document.getElementById('inquirySubject');
+        const messageInput = document.getElementById('inquiryMessage');
+
+        let isValid = true;
+
+        // Name validation
+        if (!nameInput.value.trim() || nameInput.value.trim().length < 2) {
+          nameInput.classList.add('invalid');
+          document.getElementById('nameError').style.display = 'block';
+          isValid = false;
+        } else {
+          nameInput.classList.remove('invalid');
+          document.getElementById('nameError').style.display = 'none';
+        }
+
+        // Email validation regex
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value.trim())) {
+          emailInput.classList.add('invalid');
+          document.getElementById('emailError').style.display = 'block';
+          isValid = false;
+        } else {
+          emailInput.classList.remove('invalid');
+          document.getElementById('emailError').style.display = 'none';
+        }
+
+        // Type validation
+        if (!typeInput.value) {
+          typeInput.classList.add('invalid');
+          document.getElementById('typeError').style.display = 'block';
+          isValid = false;
+        } else {
+          typeInput.classList.remove('invalid');
+          document.getElementById('typeError').style.display = 'none';
+        }
+
+        // Subject validation
+        if (!subjectInput.value.trim() || subjectInput.value.trim().length < 4) {
+          subjectInput.classList.add('invalid');
+          document.getElementById('subjectError').style.display = 'block';
+          isValid = false;
+        } else {
+          subjectInput.classList.remove('invalid');
+          document.getElementById('subjectError').style.display = 'none';
+        }
+
+        // Message validation
+        if (!messageInput.value.trim() || messageInput.value.trim().length < 10) {
+          messageInput.classList.add('invalid');
+          document.getElementById('messageError').style.display = 'block';
+          isValid = false;
+        } else {
+          messageInput.classList.remove('invalid');
+          document.getElementById('messageError').style.display = 'none';
+        }
+
+        if (!isValid) return;
+
+        // 3. Generate Reference Ticket ID
+        const randomNum = Math.floor(10000 + Math.random() * 90000);
+        const ticketId = 'CS-' + new Date().getFullYear() + '-' + randomNum;
+
+        // 4. Local storage submission persistence
+        const submission = {
+          ticket: ticketId,
+          name: nameInput.value.trim(),
+          email: emailInput.value.trim(),
+          type: typeInput.value,
+          subject: subjectInput.value.trim(),
+          message: messageInput.value.trim(),
+          timestamp: new Date().toISOString()
+        };
+
+        try {
+          const existing = JSON.parse(localStorage.getItem('cinestories_inquiries') || '[]');
+          existing.push(submission);
+          localStorage.setItem('cinestories_inquiries', JSON.stringify(existing));
+        } catch (err) {
+          console.warn('LocalStorage error:', err);
+        }
+
+        // 5. Build pre-filled mailto link for seamless direct email
+        const mailtoSubject = encodeURIComponent('[' + ticketId + '] ' + submission.type + ': ' + submission.subject);
+        const mailtoBody = encodeURIComponent(
+          'Reference Ticket: ' + ticketId + '\n' +
+          'Name: ' + submission.name + '\n' +
+          'Email: ' + submission.email + '\n' +
+          'Classification: ' + submission.type + '\n\n' +
+          'Message:\n' + submission.message
+        );
+        const mailtoUrl = 'mailto:editorial@cinestories.online?subject=' + mailtoSubject + '&body=' + mailtoBody;
+
+        document.getElementById('refCodeDisplay').textContent = 'Ticket: ' + ticketId;
+        document.getElementById('mailtoFallbackBtn').setAttribute('href', mailtoUrl);
+
+        // 6. Transition to Success Card
+        document.getElementById('contactForm').style.display = 'none';
+        document.getElementById('successCard').style.display = 'block';
+      }
+
+      function resetContactForm() {
+        document.getElementById('contactForm').reset();
+        document.getElementById('contactForm').style.display = 'block';
+        document.getElementById('successCard').style.display = 'none';
+      }
+    </script>
+</div>
+</article>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<p style="font-size: 13px; color: var(--text-muted);">© 2026 CineStories Digital Media Network. All rights reserved.</p>
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-label="Switch to English edition" class="lang-pill" href="/contact/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-current="page" aria-label="हिंदी संस्करण चुनें" class="lang-pill active" href="/hi/contact/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<div aria-label="Footer Navigation" class="footer-links" role="navigation">
+<a href="https://cinematicbites.com/hi/">Home</a>
+<a href="https://cinematicbites.com/hi/discover/">Discover Feed</a>
+<a href="https://cinematicbites.com/hi/about/">About Us</a>
+<a href="https://cinematicbites.com/hi/editorial/">Editorial Policy</a>
+<a href="https://cinematicbites.com/hi/privacy/">Privacy Policy</a>
+<a href="https://cinematicbites.com/hi/terms/">Terms of Service</a>
+<a href="https://cinematicbites.com/hi/contact/">Contact Us</a>
+<a href="/sitemap.xml">XML Sitemap</a>
+</div>
+</div>
+</footer>
+</body>
+</html>

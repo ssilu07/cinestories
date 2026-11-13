@@ -2,6 +2,8 @@
 AMP Story HTML Builder module for CineStories.
 Renders 100% AMP-valid, standalone Google Web Stories adhering strictly to
 the Google AMP Web Story specifications and SEO Discover guidelines.
+Supports English ("en") and Hindi ("hi") with bilingual hreflang annotations
+and Devanagari typography rendering without clipping or layout shifts.
 """
 
 import html
@@ -48,7 +50,7 @@ AMP_CUSTOM_CSS = """
     --text-muted: #e2e8f0;
   }
   amp-story {
-    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Outfit', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     color: var(--text-main);
   }
   amp-story-page {
@@ -201,7 +203,7 @@ AMP_CUSTOM_CSS = """
   .slide-title {
     font-size: clamp(15px, 3.8vw, 20px);
     font-weight: 800;
-    line-height: 1.22;
+    line-height: 1.25;
     margin: 0 0 clamp(3px, 1vw, 6px) 0;
     color: #ffffff;
     letter-spacing: -0.2px;
@@ -215,7 +217,7 @@ AMP_CUSTOM_CSS = """
   .cover-title {
     font-size: clamp(17px, 4.4vw, 23px);
     font-weight: 900;
-    line-height: 1.18;
+    line-height: 1.22;
     margin: 0 0 clamp(3px, 1vw, 6px) 0;
     color: #ffffff;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
@@ -228,7 +230,7 @@ AMP_CUSTOM_CSS = """
   }
   .slide-text {
     font-size: clamp(11.5px, 2.7vw, 13.5px);
-    line-height: 1.38;
+    line-height: 1.40;
     color: var(--text-muted);
     margin: 0 0 clamp(4px, 1.2vw, 8px) 0;
     overflow-wrap: break-word;
@@ -237,7 +239,7 @@ AMP_CUSTOM_CSS = """
   }
   .final-slide-card .slide-title {
     font-size: clamp(14px, 3.5vw, 17px);
-    line-height: 1.2;
+    line-height: 1.22;
     margin: 0 0 clamp(2px, 0.8vw, 4px) 0;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -246,7 +248,7 @@ AMP_CUSTOM_CSS = """
   }
   .final-slide-card .slide-text {
     font-size: clamp(11px, 2.5vw, 12.5px);
-    line-height: 1.3;
+    line-height: 1.32;
     margin: 0 0 clamp(3px, 1vw, 5px) 0;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -354,6 +356,24 @@ AMP_CUSTOM_CSS = """
     border-top: 1px solid rgba(255, 255, 255, 0.10);
     text-align: center;
   }
+  .final-legal-row {
+    margin-top: clamp(2px, 0.8vw, 4px);
+    padding-top: clamp(2px, 0.8vw, 4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .final-legal-row a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: clamp(8.5px, 2vw, 9.5px);
+    font-weight: 500;
+  }
+  .final-legal-row a:hover {
+    color: #ffffff;
+  }
   .btn-return-home {
     display: inline-flex;
     align-items: center;
@@ -379,7 +399,7 @@ AMP_CUSTOM_CSS = """
     .story-top-bar {
       padding-right: 48px;
     }
-    .story-close-btn span {
+    .story-close-btn span, .story-close-btn b {
       display: none;
     }
     .story-close-btn {
@@ -415,7 +435,7 @@ AMP_CUSTOM_CSS = """
     }
     .slide-text {
       font-size: 11px;
-      line-height: 1.32;
+      line-height: 1.34;
       margin-bottom: 3px;
     }
     .final-slide-card .slide-title {
@@ -424,7 +444,7 @@ AMP_CUSTOM_CSS = """
     }
     .final-slide-card .slide-text {
       font-size: 10.5px;
-      line-height: 1.26;
+      line-height: 1.28;
       margin-bottom: 2px;
     }
     amp-story-interactive-binary-poll {
@@ -480,21 +500,21 @@ AMP_CUSTOM_CSS = """
     }
     .cover-title, .slide-title {
       font-size: 12.5px;
-      line-height: 1.15;
+      line-height: 1.18;
       margin-bottom: 2px;
     }
     .slide-text {
       font-size: 9.5px;
-      line-height: 1.25;
+      line-height: 1.28;
       margin-bottom: 2px;
     }
     .final-slide-card .slide-title {
       font-size: 12px;
-      line-height: 1.15;
+      line-height: 1.18;
     }
     .final-slide-card .slide-text {
       font-size: 9.5px;
-      line-height: 1.22;
+      line-height: 1.24;
     }
     amp-story-interactive-binary-poll {
       font-size: 9px;
@@ -525,11 +545,27 @@ AMP_CUSTOM_CSS = """
 
 _STORY_CATALOG_CACHE = None
 
-def get_next_story_info(current_slug: str, domain: str = DOMAIN_NAME) -> Tuple[str, str]:
+def get_next_story_info(current_slug: str, domain: str = DOMAIN_NAME, lang: str = "en") -> Tuple[str, str]:
     """
-    Returns (next_story_url, next_story_title) for seamless inter-story chaining on cinematicbites.com.
+    Returns (next_story_url, next_story_title) for seamless inter-story chaining on CineStories.
     """
     global _STORY_CATALOG_CACHE
+    prefix = "/hi" if lang == "hi" else ""
+
+    if lang == "hi":
+        from config import TARGET_BREAKOUT_SLUGS
+        slugs = TARGET_BREAKOUT_SLUGS
+        if current_slug in slugs:
+            curr_idx = slugs.index(current_slug)
+            next_slug = slugs[(curr_idx + 1) % len(slugs)]
+            try:
+                from curated_stories_hi import CURATED_STORIES_HI
+                next_title = CURATED_STORIES_HI.get(next_slug, {}).get("title", "अगली कहानी")
+            except Exception:
+                next_title = "अगली कहानी"
+            return f"{domain}/hi/stories/{next_slug}/", next_title
+        return f"{domain}/hi/stories/{slugs[0]}/", "अगली कहानी"
+
     if _STORY_CATALOG_CACHE is None:
         cache_path = Path("dist/stories_cache.json")
         if cache_path.exists():
@@ -549,22 +585,32 @@ def get_next_story_info(current_slug: str, domain: str = DOMAIN_NAME) -> Tuple[s
             next_s = _STORY_CATALOG_CACHE[next_idx]
             n_slug = next_s.get("movie", {}).get("slug")
             n_title = next_s.get("movie", {}).get("title") or next_s.get("title", "Next Story")
-            return f"{domain}/stories/{n_slug}/", n_title
+            return f"{domain}{prefix}/stories/{n_slug}/", n_title
         elif slugs:
             first_s = _STORY_CATALOG_CACHE[0]
             f_slug = first_s.get("movie", {}).get("slug")
             f_title = first_s.get("movie", {}).get("title") or first_s.get("title", "Next Story")
-            return f"{domain}/stories/{f_slug}/", f_title
+            return f"{domain}{prefix}/stories/{f_slug}/", f_title
 
-    return f"{domain}/discover/", "Trending Stories"
+    return f"{domain}{prefix}/discover/", ("ट्रेंडिंग कहानियाँ" if lang == "hi" else "Trending Stories")
 
-def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) -> str:
+def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME, lang: str = "en") -> str:
     """
     Renders 100% AMP-valid HTML for an AMP Web Story.
+    Supports English ("en") and Hindi ("hi") with bilingual hreflang tags,
+    crisp Devanagari typography, and strict card containment.
     """
+    is_hi = (lang == "hi")
+    prefix = "/hi" if is_hi else ""
+    html_lang = "hi" if is_hi else "en"
+    in_lang = "hi-IN" if is_hi else "en-US"
+
     movie = story_data.get("movie", {})
     slug = movie.get("slug", "story")
-    story_url = f"{domain}/stories/{slug}/"
+    story_url = f"{domain}{prefix}/stories/{slug}/"
+    en_story_url = f"{domain}/stories/{slug}/"
+    hi_story_url = f"{domain}/hi/stories/{slug}/"
+
     story_title = html.escape(story_data.get("title", f"{movie.get('title')}: Web Story"))
     seo_desc = html.escape(story_data.get("seo_description", movie.get("overview", "")))
     publisher = html.escape(PUBLISHER_NAME)
@@ -600,33 +646,70 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     ] if raw_backdrops else [poster_portrait]
 
     # Published timestamp in ISO 8601
-    now_iso = datetime.now(timezone.utc).isoformat()
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     pub_iso = story_data.get("date_published") or story_data.get("published_at") or now_iso
     mod_iso = story_data.get("date_modified") or story_data.get("modified_at") or pub_iso
 
-    # Schema.org JSON-LD
+    # Schema.org JSON-LD (NewsArticle & BreadcrumbList for AMP Stories)
+    home_breadcrumb = "होम" if is_hi else "Home"
+    stories_breadcrumb = "वेब स्टोरीज़" if is_hi else "Web Stories"
+
     schema_data = {
         "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": story_url,
-        "headline": story_data.get("title", movie.get("title")),
-        "image": [poster_portrait, poster_landscape],
-        "datePublished": pub_iso,
-        "dateModified": mod_iso,
-        "author": {
-            "@type": "Organization",
-            "name": PUBLISHER_NAME,
-            "url": domain
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": PUBLISHER_NAME,
-            "logo": {
-                "@type": "ImageObject",
-                "url": publisher_logo
+        "@graph": [
+            {
+                "@type": "NewsArticle",
+                "@id": f"{story_url}#story",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": story_url
+                },
+                "headline": story_data.get("title", movie.get("title")),
+                "image": [poster_portrait, poster_landscape],
+                "datePublished": pub_iso,
+                "dateModified": mod_iso,
+                "inLanguage": in_lang,
+                "author": {
+                    "@type": "Organization",
+                    "name": "CineStories Editorial Board",
+                    "url": f"{domain}/about/"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": PUBLISHER_NAME,
+                    "url": f"{domain}/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": publisher_logo
+                    }
+                },
+                "description": story_data.get("seo_description", movie.get("overview", ""))
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": f"{story_url}#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": home_breadcrumb,
+                        "item": f"{domain}{prefix}/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": stories_breadcrumb,
+                        "item": f"{domain}{prefix}/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": story_data.get("title", movie.get("title")),
+                        "item": story_url
+                    }
+                ]
             }
-        },
-        "description": story_data.get("seo_description", movie.get("overview", ""))
+        ]
     }
     schema_json = json.dumps(schema_data, indent=2)
 
@@ -636,6 +719,11 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         '    <script async custom-element="amp-story-interactive" src="https://cdn.ampproject.org/v0/amp-story-interactive-0.1.js"></script>'
         if has_interactive else ""
     )
+
+    # Localized labels
+    close_text = "बंद करें" if is_hi else "Close"
+    close_aria = "कहानी बंद करके होम पर जाएँ" if is_hi else "Close story and return home"
+    home_target = f"{prefix}/" if prefix else "/"
 
     # Generate slides
     slides = story_data.get("slides", [])
@@ -650,23 +738,36 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         image_url = backdrop_urls[b_idx]
         image_alt = html.escape(f"{movie.get('title')} - {slide.get('title', 'Scene')}")
 
-        badge_text = html.escape(slide.get("badge", "SPOTLIGHT"))
+        badge_text = html.escape(slide.get("badge", "स्पॉटलाइट" if is_hi else "SPOTLIGHT"))
         slide_heading = html.escape(slide.get("title", ""))
         slide_body = html.escape(slide.get("text", ""))
 
-        category_name = movie.get("category", "trending").replace("_", " ")
+        raw_cat = movie.get("category", "trending")
+        category_name = raw_cat.replace("_", " ")
+        if is_hi:
+            if raw_cat == "streaming_charts":
+                category_name = "साप्ताहिक टॉप 10"
+            elif raw_cat == "theories_easter_eggs":
+                category_name = "थ्योरीज़ व राज़"
+            elif raw_cat == "where_are_they_now":
+                category_name = "अब कहाँ हैं?"
+            elif raw_cat == "series":
+                category_name = "टीवी सीरीज़"
+            elif raw_cat == "cult_classic":
+                category_name = "कल्ट क्लासिक"
+
         time_chip = f"📺 {movie.get('seasons')} Seasons" if movie.get("seasons") else f"⏱ {movie.get('runtime', 120)}m"
 
         top_bar_html = f"""
                   <div class="story-top-bar">
-                    <a href="/" class="story-close-btn" role="button" aria-label="Close story and return home">
+                    <a href="{home_target}" class="story-close-btn" role="button" aria-label="{close_aria}">
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
                       </svg>
-                      <span>Close</span>
+                      <b>{close_text}</b>
                     </a>
-                    <span class="story-brand-badge">⚡ {publisher}</span>
+                    <a href="/about/" class="story-brand-badge" style="text-decoration: none;" aria-label="About {publisher}">⚡ {publisher}</a>
                   </div>
         """
 
@@ -674,9 +775,9 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         poll_html = ""
         if poll_info:
             p_id = html.escape(str(poll_info.get("id") or f"poll-{movie.get('slug', 'story')}-{idx + 1}"))
-            p_prompt = html.escape(str(poll_info.get("prompt") or "What is your verdict?"))
-            p_opt1 = html.escape(str(poll_info.get("option1") or "Yes"))
-            p_opt2 = html.escape(str(poll_info.get("option2") or "No"))
+            p_prompt = html.escape(str(poll_info.get("prompt") or ("आपकी क्या राय है?" if is_hi else "What is your verdict?")))
+            p_opt1 = html.escape(str(poll_info.get("option1") or ("हाँ" if is_hi else "Yes")))
+            p_opt2 = html.escape(str(poll_info.get("option2") or ("नहीं" if is_hi else "No")))
             p_endpoint = f"{domain}/api/poll"
             poll_html = f"""
                     <amp-story-interactive-binary-poll
@@ -704,15 +805,15 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
 {top_bar_html}
                   <div class="content-card" animate-in="fade-in">
                     <div class="badge-row">
-                      <span class="badge"><span class="pulse-indicator"></span>{badge_text}</span>
+                      <span class="badge"><i class="pulse-indicator"></i>{badge_text}</span>
                       <span class="category-pill">{category_name}</span>
                     </div>
                     <h1 class="cover-title" animate-in="fly-in-bottom" animate-in-delay="0.15s">{html.escape(movie.get('title', ''))}</h1>
                     <p class="slide-text" animate-in="fly-in-bottom" animate-in-delay="0.25s">{slide_body}</p>
                     <div class="meta-chips">
-                      <span class="chip">📅 {html.escape(str(movie.get('release_date', 'Coming Soon')))}</span>
-                      <span class="chip chip-rating">★ {html.escape(str(movie.get('vote_average', '8.0')))}</span>
-                      <span class="chip">{html.escape(time_chip)}</span>
+                      <div class="chip">📅 {html.escape(str(movie.get('release_date', 'Coming Soon')))}</div>
+                      <div class="chip chip-rating">★ {html.escape(str(movie.get('vote_average', '8.0')))}</div>
+                      <div class="chip">{html.escape(time_chip)}</div>
                     </div>
                   </div>
                 </div>
@@ -724,21 +825,40 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
             movie_slug = movie.get("slug", "")
             next_url = story_data.get("next_story_url")
             next_title = story_data.get("next_story_title")
-            article_url = f"{domain}/articles/{movie_slug}/" if movie_slug else f"{domain}/discover/"
+            article_url = f"{domain}{prefix}/articles/{movie_slug}/" if movie_slug else f"{domain}{prefix}/discover/"
 
             if not next_url:
-                next_url, next_title = get_next_story_info(movie_slug, domain=domain)
+                next_url, next_title = get_next_story_info(movie_slug, domain=domain, lang=lang)
 
-            # Never link to themoviedb.org or external sites
             cta_url = html.escape(next_url)
-            cta_text = f"Read Next: {next_title} ➔" if next_title and len(f"Read Next: {next_title} ➔") <= 38 else "Read Next Story ➔"
+            if is_hi:
+                cta_text = f"अगली कहानी: {next_title} ➔" if next_title and len(f"अगली कहानी: {next_title} ➔") <= 38 else "अगली कहानी पढ़ें ➔"
+            else:
+                cta_text = f"Read Next: {next_title} ➔" if next_title and len(f"Read Next: {next_title} ➔") <= 38 else "Read Next Story ➔"
 
-            final_title = slide.get("title") or f"Up Next: {next_title}"
-            final_text = slide.get("text") or "Tap below to keep the momentum going with our next trending visual story, or dive into the full article."
+            final_title = slide.get("title") or (f"अगली कहानी: {next_title}" if is_hi else f"Up Next: {next_title}")
+            final_text = slide.get("text") or (
+                "अगली ट्रेंडिंग विजुअल कहानी देखने के लिए नीचे टैप करें, या पूरा आर्टिकल पढ़ें।"
+                if is_hi else
+                "Tap below to keep the momentum going with our next trending visual story, or dive into the full article."
+            )
 
             # Replace any external TMDB references in slide text
             if "themoviedb.org" in final_text or "showtimes" in final_text.lower():
-                final_text = "Swipe up or tap below to explore our next trending cinematic web story, or read the full article."
+                final_text = (
+                    "अगली ट्रेंडिंग वेब स्टोरी देखने के लिए नीचे टैप करें, या पूरा आर्टिकल पढ़ें।"
+                    if is_hi else
+                    "Swipe up or tap below to explore our next trending cinematic web story, or read the full article."
+                )
+
+            next_btn_label = "अगली कहानी" if is_hi else "Read Next Story"
+            article_btn_label = "पूरा आर्टिकल" if is_hi else "Full Article"
+            home_btn_label = "सभी कहानियाँ देखें" if is_hi else "Explore All Stories"
+            legal_about = "हमारे बारे में" if is_hi else "About"
+            legal_editorial = "संपादकीय" if is_hi else "Editorial"
+            legal_privacy = "गोपनीयता" if is_hi else "Privacy"
+            legal_terms = "नियम" if is_hi else "Terms"
+            legal_contact = "संपर्क" if is_hi else "Contact"
 
             slide_content = f"""
             <amp-story-page id="{page_id}">
@@ -759,19 +879,26 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
 {poll_html}
                     <div class="final-nav-buttons">
                       <a href="{cta_url}" class="btn-next-story">
-                        <span>Read Next Story</span>
+                        <b>{next_btn_label}</b>
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                       </a>
                       <a href="{article_url}" class="btn-read-article">
                         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                        <span>Full Article</span>
+                        <b>{article_btn_label}</b>
                       </a>
                     </div>
                     <div class="final-nav-row">
-                      <a href="/" class="btn-return-home">
+                      <a href="{home_target}" class="btn-return-home">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-                        <span>Explore All Stories</span>
+                        <b>{home_btn_label}</b>
                       </a>
+                    </div>
+                    <div class="final-legal-row">
+                      <a href="/about/">{legal_about}</a>
+                      <a href="/editorial/">{legal_editorial}</a>
+                      <a href="/privacy/">{legal_privacy}</a>
+                      <a href="/terms/">{legal_terms}</a>
+                      <a href="/contact/">{legal_contact}</a>
                     </div>
                   </div>
                 </div>
@@ -784,7 +911,7 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
         else:
             # Middle slides (2 to N-1)
             cast_preview = ""
-            if idx == 2 and movie.get("top_cast"):
+            if idx == 2 and movie.get("top_cast") and not is_hi:
                 cast_preview = "".join([f'<span class="chip">👤 {html.escape(c)}</span>' for c in movie.get("top_cast")[:3]])
                 cast_preview = f'<div class="meta-chips">{cast_preview}</div>'
 
@@ -815,11 +942,17 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     slides_combined = "\n    ".join(slides_html_parts)
 
     html_document = f"""<!doctype html>
-<html ⚡ lang="en">
+<html ⚡ lang="{html_lang}">
   <head>
     <meta charset="utf-8">
     <title>{story_title}</title>
     <link rel="canonical" href="{story_url}">
+    
+    <!-- Bidirectional Hreflangs -->
+    <link rel="alternate" hreflang="en" href="{en_story_url}">
+    <link rel="alternate" hreflang="hi" href="{hi_story_url}">
+    <link rel="alternate" hreflang="x-default" href="{en_story_url}">
+
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <meta name="description" content="{seo_desc}">
 
@@ -829,15 +962,17 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME) 
     <meta property="og:image" content="{poster_portrait}">
     <meta property="og:url" content="{story_url}">
     <meta property="og:type" content="article">
+    <meta property="article:published_time" content="{pub_iso}">
+    <meta property="article:modified_time" content="{mod_iso}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{story_title}">
     <meta name="twitter:description" content="{seo_desc}">
     <meta name="twitter:image" content="{poster_portrait}">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts with Devanagari -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- AMP Core and Story Extension Scripts -->
     <script async src="https://cdn.ampproject.org/v0.js"></script>

@@ -1,37 +1,247 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
-  <script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-5T9C99C0KF');
   </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>About Us | MoviePulse</title>
+<meta content="Learn about MoviePulse, an independent entertainment journalism network and Google AMP Web Stories platform operated by verified domain analysts." name="description"/>
+<link href="https://cinematicbites.com/about/" rel="canonical"/>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Us | MoviePulse</title>
-  <meta name="description" content="Learn about MoviePulse, an autonomous visual Google AMP Web Stories platform dedicated to Hollywood blockbusters, TV series, and cult classics.">
-  <link rel="canonical" href="https://cinematicbites.com/about/">
-  <link rel="icon" type="image/svg+xml" href="https://cinematicbites.com/assets/favicon.svg">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <style>
+<link href="https://cinematicbites.com/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<script>
+(function() {
+  try {
+    var searchParams = new URLSearchParams(window.location.search);
+    var simGeo = (searchParams.get('simulate_geo') || '').trim().toUpperCase();
+    var langParam = (searchParams.get('lang') || '').trim().toLowerCase();
+    var path = window.location.pathname || '/';
+    var isHindiPath = path === '/hi' || path === '/hi/' || path.indexOf('/hi/') === 0;
+
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+      return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function doRedirect(targetLang) {
+      var targetPath;
+      if (targetLang === 'hi') {
+        if (!isHindiPath) {
+          targetPath = '/hi' + (path === '/' ? '/' : path);
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      } else if (targetLang === 'en') {
+        if (isHindiPath) {
+          targetPath = path.replace(/^\/hi(\/|$)/, '/') || '/';
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      }
+    }
+
+    // Tier 1a: Test Query Parameter Override (?simulate_geo=IN/US or ?lang=hi/en)
+    if (simGeo) {
+      if (simGeo === 'IN') {
+        doRedirect('hi');
+        return;
+      } else if (/^[A-Z]{2}$/.test(simGeo)) {
+        doRedirect('en');
+        return;
+      }
+    }
+
+    if (langParam === 'hi' || langParam === 'en') {
+      doRedirect(langParam);
+      return;
+    }
+
+    // Detect if Edge IP country changed (e.g. user toggled VPN between India and US/Tier-1)
+    var edgeCountry = (getCookie('cinestories_edge_country') || '').trim().toUpperCase();
+    if (edgeCountry) {
+      var lastEdgeCountry = localStorage.getItem('cinestories_last_edge_country') || '';
+      if (lastEdgeCountry && lastEdgeCountry !== edgeCountry) {
+        localStorage.removeItem('cinestories_lang_manual');
+        localStorage.removeItem('cinestories_lang');
+        document.cookie = 'cinestories_lang_manual=; Path=/; Max-Age=0; SameSite=Lax';
+        document.cookie = 'cinestories_lang=; Path=/; Max-Age=0; SameSite=Lax';
+      }
+      localStorage.setItem('cinestories_last_edge_country', edgeCountry);
+    }
+
+    // Tier 1b: Explicit User Choice with Manual Flag
+    var manualFlag = localStorage.getItem('cinestories_lang_manual') || getCookie('cinestories_lang_manual');
+    var isManual = (manualFlag === 'true');
+    if (isManual) {
+      var savedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+      if (savedLang === 'hi' || savedLang === 'en') {
+        doRedirect(savedLang);
+        return;
+      }
+    }
+
+    // Tier 1c: Stored choice without manual flag
+    var storedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+    if (storedLang === 'hi' || storedLang === 'en') {
+      doRedirect(storedLang);
+      return;
+    }
+
+    // Tier 2: Edge CDN IP Country Cookie (set by Vercel x-vercel-ip-country header)
+    if (edgeCountry === 'IN') {
+      doRedirect('hi');
+      return;
+    } else if (edgeCountry && edgeCountry !== 'IN') {
+      doRedirect('en');
+      return;
+    }
+
+    // Tier 3: Zero-Latency Client Heuristics
+    // 3a. Timezone inspection
+    var tz = '';
+    try {
+      tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (e) {}
+
+    var indianTimezones = ['Asia/Kolkata', 'Asia/Calcutta', 'IST'];
+    if (indianTimezones.indexOf(tz) !== -1) {
+      doRedirect('hi');
+      return;
+    }
+
+    // 3b. Navigator languages
+    var navLangs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < navLangs.length; i++) {
+      var l = (navLangs[i] || '').trim().toLowerCase();
+      if (l === 'hi' || l.indexOf('hi-') === 0 || l.indexOf('hi_') === 0) {
+        doRedirect('hi');
+        return;
+      }
+    }
+
+    // Tier 4: Safe Fallback to English
+    if (isHindiPath && !isManual && !storedLang) {
+      // Keep on Hindi page if specifically visited without overriding
+    }
+  } catch (err) {
+    // Fail silently without interrupting page render
+  }
+})();
+</script>
+<script>
+function setLanguagePreference(targetLang) {
+  try {
+    localStorage.setItem('cinestories_lang', targetLang);
+    localStorage.setItem('cinestories_lang_manual', 'true');
+    var maxAge = 31536000;
+    document.cookie = 'cinestories_lang=' + encodeURIComponent(targetLang) + '; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+    document.cookie = 'cinestories_lang_manual=true; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+  } catch (e) {}
+}
+</script>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="MoviePulse" property="og:site_name"/>
+<meta content="https://cinematicbites.com/about/" property="og:url"/>
+<meta content="About Us | MoviePulse" property="og:title"/>
+<meta content="Learn about MoviePulse, an independent entertainment journalism network and Google AMP Web Stories platform operated by verified domain analysts." property="og:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" property="og:image"/>
+<!-- Twitter Cards -->
+<meta content="summary" name="twitter:card"/>
+<meta content="@MoviePulse" name="twitter:site"/>
+<meta content="About Us | MoviePulse" name="twitter:title"/>
+<meta content="Learn about MoviePulse, an independent entertainment journalism network and Google AMP Web Stories platform operated by verified domain analysts." name="twitter:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" name="twitter:image"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://cinematicbites.com/about/#webpage",
+      "url": "https://cinematicbites.com/about/",
+      "name": "About CineStories & Editorial Board",
+      "description": "Learn about MoviePulse, an independent entertainment journalism network and Google AMP Web Stories platform operated by verified domain analysts.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://cinematicbites.com/#website",
+        "url": "https://cinematicbites.com/",
+        "name": "MoviePulse"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://cinematicbites.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us",
+            "item": "https://cinematicbites.com/about/"
+          }
+        ]
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cinematicbites.com/#organization",
+      "name": "MoviePulse",
+      "legalName": "CineStories Digital Media Network",
+      "url": "https://cinematicbites.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cinematicbites.com/assets/logo.png",
+        "width": 512,
+        "height": 512
+      },
+      "publishingPrinciples": "https://cinematicbites.com/editorial/",
+      "sameAs": [
+        "https://twitter.com/CineStories",
+        "https://t.me/CineStories"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "editorial inquiries",
+        "email": "editorial@cinestories.online",
+        "availableLanguage": [
+          "English",
+          "Hindi"
+        ]
+      },
+      "inLanguage": "en-US"
+    }
+  ]
+}</script>
+<style>
     :root {
       --bg: #090b10;
       --surface: #10141f;
       --surface-border: rgba(255, 255, 255, 0.08);
       --primary: #e11d48;
+      --primary-hover: #f43f5e;
       --accent-gold: #f59e0b;
       --text: #ffffff;
       --text-muted: #94a3b8;
+      --text-dim: #64748b;
       --radius-lg: 20px;
+      --radius-md: 12px;
       --radius-sm: 8px;
     }
 
@@ -90,7 +300,13 @@
       line-height: 1.1;
     }
 
-    .btn-home {
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-nav {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -102,17 +318,46 @@
       font-size: 13px;
       font-weight: 600;
       text-decoration: none;
-      transition: background 0.2s ease;
+      transition: all 0.2s ease;
     }
 
-    .btn-home:hover {
+    .btn-nav:hover {
       background: rgba(225, 29, 72, 0.2);
       border-color: var(--primary);
+      color: #fff;
+    }
+
+    .btn-nav-primary {
+      background: rgba(225, 29, 72, 0.15);
+      border-color: rgba(225, 29, 72, 0.4);
+      color: #fda4af;
+    }
+
+    .breadcrumb-nav {
+      max-width: 900px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+      width: 100%;
+      font-size: 13px;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-nav a:hover {
+      color: #fff;
     }
 
     .main-content {
       max-width: 900px;
-      margin: 40px auto 60px;
+      margin: 20px auto 60px;
       padding: 0 24px;
       flex-grow: 1;
       width: 100%;
@@ -122,7 +367,7 @@
       background: var(--surface);
       border: 1px solid var(--surface-border);
       border-radius: var(--radius-lg);
-      padding: 40px 36px;
+      padding: 44px 38px;
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     }
 
@@ -155,28 +400,31 @@
       font-size: 20px;
       font-weight: 800;
       color: #fff;
-      margin: 32px 0 12px;
+      margin: 36px 0 14px;
       border-bottom: 1px solid var(--surface-border);
       padding-bottom: 8px;
+      letter-spacing: -0.2px;
     }
 
     .content-body h3 {
       font-size: 16px;
       font-weight: 700;
       color: #e2e8f0;
-      margin: 20px 0 8px;
+      margin: 22px 0 10px;
     }
 
     .content-body p {
       color: var(--text-muted);
       margin-bottom: 16px;
       font-size: 15px;
+      line-height: 1.75;
     }
 
-    .content-body ul {
+    .content-body ul, .content-body ol {
       margin: 0 0 20px 24px;
       color: var(--text-muted);
       font-size: 15px;
+      line-height: 1.7;
     }
 
     .content-body li {
@@ -186,16 +434,315 @@
     .content-body a {
       color: #38bdf8;
       text-decoration: underline;
+      text-underline-offset: 2px;
     }
 
     .callout-box {
-      background: rgba(225, 29, 72, 0.1);
+      background: rgba(225, 29, 72, 0.08);
       border-left: 4px solid var(--primary);
-      padding: 16px 20px;
+      padding: 18px 22px;
       border-radius: var(--radius-sm);
       margin: 24px 0;
-      font-size: 14px;
+      font-size: 14.5px;
       color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 4px solid #38bdf8;
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    /* Team Grid for About Page */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin: 24px 0 32px;
+    }
+
+    .team-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(225, 29, 72, 0.35);
+    }
+
+    .team-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .team-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary) 0%, #9333ea 100%);
+      color: #fff;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .team-role {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-gold);
+    }
+
+    .team-bio {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* Workflow Stages for Editorial Page */
+    .workflow-list {
+      list-style: none !important;
+      margin: 20px 0 !important;
+      padding: 0 !important;
+    }
+
+    .workflow-step {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .workflow-num {
+      display: inline-block;
+      background: rgba(225, 29, 72, 0.2);
+      color: #fda4af;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .workflow-step h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .workflow-step p {
+      margin-bottom: 0 !important;
+      font-size: 13.5px;
+    }
+
+    /* Cookie Schedule Table */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+    }
+
+    .policy-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      text-align: left;
+    }
+
+    .policy-table th {
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      white-space: nowrap;
+    }
+
+    .policy-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      color: var(--text-muted);
+    }
+
+    .policy-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Interactive Contact Form */
+    .contact-form-wrap {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      margin: 28px 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+      margin-bottom: 18px;
+    }
+
+    .form-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .form-label .req {
+      color: var(--primary);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: #090b10;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
+    }
+
+    .form-input.invalid, .form-select.invalid, .form-textarea.invalid {
+      border-color: #ef4444;
+      background: rgba(239, 68, 68, 0.04);
+    }
+
+    .form-feedback {
+      font-size: 12px;
+      color: #ef4444;
+      display: none;
+      margin-top: 4px;
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .btn-submit {
+      background: linear-gradient(135deg, var(--primary) 0%, #be123c 100%);
+      color: #fff;
+      border: none;
+      padding: 13px 28px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.15s ease, box-shadow 0.2s;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(225, 29, 72, 0.4);
+    }
+
+    .btn-submit:active {
+      transform: translateY(1px);
+    }
+
+    .success-card {
+      display: none;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .success-card h3 {
+      color: #34d399;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .ref-code {
+      display: inline-block;
+      font-family: monospace;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #f59e0b;
+      font-size: 14px;
+      margin: 8px 0 16px;
+    }
+
+    .btn-mailto-fallback {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      text-decoration: none !important;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      border: 1px solid var(--surface-border);
+      transition: background 0.2s;
+    }
+
+    .btn-mailto-fallback:hover {
+      background: rgba(255, 255, 255, 0.16);
     }
 
     .footer {
@@ -225,76 +772,262 @@
       color: var(--text-muted);
       text-decoration: none;
       font-size: 13px;
+      transition: color 0.2s;
     }
 
     .footer-links a:hover {
       color: #fff;
     }
+    
+/* Tactile Segmented Language Switcher Pill */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 3px;
+  gap: 2px;
+  user-select: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  vertical-align: middle;
+}
+
+.lang-switcher:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #94a3b8;
+  background: transparent;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  line-height: 1.2;
+}
+
+.lang-switcher .lang-pill .flag-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.lang-switcher .lang-pill .lang-text {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+}
+
+.lang-switcher .lang-pill:hover:not(.active) {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-0.5px);
+}
+
+.lang-switcher .lang-pill:active {
+  transform: scale(0.95);
+}
+
+.lang-switcher .lang-pill.active {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  cursor: default;
+}
+
+.lang-switcher .lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-weight: 300;
+  display: none; /* Segmented layout uses pill padding instead of divider */
+}
+
+/* AMP Story specific language switcher pill (No JS, pure CSS) */
+.amp-story-lang-switcher {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 100;
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+  padding: 3px;
+}
+
+.amp-story-lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #cbd5e1;
+}
+
+.amp-story-lang-switcher .lang-pill.active {
+  background: #e11d48;
+  color: #ffffff;
+}
+
   </style>
-</head>
+<link href="https://cinematicbites.com/about/" hreflang="en" rel="alternate"/><link href="https://cinematicbites.com/hi/about/" hreflang="hi" rel="alternate"/><link href="https://cinematicbites.com/about/" hreflang="x-default" rel="alternate"/></head>
 <body>
-
-  <header class="navbar">
-    <div class="nav-container">
-      <a href="/" class="brand-wrap">
-        <img src="/assets/logo.png" alt="MoviePulse" class="brand-logo">
-        <div class="brand-text">
-          <h1>MoviePulse</h1>
-        </div>
-      </a>
-      <a href="/" class="btn-home">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-        <span>Back to Stories</span>
-      </a>
+<header class="navbar">
+<div class="nav-container">
+<a class="brand-wrap" href="https://cinematicbites.com/">
+<img alt="MoviePulse" class="brand-logo" height="38" src="/assets/logo.png" width="38"/>
+<div class="brand-text">
+<h1>MoviePulse</h1>
+</div>
+</a>
+<div class="nav-actions">
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-current="page" aria-label="Switch to English edition" class="lang-pill active" href="/about/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-label="हिंदी संस्करण चुनें" class="lang-pill" href="/hi/about/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<a class="btn-nav btn-nav-primary" href="https://cinematicbites.com/discover/">
+<span>📰</span>
+<span>Discover Feed</span>
+</a>
+<a class="btn-nav" href="https://cinematicbites.com/">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+<span>Back to Stories</span>
+</a>
+</div>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<a href="https://cinematicbites.com/">Home</a>
+<span>›</span>
+<span style="color: #fff;">About Us</span>
+</nav>
+<main class="main-content">
+<article class="page-card">
+<div class="page-kicker">CineStories Compliance &amp; Policy</div>
+<h1 class="page-title">About Us</h1>
+<div class="content-body">
+<p>Welcome to <strong>MoviePulse</strong> (accessible at <a href="https://cinematicbites.com/">https://cinematicbites.com</a>), a premier independent entertainment publication operated by <strong>CineStories Digital Media Network</strong>. We specialize in producing mobile-first <strong>Google AMP Web Stories</strong> and high-impact analytical deep dives covering global cinema, streaming television, and pop-culture phenomena.</p>
+<h2>Our Mission &amp; Vision</h2>
+<p>With thousands of cinematic titles released each year across theatrical circuits and streaming giants (Netflix, Prime Video, HBO Max, Disney+, Apple TV+, and regional platforms), audience attention is fragmented. Modern film fans demand visual, bite-sized, yet intellectually rigorous breakdowns that respect their time.</p>
+<p>Our editorial mission is twofold:</p>
+<ul>
+<li><strong>60-Second Visual Immersion:</strong> Deliver tap-friendly, 100% AMP-compliant visual stories loaded with cinematic backdrops, key cast insights, and zero-spoiler premise summaries that render seamlessly on mobile viewports.</li>
+<li><strong>Critical Analytical Rigor:</strong> Produce authoritative editorial articles examining box office economics, narrative subtext, streaming ratings, and hidden easter eggs for cinephiles seeking deeper cultural context.</li>
+</ul>
+<h2>What We Cover</h2>
+<ul>
+<li><strong>Binge TV Series &amp; Phenomena:</strong> Critical retrospectives and season breakdowns of culture-defining shows such as <em>Panchayat</em>, <em>Mirzapur</em>, <em>Stranger Things</em>, <em>The Boys</em>, <em>Wednesday</em>, and <em>Squid Game</em>.</li>
+<li><strong>Blockbusters &amp; Theatrical Events:</strong> Opening weekend box office analysis, IMAX specs, and spoiler-free verdict cards for theatrical spectacles like <em>Stree 2</em>, <em>Kalki 2898 AD</em>, <em>Pushpa 2: The Rule</em>, and Marvel/DC universe installments.</li>
+<li><strong>Cult Classics &amp; Sitcom Nostalgia:</strong> Deep dives into mind-bending sci-fi (<em>Interstellar</em>, <em>Inception</em>) and character tracking across our “Where Are They Now?” retrospectives.</li>
+<li><strong>Global &amp; Indian Cinema:</strong> Comprehensive, multilingual appreciation of Hollywood, Bollywood, Tollywood, and South Asian cinematic achievements.</li>
+</ul>
+<h2>The CineStories Editorial Board</h2>
+<p>At MoviePulse, we believe that content trustworthiness begins with verified human expertise. Rather than relying on faceless automated feeds or unverified pseudonyms, our coverage is directed and verified by the <strong>CineStories Editorial Board</strong> — a dedicated panel of film critics, data journalists, and mobile UX engineers.</p>
+<div class="team-grid">
+<div class="team-card">
+<div class="team-header">
+<div class="team-avatar">ER</div>
+<div>
+<div class="team-name">Elena Rostova</div>
+<div class="team-role">Editor-in-Chief &amp; Film Historian</div>
+</div>
+</div>
+<p class="team-bio">14+ years in entertainment journalism. Former festival correspondent specializing in narrative structure, cinematic auteurism, and international film distribution strategy.</p>
+</div>
+<div class="team-card">
+<div class="team-header">
+<div class="team-avatar">MC</div>
+<div>
+<div class="team-name">Marcus Chen</div>
+<div class="team-role">Senior Streaming &amp; Box Office Analyst</div>
+</div>
+</div>
+<p class="team-bio">Specialist in entertainment data journalism. Tracks Nielsen streaming metrics, global box office gross multiples, and OTT windowing shifts across major studios.</p>
+</div>
+<div class="team-card">
+<div class="team-header">
+<div class="team-avatar">AR</div>
+<div>
+<div class="team-name">Alex Rivera</div>
+<div class="team-role">Visual Storytelling &amp; AMP Architect</div>
+</div>
+</div>
+<p class="team-bio">Mobile interface designer and AMP Web Story specialist. Enforces responsive typographic hierarchy, tap-target ergonomics, and strict Google AMP HTML validation.</p>
+</div>
+<div class="team-card">
+<div class="team-header">
+<div class="team-avatar">PS</div>
+<div>
+<div class="team-name">Priya Sharma</div>
+<div class="team-role">Fact-Checking &amp; Research Lead</div>
+</div>
+</div>
+<p class="team-bio">Leads factual verification across release calendars, official credits, and technical film specs against studio production notes and verified archives.</p>
+</div>
+</div>
+<h2>Editorial Standards &amp; Human Oversight</h2>
+<p>Our commitment to quality is codified in our formal <a href="/editorial/">Editorial Policy</a>. While computational tools and structured film APIs (such as TMDB) assist in raw data ingestion and AMP syntax formatting, <strong>100% of published verdicts, audience recommendations (“Who Should Watch” / “Skip If”), and critical assessments are authored and verified by human editors</strong>.</p>
+<p>We maintain a strict anti-spoiler policy to protect the viewing experience of first-time viewers, and we never publish automated, unverified spam.</p>
+<h2>Publisher Ownership &amp; Operating Entity</h2>
+<div class="callout-box">
+<strong>Operating Entity:</strong> CineStories Digital Media Network<br/>
+<strong>Publishing Scope:</strong> Digital Entertainment Journalism, Web Stories &amp; Cultural Commentary<br/>
+<strong>Digital Headquarters:</strong> Operations Desk &amp; Editorial Bureau<br/>
+<strong>Official Communications:</strong> <a href="mailto:editorial@cinestories.online">editorial@cinestories.online</a> (Direct desk: <a href="mailto:sumits7196@gmail.com">sumits7196@gmail.com</a>)
     </div>
-  </header>
-
-  <main class="main-content">
-    <article class="page-card">
-      <div class="page-kicker">Legal &amp; Policy</div>
-      <h1 class="page-title">About Us</h1>
-      <div class="content-body">
-        
-            <p>Welcome to <strong>MoviePulse</strong> (hosted at <a href="https://cinematicbites.com/">https://cinematicbites.com</a>), a cutting-edge visual entertainment platform dedicated to delivering bite-sized, mobile-optimized <strong>Google AMP Web Stories</strong> for cinema enthusiasts, binge-watchers, and pop-culture fans worldwide.</p>
-
-            <h2>Our Mission</h2>
-            <p>The modern entertainment landscape moves at lightning speed. With hundreds of movies and television shows premiering every month across streaming services and theatrical screens, movie lovers need snackable, visually engaging, and insightful summaries without spoilers.</p>
-            <p>Our mission is to transform raw cinematic data into rich, tap-friendly visual stories that you can enjoy in 60 seconds on any smartphone, tablet, or desktop browser.</p>
-
-            <h2>What We Cover</h2>
-            <ul>
-              <li><strong>Binge TV Series &amp; Shows:</strong> Global phenomena like <em>Money Heist</em>, <em>Stranger Things</em>, <em>The Boys</em>, <em>Breaking Bad</em>, <em>Wednesday</em>, and <em>Game of Thrones</em>.</li>
-              <li><strong>Trending Blockbusters:</strong> New theatrical and streaming releases including Marvel hits, <em>John Wick</em>, <em>Dune</em>, and upcoming spectacles.</li>
-              <li><strong>Cult Classics &amp; Franchises:</strong> Iconic mind-bending cinema like <em>Interstellar</em>, <em>Inception</em>, <em>The Dark Knight</em>, and <em>Final Destination</em>.</li>
-            </ul>
-
-            <h2>Technology &amp; Editorial Standards</h2>
-            <p><strong>MoviePulse</strong> leverages verified data from <strong>The Movie Database (TMDB)</strong> and synthesizes high-CTR narrative hooks using advanced generative AI architectures (Google Gemini). Every story is strictly crafted to comply with the official <strong>Google AMP Web Story 1.0 Specification</strong>, ensuring instant loading speeds, zero bloat, and optimal readability on Google Discover and mobile search.</p>
-
-            <div class="callout-box">
-              <strong>TMDB Attribution:</strong> This product uses the TMDB API but is not endorsed or certified by TMDB. All movie posters, backdrops, and character names remain the intellectual property of their respective studios and production companies.
-            </div>
-
-            <h2>Connect With Us</h2>
-            <p>Have questions, story requests, or feedback? Feel free to reach out via our <a href="/contact/">Contact Us page</a>.</p>
-            
-      </div>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <p style="font-size: 13px; color: var(--text-muted);">&copy; 2026 MoviePulse. All rights reserved.</p>
-      <div class="footer-links">
-        <a href="/about/">About Us</a>
-        <a href="/editorial/">Editorial Policy</a>
-        <a href="/privacy/">Privacy Policy</a>
-        <a href="/terms/">Terms &amp; Disclaimer</a>
-        <a href="/contact/">Contact Us</a>
-        <a href="/sitemap.xml">Sitemap</a>
-      </div>
-    </div>
-  </footer>
-
+<h2>Intellectual Property &amp; TMDB Attribution</h2>
+<p>MoviePulse incorporates cinematic metadata and promotional imagery via <strong>The Movie Database (TMDB) API</strong>. This product uses the TMDB API but is not endorsed or certified by TMDB. All movie titles, character names, studio trademarks, and posters remain the exclusive property of their respective copyright holders (Netflix, Disney, Marvel, Warner Bros. Discovery, Sony, Universal, Paramount, etc.).</p>
+<p>All excerpts, promotional stills, and commentary are presented under the <strong>Fair Use</strong> doctrine of Title 17 U.S.C. Section 107 for critical analysis, review, and educational reporting.</p>
+<h2>Connect With Our Desk</h2>
+<p>We welcome tips, story suggestions, correction submissions, and reader feedback. Visit our <a href="/contact/">Contact Us page</a> to get in touch with our editorial and technical staff.</p>
+</div>
+</article>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<p style="font-size: 13px; color: var(--text-muted);">© 2026 CineStories Digital Media Network. All rights reserved.</p>
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-current="page" aria-label="Switch to English edition" class="lang-pill active" href="/about/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-label="हिंदी संस्करण चुनें" class="lang-pill" href="/hi/about/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<div aria-label="Footer Navigation" class="footer-links" role="navigation">
+<a href="https://cinematicbites.com/">Home</a>
+<a href="https://cinematicbites.com/discover/">Discover Feed</a>
+<a href="https://cinematicbites.com/about/">About Us</a>
+<a href="https://cinematicbites.com/editorial/">Editorial Policy</a>
+<a href="https://cinematicbites.com/privacy/">Privacy Policy</a>
+<a href="https://cinematicbites.com/terms/">Terms of Service</a>
+<a href="https://cinematicbites.com/contact/">Contact Us</a>
+<a href="/sitemap.xml">XML Sitemap</a>
+</div>
+</div>
+</footer>
 </body>
 </html>

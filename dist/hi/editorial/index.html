@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5T9C99C0KF"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5T9C99C0KF');
+  </script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Editorial Policy &amp; Standards | MoviePulse</title>
+<meta content="Editorial guidelines, human verification pipeline, Google Search Essentials compliance, and AI transparency disclosure for MoviePulse." name="description"/>
+<link href="https://cinematicbites.com/hi/editorial/" rel="canonical"/>
+
+
+
+<link href="https://cinematicbites.com/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<script>
+(function() {
+  try {
+    var searchParams = new URLSearchParams(window.location.search);
+    var simGeo = (searchParams.get('simulate_geo') || '').trim().toUpperCase();
+    var langParam = (searchParams.get('lang') || '').trim().toLowerCase();
+    var path = window.location.pathname || '/';
+    var isHindiPath = path === '/hi' || path === '/hi/' || path.indexOf('/hi/') === 0;
+
+    function getCookie(name) {
+      var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
+      return match ? decodeURIComponent(match[1]) : null;
+    }
+
+    function doRedirect(targetLang) {
+      var targetPath;
+      if (targetLang === 'hi') {
+        if (!isHindiPath) {
+          targetPath = '/hi' + (path === '/' ? '/' : path);
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      } else if (targetLang === 'en') {
+        if (isHindiPath) {
+          targetPath = path.replace(/^\/hi(\/|$)/, '/') || '/';
+          window.location.replace(targetPath + window.location.search + window.location.hash);
+        }
+      }
+    }
+
+    // Tier 1a: Test Query Parameter Override (?simulate_geo=IN/US or ?lang=hi/en)
+    if (simGeo) {
+      if (simGeo === 'IN') {
+        doRedirect('hi');
+        return;
+      } else if (/^[A-Z]{2}$/.test(simGeo)) {
+        doRedirect('en');
+        return;
+      }
+    }
+
+    if (langParam === 'hi' || langParam === 'en') {
+      doRedirect(langParam);
+      return;
+    }
+
+    // Detect if Edge IP country changed (e.g. user toggled VPN between India and US/Tier-1)
+    var edgeCountry = (getCookie('cinestories_edge_country') || '').trim().toUpperCase();
+    if (edgeCountry) {
+      var lastEdgeCountry = localStorage.getItem('cinestories_last_edge_country') || '';
+      if (lastEdgeCountry && lastEdgeCountry !== edgeCountry) {
+        localStorage.removeItem('cinestories_lang_manual');
+        localStorage.removeItem('cinestories_lang');
+        document.cookie = 'cinestories_lang_manual=; Path=/; Max-Age=0; SameSite=Lax';
+        document.cookie = 'cinestories_lang=; Path=/; Max-Age=0; SameSite=Lax';
+      }
+      localStorage.setItem('cinestories_last_edge_country', edgeCountry);
+    }
+
+    // Tier 1b: Explicit User Choice with Manual Flag
+    var manualFlag = localStorage.getItem('cinestories_lang_manual') || getCookie('cinestories_lang_manual');
+    var isManual = (manualFlag === 'true');
+    if (isManual) {
+      var savedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+      if (savedLang === 'hi' || savedLang === 'en') {
+        doRedirect(savedLang);
+        return;
+      }
+    }
+
+    // Tier 1c: Stored choice without manual flag
+    var storedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
+    if (storedLang === 'hi' || storedLang === 'en') {
+      doRedirect(storedLang);
+      return;
+    }
+
+    // Tier 2: Edge CDN IP Country Cookie (set by Vercel x-vercel-ip-country header)
+    if (edgeCountry === 'IN') {
+      doRedirect('hi');
+      return;
+    } else if (edgeCountry && edgeCountry !== 'IN') {
+      doRedirect('en');
+      return;
+    }
+
+    // Tier 3: Zero-Latency Client Heuristics
+    // 3a. Timezone inspection
+    var tz = '';
+    try {
+      tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (e) {}
+
+    var indianTimezones = ['Asia/Kolkata', 'Asia/Calcutta', 'IST'];
+    if (indianTimezones.indexOf(tz) !== -1) {
+      doRedirect('hi');
+      return;
+    }
+
+    // 3b. Navigator languages
+    var navLangs = navigator.languages || [navigator.language || ''];
+    for (var i = 0; i < navLangs.length; i++) {
+      var l = (navLangs[i] || '').trim().toLowerCase();
+      if (l === 'hi' || l.indexOf('hi-') === 0 || l.indexOf('hi_') === 0) {
+        doRedirect('hi');
+        return;
+      }
+    }
+
+    // Tier 4: Safe Fallback to English
+    if (isHindiPath && !isManual && !storedLang) {
+      // Keep on Hindi page if specifically visited without overriding
+    }
+  } catch (err) {
+    // Fail silently without interrupting page render
+  }
+})();
+</script>
+<script>
+function setLanguagePreference(targetLang) {
+  try {
+    localStorage.setItem('cinestories_lang', targetLang);
+    localStorage.setItem('cinestories_lang_manual', 'true');
+    var maxAge = 31536000;
+    document.cookie = 'cinestories_lang=' + encodeURIComponent(targetLang) + '; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+    document.cookie = 'cinestories_lang_manual=true; Path=/; Max-Age=' + maxAge + '; SameSite=Lax';
+  } catch (e) {}
+}
+</script>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="MoviePulse" property="og:site_name"/>
+<meta content="https://cinematicbites.com/hi/editorial/" property="og:url"/>
+<meta content="Editorial Policy &amp; Standards | MoviePulse" property="og:title"/>
+<meta content="Editorial guidelines, human verification pipeline, Google Search Essentials compliance, and AI transparency disclosure for MoviePulse." property="og:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" property="og:image"/>
+<!-- Twitter Cards -->
+<meta content="summary" name="twitter:card"/>
+<meta content="@MoviePulse" name="twitter:site"/>
+<meta content="Editorial Policy &amp; Standards | MoviePulse" name="twitter:title"/>
+<meta content="Editorial guidelines, human verification pipeline, Google Search Essentials compliance, and AI transparency disclosure for MoviePulse." name="twitter:description"/>
+<meta content="https://cinematicbites.com/assets/logo.png" name="twitter:image"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ItemPage",
+      "@id": "https://cinematicbites.com/hi/editorial/#webpage",
+      "url": "https://cinematicbites.com/hi/editorial/",
+      "name": "Editorial Policy, Fact-Checking Standards & AI Content Transparency",
+      "description": "Editorial guidelines, human verification pipeline, Google Search Essentials compliance, and AI transparency disclosure for MoviePulse.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://cinematicbites.com/hi/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Editorial Policy",
+            "item": "https://cinematicbites.com/hi/editorial/"
+          }
+        ]
+      },
+      "inLanguage": "hi-IN"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://cinematicbites.com/#organization",
+      "name": "MoviePulse",
+      "legalName": "CineStories Digital Media Network",
+      "url": "https://cinematicbites.com/",
+      "publishingPrinciples": "https://cinematicbites.com/editorial/",
+      "inLanguage": "hi-IN"
+    }
+  ]
+}</script>
+<style>
+    :root {
+      --bg: #090b10;
+      --surface: #10141f;
+      --surface-border: rgba(255, 255, 255, 0.08);
+      --primary: #e11d48;
+      --primary-hover: #f43f5e;
+      --accent-gold: #f59e0b;
+      --text: #ffffff;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --radius-lg: 20px;
+      --radius-md: 12px;
+      --radius-sm: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(9, 11, 16, 0.88);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--surface-border);
+      padding: 16px 24px;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--surface-border);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-nav:hover {
+      background: rgba(225, 29, 72, 0.2);
+      border-color: var(--primary);
+      color: #fff;
+    }
+
+    .btn-nav-primary {
+      background: rgba(225, 29, 72, 0.15);
+      border-color: rgba(225, 29, 72, 0.4);
+      color: #fda4af;
+    }
+
+    .breadcrumb-nav {
+      max-width: 900px;
+      margin: 24px auto 0;
+      padding: 0 24px;
+      width: 100%;
+      font-size: 13px;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb-nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb-nav a:hover {
+      color: #fff;
+    }
+
+    .main-content {
+      max-width: 900px;
+      margin: 20px auto 60px;
+      padding: 0 24px;
+      flex-grow: 1;
+      width: 100%;
+    }
+
+    .page-card {
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-lg);
+      padding: 44px 38px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .page-card {
+        padding: 24px 20px;
+      }
+    }
+
+    .page-kicker {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .page-title {
+      font-size: clamp(26px, 4vw, 36px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .content-body h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+      margin: 36px 0 14px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 8px;
+      letter-spacing: -0.2px;
+    }
+
+    .content-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #e2e8f0;
+      margin: 22px 0 10px;
+    }
+
+    .content-body p {
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .content-body ul, .content-body ol {
+      margin: 0 0 20px 24px;
+      color: var(--text-muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .content-body li {
+      margin-bottom: 8px;
+    }
+
+    .content-body a {
+      color: #38bdf8;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .callout-box {
+      background: rgba(225, 29, 72, 0.08);
+      border-left: 4px solid var(--primary);
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    .info-box {
+      background: rgba(56, 189, 248, 0.08);
+      border-left: 4px solid #38bdf8;
+      padding: 18px 22px;
+      border-radius: var(--radius-sm);
+      margin: 24px 0;
+      font-size: 14.5px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    /* Team Grid for About Page */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin: 24px 0 32px;
+    }
+
+    .team-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(225, 29, 72, 0.35);
+    }
+
+    .team-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .team-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary) 0%, #9333ea 100%);
+      color: #fff;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      font-size: 16px;
+      font-weight: 800;
+      color: #fff;
+    }
+
+    .team-role {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent-gold);
+    }
+
+    .team-bio {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* Workflow Stages for Editorial Page */
+    .workflow-list {
+      list-style: none !important;
+      margin: 20px 0 !important;
+      padding: 0 !important;
+    }
+
+    .workflow-step {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      position: relative;
+    }
+
+    .workflow-num {
+      display: inline-block;
+      background: rgba(225, 29, 72, 0.2);
+      color: #fda4af;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .workflow-step h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+
+    .workflow-step p {
+      margin-bottom: 0 !important;
+      font-size: 13.5px;
+    }
+
+    /* Cookie Schedule Table */
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+    }
+
+    .policy-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+      text-align: left;
+    }
+
+    .policy-table th {
+      background: rgba(255, 255, 255, 0.05);
+      color: #fff;
+      font-weight: 700;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      white-space: nowrap;
+    }
+
+    .policy-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--surface-border);
+      color: var(--text-muted);
+    }
+
+    .policy-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Interactive Contact Form */
+    .contact-form-wrap {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-md);
+      padding: 28px 24px;
+      margin: 28px 0;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+      margin-bottom: 18px;
+    }
+
+    .form-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: #cbd5e1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .form-label .req {
+      color: var(--primary);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      background: #090b10;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--radius-sm);
+      color: #fff;
+      padding: 11px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
+    }
+
+    .form-input.invalid, .form-select.invalid, .form-textarea.invalid {
+      border-color: #ef4444;
+      background: rgba(239, 68, 68, 0.04);
+    }
+
+    .form-feedback {
+      font-size: 12px;
+      color: #ef4444;
+      display: none;
+      margin-top: 4px;
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 110px;
+    }
+
+    .btn-submit {
+      background: linear-gradient(135deg, var(--primary) 0%, #be123c 100%);
+      color: #fff;
+      border: none;
+      padding: 13px 28px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.15s ease, box-shadow 0.2s;
+    }
+
+    .btn-submit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 16px rgba(225, 29, 72, 0.4);
+    }
+
+    .btn-submit:active {
+      transform: translateY(1px);
+    }
+
+    .success-card {
+      display: none;
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .success-card h3 {
+      color: #34d399;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .ref-code {
+      display: inline-block;
+      font-family: monospace;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #f59e0b;
+      font-size: 14px;
+      margin: 8px 0 16px;
+    }
+
+    .btn-mailto-fallback {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      text-decoration: none !important;
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 10px;
+      border: 1px solid var(--surface-border);
+      transition: background 0.2s;
+    }
+
+    .btn-mailto-fallback:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .footer {
+      background: var(--surface);
+      border-top: 1px solid var(--surface-border);
+      padding: 32px 24px;
+      margin-top: auto;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+    
+/* Tactile Segmented Language Switcher Pill */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+  padding: 3px;
+  gap: 2px;
+  user-select: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  vertical-align: middle;
+}
+
+.lang-switcher:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #94a3b8;
+  background: transparent;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  line-height: 1.2;
+}
+
+.lang-switcher .lang-pill .flag-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.lang-switcher .lang-pill .lang-text {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-transform: uppercase;
+}
+
+.lang-switcher .lang-pill:hover:not(.active) {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-0.5px);
+}
+
+.lang-switcher .lang-pill:active {
+  transform: scale(0.95);
+}
+
+.lang-switcher .lang-pill.active {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(225, 29, 72, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  cursor: default;
+}
+
+.lang-switcher .lang-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 11px;
+  font-weight: 300;
+  display: none; /* Segmented layout uses pill padding instead of divider */
+}
+
+/* AMP Story specific language switcher pill (No JS, pure CSS) */
+.amp-story-lang-switcher {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 100;
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+  padding: 3px;
+}
+
+.amp-story-lang-switcher .lang-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #cbd5e1;
+}
+
+.amp-story-lang-switcher .lang-pill.active {
+  background: #e11d48;
+  color: #ffffff;
+}
+
+  </style>
+<link href="https://cinematicbites.com/editorial/" hreflang="en" rel="alternate"/><link href="https://cinematicbites.com/hi/editorial/" hreflang="hi" rel="alternate"/><link href="https://cinematicbites.com/editorial/" hreflang="x-default" rel="alternate"/></head>
+<body>
+<header class="navbar">
+<div class="nav-container">
+<a class="brand-wrap" href="https://cinematicbites.com/hi/">
+<img alt="MoviePulse" class="brand-logo" height="38" src="/assets/logo.png" width="38"/>
+<div class="brand-text">
+<h1>MoviePulse</h1>
+</div>
+</a>
+<div class="nav-actions">
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-label="Switch to English edition" class="lang-pill" href="/editorial/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-current="page" aria-label="हिंदी संस्करण चुनें" class="lang-pill active" href="/hi/editorial/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<a class="btn-nav btn-nav-primary" href="https://cinematicbites.com/hi/discover/">
+<span>📰</span>
+<span>Discover Feed</span>
+</a>
+<a class="btn-nav" href="https://cinematicbites.com/hi/">
+<svg fill="none" height="14" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="14"><path d="M19 12H5M12 19l-7-7 7-7"></path></svg>
+<span>Back to Stories</span>
+</a>
+</div>
+</div>
+</header>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<a href="https://cinematicbites.com/hi/">Home</a>
+<span>›</span>
+<span style="color: #fff;">Editorial Policy &amp; Standards</span>
+</nav>
+<main class="main-content">
+<article class="page-card">
+<div class="page-kicker">CineStories Compliance &amp; Policy</div>
+<h1 class="page-title">Editorial Policy &amp; Standards</h1>
+<div class="content-body">
+<p><em>Effective Date: October 2026 • Published by CineStories Digital Media Network</em></p>
+<p>At <strong>MoviePulse</strong>, we take pride in delivering accurate, entertaining, and responsible film journalism. In an era saturated with automated noise, our editorial mission is anchored in transparency, verifiable human curation, and absolute compliance with <strong>Google Search Essentials</strong> and quality rater standards.</p>
+<h2>1. Core Journalistic Principles</h2>
+<p>Our coverage adheres to four non-negotiable principles:</p>
+<ul>
+<li><strong>Accuracy First:</strong> Every release date, box office statistic, running time, cast credit, and platform window is verified before distribution.</li>
+<li><strong>Reader Respect &amp; Zero Spoilers:</strong> Premise hooks, audience guides, and trivia cards are engineered to heighten anticipation without destroying surprise plot reveals.</li>
+<li><strong>Editorial Independence:</strong> Our critical ratings, recommendations, and verdicts are independent of commercial sponsorship, streaming studio influence, or advertising spend.</li>
+<li><strong>Accountability:</strong> Transparent correction mechanisms ensure that any inadvertent inaccuracies are rectified promptly and openly.</li>
+</ul>
+<h2>2. Google Search Essentials &amp; AI Transparency Disclosure</h2>
+<p>In accordance with Google Search guidance regarding AI-assisted content and helpful, reliable, people-first content:</p>
+<div class="info-box">
+<strong>Transparent AI Disclosure:</strong> MoviePulse does <strong>NOT</strong> publish mass-produced, autonomous, or unvetted AI-generated articles. We leverage machine intelligence architectures (including Google Gemini) strictly as assistive productivity tools — assisting with metadata normalization, schema tagging, and Google AMP syntax structuring. <strong>Every sentence of critique, audience recommendation, and thematic analysis is curated, fact-checked, and approved by human editors on the CineStories Editorial Board.</strong>
+</div>
+<h2>3. The 5-Stage Human Editorial Verification Pipeline</h2>
+<p>Before any story or article is published to our static production build, it progresses through our rigorous 5-stage verification protocol:</p>
+<ol class="workflow-list">
+<li class="workflow-step">
+<span class="workflow-num">Stage 01</span>
+<h4>Curatorial Discovery &amp; Cultural Relevance</h4>
+<p>Our senior editorial desk evaluates premiering releases, box office breakouts, and social discussions to select titles with genuine cultural resonance. We prioritize movies and series that viewers are actively researching.</p>
+</li>
+<li class="workflow-step">
+<span class="workflow-num">Stage 02</span>
+<h4>Primary Source Fact-Checking</h4>
+<p>Data researchers verify technical specs (aspect ratios, audio formats, IMAX availability), studio credits, and release dates against official distributor press kits, verified TMDB records, and industry trade registries (Variety, Deadline, The Hollywood Reporter).</p>
+</li>
+<li class="workflow-step">
+<span class="workflow-num">Stage 03</span>
+<h4>Original Synthesis &amp; Audience Guidance</h4>
+<p>Human writers craft tailored “Who Should Watch” and “Skip If” audience guides, synthesize nuanced critical consensus, and articulate thematic takeaways that provide fresh value beyond generic plot summaries.</p>
+</li>
+<li class="workflow-step">
+<span class="workflow-num">Stage 04</span>
+<h4>Anti-Spoiler &amp; Quality Guardrails</h4>
+<p>A second reader performs a dedicated anti-spoiler audit, ensuring narrative twists, surprise cameos, and third-act climaxes remain undisclosed for first-time viewers.</p>
+</li>
+<li class="workflow-step">
+<span class="workflow-num">Stage 05</span>
+<h4>AMP &amp; Technical Validation</h4>
+<p>Our technical desk validates each story against the official Google AMP Web Story 1.0 specification and executes viewport anti-truncation stress tests across 6 device geometries to guarantee flaw-free mobile rendering.</p>
+</li>
+</ol>
+<h2>4. Fact-Checking &amp; Rumor Attribution Standards</h2>
+<p>We maintain clear demarcations between verified facts, industry reports, and unconfirmed rumors:</p>
+<ul>
+<li><strong>Confirmed News:</strong> Attributed directly to primary studio press releases, verified trade publications, or official distributor announcements.</li>
+<li><strong>Box Office Data:</strong> Cross-verified with official box office trackers (Box Office Mojo, Comscore, and certified regional theatrical reports).</li>
+<li><strong>Fan Theories &amp; Speculation:</strong> Explicitly labeled as speculative analysis (e.g. “Marvel &amp; DC Theories”), ensuring readers are never misled into confusing creative speculation with confirmed plotlines.</li>
+</ul>
+<h2>5. Corrections &amp; Updates Policy</h2>
+<p>When an error occurs, our policy is prompt, transparent correction. We distinguish between minor updates and substantive factual corrections:</p>
+<ul>
+<li><strong>Factual Corrections:</strong> If a date, name, or claim is inaccurate, we update the story and append a clear editorial note: <em>[Correction: Date - Explanation of correction]</em>.</li>
+<li><strong>Ongoing Updates:</strong> Articles covering evolving stories (e.g. renewal status or box office records) reflect updated timestamps and new reporting.</li>
+</ul>
+<p>To request a factual review or correction, contact our desk at <a href="mailto:editorial@cinestories.online">editorial@cinestories.online</a> (or fallback: <a href="mailto:sumits7196@gmail.com">sumits7196@gmail.com</a>) with the story title, URL, and verifiable reference material.</p>
+<h2>6. Commercial Firewall &amp; Advertising Independence</h2>
+<p>MoviePulse maintains an absolute separation between our editorial team and advertising partners:</p>
+<ul>
+<li>Third-party display advertisements (such as Google AdSense) are served programmatically and do not reflect the opinions or endorsements of MoviePulse.</li>
+<li>Advertisers, sponsors, and streaming networks have zero influence over critical ratings, rankings, or story selections.</li>
+<li>Any sponsored partnership or native placement is unambiguously labeled in strict compliance with FTC guidelines.</li>
+</ul>
+<h2>7. Global Cinema &amp; Inclusivity</h2>
+<p>We believe cinema is a universal language. Our editorial board actively champions diverse cinematic traditions — from Hollywood blockbusters and European arthouse to Bollywood, Tollywood, Korean dramas, and emerging regional industries.</p>
+</div>
+</article>
+</main>
+<footer class="footer">
+<div class="footer-container">
+<p style="font-size: 13px; color: var(--text-muted);">© 2026 CineStories Digital Media Network. All rights reserved.</p>
+<nav aria-label="Select language" class="lang-switcher" data-component="lang-switcher">
+<a aria-label="Switch to English edition" class="lang-pill" href="/editorial/" onclick="setLanguagePreference('en')">
+<span class="flag-icon">🇺🇸</span>
+<span class="lang-text">EN</span>
+</a>
+<span aria-hidden="true" class="lang-divider">|</span>
+<a aria-current="page" aria-label="हिंदी संस्करण चुनें" class="lang-pill active" href="/hi/editorial/" onclick="setLanguagePreference('hi')">
+<span class="flag-icon">🇮🇳</span>
+<span class="lang-text">हिं</span>
+</a>
+</nav>
+<div aria-label="Footer Navigation" class="footer-links" role="navigation">
+<a href="https://cinematicbites.com/hi/">Home</a>
+<a href="https://cinematicbites.com/hi/discover/">Discover Feed</a>
+<a href="https://cinematicbites.com/hi/about/">About Us</a>
+<a href="https://cinematicbites.com/hi/editorial/">Editorial Policy</a>
+<a href="https://cinematicbites.com/hi/privacy/">Privacy Policy</a>
+<a href="https://cinematicbites.com/hi/terms/">Terms of Service</a>
+<a href="https://cinematicbites.com/hi/contact/">Contact Us</a>
+<a href="/sitemap.xml">XML Sitemap</a>
+</div>
+</div>
+</footer>
+</body>
+</html>

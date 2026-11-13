@@ -34,7 +34,7 @@ VIRAL_SPOTLIGHT_SLUGS: List[str] = [
     "singham-again"
 ]
 
-def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME) -> str:
+def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, lang: str = "en") -> str:
     """
     Renders the modern, dark cinema-themed landing page.
     """
@@ -49,6 +49,26 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     cult_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "cult_classic")
     upcoming_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "upcoming")
     steamy_count = sum(1 for s in stories if s.get("movie", {}).get("category") == "steamy_thrillers")
+
+    # Localization navigation paths
+    nav_home = "/hi/" if lang == "hi" else "/"
+    nav_discover = "/hi/discover/" if lang == "hi" else "/discover/"
+    nav_about = "/hi/about/" if lang == "hi" else "/about/"
+    nav_editorial = "/hi/editorial/" if lang == "hi" else "/editorial/"
+    nav_contact = "/hi/contact/" if lang == "hi" else "/contact/"
+    nav_privacy = "/hi/privacy/" if lang == "hi" else "/privacy/"
+    nav_terms = "/hi/terms/" if lang == "hi" else "/terms/"
+    nav_home_label = "होम" if lang == "hi" else "Home"
+    nav_discover_label = "डिस्कवर" if lang == "hi" else "Discover Feed"
+    nav_about_label = "हमारे बारे में" if lang == "hi" else "About Us"
+    nav_editorial_label = "संपादकीय" if lang == "hi" else "Editorial"
+    nav_contact_label = "संपर्क" if lang == "hi" else "Contact"
+    nav_privacy_label = "गोपनीयता नीति" if lang == "hi" else "Privacy Policy"
+    nav_terms_label = "नियम व शर्तें" if lang == "hi" else "Terms of Service"
+    brand_subtitle = "गूगल एएमपी वेब स्टोरीज़" if lang == "hi" else "AMP Web Stories"
+    en_target = "/"
+    hi_target = "/hi/"
+    canonical_url = f"{domain}/hi/" if lang == "hi" else f"{domain}/"
 
     # Pin breakout viral stories for the Hero Carousel using VIRAL_SPOTLIGHT_SLUGS
     story_map: Dict[str, Dict[str, Any]] = {}
@@ -86,12 +106,13 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         backdrop_url = f"{TMDB_IMAGE_POSTER}{backdrop}" if backdrop else poster_url
         title = s.get("title") or m.get("hook_title") or m.get("title", "")
         teaser = m.get("catchy_teaser") or s.get("seo_description", "")
+        card_story_url = f"/hi/stories/{slug}/" if lang == "hi" else f"/stories/{slug}/"
         
         cards_data.append({
             "title": title,
             "movie_title": m.get("title", ""),
             "slug": slug,
-            "url": f"/stories/{slug}/",
+            "url": card_story_url,
             "poster_url": poster_url,
             "backdrop_url": backdrop_url,
             "teaser": teaser,
@@ -130,6 +151,9 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         else:
             platform = cat.replace("_", " ").upper()
 
+        primary_story_href = f"/hi/stories/{slug}/" if lang == "hi" else f"/stories/{slug}/"
+        secondary_article_href = f"/hi/articles/{slug}/" if lang == "hi" else f"/articles/{slug}/"
+
         slide_html = f"""
         <div class="carousel-slide {active_class}" data-slide-index="{idx}">
           <div class="slide-media-wrap">
@@ -138,18 +162,18 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
           </div>
           <div class="slide-content">
             <div class="slide-badges">
-              <span class="viral-glow-badge">🔥 BREAKOUT VIRAL HOOK</span>
+              <span class="viral-glow-badge">{'🔥 वायरल स्टोरी' if lang == 'hi' else '🔥 BREAKOUT VIRAL HOOK'}</span>
               <span class="platform-badge">{platform}</span>
               <span class="platform-badge">★ {m.get('vote_average', 8.5)}</span>
             </div>
             <h3 class="slide-headline">{headline}</h3>
             <p class="slide-teaser">{teaser}</p>
             <div class="slide-actions">
-              <a href="/stories/{slug}/" class="btn-carousel-primary card-link" aria-label="Watch Web Story for {m_title}">
-                <span>⚡ Watch Web Story</span>
+              <a href="{primary_story_href}" class="btn-carousel-primary card-link" aria-label="{'वेब स्टोरी देखें' if lang == 'hi' else f'Watch Web Story for {m_title}'}">
+                <span>{'⚡ वेब स्टोरी देखें' if lang == 'hi' else '⚡ Watch Web Story'}</span>
               </a>
-              <a href="/articles/{slug}/" class="btn-carousel-secondary" aria-label="Read full article for {m_title}">
-                <span>📖 Read Climax Breakdown</span>
+              <a href="{secondary_article_href}" class="btn-carousel-secondary" aria-label="{'पूरा आर्टिकल पढ़ें' if lang == 'hi' else f'Read full article for {m_title}'}">
+                <span>{'📖 पूरा आर्टिकल पढ़ें' if lang == 'hi' else '📖 Read Climax Breakdown'}</span>
               </a>
             </div>
           </div>
@@ -216,7 +240,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
               
               <div class="card-top-badges">
                 <span class="category-badge {badge_class}">{category_label}</span>
-                <span class="rating-badge">★ {c['rating']}</span>
+                <div class="card-top-actions">
+                  <span class="rating-badge">★ {c['rating']}</span>
+                  <button class="card-share-btn" onclick="event.preventDefault(); event.stopPropagation(); shareStory('{c['url']}', '{html.escape(c['title'])}', event)" aria-label="Share story" title="Quick Share">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                  </button>
+                </div>
               </div>
 
               <div class="card-bottom-info">
@@ -244,22 +273,76 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     cards_grid_html = "\n".join(cards_html_list)
 
+    # Schema.org WebSite & Organization structured data
+    schema_website_org = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebSite",
+                "@id": f"{domain}/#website",
+                "url": f"{domain}/",
+                "name": SITE_NAME,
+                "description": "Visual Google AMP Web Stories & In-Depth Entertainment Journalism",
+                "publisher": {
+                    "@id": f"{domain}/#organization"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": f"{domain}/discover/?q={{search_term_string}}"
+                    },
+                    "query-input": "required name=search_term_string"
+                },
+                "inLanguage": "hi-IN" if lang == "hi" else "en-US"
+            },
+            {
+                "@type": "Organization",
+                "@id": f"{domain}/#organization",
+                "name": "CineStories",
+                "legalName": "CineStories Digital Media Network",
+                "url": f"{domain}/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": f"{domain}/assets/logo.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "publishingPrinciples": f"{domain}/editorial/",
+                "sameAs": [
+                    "https://twitter.com/CineStories",
+                    "https://t.me/CineStories"
+                ],
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "editorial inquiries",
+                    "email": "editorial@cinestories.online",
+                    "availableLanguage": ["English", "Hindi"]
+                }
+            }
+        ]
+    }
+    schema_json = json.dumps(schema_website_org, indent=2)
+
     html_content = f"""<!doctype html>
-<html lang="en">
+<html lang="{ 'hi' if lang == 'hi' else 'en' }">
 <head>
 {get_ga_script()}
 {get_adsense_script()}
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{SITE_NAME} | {SITE_TAGLINE}</title>
   <meta name="description" content="Discover automated, 100% AMP-compliant visual Web Stories for upcoming, trending, and now-playing movies. Powered by TMDB and Gemini AI.">
-  <link rel="canonical" href="{domain}/">
+  <link rel="canonical" href="{canonical_url}">
+  <link rel="alternate" hreflang="en" href="{domain}/">
+  <link rel="alternate" hreflang="hi" href="{domain}/hi/">
+  <link rel="alternate" hreflang="x-default" href="{domain}/">
   <link rel="icon" type="image/svg+xml" href="{domain}/assets/favicon.svg">
   <meta name="google-site-verification" content="8Brds5ztSCZ-SIMPzuc_bVipCi_wCcAMmhfNX7GhNDw">
 
   <!-- Open Graph / Social -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{domain}/">
+  <meta property="og:url" content="{canonical_url}">
   <meta property="og:title" content="{SITE_NAME} | {SITE_TAGLINE}">
   <meta property="og:description" content="Experience movie stories in Google AMP Web Story format. Bite-sized, cinematic visual entertainment guides.">
   <meta property="og:image" content="{domain}/assets/logo.png">
@@ -267,7 +350,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+{schema_json}
+  </script>
 
   <style>
     :root {{
@@ -276,6 +364,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       --surface-border: rgba(255, 255, 255, 0.08);
       --primary: #e11d48;
       --primary-hover: #f43f5e;
+      --primary-glow: rgba(225, 29, 72, 0.4);
       --accent-gold: #f59e0b;
       --text: #ffffff;
       --text-muted: #94a3b8;
@@ -293,7 +382,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     }}
 
     body {{
-      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: 'Outfit', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.5;
@@ -303,15 +392,37 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       overflow-x: hidden;
     }}
 
-    /* Top Navigation Bar */
+    /* Tactile Micro-Interactions & Focus States */
+    :where(button, .btn, .filter-chip, .filter-btn, .lang-opt, .btn-carousel-primary, .btn-carousel-secondary, .card-share-btn):active {{
+      transform: scale(0.97);
+    }}
+
+    .story-card:active {{
+      transform: scale(0.985);
+    }}
+
+    :where(a, button, input, [tabindex]):focus-visible {{
+      outline: 2px solid var(--accent-gold);
+      outline-offset: 2px;
+    }}
+
+    /* Top Navigation Bar: Mobile Optimized (360px-420px) */
     .navbar {{
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(9, 11, 16, 0.85);
+      background: rgba(9, 11, 16, 0.88);
       backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--surface-border);
-      padding: 16px 24px;
+      padding: 12px 20px;
+      transition: background 0.2s ease;
+    }}
+
+    @media (max-width: 480px) {{
+      .navbar {{
+        padding: 10px 12px;
+      }}
     }}
 
     .nav-container {{
@@ -320,43 +431,148 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      gap: 10px;
+      flex-wrap: nowrap;
+      min-width: 0;
     }}
 
     .brand-wrap {{
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
       text-decoration: none;
       color: var(--text);
+      min-width: 0;
+      flex-shrink: 0;
     }}
 
     .brand-logo {{
-      width: 42px;
-      height: 42px;
+      width: 38px;
+      height: 38px;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(225, 29, 72, 0.35);
+      flex-shrink: 0;
+    }}
+
+    .brand-text {{
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
     }}
 
     .brand-text h1 {{
-      font-size: 20px;
+      font-size: 19px;
       font-weight: 800;
       letter-spacing: -0.5px;
       line-height: 1.1;
+      white-space: nowrap;
     }}
 
     .brand-text p {{
-      font-size: 11px;
+      font-size: 10px;
       color: var(--accent-gold);
-      font-weight: 600;
-      letter-spacing: 1px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
       text-transform: uppercase;
+      white-space: nowrap;
+    }}
+
+    @media (max-width: 420px) {{
+      .brand-wrap {{
+        gap: 8px;
+      }}
+      .brand-logo {{
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+      }}
+      .brand-text h1 {{
+        font-size: 16px;
+      }}
+      .brand-text p {{
+        display: none;
+      }}
     }}
 
     .nav-actions {{
       display: flex;
       align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+      flex-wrap: nowrap;
+    }}
+
+    .lang-switch-pill {{
+      display: inline-flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      padding: 2px;
+      gap: 2px;
+      flex-shrink: 0;
+    }}
+
+    .lang-opt {{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 999px;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      user-select: none;
+      -webkit-user-select: none;
+    }}
+
+    .lang-opt:hover {{
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.1);
+    }}
+
+    .lang-opt.active {{
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 2px 8px rgba(225, 29, 72, 0.5);
+    }}
+
+    .lang-opt:active {{
+      transform: scale(0.95);
+    }}
+
+    @media (max-width: 380px) {{
+      .lang-opt {{
+        padding: 3px 6px;
+        font-size: 10px;
+      }}
+    }}
+
+    .nav-links-legal {{
+      display: flex;
+      align-items: center;
       gap: 12px;
+    }}
+
+    .nav-link-item {{
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }}
+
+    .nav-link-item:hover {{
+      color: #fff;
+    }}
+
+    @media (max-width: 768px) {{
+      .nav-links-legal {{
+        display: none !important;
+      }}
     }}
 
     .btn {{
@@ -383,6 +599,38 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       color: #fff;
     }}
 
+    .btn-discover-nav {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      font-size: 12.5px;
+      font-weight: 700;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      color: #fbbf24;
+      background: rgba(245, 158, 11, 0.1);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }}
+
+    .btn-discover-nav:hover {{
+      background: rgba(245, 158, 11, 0.2);
+      color: #fff;
+    }}
+
+    @media (max-width: 380px) {{
+      .btn-discover-nav .btn-text {{
+        display: none;
+      }}
+      .btn-discover-nav {{
+        padding: 6px 10px;
+      }}
+    }}
+
     .amp-pill {{
       display: inline-flex;
       align-items: center;
@@ -396,12 +644,24 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       font-weight: 700;
     }}
 
+    @media (max-width: 640px) {{
+      .amp-pill, .btn-sitemap {{
+        display: none !important;
+      }}
+    }}
+
     /* Hero Section */
     .hero {{
       max-width: 1280px;
       margin: 0 auto;
-      padding: 48px 24px 32px;
+      padding: 40px 24px 28px;
       width: 100%;
+    }}
+
+    @media (max-width: 480px) {{
+      .hero {{
+        padding: 24px 16px 20px;
+      }}
     }}
 
     .hero-badge {{
@@ -421,73 +681,42 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     }}
 
     .hero-title {{
-      font-size: clamp(32px, 5vw, 54px);
+      font-size: clamp(28px, 5vw, 54px);
       font-weight: 900;
       letter-spacing: -1.5px;
       line-height: 1.1;
-      margin-bottom: 16px;
+      margin-bottom: 14px;
       background: linear-gradient(180deg, #ffffff 40%, #94a3b8 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }}
 
     .hero-subtitle {{
-      font-size: 17px;
+      font-size: clamp(14px, 2vw, 17px);
       color: var(--text-muted);
       max-width: 680px;
       line-height: 1.6;
-      margin-bottom: 28px;
+      margin-bottom: 24px;
     }}
 
-    /* Filters Bar */
-    .controls-bar {{
+    /* Controls Area: Search & Horizontal Scroll-Snap Filter Rail */
+    .controls-area {{
       display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
+      flex-direction: column;
       gap: 16px;
       margin-bottom: 32px;
-      background: var(--surface);
-      border: 1px solid var(--surface-border);
-      border-radius: var(--radius-md);
-      padding: 12px 16px;
     }}
 
-    .filter-pills {{
+    .search-wrap {{
       display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-    }}
-
-    .filter-btn {{
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--text-muted);
-      padding: 8px 16px;
-      font-size: 13px;
-      font-weight: 600;
-      border-radius: 999px;
-      cursor: pointer;
-      transition: var(--transition);
-      font-family: inherit;
-    }}
-
-    .filter-btn:hover {{
-      color: #fff;
-      background: rgba(255, 255, 255, 0.05);
-    }}
-
-    .filter-btn.active {{
-      background: var(--primary);
-      color: #fff;
-      box-shadow: 0 4px 14px rgba(225, 29, 72, 0.4);
+      justify-content: flex-end;
+      width: 100%;
     }}
 
     .search-box {{
       position: relative;
-      min-width: 240px;
-      flex-grow: 1;
-      max-width: 360px;
+      width: 100%;
+      max-width: 380px;
     }}
 
     .search-box input {{
@@ -495,8 +724,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       background: rgba(255, 255, 255, 0.06);
       border: 1px solid var(--surface-border);
       color: #fff;
-      padding: 9px 16px 9px 38px;
-      font-size: 13px;
+      padding: 10px 16px 10px 40px;
+      font-size: 13.5px;
       border-radius: 999px;
       outline: none;
       font-family: inherit;
@@ -506,6 +735,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     .search-box input:focus {{
       border-color: var(--primary);
       background: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 0 3px rgba(225, 29, 72, 0.2);
     }}
 
     .search-box svg {{
@@ -515,6 +745,84 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       transform: translateY(-50%);
       color: var(--text-dim);
       pointer-events: none;
+    }}
+
+    /* Horizontal Scroll-Snap Filter Rail */
+    .filter-rail-wrapper {{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }}
+
+    .filter-pills {{
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }}
+
+    .filter-rail {{
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      gap: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding: 4px 2px 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }}
+
+    .filter-rail::-webkit-scrollbar {{
+      display: none;
+    }}
+
+    .filter-chip {{
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      background: var(--surface);
+      border: 1px solid var(--surface-border);
+      color: var(--text-muted);
+      padding: 8px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      border-radius: 999px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-family: inherit;
+      transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+      user-select: none;
+      -webkit-user-select: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }}
+
+    .filter-chip:hover {{
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.2);
+    }}
+
+    .filter-chip.active {{
+      background: linear-gradient(135deg, var(--primary) 0%, #be123c 100%);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: 0 4px 14px var(--primary-glow);
+    }}
+
+    .filter-chip:active {{
+      transform: scale(0.97);
+    }}
+
+    .filter-chip:focus-visible {{
+      outline: 2px solid var(--accent-gold);
+      outline-offset: 2px;
+    }}
+
+    .chip-icon {{
+      font-size: 13px;
     }}
 
     /* Stories Grid */
@@ -1171,27 +1479,203 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         bottom: 14px;
       }}
     }}
+
+    /* Card Top Actions & Quick Share */
+    .card-top-actions {{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }}
+
+    .card-share-btn {{
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(9, 11, 16, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+      padding: 0;
+    }}
+
+    .card-share-btn:hover {{
+      background: var(--primary);
+      border-color: var(--primary);
+      transform: scale(1.1);
+    }}
+
+    .card-share-btn:active {{
+      transform: scale(0.92);
+    }}
+
+    /* Toast Notification */
+    .toast-notification {{
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 9999;
+      background: rgba(16, 20, 31, 0.95);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(225, 29, 72, 0.45);
+      border-radius: 14px;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65), 0 0 24px rgba(225, 29, 72, 0.25);
+      padding: 14px 18px;
+      max-width: 358px;
+      width: calc(100vw - 32px);
+      box-sizing: border-box;
+      transform: translateY(120%) scale(0.95);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.35s ease;
+    }}
+
+    .toast-notification.show {{
+      transform: translateY(0) scale(1);
+      opacity: 1;
+      pointer-events: auto;
+    }}
+
+    @media (max-width: 480px) {{
+      .toast-notification {{
+        right: 16px;
+        left: 16px;
+        bottom: 16px;
+        width: auto;
+      }}
+    }}
+
+    .toast-content {{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }}
+
+    .toast-icon {{
+      font-size: 24px;
+      flex-shrink: 0;
+      animation: popCelebrate 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+
+    @keyframes popCelebrate {{
+      0% {{ transform: scale(0.5) rotate(-20deg); }}
+      50% {{ transform: scale(1.3) rotate(15deg); }}
+      100% {{ transform: scale(1) rotate(0deg); }}
+    }}
+
+    .toast-text {{
+      flex: 1;
+      min-width: 0;
+    }}
+
+    .toast-title {{
+      font-size: 14px;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }}
+
+    .toast-desc {{
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.3;
+      margin-top: 2px;
+    }}
+
+    .toast-close {{
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      font-size: 20px;
+      cursor: pointer;
+      padding: 0 4px;
+      line-height: 1;
+      border-radius: 4px;
+      transition: color 0.15s;
+      flex-shrink: 0;
+    }}
+
+    .toast-close:hover {{
+      color: #fff;
+    }}
+
+    .toast-progress {{
+      position: absolute;
+      bottom: 0;
+      left: 14px;
+      right: 14px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--primary), var(--accent-gold));
+      border-radius: 999px;
+      transform-origin: left;
+    }}
+
+    .toast-notification.show .toast-progress {{
+      animation: toastTimer 3.5s linear forwards;
+    }}
+
+    @keyframes toastTimer {{
+      from {{ transform: scaleX(1); }}
+      to {{ transform: scaleX(0); }}
+    }}
+
+    /* Sparkle Fly Animation */
+    .sparkle-item {{
+      position: fixed;
+      pointer-events: none;
+      z-index: 10000;
+      font-size: 18px;
+      animation: sparkleFly 0.75s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      user-select: none;
+    }}
+
+    @keyframes sparkleFly {{
+      0% {{
+        transform: translate(0, 0) scale(0.6);
+        opacity: 1;
+      }}
+      100% {{
+        transform: translate(var(--dx), var(--dy)) scale(1.3);
+        opacity: 0;
+      }}
+    }}
   </style>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- Navigation Bar: Streamlined Mobile Header (360px-420px) -->
   <header class="navbar">
     <div class="nav-container">
-      <a href="/" class="brand-wrap">
-        <img src="/assets/logo.png" alt="{SITE_NAME} Logo" class="brand-logo">
+      <a href="{nav_home}" class="brand-wrap" aria-label="CineStories Home">
+        <img src="/assets/logo.png" alt="CineStories Logo" class="brand-logo" width="38" height="38">
         <div class="brand-text">
-          <h1>{SITE_NAME}</h1>
-          <p>AMP Web Stories</p>
+          <h1 class="brand-title">CineStories</h1>
+          <p>{brand_subtitle}</p>
         </div>
       </a>
 
       <div class="nav-actions">
-        <a href="/discover/" class="btn btn-outline" style="border-color: rgba(245, 158, 11, 0.45); color: #fbbf24; font-weight: 700; background: rgba(245, 158, 11, 0.1);">
-          <span>📰</span> Discover Feed
+        <nav class="lang-switcher" data-component="lang-switcher" aria-label="Select language">
+          <a href="{en_target}" class="lang-opt {'active' if lang == 'en' else ''}" data-lang="en" aria-label="Switch to English" onclick="setLanguagePreference('en')">🇺🇸 EN</a>
+          <a href="{hi_target}" class="lang-opt {'active' if lang == 'hi' else ''}" data-lang="hi" aria-label="Switch to Hindi" onclick="setLanguagePreference('hi')">🇮🇳 हिं</a>
+        </nav>
+        <div class="nav-links-legal">
+          <a href="{nav_about}" class="nav-link-item">{nav_about_label}</a>
+          <a href="{nav_editorial}" class="nav-link-item">{nav_editorial_label}</a>
+          <a href="{nav_contact}" class="nav-link-item">{nav_contact_label}</a>
+        </div>
+        <a href="{nav_discover}" class="btn-discover-nav" aria-label="Discover Feed">
+          <span>📰</span>
+          <span class="btn-text">{nav_discover_label}</span>
         </a>
-        <span class="amp-pill">⚡ 100% AMP Valid</span>
-        <a href="/sitemap.xml" class="btn btn-outline" target="_blank" rel="noopener">
+        <span class="amp-pill">⚡ 100% AMP</span>
+        <a href="/sitemap.xml" class="btn btn-outline btn-sitemap" target="_blank" rel="noopener">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2zM22 6l-10 7L2 6"/></svg>
           Sitemap
         </a>
@@ -1209,24 +1693,48 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     {hero_carousel_html}
 
-    <!-- Controls Bar: Filter Pills & Search -->
-    <div class="controls-bar">
-      <div class="filter-pills" role="tablist">
-        <button class="filter-btn active" data-filter="all">All Stories ({total_stories})</button>
-        <button class="filter-btn" data-filter="netflix_hits">🔴 Netflix ({netflix_count})</button>
-        <button class="filter-btn" data-filter="streaming_charts">Weekly Top 10 ({streaming_count})</button>
-        <button class="filter-btn" data-filter="theories_easter_eggs">Marvel &amp; DC Theories ({theories_count})</button>
-        <button class="filter-btn" data-filter="where_are_they_now">Where Are They Now? ({sitcoms_count})</button>
-        <button class="filter-btn" data-filter="series">TV Series ({series_count})</button>
-        <button class="filter-btn" data-filter="trending">Trending Movies ({trending_count})</button>
-        <button class="filter-btn" data-filter="cult_classic">Cult &amp; Franchises ({cult_count})</button>
-        <button class="filter-btn" data-filter="steamy_thrillers">🔥 Bold Thrillers ({steamy_count})</button>
-        <button class="filter-btn" data-filter="upcoming">Upcoming ({upcoming_count})</button>
+    <!-- Controls Bar: Search & Horizontal Scroll-Snap Filter Rail -->
+    <div class="controls-area">
+      <div class="search-wrap">
+        <div class="search-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="searchInput" placeholder="Search stories, titles, actors..." aria-label="Search stories">
+        </div>
       </div>
 
-      <div class="search-box">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="searchInput" placeholder="Search by movie or genre..." aria-label="Search stories">
+      <div class="filter-rail-wrapper">
+        <div class="filter-pills filter-rail" role="tablist" aria-label="Filter stories by category" tabindex="0">
+          <button class="filter-btn filter-chip active" data-filter="all" role="tab" aria-selected="true">
+            <span class="chip-icon">🔥</span> All ({total_stories})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="netflix_hits" role="tab" aria-selected="false">
+            <span class="chip-icon">🔴</span> Netflix ({netflix_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="streaming_charts" role="tab" aria-selected="false">
+            <span class="chip-icon">🍿</span> Weekly Top 10 ({streaming_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="theories_easter_eggs" role="tab" aria-selected="false">
+            <span class="chip-icon">🦸</span> Marvel &amp; DC ({theories_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="where_are_they_now" role="tab" aria-selected="false">
+            <span class="chip-icon">✨</span> Where Are They Now? ({sitcoms_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="series" role="tab" aria-selected="false">
+            <span class="chip-icon">📺</span> TV Series ({series_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="trending" role="tab" aria-selected="false">
+            <span class="chip-icon">⚡</span> Trending ({trending_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="cult_classic" role="tab" aria-selected="false">
+            <span class="chip-icon">🎬</span> Cult Classics ({cult_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="steamy_thrillers" role="tab" aria-selected="false">
+            <span class="chip-icon">🔥</span> Bold Thrillers ({steamy_count})
+          </button>
+          <button class="filter-btn filter-chip" data-filter="upcoming" role="tab" aria-selected="false">
+            <span class="chip-icon">⏳</span> Upcoming ({upcoming_count})
+          </button>
+        </div>
       </div>
     </div>
   </section>
@@ -1249,14 +1757,18 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         <p>&copy; {datetime.now(timezone.utc).year} {SITE_NAME}. Generated with Google AMP Story 1.0 &amp; Gemini AI.</p>
         <p class="footer-tmdb-notice">This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
       </div>
-      <div class="footer-links">
-        <a href="/">Home</a>
-        <a href="/discover/">Discover Feed</a>
-        <a href="/about/">About Us</a>
-        <a href="/editorial/">Editorial Policy</a>
-        <a href="/privacy/">Privacy Policy</a>
-        <a href="/terms/">Terms &amp; Disclaimer</a>
-        <a href="/contact/">Contact Us</a>
+      <nav class="lang-switcher" data-component="lang-switcher" aria-label="Select language">
+        <a href="{en_target}" class="lang-opt {'active' if lang == 'en' else ''}" data-lang="en" aria-label="Switch to English" onclick="setLanguagePreference('en')">🇺🇸 EN</a>
+        <a href="{hi_target}" class="lang-opt {'active' if lang == 'hi' else ''}" data-lang="hi" aria-label="Switch to Hindi" onclick="setLanguagePreference('hi')">🇮🇳 हिं</a>
+      </nav>
+      <div class="footer-links" role="navigation" aria-label="Footer Navigation">
+        <a href="{nav_home}">{nav_home_label}</a>
+        <a href="{nav_discover}">{nav_discover_label}</a>
+        <a href="{nav_about}">{nav_about_label}</a>
+        <a href="{nav_editorial}">{nav_editorial_label}</a>
+        <a href="{nav_privacy}">{nav_privacy_label}</a>
+        <a href="{nav_terms}">{nav_terms_label}</a>
+        <a href="{nav_contact}">{nav_contact_label}</a>
         <a href="/sitemap.xml">XML Sitemap</a>
       </div>
     </div>
@@ -1276,9 +1788,22 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     </div>
   </div>
 
-  <!-- Instant Filtering, Search & Modal Script -->
+  <!-- Toast Notification & Confetti Sparks -->
+  <div id="toastNotification" class="toast-notification" role="region" aria-label="Notifications" aria-live="polite">
+    <div class="toast-content">
+      <span class="toast-icon" id="toastIcon">🎉</span>
+      <div class="toast-text">
+        <div class="toast-title" id="toastTitle">Story Link Copied!</div>
+        <div class="toast-desc" id="toastDesc">Share with friends to spread the cinematic buzz.</div>
+      </div>
+      <button class="toast-close" id="toastClose" aria-label="Dismiss notification">&times;</button>
+    </div>
+    <div class="toast-progress"></div>
+  </div>
+
+  <!-- Instant Filtering, Search, Modal & Micro-Interactions Script -->
   <script>
-    const filterBtns = document.querySelectorAll('.filter-btn');
+    const filterBtns = document.querySelectorAll('.filter-chip, .filter-btn');
     const searchInput = document.getElementById('searchInput');
     const cards = document.querySelectorAll('.story-card');
     const emptyState = document.getElementById('emptyState');
@@ -1304,22 +1829,31 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         }}
       }});
 
-      emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+      if (emptyState) {{
+        emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+      }}
     }}
 
     filterBtns.forEach(btn => {{
       btn.addEventListener('click', () => {{
-        filterBtns.forEach(b => b.classList.remove('active'));
+        filterBtns.forEach(b => {{
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        }});
         btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        btn.scrollIntoView({{ behavior: 'smooth', block: 'nearest', inline: 'center' }});
         activeFilter = btn.getAttribute('data-filter');
         applyFilters();
       }});
     }});
 
-    searchInput.addEventListener('input', (e) => {{
-      searchQuery = e.target.value.toLowerCase().trim();
-      applyFilters();
-    }});
+    if (searchInput) {{
+      searchInput.addEventListener('input', (e) => {{
+        searchQuery = e.target.value.toLowerCase().trim();
+        applyFilters();
+      }});
+    }}
 
     // Story Modal Lightbox Logic
     const storyModal = document.getElementById('storyModal');
@@ -1328,6 +1862,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     const storyIframe = document.getElementById('storyIframe');
 
     function openStoryModal(url) {{
+      if (!storyIframe || !storyModal) return;
       storyIframe.src = url;
       storyModal.classList.add('active');
       storyModal.setAttribute('aria-hidden', 'false');
@@ -1336,6 +1871,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     }}
 
     function closeStoryModal() {{
+      if (!storyModal || !storyIframe) return;
       storyModal.classList.remove('active');
       storyModal.setAttribute('aria-hidden', 'true');
       storyIframe.src = '';
@@ -1354,23 +1890,24 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       }});
     }});
 
-    modalCloseBtn.addEventListener('click', closeStoryModal);
-    modalBackdrop.addEventListener('click', closeStoryModal);
+    if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeStoryModal);
+    if (modalBackdrop) modalBackdrop.addEventListener('click', closeStoryModal);
 
     window.addEventListener('keydown', (e) => {{
-      if (e.key === 'Escape' && storyModal.classList.contains('active')) {{
+      if (e.key === 'Escape' && storyModal && storyModal.classList.contains('active')) {{
         closeStoryModal();
       }}
     }});
 
     window.addEventListener('popstate', () => {{
-      if (storyModal.classList.contains('active')) {{
+      if (storyModal && storyModal.classList.contains('active')) {{
         storyModal.classList.remove('active');
         storyModal.setAttribute('aria-hidden', 'true');
-        storyIframe.src = '';
+        if (storyIframe) storyIframe.src = '';
         document.body.style.overflow = '';
       }}
     }});
+
     // Hero Carousel Engine
     const carouselSlides = document.querySelectorAll('.carousel-slide');
     const carouselDots = document.querySelectorAll('.carousel-dot');
@@ -1426,17 +1963,116 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       carouselEl.addEventListener('mouseenter', () => clearInterval(autoSlideTimer));
       carouselEl.addEventListener('mouseleave', () => startTimer());
     }}
+
+    // Toast & Celebration Engine
+    const toastNotification = document.getElementById('toastNotification');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastDesc = document.getElementById('toastDesc');
+    const toastClose = document.getElementById('toastClose');
+    let toastTimer = null;
+
+    function showToast(title, desc, icon = '🎉') {{
+      if (!toastNotification) return;
+      if (toastTitle) toastTitle.textContent = title;
+      if (toastDesc) toastDesc.textContent = desc;
+      const iconEl = document.getElementById('toastIcon');
+      if (iconEl) iconEl.textContent = icon;
+      toastNotification.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = window['setTimeout'](() => {{
+        hideToast();
+      }}, 3500);
+    }}
+
+    function hideToast() {{
+      if (toastNotification) {{
+        toastNotification.classList.remove('show');
+      }}
+    }}
+
+    if (toastClose) {{
+      toastClose.addEventListener('click', hideToast);
+    }}
+
+    function celebrateSparkles(x, y) {{
+      const emojis = ['✨', '🔥', '🍿', '⚡', '🎉', '⭐'];
+      const count = 12;
+      for (let i = 0; i < count; i++) {{
+        const spark = document.createElement('span');
+        spark.className = 'sparkle-item';
+        spark.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+        spark.style.left = (x || window.innerWidth / 2) + 'px';
+        spark.style.top = (y || window.innerHeight / 2) + 'px';
+        
+        const angle = (Math.PI * 2 * i) / count;
+        const velocity = 50 + Math.random() * 60;
+        const destX = Math.cos(angle) * velocity;
+        const destY = Math.sin(angle) * velocity - 20;
+        
+        spark.style.setProperty('--dx', `${{destX}}px`);
+        spark.style.setProperty('--dy', `${{destY}}px`);
+        
+        document.body.appendChild(spark);
+        spark.addEventListener('animationend', () => spark.remove());
+      }}
+    }}
+
+    function shareStory(url, title, e) {{
+      const fullUrl = window.location.origin + url;
+      const clientX = e ? e.clientX : window.innerWidth / 2;
+      const clientY = e ? e.clientY : window.innerHeight / 2;
+      
+      if (navigator.share && window.innerWidth <= 768) {{
+        navigator.share({{
+          title: title,
+          url: fullUrl
+        }}).then(() => {{
+          celebrateSparkles(clientX, clientY);
+          showToast('Shared Successfully!', 'Thanks for spreading the word!');
+        }}).catch(() => {{
+          copyToClipboard(fullUrl, clientX, clientY);
+        }});
+      }} else {{
+        copyToClipboard(fullUrl, clientX, clientY);
+      }}
+    }}
+
+    function copyToClipboard(text, x, y) {{
+      if (navigator.clipboard && navigator.clipboard.writeText) {{
+        navigator.clipboard.writeText(text).then(() => {{
+          celebrateSparkles(x, y);
+          showToast('Story Link Copied!', 'Share on WhatsApp, Twitter, or Pinterest!');
+        }}).catch(() => {{
+          showToast('Link Ready', text);
+        }});
+      }} else {{
+        showToast('Link Ready', text);
+      }}
+    }}
+
+    // Manual Language Switcher Persistence
+    document.querySelectorAll('.lang-opt').forEach(opt => {{
+      opt.addEventListener('click', () => {{
+        const selectedLang = opt.getAttribute('data-lang');
+        try {{
+          localStorage.setItem('cinestories_lang', selectedLang);
+          localStorage.setItem('cinestories_lang_manual', 'true');
+          document.cookie = `cinestories_lang=${{selectedLang}}; Path=/; Max-Age=31536000; SameSite=Lax`;
+        }} catch (err) {{}}
+      }});
+    }});
   </script>
 </body>
 </html>
 """
     return html_content
 
-def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, output_dir: Path = DIST_DIR) -> str:
-    """Build and save dist/index.html and dist/stories.json."""
-    html_str = build_homepage_html(stories, domain=domain)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    index_file = output_dir / "index.html"
+def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, output_dir: Path = DIST_DIR, lang: str = "en") -> str:
+    """Build and save dist/index.html (or dist/hi/index.html) and dist/stories.json."""
+    html_str = build_homepage_html(stories, domain=domain, lang=lang)
+    target_dir = output_dir if lang == "en" else output_dir / "hi"
+    target_dir.mkdir(parents=True, exist_ok=True)
+    index_file = target_dir / "index.html"
     with open(index_file, "w", encoding="utf-8") as f:
         f.write(html_str)
 
@@ -1454,6 +2090,7 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
     manifest_data = {
         "site_name": SITE_NAME,
         "domain": domain,
+        "lang": lang,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_stories": len(stories),
         "stories": [
@@ -1461,7 +2098,7 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
                 "id": s.get("movie", {}).get("id"),
                 "slug": s.get("movie", {}).get("slug"),
                 "title": s.get("title"),
-                "url": f"{domain}/stories/{s.get('movie', {}).get('slug')}/",
+                "url": f"{domain}/stories/{s.get('movie', {}).get('slug')}/" if lang == "en" else f"{domain}/hi/stories/{s.get('movie', {}).get('slug')}/",
                 "category": s.get("movie", {}).get("category"),
                 "release_date": s.get("movie", {}).get("release_date"),
                 "rating": s.get("movie", {}).get("vote_average")
@@ -1469,8 +2106,8 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
             for s in ordered_manifest
         ]
     }
-    with open(output_dir / "stories.json", "w", encoding="utf-8") as f:
+    with open(target_dir / "stories.json", "w", encoding="utf-8") as f:
         json.dump(manifest_data, f, indent=2)
 
-    print(f"[Homepage] Generated portal homepage at {index_file} ({len(stories)} stories)")
+    print(f"[Homepage] Generated portal homepage at {index_file} ({len(stories)} stories, lang={lang})")
     return html_str

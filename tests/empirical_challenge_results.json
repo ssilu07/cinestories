@@ -1,0 +1,118 @@
+{
+  "simulator_mutations": [
+    {
+      "mutation": "M1: Invert Tier 1 simulate_geo=IN -> en",
+      "geo_routing_suite_caught_failures": 34,
+      "geo_routing_suite_passed": false,
+      "e2e_4tiers_caught_failures": 36,
+      "e2e_4tiers_passed": false
+    },
+    {
+      "mutation": "M2: Ignore manual switcher storage override",
+      "geo_routing_suite_caught_failures": 34,
+      "geo_routing_suite_passed": false,
+      "e2e_4tiers_caught_failures": 36,
+      "e2e_4tiers_passed": false
+    },
+    {
+      "mutation": "M3: Invert Tier 2 CF-IPCountry=IN -> en",
+      "geo_routing_suite_caught_failures": 34,
+      "geo_routing_suite_passed": false,
+      "e2e_4tiers_caught_failures": 35,
+      "e2e_4tiers_passed": false
+    },
+    {
+      "mutation": "M4: Break Tier 3 Indian timezone detection",
+      "geo_routing_suite_caught_failures": 34,
+      "geo_routing_suite_passed": false,
+      "e2e_4tiers_caught_failures": 36,
+      "e2e_4tiers_passed": false
+    },
+    {
+      "mutation": "M5: Invert Tier 4 default fallback -> hi",
+      "geo_routing_suite_caught_failures": 34,
+      "geo_routing_suite_passed": false,
+      "e2e_4tiers_caught_failures": 36,
+      "e2e_4tiers_passed": false
+    }
+  ],
+  "static_asset_mutations": [
+    {
+      "test": "H1: Strip title & description in dist/about/index.html",
+      "compliance_linter_caught": true,
+      "e2e_4tiers_caught": false
+    },
+    {
+      "test": "H2: Inject broken internal link in dist/index.html",
+      "compliance_linter_caught": true,
+      "e2e_4tiers_caught": false
+    },
+    {
+      "test": "H3: Inject 'TODO' placeholder in dist/contact/index.html",
+      "compliance_linter_caught": true,
+      "e2e_4tiers_caught": false
+    }
+  ],
+  "performance": {
+    "test_geo_routing_i18n": {
+      "tests_run": 57,
+      "elapsed_seconds": 1.687,
+      "peak_memory_mb": 20.0
+    },
+    "test_e2e_4tiers": {
+      "tests_run": 230,
+      "elapsed_seconds": 29.941,
+      "peak_memory_mb": 69.72
+    },
+    "compliance_linter_rules": {
+      "Rule_1": {
+        "elapsed_seconds": 0.098,
+        "peak_memory_mb": 1.34,
+        "violations": 5
+      },
+      "Rule_2": {
+        "elapsed_seconds": 0.483,
+        "peak_memory_mb": 1.29,
+        "violations": 429
+      },
+      "Rule_3": {
+        "elapsed_seconds": 22.987,
+        "peak_memory_mb": 24.81,
+        "violations": 1730
+      },
+      "Rule_4": {
+        "elapsed_seconds": 9.214,
+        "peak_memory_mb": 12.23,
+        "violations": 107
+      },
+      "Rule_5": {
+        "elapsed_seconds": 0.393,
+        "peak_memory_mb": 3.33,
+        "violations": 10
+      },
+      "Rule_6": {
+        "elapsed_seconds": 45.294,
+        "peak_memory_mb": 12.35,
+        "violations": 812
+      },
+      "Rule_7": {
+        "elapsed_seconds": 127.702,
+        "peak_memory_mb": 39.9,
+        "violations": 0
+      },
+      "Rule_8": {
+        "elapsed_seconds": 64.065,
+        "peak_memory_mb": 11.99,
+        "violations": 0
+      }
+    }
+  },
+  "concurrency": {
+    "threads": 10,
+    "iterations_per_thread": 20,
+    "total_operations": 200,
+    "elapsed_seconds": 0.034,
+    "errors": 0,
+    "thread_safe": true
+  }
+}

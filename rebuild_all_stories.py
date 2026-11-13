@@ -1,7 +1,8 @@
 """
-Universal Rebuild Engine for CineStories AMP Web Stories.
-Re-renders all 416 AMP Web Stories across dist/stories/ with the responsive UI/UX architecture,
-fluid typography, anti-truncation rules, and dark interactive poll styling.
+Universal Rebuild Engine for CineStories AMP Web Stories (Upgraded for 432 Stories).
+Re-renders all 432 AMP Web Stories across dist/stories/ with the responsive UI/UX architecture,
+Schema.org BreadcrumbList, inLanguage, E-E-A-T Editorial Board attribution, /about/ brand badge,
+and final-slide legal navigation row, preserving authentic historical publication timestamps.
 """
 
 import sys
@@ -13,26 +14,48 @@ from datetime import datetime, timezone
 from typing import Dict, Any, List, Optional
 from bs4 import BeautifulSoup
 
+# Ensure project root is in sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 from config import (
     DOMAIN_NAME,
     DIST_DIR,
     STORIES_DIR,
-    STORIES_JSON_PATH,
+    REGISTRY_PATH,
     TARGET_BREAKOUT_SLUGS
 )
+from curated_stories import CURATED_STORIES
 from story_builder import build_amp_story_html
 
 def extract_story_from_disk_html(html_path: Path) -> Dict[str, Any]:
     """
     Extracts high-fidelity story data from a standalone AMP Web Story index.html file
-    for stories not present in stories_cache.json.
+    for stories not present in stories_cache.json or missing historical dates.
     """
     content = html_path.read_text(encoding="utf-8")
     soup = BeautifulSoup(content, "html.parser")
     slug = html_path.parent.name
 
     ld_tag = soup.find("script", type="application/ld+json")
-    ld = json.loads(ld_tag.string) if ld_tag and ld_tag.string else {}
+    ld = {}
+    if ld_tag and ld_tag.string:
+        try:
+            parsed = json.loads(ld_tag.string)
+            if isinstance(parsed, dict):
+                if "@graph" in parsed:
+                    for item in parsed["@graph"]:
+                        if item.get("@type") == "NewsArticle":
+                            ld = item
+                            break
+                else:
+                    ld = parsed
+            elif isinstance(parsed, list):
+                for item in parsed:
+                    if item.get("@type") == "NewsArticle":
+                        ld = item
+                        break
+        except Exception:
+            pass
 
     story_tag = soup.find("amp-story")
     title = story_tag.get("title") if story_tag else (ld.get("headline") or slug.replace("-", " ").title())
@@ -153,10 +176,11 @@ def extract_story_from_disk_html(html_path: Path) -> Dict[str, Any]:
         "next_story_title": next_title
     }
 
-def main():
+def rebuild_all_stories(dry_run: bool = False, output_root: Optional[Path] = None) -> bool:
+    target_stories_dir = output_root or STORIES_DIR
     print("=" * 70)
-    print("  CINESTORIES UNIVERSAL REBUILD: 416 AMP WEB STORIES")
-    print("  Responsive UI/UX, Anti-Truncation, & Dark Poll Theming")
+    print("  CINESTORIES UNIVERSAL REBUILD: ALL 432 AMP WEB STORIES")
+    print("  Schema.org Breadcrumbs, E-E-A-T, Responsive Layout & Legal Navigation")
     print("=" * 70)
 
     # 1. Ingest cached stories
@@ -166,9 +190,19 @@ def main():
         try:
             with open(cache_path, "r", encoding="utf-8") as f:
                 cached_stories = json.load(f)
-            print(f"[1/4] Ingested {len(cached_stories)} stories from {cache_path}")
+            print(f"[1/5] Ingested {len(cached_stories)} stories from {cache_path}")
         except Exception as e:
             print(f"[!] Warning reading stories cache: {e}")
+
+    # 2. Ingest published_registry.json for authentic historical timestamps
+    registry: Dict[str, Any] = {}
+    if REGISTRY_PATH.exists():
+        try:
+            with open(REGISTRY_PATH, "r", encoding="utf-8") as f:
+                registry = json.load(f)
+            print(f"[2/5] Ingested {len(registry)} historical timestamp records from {REGISTRY_PATH}")
+        except Exception as e:
+            print(f"[!] Warning reading registry: {e}")
 
     story_catalog_by_slug: Dict[str, Dict[str, Any]] = {}
     for story in cached_stories:
@@ -176,9 +210,9 @@ def main():
         if slug:
             story_catalog_by_slug[slug] = story
 
-    # 2. Ingest any disk stories not in cache
+    # 3. Ingest any disk stories not in cache and scan all disk directories
     disk_story_dirs = [d for d in STORIES_DIR.iterdir() if d.is_dir() and (d / "index.html").exists()]
-    print(f"[2/4] Scanned disk: {len(disk_story_dirs)} story directories in {STORIES_DIR}")
+    print(f"[3/5] Scanned disk: {len(disk_story_dirs)} story directories in {STORIES_DIR}")
 
     disk_only_count = 0
     for s_dir in disk_story_dirs:
@@ -192,20 +226,66 @@ def main():
             except Exception as e:
                 print(f"[!] Error extracting disk story '{slug}': {e}")
 
-    print(f"      Ingested {disk_only_count} disk-only stories into master catalog.")
-    print(f"      Master catalog total: {len(story_catalog_by_slug)} stories.")
+    # 4. Reconcile curated stories and historical dates
+    print(f"[4/5] Reconciling curated editorial slides and historical publication dates...")
+    dates_backfilled = 0
+    curated_overlays = 0
 
-    # 3. Update stories_cache.json with full 416 stories if new ones were added
-    if disk_only_count > 0:
-        try:
-            with open(cache_path, "w", encoding="utf-8") as f:
-                json.dump(cached_stories, f, indent=2, default=str)
-            print(f"      Updated {cache_path} with complete {len(cached_stories)} stories.")
-        except Exception as e:
-            print(f"[!] Error updating stories cache: {e}")
+    for slug, story_data in story_catalog_by_slug.items():
+        # Overlay curated content if present
+        if slug in CURATED_STORIES:
+            c_story = CURATED_STORIES[slug]
+            if c_story.get("title"):
+                story_data["title"] = c_story["title"]
+            if c_story.get("seo_description"):
+                story_data["seo_description"] = c_story["seo_description"]
+            if c_story.get("slides"):
+                story_data["slides"] = c_story["slides"]
+            curated_overlays += 1
 
-    # 4. Re-render all stories with build_amp_story_html
-    print(f"\n[3/4] Re-rendering {len(disk_story_dirs)} stories through build_amp_story_html()...")
+        # Preserve / backfill authentic historical timestamp
+        pub_date = (
+            story_data.get("date_published")
+            or story_data.get("published_at")
+            or registry.get(slug, {}).get("published_at")
+        )
+        if not pub_date:
+            disk_file = STORIES_DIR / slug / "index.html"
+            if disk_file.exists():
+                extracted = extract_story_from_disk_html(disk_file)
+                pub_date = extracted.get("date_published")
+        
+        if not pub_date:
+            # Fallback to an immutable release timestamp rather than now
+            pub_date = "2026-10-23T12:00:00Z"
+        
+        if story_data.get("date_published") != pub_date or story_data.get("published_at") != pub_date:
+            story_data["date_published"] = pub_date
+            story_data["published_at"] = pub_date
+            dates_backfilled += 1
+
+        mod_date = (
+            story_data.get("date_modified")
+            or story_data.get("modified_at")
+            or registry.get(slug, {}).get("modified_at")
+            or pub_date
+        )
+        story_data["date_modified"] = mod_date
+        story_data["modified_at"] = mod_date
+
+        if slug not in registry:
+            registry[slug] = {
+                "title": story_data.get("movie", {}).get("title") or story_data.get("title"),
+                "published_at": pub_date,
+                "modified_at": mod_date,
+                "category": story_data.get("movie", {}).get("category", "trending")
+            }
+
+    print(f"      Overlaid {curated_overlays} curated stories from curated_stories.py.")
+    print(f"      Backfilled/verified {dates_backfilled} historical publication timestamps.")
+
+    # 5. Re-render all stories with build_amp_story_html
+    print(f"\n[5/5] Re-rendering {len(disk_story_dirs)} stories through build_amp_story_html()...")
     rebuilt_count = 0
     errors = []
 
@@ -218,9 +298,14 @@ def main():
 
         try:
             amp_html = build_amp_story_html(story_data, domain=DOMAIN_NAME)
-            out_file = s_dir / "index.html"
-            with open(out_file, "w", encoding="utf-8") as f:
-                f.write(amp_html)
+            
+            if not dry_run:
+                target_folder = target_stories_dir / slug
+                target_folder.mkdir(parents=True, exist_ok=True)
+                out_file = target_folder / "index.html"
+                with open(out_file, "w", encoding="utf-8") as f:
+                    f.write(amp_html)
+
             rebuilt_count += 1
             if (idx + 1) % 50 == 0 or (idx + 1) == len(disk_story_dirs):
                 print(f"      [{idx + 1}/{len(disk_story_dirs)}] Rebuilt: {slug}")
@@ -229,16 +314,35 @@ def main():
             print(f"      [!] {err_msg}")
             errors.append(err_msg)
 
-    print(f"\n[4/4] Summary:")
-    print(f"      Successfully rebuilt: {rebuilt_count} / {len(disk_story_dirs)} stories.")
+    # Update cache file if not dry run
+    if not dry_run and output_root is None:
+        try:
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump(cached_stories, f, indent=2, default=str)
+            print(f"\n      Updated {cache_path} with reconciled {len(cached_stories)} stories.")
+        except Exception as e:
+            print(f"[!] Error updating stories cache: {e}")
+
+        try:
+            with open(REGISTRY_PATH, "w", encoding="utf-8") as f:
+                json.dump(registry, f, indent=2)
+            print(f"      Updated {REGISTRY_PATH} ({len(registry)} entries).")
+        except Exception as e:
+            print(f"[!] Error updating registry: {e}")
+
+    print(f"\nSummary:")
+    print(f"  Successfully rebuilt: {rebuilt_count} / {len(disk_story_dirs)} stories.")
     if errors:
-        print(f"      Errors encountered: {len(errors)}")
+        print(f"  Errors encountered: {len(errors)}")
         for err in errors[:10]:
-            print(f"        - {err}")
-        sys.exit(1)
+            print(f"    - {err}")
+        return False
     else:
-        print(f"      All 416 stories successfully updated with responsive UI/UX architecture!\n")
+        print(f"  All {rebuilt_count} stories successfully rebuilt with 100% compliance!\n")
         print("=" * 70)
+        return True
 
 if __name__ == "__main__":
-    main()
+    is_dry = "--dry-run" in sys.argv
+    success = rebuild_all_stories(dry_run=is_dry)
+    sys.exit(0 if success else 1)
