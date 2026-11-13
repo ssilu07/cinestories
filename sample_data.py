@@ -25,10 +25,10 @@ SAMPLE_MEDIA = [
         "category": "series",
         "director": "Deepak Kumar Mishra",
         "top_cast": ["Jitendra Kumar", "Neena Gupta", "Raghubir Yadav", "Faisal Malik", "Chandan Roy"],
-        "poster_path": "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
-        "backdrop_path": "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+        "poster_path": "/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
+        "backdrop_path": "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
         "backdrops": [
-            "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
             "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
         ]
     },
@@ -52,11 +52,11 @@ SAMPLE_MEDIA = [
         "category": "series",
         "director": "Gurmmeet Singh",
         "top_cast": ["Pankaj Tripathi", "Ali Fazal", "Shweta Tripathi", "Rasika Dugal", "Vijay Varma"],
-        "poster_path": "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg",
-        "backdrop_path": "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
+        "poster_path": "/p0qM8hhlMF5DuxHBzl2EZR6TehX.jpg",
+        "backdrop_path": "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
         "backdrops": [
-            "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg",
-            "/iZ8EtGAqKWZdRJPzWfFseNfVxjh.jpg"
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+            "/3dV7pWAdwIPKR2lMIACMfObXdgK.jpg"
         ]
     },
     # 3. Stree 2
@@ -80,9 +80,10 @@ SAMPLE_MEDIA = [
         "director": "Amar Kaushik",
         "top_cast": ["Shraddha Kapoor", "Rajkummar Rao", "Pankaj Tripathi", "Abhishek Banerjee", "Aparshakti Khurana"],
         "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "backdrop_path": "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+            "/lPbFwNohpsCNeLXpzV8ZS3mnI0X.jpg"
         ]
     },
     # 4. Kalki 2898 AD
@@ -105,15 +106,16 @@ SAMPLE_MEDIA = [
         "category": "theories_easter_eggs",
         "director": "Nag Ashwin",
         "top_cast": ["Prabhas", "Amitabh Bachchan", "Kamal Haasan", "Deepika Padukone", "Disha Patani"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg",
+        "backdrop_path": "/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg",
+            "/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg"
         ]
     },
     # 5. Sector 36
     {
-        "id": 1344437,
+        "id": 1245700,
         "title": "Sector 36",
         "original_title": "Sector 36",
         "slug": "sector-36",
@@ -131,15 +133,16 @@ SAMPLE_MEDIA = [
         "category": "netflix_hits",
         "director": "Aditya Nimbalkar",
         "top_cast": ["Vikrant Massey", "Deepak Dobriyal", "Akash Khurana", "Darshan Jariwala"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/5gR5ZKNRtFp07Jb7PiOLhz2TRJO.jpg",
+        "backdrop_path": "/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
+            "/pbVcZmmcfqk35Q9hNxRoR7JPiVp.jpg"
         ]
     },
     # 6. Do Patti
     {
-        "id": 1341113,
+        "id": 1148172,
         "title": "Do Patti",
         "original_title": "Do Patti",
         "slug": "do-patti",
@@ -157,10 +160,11 @@ SAMPLE_MEDIA = [
         "category": "netflix_hits",
         "director": "Shashanka Chaturvedi",
         "top_cast": ["Kajol", "Kriti Sanon", "Shaheer Sheikh", "Tanvi Azmi"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/wbXSE68cDwqUPsHJcpdu7I5kSLK.jpg",
+        "backdrop_path": "/5z1ciMqskvl4opeq1NjAGlweOn5.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/5z1ciMqskvl4opeq1NjAGlweOn5.jpg",
+            "/3p02a4IqL1lYx07yZQrSvRDcpb3.jpg"
         ]
     },
     # 7. Devara: Part 1
@@ -183,10 +187,11 @@ SAMPLE_MEDIA = [
         "category": "trending",
         "director": "Koratala Siva",
         "top_cast": ["Jr NTR", "Saif Ali Khan", "Janhvi Kapoor", "Prakash Raj", "Srikanth"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
+        "backdrop_path": "/hkJhGayONXn96CqIRM9GhWKnlCf.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/hkJhGayONXn96CqIRM9GhWKnlCf.jpg",
+            "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
         ]
     },
     # 8. Pushpa 2: The Rule
@@ -209,10 +214,11 @@ SAMPLE_MEDIA = [
         "category": "upcoming",
         "director": "Sukumar",
         "top_cast": ["Allu Arjun", "Rashmika Mandanna", "Fahadh Faasil", "Jagapathi Babu", "Prakash Raj"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/aS3xM79dmg6bxw9uNqTxRdoze5H.jpg",
+        "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+            "/aS3xM79dmg6bxw9uNqTxRdoze5H.jpg"
         ]
     },
     # 9. Squid Game Season 2
@@ -262,10 +268,11 @@ SAMPLE_MEDIA = [
         "category": "theories_easter_eggs",
         "director": "Rohit Shetty",
         "top_cast": ["Ajay Devgn", "Kareena Kapoor Khan", "Akshay Kumar", "Ranveer Singh", "Salman Khan"],
-        "poster_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
-        "backdrop_path": "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg",
+        "poster_path": "/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg",
+        "backdrop_path": "/nq73eRdEooripf3k0XHLtX14zyC.jpg",
         "backdrops": [
-            "/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg"
+            "/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+            "/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg"
         ]
     },
     # 1. Money Heist (La Casa de Papel)
