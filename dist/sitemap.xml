@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cinematicbites.com/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/discover/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
   </url>
@@ -110,6 +110,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/nq73eRdEooripf3k0XHLtX14zyC.jpg</image:loc>
       <image:title>Chulbul Pandey Enters the Cop Universe: Singham Again Post-Credits &amp; Ramayana Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/the-night-agent/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/gklrevVndG98GHGDwfm8y8kxESo.jpg</image:loc>
+      <image:title>The Night Agent Ending Explained: The White House Mole &amp; Twist Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/12-12-12/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tjy25xpiFeo2gahl7N0hoxbRtG7.jpg</image:loc>
+      <image:title>Who Really Pulled The Trigger in 12 12 12? 3 Clues You Missed 🕵️‍♂️ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/being-heumann/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/25aB8RXP4mfQLFRSuEEhk0d0sTC.jpg</image:loc>
+      <image:title>Why Being Heumann Left Audiences Stunned: Clues Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/daredevil-born-again/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg</image:loc>
+      <image:title>Daredevil: Born Again Ending Explained: The Climax Twist Decoded 🔍 Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -220,16 +260,6 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/3ANXZWhhcqPAh0q6nRZ979TIwxC.jpg</image:loc>
       <image:title>Off Campus Season Finale Decoded: What That Final Scene Means ⚡ Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/articles/daredevil-born-again/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg</image:loc>
-      <image:title>Daredevil: Born Again Ending Explained: The Climax Twist Decoded 🔍 Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -4573,6 +4603,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://cinematicbites.com/stories/the-night-agent/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/4c5yUNcaff4W4aPrkXE6zr7papX.jpg</image:loc>
+      <image:title>The Night Agent Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/12-12-12/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/bG4h6C6wRKmf3ryz8gdN6imXW4c.jpg</image:loc>
+      <image:title>12 12 12 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/being-heumann/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/ouGH1PS0xjDyfTQOhppn7QzJqQZ.jpg</image:loc>
+      <image:title>Being Heumann Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/daredevil-born-again/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg</image:loc>
+      <image:title>Daredevil: Born Again Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/stories/avatar-the-last-airbender/</loc>
     <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -4680,16 +4750,6 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/tcPc5ZMBO4y2BtCJMe3o2nwZb2B.jpg</image:loc>
       <image:title>Off Campus Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/stories/daredevil-born-again/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg</image:loc>
-      <image:title>Daredevil: Born Again Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
@@ -8934,31 +8994,31 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/about/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/editorial/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/privacy/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/terms/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/contact/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

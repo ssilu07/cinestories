@@ -2,8 +2,8 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-13T19:23:25.467203+00:00",
-  "total_stories": 446,
+  "generated_at": "2026-11-14T07:32:37.940834+00:00",
+  "total_stories": 449,
   "stories": [
     {
       "id": 101352,
@@ -94,6 +94,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 129552,
+      "slug": "the-night-agent",
+      "title": "The Night Agent Ending Explained: Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-night-agent/",
+      "category": "netflix_hits",
+      "release_date": "2023-03-23",
+      "rating": 7.7
+    },
+    {
+      "id": 254630,
+      "slug": "12-12-12",
+      "title": "Who Really Pulled The Trigger in 12 12 12? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/12-12-12/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-12",
+      "rating": 5.5
+    },
+    {
+      "id": 1050981,
+      "slug": "being-heumann",
+      "title": "Why Being Heumann Left Audiences Stunned: Clues Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/being-heumann/",
+      "category": "trending",
+      "release_date": "2026-11-06",
+      "rating": 8.4
+    },
+    {
+      "id": 202555,
+      "slug": "daredevil-born-again",
+      "title": "Daredevil: Born Again Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/daredevil-born-again/",
+      "category": "ott_blockbusters",
+      "release_date": "2025-03-04",
+      "rating": 8.2
     },
     {
       "id": 82452,
@@ -193,15 +229,6 @@
       "category": "ott_blockbusters",
       "release_date": "2026-05-13",
       "rating": 8.8
-    },
-    {
-      "id": 202555,
-      "slug": "daredevil-born-again",
-      "title": "Daredevil: Born Again Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
-      "url": "https://cinematicbites.com/stories/daredevil-born-again/",
-      "category": "ott_blockbusters",
-      "release_date": "2025-03-04",
-      "rating": 8.2
     },
     {
       "id": 279155,
