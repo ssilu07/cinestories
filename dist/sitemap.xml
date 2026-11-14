@@ -13,6 +13,46 @@
     <priority>0.95</priority>
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/sector-36-vol-2/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg</image:loc>
+      <image:title>The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix! Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-2/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg</image:loc>
+      <image:title>Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/toxic-a-fairy-tale-for-grown-ups/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg</image:loc>
+      <image:title>Yash's Double Role &amp; 1950s Cartel Empire: Toxic Ending Decoded 💀 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/ramayana-part-1/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg</image:loc>
+      <image:title>Yash's Ravana &amp; The Colossal VFX Climax: 3 Secrets Decoded in Ramayana 🏹 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/panchayat-season-3/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>hourly</changefreq>
@@ -4500,6 +4540,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/original/13kblIK8DnxMurcRDkeyy2sGR7v.jpg</image:loc>
       <image:title>Vikings: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/sector-36-vol-2/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/5gR5ZKNRtFp07Jb7PiOLhz2TRJO.jpg</image:loc>
+      <image:title>Sector 36 (Part 2) Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/streaming-weekly-top-10-us-uk-vol-2/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg</image:loc>
+      <image:title>Top 10 Streaming Hits (US &amp; UK) (Part 2) Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/toxic-a-fairy-tale-for-grown-ups/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg</image:loc>
+      <image:title>Toxic: A Fairy Tale for Grown-ups Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/ramayana-part-1/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg</image:loc>
+      <image:title>Ramayana: Part 1 Web Story Poster</image:title>
     </image:image>
   </url>
   <url>

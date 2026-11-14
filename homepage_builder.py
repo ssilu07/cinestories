@@ -78,22 +78,9 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         if s_slug and s_slug not in story_map:
             story_map[s_slug] = s
 
-    # 1. Pinned breakout stories in canonical order matching VIRAL_SPOTLIGHT_SLUGS
-    pinned_stories: List[Dict[str, Any]] = [
-        story_map[slug] for slug in VIRAL_SPOTLIGHT_SLUGS if slug in story_map
-    ]
-
-    # 2. Backfill with remaining stories if fewer than 10 breakout stories are present
-    pinned_slug_set = {
-        (s.get("movie", {}).get("slug") or s.get("slug"))
-        for s in pinned_stories
-    }
-    remaining_stories = [
-        s for s in stories
-        if (s.get("movie", {}).get("slug") or s.get("slug")) not in pinned_slug_set
-    ]
-    featured_stories = (pinned_stories + remaining_stories)[:10]
-    ordered_stories = pinned_stories + remaining_stories
+    # 1. Dynamic Fresh Hero Carousel: Newest published stories take the top 10 positions
+    featured_stories = stories[:10]
+    ordered_stories = stories
 
     # Prepare cards data
     cards_data = []
@@ -107,7 +94,29 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         title = s.get("title") or m.get("hook_title") or m.get("title", "")
         teaser = m.get("catchy_teaser") or s.get("seo_description", "")
         card_story_url = f"/hi/stories/{slug}/" if lang == "hi" else f"/stories/{slug}/"
-        
+
+        # Extract or synthesize visual Hook Shot curiosity badge
+        hook_badge = ""
+        slides = s.get("slides", [])
+        if slides and isinstance(slides, list) and len(slides) > 0:
+            first_slide = slides[0]
+            if isinstance(first_slide, dict) and first_slide.get("badge"):
+                hook_badge = first_slide["badge"]
+        if not hook_badge:
+            hook_badge = m.get("hook_badge") or s.get("hook_badge") or ""
+        if not hook_badge:
+            title_lower = (s.get("title") or m.get("title") or "").lower()
+            if any(k in title_lower for k in ["ending", "climax", "twist", "क्लाइमेक्स", "अंत"]):
+                hook_badge = "⚡ क्लाइमेक्स रहस्य" if lang == "hi" else "⚡ CLIMAX REVEALED"
+            elif any(k in title_lower for k in ["clue", "hidden", "secret", "सुराग", "रहस्य"]):
+                hook_badge = "🔍 सीक्रेट सुराग" if lang == "hi" else "🔍 HIDDEN CLUE"
+            elif any(k in title_lower for k in ["sequel", "part 2", "season", "सीक्वल"]):
+                hook_badge = "🔥 सीक्वल अपडेट" if lang == "hi" else "🔥 SEQUEL ROADMAP"
+            elif any(k in title_lower for k in ["betrayal", "who killed", "धोखा", "गोली"]):
+                hook_badge = "💥 सबसे बड़ा धोखा" if lang == "hi" else "💥 SHOCKING TWIST"
+            else:
+                hook_badge = "⚡ वायरल हुक शॉट" if lang == "hi" else "⚡ VIRAL HOOK SHOT"
+
         cards_data.append({
             "title": title,
             "movie_title": m.get("title", ""),
@@ -124,7 +133,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
             "seasons": m.get("seasons"),
             "director": m.get("director", ""),
             "genres": m.get("genres", []),
-            "slides_count": len(s.get("slides", []))
+            "slides_count": len(s.get("slides", [])),
+            "hook_badge": hook_badge
         })
 
     # Breakout Viral Hero Carousel generation (pinned 10 breakout viral stories)
@@ -246,6 +256,12 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
                   </button>
                 </div>
+              </div>
+
+              <!-- Visual Hook Shot Badge (High-CTR Curiosity Badge) -->
+              <div class="card-hook-shot">
+                <span class="hook-pulse"></span>
+                <span class="hook-text">{html.escape(c['hook_badge'])}</span>
               </div>
 
               <div class="card-bottom-info">
@@ -903,6 +919,50 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       justify-content: space-between;
       align-items: center;
       z-index: 2;
+    }}
+
+    /* Visual Hook Shot Badge (High-CTR Curiosity Badge) */
+    .card-hook-shot {{
+      position: absolute;
+      top: 48px;
+      left: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      background: linear-gradient(135deg, rgba(225, 29, 72, 0.95), rgba(245, 158, 11, 0.95));
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.4px;
+      border-radius: 999px;
+      box-shadow: 0 4px 14px rgba(225, 29, 72, 0.45);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      z-index: 2;
+      backdrop-filter: blur(8px);
+      text-transform: uppercase;
+      pointer-events: none;
+    }}
+
+    .hook-pulse {{
+      width: 6px;
+      height: 6px;
+      background: #ffffff;
+      border-radius: 50%;
+      display: inline-block;
+      animation: hookPulseAnim 1.6s infinite ease-in-out;
+    }}
+
+    @keyframes hookPulseAnim {{
+      0%, 100% {{
+        transform: scale(0.9);
+        opacity: 0.8;
+      }}
+      50% {{
+        transform: scale(1.4);
+        opacity: 1;
+        box-shadow: 0 0 6px #ffffff;
+      }}
     }}
 
     .category-badge {{
@@ -1661,10 +1721,10 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       </a>
 
       <div class="nav-actions">
-        <nav class="lang-switcher" data-component="lang-switcher" aria-label="Select language">
+        <div class="lang-switch-pill lang-switcher" data-component="lang-switcher" aria-label="Select language">
           <a href="{en_target}" class="lang-opt {'active' if lang == 'en' else ''}" data-lang="en" aria-label="Switch to English" onclick="setLanguagePreference('en')">🇺🇸 EN</a>
           <a href="{hi_target}" class="lang-opt {'active' if lang == 'hi' else ''}" data-lang="hi" aria-label="Switch to Hindi" onclick="setLanguagePreference('hi')">🇮🇳 हिं</a>
-        </nav>
+        </div>
         <div class="nav-links-legal">
           <a href="{nav_about}" class="nav-link-item">{nav_about_label}</a>
           <a href="{nav_editorial}" class="nav-link-item">{nav_editorial_label}</a>
@@ -2076,16 +2136,8 @@ def generate_homepage(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME, 
     with open(index_file, "w", encoding="utf-8") as f:
         f.write(html_str)
 
-    # Save stories.json manifest (prioritizing pinned breakout titles)
-    story_map_m: Dict[str, Dict[str, Any]] = {}
-    for s in stories:
-        m = s.get("movie", {}) if isinstance(s.get("movie"), dict) else {}
-        s_slug = m.get("slug") or s.get("slug")
-        if s_slug and s_slug not in story_map_m:
-            story_map_m[s_slug] = s
-    pinned_m = [story_map_m[slug] for slug in VIRAL_SPOTLIGHT_SLUGS if slug in story_map_m]
-    pinned_set_m = {(s.get("movie", {}).get("slug") or s.get("slug")) for s in pinned_m}
-    ordered_manifest = pinned_m + [s for s in stories if (s.get("movie", {}).get("slug") or s.get("slug")) not in pinned_set_m]
+    # Save stories.json manifest (reflecting fresh daily order)
+    ordered_manifest = stories
 
     manifest_data = {
         "site_name": SITE_NAME,

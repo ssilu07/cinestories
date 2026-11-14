@@ -8,6 +8,198 @@ from typing import Dict, Any
 
 CURATED_STORIES: Dict[str, Dict[str, Any]] = {
 
+    # 1. Ramayana: Part 1
+    "ramayana-part-1": {
+        "title": "Yash's Ravana & The Colossal VFX Climax: 3 Secrets Decoded in Ramayana 🏹",
+        "seo_description": "Ranbir Kapoor faces Yash's terrifying Ravana in Nitesh Tiwari's mythological magnum opus. Decoding the 3 big clues.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "⚡ MYTHOLOGICAL EPIC",
+                "title": "Nitesh Tiwari's Vision",
+                "text": "From Rama's fourteen-year exile to the dramatic abduction of Sita, Part 1 reimagines India's greatest epic with cutting-edge Hollywood VFX.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "❓ THE MONSTROUS VILLAIN",
+                "title": "Yash as Demon King Ravana",
+                "text": "KGF icon Yash delivers an imposing, formidable portrayal of Ravana, commanding presence with divine boons and dark arrogance.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🔍 CLUE #1: GOLDEN DEER",
+                "title": "The Illusory Maricha",
+                "text": "Oscar-winning DNEG crafted unprecedented visual illusions for the golden deer sequence, elevating the tragic turning point of the epic.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "💡 THE DECODED ROADMAP",
+                "title": "Setting Up The Great War",
+                "text": "Part 1 concludes with the emotional alliance with Sugriva and bridge construction, setting the stage for Part 2's colossal Lanka war.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Box Office Milestone?",
+                "text": "Will Ranbir Kapoor and Yash deliver the highest-grossing Indian film of all time worldwide?",
+                "backdrop_index": 0,
+                "poll": {
+                    "question": "Will Ramayana break all records?",
+                    "option1": "Yes, 100% 🔥",
+                    "option2": "Doubtful 👎"
+                }
+            }
+        ]
+    },
+
+    # 2. War 2
+    "war-2": {
+        "title": "Major Kabir vs Jr NTR: The Shocking Spy Betrayal Decoded in War 2 💥",
+        "seo_description": "Major Kabir goes rogue as Jr NTR enters the YRF Spy Universe. Unravel the 3 hidden betrayal clues from the climax.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "⚡ TITANIC CLASH",
+                "title": "Kabir Goes Rogue Again?",
+                "text": "Hrithik Roshan's Major Kabir cuts off all communications with RAW. Is he truly an enemy of the state or hunting a shadow syndicate?",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "❓ THE DEADLIEST HUNTER",
+                "title": "Jr NTR Enters Spy Universe",
+                "text": "RAW dispatches their most ruthless black-ops operative, Jr NTR, tasked with executing Kabir on sight across global coordinates.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🔍 CLUE #1: TIGER 3 LETTER",
+                "title": "The Encrypted Warning",
+                "text": "The encrypted dispatch Kabir received at the end of Tiger 3 contained exact coordinates for the syndicate's biological threat.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "💡 CLIMAX DECODED",
+                "title": "The Double-Agent Trap",
+                "text": "The explosive duel between Kabir and Jr NTR was an elaborate staged confrontation designed to draw the master syndicate out of hiding.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Who Takes The Crown?",
+                "text": "Hrithik Roshan vs Jr NTR: Which superstar delivers the more electrifying performance in War 2?",
+                "backdrop_index": 0,
+                "poll": {
+                    "question": "Who wins War 2 duel?",
+                    "option1": "Hrithik Roshan 🔥",
+                    "option2": "Jr NTR ⚡"
+                }
+            }
+        ]
+    },
+
+    # 3. Sikandar
+    "sikandar": {
+        "title": "Sikandar Ending Decoded: Salman Khan's Lethal Vigilante Climax ⚡",
+        "seo_description": "A royal protector turns into an unstoppable avenger. AR Murugadoss and Salman Khan decode the explosive ending.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "⚡ SHADOW VIGILANTE",
+                "title": "The Royal Protector",
+                "text": "Born into aristocracy, Sikandar abandons privilege to protect underprivileged citizens relentlessly targeted by political cartels.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "❓ THE FATAL CONSPIRACY",
+                "title": "The Midnight Ambush",
+                "text": "A staged rail disaster killed innocent townspeople, disguising an industrial land grab orchestrated by high-ranking officials.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🔍 CLUE #1: SATHYARAJ'S DEAL",
+                "title": "The Corrupt Empire",
+                "text": "Sathyaraj's ruthless power broker operated behind legitimate infrastructure projects, funneling illicit wealth into election war chests.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "💡 CLIMAX EXPLAINED",
+                "title": "Justice in The Open",
+                "text": "In a climactic courtroom showdown, Sikandar exposes the encrypted ledger, ensuring the corrupt syndicate faces total public ruin.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Eid Blockbuster Verdict",
+                "text": "Will Salman Khan and AR Murugadoss deliver an all-time box office triumph with Sikandar?",
+                "backdrop_index": 0,
+                "poll": {
+                    "question": "Will Sikandar be a mega-hit?",
+                    "option1": "All-Time Blockbuster 👑",
+                    "option2": "Average Performance 👎"
+                }
+            }
+        ]
+    },
+
+    # 4. Jailer 2
+    "jailer-2": {
+        "title": "Tiger Muthuvel Pandian Returns: Jailer 2 Syndicate Climax Decoded 🔥",
+        "seo_description": "Rajinikanth unleashes fury against an international cartel. Unravel the 3 big clues behind the dark family past.",
+        "slides": [
+            {
+                "id": "page-1",
+                "badge": "⚡ SUPERSTAR FURY",
+                "title": "Retirement Shattered",
+                "text": "Tiger Muthuvel Pandian seeks quiet serenity, but an international smuggling cartel retaliates for Varman's downfall, forcing his hand.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-2",
+                "badge": "❓ THE HIDDEN BOSS",
+                "title": "Varman Was Just a Pawn",
+                "text": "Investigation reveals Varman was merely a local foot soldier for a sophisticated syndicate spanning Dubai and Southeast Asia.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-3",
+                "badge": "🔍 CLUE #1: OLD PRISON LOG",
+                "title": "Tihar's Darkest Secret",
+                "text": "Classified prison files from Pandian's tenure as warden hold the key to uncovering the true identity of the syndicate's mastermind.",
+                "backdrop_index": 0
+            },
+            {
+                "id": "page-4",
+                "badge": "💡 CLIMAX REVEALED",
+                "title": "The Brotherhood Reunited",
+                "text": "Mohanlal and Shiva Rajkumar return with heavy artillery, orchestrating an unforgettable coordinated takedown of the entire cartel.",
+                "backdrop_index": 1
+            },
+            {
+                "id": "page-5",
+                "badge": "🗳️ FAN VERDICT POLL",
+                "title": "Bigger Than Part 1?",
+                "text": "Will Jailer 2 surpass the massive global box office phenomenon of the 2023 original?",
+                "backdrop_index": 0,
+                "poll": {
+                    "question": "Is Jailer 2 bigger than Part 1?",
+                    "option1": "Much Bigger! 🔥",
+                    "option2": "Same Level 👍"
+                }
+            }
+        ]
+    },
+
     # 1. Panchayat Season 3
     "panchayat-season-3": {
         "title": "Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending Decoded",

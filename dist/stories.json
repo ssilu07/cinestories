@@ -2,9 +2,45 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-14T07:32:37.940834+00:00",
-  "total_stories": 449,
+  "generated_at": "2026-11-14T19:28:47.059197+00:00",
+  "total_stories": 453,
   "stories": [
+    {
+      "id": 1245700,
+      "slug": "sector-36-vol-2",
+      "title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
+      "url": "https://cinematicbites.com/stories/sector-36-vol-2/",
+      "category": "netflix_hits",
+      "release_date": "2024-09-13",
+      "rating": 7.1
+    },
+    {
+      "id": 999101,
+      "slug": "streaming-weekly-top-10-us-uk-vol-2",
+      "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+      "url": "https://cinematicbites.com/stories/streaming-weekly-top-10-us-uk-vol-2/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-01",
+      "rating": 8.8
+    },
+    {
+      "id": 1215440,
+      "slug": "toxic-a-fairy-tale-for-grown-ups",
+      "title": "Yash's Double Role & 1950s Cartel Empire: Toxic Ending Decoded \ud83d\udc80",
+      "url": "https://cinematicbites.com/stories/toxic-a-fairy-tale-for-grown-ups/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 9.2
+    },
+    {
+      "id": 656908,
+      "slug": "ramayana-part-1",
+      "title": "Yash's Ravana & The Colossal VFX Climax: 3 Secrets Decoded in Ramayana \ud83c\udff9",
+      "url": "https://cinematicbites.com/stories/ramayana-part-1/",
+      "category": "upcoming",
+      "release_date": "2026-10-20",
+      "rating": 9.4
+    },
     {
       "id": 101352,
       "slug": "panchayat-season-3",

@@ -141,54 +141,42 @@ def article_fallback_builder(slug: str) -> Optional[Dict[str, Any]]:
 def anchor_catalog_items(
     new_items: List[Dict[str, Any]],
     old_items: List[Dict[str, Any]],
-    target_slugs: List[str] = TARGET_BREAKOUT_SLUGS,
+    target_slugs: Optional[List[str]] = None,
     fallback_builder = None
 ) -> List[Dict[str, Any]]:
     """
-    Merges new and old catalog items while guaranteeing that target_slugs
-    remain permanently anchored at indices 0..9 in canonical order.
-    New items appear starting at index 10, followed by historical items.
+    Combines catalog items prioritizing fresh updates:
+    1. Fresh items published in the current run appear FIRST at indices 0..N.
+    2. Historical catalog items follow chronologically without duplicates.
+    3. If target_slugs are provided, ensure any missing ones are appended via fallback_builder.
     """
-    items_by_slug: Dict[str, Dict[str, Any]] = {}
-    for item in old_items:
-        slug = item.get("movie", {}).get("slug") or item.get("slug")
-        if slug and slug not in items_by_slug:
-            items_by_slug[slug] = item
+    seen_slugs: Set[str] = set()
+    result = []
 
+    # 1. New items published in this run ALWAYS get top billing (Head of catalog)
     for item in new_items:
         slug = item.get("movie", {}).get("slug") or item.get("slug")
-        if slug:
-            items_by_slug[slug] = item
+        if slug and slug not in seen_slugs:
+            result.append(item)
+            seen_slugs.add(slug)
 
-    # 1. Anchored head: Exactly the 10 breakout viral titles in canonical order
-    anchored_head = []
-    for slug in target_slugs:
-        if slug in items_by_slug:
-            anchored_head.append(items_by_slug[slug])
-        elif fallback_builder:
-            fb = fallback_builder(slug)
-            if fb:
-                anchored_head.append(fb)
-                items_by_slug[slug] = fb
-
-    # 2. Body: Freshly generated items not in target_slugs
-    anchored_slugs = set(target_slugs)
-    remaining_new = []
-    for item in new_items:
-        slug = item.get("movie", {}).get("slug") or item.get("slug")
-        if slug and slug not in anchored_slugs:
-            remaining_new.append(item)
-            anchored_slugs.add(slug)
-
-    # 3. Tail: Historical items not in target_slugs
-    remaining_old = []
+    # 2. Existing historical items follow
     for item in old_items:
         slug = item.get("movie", {}).get("slug") or item.get("slug")
-        if slug and slug not in anchored_slugs:
-            remaining_old.append(item)
-            anchored_slugs.add(slug)
+        if slug and slug not in seen_slugs:
+            result.append(item)
+            seen_slugs.add(slug)
 
-    return anchored_head + remaining_new + remaining_old
+    # 3. If target_slugs are provided and any are missing, backfill via fallback_builder
+    if target_slugs and fallback_builder:
+        for slug in target_slugs:
+            if slug not in seen_slugs:
+                fb = fallback_builder(slug)
+                if fb:
+                    result.append(fb)
+                    seen_slugs.add(slug)
+
+    return result
 
 def load_published_registry(registry_path: Path, dist_dir: Path) -> Dict[str, Any]:
     """
@@ -425,8 +413,8 @@ def run_pipeline(
     save_published_registry(registry, REGISTRY_PATH)
     print(f"\n      -> Successfully published {len(new_stories)} new high-quality pieces today.\n")
 
-    # 5. Accumulate with existing cache (Anchoring 10 breakout viral titles at indices 0..9)
-    print(f"[3/6] Merging new entries into site catalogs (anchoring 10 breakout viral titles at head)...")
+    # 5. Accumulate with existing cache (Prioritizing fresh daily stories at head)
+    print(f"[3/6] Merging fresh entries into site catalogs (fresh daily stories prioritized at head)...")
     cache_stories_path = DIST_DIR / "stories_cache.json"
     cache_articles_path = DIST_DIR / "articles_cache.json"
 
@@ -470,7 +458,7 @@ def run_pipeline(
     with open(ARTICLES_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(combined_articles, f, indent=2, default=str)
 
-    print(f"      -> Total catalog size: {len(combined_stories)} Web Stories | {len(combined_articles)} Articles (10 Breakout Titles anchored at indices 0..9).\n")
+    print(f"      -> Total catalog size: {len(combined_stories)} Web Stories | {len(combined_articles)} Articles (Fresh updates at head).\n")
 
     # 6. Build Discover Feed Portal, Homepage, Policy Pages & Sitemap
     print(f"[4/6] Rebuilding Discover feed portal, visual homepage, policy pages, and XML sitemap...")

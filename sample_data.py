@@ -5,6 +5,267 @@ Includes high-CTR hook titles and catchy teasers for maximum engagement.
 """
 
 SAMPLE_MEDIA = [
+    # --- 2025-2026 HIGH-BUZZ BREAKOUT SLATE ---
+    # 1. Ramayana: Part 1 (2025/2026 Epic)
+    {
+        "id": 656908,
+        "title": "Ramayana: Part 1",
+        "original_title": "Ramayana",
+        "slug": "ramayana-part-1",
+        "media_type": "movie",
+        "release_date": "2026-10-20",
+        "hook_title": "Yash's Ravana & The Colossal VFX Climax: 3 Secrets Decoded in Ramayana 🏹",
+        "catchy_teaser": "Ranbir Kapoor faces Yash's terrifying Ravana in Nitesh Tiwari's mythological magnum opus. Decoding the 3 big clues.",
+        "overview": "An ancient epic brought to life with groundbreaking visual effects, chronicling the exile of Lord Rama, the abduction of Sita, and the monumental battle against the demon king Ravana.",
+        "tagline": "The eternal battle between light and darkness.",
+        "genres": ["Action", "Fantasy", "Drama"],
+        "runtime": 165,
+        "vote_average": 9.4,
+        "vote_count": 3200,
+        "category": "upcoming",
+        "director": "Nitesh Tiwari",
+        "top_cast": ["Ranbir Kapoor", "Sai Pallavi", "Yash", "Sunny Deol", "Lara Dutta"],
+        "poster_path": "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+        "backdrop_path": "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+        "backdrops": [
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg"
+        ]
+    },
+    # 2. War 2 (2025 YRF Spy Universe)
+    {
+        "id": 1109086,
+        "title": "War 2",
+        "original_title": "War 2",
+        "slug": "war-2",
+        "media_type": "movie",
+        "release_date": "2025-08-14",
+        "hook_title": "Major Kabir vs Jr NTR: The Shocking Spy Betrayal Decoded in War 2 💥",
+        "catchy_teaser": "Major Kabir goes rogue as Jr NTR enters the YRF Spy Universe. Unravel the 3 hidden betrayal clues from the climax.",
+        "overview": "Major Kabir faces an unmatched adversary as lethal intelligence operative Jr NTR is dispatched on a covert mission to hunt him down in the explosive next chapter of the YRF Spy Universe.",
+        "tagline": "Two titans. One lethal mission.",
+        "genres": ["Action", "Thriller"],
+        "runtime": 150,
+        "vote_average": 9.1,
+        "vote_count": 2850,
+        "category": "upcoming",
+        "director": "Ayan Mukerji",
+        "top_cast": ["Hrithik Roshan", "N.T. Rama Rao Jr.", "Kiara Advani", "Anil Kapoor"],
+        "poster_path": "/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
+        "backdrop_path": "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+        "backdrops": [
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
+    # 3. Sikandar (2025 Action Blockbuster)
+    {
+        "id": 1257960,
+        "title": "Sikandar",
+        "original_title": "Sikandar",
+        "slug": "sikandar",
+        "media_type": "movie",
+        "release_date": "2025-03-30",
+        "hook_title": "Sikandar Ending Decoded: Salman Khan's Lethal Vigilante Climax ⚡",
+        "catchy_teaser": "A royal protector turns into an unstoppable avenger. AR Murugadoss and Salman Khan decode the explosive ending.",
+        "overview": "A tragic injustice triggers a fierce crusade as Sikandar takes on corrupt kingpins and ruthless cartels to restore dignity to the oppressed.",
+        "tagline": "When justice sleeps, a warrior awakens.",
+        "genres": ["Action", "Drama", "Crime"],
+        "runtime": 155,
+        "vote_average": 8.9,
+        "vote_count": 2100,
+        "category": "upcoming",
+        "director": "A.R. Murugadoss",
+        "top_cast": ["Salman Khan", "Rashmika Mandanna", "Kajal Aggarwal", "Sathyaraj"],
+        "poster_path": "/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
+        "backdrop_path": "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+        "backdrops": [
+            "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
+    # 4. Jailer 2 (2026 Nelson Action Thriller)
+    {
+        "id": 1242898,
+        "title": "Jailer 2",
+        "original_title": "Jailer 2",
+        "slug": "jailer-2",
+        "media_type": "movie",
+        "release_date": "2026-10-15",
+        "hook_title": "Tiger Muthuvel Pandian Returns: Jailer 2 Syndicate Climax Decoded 🔥",
+        "catchy_teaser": "Rajinikanth unleashes fury against an international cartel. Unravel the 3 big clues behind the dark family past.",
+        "overview": "Tiger Muthuvel Pandian is forced out of retirement once more as a merciless criminal network threatens his remaining family, pulling him into an all-out war.",
+        "tagline": "The storm never truly passes.",
+        "genres": ["Action", "Crime", "Thriller"],
+        "runtime": 160,
+        "vote_average": 9.0,
+        "vote_count": 2400,
+        "category": "trending",
+        "director": "Nelson Dilipkumar",
+        "top_cast": ["Rajinikanth", "Mohanlal", "Shiva Rajkumar", "Vidya Balan"],
+        "poster_path": "/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg",
+        "backdrop_path": "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+        "backdrops": [
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg"
+        ]
+    },
+    # 5. Toxic: A Fairy Tale for Grown-ups (2026 Yash Action Saga)
+    {
+        "id": 1215440,
+        "title": "Toxic: A Fairy Tale for Grown-ups",
+        "original_title": "Toxic",
+        "slug": "toxic-a-fairy-tale-for-grown-ups",
+        "media_type": "movie",
+        "release_date": "2026-08-26",
+        "hook_title": "Yash's Double Role & 1950s Cartel Empire: Toxic Ending Decoded 💀",
+        "catchy_teaser": "Rocking Star Yash enters the brutal international underworld. Geetu Mohandas' dark period action thriller decoded.",
+        "overview": "Set against the stylish underworld of the 1950s to 1970s, a ruthless crime lord navigates bloody alliances, betrayals, and deep family vendettas.",
+        "tagline": "A dark fairy tale for grown-ups.",
+        "genres": ["Action", "Crime", "Drama"],
+        "runtime": 158,
+        "vote_average": 9.2,
+        "vote_count": 2900,
+        "category": "trending",
+        "director": "Geetu Mohandas",
+        "top_cast": ["Yash", "Kiara Advani", "Nayanthara", "Huma Qureshi", "Tara Sutaria"],
+        "poster_path": "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+        "backdrop_path": "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+        "backdrops": [
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
+    # 6. Kalki 2898 AD: Part 2 (Epic Sci-Fi Climax)
+    {
+        "id": 801688,
+        "title": "Kalki 2898 AD: Part 2",
+        "original_title": "Kalki 2898 AD Part 2",
+        "slug": "kalki-2898-ad-part-2",
+        "media_type": "movie",
+        "release_date": "2026-11-05",
+        "hook_title": "Bhairava as Karna & Supreme Yaskin's True Power: Kalki 2 Decoded ⚡",
+        "catchy_teaser": "Bhairava awakens the Vijaya bow as Supreme Yaskin unlocks divine serum. 4 mind-bending mythological clues decoded.",
+        "overview": "The apocalyptic saga escalates as Bhairava embraces his divine identity as Karna, leading the Shambhala resistance against Supreme Yaskin's empire.",
+        "tagline": "The battle of the ages begins now.",
+        "genres": ["Science Fiction", "Action", "Fantasy"],
+        "runtime": 170,
+        "vote_average": 9.3,
+        "vote_count": 3500,
+        "category": "upcoming",
+        "director": "Nag Ashwin",
+        "top_cast": ["Prabhas", "Amitabh Bachchan", "Kamal Haasan", "Deepika Padukone", "Disha Patani"],
+        "poster_path": "/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
+        "backdrop_path": "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+        "backdrops": [
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg"
+        ]
+    },
+    # 7. Animal Park (Revenge Thriller)
+    {
+        "id": 1214314,
+        "title": "Animal Park",
+        "original_title": "Animal Park",
+        "slug": "animal-park",
+        "media_type": "movie",
+        "release_date": "2026-12-18",
+        "hook_title": "Aziz Haque vs Ranvijay Bloodbath: Animal Park Climax Decoded 🩸",
+        "catchy_teaser": "Aziz Haque alters his face to take Ranvijay's identity. Sandeep Reddy Vanga's most brutal chapter decoded.",
+        "overview": "Ranvijay faces his darkest shadow as Aziz Haque, a surgically altered doppelganger, seeks total annihilation of the Balbir Singh empire.",
+        "tagline": "The beast never rests.",
+        "genres": ["Action", "Drama", "Crime"],
+        "runtime": 180,
+        "vote_average": 9.0,
+        "vote_count": 2700,
+        "category": "upcoming",
+        "director": "Sandeep Reddy Vanga",
+        "top_cast": ["Ranbir Kapoor", "Bobby Deol", "Rashmika Mandanna", "Triptii Dimri", "Anil Kapoor"],
+        "poster_path": "/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
+        "backdrop_path": "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+        "backdrops": [
+            "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
+    # 8. Alpha (YRF Spy Universe Female-Led)
+    {
+        "id": 1289542,
+        "title": "Alpha",
+        "original_title": "Alpha",
+        "slug": "alpha-spy-universe",
+        "media_type": "movie",
+        "release_date": "2026-07-03",
+        "hook_title": "Alia Bhatt & Sharvari in YRF Spy Universe: Alpha Ending Decoded ⚡",
+        "catchy_teaser": "Two elite female operatives go rogue against an international syndicate. 3 major crossover clues decoded.",
+        "overview": "Two super-agents raised in secret intelligence programs join forces to take down a rogue syndicate, crossing paths with legendary agents of the YRF Spy Universe.",
+        "tagline": "She who dares, rules.",
+        "genres": ["Action", "Thriller"],
+        "runtime": 145,
+        "vote_average": 8.8,
+        "vote_count": 1900,
+        "category": "upcoming",
+        "director": "Shiv Rawail",
+        "top_cast": ["Alia Bhatt", "Sharvari", "Bobby Deol", "Anil Kapoor"],
+        "poster_path": "/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg",
+        "backdrop_path": "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+        "backdrops": [
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
+    # 9. King (Shah Rukh Khan Action Thriller)
+    {
+        "id": 1290315,
+        "title": "King",
+        "original_title": "King",
+        "slug": "king-srk",
+        "media_type": "movie",
+        "release_date": "2026-10-02",
+        "hook_title": "Shah Rukh Khan as Underworld Don: King Climax & Mentorship Decoded 👑",
+        "catchy_teaser": "SRK returns as an aging international hitman mentoring his prodigy. The high-octane climax decoded.",
+        "overview": "A legendary underworld assassin mentors a fearless young operative while fighting off betrayal from within his own international syndicate.",
+        "tagline": "The crown is earned in blood.",
+        "genres": ["Action", "Crime", "Thriller"],
+        "runtime": 150,
+        "vote_average": 9.1,
+        "vote_count": 2500,
+        "category": "upcoming",
+        "director": "Sujoy Ghosh",
+        "top_cast": ["Shah Rukh Khan", "Suhana Khan", "Abhishek Bachchan", "Abhay Verma"],
+        "poster_path": "/as8fZuf0c8V2iMO43kw13hc6a9V.jpg",
+        "backdrop_path": "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+        "backdrops": [
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg",
+            "/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg"
+        ]
+    },
+    # 10. Spirit (Prabhas & Vanga Cop Drama)
+    {
+        "id": 1222415,
+        "title": "Spirit",
+        "original_title": "Spirit",
+        "slug": "spirit-prabhas",
+        "media_type": "movie",
+        "release_date": "2026-11-20",
+        "hook_title": "Prabhas as Ruthless IPS Officer: Spirit Climax & Cartel War Decoded 🚨",
+        "catchy_teaser": "Prabhas dons the khaki uniform in Sandeep Reddy Vanga's raw, uncompromising cop thriller. 3 major plot twists.",
+        "overview": "A fiercely honest yet deeply unhinged police officer wages an all-out, brutal crusade against a transnational narcotics cartel.",
+        "tagline": "Pure rage in uniform.",
+        "genres": ["Action", "Crime", "Drama"],
+        "runtime": 160,
+        "vote_average": 9.2,
+        "vote_count": 2800,
+        "category": "upcoming",
+        "director": "Sandeep Reddy Vanga",
+        "top_cast": ["Prabhas", "Triptii Dimri", "Prakash Raj", "Vivek Oberoi"],
+        "poster_path": "/8ivTX5q2otqXvH815BcOhxVkTPW.jpg",
+        "backdrop_path": "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+        "backdrops": [
+            "/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg",
+            "/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg"
+        ]
+    },
     # 1. Panchayat Season 3
     {
         "id": 101352,

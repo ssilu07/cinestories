@@ -2,13 +2,49 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "hi",
-  "generated_at": "2026-11-13T10:46:36.862549+00:00",
-  "total_stories": 10,
+  "generated_at": "2026-11-14T19:29:59.375166+00:00",
+  "total_stories": 453,
   "stories": [
+    {
+      "id": 1245700,
+      "slug": "sector-36-vol-2",
+      "title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
+      "url": "https://cinematicbites.com/hi/stories/sector-36-vol-2/",
+      "category": "netflix_hits",
+      "release_date": "2024-09-13",
+      "rating": 7.1
+    },
+    {
+      "id": 999101,
+      "slug": "streaming-weekly-top-10-us-uk-vol-2",
+      "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+      "url": "https://cinematicbites.com/hi/stories/streaming-weekly-top-10-us-uk-vol-2/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-01",
+      "rating": 8.8
+    },
+    {
+      "id": 1215440,
+      "slug": "toxic-a-fairy-tale-for-grown-ups",
+      "title": "Yash's Double Role & 1950s Cartel Empire: Toxic Ending Decoded \ud83d\udc80",
+      "url": "https://cinematicbites.com/hi/stories/toxic-a-fairy-tale-for-grown-ups/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 9.2
+    },
+    {
+      "id": 656908,
+      "slug": "ramayana-part-1",
+      "title": "Yash's Ravana & The Colossal VFX Climax: 3 Secrets Decoded in Ramayana \ud83c\udff9",
+      "url": "https://cinematicbites.com/hi/stories/ramayana-part-1/",
+      "category": "upcoming",
+      "release_date": "2026-10-20",
+      "rating": 9.4
+    },
     {
       "id": 101352,
       "slug": "panchayat-season-3",
-      "title": "\u0915\u094d\u092f\u093e \u092a\u094d\u0930\u0927\u093e\u0928 \u091c\u0940 \u0928\u0947 \u0916\u0941\u0926 \u092a\u0930 \u0917\u094b\u0932\u0940 \u091a\u0932\u0935\u093e\u0908? \u092a\u0902\u091a\u093e\u092f\u0924 \u0969 \u0915\u093e \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0921\u093f\u0915\u094b\u0921",
+      "title": "Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending Decoded",
       "url": "https://cinematicbites.com/hi/stories/panchayat-season-3/",
       "category": "series",
       "release_date": "2024-05-28",
@@ -17,7 +53,7 @@
     {
       "id": 84105,
       "slug": "mirzapur-season-3",
-      "title": "\u0915\u093e\u0932\u0940\u0928 \u092d\u0948\u092f\u093e \u0928\u0947 \u0936\u0930\u0926 \u0936\u0941\u0915\u094d\u0932\u093e \u0915\u094b \u0915\u094d\u092f\u094b\u0902 \u092e\u093e\u0930\u093e? \u092e\u093f\u0930\u094d\u091c\u093c\u093e\u092a\u0941\u0930 \u0969 \u0915\u0947 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0915\u093e \u0938\u091a!",
+      "title": "Why Kaleen Bhaiya Killed Sharad Shukla: The Hidden Deal in Mirzapur 3!",
       "url": "https://cinematicbites.com/hi/stories/mirzapur-season-3/",
       "category": "series",
       "release_date": "2024-07-05",
@@ -26,7 +62,7 @@
     {
       "id": 1112426,
       "slug": "stree-2",
-      "title": "\u0915\u094d\u092f\u093e \u0905\u0915\u094d\u0937\u092f \u0915\u0941\u092e\u093e\u0930 \u092e\u0948\u0921\u0949\u0915 \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938 \u0915\u0947 '\u0925\u093e\u0928\u094b\u0938' \u0939\u0948\u0902? \u0938\u094d\u0924\u094d\u0930\u0940 \u0968 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0921\u093f\u0915\u094b\u0921",
+      "title": "Is Akshay Kumar the 'Thanos' of Maddock Universe? Stree 2 Post-Credits Decoded!",
       "url": "https://cinematicbites.com/hi/stories/stree-2/",
       "category": "cult_classic",
       "release_date": "2024-08-15",
@@ -35,7 +71,7 @@
     {
       "id": 801688,
       "slug": "kalki-2898-ad",
-      "title": "\u092d\u0948\u0930\u0935\u093e \u092f\u093e \u092e\u0939\u093e\u0930\u0925\u0940 \u0915\u0930\u094d\u0923 \u0915\u093e \u092a\u0941\u0928\u0930\u094d\u091c\u0928\u094d\u092e? \u0915\u0932\u094d\u0915\u093f \u0968\u096e\u096f\u096e \u090f\u0921\u0940 \u0915\u093e \u0930\u0939\u0938\u094d\u092f \u0921\u093f\u0915\u094b\u0921!",
+      "title": "Why Prabhas is Karna, Not Kalki: The Mind-Blowing Climax of Kalki 2898 AD!",
       "url": "https://cinematicbites.com/hi/stories/kalki-2898-ad/",
       "category": "theories_easter_eggs",
       "release_date": "2024-06-27",
@@ -44,7 +80,7 @@
     {
       "id": 1245700,
       "slug": "sector-36",
-      "title": "\u0928\u093f\u0920\u093e\u0930\u0940 \u0915\u093e\u0902\u0921 \u092a\u0930 \u0906\u0927\u093e\u0930\u093f\u0924 \u0938\u0947\u0915\u094d\u091f\u0930 \u0969\u096c: \u0915\u094d\u092f\u093e \u092a\u094d\u0930\u0947\u092e \u0938\u093f\u0902\u0939 \u0915\u094b \u0938\u091c\u093e \u092e\u093f\u0932\u0940? \u0915\u0921\u093c\u0935\u0940 \u0938\u091a\u094d\u091a\u093e\u0908",
+      "title": "The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!",
       "url": "https://cinematicbites.com/hi/stories/sector-36/",
       "category": "netflix_hits",
       "release_date": "2024-09-13",
@@ -53,7 +89,7 @@
     {
       "id": 1148172,
       "slug": "do-patti",
-      "title": "\u0938\u094c\u092e\u094d\u092f\u093e \u092f\u093e \u0915\u0943\u0924\u093f? \u0926\u094b \u092a\u0924\u094d\u0924\u0940 \u0915\u0947 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u091f\u094d\u0935\u093f\u0938\u094d\u091f \u0914\u0930 \u0918\u0930\u0947\u0932\u0942 \u0939\u093f\u0902\u0938\u093e \u0915\u093e \u0915\u093e\u0928\u0942\u0928\u0940 \u0938\u091a!",
+      "title": "Did Dhruv Really Try to Kill Saumya? The Shocking Twist Ending of Do Patti Decoded!",
       "url": "https://cinematicbites.com/hi/stories/do-patti/",
       "category": "netflix_hits",
       "release_date": "2024-10-25",
@@ -62,7 +98,7 @@
     {
       "id": 1014505,
       "slug": "devara-part-1",
-      "title": "\u0926\u0947\u0935\u0930\u093e \u0915\u094b \u0915\u093f\u0938\u0928\u0947 \u092e\u093e\u0930\u093e? \u0935\u0930\u0926\u093e \u0915\u093e \u0927\u094b\u0916\u093e \u092f\u093e \u092d\u0948\u0930\u093e \u0915\u093e \u0916\u0942\u0928\u0940 \u0937\u0921\u094d\u092f\u0902\u0924\u094d\u0930! \u092a\u093e\u0930\u094d\u091f \u0967 \u0921\u093f\u0915\u094b\u0921",
+      "title": "The Next 'Katappa' Mystery: Why Did Vara Murder His Own Father Devara?",
       "url": "https://cinematicbites.com/hi/stories/devara-part-1/",
       "category": "trending",
       "release_date": "2024-09-27",
@@ -71,7 +107,7 @@
     {
       "id": 1022789,
       "slug": "pushpa-2-the-rule",
-      "title": "\u092a\u0941\u0937\u094d\u092a\u093e \u091d\u0941\u0915\u0947\u0917\u093e \u0928\u0939\u0940\u0902! \u092a\u0941\u0937\u094d\u092a\u093e \u0968 \u0926 \u0930\u0942\u0932: \u092d\u0902\u0935\u0930 \u0938\u093f\u0902\u0939 \u0936\u0947\u0916\u093e\u0935\u0924 \u0938\u0947 \u092e\u0939\u093e\u092e\u0941\u0915\u093e\u092c\u0932\u093e \u0914\u0930 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938",
+      "title": "Pushpa 2 Ending Decoded: What That Shocking Wedding Blast Means for Pushpa 3!",
       "url": "https://cinematicbites.com/hi/stories/pushpa-2-the-rule/",
       "category": "upcoming",
       "release_date": "2024-12-05",
@@ -80,7 +116,7 @@
     {
       "id": 93405,
       "slug": "squid-game-season-2",
-      "title": "\u092a\u094d\u0932\u0947\u092f\u0930 \u096a\u096b\u096c \u0915\u093e \u0916\u0942\u0928\u0940 \u092c\u0926\u0932\u093e! \u0938\u094d\u0915\u094d\u0935\u093f\u0921 \u0917\u0947\u092e \u0968: \u092b\u094d\u0930\u0902\u091f \u092e\u0948\u0928 \u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0928\u092f\u093e \u0935\u093f\u0926\u094d\u0930\u094b\u0939",
+      "title": "The Brutal Betrayal: Why Gi-hun\u2019s Armed Coup Failed in Squid Game Season 2!",
       "url": "https://cinematicbites.com/hi/stories/squid-game-season-2/",
       "category": "netflix_hits",
       "release_date": "2024-12-26",
@@ -89,11 +125,3962 @@
     {
       "id": 1269325,
       "slug": "singham-again",
-      "title": "\u0930\u094b\u0939\u093f\u0924 \u0936\u0947\u091f\u094d\u091f\u0940 \u0915\u093e \u0930\u093e\u092e\u093e\u092f\u0923 \u0915\u0928\u0947\u0915\u094d\u0936\u0928! \u0938\u093f\u0902\u0918\u092e \u0905\u0917\u0947\u0928: \u0915\u0949\u092a \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938 \u0915\u093e \u092e\u0939\u093e-\u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938",
+      "title": "Chulbul Pandey Joins Singham: The Post-Credits Crossover That Broke the Internet!",
       "url": "https://cinematicbites.com/hi/stories/singham-again/",
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 129552,
+      "slug": "the-night-agent",
+      "title": "The Night Agent Ending Explained: Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-night-agent/",
+      "category": "netflix_hits",
+      "release_date": "2023-03-23",
+      "rating": 7.7
+    },
+    {
+      "id": 254630,
+      "slug": "12-12-12",
+      "title": "Who Really Pulled The Trigger in 12 12 12? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/12-12-12/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-12",
+      "rating": 5.5
+    },
+    {
+      "id": 1050981,
+      "slug": "being-heumann",
+      "title": "Why Being Heumann Left Audiences Stunned: Clues Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/being-heumann/",
+      "category": "trending",
+      "release_date": "2026-11-06",
+      "rating": 8.4
+    },
+    {
+      "id": 202555,
+      "slug": "daredevil-born-again",
+      "title": "Daredevil: Born Again Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/daredevil-born-again/",
+      "category": "ott_blockbusters",
+      "release_date": "2025-03-04",
+      "rating": 8.2
+    },
+    {
+      "id": 82452,
+      "slug": "avatar-the-last-airbender",
+      "title": "Avatar: The Last Airbender Season Finale Decoded: What That Final Scene ",
+      "url": "https://cinematicbites.com/hi/stories/avatar-the-last-airbender/",
+      "category": "netflix_hits",
+      "release_date": "2024-02-22",
+      "rating": 7.8
+    },
+    {
+      "id": 249565,
+      "slug": "the-good-daughter",
+      "title": "Who Really Pulled The Trigger in The Good Daughter? 3 Clues You Missed \ud83d\udd75",
+      "url": "https://cinematicbites.com/hi/stories/the-good-daughter/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-12",
+      "rating": 9.3
+    },
+    {
+      "id": 1518204,
+      "slug": "allen",
+      "title": "Did They Actually Survive? Allen Climax Theory Explained \ud83d\ude80",
+      "url": "https://cinematicbites.com/hi/stories/allen/",
+      "category": "trending",
+      "release_date": "2026-11-12",
+      "rating": 6.4
+    },
+    {
+      "id": 94954,
+      "slug": "hazbin-hotel",
+      "title": "Hazbin Hotel Season 2 Roadmap: Release Date, Cast & Unresolved Clues \ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/hazbin-hotel/",
+      "category": "ott_blockbusters",
+      "release_date": "2024-01-18",
+      "rating": 8.5
+    },
+    {
+      "id": 117830,
+      "slug": "tomb-raider-the-legend-of-lara-croft",
+      "title": "The 1 Insane Clue In Tomb Raider That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/hi/stories/tomb-raider-the-legend-of-lara-croft/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-10",
+      "rating": 6.5
+    },
+    {
+      "id": 291507,
+      "slug": "the-body",
+      "title": "What Really Happened at the End of The Body? Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-body/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-11",
+      "rating": 7.6
+    },
+    {
+      "id": 1616687,
+      "slug": "never-surrender",
+      "title": "The Horrific True Story Behind Never Surrender: Real Facts vs Drama \ud83e\ude78",
+      "url": "https://cinematicbites.com/hi/stories/never-surrender/",
+      "category": "trending",
+      "release_date": "2026-11-12",
+      "rating": 7.9
+    },
+    {
+      "id": 208921,
+      "slug": "rivals",
+      "title": "Rivals Ending Explained: The Climax Clues You Missed \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/rivals/",
+      "category": "ott_blockbusters",
+      "release_date": "2024-10-18",
+      "rating": 7.4
+    },
+    {
+      "id": 278577,
+      "slug": "shine-on-me",
+      "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/shine-on-me/",
+      "category": "netflix_hits",
+      "release_date": "2025-12-22",
+      "rating": 8.5
+    },
+    {
+      "id": 283428,
+      "slug": "the-ramparts-of-ice",
+      "title": "The 1 Insane Clue In The Ramparts of Ice That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/hi/stories/the-ramparts-of-ice/",
+      "category": "streaming_charts",
+      "release_date": "2026-04-02",
+      "rating": 8.6
+    },
+    {
+      "id": 273240,
+      "slug": "off-campus",
+      "title": "Off Campus Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/off-campus/",
+      "category": "ott_blockbusters",
+      "release_date": "2026-05-13",
+      "rating": 8.8
+    },
+    {
+      "id": 279155,
+      "slug": "the-silent-storm",
+      "title": "The Silent Storm Season 2 Roadmap: Release Date, Cast & Unresolved Clues",
+      "url": "https://cinematicbites.com/hi/stories/the-silent-storm/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-05",
+      "rating": 9.0
+    },
+    {
+      "id": 1559980,
+      "slug": "the-gospel-of-christmas",
+      "title": "What Really Happened at the Climax of The Gospel of Christmas? \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/the-gospel-of-christmas/",
+      "category": "trending",
+      "release_date": "2026-11-11",
+      "rating": 6.0
+    },
+    {
+      "id": 249039,
+      "slug": "black-rabbit",
+      "title": "Black Rabbit Ending Explained: The Climax Twist & Final Clues \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/black-rabbit/",
+      "category": "netflix_hits",
+      "release_date": "2025-09-18",
+      "rating": 6.9
+    },
+    {
+      "id": 258742,
+      "slug": "alls-fair",
+      "title": "All's Fair Ending Explained: The Final Betrayal Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/alls-fair/",
+      "category": "streaming_charts",
+      "release_date": "2025-11-04",
+      "rating": 5.0
+    },
+    {
+      "id": 313738,
+      "slug": "one-of-a-kind-romance",
+      "title": "One of a Kind Romance Season Finale Decoded: What That Final Scene Means",
+      "url": "https://cinematicbites.com/hi/stories/one-of-a-kind-romance/",
+      "category": "trending",
+      "release_date": "2026-11-09",
+      "rating": 0.0
+    },
+    {
+      "id": 1630237,
+      "slug": "treasure-trekkers",
+      "title": "Treasure Trekkers: The Secret Easter Eggs Hiding in Plain Sight \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/treasure-trekkers/",
+      "category": "upcoming",
+      "release_date": "2026-10-09",
+      "rating": 0.0
+    },
+    {
+      "id": 236235,
+      "slug": "the-gentlemen",
+      "title": "The Gentlemen Ending Explained: Clues & Season 2 Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-gentlemen/",
+      "category": "netflix_hits",
+      "release_date": "2024-03-07",
+      "rating": 7.9
+    },
+    {
+      "id": 279185,
+      "slug": "the-torment",
+      "title": "Who Really Pulled The Trigger in The Torment? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-torment/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-02",
+      "rating": 7.0
+    },
+    {
+      "id": 275139,
+      "slug": "phony",
+      "title": "Who Really Pulled The Trigger in Phony? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/phony/",
+      "category": "trending",
+      "release_date": "2026-10-20",
+      "rating": 7.3
+    },
+    {
+      "id": 1383731,
+      "slug": "protector",
+      "title": "Protector: The Shocking Climax & Hidden Motive Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/protector/",
+      "category": "upcoming",
+      "release_date": "2026-02-20",
+      "rating": 8.4
+    },
+    {
+      "id": 208569,
+      "slug": "will-trent",
+      "title": "Will Trent Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/will-trent/",
+      "category": "netflix_hits",
+      "release_date": "2023-01-03",
+      "rating": 7.3
+    },
+    {
+      "id": 231620,
+      "slug": "natural-high",
+      "title": "The 1 Insane Clue In Natural High That Fans Completely Missed \ud83e\udd2f",
+      "url": "https://cinematicbites.com/hi/stories/natural-high/",
+      "category": "streaming_charts",
+      "release_date": "2023-08-13",
+      "rating": 7.5
+    },
+    {
+      "id": 1402181,
+      "slug": "scene",
+      "title": "What Really Happened at the End of Scene? Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/scene/",
+      "category": "trending",
+      "release_date": "2026-11-05",
+      "rating": 8.5
+    },
+    {
+      "id": 1457866,
+      "slug": "the-further-mis-adventures-of-cliff-booth",
+      "title": "Who Really Pulled The Trigger in THE FURTHER MIS-ADVENTURES OF CLIFF BOO",
+      "url": "https://cinematicbites.com/hi/stories/the-further-mis-adventures-of-cliff-booth/",
+      "category": "upcoming",
+      "release_date": "2026-11-25",
+      "rating": 0.0
+    },
+    {
+      "id": 212989,
+      "slug": "lego-ninjago-dragons-rising",
+      "title": "LEGO Ninjago Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/lego-ninjago-dragons-rising/",
+      "category": "netflix_hits",
+      "release_date": "2023-06-01",
+      "rating": 8.1
+    },
+    {
+      "id": 303745,
+      "slug": "love-in-disguise",
+      "title": "What Really Happened at the End of Love in Disguise? Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/love-in-disguise/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-19",
+      "rating": 9.1
+    },
+    {
+      "id": 330613,
+      "slug": "the-rules",
+      "title": "What Really Happened at the End of The Rules? Decoded \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-rules/",
+      "category": "trending",
+      "release_date": "2026-10-28",
+      "rating": 8.5
+    },
+    {
+      "id": 125988,
+      "slug": "silo",
+      "title": "Silo Season Finale Decoded: What That Final Scene Means \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/silo/",
+      "category": "ott_blockbusters",
+      "release_date": "2023-05-04",
+      "rating": 8.2
+    },
+    {
+      "id": 209867,
+      "slug": "frieren-beyond-journeys-end",
+      "title": "Frieren Season 2 Roadmap: Release Date, Cast & Unresolved Clues \ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/frieren-beyond-journeys-end/",
+      "category": "netflix_hits",
+      "release_date": "2023-09-29",
+      "rating": 8.8
+    },
+    {
+      "id": 307853,
+      "slug": "sunshine-through-the-rain",
+      "title": "The 1 Insane Clue In Sunshine Through the Rain That Fans Completely Miss",
+      "url": "https://cinematicbites.com/hi/stories/sunshine-through-the-rain/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-06",
+      "rating": 9.5
+    },
+    {
+      "id": 297491,
+      "slug": "under-siege",
+      "title": "Under Siege Ending Explained: The Climax Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/under-siege/",
+      "category": "trending",
+      "release_date": "2026-11-06",
+      "rating": 6.0
+    },
+    {
+      "id": 253376,
+      "slug": "the-girlfriend",
+      "title": "Who Really Pulled The Trigger in The Girlfriend? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642",
+      "url": "https://cinematicbites.com/hi/stories/the-girlfriend/",
+      "category": "ott_blockbusters",
+      "release_date": "2025-09-10",
+      "rating": 7.2
+    },
+    {
+      "id": 679,
+      "slug": "aliens",
+      "title": "Aliens Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/aliens/",
+      "category": "netflix_hits",
+      "release_date": "1986-07-18",
+      "rating": 8.0
+    },
+    {
+      "id": 214582,
+      "slug": "the-devils-plan",
+      "title": "The Devil's Plan Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/the-devils-plan/",
+      "category": "streaming_charts",
+      "release_date": "2023-09-26",
+      "rating": 7.6
+    },
+    {
+      "id": 1250502,
+      "slug": "im-game",
+      "title": "The Twisted Climax of I'm Game: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/im-game/",
+      "category": "trending",
+      "release_date": "2026-09-03",
+      "rating": 7.2
+    },
+    {
+      "id": 1400336,
+      "slug": "focker-in-law",
+      "title": "Focker-in-Law: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/focker-in-law/",
+      "category": "upcoming",
+      "release_date": "2026-11-21",
+      "rating": 0.0
+    },
+    {
+      "id": 829557,
+      "slug": "365-days-this-day",
+      "title": "Inside 365 Days: This Day: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/365-days-this-day/",
+      "category": "netflix_hits",
+      "release_date": "2022-04-26",
+      "rating": 5.9
+    },
+    {
+      "id": 270431,
+      "slug": "when-i-meet-the-moon",
+      "title": "Why When I Meet the Moon Is Dominating Global Charts: Ending & Season Cl",
+      "url": "https://cinematicbites.com/hi/stories/when-i-meet-the-moon/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-05",
+      "rating": 9.2
+    },
+    {
+      "id": 1381221,
+      "slug": "misty-green",
+      "title": "Why Misty Green Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/hi/stories/misty-green/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.8
+    },
+    {
+      "id": 1801870,
+      "slug": "second-chance-holiday",
+      "title": "Why Second Chance Holiday Left Audiences Stunned: Full Plot & Clues Brea",
+      "url": "https://cinematicbites.com/hi/stories/second-chance-holiday/",
+      "category": "upcoming",
+      "release_date": "2026-11-17",
+      "rating": 0.0
+    },
+    {
+      "id": 1318447,
+      "slug": "apex",
+      "title": "Apex: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/apex/",
+      "category": "netflix_hits",
+      "release_date": "2026-04-24",
+      "rating": 6.9
+    },
+    {
+      "id": 60625,
+      "slug": "rick-and-morty",
+      "title": "Inside Rick and Morty: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/rick-and-morty/",
+      "category": "streaming_charts",
+      "release_date": "2013-12-02",
+      "rating": 8.7
+    },
+    {
+      "id": 1616419,
+      "slug": "the-good-lawyer",
+      "title": "The Good Lawyer: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-good-lawyer/",
+      "category": "trending",
+      "release_date": "2026-09-11",
+      "rating": 8.5
+    },
+    {
+      "id": 1437511,
+      "slug": "how-to-rob-a-bank",
+      "title": "What Really Happened at the Climax of How to Rob a Bank? Clues Decoded",
+      "url": "https://cinematicbites.com/hi/stories/how-to-rob-a-bank/",
+      "category": "upcoming",
+      "release_date": "2026-11-10",
+      "rating": 8.0
+    },
+    {
+      "id": 18239,
+      "slug": "the-twilight-saga-new-moon",
+      "title": "Why New Moon Reignited a Global Netflix Frenzy \ud83d\udc3a\ud83e\ude78",
+      "url": "https://cinematicbites.com/hi/stories/the-twilight-saga-new-moon/",
+      "category": "netflix_hits",
+      "release_date": "2009-11-18",
+      "rating": 6.0
+    },
+    {
+      "id": 1489,
+      "slug": "jimmy-kimmel-live",
+      "title": "Jimmy Kimmel Live! Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/jimmy-kimmel-live/",
+      "category": "streaming_charts",
+      "release_date": "2003-01-26",
+      "rating": 5.3
+    },
+    {
+      "id": 961214,
+      "slug": "reawakened-man",
+      "title": "Reawakened Man Ending Explained: Unraveling The Final Revelation",
+      "url": "https://cinematicbites.com/hi/stories/reawakened-man/",
+      "category": "trending",
+      "release_date": "2026-09-30",
+      "rating": 3.1
+    },
+    {
+      "id": 1305781,
+      "slug": "blades-of-the-guardians",
+      "title": "The Hidden Visual Details That Change How You See Blades of the Guardian",
+      "url": "https://cinematicbites.com/hi/stories/blades-of-the-guardians/",
+      "category": "upcoming",
+      "release_date": "2026-02-17",
+      "rating": 8.2
+    },
+    {
+      "id": 77,
+      "slug": "memento",
+      "title": "Why Christopher Nolan's 'Memento' Stormed Netflix Top 10 \ud83e\udde0\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/memento/",
+      "category": "netflix_hits",
+      "release_date": "2000-10-11",
+      "rating": 8.2
+    },
+    {
+      "id": 84773,
+      "slug": "the-lord-of-the-rings-the-rings-of-power",
+      "title": "Rings of Power: Why Middle-earth Rules Streaming Charts \u2694\ufe0f\ud83d\udc51",
+      "url": "https://cinematicbites.com/hi/stories/the-lord-of-the-rings-the-rings-of-power/",
+      "category": "streaming_charts",
+      "release_date": "2022-09-01",
+      "rating": 7.2
+    },
+    {
+      "id": 1096228,
+      "slug": "musk",
+      "title": "Musk: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/musk/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.3
+    },
+    {
+      "id": 1286656,
+      "slug": "i-play-rocky",
+      "title": "Why I Play Rocky Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/hi/stories/i-play-rocky/",
+      "category": "upcoming",
+      "release_date": "2026-11-06",
+      "rating": 8.8
+    },
+    {
+      "id": 539,
+      "slug": "psycho",
+      "title": "Psycho: Why Hitchcock\u2019s Thriller Still Dominates Streaming \ud83d\udd2a\ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/psycho/",
+      "category": "netflix_hits",
+      "release_date": "1960-06-22",
+      "rating": 8.4
+    },
+    {
+      "id": 253372,
+      "slug": "the-institute",
+      "title": "The Institute: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-institute/",
+      "category": "streaming_charts",
+      "release_date": "2025-07-13",
+      "rating": 7.5
+    },
+    {
+      "id": 1633056,
+      "slug": "all-wishes-come-true",
+      "title": "All Wishes Come True: 2026's Wild Mythic Comedy \ud83c\udfad\u2728",
+      "url": "https://cinematicbites.com/hi/stories/all-wishes-come-true/",
+      "category": "trending",
+      "release_date": "2026-07-10",
+      "rating": 8.2
+    },
+    {
+      "id": 1470130,
+      "slug": "the-mortuary-assistant",
+      "title": "The Mortuary Assistant: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-mortuary-assistant/",
+      "category": "upcoming",
+      "release_date": "2026-02-13",
+      "rating": 5.2
+    },
+    {
+      "id": 425,
+      "slug": "ice-age",
+      "title": "Why Ice Age Is Crushing Netflix Global Top 10 Charts \u2744\ufe0f\ud83e\udda3",
+      "url": "https://cinematicbites.com/hi/stories/ice-age/",
+      "category": "netflix_hits",
+      "release_date": "2002-03-14",
+      "rating": 7.4
+    },
+    {
+      "id": 456,
+      "slug": "the-simpsons",
+      "title": "The Simpsons: Why It Still Dominates Streaming Charts \ud83d\udcfa\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-simpsons/",
+      "category": "streaming_charts",
+      "release_date": "1989-12-17",
+      "rating": 8.0
+    },
+    {
+      "id": 1165366,
+      "slug": "de-gaulle-r\u00e9sistance",
+      "title": "De Gaulle: R\u00e9sistance: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/de-gaulle-r\u00e9sistance/",
+      "category": "trending",
+      "release_date": "2026-06-03",
+      "rating": 7.8
+    },
+    {
+      "id": 1430077,
+      "slug": "hokum",
+      "title": "Hokum Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/hokum/",
+      "category": "upcoming",
+      "release_date": "2026-04-29",
+      "rating": 6.8
+    },
+    {
+      "id": 398818,
+      "slug": "call-me-by-your-name",
+      "title": "Call Me by Your Name: The Real Reason It's Binge-Trending Worldwide \ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/call-me-by-your-name/",
+      "category": "netflix_hits",
+      "release_date": "2017-10-01",
+      "rating": 8.1
+    },
+    {
+      "id": 248830,
+      "slug": "stick",
+      "title": "Stick Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/stick/",
+      "category": "streaming_charts",
+      "release_date": "2025-06-03",
+      "rating": 7.3
+    },
+    {
+      "id": 1483525,
+      "slug": "possible-love",
+      "title": "Possible Love: The Secret Behind The Film's Biggest Revelation \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/possible-love/",
+      "category": "trending",
+      "release_date": "2026-09-23",
+      "rating": 7.6
+    },
+    {
+      "id": 1317149,
+      "slug": "i-swear",
+      "title": "Why I Swear Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/hi/stories/i-swear/",
+      "category": "upcoming",
+      "release_date": "2025-09-22",
+      "rating": 8.3
+    },
+    {
+      "id": 1124,
+      "slug": "the-prestige",
+      "title": "Why The Prestige Is Dominating Netflix Charts Right Now \ud83c\udfa9\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/the-prestige/",
+      "category": "netflix_hits",
+      "release_date": "2006-10-19",
+      "rating": 8.2
+    },
+    {
+      "id": 303044,
+      "slug": "campus-drivers",
+      "title": "Campus Drivers: Why This Romance Drama Rules Watchlists \ud83d\ude97\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/campus-drivers/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-06",
+      "rating": 7.4
+    },
+    {
+      "id": 1654940,
+      "slug": "one-year-to-live-buy-a-man",
+      "title": "Can Money Buy Love Before Time Runs Out? \u23f3\ud83d\udc94",
+      "url": "https://cinematicbites.com/hi/stories/one-year-to-live-buy-a-man/",
+      "category": "trending",
+      "release_date": "2026-11-05",
+      "rating": 8.0
+    },
+    {
+      "id": 822653,
+      "slug": "puella-magi-madoka-magica-the-movie-walpurgisnacht-rising",
+      "title": "Madoka Magica: Walpurgisnacht Rising Clues & Date \ud83c\udf80\u23f3",
+      "url": "https://cinematicbites.com/hi/stories/puella-magi-madoka-magica-the-movie-walpurgisnacht-rising/",
+      "category": "upcoming",
+      "release_date": "2026-08-28",
+      "rating": 8.0
+    },
+    {
+      "id": 1062722,
+      "slug": "frankenstein",
+      "title": "Frankenstein Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/frankenstein/",
+      "category": "netflix_hits",
+      "release_date": "2025-10-17",
+      "rating": 7.6
+    },
+    {
+      "id": 314271,
+      "slug": "bass-x-machina",
+      "title": "Bass X Machina Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/bass-x-machina/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-03",
+      "rating": 7.7
+    },
+    {
+      "id": 1404304,
+      "slug": "the-isolate-thief",
+      "title": "The Hidden Visual Details That Change How You See The Isolate Thief \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/the-isolate-thief/",
+      "category": "trending",
+      "release_date": "2026-07-10",
+      "rating": 7.1
+    },
+    {
+      "id": 1145899,
+      "slug": "marsupilami",
+      "title": "The Hidden Visual Details That Change How You See Marsupilami \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/marsupilami/",
+      "category": "upcoming",
+      "release_date": "2026-02-04",
+      "rating": 6.3
+    },
+    {
+      "id": 949,
+      "slug": "heat",
+      "title": "Heat: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/heat/",
+      "category": "netflix_hits",
+      "release_date": "1995-12-15",
+      "rating": 7.9
+    },
+    {
+      "id": 258989,
+      "slug": "the-greatest",
+      "title": "Why The Greatest Is Dominating Global Charts: Ending & Season Clues \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/the-greatest/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-04",
+      "rating": 5.2
+    },
+    {
+      "id": 1630420,
+      "slug": "overacting",
+      "title": "The Hidden Visual Details That Change How You See Overacting \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/overacting/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 6.0
+    },
+    {
+      "id": 1366,
+      "slug": "rocky",
+      "title": "Why Rocky Left Audiences Stunned: Full Plot & Clues Breakdown",
+      "url": "https://cinematicbites.com/hi/stories/rocky/",
+      "category": "upcoming",
+      "release_date": "1976-12-03",
+      "rating": 7.8
+    },
+    {
+      "id": 111,
+      "slug": "scarface",
+      "title": "Scarface Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/scarface/",
+      "category": "netflix_hits",
+      "release_date": "1983-12-09",
+      "rating": 8.2
+    },
+    {
+      "id": 225385,
+      "slug": "black-doves",
+      "title": "Black Doves: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/black-doves/",
+      "category": "streaming_charts",
+      "release_date": "2024-12-05",
+      "rating": 7.0
+    },
+    {
+      "id": 1792170,
+      "slug": "model-citizen",
+      "title": "The Twisted Climax of Model Citizen: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/model-citizen/",
+      "category": "trending",
+      "release_date": "2026-11-03",
+      "rating": 7.3
+    },
+    {
+      "id": 1474226,
+      "slug": "evil-dress",
+      "title": "What Really Happened at the Climax of Evil Dress? Clues Decoded",
+      "url": "https://cinematicbites.com/hi/stories/evil-dress/",
+      "category": "upcoming",
+      "release_date": "2026-02-13",
+      "rating": 6.7
+    },
+    {
+      "id": 1492640,
+      "slug": "unabomber",
+      "title": "The Twisted Climax of UNABOMBER: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/unabomber/",
+      "category": "netflix_hits",
+      "release_date": "2026-09-25",
+      "rating": 6.6
+    },
+    {
+      "id": 284833,
+      "slug": "avatar-seven-havens",
+      "title": "Inside Avatar: Seven Havens: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/avatar-seven-havens/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-09",
+      "rating": 8.9
+    },
+    {
+      "id": 1570488,
+      "slug": "a-dogs-perfect-christmas",
+      "title": "A Dog's Perfect Christmas: The Secret Behind The Film's Biggest Revelati",
+      "url": "https://cinematicbites.com/hi/stories/a-dogs-perfect-christmas/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 8.3
+    },
+    {
+      "id": 1669915,
+      "slug": "angel-and-the-badman",
+      "title": "Angel and the Badman Ending Explained: Unraveling The Final Revelation",
+      "url": "https://cinematicbites.com/hi/stories/angel-and-the-badman/",
+      "category": "upcoming",
+      "release_date": "2026-10-08",
+      "rating": 9.7
+    },
+    {
+      "id": 12153,
+      "slug": "white-chicks",
+      "title": "White Chicks: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/white-chicks/",
+      "category": "netflix_hits",
+      "release_date": "2004-06-23",
+      "rating": 7.0
+    },
+    {
+      "id": 81723,
+      "slug": "the-gilded-age",
+      "title": "Inside The Gilded Age: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/the-gilded-age/",
+      "category": "streaming_charts",
+      "release_date": "2022-01-24",
+      "rating": 7.7
+    },
+    {
+      "id": 1275779,
+      "slug": "disclosure-day",
+      "title": "The Twisted Climax of Disclosure Day: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/disclosure-day/",
+      "category": "trending",
+      "release_date": "2026-06-10",
+      "rating": 7.4
+    },
+    {
+      "id": 1368166,
+      "slug": "the-housemaid",
+      "title": "The Housemaid Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/the-housemaid/",
+      "category": "upcoming",
+      "release_date": "2025-12-18",
+      "rating": 7.2
+    },
+    {
+      "id": 940721,
+      "slug": "godzilla-minus-one",
+      "title": "Godzilla Minus One Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/godzilla-minus-one/",
+      "category": "netflix_hits",
+      "release_date": "2023-11-03",
+      "rating": 7.6
+    },
+    {
+      "id": 279246,
+      "slug": "the-remarried-empress",
+      "title": "Inside The Remarried Empress: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/the-remarried-empress/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-03",
+      "rating": 7.0
+    },
+    {
+      "id": 1257147,
+      "slug": "my-best-friend",
+      "title": "My Best Friend Ending Explained: The Climax & Shocking Twists Decoded \ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/my-best-friend/",
+      "category": "trending",
+      "release_date": "2026-09-03",
+      "rating": 8.4
+    },
+    {
+      "id": 129,
+      "slug": "spirited-away",
+      "title": "Why Fans Are Obsessed with Spirited Away: Climax & Secrets Explained",
+      "url": "https://cinematicbites.com/hi/stories/spirited-away/",
+      "category": "upcoming",
+      "release_date": "2001-07-20",
+      "rating": 8.5
+    },
+    {
+      "id": 228150,
+      "slug": "fury",
+      "title": "Fury Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/fury/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-15",
+      "rating": 7.5
+    },
+    {
+      "id": 293610,
+      "slug": "doctor-x-mafia-in-white",
+      "title": "Why Doctor X: Mafia in White Crushed Streaming Charts \ud83e\ude7a\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/doctor-x-mafia-in-white/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-09",
+      "rating": 9.4
+    },
+    {
+      "id": 1813355,
+      "slug": "a-story-of-derry",
+      "title": "What Really Happened at the Climax of A Story of Derry? Clues Decoded",
+      "url": "https://cinematicbites.com/hi/stories/a-story-of-derry/",
+      "category": "trending",
+      "release_date": "2026-10-31",
+      "rating": 6.9
+    },
+    {
+      "id": 396535,
+      "slug": "train-to-busan",
+      "title": "Train to Busan: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/train-to-busan/",
+      "category": "upcoming",
+      "release_date": "2016-07-20",
+      "rating": 7.8
+    },
+    {
+      "id": 244786,
+      "slug": "whiplash",
+      "title": "Whiplash Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/whiplash/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-10",
+      "rating": 8.4
+    },
+    {
+      "id": 72879,
+      "slug": "tomorrow-is-ours",
+      "title": "Tomorrow Is Ours: The Psychological Clues Hiding in Plain Sight \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/tomorrow-is-ours/",
+      "category": "streaming_charts",
+      "release_date": "2017-07-17",
+      "rating": 6.3
+    },
+    {
+      "id": 1128204,
+      "slug": "feed",
+      "title": "Feed Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/feed/",
+      "category": "trending",
+      "release_date": "2026-08-06",
+      "rating": 5.8
+    },
+    {
+      "id": 1623376,
+      "slug": "blue-lock",
+      "title": "The Hidden Visual Details That Change How You See Blue Lock \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/blue-lock/",
+      "category": "upcoming",
+      "release_date": "2026-08-07",
+      "rating": 9.0
+    },
+    {
+      "id": 1087192,
+      "slug": "how-to-train-your-dragon",
+      "title": "How to Train Your Dragon Live-Action: Ready to Dominate Charts \ud83d\udc09\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/how-to-train-your-dragon/",
+      "category": "netflix_hits",
+      "release_date": "2025-06-06",
+      "rating": 7.9
+    },
+    {
+      "id": 126027,
+      "slug": "ghosts",
+      "title": "Why Ghosts Is Dominating Global Charts: Ending & Season Clues \ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/ghosts/",
+      "category": "streaming_charts",
+      "release_date": "2021-10-07",
+      "rating": 8.1
+    },
+    {
+      "id": 1279493,
+      "slug": "the-get-out",
+      "title": "What Really Happened at the Climax of The Get Out? Clues Decoded",
+      "url": "https://cinematicbites.com/hi/stories/the-get-out/",
+      "category": "trending",
+      "release_date": "2026-06-18",
+      "rating": 6.2
+    },
+    {
+      "id": 1437696,
+      "slug": "fatherland",
+      "title": "Fatherland Ending Explained: The Climax & Shocking Twists Decoded \ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/fatherland/",
+      "category": "upcoming",
+      "release_date": "2026-06-19",
+      "rating": 7.3
+    },
+    {
+      "id": 350,
+      "slug": "the-devil-wears-prada",
+      "title": "Inside The Devil Wears Prada: Why Audiences Are Obsessed With The Ending",
+      "url": "https://cinematicbites.com/hi/stories/the-devil-wears-prada/",
+      "category": "netflix_hits",
+      "release_date": "2006-06-29",
+      "rating": 7.4
+    },
+    {
+      "id": 316702,
+      "slug": "final-table",
+      "title": "Final Table: The K-Drama Dominating Global Streaming Charts \ud83c\udf73\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/final-table/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-24",
+      "rating": 8.4
+    },
+    {
+      "id": 1567605,
+      "slug": "ebenezer",
+      "title": "Johnny Depp's Ebenezer: Shocking Dickens Origin \ud83c\udfa9\ud83d\udc7b",
+      "url": "https://cinematicbites.com/hi/stories/ebenezer/",
+      "category": "trending",
+      "release_date": "2026-11-11",
+      "rating": 0.0
+    },
+    {
+      "id": 1562642,
+      "slug": "ghost-soldier",
+      "title": "The Twisted Climax of Ghost Soldier: Ending & Suspects Explained \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/ghost-soldier/",
+      "category": "upcoming",
+      "release_date": "2026-11-04",
+      "rating": 7.0
+    },
+    {
+      "id": 803796,
+      "slug": "kpop-demon-hunters",
+      "title": "KPop Demon Hunters Climax Decoded & What Comes Next for the Show \ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/kpop-demon-hunters/",
+      "category": "netflix_hits",
+      "release_date": "2025-06-20",
+      "rating": 8.0
+    },
+    {
+      "id": 1413,
+      "slug": "american-horror-story",
+      "title": "What Really Happened at the Climax of American Horror Story? Clues Decod",
+      "url": "https://cinematicbites.com/hi/stories/american-horror-story/",
+      "category": "streaming_charts",
+      "release_date": "2011-10-05",
+      "rating": 8.1
+    },
+    {
+      "id": 687163,
+      "slug": "project-hail-mary",
+      "title": "The Hidden Visual Details That Change How You See Project Hail Mary \u26a1",
+      "url": "https://cinematicbites.com/hi/stories/project-hail-mary/",
+      "category": "trending",
+      "release_date": "2026-03-15",
+      "rating": 8.6
+    },
+    {
+      "id": 1284465,
+      "slug": "the-death-of-robin-hood",
+      "title": "The Death of Robin Hood: Mind-Bending Plot Clues & Ending Secrets Explai",
+      "url": "https://cinematicbites.com/hi/stories/the-death-of-robin-hood/",
+      "category": "upcoming",
+      "release_date": "2026-06-18",
+      "rating": 6.7
+    },
+    {
+      "id": 1621552,
+      "slug": "facing-el-chapo",
+      "title": "Facing El Chapo Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/facing-el-chapo/",
+      "category": "netflix_hits",
+      "release_date": "2026-08-21",
+      "rating": 8.8
+    },
+    {
+      "id": 196322,
+      "slug": "dark-matter",
+      "title": "Dark Matter: Sci-Fi Thriller Storms Global Streaming Charts \ud83c\udf00\ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/dark-matter/",
+      "category": "streaming_charts",
+      "release_date": "2024-05-07",
+      "rating": 7.8
+    },
+    {
+      "id": 1101383,
+      "slug": "the-end-of-oak-street",
+      "title": "Suburbs Ripped Into Deep Space: The End of Oak Street \ud83c\udf0c\ud83d\ude80",
+      "url": "https://cinematicbites.com/hi/stories/the-end-of-oak-street/",
+      "category": "trending",
+      "release_date": "2026-08-12",
+      "rating": 7.1
+    },
+    {
+      "id": 1629051,
+      "slug": "never-after-dark",
+      "title": "Never After Dark Ending Explained: The Shocking Final Twist Decoded \ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/never-after-dark/",
+      "category": "upcoming",
+      "release_date": "2026-06-05",
+      "rating": 7.3
+    },
+    {
+      "id": 315162,
+      "slug": "puss-in-boots-the-last-wish",
+      "title": "Puss in Boots 2: Why This Smash Hit Conquered Netflix Charts \ud83d\udc31\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/puss-in-boots-the-last-wish/",
+      "category": "netflix_hits",
+      "release_date": "2022-12-07",
+      "rating": 8.2
+    },
+    {
+      "id": 200875,
+      "slug": "it-welcome-to-derry",
+      "title": "Why 'Welcome to Derry' Is Dominating Streaming Charts \ud83c\udf88\ud83d\udcc8",
+      "url": "https://cinematicbites.com/hi/stories/it-welcome-to-derry/",
+      "category": "streaming_charts",
+      "release_date": "2025-10-26",
+      "rating": 8.2
+    },
+    {
+      "id": 1789549,
+      "slug": "the-birthday-gift",
+      "title": "The Birthday\u200b Gift\u200b Ending Explained: The Climax & Shocking Twists Decod",
+      "url": "https://cinematicbites.com/hi/stories/the-birthday-gift/",
+      "category": "trending",
+      "release_date": "2026-10-30",
+      "rating": 8.7
+    },
+    {
+      "id": 372058,
+      "slug": "your-name",
+      "title": "Your Name.: Hidden Details, Easter Eggs & Review Verdict \ud83c\udfa8",
+      "url": "https://cinematicbites.com/hi/stories/your-name/",
+      "category": "upcoming",
+      "release_date": "2016-07-01",
+      "rating": 8.5
+    },
+    {
+      "id": 1297842,
+      "slug": "goat",
+      "title": "GOAT: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/goat/",
+      "category": "netflix_hits",
+      "release_date": "2026-02-11",
+      "rating": 8.0
+    },
+    {
+      "id": 259909,
+      "slug": "dexter-resurrection",
+      "title": "Dexter: Resurrection Crushes Streaming Charts \ud83e\ude78\ud83d\udcc8",
+      "url": "https://cinematicbites.com/hi/stories/dexter-resurrection/",
+      "category": "streaming_charts",
+      "release_date": "2025-07-13",
+      "rating": 8.5
+    },
+    {
+      "id": 1571955,
+      "slug": "collision-course",
+      "title": "Collision Course: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/collision-course/",
+      "category": "trending",
+      "release_date": "2026-10-30",
+      "rating": 7.7
+    },
+    {
+      "id": 1126097,
+      "slug": "charlie-harper",
+      "title": "Charlie Harper: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/charlie-harper/",
+      "category": "upcoming",
+      "release_date": "2026-09-24",
+      "rating": 5.3
+    },
+    {
+      "id": 1515692,
+      "slug": "baththa",
+      "title": "Baththa: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/baththa/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-01",
+      "rating": 8.5
+    },
+    {
+      "id": 289517,
+      "slug": "dead-end-job",
+      "title": "Dead-End Job: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/dead-end-job/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-30",
+      "rating": 8.2
+    },
+    {
+      "id": 1507696,
+      "slug": "apocalypse-z-new-world",
+      "title": "Apocalypse Z: New World: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/apocalypse-z-new-world/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1300968,
+      "slug": "the-hunger-games-sunrise-on-the-reaping",
+      "title": "The Hunger Games: Sunrise on the Reaping: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-hunger-games-sunrise-on-the-reaping/",
+      "category": "upcoming",
+      "release_date": "2026-11-18",
+      "rating": 0.0
+    },
+    {
+      "id": 242582,
+      "slug": "nightcrawler",
+      "title": "Why Nightcrawler Became a Global Netflix Thriller Hit \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/nightcrawler/",
+      "category": "netflix_hits",
+      "release_date": "2014-10-23",
+      "rating": 7.7
+    },
+    {
+      "id": 292741,
+      "slug": "nocturne",
+      "title": "Nocturne: The New Crime Thriller Dominating Streaming Charts \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/nocturne/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-29",
+      "rating": 10.0
+    },
+    {
+      "id": 1165369,
+      "slug": "de-gaulle-libert\u00e9",
+      "title": "De Gaulle Libert\u00e9: France's Epic War Saga \u2694\ufe0f\ud83c\uddeb\ud83c\uddf7",
+      "url": "https://cinematicbites.com/hi/stories/de-gaulle-libert\u00e9/",
+      "category": "trending",
+      "release_date": "2026-06-26",
+      "rating": 7.8
+    },
+    {
+      "id": 1511171,
+      "slug": "flywheel-ignition-of-the-soul",
+      "title": "Flywheel: Ignition of the Soul First Look \ud83d\ude97\u2728",
+      "url": "https://cinematicbites.com/hi/stories/flywheel-ignition-of-the-soul/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 348,
+      "slug": "alien",
+      "title": "Alien: Why This 1979 Sci-Fi Shocker Tops Netflix Charts \ud83c\udf7f\ud83d\ude80",
+      "url": "https://cinematicbites.com/hi/stories/alien/",
+      "category": "netflix_hits",
+      "release_date": "1979-05-25",
+      "rating": 8.2
+    },
+    {
+      "id": 153312,
+      "slug": "tulsa-king",
+      "title": "Tulsa King: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tulsa-king/",
+      "category": "streaming_charts",
+      "release_date": "2022-11-13",
+      "rating": 8.3
+    },
+    {
+      "id": 1541477,
+      "slug": "you-me-us",
+      "title": "You, Me, Us: The Heartfelt New Comedy-Drama \ud83d\udc76\u2728",
+      "url": "https://cinematicbites.com/hi/stories/you-me-us/",
+      "category": "trending",
+      "release_date": "2026-10-29",
+      "rating": 4.1
+    },
+    {
+      "id": 1458099,
+      "slug": "the-only-living-pickpocket-in-new-york",
+      "title": "The Only Living Pickpocket in New York: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-only-living-pickpocket-in-new-york/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 7.2
+    },
+    {
+      "id": 98,
+      "slug": "gladiator",
+      "title": "Why Gladiator Is Dominating Global Netflix Charts Again \u2694\ufe0f\ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/gladiator/",
+      "category": "netflix_hits",
+      "release_date": "2000-05-04",
+      "rating": 8.2
+    },
+    {
+      "id": 286171,
+      "slug": "tigers-sniff-the-rose",
+      "title": "Tigers Sniff the Rose: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tigers-sniff-the-rose/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-23",
+      "rating": 9.3
+    },
+    {
+      "id": 1480856,
+      "slug": "hanging-by-a-wire",
+      "title": "Hanging by a Wire: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/hanging-by-a-wire/",
+      "category": "trending",
+      "release_date": "2026-10-21",
+      "rating": 5.2
+    },
+    {
+      "id": 1185344,
+      "slug": "the-beast",
+      "title": "The Beast: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-beast/",
+      "category": "upcoming",
+      "release_date": "2026-10-08",
+      "rating": 6.0
+    },
+    {
+      "id": 8966,
+      "slug": "twilight",
+      "title": "Why Twilight Conquered Netflix All Over Again \ud83c\udf32\ud83e\udddb\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/twilight/",
+      "category": "netflix_hits",
+      "release_date": "2008-11-20",
+      "rating": 6.3
+    },
+    {
+      "id": 2190,
+      "slug": "south-park",
+      "title": "South Park: Why It Still Rules Streaming Charts \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/south-park/",
+      "category": "streaming_charts",
+      "release_date": "1997-08-13",
+      "rating": 8.3
+    },
+    {
+      "id": 1727734,
+      "slug": "ali-g-who-iz-i",
+      "title": "Ali G: Who Iz I?: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/ali-g-who-iz-i/",
+      "category": "trending",
+      "release_date": "2026-10-22",
+      "rating": 6.5
+    },
+    {
+      "id": 1634905,
+      "slug": "vampire-carnival",
+      "title": "Vampire Carnival: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/vampire-carnival/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 0.0
+    },
+    {
+      "id": 1311031,
+      "slug": "demon-slayer-kimetsu-no-yaiba-infinity-castle",
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle: The Untold Story & S",
+      "url": "https://cinematicbites.com/hi/stories/demon-slayer-kimetsu-no-yaiba-infinity-castle/",
+      "category": "netflix_hits",
+      "release_date": "2025-07-18",
+      "rating": 8.8
+    },
+    {
+      "id": 334700,
+      "slug": "the-gift-of-deceit",
+      "title": "The Gift of Deceit: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-gift-of-deceit/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-28",
+      "rating": 0.0
+    },
+    {
+      "id": 1596275,
+      "slug": "drive-the-pretenders",
+      "title": "Drive - The Pretenders: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/drive-the-pretenders/",
+      "category": "trending",
+      "release_date": "2026-10-27",
+      "rating": 7.0
+    },
+    {
+      "id": 1336166,
+      "slug": "rolling-loud-the-movie",
+      "title": "Rolling Loud: The Movie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/rolling-loud-the-movie/",
+      "category": "upcoming",
+      "release_date": "2026-10-02",
+      "rating": 8.0
+    },
+    {
+      "id": 4488,
+      "slug": "friday-the-13th",
+      "title": "Why Friday the 13th Is Crushing Netflix Charts Worldwide! \ud83d\udd2a\ud83e\ude78",
+      "url": "https://cinematicbites.com/hi/stories/friday-the-13th/",
+      "category": "netflix_hits",
+      "release_date": "1980-05-09",
+      "rating": 6.4
+    },
+    {
+      "id": 300146,
+      "slug": "where-the-mask-ends",
+      "title": "Where the Mask Ends: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/where-the-mask-ends/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-16",
+      "rating": 8.2
+    },
+    {
+      "id": 1635771,
+      "slug": "the-lost-ones",
+      "title": "Henry Golding's Darkest Thriller: The Lost Ones \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/the-lost-ones/",
+      "category": "trending",
+      "release_date": "2026-10-27",
+      "rating": 6.0
+    },
+    {
+      "id": 1401459,
+      "slug": "fjord",
+      "title": "Fjord: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/fjord/",
+      "category": "upcoming",
+      "release_date": "2026-06-13",
+      "rating": 7.2
+    },
+    {
+      "id": 361743,
+      "slug": "top-gun-maverick",
+      "title": "Top Gun: Maverick: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/top-gun-maverick/",
+      "category": "netflix_hits",
+      "release_date": "2022-05-21",
+      "rating": 8.2
+    },
+    {
+      "id": 213562,
+      "slug": "crystal-lake",
+      "title": "Crystal Lake: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/crystal-lake/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-15",
+      "rating": 8.7
+    },
+    {
+      "id": 1288445,
+      "slug": "mutiny",
+      "title": "Mutiny: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/mutiny/",
+      "category": "trending",
+      "release_date": "2026-08-19",
+      "rating": 7.6
+    },
+    {
+      "id": 1477104,
+      "slug": "shaun-the-sheep-the-beast-of-mossy-bottom",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom: The Untold Story & Secre",
+      "url": "https://cinematicbites.com/hi/stories/shaun-the-sheep-the-beast-of-mossy-bottom/",
+      "category": "upcoming",
+      "release_date": "2026-09-17",
+      "rating": 7.3
+    },
+    {
+      "id": 1389172,
+      "slug": "reporting-live",
+      "title": "Reporting Live: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/reporting-live/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-09",
+      "rating": 7.0
+    },
+    {
+      "id": 30984,
+      "slug": "bleach",
+      "title": "Bleach: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/bleach/",
+      "category": "streaming_charts",
+      "release_date": "2004-10-05",
+      "rating": 8.4
+    },
+    {
+      "id": 1562777,
+      "slug": "the-stunt-driver",
+      "title": "The Stunt Driver: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-stunt-driver/",
+      "category": "trending",
+      "release_date": "2026-09-25",
+      "rating": 5.0
+    },
+    {
+      "id": 1084409,
+      "slug": "a-talent-for-murder",
+      "title": "A Talent for Murder: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/a-talent-for-murder/",
+      "category": "upcoming",
+      "release_date": "2026-10-23",
+      "rating": 6.0
+    },
+    {
+      "id": 1453407,
+      "slug": "gajab-raat",
+      "title": "Gajab Raat: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/gajab-raat/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-23",
+      "rating": 5.1
+    },
+    {
+      "id": 120911,
+      "slug": "the-terminal-list",
+      "title": "The Terminal List: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-terminal-list/",
+      "category": "streaming_charts",
+      "release_date": "2022-06-30",
+      "rating": 8.0
+    },
+    {
+      "id": 1290418,
+      "slug": "the-cycle",
+      "title": "The Cycle: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-cycle/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 7.4
+    },
+    {
+      "id": 1340206,
+      "slug": "tuner",
+      "title": "Tuner: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tuner/",
+      "category": "upcoming",
+      "release_date": "2026-05-21",
+      "rating": 7.6
+    },
+    {
+      "id": 1780005,
+      "slug": "surviving-hurricane-otis",
+      "title": "Surviving Hurricane Otis: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/surviving-hurricane-otis/",
+      "category": "netflix_hits",
+      "release_date": "2026-10-23",
+      "rating": 5.7
+    },
+    {
+      "id": 96677,
+      "slug": "lupin",
+      "title": "Lupin: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/lupin/",
+      "category": "streaming_charts",
+      "release_date": "2021-01-08",
+      "rating": 7.7
+    },
+    {
+      "id": 1384216,
+      "slug": "the-dog-stars",
+      "title": "The Dog Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-dog-stars/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 6.6
+    },
+    {
+      "id": 1657630,
+      "slug": "the-awakening",
+      "title": "The Awakening: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-awakening/",
+      "category": "upcoming",
+      "release_date": "2026-10-29",
+      "rating": 7.2
+    },
+    {
+      "id": 646097,
+      "slug": "rebel-ridge",
+      "title": "Rebel Ridge: Why Aaron Pierre's Action Masterclass Shocked Netflix \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/rebel-ridge/",
+      "category": "netflix_hits",
+      "release_date": "2024-09-06",
+      "rating": 7.0
+    },
+    {
+      "id": 974635,
+      "slug": "hit-man",
+      "title": "Hit Man: 5 Shocking Secrets Behind Glen Powell's Wild Netflix Comedy \ud83d\udd76\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/hit-man/",
+      "category": "netflix_hits",
+      "release_date": "2024-06-07",
+      "rating": 7.1
+    },
+    {
+      "id": 763215,
+      "slug": "damsel",
+      "title": "Damsel: Millie Bobby Brown's Dark Dragon Survival Secrets \ud83d\udc09\u2694\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/damsel/",
+      "category": "netflix_hits",
+      "release_date": "2024-03-08",
+      "rating": 7.1
+    },
+    {
+      "id": 280180,
+      "slug": "beverly-hills-cop-axel-f",
+      "title": "Axel Foley Returns! 5 High-Octane Secrets of Netflix's Action Smash \ud83d\ude93\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/beverly-hills-cop-axel-f/",
+      "category": "netflix_hits",
+      "release_date": "2024-07-03",
+      "rating": 6.9
+    },
+    {
+      "id": 1001311,
+      "slug": "under-paris",
+      "title": "Under Paris: 5 Insane Shark Survival Twists That Broke Global Records \ud83e\udd88\ud83c\udf0a",
+      "url": "https://cinematicbites.com/hi/stories/under-paris/",
+      "category": "netflix_hits",
+      "release_date": "2024-06-05",
+      "rating": 6.0
+    },
+    {
+      "id": 704239,
+      "slug": "the-union",
+      "title": "The Union: Mark Wahlberg & Halle Berry's High-Stakes Espionage Thriller \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/the-union/",
+      "category": "netflix_hits",
+      "release_date": "2024-08-16",
+      "rating": 6.3
+    },
+    {
+      "id": 726209,
+      "slug": "leave-the-world-behind",
+      "title": "Leave The World Behind: 5 Chilling Apocalyptic Clues Explained \u26a1\ud83e\udd8c",
+      "url": "https://cinematicbites.com/hi/stories/leave-the-world-behind/",
+      "category": "netflix_hits",
+      "release_date": "2023-12-08",
+      "rating": 6.5
+    },
+    {
+      "id": 906126,
+      "slug": "society-of-the-snow",
+      "title": "Society of the Snow: 5 True Survival Miracles That Stunned the World \u2744\ufe0f\ud83c\udfd4\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/society-of-the-snow/",
+      "category": "netflix_hits",
+      "release_date": "2023-12-15",
+      "rating": 8.1
+    },
+    {
+      "id": 661374,
+      "slug": "glass-onion",
+      "title": "Glass Onion: 5 Mind-Bending Benoit Blanc Clues You Totally Missed \ud83e\uddc5\ud83d\udd0e",
+      "url": "https://cinematicbites.com/hi/stories/glass-onion/",
+      "category": "netflix_hits",
+      "release_date": "2022-12-23",
+      "rating": 7.1
+    },
+    {
+      "id": 697843,
+      "slug": "extraction-2",
+      "title": "Extraction 2: Inside Chris Hemsworth's 21-Minute One-Shot Action Stunt \ud83d\ude82\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/extraction-2/",
+      "category": "netflix_hits",
+      "release_date": "2023-06-16",
+      "rating": 7.4
+    },
+    {
+      "id": 63174,
+      "slug": "lucifer",
+      "title": "Lucifer: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/lucifer/",
+      "category": "netflix_hits",
+      "release_date": "2016-01-25",
+      "rating": 8.4
+    },
+    {
+      "id": 1117898,
+      "slug": "the-cat-in-the-hat",
+      "title": "The Cat in the Hat: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-cat-in-the-hat/",
+      "category": "trending",
+      "release_date": "2026-11-04",
+      "rating": 0.0
+    },
+    {
+      "id": 1572116,
+      "slug": "monster-mia",
+      "title": "Monster Mia: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/monster-mia/",
+      "category": "upcoming",
+      "release_date": "2026-09-03",
+      "rating": 8.9
+    },
+    {
+      "id": 280,
+      "slug": "terminator-2-judgment-day",
+      "title": "Terminator 2: Judgment Day: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/terminator-2-judgment-day/",
+      "category": "theories_easter_eggs",
+      "release_date": "1991-07-03",
+      "rating": 8.2
+    },
+    {
+      "id": 60059,
+      "slug": "better-call-saul",
+      "title": "Better Call Saul: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/better-call-saul/",
+      "category": "series",
+      "release_date": "2015-02-08",
+      "rating": 8.7
+    },
+    {
+      "id": 445466,
+      "slug": "idiots",
+      "title": "Idiots: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/idiots/",
+      "category": "trending",
+      "release_date": "2026-08-20",
+      "rating": 6.1
+    },
+    {
+      "id": 62,
+      "slug": "2001-a-space-odyssey",
+      "title": "2001: A Space Odyssey \u2013 Secrets of Sci-Fi's Greatest Epic \ud83d\ude80\u2728",
+      "url": "https://cinematicbites.com/hi/stories/2001-a-space-odyssey/",
+      "category": "upcoming",
+      "release_date": "1968-04-02",
+      "rating": 8.0
+    },
+    {
+      "id": 324857,
+      "slug": "spider-man-into-the-spider-verse",
+      "title": "Spider-Man: Into the Spider-Verse: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-into-the-spider-verse/",
+      "category": "theories_easter_eggs",
+      "release_date": "2018-12-06",
+      "rating": 8.4
+    },
+    {
+      "id": 203857,
+      "slug": "the-diplomat",
+      "title": "Why The Diplomat Is Netflix's Smartest Thriller \ud83c\udfdb\ufe0f\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/the-diplomat/",
+      "category": "netflix_hits",
+      "release_date": "2023-04-20",
+      "rating": 7.6
+    },
+    {
+      "id": 1195803,
+      "slug": "wicker",
+      "title": "Olivia Colman Weaves Love in 'Wicker' \ud83c\udf3e\u2728",
+      "url": "https://cinematicbites.com/hi/stories/wicker/",
+      "category": "trending",
+      "release_date": "2026-10-21",
+      "rating": 6.2
+    },
+    {
+      "id": 656908,
+      "slug": "ramayana-rise-of-a-legend",
+      "title": "Ramayana Rise of a Legend: India's $100M Epic \ud83c\udff9\u2728",
+      "url": "https://cinematicbites.com/hi/stories/ramayana-rise-of-a-legend/",
+      "category": "upcoming",
+      "release_date": "2026-11-05",
+      "rating": 0.0
+    },
+    {
+      "id": 315635,
+      "slug": "spider-man-homecoming",
+      "title": "Spider-Man: Homecoming: 5 Hidden MCU Easter Eggs \ud83d\udd77\ufe0f\ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-homecoming/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-07-05",
+      "rating": 7.3
+    },
+    {
+      "id": 124364,
+      "slug": "from",
+      "title": "FROM: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/from/",
+      "category": "series",
+      "release_date": "2022-02-20",
+      "rating": 8.5
+    },
+    {
+      "id": 1579941,
+      "slug": "the-musical",
+      "title": "The Musical: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-musical/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": 7.3
+    },
+    {
+      "id": 891621,
+      "slug": "wild-horse-nine",
+      "title": "Wild Horse Nine: Martin McDonagh's Wild New Thriller \ud83c\udfac\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/wild-horse-nine/",
+      "category": "upcoming",
+      "release_date": "2026-10-30",
+      "rating": 0.0
+    },
+    {
+      "id": 72190,
+      "slug": "world-war-z",
+      "title": "World War Z: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/world-war-z/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-06-19",
+      "rating": 6.9
+    },
+    {
+      "id": 45790,
+      "slug": "jojos-bizarre-adventure",
+      "title": "JoJo's Bizarre Adventure: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/jojos-bizarre-adventure/",
+      "category": "series",
+      "release_date": "2012-10-06",
+      "rating": 8.5
+    },
+    {
+      "id": 607833,
+      "slug": "the-intern",
+      "title": "The Intern: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-intern/",
+      "category": "trending",
+      "release_date": "2026-09-16",
+      "rating": 6.5
+    },
+    {
+      "id": 438631,
+      "slug": "dune",
+      "title": "Dune: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/dune/",
+      "category": "upcoming",
+      "release_date": "2021-09-15",
+      "rating": 7.8
+    },
+    {
+      "id": 284054,
+      "slug": "black-panther",
+      "title": "Black Panther: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/black-panther/",
+      "category": "theories_easter_eggs",
+      "release_date": "2018-02-13",
+      "rating": 7.4
+    },
+    {
+      "id": 105248,
+      "slug": "cyberpunk-edgerunners",
+      "title": "Cyberpunk: Edgerunners \u2014 Night City's Wild Netflix Revival \u26a1\ud83e\udd16",
+      "url": "https://cinematicbites.com/hi/stories/cyberpunk-edgerunners/",
+      "category": "netflix_hits",
+      "release_date": "2022-09-13",
+      "rating": 8.5
+    },
+    {
+      "id": 1513253,
+      "slug": "tiny-fugitives",
+      "title": "Tiny Fugitives: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tiny-fugitives/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": 10.0
+    },
+    {
+      "id": 1422041,
+      "slug": "la-bola-negra",
+      "title": "La Bola Negra: Pen\u00e9lope Cruz\u2019s Bold New Epic \ud83c\udfac\u2728",
+      "url": "https://cinematicbites.com/hi/stories/la-bola-negra/",
+      "category": "upcoming",
+      "release_date": "2026-09-25",
+      "rating": 8.3
+    },
+    {
+      "id": 1857,
+      "slug": "the-transformers-the-movie",
+      "title": "The Transformers: The Movie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-transformers-the-movie/",
+      "category": "theories_easter_eggs",
+      "release_date": "1986-08-08",
+      "rating": 7.2
+    },
+    {
+      "id": 1407,
+      "slug": "homeland",
+      "title": "Homeland: Secrets Behind the Spy Thriller \ud83d\udd75\ufe0f\u200d\u2642\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/homeland/",
+      "category": "series",
+      "release_date": "2011-10-02",
+      "rating": 7.6
+    },
+    {
+      "id": 1538497,
+      "slug": "hexed",
+      "title": "Hexed: Disney's Wild New Witch Realm Revealed! \ud83d\udd2e\u2728",
+      "url": "https://cinematicbites.com/hi/stories/hexed/",
+      "category": "trending",
+      "release_date": "2026-11-25",
+      "rating": 0.0
+    },
+    {
+      "id": 858035,
+      "slug": "klara-and-the-sun",
+      "title": "Klara and the Sun: Jenna Ortega's Sci-Fi Drama \ud83e\udd16\u2728",
+      "url": "https://cinematicbites.com/hi/stories/klara-and-the-sun/",
+      "category": "upcoming",
+      "release_date": "2026-10-21",
+      "rating": 0.0
+    },
+    {
+      "id": 912649,
+      "slug": "venom-the-last-dance",
+      "title": "Venom: The Last Dance: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/venom-the-last-dance/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-10-22",
+      "rating": 6.7
+    },
+    {
+      "id": 220542,
+      "slug": "the-apothecary-diaries",
+      "title": "The Apothecary Diaries: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-apothecary-diaries/",
+      "category": "series",
+      "release_date": "2023-10-22",
+      "rating": 8.7
+    },
+    {
+      "id": 791523,
+      "slug": "wildwood",
+      "title": "Wildwood: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/wildwood/",
+      "category": "trending",
+      "release_date": "2026-10-19",
+      "rating": 9.3
+    },
+    {
+      "id": 1381071,
+      "slug": "godzilla-minus-zero",
+      "title": "Godzilla Minus Zero: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/godzilla-minus-zero/",
+      "category": "upcoming",
+      "release_date": "2026-11-03",
+      "rating": 0.0
+    },
+    {
+      "id": 557,
+      "slug": "spider-man",
+      "title": "Spider-Man: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2002-05-01",
+      "rating": 7.4
+    },
+    {
+      "id": 12225,
+      "slug": "peppa-pig",
+      "title": "Peppa Pig: How a Pink Cartoon Conquered the World \ud83d\udc37\u2728",
+      "url": "https://cinematicbites.com/hi/stories/peppa-pig/",
+      "category": "series",
+      "release_date": "2004-05-31",
+      "rating": 6.5
+    },
+    {
+      "id": 1380417,
+      "slug": "by-any-means",
+      "title": "By Any Means: The Shocking True FBI-Mob Alliance \ud83d\udd25\ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/by-any-means/",
+      "category": "trending",
+      "release_date": "2026-09-02",
+      "rating": 7.4
+    },
+    {
+      "id": 581,
+      "slug": "dances-with-wolves",
+      "title": "Dances with Wolves: The Epic Western That Made History \ud83d\udc3a\ud83c\udff9",
+      "url": "https://cinematicbites.com/hi/stories/dances-with-wolves/",
+      "category": "upcoming",
+      "release_date": "1990-11-09",
+      "rating": 7.8
+    },
+    {
+      "id": 1061474,
+      "slug": "superman",
+      "title": "Superman: 5 Mind-Blowing DCU Easter Eggs \ud83e\uddb8\u200d\u2642\ufe0f\u2728",
+      "url": "https://cinematicbites.com/hi/stories/superman/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-07-09",
+      "rating": 7.3
+    },
+    {
+      "id": 280110,
+      "slug": "my-hero-academia-vigilantes",
+      "title": "My Hero Academia: Vigilantes \u2014 Grittier Heroes Unleashed! \u26a1\ud83e\uddb8\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/my-hero-academia-vigilantes/",
+      "category": "series",
+      "release_date": "2025-04-07",
+      "rating": 7.7
+    },
+    {
+      "id": 1198654,
+      "slug": "bad-apples",
+      "title": "Bad Apples: Saoirse Ronan's Dark Thriller \ud83c\udf4f\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/bad-apples/",
+      "category": "trending",
+      "release_date": "2026-09-10",
+      "rating": 7.0
+    },
+    {
+      "id": 1437396,
+      "slug": "your-mother-your-mother-your-mother",
+      "title": "Mahershala Ali's Gritty Hitman Thriller Coming in 2026 \ud83d\udca5\ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/your-mother-your-mother-your-mother/",
+      "category": "upcoming",
+      "release_date": "2026-09-25",
+      "rating": 7.8
+    },
+    {
+      "id": 1726,
+      "slug": "iron-man",
+      "title": "Iron Man: 5 Hidden Easter Eggs & MCU Clues \ud83d\udca5\ud83e\udd16",
+      "url": "https://cinematicbites.com/hi/stories/iron-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2008-04-30",
+      "rating": 7.7
+    },
+    {
+      "id": 57532,
+      "slug": "paw-patrol",
+      "title": "PAW Patrol: Secrets Behind The Billion-Dollar Pup Empire \ud83d\udc3e\ud83d\udea8",
+      "url": "https://cinematicbites.com/hi/stories/paw-patrol/",
+      "category": "series",
+      "release_date": "2013-08-12",
+      "rating": 7.0
+    },
+    {
+      "id": 1771323,
+      "slug": "super-scam-me",
+      "title": "Super Scam Me: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/super-scam-me/",
+      "category": "trending",
+      "release_date": "2026-10-17",
+      "rating": 10.0
+    },
+    {
+      "id": 1564614,
+      "slug": "leviticus",
+      "title": "Leviticus: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/leviticus/",
+      "category": "upcoming",
+      "release_date": "2026-06-17",
+      "rating": 6.8
+    },
+    {
+      "id": 1242898,
+      "slug": "predator-badlands",
+      "title": "Predator: Badlands: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/predator-badlands/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-11-05",
+      "rating": 7.8
+    },
+    {
+      "id": 45140,
+      "slug": "teen-titans-go",
+      "title": "Teen Titans Go!: Wild Secrets Behind DC's Craziest Hit \ud83c\udf55\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/teen-titans-go/",
+      "category": "series",
+      "release_date": "2013-04-23",
+      "rating": 6.4
+    },
+    {
+      "id": 1476746,
+      "slug": "the-florist",
+      "title": "The Florist: Dennis Quaid & Jean Reno Team Up \ud83c\udf3f\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/the-florist/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 6.1
+    },
+    {
+      "id": 1433583,
+      "slug": "the-weight",
+      "title": "Ethan Hawke & Russell Crowe Collide in The Weight \u26cf\ufe0f\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/the-weight/",
+      "category": "upcoming",
+      "release_date": "2026-09-16",
+      "rating": 6.8
+    },
+    {
+      "id": 19995,
+      "slug": "avatar",
+      "title": "5 Wild Avatar Easter Eggs & Theories You Missed \ud83e\ude90\u2728",
+      "url": "https://cinematicbites.com/hi/stories/avatar/",
+      "category": "theories_easter_eggs",
+      "release_date": "2009-12-16",
+      "rating": 7.6
+    },
+    {
+      "id": 37680,
+      "slug": "suits",
+      "title": "Why Suits Smashed Global Streaming Records \u2696\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/suits/",
+      "category": "series",
+      "release_date": "2011-06-23",
+      "rating": 8.2
+    },
+    {
+      "id": 950028,
+      "slug": "the-invite",
+      "title": "Why Everyone Is Talking About 'The Invite' \ud83c\udf77\ud83d\udc40",
+      "url": "https://cinematicbites.com/hi/stories/the-invite/",
+      "category": "trending",
+      "release_date": "2026-06-25",
+      "rating": 7.2
+    },
+    {
+      "id": 1110034,
+      "slug": "kraken",
+      "title": "Kraken: Norway's New Deep-Sea Horror Awaken \ud83c\udf0a\ud83e\udd91",
+      "url": "https://cinematicbites.com/hi/stories/kraken/",
+      "category": "upcoming",
+      "release_date": "2026-02-06",
+      "rating": 6.2
+    },
+    {
+      "id": 18,
+      "slug": "the-fifth-element",
+      "title": "The Fifth Element: Mind-Blowing Easter Eggs & Hidden Theories \ud83d\udef8\u2728",
+      "url": "https://cinematicbites.com/hi/stories/the-fifth-element/",
+      "category": "theories_easter_eggs",
+      "release_date": "1997-05-02",
+      "rating": 7.6
+    },
+    {
+      "id": 30983,
+      "slug": "detective-conan",
+      "title": "Detective Conan: Why This Anime Mystery Rules Pop Culture \ud83d\udd0d\u2728",
+      "url": "https://cinematicbites.com/hi/stories/detective-conan/",
+      "category": "series",
+      "release_date": "1996-01-08",
+      "rating": 8.0
+    },
+    {
+      "id": 1170608,
+      "slug": "dune-part-three",
+      "title": "Dune 3: Everything We Know About The Epic Finale \ud83c\udf0c\u2694\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/dune-part-three/",
+      "category": "trending",
+      "release_date": "2026-12-15",
+      "rating": 0.0
+    },
+    {
+      "id": 808,
+      "slug": "shrek",
+      "title": "Shrek Secrets: How An Unlikely Ogre Changed Hollywood \ud83e\uddc5\u2728",
+      "url": "https://cinematicbites.com/hi/stories/shrek/",
+      "category": "upcoming",
+      "release_date": "2001-05-18",
+      "rating": 7.8
+    },
+    {
+      "id": 454639,
+      "slug": "masters-of-the-universe",
+      "title": "Masters of the Universe: 5 Wild Secrets & Fan Theories \u2694\ufe0f\u2728",
+      "url": "https://cinematicbites.com/hi/stories/masters-of-the-universe/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-06-03",
+      "rating": 7.1
+    },
+    {
+      "id": 95479,
+      "slug": "jujutsu-kaisen",
+      "title": "JUJUTSU KAISEN: Why Anime's Dark Hit Rules Global Screens \u26a1\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/jujutsu-kaisen/",
+      "category": "series",
+      "release_date": "2020-10-03",
+      "rating": 8.6
+    },
+    {
+      "id": 1108427,
+      "slug": "moana",
+      "title": "Moana: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/moana/",
+      "category": "trending",
+      "release_date": "2026-07-08",
+      "rating": 7.5
+    },
+    {
+      "id": 131634,
+      "slug": "the-hunger-games-mockingjay-part-2",
+      "title": "The Hunger Games: Mockingjay - Part 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-hunger-games-mockingjay-part-2/",
+      "category": "upcoming",
+      "release_date": "2015-11-18",
+      "rating": 6.9
+    },
+    {
+      "id": 198663,
+      "slug": "the-maze-runner",
+      "title": "The Maze Runner: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-maze-runner/",
+      "category": "theories_easter_eggs",
+      "release_date": "2014-09-10",
+      "rating": 7.2
+    },
+    {
+      "id": 71728,
+      "slug": "young-sheldon",
+      "title": "Young Sheldon: Secrets Behind TV's Favorite Genius \ud83e\udde0\u2728",
+      "url": "https://cinematicbites.com/hi/stories/young-sheldon/",
+      "category": "series",
+      "release_date": "2017-09-25",
+      "rating": 8.0
+    },
+    {
+      "id": 1759875,
+      "slug": "the-militia",
+      "title": "Why Gripping Indie Thriller 'The Militia' Is Turning Heads \ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/the-militia/",
+      "category": "trending",
+      "release_date": "2026-09-08",
+      "rating": 8.8
+    },
+    {
+      "id": 1244523,
+      "slug": "beware-boi\u00fana",
+      "title": "Beware Boi\u00fana: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/beware-boi\u00fana/",
+      "category": "upcoming",
+      "release_date": "2026-10-01",
+      "rating": 5.9
+    },
+    {
+      "id": 1265609,
+      "slug": "war-machine",
+      "title": "War Machine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/war-machine/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-02-12",
+      "rating": 7.5
+    },
+    {
+      "id": 71790,
+      "slug": "swat",
+      "title": "S.W.A.T.: Why Shemar Moore's Hit Series Won't Quit \ud83d\udea8\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/swat/",
+      "category": "series",
+      "release_date": "2017-11-02",
+      "rating": 8.0
+    },
+    {
+      "id": 1288059,
+      "slug": "i-want-your-sex",
+      "title": "I Want Your Sex: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/i-want-your-sex/",
+      "category": "trending",
+      "release_date": "2026-07-29",
+      "rating": 6.1
+    },
+    {
+      "id": 466272,
+      "slug": "once-upon-a-time-in-hollywood",
+      "title": "Once Upon a Time... in Hollywood: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/once-upon-a-time-in-hollywood/",
+      "category": "upcoming",
+      "release_date": "2019-07-24",
+      "rating": 7.4
+    },
+    {
+      "id": 798645,
+      "slug": "the-running-man",
+      "title": "The Running Man: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-running-man/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-11-11",
+      "rating": 6.7
+    },
+    {
+      "id": 4629,
+      "slug": "stargate-sg-1",
+      "title": "Stargate SG-1: Why This Sci-Fi Giant Still Rules \ud83c\udf0c\ud83d\udef8",
+      "url": "https://cinematicbites.com/hi/stories/stargate-sg-1/",
+      "category": "series",
+      "release_date": "1997-07-27",
+      "rating": 8.3
+    },
+    {
+      "id": 1084244,
+      "slug": "toy-story-5",
+      "title": "Toy Story 5: Woody & Buzz Face Their Darkest Rival! \ud83e\udd20\ud83d\ude80",
+      "url": "https://cinematicbites.com/hi/stories/toy-story-5/",
+      "category": "trending",
+      "release_date": "2026-06-17",
+      "rating": 8.3
+    },
+    {
+      "id": 1240889,
+      "slug": "teenage-sex-and-death-at-camp-miasma",
+      "title": "Camp Miasma: 2026's Wild Meta-Slasher \ud83e\ude78\ud83c\udfd5\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/teenage-sex-and-death-at-camp-miasma/",
+      "category": "upcoming",
+      "release_date": "2026-08-06",
+      "rating": 6.2
+    },
+    {
+      "id": 1234821,
+      "slug": "jurassic-world-rebirth",
+      "title": "Jurassic World Rebirth: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/jurassic-world-rebirth/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-06-23",
+      "rating": 6.2
+    },
+    {
+      "id": 46260,
+      "slug": "naruto",
+      "title": "Why Naruto Still Dominates Anime Charts \ud83c\udf65\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/naruto/",
+      "category": "series",
+      "release_date": "2002-10-03",
+      "rating": 8.4
+    },
+    {
+      "id": 1315772,
+      "slug": "minions-monsters",
+      "title": "Minions & Monsters: Hollywood's Wildest Disaster \ud83c\udf4c\ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/minions-monsters/",
+      "category": "trending",
+      "release_date": "2026-06-24",
+      "rating": 7.6
+    },
+    {
+      "id": 1159559,
+      "slug": "scream-7",
+      "title": "Scream 7: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/scream-7/",
+      "category": "upcoming",
+      "release_date": "2026-02-25",
+      "rating": 6.2
+    },
+    {
+      "id": 569094,
+      "slug": "spider-man-across-the-spider-verse",
+      "title": "Spider-Man: Across the Spider-Verse: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-across-the-spider-verse/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-05-31",
+      "rating": 8.3
+    },
+    {
+      "id": 1400,
+      "slug": "seinfeld",
+      "title": "Seinfeld: What Happened to the Cast of Nothing? \u2615\ud83d\uddfd",
+      "url": "https://cinematicbites.com/hi/stories/seinfeld/",
+      "category": "series",
+      "release_date": "1989-07-05",
+      "rating": 8.2
+    },
+    {
+      "id": 1654581,
+      "slug": "nayyi-navelli",
+      "title": "Nayyi Navelli: Yami Gautam's Wild Horror-Comedy Twist! \ud83d\udc7b\ud83d\udc70",
+      "url": "https://cinematicbites.com/hi/stories/nayyi-navelli/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 1375441,
+      "slug": "primetime",
+      "title": "Robert Pattinson Takes on True Crime TV in Primetime! \ud83d\udcfa\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/primetime/",
+      "category": "upcoming",
+      "release_date": "2026-09-23",
+      "rating": 6.9
+    },
+    {
+      "id": 447365,
+      "slug": "guardians-of-the-galaxy-vol-3",
+      "title": "Guardians Vol. 3: 5 Wild Easter Eggs & Secrets \ud83d\ude80\ud83d\udd0d",
+      "url": "https://cinematicbites.com/hi/stories/guardians-of-the-galaxy-vol-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-05-03",
+      "rating": 7.9
+    },
+    {
+      "id": 32798,
+      "slug": "hawaii-five-0",
+      "title": "Hawaii Five-0: Why This Island Reboot Became an Action Giant \ud83c\udf34\ud83d\udea8",
+      "url": "https://cinematicbites.com/hi/stories/hawaii-five-0/",
+      "category": "series",
+      "release_date": "2010-09-20",
+      "rating": 7.7
+    },
+    {
+      "id": 1368337,
+      "slug": "the-odyssey",
+      "title": "Nolan's Next Epic: The Odyssey Unleashed \u2694\ufe0f\ud83c\udf0a",
+      "url": "https://cinematicbites.com/hi/stories/the-odyssey/",
+      "category": "trending",
+      "release_date": "2026-07-15",
+      "rating": 8.0
+    },
+    {
+      "id": 1503762,
+      "slug": "sense-and-sensibility",
+      "title": "Sense & Sensibility 2026: Cast, Release & First Details \ud83d\udc52\u2728",
+      "url": "https://cinematicbites.com/hi/stories/sense-and-sensibility/",
+      "category": "upcoming",
+      "release_date": "2026-09-23",
+      "rating": 7.4
+    },
+    {
+      "id": 76341,
+      "slug": "mad-max-fury-road",
+      "title": "Mad Max Fury Road: Wild Fan Theories & Hidden Secrets \ud83d\udc80\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/mad-max-fury-road/",
+      "category": "theories_easter_eggs",
+      "release_date": "2015-05-13",
+      "rating": 7.6
+    },
+    {
+      "id": 65334,
+      "slug": "miraculous-tales-of-ladybug-cat-noir",
+      "title": "Miraculous Ladybug: Why Fans Love Paris\u2019s Top Duo \ud83d\udc1e\u2728",
+      "url": "https://cinematicbites.com/hi/stories/miraculous-tales-of-ladybug-cat-noir/",
+      "category": "series",
+      "release_date": "2015-10-19",
+      "rating": 8.1
+    },
+    {
+      "id": 1376400,
+      "slug": "crawlers",
+      "title": "Crawlers: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/crawlers/",
+      "category": "trending",
+      "release_date": "2026-09-24",
+      "rating": 5.7
+    },
+    {
+      "id": 1765072,
+      "slug": "you-can-see-everything",
+      "title": "You Can See Everything: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/you-can-see-everything/",
+      "category": "upcoming",
+      "release_date": "2026-10-16",
+      "rating": 7.4
+    },
+    {
+      "id": 99861,
+      "slug": "avengers-age-of-ultron",
+      "title": "Avengers: Age of Ultron: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avengers-age-of-ultron/",
+      "category": "theories_easter_eggs",
+      "release_date": "2015-04-22",
+      "rating": 7.3
+    },
+    {
+      "id": 34307,
+      "slug": "shameless",
+      "title": "Shameless: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/shameless/",
+      "category": "series",
+      "release_date": "2011-01-09",
+      "rating": 8.2
+    },
+    {
+      "id": 1452110,
+      "slug": "clean-hands",
+      "title": "Clean Hands: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/clean-hands/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 603,
+      "slug": "the-matrix",
+      "title": "The Matrix: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-matrix/",
+      "category": "upcoming",
+      "release_date": "1999-03-31",
+      "rating": 8.3
+    },
+    {
+      "id": 10138,
+      "slug": "iron-man-2",
+      "title": "Iron Man 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/iron-man-2/",
+      "category": "theories_easter_eggs",
+      "release_date": "2010-04-28",
+      "rating": 6.9
+    },
+    {
+      "id": 60735,
+      "slug": "the-flash",
+      "title": "The Flash: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-flash/",
+      "category": "series",
+      "release_date": "2014-10-07",
+      "rating": 7.7
+    },
+    {
+      "id": 1773759,
+      "slug": "seriously-single-too",
+      "title": "Seriously Single Too: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/seriously-single-too/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 695721,
+      "slug": "the-hunger-games-the-ballad-of-songbirds-snakes",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes: The Untold Story",
+      "url": "https://cinematicbites.com/hi/stories/the-hunger-games-the-ballad-of-songbirds-snakes/",
+      "category": "upcoming",
+      "release_date": "2023-11-15",
+      "rating": 7.0
+    },
+    {
+      "id": 580489,
+      "slug": "venom-let-there-be-carnage",
+      "title": "Venom: Let There Be Carnage: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/venom-let-there-be-carnage/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-09-30",
+      "rating": 6.7
+    },
+    {
+      "id": 46952,
+      "slug": "the-blacklist",
+      "title": "The Blacklist: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-blacklist/",
+      "category": "series",
+      "release_date": "2013-09-23",
+      "rating": 7.6
+    },
+    {
+      "id": 1487317,
+      "slug": "therapy-done-right",
+      "title": "Therapy Done Right: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/therapy-done-right/",
+      "category": "trending",
+      "release_date": "2026-10-08",
+      "rating": 0.0
+    },
+    {
+      "id": 1465063,
+      "slug": "forgotten-island",
+      "title": "Forgotten Island: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/forgotten-island/",
+      "category": "upcoming",
+      "release_date": "2026-09-10",
+      "rating": 8.0
+    },
+    {
+      "id": 68721,
+      "slug": "iron-man-3",
+      "title": "Iron Man 3: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/iron-man-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-04-18",
+      "rating": 6.9
+    },
+    {
+      "id": 65701,
+      "slug": "good-mythical-morning",
+      "title": "Good Mythical Morning: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/good-mythical-morning/",
+      "category": "series",
+      "release_date": "2012-01-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1284186,
+      "slug": "sacrifice",
+      "title": "Sacrifice: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/sacrifice/",
+      "category": "trending",
+      "release_date": "2026-04-09",
+      "rating": 5.7
+    },
+    {
+      "id": 1212763,
+      "slug": "evil-dead-burn",
+      "title": "Evil Dead Burn: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/evil-dead-burn/",
+      "category": "upcoming",
+      "release_date": "2026-07-07",
+      "rating": 7.6
+    },
+    {
+      "id": 218,
+      "slug": "the-terminator",
+      "title": "The Terminator: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-terminator/",
+      "category": "theories_easter_eggs",
+      "release_date": "1984-10-26",
+      "rating": 7.7
+    },
+    {
+      "id": 1402,
+      "slug": "the-walking-dead",
+      "title": "The Walking Dead: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-walking-dead/",
+      "category": "series",
+      "release_date": "2010-10-31",
+      "rating": 8.1
+    },
+    {
+      "id": 1288069,
+      "slug": "tenzing",
+      "title": "Tenzing: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tenzing/",
+      "category": "trending",
+      "release_date": "2026-10-09",
+      "rating": 6.2
+    },
+    {
+      "id": 1281331,
+      "slug": "the-social-reckoning",
+      "title": "The Social Reckoning: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-social-reckoning/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 6.9
+    },
+    {
+      "id": 634649,
+      "slug": "spider-man-no-way-home",
+      "title": "Spider-Man: No Way Home: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-no-way-home/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-12-15",
+      "rating": 7.9
+    },
+    {
+      "id": 60572,
+      "slug": "pok\u00e9mon",
+      "title": "Pok\u00e9mon: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/pok\u00e9mon/",
+      "category": "series",
+      "release_date": "1997-04-01",
+      "rating": 8.0
+    },
+    {
+      "id": 1561726,
+      "slug": "masterplan",
+      "title": "Masterplan: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/masterplan/",
+      "category": "trending",
+      "release_date": "2026-10-16",
+      "rating": 0.0
+    },
+    {
+      "id": 1491920,
+      "slug": "kung-fu-soccer",
+      "title": "Kung Fu Soccer: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/kung-fu-soccer/",
+      "category": "upcoming",
+      "release_date": "2026-07-11",
+      "rating": 5.8
+    },
+    {
+      "id": 786892,
+      "slug": "furiosa-a-mad-max-saga",
+      "title": "Furiosa: A Mad Max Saga: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/furiosa-a-mad-max-saga/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-05-22",
+      "rating": 7.4
+    },
+    {
+      "id": 502,
+      "slug": "sesame-street",
+      "title": "Sesame Street: 50+ Years of Pure TV Magic \ud83c\udf1f\ud83c\udf88",
+      "url": "https://cinematicbites.com/hi/stories/sesame-street/",
+      "category": "series",
+      "release_date": "1969-11-10",
+      "rating": 7.1
+    },
+    {
+      "id": 1234139,
+      "slug": "jailer-2",
+      "title": "Jailer 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/jailer-2/",
+      "category": "trending",
+      "release_date": "2026-10-14",
+      "rating": 6.0
+    },
+    {
+      "id": 1273221,
+      "slug": "scary-movie",
+      "title": "Scary Movie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/scary-movie/",
+      "category": "upcoming",
+      "release_date": "2026-06-03",
+      "rating": 6.3
+    },
+    {
+      "id": 76600,
+      "slug": "avatar-the-way-of-water",
+      "title": "Avatar: The Way of Water: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avatar-the-way-of-water/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-12-14",
+      "rating": 7.6
+    },
+    {
+      "id": 4656,
+      "slug": "raw",
+      "title": "Raw: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/raw/",
+      "category": "series",
+      "release_date": "1993-01-11",
+      "rating": 6.8
+    },
+    {
+      "id": 1623256,
+      "slug": "the-storm",
+      "title": "The Storm: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-storm/",
+      "category": "trending",
+      "release_date": "2026-10-15",
+      "rating": 8.8
+    },
+    {
+      "id": 1083381,
+      "slug": "backrooms",
+      "title": "Backrooms: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/backrooms/",
+      "category": "upcoming",
+      "release_date": "2026-05-27",
+      "rating": 7.0
+    },
+    {
+      "id": 617126,
+      "slug": "the-fantastic-4-first-steps",
+      "title": "The Fantastic 4: First Steps: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-fantastic-4-first-steps/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-07-23",
+      "rating": 6.9
+    },
+    {
+      "id": 15226,
+      "slug": "cid",
+      "title": "C.I.D.: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/cid/",
+      "category": "series",
+      "release_date": "1998-01-21",
+      "rating": 5.8
+    },
+    {
+      "id": 1187326,
+      "slug": "tad-and-the-magic-lamp",
+      "title": "Tad and The Magic Lamp: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/tad-and-the-magic-lamp/",
+      "category": "trending",
+      "release_date": "2026-08-26",
+      "rating": 7.1
+    },
+    {
+      "id": 1339713,
+      "slug": "obsession",
+      "title": "Obsession: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/obsession/",
+      "category": "upcoming",
+      "release_date": "2026-05-13",
+      "rating": 8.2
+    },
+    {
+      "id": 1081003,
+      "slug": "supergirl",
+      "title": "Supergirl: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/supergirl/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-06-24",
+      "rating": 6.7
+    },
+    {
+      "id": 1416,
+      "slug": "greys-anatomy",
+      "title": "Grey's Anatomy: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/greys-anatomy/",
+      "category": "series",
+      "release_date": "2005-03-27",
+      "rating": 8.2
+    },
+    {
+      "id": 1375161,
+      "slug": "dont-move",
+      "title": "Don't Move: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/dont-move/",
+      "category": "trending",
+      "release_date": "2026-09-11",
+      "rating": 5.9
+    },
+    {
+      "id": 131631,
+      "slug": "the-hunger-games-mockingjay-part-1",
+      "title": "The Hunger Games: Mockingjay - Part 1: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-hunger-games-mockingjay-part-1/",
+      "category": "upcoming",
+      "release_date": "2014-11-19",
+      "rating": 6.8
+    },
+    {
+      "id": 1228710,
+      "slug": "the-mandalorian-and-grogu",
+      "title": "The Mandalorian and Grogu: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-mandalorian-and-grogu/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-05-20",
+      "rating": 7.5
+    },
+    {
+      "id": 4614,
+      "slug": "ncis",
+      "title": "Why NCIS Remains TV's Greatest Crime Drama Powerhouse \u2693\ud83d\udcfa",
+      "url": "https://cinematicbites.com/hi/stories/ncis/",
+      "category": "series",
+      "release_date": "2003-09-23",
+      "rating": 7.6
+    },
+    {
+      "id": 1400940,
+      "slug": "clayface",
+      "title": "Clayface: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/clayface/",
+      "category": "trending",
+      "release_date": "2026-10-21",
+      "rating": 10.0
+    },
+    {
+      "id": 1610703,
+      "slug": "infirmary",
+      "title": "Infirmary: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/infirmary/",
+      "category": "upcoming",
+      "release_date": "2026-10-02",
+      "rating": 5.4
+    },
+    {
+      "id": 24428,
+      "slug": "the-avengers",
+      "title": "The Avengers: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-avengers/",
+      "category": "theories_easter_eggs",
+      "release_date": "2012-04-25",
+      "rating": 8.1
+    },
+    {
+      "id": 549,
+      "slug": "law-order",
+      "title": "Law & Order: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/law-order/",
+      "category": "series",
+      "release_date": "1990-09-13",
+      "rating": 7.3
+    },
+    {
+      "id": 1283515,
+      "slug": "verity",
+      "title": "Verity: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/verity/",
+      "category": "trending",
+      "release_date": "2026-09-30",
+      "rating": 6.3
+    },
+    {
+      "id": 1477712,
+      "slug": "ice-cream-man",
+      "title": "Ice Cream Man: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/ice-cream-man/",
+      "category": "upcoming",
+      "release_date": "2026-08-03",
+      "rating": 4.9
+    },
+    {
+      "id": 533535,
+      "slug": "deadpool-wolverine",
+      "title": "Deadpool & Wolverine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/deadpool-wolverine/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-07-24",
+      "rating": 7.6
+    },
+    {
+      "id": 247718,
+      "slug": "mobland",
+      "title": "MobLand: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/mobland/",
+      "category": "series",
+      "release_date": "2025-03-30",
+      "rating": 8.5
+    },
+    {
+      "id": 1514026,
+      "slug": "buddy",
+      "title": "Buddy: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/buddy/",
+      "category": "trending",
+      "release_date": "2026-08-27",
+      "rating": 7.6
+    },
+    {
+      "id": 1263337,
+      "slug": "heart-of-the-beast",
+      "title": "Heart of the Beast: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/heart-of-the-beast/",
+      "category": "upcoming",
+      "release_date": "2026-09-19",
+      "rating": 7.4
+    },
+    {
+      "id": 11,
+      "slug": "star-wars",
+      "title": "Star Wars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/star-wars/",
+      "category": "theories_easter_eggs",
+      "release_date": "1977-05-25",
+      "rating": 8.2
+    },
+    {
+      "id": 97546,
+      "slug": "ted-lasso",
+      "title": "Ted Lasso: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/ted-lasso/",
+      "category": "series",
+      "release_date": "2020-08-14",
+      "rating": 8.4
+    },
+    {
+      "id": 1255833,
+      "slug": "whalefall",
+      "title": "Whalefall: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/whalefall/",
+      "category": "trending",
+      "release_date": "2026-10-14",
+      "rating": 10.0
+    },
+    {
+      "id": 1284046,
+      "slug": "onslaught",
+      "title": "Onslaught: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/onslaught/",
+      "category": "upcoming",
+      "release_date": "2026-09-02",
+      "rating": 5.8
+    },
+    {
+      "id": 299534,
+      "slug": "avengers-endgame",
+      "title": "Avengers: Endgame: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avengers-endgame/",
+      "category": "theories_easter_eggs",
+      "release_date": "2019-04-24",
+      "rating": 8.2
+    },
+    {
+      "id": 95480,
+      "slug": "slow-horses",
+      "title": "Slow Horses: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/slow-horses/",
+      "category": "series",
+      "release_date": "2022-04-01",
+      "rating": 8.0
+    },
+    {
+      "id": 1302904,
+      "slug": "practical-magic-2",
+      "title": "Practical Magic 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/practical-magic-2/",
+      "category": "trending",
+      "release_date": "2026-09-09",
+      "rating": 6.4
+    },
+    {
+      "id": 1232569,
+      "slug": "pinocchio-unstrung",
+      "title": "Pinocchio: Unstrung: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/pinocchio-unstrung/",
+      "category": "upcoming",
+      "release_date": "2026-07-22",
+      "rating": 6.5
+    },
+    {
+      "id": 299536,
+      "slug": "avengers-infinity-war",
+      "title": "Avengers: Infinity War: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avengers-infinity-war/",
+      "category": "theories_easter_eggs",
+      "release_date": "2018-04-25",
+      "rating": 8.2
+    },
+    {
+      "id": 289892,
+      "slug": "helluva-boss",
+      "title": "Helluva Boss: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/helluva-boss/",
+      "category": "series",
+      "release_date": "2020-10-31",
+      "rating": 7.5
+    },
+    {
+      "id": 1153576,
+      "slug": "street-fighter",
+      "title": "Street Fighter: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/street-fighter/",
+      "category": "trending",
+      "release_date": "2026-10-13",
+      "rating": 6.5
+    },
+    {
+      "id": 1400837,
+      "slug": "other-mommy",
+      "title": "Other Mommy: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/other-mommy/",
+      "category": "upcoming",
+      "release_date": "2026-10-07",
+      "rating": 6.0
+    },
+    {
+      "id": 1375646,
+      "slug": "colony",
+      "title": "Colony: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/colony/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-05-21",
+      "rating": 8.1
+    },
+    {
+      "id": 312359,
+      "slug": "dragon-ball-super-beerus",
+      "title": "Dragon Ball Super: Beerus: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/dragon-ball-super-beerus/",
+      "category": "series",
+      "release_date": "2026-10-11",
+      "rating": 9.8
+    },
+    {
+      "id": 1381078,
+      "slug": "love-of-your-life",
+      "title": "Love of Your Life: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/love-of-your-life/",
+      "category": "trending",
+      "release_date": "2026-10-07",
+      "rating": 6.3
+    },
+    {
+      "id": 1294189,
+      "slug": "the-mongoose",
+      "title": "The Mongoose: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-mongoose/",
+      "category": "upcoming",
+      "release_date": "2026-10-29",
+      "rating": 0.0
+    },
+    {
+      "id": 460458,
+      "slug": "resident-evil-welcome-to-raccoon-city",
+      "title": "Resident Evil: Welcome to Raccoon City: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/resident-evil-welcome-to-raccoon-city/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-11-24",
+      "rating": 5.9
+    },
+    {
+      "id": 123542,
+      "slug": "link-click",
+      "title": "LINK CLICK: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/link-click/",
+      "category": "series",
+      "release_date": "2021-04-30",
+      "rating": 8.1
+    },
+    {
+      "id": 213375,
+      "slug": "visionquest",
+      "title": "VisionQuest: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/visionquest/",
+      "category": "series",
+      "release_date": "2026-10-13",
+      "rating": 9.5
+    },
+    {
+      "id": 288673,
+      "slug": "carrie",
+      "title": "Carrie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/carrie/",
+      "category": "series",
+      "release_date": "2026-10-07",
+      "rating": 8.5
+    },
+    {
+      "id": 969681,
+      "slug": "spider-man-brand-new-day",
+      "title": "Spider-Man: Brand New Day: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-brand-new-day/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-07-29",
+      "rating": 8.5
+    },
+    {
+      "id": 1236045,
+      "slug": "animals",
+      "title": "Animals: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/animals/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-10-09",
+      "rating": 7.3
+    },
+    {
+      "id": 1058424,
+      "slug": "hope",
+      "title": "Hope: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/hope/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-07-15",
+      "rating": 7.2
+    },
+    {
+      "id": 108188,
+      "slug": "barbara-karlich-talk-um-4",
+      "title": "Barbara Karlich \u2013 Talk um 4: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/barbara-karlich-talk-um-4/",
+      "category": "series",
+      "release_date": "1999-10-27",
+      "rating": 4.5
+    },
+    {
+      "id": 22980,
+      "slug": "watch-what-happens-live-with-andy-cohen",
+      "title": "Watch What Happens Live with Andy Cohen: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/watch-what-happens-live-with-andy-cohen/",
+      "category": "series",
+      "release_date": "2009-07-16",
+      "rating": 4.9
+    },
+    {
+      "id": 91759,
+      "slug": "come-home-love-lo-and-behold",
+      "title": "Come Home Love: Lo and Behold: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/come-home-love-lo-and-behold/",
+      "category": "series",
+      "release_date": "2017-02-20",
+      "rating": 5.4
+    },
+    {
+      "id": 980431,
+      "slug": "avatar-aang-the-last-airbender",
+      "title": "Avatar Aang: The Last Airbender: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avatar-aang-the-last-airbender/",
+      "category": "cult_classic",
+      "release_date": "2026-07-24",
+      "rating": 9.1
+    },
+    {
+      "id": 1560520,
+      "slug": "batman-knightfall-part-1-knightfall",
+      "title": "Batman: Knightfall Part 1: Knightfall: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/batman-knightfall-part-1-knightfall/",
+      "category": "cult_classic",
+      "release_date": "2026-06-23",
+      "rating": 9.1
+    },
+    {
+      "id": 1007757,
+      "slug": "swapped",
+      "title": "Swapped: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/swapped/",
+      "category": "cult_classic",
+      "release_date": "2026-05-01",
+      "rating": 8.9
+    },
+    {
+      "id": 1440098,
+      "slug": "drawn-together",
+      "title": "Drawn Together: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/drawn-together/",
+      "category": "steamy_thrillers",
+      "release_date": "2026-09-09",
+      "rating": 6.9
+    },
+    {
+      "id": 1010581,
+      "slug": "my-fault",
+      "title": "My Fault: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/my-fault/",
+      "category": "steamy_thrillers",
+      "release_date": "2023-06-08",
+      "rating": 7.7
+    },
+    {
+      "id": 950396,
+      "slug": "the-gorge",
+      "title": "The Gorge: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-gorge/",
+      "category": "steamy_thrillers",
+      "release_date": "2025-02-13",
+      "rating": 7.7
+    },
+    {
+      "id": 1101412,
+      "slug": "fall-2-deadpoint",
+      "title": "Fall 2: Deadpoint: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/fall-2-deadpoint/",
+      "category": "upcoming",
+      "release_date": "2026-09-01",
+      "rating": 7.3
+    },
+    {
+      "id": 1377237,
+      "slug": "runner",
+      "title": "Runner: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/runner/",
+      "category": "upcoming",
+      "release_date": "2026-09-07",
+      "rating": 8.3
+    },
+    {
+      "id": 1228834,
+      "slug": "the-fix",
+      "title": "The Fix: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-fix/",
+      "category": "upcoming",
+      "release_date": "2026-09-10",
+      "rating": 6.8
+    },
+    {
+      "id": 285322,
+      "slug": "below",
+      "title": "Below: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/below/",
+      "category": "series",
+      "release_date": "2026-10-08",
+      "rating": 7.3
+    },
+    {
+      "id": 95350,
+      "slug": "lanterns",
+      "title": "Lanterns: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/lanterns/",
+      "category": "series",
+      "release_date": "2026-08-16",
+      "rating": 8.3
+    },
+    {
+      "id": 1148365,
+      "slug": "matchbox-the-movie",
+      "title": "Matchbox the Movie: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/matchbox-the-movie/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-10-05",
+      "rating": 8.0
+    },
+    {
+      "id": 70998,
+      "slug": "souryo-to-majiwaru-shikiyoku-no-yoru-ni",
+      "title": "Souryo to Majiwaru Shikiyoku no Yoru ni...: The Untold Story & Secre",
+      "url": "https://cinematicbites.com/hi/stories/souryo-to-majiwaru-shikiyoku-no-yoru-ni/",
+      "category": "series",
+      "release_date": "2017-04-03",
+      "rating": 5.5
+    },
+    {
+      "id": 216015,
+      "slug": "fifty-shades-of-grey",
+      "title": "Fifty Shades: 5 Untold Secrets Behind Christian Grey's Empire \ud83d\udda4\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/fifty-shades-of-grey/",
+      "category": "steamy_thrillers",
+      "release_date": "2015-02-11",
+      "rating": 5.9
+    },
+    {
+      "id": 289423,
+      "slug": "take-charge-of-my-heart",
+      "title": "Take Charge of My Heart: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/take-charge-of-my-heart/",
+      "category": "series",
+      "release_date": "2026-10-09",
+      "rating": 0.0
+    },
+    {
+      "id": 1291595,
+      "slug": "insidious-out-of-the-further",
+      "title": "Insidious: Out of the Further: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/insidious-out-of-the-further/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-08-19",
+      "rating": 7.6
+    },
+    {
+      "id": 1248832,
+      "slug": "digger",
+      "title": "Digger: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/digger/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-28",
+      "rating": 7.5
+    },
+    {
+      "id": 108978,
+      "slug": "reacher",
+      "title": "Reacher: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/reacher/",
+      "category": "series",
+      "release_date": "2022-02-03",
+      "rating": 8.1
+    },
+    {
+      "id": 258165,
+      "slug": "east-of-eden",
+      "title": "East of Eden: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/east-of-eden/",
+      "category": "series",
+      "release_date": "2026-10-01",
+      "rating": 7.9
+    },
+    {
+      "id": 37854,
+      "slug": "one-piece",
+      "title": "One Piece: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/one-piece/",
+      "category": "series",
+      "release_date": "1999-10-20",
+      "rating": 8.8
+    },
+    {
+      "id": 1423191,
+      "slug": "resident-evil",
+      "title": "Resident Evil: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/resident-evil/",
+      "category": "upcoming",
+      "release_date": "2026-09-16",
+      "rating": 7.3
+    },
+    {
+      "id": 1204680,
+      "slug": "coyote-vs-acme",
+      "title": "Coyote vs. Acme: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/coyote-vs-acme/",
+      "category": "upcoming",
+      "release_date": "2026-08-17",
+      "rating": 7.5
+    },
+    {
+      "id": 290856,
+      "slug": "marshals",
+      "title": "Marshals: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/marshals/",
+      "category": "series",
+      "release_date": "2026-03-01",
+      "rating": 7.9
+    },
+    {
+      "id": 977942,
+      "slug": "the-uprising",
+      "title": "The Uprising: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-uprising/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-09-10",
+      "rating": 7.9
+    },
+    {
+      "id": 59941,
+      "slug": "the-tonight-show-starring-jimmy-fallon",
+      "title": "The Tonight Show Starring Jimmy Fallon: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-tonight-show-starring-jimmy-fallon/",
+      "category": "series",
+      "release_date": "2014-02-17",
+      "rating": 5.8
+    },
+    {
+      "id": 298505,
+      "slug": "coven-academy",
+      "title": "Coven Academy: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/coven-academy/",
+      "category": "series",
+      "release_date": "2026-10-01",
+      "rating": 7.3
+    },
+    {
+      "id": 73223,
+      "slug": "black-clover",
+      "title": "Black Clover: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/black-clover/",
+      "category": "series",
+      "release_date": "2017-10-03",
+      "rating": 8.5
+    },
+    {
+      "id": 1003596,
+      "slug": "avengers-doomsday",
+      "title": "Avengers: Doomsday: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/avengers-doomsday/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-12-16",
+      "rating": 0.0
+    },
+    {
+      "id": 999101,
+      "slug": "streaming-weekly-top-10-us-uk",
+      "title": "Top 10 Streaming Hits This Week in the US & UK \ud83c\udf7f\ud83d\udcca",
+      "url": "https://cinematicbites.com/hi/stories/streaming-weekly-top-10-us-uk/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-01",
+      "rating": 8.8
+    },
+    {
+      "id": 106379,
+      "slug": "fallout-prime-video",
+      "title": "Fallout: 5 Mind-Blowing Vault Secrets That Broke Prime Video \u2622\ufe0f Vault 33",
+      "url": "https://cinematicbites.com/hi/stories/fallout-prime-video/",
+      "category": "streaming_charts",
+      "release_date": "2024-04-10",
+      "rating": 8.3
+    },
+    {
+      "id": 94997,
+      "slug": "house-of-the-dragon",
+      "title": "Dance of the Dragons: 5 Brutal Westeros Clashes On HBO Max \ud83d\udc09\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/house-of-the-dragon/",
+      "category": "streaming_charts",
+      "release_date": "2022-08-21",
+      "rating": 8.4
+    },
+    {
+      "id": 126308,
+      "slug": "shogun",
+      "title": "Master of Deception: 5 Epic Feudal Power Plays in Sh\u014dgun \u2694\ufe0f\ud83c\udfef",
+      "url": "https://cinematicbites.com/hi/stories/shogun/",
+      "category": "streaming_charts",
+      "release_date": "2024-02-27",
+      "rating": 8.5
+    },
+    {
+      "id": 999201,
+      "slug": "marvel-post-credit-theories",
+      "title": "Marvel Post-Credits: 6 Insane Easter Eggs & Secret Wars Theories \ud83e\uddb8\u200d\u2642\ufe0f\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/marvel-post-credit-theories/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-07-26",
+      "rating": 8.5
+    },
+    {
+      "id": 999202,
+      "slug": "dc-easter-eggs-theories",
+      "title": "DC Universe Secrets: 5 Dark Easter Eggs & Multiverse Theories \ud83e\udd87\ud83c\udccf",
+      "url": "https://cinematicbites.com/hi/stories/dc-easter-eggs-theories/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-03-04",
+      "rating": 8.3
+    },
+    {
+      "id": 634649,
+      "slug": "spiderman-venom-post-credits",
+      "title": "Spider-Man & Venom: 5 Post-Credit Clues Connecting The Multiverse \ud83d\udd77\ufe0f\ud83d\udda4",
+      "url": "https://cinematicbites.com/hi/stories/spiderman-venom-post-credits/",
+      "category": "theories_easter_eggs",
+      "release_date": "2021-12-17",
+      "rating": 8.4
+    },
+    {
+      "id": 1668,
+      "slug": "friends-where-are-they-now",
+      "title": "Friends: Where Are The Central Perk Stars Today? \u2615\u2728",
+      "url": "https://cinematicbites.com/hi/stories/friends-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "1994-09-22",
+      "rating": 8.5
+    },
+    {
+      "id": 2316,
+      "slug": "the-office-where-are-they-now",
+      "title": "The Office: Where Is The Dunder Mifflin Cast In 2026? \ud83d\udcc4\ud83d\udcce",
+      "url": "https://cinematicbites.com/hi/stories/the-office-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "2005-03-24",
+      "rating": 8.6
+    },
+    {
+      "id": 999301,
+      "slug": "sitcom-stars-where-are-they-now",
+      "title": "Where Are They Now? 5 Popular 90s/2000s Sitcom Stars \ud83d\udcfa\u2728",
+      "url": "https://cinematicbites.com/hi/stories/sitcom-stars-where-are-they-now/",
+      "category": "where_are_they_now",
+      "release_date": "2000-01-09",
+      "rating": 8.4
+    },
+    {
+      "id": 71446,
+      "slug": "money-heist",
+      "title": "Bella Ciao! 5 Insane Professor Masterstrokes You Missed \ud83d\udcb0",
+      "url": "https://cinematicbites.com/hi/stories/money-heist/",
+      "category": "netflix_hits",
+      "release_date": "2017-05-02",
+      "rating": 8.2
+    },
+    {
+      "id": 66732,
+      "slug": "stranger-things",
+      "title": "The Upside Down: 5 Dark Secrets Ahead Of Season 5 \ud83d\udeb2\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/stranger-things/",
+      "category": "series",
+      "release_date": "2016-07-15",
+      "rating": 8.6
+    },
+    {
+      "id": 76479,
+      "slug": "the-boys",
+      "title": "Homelander Unhinged: 5 Sickest Twists In The Boys \ud83e\ude78\ud83e\uddb8\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-boys/",
+      "category": "series",
+      "release_date": "2019-07-26",
+      "rating": 8.5
+    },
+    {
+      "id": 1396,
+      "slug": "breaking-bad",
+      "title": "I Am The Danger: How Walter White Became TV's Greatest Villain \u2697\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/breaking-bad/",
+      "category": "series",
+      "release_date": "2008-01-20",
+      "rating": 8.9
+    },
+    {
+      "id": 119051,
+      "slug": "wednesday",
+      "title": "Wednesday Addams: 5 Goth Secrets That Broke Netflix Records \ud83d\udda4\ud83d\udd77\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/wednesday/",
+      "category": "netflix_hits",
+      "release_date": "2022-11-23",
+      "rating": 8.4
+    },
+    {
+      "id": 1399,
+      "slug": "game-of-thrones",
+      "title": "Winter Is Here: 5 Shocking Westeros Secrets Finally Unveiled \ud83d\udc09\u2694\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/game-of-thrones/",
+      "category": "series",
+      "release_date": "2011-04-17",
+      "rating": 8.4
+    },
+    {
+      "id": 93405,
+      "slug": "squid-game",
+      "title": "Red Light, Green Light: 5 Twisted Rules of Squid Game \ud83d\udd34\ud83d\udfe2",
+      "url": "https://cinematicbites.com/hi/stories/squid-game/",
+      "category": "netflix_hits",
+      "release_date": "2021-09-17",
+      "rating": 7.8
+    },
+    {
+      "id": 100088,
+      "slug": "the-last-of-us",
+      "title": "Endure & Survive: 5 Cordyceps Secrets In The Last of Us \ud83c\udf44\ud83e\udddf",
+      "url": "https://cinematicbites.com/hi/stories/the-last-of-us/",
+      "category": "series",
+      "release_date": "2023-01-15",
+      "rating": 8.6
+    },
+    {
+      "id": 603692,
+      "slug": "john-wick-chapter-4",
+      "title": "Baba Yaga Returns: 442 Kills & Insane Stunt Secrets Revealed \ud83d\udd2b\ud83e\udd4b",
+      "url": "https://cinematicbites.com/hi/stories/john-wick-chapter-4/",
+      "category": "trending",
+      "release_date": "2023-03-22",
+      "rating": 7.7
+    },
+    {
+      "id": 533535,
+      "slug": "deadpool-and-wolverine",
+      "title": "Maximum Effort! 5 Mindblowing Marvel Cameos & Secrets \u2694\ufe0f\ud83c\udf7f",
+      "url": "https://cinematicbites.com/hi/stories/deadpool-and-wolverine/",
+      "category": "trending",
+      "release_date": "2024-07-26",
+      "rating": 7.7
+    },
+    {
+      "id": 693134,
+      "slug": "dune-part-two",
+      "title": "Shai-Hulud Unleashed: 5 Epic Dune 2 Secrets You Missed \ud83c\udfdc\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/dune-part-two/",
+      "category": "trending",
+      "release_date": "2024-03-01",
+      "rating": 8.2
+    },
+    {
+      "id": 718821,
+      "slug": "twisters",
+      "title": "Rodeo Wranglers vs EF5 Monsters: 5 Wild Twisters Secrets \ud83c\udf2a\ufe0f\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/twisters/",
+      "category": "trending",
+      "release_date": "2024-07-19",
+      "rating": 7.0
+    },
+    {
+      "id": 792307,
+      "slug": "poor-things",
+      "title": "Bella Baxter's Odyssey: 5 Bizarre Secrets of Poor Things \ud83e\udda2\ud83c\udfa9",
+      "url": "https://cinematicbites.com/hi/stories/poor-things/",
+      "category": "trending",
+      "release_date": "2023-12-08",
+      "rating": 7.8
+    },
+    {
+      "id": 9532,
+      "slug": "final-destination",
+      "title": "Death's Plan: 5 Terrifying Accidental Kill Traps Ranked \ud83d\udc80",
+      "url": "https://cinematicbites.com/hi/stories/final-destination/",
+      "category": "cult_classic",
+      "release_date": "2000-03-17",
+      "rating": 6.6
+    },
+    {
+      "id": 157336,
+      "slug": "interstellar",
+      "title": "Into The Black Hole: 5 Christopher Nolan Mindfucks In Interstellar \ud83d\ude80\u23f3",
+      "url": "https://cinematicbites.com/hi/stories/interstellar/",
+      "category": "cult_classic",
+      "release_date": "2014-11-05",
+      "rating": 8.4
+    },
+    {
+      "id": 27205,
+      "slug": "inception",
+      "title": "Did The Top Stop Spinning? 5 Mind-Bending Inception Secrets \ud83c\udf00\ud83d\udca4",
+      "url": "https://cinematicbites.com/hi/stories/inception/",
+      "category": "cult_classic",
+      "release_date": "2010-07-15",
+      "rating": 8.4
+    },
+    {
+      "id": 155,
+      "slug": "the-dark-knight",
+      "title": "Why So Serious? How Heath Ledger's Joker Made Movie History \ud83c\udccf\ud83e\udd87",
+      "url": "https://cinematicbites.com/hi/stories/the-dark-knight/",
+      "category": "cult_classic",
+      "release_date": "2008-07-16",
+      "rating": 8.5
+    },
+    {
+      "id": 872585,
+      "slug": "oppenheimer",
+      "title": "Trinity Detonation: 5 Mind-Blowing Secrets of Oppenheimer \ud83d\udca5\u2622\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/oppenheimer/",
+      "category": "cult_classic",
+      "release_date": "2023-07-21",
+      "rating": 8.1
+    },
+    {
+      "id": 664413,
+      "slug": "365-days",
+      "title": "365 Days: Why Netflix's Bold Sensation Broke Global Records \ud83d\udd25\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/365-days/",
+      "category": "netflix_hits",
+      "release_date": "2020-02-07",
+      "rating": 5.6
+    },
+    {
+      "id": 402,
+      "slug": "basic-instinct",
+      "title": "Basic Instinct: 5 Mind-Games That Defined The Erotic Thriller \ud83e\uddca\u26a1",
+      "url": "https://cinematicbites.com/hi/stories/basic-instinct/",
+      "category": "steamy_thrillers",
+      "release_date": "1992-03-20",
+      "rating": 6.9
+    },
+    {
+      "id": 930564,
+      "slug": "saltburn",
+      "title": "Saltburn: 5 Twisted Mind Games & Shocking Estate Secrets \ud83c\udff0\ud83c\udf77",
+      "url": "https://cinematicbites.com/hi/stories/saltburn/",
+      "category": "steamy_thrillers",
+      "release_date": "2023-11-17",
+      "rating": 7.1
+    },
+    {
+      "id": 558449,
+      "slug": "gladiator-ii",
+      "title": "Echoes In Eternity: Inside Ridley Scott's Epic Colosseum War \ud83c\udfdb\ufe0f\u2694\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/gladiator-ii/",
+      "category": "upcoming",
+      "release_date": "2024-11-22",
+      "rating": 6.8
+    },
+    {
+      "id": null,
+      "slug": "a-better-jianghu",
+      "title": "A Better Jianghu: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/a-better-jianghu/",
+      "category": "trending",
+      "release_date": "2026-09-27",
+      "rating": "6.5"
+    },
+    {
+      "id": null,
+      "slug": "black-adam",
+      "title": "Black Adam: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/black-adam/",
+      "category": "theories_easter_eggs",
+      "release_date": "2022-10-19",
+      "rating": "6.8"
+    },
+    {
+      "id": null,
+      "slug": "bojack-horseman",
+      "title": "BoJack Horseman: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/bojack-horseman/",
+      "category": "series",
+      "release_date": "2014-08-22",
+      "rating": "8.5"
+    },
+    {
+      "id": null,
+      "slug": "brooklyn-nine-nine",
+      "title": "Brooklyn Nine-Nine: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/brooklyn-nine-nine/",
+      "category": "series",
+      "release_date": "2013-09-17",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "captain-america-civil-war",
+      "title": "Captain America: Civil War: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/captain-america-civil-war/",
+      "category": "theories_easter_eggs",
+      "release_date": "2016-04-27",
+      "rating": "7.5"
+    },
+    {
+      "id": null,
+      "slug": "despicable-me-4",
+      "title": "Despicable Me 4: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/despicable-me-4/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-06-20",
+      "rating": "7.0"
+    },
+    {
+      "id": null,
+      "slug": "ghost-in-the-cell",
+      "title": "Ghost in the Cell: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/ghost-in-the-cell/",
+      "category": "upcoming",
+      "release_date": "2026-04-16",
+      "rating": "6.9"
+    },
+    {
+      "id": null,
+      "slug": "gossip-girl",
+      "title": "Gossip Girl: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/gossip-girl/",
+      "category": "series",
+      "release_date": "2007-09-19",
+      "rating": "8.1"
+    },
+    {
+      "id": null,
+      "slug": "guardians-of-the-galaxy-vol-2",
+      "title": "Guardians of the Galaxy Vol. 2: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/guardians-of-the-galaxy-vol-2/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-04-25",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "love-language",
+      "title": "Love Language: Chlo\u00eb Grace Moretz\u2019s Wild Rom-Com \ud83d\udc8d\u2728",
+      "url": "https://cinematicbites.com/hi/stories/love-language/",
+      "category": "trending",
+      "release_date": "2026-10-23",
+      "rating": "10.0"
+    },
+    {
+      "id": null,
+      "slug": "man-of-steel",
+      "title": "Man of Steel: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/man-of-steel/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-06-12",
+      "rating": "6.7"
+    },
+    {
+      "id": null,
+      "slug": "my-little-pony-friendship-is-magic",
+      "title": "My Little Pony: Friendship Is Magic: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/my-little-pony-friendship-is-magic/",
+      "category": "series",
+      "release_date": "2010-10-10",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "ninjago-masters-of-spinjitzu",
+      "title": "Ninjago: Masters of Spinjitzu - 6 Secrets Behind the Hit \u26a1\ud83e\udd4b",
+      "url": "https://cinematicbites.com/hi/stories/ninjago-masters-of-spinjitzu/",
+      "category": "series",
+      "release_date": "2012-01-11",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "oblivion",
+      "title": "Oblivion: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/oblivion/",
+      "category": "theories_easter_eggs",
+      "release_date": "2013-04-10",
+      "rating": "6.7"
+    },
+    {
+      "id": null,
+      "slug": "outlander",
+      "title": "Outlander: Why Fans Are Still Obsessed \u23f3\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "url": "https://cinematicbites.com/hi/stories/outlander/",
+      "category": "series",
+      "release_date": "2014-08-09",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "queen-at-sea",
+      "title": "Queen at Sea: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/queen-at-sea/",
+      "category": "trending",
+      "release_date": "2026-09-18",
+      "rating": "7.2"
+    },
+    {
+      "id": null,
+      "slug": "rage-of-stars",
+      "title": "Rage of Stars: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/rage-of-stars/",
+      "category": "theories_easter_eggs",
+      "release_date": "2026-08-06",
+      "rating": "6.5"
+    },
+    {
+      "id": null,
+      "slug": "rise-of-the-planet-of-the-apes",
+      "title": "Rise of the Planet of the Apes: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/rise-of-the-planet-of-the-apes/",
+      "category": "theories_easter_eggs",
+      "release_date": "2011-08-03",
+      "rating": "7.4"
+    },
+    {
+      "id": null,
+      "slug": "riverdale",
+      "title": "Riverdale: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/riverdale/",
+      "category": "series",
+      "release_date": "2017-01-26",
+      "rating": "8.4"
+    },
+    {
+      "id": null,
+      "slug": "seal-team",
+      "title": "Why SEAL Team Became a Global Military Drama Sensation \ud83c\udf96\ufe0f\ud83d\udd25",
+      "url": "https://cinematicbites.com/hi/stories/seal-team/",
+      "category": "series",
+      "release_date": "2017-09-27",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "sonic-the-hedgehog-3",
+      "title": "Sonic the Hedgehog 3: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/sonic-the-hedgehog-3/",
+      "category": "theories_easter_eggs",
+      "release_date": "2024-12-19",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "spider-man-far-from-home",
+      "title": "Spider-Man: Far From Home: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/spider-man-far-from-home/",
+      "category": "theories_easter_eggs",
+      "release_date": "2019-06-28",
+      "rating": "7.4"
+    },
+    {
+      "id": null,
+      "slug": "the-loud-house",
+      "title": "The Loud House: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-loud-house/",
+      "category": "series",
+      "release_date": "2016-05-02",
+      "rating": "7.8"
+    },
+    {
+      "id": null,
+      "slug": "the-shining",
+      "title": "The Shining: Secrets of the Overlook Hotel \ud83e\ude93\u2744\ufe0f",
+      "url": "https://cinematicbites.com/hi/stories/the-shining/",
+      "category": "upcoming",
+      "release_date": "1980-05-23",
+      "rating": "8.2"
+    },
+    {
+      "id": null,
+      "slug": "the-sixth-sense",
+      "title": "The Sixth Sense: Shocking Secrets Behind the Twist \ud83d\udc7b\ud83c\udfac",
+      "url": "https://cinematicbites.com/hi/stories/the-sixth-sense/",
+      "category": "upcoming",
+      "release_date": "1999-08-06",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "the-west-wing",
+      "title": "The West Wing: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/the-west-wing/",
+      "category": "series",
+      "release_date": "1999-09-22",
+      "rating": "8.3"
+    },
+    {
+      "id": null,
+      "slug": "thor-ragnarok",
+      "title": "Thor: Ragnarok: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/thor-ragnarok/",
+      "category": "theories_easter_eggs",
+      "release_date": "2017-10-24",
+      "rating": "7.6"
+    },
+    {
+      "id": null,
+      "slug": "thunderbolts",
+      "title": "Thunderbolts*: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/thunderbolts/",
+      "category": "theories_easter_eggs",
+      "release_date": "2025-04-30",
+      "rating": "7.3"
+    },
+    {
+      "id": null,
+      "slug": "transformers-rise-of-the-beasts",
+      "title": "Transformers: Rise of the Beasts: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/transformers-rise-of-the-beasts/",
+      "category": "theories_easter_eggs",
+      "release_date": "2023-06-06",
+      "rating": "7.2"
+    },
+    {
+      "id": null,
+      "slug": "v",
+      "title": "Inside 'V': The 1990s Crime Epic Starring Cinema Legends \ud83c\udfac\ud83d\udca5",
+      "url": "https://cinematicbites.com/hi/stories/v/",
+      "category": "trending",
+      "release_date": "2026-08-19",
+      "rating": "6.3"
+    },
+    {
+      "id": null,
+      "slug": "vikings",
+      "title": "Vikings: The Untold Story & Secrets",
+      "url": "https://cinematicbites.com/hi/stories/vikings/",
+      "category": "series",
+      "release_date": "2013-03-03",
+      "rating": "8.1"
     }
   ]
 }
