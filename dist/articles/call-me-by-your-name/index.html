@@ -1084,6 +1084,28 @@
     var path = window.location.pathname || '/';
     var isHindiPath = path === '/hi' || path === '/hi/' || path.indexOf('/hi/') === 0;
 
+    // Supported titles that actually have a Hindi counterpart on disk
+    var supportedHiSlugs = [
+      'panchayat-season-3', 'mirzapur-season-3', 'stree-2', 'kalki-2898-ad',
+      'sector-36', 'do-patti', 'devara-part-1', 'pushpa-2-the-rule',
+      'squid-game-season-2', 'singham-again'
+    ];
+
+    function canRedirectToHindi(currPath) {
+      if (currPath === '/' || currPath === '/discover/' || currPath === '/about/' ||
+          currPath === '/contact/' || currPath === '/editorial/' || currPath === '/privacy/' ||
+          currPath === '/terms/') {
+        return true;
+      }
+      for (var i = 0; i < supportedHiSlugs.length; i++) {
+        var slug = supportedHiSlugs[i];
+        if (currPath.indexOf('/articles/' + slug) !== -1 || currPath.indexOf('/stories/' + slug) !== -1) {
+          return true;
+        }
+      }
+      return false;
+    }
+
     function getCookie(name) {
       var match = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]*)'));
       return match ? decodeURIComponent(match[1]) : null;
@@ -1093,6 +1115,10 @@
       var targetPath;
       if (targetLang === 'hi') {
         if (!isHindiPath) {
+          if (!canRedirectToHindi(path)) {
+            // NEVER redirect to non-existent Hindi URLs (prevents 404s on 400+ English articles)
+            return;
+          }
           targetPath = '/hi' + (path === '/' ? '/' : path);
           window.location.replace(targetPath + window.location.search + window.location.hash);
         }
@@ -1148,6 +1174,13 @@
     var storedLang = (localStorage.getItem('cinestories_lang') || getCookie('cinestories_lang') || '').trim().toLowerCase();
     if (storedLang === 'hi' || storedLang === 'en') {
       doRedirect(storedLang);
+      return;
+    }
+
+    // On deep article and story pages, DO NOT automatically redirect based on IP or Timezone
+    // (Existing content stays 100% in original language without broken links)
+    var isDeepContent = path.indexOf('/articles/') !== -1 || path.indexOf('/stories/') !== -1;
+    if (isDeepContent) {
       return;
     }
 
