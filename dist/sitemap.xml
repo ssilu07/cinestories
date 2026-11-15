@@ -2,15 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cinematicbites.com/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/discover/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/world-war-two/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/dfWbyhujRsX6B0AcQE0f3QtUhxk.jpg</image:loc>
+      <image:title>True Story Behind World War Two: Real Life Facts vs Fiction Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/shine-on-me/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/kiEtIq7Up7vpbAYvPTJPKHiJE1t.jpg</image:loc>
+      <image:title>Why They Betrayed Everyone in Shine on Me: The Hidden Deal 💥 Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/i-miss-you/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/vOu2RYpWGGScdYpNw8WVmDbjdUs.jpg</image:loc>
+      <image:title>I Miss You Ending Explained: Real Tears or Staged Drama? ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/heartland/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/psTMZj8gvsfYVfvd7FZCHH4xL6P.jpg</image:loc>
+      <image:title>Heartland Ending Explained: Climax Twist &amp; Secrets Decoded ⚡ Feature Still</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/sector-36-vol-2/</loc>
@@ -270,16 +310,6 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/vPw5Gpg0YEEk1VsE8QlmyTxIJuU.jpg</image:loc>
       <image:title>Rivals Ending Explained: The Climax Clues You Missed 📺 Feature Still</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/articles/shine-on-me/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.85</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w1280/kiEtIq7Up7vpbAYvPTJPKHiJE1t.jpg</image:loc>
-      <image:title>Why They Betrayed Everyone in Shine on Me: The Hidden Deal 💥 Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -4543,6 +4573,46 @@
     </image:image>
   </url>
   <url>
+    <loc>https://cinematicbites.com/stories/world-war-two/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/lAnsvN2f1vCGRQsky2MjbkN1P2I.jpg</image:loc>
+      <image:title>World War Two Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/shine-on-me/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/cFBlFzOwh4C8wpuR4sYBIitvNiw.jpg</image:loc>
+      <image:title>Shine on Me Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/i-miss-you/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pH1zpLMuagE8wji4kg3SEJ1RB3.jpg</image:loc>
+      <image:title>I Miss You Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/heartland/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/zhxlzxBlO1sWB1rPn7RmAoeQ2na.jpg</image:loc>
+      <image:title>Heartland Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/stories/sector-36-vol-2/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -4800,16 +4870,6 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w780/3p9t1KDo5iXAn1zsSPn8sdtakWs.jpg</image:loc>
       <image:title>Rivals Web Story Poster</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://cinematicbites.com/stories/shine-on-me/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-    <image:image>
-      <image:loc>https://image.tmdb.org/t/p/w780/cFBlFzOwh4C8wpuR4sYBIitvNiw.jpg</image:loc>
-      <image:title>Shine on Me Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
@@ -9074,31 +9134,31 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/about/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/editorial/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/privacy/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/terms/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/contact/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

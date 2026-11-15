@@ -2,9 +2,45 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-14T19:28:47.059197+00:00",
-  "total_stories": 453,
+  "generated_at": "2026-11-15T07:49:33.245577+00:00",
+  "total_stories": 456,
   "stories": [
+    {
+      "id": 82670,
+      "slug": "world-war-two",
+      "title": "World War Two Ending Decoded: The Hidden 1945 Clues Revealed \u26a1",
+      "url": "https://cinematicbites.com/stories/world-war-two/",
+      "category": "upcoming",
+      "release_date": "2018-09-01",
+      "rating": 8.0
+    },
+    {
+      "id": 278577,
+      "slug": "shine-on-me",
+      "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/shine-on-me/",
+      "category": "netflix_hits",
+      "release_date": "2025-12-22",
+      "rating": 8.5
+    },
+    {
+      "id": 338938,
+      "slug": "i-miss-you",
+      "title": "I Miss You Ending Explained: Real Tears or Staged Drama? \u26a1",
+      "url": "https://cinematicbites.com/stories/i-miss-you/",
+      "category": "streaming_charts",
+      "release_date": "2026-10-22",
+      "rating": 8.0
+    },
+    {
+      "id": 1543469,
+      "slug": "heartland",
+      "title": "Heartland Ending Explained: Climax Twist & Secrets Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/heartland/",
+      "category": "trending",
+      "release_date": "2026-11-13",
+      "rating": 7.2
+    },
     {
       "id": 1245700,
       "slug": "sector-36-vol-2",
@@ -238,15 +274,6 @@
       "category": "ott_blockbusters",
       "release_date": "2024-10-18",
       "rating": 7.4
-    },
-    {
-      "id": 278577,
-      "slug": "shine-on-me",
-      "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
-      "url": "https://cinematicbites.com/stories/shine-on-me/",
-      "category": "netflix_hits",
-      "release_date": "2025-12-22",
-      "rating": 8.5
     },
     {
       "id": 283428,

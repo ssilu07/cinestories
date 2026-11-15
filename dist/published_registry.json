@@ -2686,5 +2686,29 @@
     "published_at": "2026-11-14T19:28:46Z",
     "modified_at": "2026-11-14T19:28:46Z",
     "category": "upcoming"
+  },
+  "world-war-two": {
+    "title": "World War Two",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "upcoming"
+  },
+  "shine-on-me": {
+    "title": "Shine on Me",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "netflix_hits"
+  },
+  "i-miss-you": {
+    "title": "I Miss You",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "streaming_charts"
+  },
+  "heartland": {
+    "title": "Heartland",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "trending"
   }
 }
