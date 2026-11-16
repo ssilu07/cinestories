@@ -52,6 +52,7 @@ from config import (
     TARGET_BREAKOUT_SLUGS
 )
 from tmdb_client import TMDBClient
+from sample_data import SAMPLE_MEDIA
 from google_trends_client import GoogleTrendsClient
 from ai_generator import AIGenerator
 from story_builder import build_amp_story_html
@@ -64,6 +65,14 @@ from policy_pages import generate_policy_pages
 from validator import check_amp_files
 from generate_assets import create_logo
 from push_notifications import write_push_assets
+from build_slate import (
+    build_bilingual_sitemap,
+    post_process_page,
+    DIST_HI_DIR,
+    HI_DISCOVER_DIR
+)
+from curated_stories_hi import CURATED_STORIES_HI
+from curated_articles_hi import CURATED_ARTICLES_HI
 
 def ensure_assets(dist_dir: Path):
     """Ensure logo.png, logo.svg, favicon.svg, sw.js, and manifest.json are present in dist."""
@@ -479,14 +488,56 @@ def run_pipeline(
 
     print(f"      -> Total catalog size: {len(combined_stories)} Web Stories | {len(combined_articles)} Articles (Fresh updates at head).\n")
 
-    # 6. Build Discover Feed Portal, Homepage, Policy Pages & Sitemap
-    print(f"[4/6] Rebuilding Discover feed portal, visual homepage, policy pages, and XML sitemap...")
+    # 6. Build Discover Feed Portal, Homepage, Policy Pages & Sitemap (Bilingual EN & HI)
+    print(f"[4/6] Rebuilding Discover feed portal, visual homepage, policy pages, and bilingual XML sitemap...")
     generate_discover_feed(combined_articles, domain=domain, output_dir=DISCOVER_DIR)
     generate_homepage(combined_stories, domain=domain, output_dir=DIST_DIR)
     generate_policy_pages(dist_dir=DIST_DIR, domain=domain)
-    generate_sitemap(combined_stories, articles=combined_articles, domain=domain, output_path=SITEMAP_PATH)
+    
+    # Synchronize bilingual Hindi portal, policy pages, and unified 970+ URL sitemap
+    try:
+        # Hindi catalogs
+        hi_stories_list = [
+            {"movie": m, "title": CURATED_STORIES_HI[m["slug"]].get("title", m["title"]), "slides": CURATED_STORIES_HI[m["slug"]].get("slides", [])}
+            for m in SAMPLE_MEDIA if m.get("slug") in CURATED_STORIES_HI
+        ]
+        hi_articles_list = [
+            {"movie": m, **CURATED_ARTICLES_HI[m["slug"]]}
+            for m in SAMPLE_MEDIA if m.get("slug") in CURATED_ARTICLES_HI
+        ]
+        
+        # Render Hindi Homepage & Discover Feed
+        generate_homepage(hi_stories_list, domain=domain, output_dir=DIST_DIR, lang="hi")
+        hi_home_file = DIST_HI_DIR / "index.html"
+        if hi_home_file.exists():
+            hi_home_html = post_process_page(hi_home_file.read_text(encoding="utf-8"), "/", lang="hi", is_amp=False, domain=domain)
+            hi_home_file.write_text(hi_home_html, encoding="utf-8")
+
+        generate_discover_feed(hi_articles_list, domain=domain, output_dir=DISCOVER_DIR, lang="hi")
+        hi_disc_file = HI_DISCOVER_DIR / "index.html"
+        if hi_disc_file.exists():
+            hi_disc_html = post_process_page(hi_disc_file.read_text(encoding="utf-8"), "/discover/", lang="hi", is_amp=False, domain=domain)
+            hi_disc_file.write_text(hi_disc_html, encoding="utf-8")
+
+        generate_policy_pages(dist_dir=DIST_HI_DIR, domain=domain, lang="hi")
+        
+        # Build unified bilingual sitemap
+        build_bilingual_sitemap(
+            en_stories=combined_stories,
+            hi_stories=hi_stories_list,
+            en_articles=combined_articles,
+            hi_articles=hi_articles_list,
+            domain=domain,
+            output_path=SITEMAP_PATH
+        )
+        # Hindi RSS
+        generate_rss_feed(hi_articles_list, domain=domain, output_paths=[DIST_HI_DIR / "feed.xml", DIST_HI_DIR / "rss.xml"])
+    except Exception as e:
+        print(f"[Bilingual Sync Note] Fallback standard sitemap: {e}")
+        generate_sitemap(combined_stories, articles=combined_articles, domain=domain, output_path=SITEMAP_PATH)
+
     generate_rss_feed(combined_articles, domain=domain)
-    print(f"      -> Portal pages, Discover feed, RSS feed, and sitemap successfully updated.\n")
+    print(f"      -> Bilingual portal pages, Discover feed, RSS feed, and sitemap successfully updated.\n")
 
     # 7. AMP Validation
     if run_validation:
