@@ -52,6 +52,7 @@ from config import (
     TARGET_BREAKOUT_SLUGS
 )
 from tmdb_client import TMDBClient
+from google_trends_client import GoogleTrendsClient
 from ai_generator import AIGenerator
 from story_builder import build_amp_story_html
 from article_builder import build_discover_article_html
@@ -285,68 +286,83 @@ def run_pipeline(
     published_slugs: Set[str] = set(registry.keys())
     print(f"[Registry] Found {len(published_slugs)} active stories in catalog.")
 
-    # 3. Fetch entertainment data from TMDB (with automatic retry & backoff)
+    # 3. Harvest Real-Time Google Trends Cinema Topics (Priority 1)
     tmdb = TMDBClient(api_key="" if demo_mode else tmdb_key)
-    if category == "all":
-        categories = [
-            "netflix_hits",
-            "streaming_charts",
-            "trending",
-            "ott_blockbusters",
-            "upcoming",
-            "theories_easter_eggs",
-            "series",
-            "steamy_thrillers",
-            "cult_classic"
-        ]
-    else:
-        categories = [category]
+    print(f"[1/6] Scanning Google Trends & Google News (IN & US) for real-time trending cinema stories...")
+    trends_client = GoogleTrendsClient()
+    google_candidates = trends_client.get_trending_candidates_for_pipeline(
+        tmdb_client=tmdb,
+        limit=daily_limit,
+        exclude_slugs=published_slugs if not force_refresh else set()
+    )
+    print(f"      -> Google Trends identified {len(google_candidates)} real-time trending topics.")
 
-    print(f"[1/6] Scanning TMDB entertainment feed for fresh topics: {categories}...")
-    exclude_filter = None if force_refresh else published_slugs
-    all_candidates = tmdb.fetch_feed(categories=categories, per_category=3, exclude_slugs=exclude_filter)
-    
-    # Filter candidates to only unpublished titles and interleave across categories
-    cat_buckets = {}
-    for m in all_candidates:
-        c = m.get("category", "trending")
-        if c not in cat_buckets:
-            cat_buckets[c] = []
-        if force_refresh or m.get("slug") not in published_slugs:
-            cat_buckets[c].append(m)
+    new_candidates = list(google_candidates)
 
-    interleaved = []
-    bucket_keys = list(cat_buckets.keys())
-    idx = 0
-    while len(interleaved) < daily_limit:
-        added_in_round = False
-        for k in bucket_keys:
-            if idx < len(cat_buckets[k]):
-                interleaved.append(cat_buckets[k][idx])
-                added_in_round = True
-                if len(interleaved) >= daily_limit:
-                    break
-        if not added_in_round:
-            break
-        idx += 1
-
-    new_candidates = interleaved[:daily_limit]
-
-    # Anti-Freeze Guard: If standard categories yielded fewer than daily_limit, trigger deep discovery
+    # 4. If more candidates are needed to reach daily_limit, supplement from TMDB
     if len(new_candidates) < daily_limit:
         needed = daily_limit - len(new_candidates)
-        print(f"[Anti-Freeze Guard] Standard categories queued {len(new_candidates)}/{daily_limit} candidates.")
-        print(f"                   Initiating multi-tier deep discovery fallback for {needed} fresh titles...")
-        existing_candidate_slugs = {m.get("slug") for m in new_candidates}
-        emergency_exclude = published_slugs.union(existing_candidate_slugs)
-        backup_candidates = tmdb.emergency_discover_fresh_titles(count=needed, exclude_slugs=emergency_exclude)
-        for bm in backup_candidates:
-            if bm.get("slug") not in emergency_exclude or force_refresh:
-                new_candidates.append(bm)
-                emergency_exclude.add(bm.get("slug"))
-        print(f"[Anti-Freeze Guard] Resolved! Total candidates queued for publishing: {len(new_candidates)}/{daily_limit}.\n")
+        if category == "all":
+            categories = [
+                "netflix_hits",
+                "streaming_charts",
+                "trending",
+                "ott_blockbusters",
+                "upcoming",
+                "theories_easter_eggs",
+                "series",
+                "steamy_thrillers",
+                "cult_classic"
+            ]
+        else:
+            categories = [category]
 
-    print(f"      -> Retrieved {len(all_candidates)} candidates across {len(cat_buckets)} categories | {len(new_candidates)} queued for generation (Daily cap: {daily_limit}).\n")
+        print(f"      -> Scanning TMDB entertainment feed for {needed} supplementary topics: {categories}...")
+        exclude_filter = set(published_slugs) if not force_refresh else set()
+        for c in new_candidates:
+            if c.get("slug"):
+                exclude_filter.add(c.get("slug"))
+
+        all_candidates = tmdb.fetch_feed(categories=categories, per_category=3, exclude_slugs=exclude_filter)
+
+        cat_buckets = {}
+        for m in all_candidates:
+            c = m.get("category", "trending")
+            if c not in cat_buckets:
+                cat_buckets[c] = []
+            if force_refresh or m.get("slug") not in exclude_filter:
+                cat_buckets[c].append(m)
+
+        interleaved = []
+        bucket_keys = list(cat_buckets.keys())
+        idx = 0
+        while len(interleaved) < needed:
+            added_in_round = False
+            for k in bucket_keys:
+                if idx < len(cat_buckets[k]):
+                    interleaved.append(cat_buckets[k][idx])
+                    added_in_round = True
+                    if len(interleaved) >= needed:
+                        break
+            if not added_in_round:
+                break
+            idx += 1
+
+        new_candidates.extend(interleaved[:needed])
+
+        # Anti-Freeze Guard: If still fewer than daily_limit, trigger deep discovery
+        if len(new_candidates) < daily_limit:
+            missing_count = daily_limit - len(new_candidates)
+            print(f"[Anti-Freeze Guard] Initiating deep discovery fallback for {missing_count} fresh titles...")
+            existing_candidate_slugs = {m.get("slug") for m in new_candidates}
+            emergency_exclude = published_slugs.union(existing_candidate_slugs)
+            backup_candidates = tmdb.emergency_discover_fresh_titles(count=missing_count, exclude_slugs=emergency_exclude)
+            for bm in backup_candidates:
+                if bm.get("slug") not in emergency_exclude or force_refresh:
+                    new_candidates.append(bm)
+                    emergency_exclude.add(bm.get("slug"))
+
+    print(f"      -> Final queue for today: {len(new_candidates)} fresh stories (Daily cap: {daily_limit}).\n")
 
     ai = AIGenerator(api_key="" if demo_mode else gemini_key)
     new_stories = []

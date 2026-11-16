@@ -2776,5 +2776,29 @@
     "published_at": "2026-11-15T07:39:25Z",
     "modified_at": "2026-11-15T07:39:25Z",
     "category": "upcoming"
+  },
+  "sharad-kapoor": {
+    "title": "Sharad Kapoor",
+    "published_at": "2026-11-16T12:18:06Z",
+    "modified_at": "2026-11-16T12:18:06Z",
+    "category": "trending"
+  },
+  "vijay": {
+    "title": "Vijay",
+    "published_at": "2026-11-16T12:18:06Z",
+    "modified_at": "2026-11-16T12:18:06Z",
+    "category": "trending"
+  },
+  "ott-new-releases-this-week": {
+    "title": "OTT New Releases This Week",
+    "published_at": "2026-11-16T12:18:06Z",
+    "modified_at": "2026-11-16T12:18:06Z",
+    "category": "trending"
+  },
+  "huma-qureshi": {
+    "title": "Huma Qureshi",
+    "published_at": "2026-11-16T12:18:06Z",
+    "modified_at": "2026-11-16T12:18:06Z",
+    "category": "trending"
   }
 }

@@ -2,8 +2,8 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-16T12:04:13.634122+00:00",
-  "total_stories": 463,
+  "generated_at": "2026-11-16T12:23:01.734192+00:00",
+  "total_stories": 467,
   "stories": [
     {
       "id": 101352,
@@ -94,6 +94,42 @@
       "category": "theories_easter_eggs",
       "release_date": "2024-11-01",
       "rating": 6.5
+    },
+    {
+      "id": 894762,
+      "slug": "sharad-kapoor",
+      "title": "Sharad Kapoor: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/sharad-kapoor/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
+    },
+    {
+      "id": 237190,
+      "slug": "vijay",
+      "title": "Vijay: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/vijay/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
+    },
+    {
+      "id": 78640,
+      "slug": "ott-new-releases-this-week",
+      "title": "OTT New Releases This Week \u0915\u0940 \u0913\u091f\u0940\u091f\u0940 \u0930\u093f\u0932\u0940\u091c\u093c \u0921\u0947\u091f \u092a\u0930 \u0906\u092f\u093e \u092c\u0921\u093c\u093e \u0905\u092a\u0921\u0947\u091f! \u091c\u093e\u0928\u093f\u090f \u0915\u092c \u0914\u0930 \u0915\u0939\u093e\u0901 \u0926\u0947\u0916\u0947\u0902 \ud83c\udfac",
+      "url": "https://cinematicbites.com/stories/ott-new-releases-this-week/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
+    },
+    {
+      "id": 472034,
+      "slug": "huma-qureshi",
+      "title": "Huma Qureshi: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/huma-qureshi/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
     },
     {
       "id": 1245700,
