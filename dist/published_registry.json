@@ -2740,5 +2740,41 @@
     "published_at": "2026-11-16T12:00:04Z",
     "modified_at": "2026-11-16T12:00:04Z",
     "category": "upcoming"
+  },
+  "heartland": {
+    "title": "Heartland",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "trending"
+  },
+  "i-miss-you": {
+    "title": "I Miss You",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "streaming_charts"
+  },
+  "murder-in-galicia": {
+    "title": "Murder in Galicia",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "trending"
+  },
+  "sword-silence": {
+    "title": "Sword & Silence",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "streaming_charts"
+  },
+  "teach-you-a-lesson": {
+    "title": "Teach You a Lesson",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "netflix_hits"
+  },
+  "world-war-two": {
+    "title": "World War Two",
+    "published_at": "2026-11-15T07:39:25Z",
+    "modified_at": "2026-11-15T07:39:25Z",
+    "category": "upcoming"
   }
 }

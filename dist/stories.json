@@ -2,8 +2,8 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-16T12:01:22.893451+00:00",
-  "total_stories": 457,
+  "generated_at": "2026-11-16T12:04:13.634122+00:00",
+  "total_stories": 463,
   "stories": [
     {
       "id": 101352,
@@ -274,6 +274,15 @@
       "category": "ott_blockbusters",
       "release_date": "2024-10-18",
       "rating": 7.4
+    },
+    {
+      "id": 278577,
+      "slug": "shine-on-me",
+      "title": "Why They Betrayed Everyone in Shine on Me: The Hidden Deal \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/shine-on-me/",
+      "category": "netflix_hits",
+      "release_date": "2025-12-22",
+      "rating": 8.5
     },
     {
       "id": 283428,
@@ -4108,6 +4117,60 @@
       "category": "series",
       "release_date": "2013-03-03",
       "rating": "8.1"
+    },
+    {
+      "id": null,
+      "slug": "heartland",
+      "title": "Heartland Ending Explained: Climax Twist & Secrets Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/heartland/",
+      "category": "trending",
+      "release_date": "",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "i-miss-you",
+      "title": "I Miss You Ending Explained: Real Tears or Staged Drama? \u26a1",
+      "url": "https://cinematicbites.com/stories/i-miss-you/",
+      "category": "streaming_charts",
+      "release_date": "",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "murder-in-galicia",
+      "title": "Murder in Galicia Ending Explained: Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/murder-in-galicia/",
+      "category": "trending",
+      "release_date": "",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "sword-silence",
+      "title": "Sword & Silence Ending Explained: The Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/sword-silence/",
+      "category": "streaming_charts",
+      "release_date": "",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "teach-you-a-lesson",
+      "title": "Teach You a Lesson Ending Explained: The Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/teach-you-a-lesson/",
+      "category": "netflix_hits",
+      "release_date": "",
+      "rating": "8.0"
+    },
+    {
+      "id": null,
+      "slug": "world-war-two",
+      "title": "World War Two Ending Decoded: The Hidden 1945 Clues Revealed \u26a1",
+      "url": "https://cinematicbites.com/stories/world-war-two/",
+      "category": "upcoming",
+      "release_date": "",
+      "rating": "8.0"
     }
   ]
 }
