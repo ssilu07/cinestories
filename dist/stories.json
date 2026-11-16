@@ -6,6 +6,42 @@
   "total_stories": 471,
   "stories": [
     {
+      "id": 85721,
+      "slug": "burzynski-the-movie",
+      "title": "Tamannaah Bhatia: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/burzynski-the-movie/",
+      "category": "trending",
+      "release_date": "2010-10-28",
+      "rating": 5.8
+    },
+    {
+      "id": 326424,
+      "slug": "suriya-paarvai",
+      "title": "Suriya: \u092c\u0949\u0915\u094d\u0938 \u0911\u092b\u093f\u0938 \u092a\u0930 \u0910\u0924\u093f\u0939\u093e\u0938\u093f\u0915 \u0915\u092e\u093e\u0908 \u0915\u093e \u0928\u092f\u093e \u0930\u093f\u0915\u0949\u0930\u094d\u0921! \u091c\u093e\u0928\u093f\u090f 3 \u092c\u0921\u093c\u0947 \u0915\u093e\u0930\u0923 \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/suriya-paarvai/",
+      "category": "trending",
+      "release_date": "1999-01-14",
+      "rating": 4.0
+    },
+    {
+      "id": 851962,
+      "slug": "sai-pallavi",
+      "title": "Sai Pallavi: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/sai-pallavi/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
+    },
+    {
+      "id": 138503,
+      "slug": "jalsa-property-row",
+      "title": "Jalsa Property Row: \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u0939\u094b \u0930\u0939\u0940 \u0939\u0948 \u092d\u093e\u0930\u0940 \u091a\u0930\u094d\u091a\u093e? \u091c\u093e\u0928\u093f\u090f \u092f\u0947 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/jalsa-property-row/",
+      "category": "trending",
+      "release_date": "2026-11-16",
+      "rating": 8.8
+    },
+    {
       "id": 101352,
       "slug": "panchayat-season-3",
       "title": "Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending Decoded",
