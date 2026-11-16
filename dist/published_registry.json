@@ -2776,5 +2776,29 @@
     "published_at": "2026-11-15T07:39:25Z",
     "modified_at": "2026-11-15T07:39:25Z",
     "category": "upcoming"
+  },
+  "sikandar": {
+    "title": "Sikandar",
+    "published_at": "2026-11-16T12:05:22Z",
+    "modified_at": "2026-11-16T12:05:22Z",
+    "category": "upcoming"
+  },
+  "100-days-of-deception": {
+    "title": "100 Days of Deception",
+    "published_at": "2026-11-16T12:05:22Z",
+    "modified_at": "2026-11-16T12:05:22Z",
+    "category": "netflix_hits"
+  },
+  "cunk-on-cinema": {
+    "title": "Cunk on Cinema",
+    "published_at": "2026-11-16T12:05:22Z",
+    "modified_at": "2026-11-16T12:05:22Z",
+    "category": "streaming_charts"
+  },
+  "blossom-in-darkness": {
+    "title": "Blossom in Darkness",
+    "published_at": "2026-11-16T12:05:22Z",
+    "modified_at": "2026-11-16T12:05:22Z",
+    "category": "trending"
   }
 }
