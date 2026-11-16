@@ -2,15 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://cinematicbites.com/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/discover/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/war-2/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/pKIRUTnwY3YYU9urSdsuobdcliP.jpg</image:loc>
+      <image:title>War 2 Ending Explained: Kabir’s Rogue Gambit &amp; Spy Universe Twist Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/teach-you-a-lesson/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/sGitHICLzIQQBiwE67lZLy6W67u.jpg</image:loc>
+      <image:title>Teach You a Lesson Ending Explained: Hwa-jin's Fate &amp; Season 2 Clues Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/sword-silence/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ohxUMg44IaMTtdaSmPn1M1QW3Js.jpg</image:loc>
+      <image:title>Sword &amp; Silence Ending Explained: Shocking Royal Betrayal Revealed Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/murder-in-galicia/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/jM5dhDrpRiVxuzcvAEeHhcAKt50.jpg</image:loc>
+      <image:title>Murder in Galicia Ending Explained: Who Really Attacked Irene? Feature Still</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/world-war-two/</loc>
@@ -4570,6 +4610,46 @@
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/original/13kblIK8DnxMurcRDkeyy2sGR7v.jpg</image:loc>
       <image:title>Vikings: The Untold Story &amp; Secrets Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/war-2/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/2Yc8Kl2ldPpDzLrG2M5Ddv62FXB.jpg</image:loc>
+      <image:title>War 2 Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/teach-you-a-lesson/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/fMECSPrTmRClSViMsXFYmiYIcWP.jpg</image:loc>
+      <image:title>Teach You a Lesson Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/sword-silence/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/jlHH1OGMrupWfVSeiGkxPabmSYN.jpg</image:loc>
+      <image:title>Sword &amp; Silence Web Story Poster</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/murder-in-galicia/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w780/pooxlKqgM7NhBHkgt9RjmrY7n2l.jpg</image:loc>
+      <image:title>Murder in Galicia Web Story Poster</image:title>
     </image:image>
   </url>
   <url>
@@ -9134,31 +9214,31 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/about/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/editorial/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/privacy/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/terms/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://cinematicbites.com/contact/</loc>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.50</priority>
   </url>

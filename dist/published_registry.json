@@ -2710,5 +2710,29 @@
     "published_at": "2026-11-15T07:39:25Z",
     "modified_at": "2026-11-15T07:39:25Z",
     "category": "trending"
+  },
+  "war-2": {
+    "title": "War 2",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "upcoming"
+  },
+  "teach-you-a-lesson": {
+    "title": "Teach You a Lesson",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "netflix_hits"
+  },
+  "sword-silence": {
+    "title": "Sword & Silence",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "streaming_charts"
+  },
+  "murder-in-galicia": {
+    "title": "Murder in Galicia",
+    "published_at": "2026-11-15T23:50:48Z",
+    "modified_at": "2026-11-15T23:50:48Z",
+    "category": "trending"
   }
 }

@@ -2,9 +2,45 @@
   "site_name": "MoviePulse",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-15T07:49:33.245577+00:00",
-  "total_stories": 456,
+  "generated_at": "2026-11-16T00:00:30.983267+00:00",
+  "total_stories": 460,
   "stories": [
+    {
+      "id": 1109086,
+      "slug": "war-2",
+      "title": "War 2 Climax Explained: Is Kabir Really a Villain? \u26a1",
+      "url": "https://cinematicbites.com/stories/war-2/",
+      "category": "upcoming",
+      "release_date": "2025-08-13",
+      "rating": 6.0
+    },
+    {
+      "id": 276161,
+      "slug": "teach-you-a-lesson",
+      "title": "Teach You a Lesson Ending Explained: The Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/teach-you-a-lesson/",
+      "category": "netflix_hits",
+      "release_date": "2026-06-05",
+      "rating": 9.4
+    },
+    {
+      "id": 301354,
+      "slug": "sword-silence",
+      "title": "Sword & Silence Ending Explained: The Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/sword-silence/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-14",
+      "rating": 7.5
+    },
+    {
+      "id": 303182,
+      "slug": "murder-in-galicia",
+      "title": "Murder in Galicia Ending Explained: Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/murder-in-galicia/",
+      "category": "trending",
+      "release_date": "2026-11-13",
+      "rating": 7.1
+    },
     {
       "id": 82670,
       "slug": "world-war-two",
