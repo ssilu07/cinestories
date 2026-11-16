@@ -680,6 +680,12 @@ def main():
     print("  ✓ Generated English RSS feeds (dist/feed.xml & dist/rss.xml)")
     print("  ✓ Generated Hindi RSS feeds (dist/hi/feed.xml & dist/hi/rss.xml)")
 
+    try:
+        from push_notifications import write_push_assets
+        write_push_assets(DIST_DIR)
+    except Exception as e:
+        print(f"[Push Assets Note] {e}")
+
     print("\n" + "=" * 70)
     print("  DUAL-LOCALE STATIC BUILD PIPELINE COMPLETE!                      ")
     print("=" * 70 + "\n")

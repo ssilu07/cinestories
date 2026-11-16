@@ -27,6 +27,11 @@ from config import (
     get_ga_script,
     get_adsense_script
 )
+from push_notifications import (
+    PUSH_NOTIFICATION_CSS,
+    get_push_notification_html,
+    get_push_notification_script
+)
 
 def build_discover_article_html(
     article: Dict[str, Any],
@@ -371,6 +376,8 @@ def build_discover_article_html(
 
   <!-- Favicon & Fonts -->
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#e50914">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -381,6 +388,7 @@ def build_discover_article_html(
   </script>
 
   <style>
+{PUSH_NOTIFICATION_CSS}
     :root {{
       --bg: #090b10;
       --surface: #10141f;
@@ -1564,6 +1572,11 @@ def build_discover_article_html(
       var bar = document.getElementById("readingProgress");
       if (bar) bar.style.width = scrolled + "%";
     }}, {{ passive: true }});
+  </script>
+
+{get_push_notification_html(lang)}
+  <script>
+{get_push_notification_script(lang)}
   </script>
 
 </body>

@@ -63,9 +63,10 @@ from feed_builder import generate_rss_feed
 from policy_pages import generate_policy_pages
 from validator import check_amp_files
 from generate_assets import create_logo
+from push_notifications import write_push_assets
 
 def ensure_assets(dist_dir: Path):
-    """Ensure logo.png, logo.svg, and favicon.svg are present in dist/assets."""
+    """Ensure logo.png, logo.svg, favicon.svg, sw.js, and manifest.json are present in dist."""
     assets_dest = dist_dir / "assets"
     assets_dest.mkdir(parents=True, exist_ok=True)
     
@@ -76,6 +77,8 @@ def ensure_assets(dist_dir: Path):
     root_assets = Path("assets")
     if (root_assets / "favicon.svg").exists():
         shutil.copy2(root_assets / "favicon.svg", assets_dest / "favicon.svg")
+
+    write_push_assets(dist_dir)
 
 def write_robots_txt(dist_dir: Path, domain: str):
     """Generate robots.txt directing search engines to sitemap.xml with Discover crawler rules."""

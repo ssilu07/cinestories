@@ -116,4 +116,10 @@ def create_logo(output_paths, size=512):
         print(f"Generated publisher logo: {path} ({size}x{size} px)")
 
 if __name__ == "__main__":
+    from pathlib import Path
     create_logo(["assets/logo.png", "dist/assets/logo.png"], size=512)
+    try:
+        from push_notifications import write_push_assets
+        write_push_assets(Path("dist"))
+    except Exception as e:
+        print(f"[Assets] Push assets note: {e}")

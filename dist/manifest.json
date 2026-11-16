@@ -1,0 +1,17 @@
+{
+  "name": "CineStories - Breaking Cinema & Climax Stories",
+  "short_name": "CineStories",
+  "description": "Real-time Google Trends cinema stories, climax decoders, ending breakdowns, and OTT releases.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0e14",
+  "theme_color": "#e50914",
+  "icons": [
+    {
+      "src": "/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

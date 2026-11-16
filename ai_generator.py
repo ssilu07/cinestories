@@ -83,46 +83,47 @@ def generate_high_ctr_headline(movie: Dict[str, Any]) -> str:
 
     if is_thriller:
         options = [
-            f"{clean_title} Ending Explained: The Climax Twist Decoded 🔍",
+            f"The Disturbing Climax Twist in {clean_title} That No One Saw Coming 😱",
             f"Who Really Pulled The Trigger in {clean_title}? 3 Clues You Missed 🕵️‍♂️",
-            f"{clean_title}: The Shocking Climax & Hidden Motive Decoded 💥",
-            f"The Horrific True Story Behind {clean_title}: Real Facts vs Drama 🩸",
-            f"What Really Happened at the End of {clean_title}? Decoded ⚡"
+            f"Don't Watch The Final 10 Mins Alone: {clean_title} Ending Decoded ⚡",
+            f"The Horrific True Story Behind {clean_title}: What They Kept Secret 🩸",
+            f"What Really Happened In That Final Scene Of {clean_title}? Decoded 💥",
+            f"{clean_title}: The Hidden Motive In Scene 4 That Changes Everything 🔍"
         ]
     elif is_netflix or is_series:
         options = [
-            f"{clean_title} Ending Explained: The Climax Clues You Missed 📺",
-            f"Why They Betrayed Everyone in {clean_title}: The Hidden Deal 💥",
-            f"{clean_title} Season Finale Decoded: What That Final Scene Means ⚡",
-            f"The 1 Insane Clue In {clean_title} That Fans Completely Missed 🤯",
-            f"{clean_title} Season 2 Roadmap: Release Date, Cast & Unresolved Clues 🔥"
+            f"{clean_title} Ending Decoded: The Chilling Clue 99% Of Viewers Missed 🤯",
+            f"Why They Betrayed Everyone in {clean_title}: The Secret Deal Decoded 💥",
+            f"{clean_title} Season Finale Shock: What That Final Stinger Really Means ⚡",
+            f"The 1 Insane Clue In {clean_title} That Flips The Whole Plot Around 🕵️‍♂️",
+            f"{clean_title} Season 2 Secrets: Why The Showrunners Kept This Hidden 🔥"
         ]
     elif is_sci_fi:
         options = [
-            f"{clean_title} Post-Credits Scene Decoded: Major Sequel Clues 🎬",
-            f"{clean_title} Ending Explained: The Multiverse Secret Decoded ⚡",
-            f"Did They Actually Survive? {clean_title} Climax Theory Explained 🚀",
-            f"The 1 Hidden Detail in {clean_title} That Changes Everything 🤯",
-            f"{clean_title}: 5 Mind-Blowing Clues & Climax Secrets Decoded 💥"
+            f"The 1 Hidden Detail in {clean_title} That Re-Contextualizes Everything 🤯",
+            f"{clean_title} Ending Explained: What Actually Happened in the Climax? ⚡",
+            f"Did They Actually Survive? {clean_title} Mind-Bending Theory Decoded 🚀",
+            f"{clean_title} Post-Credits Lore: The Secret Villain Hiding In Plain Sight 🎬",
+            f"{clean_title}: 5 Shocking Climax Secrets That Left Fans Sleepless 💥"
         ]
     elif is_animation:
         options = [
-            f"{clean_title} Ending & Post-Credits Secrets: What Fans Missed 🎨",
-            f"Why Audiences Are Obsessed with {clean_title}: Climax Decoded ✨",
-            f"{clean_title}: The Secret Easter Eggs Hiding in Plain Sight 🍿"
+            f"The Dark Climax Detail in {clean_title} That Parents Never Noticed 🎨",
+            f"Why Audiences Are Obsessed with {clean_title}: Climax Secrets Decoded ✨",
+            f"{clean_title}: The Genius Hidden Clues Hiding in Plain Sight 🍿"
         ]
     elif is_classic:
         options = [
-            f"Why {clean_title} Remains An Unbeatable Masterpiece Decades Later 🎬",
-            f"The Mind-Bending Secret Behind {clean_title}'s Famous Climax ⚡",
-            f"{clean_title}: The Real Story & BTS Secrets Behind the Cult Hit 💀"
+            f"The Disturbing Secret Behind {clean_title}'s Famous Climax Revealed ⚡",
+            f"Why {clean_title} Left Audiences Sleepless: The Real Incident Behind It 🎬",
+            f"{clean_title}: The Mind-Blowing BTS Secrets The Studio Tried To Hide 💀"
         ]
     else:
         options = [
-            f"{clean_title} Ending Explained: The Climax & Final Twists Decoded 🎬",
-            f"Why {clean_title} Left Audiences Stunned: Clues Decoded ⚡",
-            f"What Really Happened at the Climax of {clean_title}? 🔍",
-            f"{clean_title}: The Secret Behind The Film's Biggest Revelation 🍿"
+            f"{clean_title} Ending Explained: The Climax Twist That Stunned Everyone 🎬",
+            f"Why The Final Scene in {clean_title} Left Audiences In Complete Shock ⚡",
+            f"What Really Happened at the Climax of {clean_title}? The Truth Decoded 🔍",
+            f"{clean_title}: The Secret Clue Hiding In Plain Sight That Explains It All 🍿"
         ]
 
     chosen = options[seed % len(options)]
@@ -485,12 +486,13 @@ STORY HIGHLIGHTS:
 {story_highlights}
 
 GOOGLE DISCOVER & SEARCH INTENT EDITORIAL GUIDELINES:
-1. Headline: Irresistible, high-CTR, curiosity-inducing and authentic under 75 characters. Crucially, tailor the angle to the movie's genre/theme to match actual Google Search queries:
-   - Mystery / Thriller / Crime / Drama: Focus on "Ending Explained & Plot Twist Breakdown" or "What Really Happened".
-   - Documentary / Biography / True Story: Focus on "True Story Behind [Title]: Real Life Facts vs Fiction".
-   - Animation / Family / Comedy: Focus on "[Title] Review, Cast & Ending Breakdown: Worth Watching?".
-   - Superhero / Sci-Fi / Action: Focus on "Easter Eggs, Ending Explained & Mind-Blowing Theories".
-2. Meta Description: Direct and engaging, under 155 characters. Must mention the title, key hook (ending breakdown, major plot twist, cast highlight, or honest review).
+1. Headline: Irresistible, high-CTR, suspenseful, and clicky under 75 characters (Google Discover viral standard). Use psychological Information Gap hooks that command reader curiosity:
+   - Mystery / Thriller / Crime / Drama: Focus on "Disturbing Climax Twist Decoded", "What Really Happened In That Final Scene", or "The Shocking Motive Everyone Missed".
+   - Documentary / Biography / True Story: Focus on "True Horrific Story Behind [Title]: Real Life Facts vs Fiction" or "The Dark Truth They Kept Secret".
+   - Animation / Family / Comedy: Focus on "Dark Climax Detail Fans Missed" or "The Hidden Secret In [Title]".
+   - Superhero / Sci-Fi / Action: Focus on "Mind-Blowing Ending Clue Decoded" or "Did They Actually Survive? Climax Theory".
+   - NEVER write dry or boring headlines like 'A Review of [Title]' or '[Title] Plot Summary'. Make it suspenseful, sharp, and impossible to ignore.
+2. Meta Description: Direct, suspenseful and engaging, under 155 characters. Must tease the climax twist, hidden motive, and final resolution.
 3. Key Takeaways: Exactly 3 to 4 punchy bullet points summarizing key facts for readers.
 4. Sections: Exactly 4 rich, distinct editorial sections (70-130 words each):
    - Section 1: Plot Premise & Core Narrative Setup (Clear breakdown of the main storyline).

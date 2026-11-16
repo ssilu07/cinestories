@@ -19,6 +19,11 @@ from config import (
     get_ga_script,
     get_adsense_script
 )
+from push_notifications import (
+    PUSH_NOTIFICATION_CSS,
+    get_push_notification_html,
+    get_push_notification_script
+)
 
 # Canonical 10 Breakout Viral Spotlight Slugs pinned in the Hero Carousel
 VIRAL_SPOTLIGHT_SLUGS: List[str] = [
@@ -358,6 +363,8 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <link rel="alternate" hreflang="hi" href="{domain}/hi/">
   <link rel="alternate" hreflang="x-default" href="{domain}/">
   <link rel="icon" type="image/svg+xml" href="{domain}/assets/favicon.svg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#e50914">
   <meta name="google-site-verification" content="8Brds5ztSCZ-SIMPzuc_bVipCi_wCcAMmhfNX7GhNDw">
 
   <!-- Open Graph / Social -->
@@ -378,6 +385,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   </script>
 
   <style>
+{PUSH_NOTIFICATION_CSS}
     :root {{
       --bg: #090b10;
       --surface: #10141f;
@@ -2291,6 +2299,11 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
         }} catch (err) {{}}
       }});
     }});
+  </script>
+
+{get_push_notification_html(lang)}
+  <script>
+{get_push_notification_script(lang)}
   </script>
 </body>
 </html>

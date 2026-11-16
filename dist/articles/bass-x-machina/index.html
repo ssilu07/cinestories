@@ -45,6 +45,8 @@
 <meta content="https://image.tmdb.org/t/p/w1280/gpp6NcgfSrxKDivWskRxLp9UadU.jpg" name="twitter:image"/>
 <!-- Favicon & Fonts -->
 <link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/manifest.json" rel="manifest"/>
+<meta content="#e50914" name="theme-color"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&amp;family=Outfit:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -123,6 +125,260 @@
   ]
 }</script>
 <style>
+
+/* Web Push Notification Floating Bell & Modal Styling */
+.push-bell-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9998;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.push-bell-btn {
+  background: linear-gradient(135deg, #e50914 0%, #b80710 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(229, 9, 20, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.15);
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+  outline: none;
+}
+
+.push-bell-btn:hover {
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 12px 30px rgba(229, 9, 20, 0.6), 0 0 0 2px rgba(255, 255, 255, 0.3);
+}
+
+.push-bell-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+.push-bell-btn .bell-icon {
+  font-size: 18px;
+  display: inline-block;
+  animation: bellShake 3.5s ease-in-out infinite;
+}
+
+.push-bell-btn.is-subscribed {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4);
+}
+
+.push-bell-btn.is-subscribed .bell-icon {
+  animation: none;
+}
+
+.pulse-dot {
+  width: 9px;
+  height: 9px;
+  background-color: #facc15;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7);
+  animation: pulseDot 1.8s infinite;
+}
+
+@keyframes pulseDot {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(250, 204, 21, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); }
+}
+
+@keyframes bellShake {
+  0%, 100% { transform: rotate(0); }
+  2%, 6% { transform: rotate(14deg); }
+  4%, 8% { transform: rotate(-14deg); }
+  10% { transform: rotate(0); }
+}
+
+/* Modal Overlay */
+.push-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 7, 12, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.push-modal-backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.push-modal-card {
+  background: linear-gradient(180deg, #161922 0%, #0c0e14 100%);
+  border: 1px solid rgba(229, 9, 20, 0.35);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 440px;
+  padding: 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(229, 9, 20, 0.2);
+  position: relative;
+  transform: translateY(20px) scale(0.96);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  color: #ffffff;
+  text-align: left;
+}
+
+.push-modal-backdrop.is-open .push-modal-card {
+  transform: translateY(0) scale(1);
+}
+
+.push-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: #94a3b8;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.push-modal-close:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+.push-modal-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.push-modal-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.2) 0%, rgba(229, 9, 20, 0.05) 100%);
+  border: 1px solid rgba(229, 9, 20, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.push-modal-title {
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 0;
+}
+
+.push-modal-body {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.push-features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.push-features-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.push-features-list li span.tick {
+  color: #10b981;
+  font-weight: 800;
+}
+
+.push-modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.push-btn-primary {
+  background: linear-gradient(135deg, #e50914 0%, #b80710 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 16px rgba(229, 9, 20, 0.4);
+}
+
+.push-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(229, 9, 20, 0.6);
+}
+
+.push-btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #94a3b8;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.push-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .push-bell-widget {
+    bottom: 20px;
+    right: 16px;
+  }
+  .push-bell-btn span.btn-label {
+    display: none;
+  }
+  .push-bell-btn {
+    padding: 12px;
+    border-radius: 50%;
+  }
+}
+
     :root {
       --bg: #090b10;
       --surface: #10141f;
@@ -1632,6 +1888,180 @@ function setLanguagePreference(targetLang) {
       var bar = document.getElementById("readingProgress");
       if (bar) bar.style.width = scrolled + "%";
     }, { passive: true });
+  </script>
+<!-- Web Push Notification Widget & Modal -->
+<div class="push-bell-widget" id="pushBellWidget">
+<button aria-label="Cinema Alerts 🔔" class="push-bell-btn" id="pushBellBtn" type="button">
+<span class="bell-icon">🔔</span>
+<span class="btn-label">Cinema Alerts 🔔</span>
+<span class="pulse-dot" id="pushPulseDot"></span>
+</button>
+</div>
+<div aria-labelledby="pushModalTitle" aria-modal="true" class="push-modal-backdrop" id="pushModalBackdrop" role="dialog">
+<div class="push-modal-card">
+<button aria-label="Close modal" class="push-modal-close" id="pushModalClose" type="button">×</button>
+<div class="push-modal-header">
+<div class="push-modal-icon">🎬</div>
+<h3 class="push-modal-title" id="pushModalTitle">🎬 Never Miss a Breaking Cinema Climax</h3>
+</div>
+<p class="push-modal-body" id="pushModalBody">Get instant alerts the second trending trailer easter eggs, box office milestones, and climax twists drop on Google Trends.</p>
+<ul class="push-features-list" id="pushFeaturesList">
+<li><span class="tick">✓</span> ⚡ Real-time trailer &amp; climax decoders</li>
+<li><span class="tick">✓</span> 🍿 Zero spam — strictly trending cinema updates</li>
+<li><span class="tick">✓</span> 🔕 1-click easy opt-out anytime</li>
+</ul>
+<div class="push-modal-actions" id="pushModalActions">
+<button class="push-btn-primary" id="pushEnableBtn" type="button">🔔 Enable Instant Alerts</button>
+<button class="push-btn-secondary" id="pushDismissBtn" type="button">Maybe Later</button>
+</div>
+</div>
+</div>
+<script>
+
+    // ==========================================
+    // Web Push Notification System Client Logic
+    // ==========================================
+    (function() {
+      const bellBtn = document.getElementById('pushBellBtn');
+      const pulseDot = document.getElementById('pushPulseDot');
+      const backdrop = document.getElementById('pushModalBackdrop');
+      const closeBtn = document.getElementById('pushModalClose');
+      const dismissBtn = document.getElementById('pushDismissBtn');
+      const enableBtn = document.getElementById('pushEnableBtn');
+      const actionsContainer = document.getElementById('pushModalActions');
+      const modalBody = document.getElementById('pushModalBody');
+
+      // Register PWA Service Worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('[Push] ServiceWorker registered with scope:', reg.scope);
+          }).catch((err) => {
+            console.warn('[Push] ServiceWorker registration notice:', err);
+          });
+        });
+      }
+
+      // Check current notification permission state
+      function updateUIState() {
+        if (!('Notification' in window)) {
+          if (bellBtn) bellBtn.style.display = 'none';
+          return;
+        }
+
+        if (Notification.permission === 'granted' || localStorage.getItem('cinestories_push_enabled') === 'true') {
+          if (bellBtn) {
+            bellBtn.classList.add('is-subscribed');
+            const label = bellBtn.querySelector('.btn-label');
+            if (label) label.textContent = 'Alerts Active ✓';
+          }
+          if (pulseDot) pulseDot.style.display = 'none';
+
+          if (actionsContainer) {
+            actionsContainer.innerHTML = `
+              <button type="button" class="push-btn-primary" id="pushTestAlertBtn">⚡ Send Test Push Notification</button>
+              <button type="button" class="push-btn-secondary" id="pushCloseModalBtn">Close</button>
+            `;
+            const testBtn = document.getElementById('pushTestAlertBtn');
+            const closeMBtn = document.getElementById('pushCloseModalBtn');
+            if (testBtn) testBtn.addEventListener('click', triggerTestNotification);
+            if (closeMBtn) closeMBtn.addEventListener('click', closeModal);
+          }
+          if (modalBody) {
+            modalBody.textContent = '✓ You are actively subscribed to CineStories Breaking Cinema Alerts. Tap below to send a live test notification to your screen.';
+          }
+        }
+      }
+
+      function openModal() {
+        if (backdrop) backdrop.classList.add('is-open');
+      }
+
+      function closeModal() {
+        if (backdrop) backdrop.classList.remove('is-open');
+      }
+
+      function triggerTestNotification() {
+        closeModal();
+        if ('Notification' in window && Notification.permission === 'granted') {
+          if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+            navigator.serviceWorker.ready.then((reg) => {
+              reg.showNotification('🔥 Trending Climax Scoop Decoded', {
+                body: 'Trending right now on Google Trends: The shocking climax twist decoded! Tap to explore.',
+                icon: '/assets/logo.png',
+                badge: '/assets/logo.png',
+                vibrate: [200, 100, 200],
+                data: { url: window.location.pathname }
+              });
+            });
+          } else {
+            new Notification('🔥 Trending Climax Scoop Decoded', {
+              body: 'Trending right now on Google Trends: The shocking climax twist decoded! Tap to explore.',
+              icon: '/assets/logo.png'
+            });
+          }
+          if (typeof showToast === 'function') {
+            showToast('Test Alert Sent!', 'Check your screen for the push notification!');
+          }
+        }
+      }
+
+      function requestPushPermission() {
+        if (!('Notification' in window)) {
+          alert('Web Notifications are not supported in this browser.');
+          return;
+        }
+
+        Notification.requestPermission().then((permission) => {
+          if (permission === 'granted') {
+            localStorage.setItem('cinestories_push_enabled', 'true');
+            updateUIState();
+            closeModal();
+
+            if (typeof celebrateSparkles === 'function') {
+              celebrateSparkles(window.innerWidth / 2, window.innerHeight / 2);
+            }
+            if (typeof showToast === 'function') {
+              showToast('Alerts Activated!', 'You are now subscribed to breaking cinema scoops!');
+            }
+
+            // Send immediate welcome notification
+            if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+              navigator.serviceWorker.ready.then((reg) => {
+                reg.showNotification('🎬 CineStories Alerts Activated!', {
+                  body: 'Awesome! You will now receive instant alerts for breaking movie scoops and climax twists.',
+                  icon: '/assets/logo.png',
+                  badge: '/assets/logo.png',
+                  data: { url: window.location.pathname }
+                });
+              });
+            } else {
+              new Notification('🎬 CineStories Alerts Activated!', {
+                body: 'Awesome! You will now receive instant alerts for breaking movie scoops and climax twists.',
+                icon: '/assets/logo.png'
+              });
+            }
+          } else {
+            closeModal();
+          }
+        });
+      }
+
+      // Event Listeners
+      if (bellBtn) bellBtn.addEventListener('click', openModal);
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      if (dismissBtn) dismissBtn.addEventListener('click', closeModal);
+      if (enableBtn) enableBtn.addEventListener('click', requestPushPermission);
+      if (backdrop) {
+        backdrop.addEventListener('click', (e) => {
+          if (e.target === backdrop) closeModal();
+        });
+      }
+
+      // Initialize state on page load
+      updateUIState();
+    })();
+
   </script>
 </body>
 </html>
