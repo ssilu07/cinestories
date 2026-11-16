@@ -88,19 +88,9 @@ def get_latest_urls(limit: int = 50) -> List[str]:
 
 
 def ping_sitemaps(domain: str = DOMAIN_NAME):
-    """Pings Google and Bing with the current sitemap."""
+    """Logs sitemap readiness (Google and Bing deprecated anonymous HTTP ping in late 2023 in favor of robots.txt and IndexNow)."""
     sitemap_url = f"{domain}/sitemap.xml"
-    ping_endpoints = [
-        f"https://www.bing.com/ping?sitemap={sitemap_url}",
-        f"https://www.google.com/ping?sitemap={sitemap_url}"
-    ]
-    for endpoint in ping_endpoints:
-        try:
-            req = urllib.request.Request(endpoint, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
-            with urllib.request.urlopen(req, timeout=8) as res:
-                print(f"[✔] Sitemap Pinged: {endpoint} -> HTTP {res.getcode()}")
-        except Exception as e:
-            print(f"[~] Sitemap ping notice ({endpoint}): {e}")
+    print(f"[✔] Sitemap published and linked in robots.txt: {sitemap_url}")
 
 
 def submit_to_indexnow(urls: Optional[List[str]] = None, key: str = INDEXNOW_KEY) -> bool:

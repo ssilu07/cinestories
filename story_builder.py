@@ -954,6 +954,9 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME, 
     <link rel="alternate" hreflang="x-default" href="{en_story_url}">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    
+    <!-- Critical Google Discover & Large Image Meta Tag -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="description" content="{seo_desc}">
 
     <!-- Open Graph & Social -->
@@ -1001,7 +1004,6 @@ def build_amp_story_html(story_data: Dict[str, Any], domain: str = DOMAIN_NAME, 
       publisher="{publisher}"
       publisher-logo-src="{publisher_logo}"
       poster-portrait-src="{poster_portrait}"
-      poster-square-src="{poster_square}"
       poster-landscape-src="{poster_landscape}">
 
       <amp-analytics type="gtag">

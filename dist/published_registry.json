@@ -2686,5 +2686,59 @@
     "published_at": "2026-11-14T19:28:46Z",
     "modified_at": "2026-11-14T19:28:46Z",
     "category": "upcoming"
+  },
+  "shine-on-me": {
+    "title": "Shine on Me",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "netflix_hits"
+  },
+  "the-ramparts-of-ice": {
+    "title": "The Ramparts of Ice",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "streaming_charts"
+  },
+  "off-campus": {
+    "title": "Off Campus",
+    "published_at": "2026-11-13T07:44:33Z",
+    "modified_at": "2026-11-13T07:44:33Z",
+    "category": "ott_blockbusters"
+  },
+  "the-silent-storm": {
+    "title": "The Silent Storm",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "streaming_charts"
+  },
+  "the-gospel-of-christmas": {
+    "title": "The Gospel of Christmas",
+    "published_at": "2026-11-12T19:40:49Z",
+    "modified_at": "2026-11-12T19:40:49Z",
+    "category": "trending"
+  },
+  "sector-36-vol-3": {
+    "title": "Sector 36 (Part 3)",
+    "published_at": "2026-11-16T12:00:04Z",
+    "modified_at": "2026-11-16T12:00:04Z",
+    "category": "netflix_hits"
+  },
+  "streaming-weekly-top-10-us-uk-vol-3": {
+    "title": "Top 10 Streaming Hits (US & UK) (Part 3)",
+    "published_at": "2026-11-16T12:00:04Z",
+    "modified_at": "2026-11-16T12:00:04Z",
+    "category": "streaming_charts"
+  },
+  "jailer-2-vol-2": {
+    "title": "Jailer 2 (Part 2)",
+    "published_at": "2026-11-16T12:00:04Z",
+    "modified_at": "2026-11-16T12:00:04Z",
+    "category": "trending"
+  },
+  "war-2": {
+    "title": "War 2",
+    "published_at": "2026-11-16T12:00:04Z",
+    "modified_at": "2026-11-16T12:00:04Z",
+    "category": "upcoming"
   }
 }

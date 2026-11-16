@@ -13,15 +13,15 @@
   </script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport"/>
-<title>Google Discover Feed | MoviePulse Cinema News &amp; Deep Dives</title>
-<meta content="index, follow, max-image-preview:large" name="robots"/>
+<title>Google Discover Feed | CinematicBites Cinema News &amp; Deep Dives</title>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
 <meta content="Explore real-time cinema news, box office breakdowns, fan theories, and streaming hits in our Google Discover entertainment feed." name="description"/>
 <link href="https://cinematicbites.com/hi/discover/" rel="canonical"/>
 
 
 
 <meta content="website" property="og:type"/>
-<meta content="Google Discover Feed | MoviePulse" property="og:title"/>
+<meta content="Google Discover Feed | CinematicBites" property="og:title"/>
 <meta content="Daily trending movies, TV series analysis, and visual entertainment stories." property="og:description"/>
 <meta content="https://cinematicbites.com/hi/discover/" property="og:url"/>
 <meta content="https://cinematicbites.com/assets/logo.png" property="og:image"/>
@@ -474,6 +474,48 @@
         max-width: 1280px;
         gap: 28px;
       }
+    }
+
+    .load-more-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px auto 20px;
+      width: 100%;
+    }
+
+    .btn-load-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #e11d48, #be123c);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      padding: 14px 36px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(225, 29, 72, 0.38);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-load-more:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(225, 29, 72, 0.6);
+      background: linear-gradient(135deg, #f43f5e, #e11d48);
+    }
+
+    .btn-load-more:active {
+      transform: translateY(0);
+    }
+
+    .btn-load-more svg {
+      transition: transform 0.25s ease;
+    }
+
+    .btn-load-more:hover svg {
+      transform: translateY(3px);
     }
 
     .discover-card {
@@ -1152,10 +1194,10 @@ function setLanguagePreference(targetLang) {
 <!-- Top Navbar: Streamlined Mobile Header (360px-420px) -->
 <nav class="navbar">
 <div class="nav-container">
-<a aria-label="MoviePulse Home" class="brand-wrap" href="/hi/">
-<img alt="MoviePulse" class="brand-logo" height="36" src="/assets/logo.png" width="36"/>
+<a aria-label="CinematicBites Home" class="brand-wrap" href="/hi/">
+<img alt="CinematicBites" class="brand-logo" height="36" src="/assets/logo.png" width="36"/>
 <div>
-<div class="brand-title">MoviePulse</div>
+<div class="brand-title">CinematicBites</div>
 <div class="brand-tag">GOOGLE DISCOVER FEED</div>
 </div>
 </a>
@@ -1221,18 +1263,18 @@ function setLanguagePreference(targetLang) {
 <a aria-label="क्या प्रधान जी ने खुद पर गोली चलवाई? पंचायत ३ के अंत और सुरागों का पूरा विश्लेषण" class="card-media-link" href="/hi/articles/panchayat-season-3/">
 <div class="card-img-wrap">
 <img alt="क्या प्रधान जी ने खुद पर गोली चलवाई? पंचायत ३ के अंत और सुरागों का पूरा विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">TV Series</span>
+<span class="spotlight-tag">🔥 वायरल क्लाइमेक्स डिकोडर</span>
+<span class="card-cat-badge">टीवी सीरीज़</span>
 <span class="card-rating-badge">★ 8.7</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/panchayat-season-3/', 'क्या प्रधान जी ने खुद पर गोली चलवाई? पंचायत ३ के अंत और सुरागों का पूरा विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1244,11 +1286,11 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">पंचायत सीजन ३ के चौंकाने वाले अंत का विस्तृत विश्लेषण: बस स्टैंड गोलीकांड, प्रधान जी की राजनीतिक चाल, सचिव जी का तबादला और सीजन ४ की कहानी।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/panchayat-season-3/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/panchayat-season-3/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
@@ -1257,18 +1299,18 @@ function setLanguagePreference(targetLang) {
 <a aria-label="कालीन भैया ने शरद शुक्ला को क्यों मारा? मिर्ज़ापुर ३ के खूनी क्लाइमेक्स और सत्ता के खेल का विश्लेषण" class="card-media-link" href="/hi/articles/mirzapur-season-3/">
 <div class="card-img-wrap">
 <img alt="कालीन भैया ने शरद शुक्ला को क्यों मारा? मिर्ज़ापुर ३ के खूनी क्लाइमेक्स और सत्ता के खेल का विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">TV Series</span>
+<span class="spotlight-tag">🔥 वायरल क्लाइमेक्स डिकोडर</span>
+<span class="card-cat-badge">टीवी सीरीज़</span>
 <span class="card-rating-badge">★ 8.5</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/mirzapur-season-3/', 'कालीन भैया ने शरद शुक्ला को क्यों मारा? मिर्ज़ापुर ३ के खूनी क्लाइमेक्स और सत्ता के खेल का विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1280,11 +1322,11 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">मिर्ज़ापुर सीजन ३ का पूरा विश्लेषण: अखंडानंद त्रिपाठी का मास्टरस्ट्रोक, शरद शुक्ला की मौत, माधुरी का गुप्त समझौता, गुड्डू का पतन और मकबूल की वापसी।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/mirzapur-season-3/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/mirzapur-season-3/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
@@ -1293,18 +1335,18 @@ function setLanguagePreference(targetLang) {
 <a aria-label="क्या अक्षय कुमार मैडॉक यूनिवर्स के 'थानोस' हैं? स्त्री २ क्लाइमेक्स और पोस्ट-क्रेडिट्स डिकोड" class="card-media-link" href="/hi/articles/stree-2/">
 <div class="card-img-wrap">
 <img alt="क्या अक्षय कुमार मैडॉक यूनिवर्स के 'थानोस' हैं? स्त्री २ क्लाइमेक्स और पोस्ट-क्रेडिट्स डिकोड" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Cult Classic</span>
+<span class="spotlight-tag">🔥 वायरल क्लाइमेक्स डिकोडर</span>
+<span class="card-cat-badge">कल्ट क्लासिक</span>
 <span class="card-rating-badge">★ 7.4</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/stree-2/', 'क्या अक्षय कुमार मैडॉक यूनिवर्स के 'थानोस' हैं? स्त्री २ क्लाइमेक्स और पोस्ट-क्रेडिट्स डिकोड', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1316,31 +1358,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">स्त्री २ का संपूर्ण विश्लेषण: सरकटा का आतंक, अक्षय कुमार का शैतानी सुपरविलेन अवतार, श्रद्धा की असली पहचान और स्त्री ३ का रोडमैप।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/stree-2/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/stree-2/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="theories_easter_eggs" data-movie="kalki 2898 ad" data-title="भैरवा या महारथी कर्ण का पुनर्जन्म? कल्कि २८९८ एडी के अंतिम सीन और पौराणिक रहस्यों का विश्लेषण">
+<article class="discover-card" data-category="theories_easter_eggs" data-movie="kalki 2898 ad" data-title="भैरवा या महारथी कर्ण का पुनर्जन्म? कल्कि २८९८ एडी के अंतिम सीन और पौराणिक रहस्यों का विश्लेषण">
 <a aria-label="भैरवा या महारथी कर्ण का पुनर्जन्म? कल्कि २८९८ एडी के अंतिम सीन और पौराणिक रहस्यों का विश्लेषण" class="card-media-link" href="/hi/articles/kalki-2898-ad/">
 <div class="card-img-wrap">
 <img alt="भैरवा या महारथी कर्ण का पुनर्जन्म? कल्कि २८९८ एडी के अंतिम सीन और पौराणिक रहस्यों का विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Marvel &amp; DC Theories</span>
+<span class="card-cat-badge">थ्योरीज़ व रहस्य</span>
 <span class="card-rating-badge">★ 7.6</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/kalki-2898-ad/', 'भैरवा या महारथी कर्ण का पुनर्जन्म? कल्कि २८९८ एडी के अंतिम सीन और पौराणिक रहस्यों का विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1352,31 +1393,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">कल्कि २८९८ एडी का संपूर्ण विश्लेषण: प्रभास के विजय धनुष उठाने का सच, अमिताभ बच्चन का अश्वत्थामा अवतार, कमल हासन का सुप्रीम यास्किन और पार्ट २ की कहानी।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/kalki-2898-ad/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/kalki-2898-ad/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="netflix_hits" data-movie="sector 36" data-title="निठारी कांड पर आधारित सेक्टर ३६: क्या प्रेम सिंह को सजा मिली? क्लाइमेक्स और सिस्टम की कड़वी सच्चाई">
+<article class="discover-card" data-category="netflix_hits" data-movie="sector 36" data-title="निठारी कांड पर आधारित सेक्टर ३६: क्या प्रेम सिंह को सजा मिली? क्लाइमेक्स और सिस्टम की कड़वी सच्चाई">
 <a aria-label="निठारी कांड पर आधारित सेक्टर ३६: क्या प्रेम सिंह को सजा मिली? क्लाइमेक्स और सिस्टम की कड़वी सच्चाई" class="card-media-link" href="/hi/articles/sector-36/">
 <div class="card-img-wrap">
 <img alt="निठारी कांड पर आधारित सेक्टर ३६: क्या प्रेम सिंह को सजा मिली? क्लाइमेक्स और सिस्टम की कड़वी सच्चाई" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Netflix Hits</span>
+<span class="card-cat-badge">नेटफ्लिक्स हिट्स</span>
 <span class="card-rating-badge">★ 7.1</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/sector-36/', 'निठारी कांड पर आधारित सेक्टर ३६: क्या प्रेम सिंह को सजा मिली? क्लाइमेक्स और सिस्टम की कड़वी सच्चाई', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1388,31 +1428,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">नेटफ्लिक्स की सेक्टर ३६ का विस्तृत विश्लेषण: विक्रांत मैसी का खौफनाक कबूलनामा, दीपक डोबरियाल का अंतर्द्वंद्व और निठारी कांड की वास्तविक पड़ताल।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/sector-36/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/sector-36/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="netflix_hits" data-movie="do patti" data-title="सौम्या या कृति? दो पत्ती के क्लाइमेक्स ट्विस्ट और घरेलू हिंसा के कानून का विश्लेषण">
+<article class="discover-card" data-category="netflix_hits" data-movie="do patti" data-title="सौम्या या कृति? दो पत्ती के क्लाइमेक्स ट्विस्ट और घरेलू हिंसा के कानून का विश्लेषण">
 <a aria-label="सौम्या या कृति? दो पत्ती के क्लाइमेक्स ट्विस्ट और घरेलू हिंसा के कानून का विश्लेषण" class="card-media-link" href="/hi/articles/do-patti/">
 <div class="card-img-wrap">
 <img alt="सौम्या या कृति? दो पत्ती के क्लाइमेक्स ट्विस्ट और घरेलू हिंसा के कानून का विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/5z1ciMqskvl4opeq1NjAGlweOn5.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Netflix Hits</span>
+<span class="card-cat-badge">नेटफ्लिक्स हिट्स</span>
 <span class="card-rating-badge">★ 6.8</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/do-patti/', 'सौम्या या कृति? दो पत्ती के क्लाइमेक्स ट्विस्ट और घरेलू हिंसा के कानून का विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1424,20 +1463,19 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">दो पत्ती एंडिंग डिकोड: काजोल की पुलिस जांच, कृति सेनन का डबल रोल, शहीर शेख का हिंसक किरदार और धारा ४९८ए के कानूनी दांवपेच।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/do-patti/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/do-patti/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="trending" data-movie="devara: part 1" data-title="देवरा को किसने मारा? वरदा का धोखा या भैरा का खूनी षड्यंत्र! पार्ट १ का पूरा विश्लेषण">
+<article class="discover-card" data-category="trending" data-movie="devara: part 1" data-title="देवरा को किसने मारा? वरदा का धोखा या भैरा का खूनी षड्यंत्र! पार्ट १ का पूरा विश्लेषण">
 <a aria-label="देवरा को किसने मारा? वरदा का धोखा या भैरा का खूनी षड्यंत्र! पार्ट १ का पूरा विश्लेषण" class="card-media-link" href="/hi/articles/devara-part-1/">
 <div class="card-img-wrap">
 <img alt="देवरा को किसने मारा? वरदा का धोखा या भैरा का खूनी षड्यंत्र! पार्ट १ का पूरा विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/hkJhGayONXn96CqIRM9GhWKnlCf.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
 <span class="card-cat-badge">Trending</span>
 <span class="card-rating-badge">★ 7.0</span>
 </div>
@@ -1445,10 +1483,10 @@ function setLanguagePreference(targetLang) {
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/devara-part-1/', 'देवरा को किसने मारा? वरदा का धोखा या भैरा का खूनी षड्यंत्र! पार्ट १ का पूरा विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1460,20 +1498,19 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">देवरा पार्ट १ क्लाइमेक्स डिकोड: जूनियर एनटीआर का डबल रोल, सैफ अली खान का विलेन रूप, अनिरुद्ध का संगीत और पार्ट २ की अनकही कहानी।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/devara-part-1/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/devara-part-1/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="upcoming" data-movie="pushpa 2: the rule" data-title="पुष्पा झुकेगा नहीं! पुष्पा २ द रूल: भंवर सिंह शेखावत से महामुकाबला और लाल चंदन सिंडिकेट का विश्लेषण">
+<article class="discover-card" data-category="upcoming" data-movie="pushpa 2: the rule" data-title="पुष्पा झुकेगा नहीं! पुष्पा २ द रूल: भंवर सिंह शेखावत से महामुकाबला और लाल चंदन सिंडिकेट का विश्लेषण">
 <a aria-label="पुष्पा झुकेगा नहीं! पुष्पा २ द रूल: भंवर सिंह शेखावत से महामुकाबला और लाल चंदन सिंडिकेट का विश्लेषण" class="card-media-link" href="/hi/articles/pushpa-2-the-rule/">
 <div class="card-img-wrap">
 <img alt="पुष्पा झुकेगा नहीं! पुष्पा २ द रूल: भंवर सिंह शेखावत से महामुकाबला और लाल चंदन सिंडिकेट का विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
 <span class="card-cat-badge">Upcoming</span>
 <span class="card-rating-badge">★ 8.0</span>
 </div>
@@ -1481,10 +1518,10 @@ function setLanguagePreference(targetLang) {
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/pushpa-2-the-rule/', 'पुष्पा झुकेगा नहीं! पुष्पा २ द रूल: भंवर सिंह शेखावत से महामुकाबला और लाल चंदन सिंडिकेट का विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1496,31 +1533,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">पुष्पा २ द रूल का संपूर्ण विश्लेषण: अल्लू अर्जुन का जथारा अवतार, फहद फासिल से खूनी टकराव, रश्मिका की भूमिका और १००० करोड़ का बॉक्स ऑफिस धमाका।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/pushpa-2-the-rule/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/pushpa-2-the-rule/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="netflix_hits" data-movie="squid game season 2" data-title="प्लेयर ४५६ का खूनी बदला! स्क्विड गेम २: फ्रंट मैन के खिलाफ नया विद्रोह और खेलों का विश्लेषण">
+<article class="discover-card" data-category="netflix_hits" data-movie="squid game season 2" data-title="प्लेयर ४५६ का खूनी बदला! स्क्विड गेम २: फ्रंट मैन के खिलाफ नया विद्रोह और खेलों का विश्लेषण">
 <a aria-label="प्लेयर ४५६ का खूनी बदला! स्क्विड गेम २: फ्रंट मैन के खिलाफ नया विद्रोह और खेलों का विश्लेषण" class="card-media-link" href="/hi/articles/squid-game-season-2/">
 <div class="card-img-wrap">
 <img alt="प्लेयर ४५६ का खूनी बदला! स्क्विड गेम २: फ्रंट मैन के खिलाफ नया विद्रोह और खेलों का विश्लेषण" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Netflix Hits</span>
+<span class="card-cat-badge">नेटफ्लिक्स हिट्स</span>
 <span class="card-rating-badge">★ 8.1</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/squid-game-season-2/', 'प्लेयर ४५६ का खूनी बदला! स्क्विड गेम २: फ्रंट मैन के खिलाफ नया विद्रोह और खेलों का विश्लेषण', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1532,31 +1568,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">स्क्विड गेम सीजन २ का संपूर्ण विश्लेषण: सेओंग गि-हून की खेल में वापसी, फ्रंट मैन का असली चेहरा, नए जानलेवा खेल और वैश्विक पूंजीवाद पर तीखा प्रहार।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/squid-game-season-2/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/squid-game-season-2/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
-<article class="discover-card spotlight-card" data-category="theories_easter_eggs" data-movie="singham again" data-title="रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो">
+<article class="discover-card" data-category="theories_easter_eggs" data-movie="singham again" data-title="रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो">
 <a aria-label="रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो" class="card-media-link" href="/hi/articles/singham-again/">
 <div class="card-img-wrap">
 <img alt="रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो" class="card-img" height="338" loading="lazy" src="https://image.tmdb.org/t/p/w1280/nq73eRdEooripf3k0XHLtX14zyC.jpg" width="600"/>
-<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>
-<span class="card-cat-badge">Marvel &amp; DC Theories</span>
+<span class="card-cat-badge">थ्योरीज़ व रहस्य</span>
 <span class="card-rating-badge">★ 6.5</span>
 </div>
 </a>
 <div class="card-content">
 <div class="card-meta">
 <div class="publisher-meta">
-<img alt="MoviePulse" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
-<span class="pub-name">MoviePulse</span>
+<img alt="CinematicBites" class="pub-logo" height="20" src="/assets/logo.png" width="20"/>
+<span class="pub-name">CinematicBites</span>
 <span class="dot-separator">•</span>
-<span class="time-ago">Today</span>
+<span class="time-ago">आज</span>
 </div>
 <button aria-label="Share article" class="share-icon-btn" onclick="shareArticle('/hi/articles/singham-again/', 'रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो', event)" title="Share this article">
 <svg fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg>
@@ -1568,19 +1603,30 @@ function setLanguagePreference(targetLang) {
 <p class="card-snippet">सिंघम अगेन का संपूर्ण विश्लेषण: अजय देवगन का बाजीराव रूप, आधुनिक रामायण का ताना-बाना, दीपिका की शक्ति शेट्टी और सलमान खान का चुलबुल पांडे कैमियो।</p>
 <div class="card-footer-actions">
 <a class="btn-read" href="/hi/articles/singham-again/">
-<span>📖 लेख पढ़ें</span>
-<span class="read-duration">5 min</span>
+<span>📖 आर्टिकल पढ़ें</span>
+<span class="read-duration">5 मिनट</span>
 </a>
 <a class="btn-story" href="/hi/stories/singham-again/" title="Launch fast AMP Web Story">
-<span>⚡ Web Story</span>
+<span>⚡ वेब स्टोरी</span>
 </a>
 </div>
 </div>
 </article>
 <div class="no-results" id="noResults">
-<p>No articles found matching your filter or search query.</p>
+<p>कोई आर्टिकल नहीं मिला</p>
 </div>
 </main>
+<!-- Load More Articles Button -->
+<div class="load-more-container" id="loadMoreContainer" style="display: none;">
+<button aria-label="Load more articles" class="btn-load-more" id="loadMoreBtn">
+<span>और आर्टिकल्स देखें</span>
+<svg fill="none" height="18" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24" width="18"><path d="M12 5v14M5 12l7 7 7-7"></path></svg>
+</button>
+</div>
+<!-- Embedded Catalog Data for Instant Filtering & Pagination -->
+<script id="discoverArticlesData" type="application/json">
+[{"headline": "\u0915\u094d\u092f\u093e \u092a\u094d\u0930\u0927\u093e\u0928 \u091c\u0940 \u0928\u0947 \u0916\u0941\u0926 \u092a\u0930 \u0917\u094b\u0932\u0940 \u091a\u0932\u0935\u093e\u0908? \u092a\u0902\u091a\u093e\u092f\u0924 \u0969 \u0915\u0947 \u0905\u0902\u0924 \u0914\u0930 \u0938\u0941\u0930\u093e\u0917\u094b\u0902 \u0915\u093e \u092a\u0942\u0930\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Panchayat Season 3", "slug": "panchayat-season-3", "article_url": "/hi/articles/panchayat-season-3/", "story_url": "/hi/stories/panchayat-season-3/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/8ivTX5q2otqXvH815BcOhxVkTPW.jpg", "description": "\u092a\u0902\u091a\u093e\u092f\u0924 \u0938\u0940\u091c\u0928 \u0969 \u0915\u0947 \u091a\u094c\u0902\u0915\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u0905\u0902\u0924 \u0915\u093e \u0935\u093f\u0938\u094d\u0924\u0943\u0924 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u092c\u0938 \u0938\u094d\u091f\u0948\u0902\u0921 \u0917\u094b\u0932\u0940\u0915\u093e\u0902\u0921, \u092a\u094d\u0930\u0927\u093e\u0928 \u091c\u0940 \u0915\u0940 \u0930\u093e\u091c\u0928\u0940\u0924\u093f\u0915 \u091a\u093e\u0932, \u0938\u091a\u093f\u0935 \u091c\u0940 \u0915\u093e \u0924\u092c\u093e\u0926\u0932\u093e \u0914\u0930 \u0938\u0940\u091c\u0928 \u096a \u0915\u0940 \u0915\u0939\u093e\u0928\u0940\u0964", "category": "series", "rating": 8.7, "reading_time": 5, "release_date": "2024-05-28"}, {"headline": "\u0915\u093e\u0932\u0940\u0928 \u092d\u0948\u092f\u093e \u0928\u0947 \u0936\u0930\u0926 \u0936\u0941\u0915\u094d\u0932\u093e \u0915\u094b \u0915\u094d\u092f\u094b\u0902 \u092e\u093e\u0930\u093e? \u092e\u093f\u0930\u094d\u091c\u093c\u093e\u092a\u0941\u0930 \u0969 \u0915\u0947 \u0916\u0942\u0928\u0940 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0914\u0930 \u0938\u0924\u094d\u0924\u093e \u0915\u0947 \u0916\u0947\u0932 \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Mirzapur Season 3", "slug": "mirzapur-season-3", "article_url": "/hi/articles/mirzapur-season-3/", "story_url": "/hi/stories/mirzapur-season-3/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/p0qM8hhlMF5DuxHBzl2EZR6TehX.jpg", "description": "\u092e\u093f\u0930\u094d\u091c\u093c\u093e\u092a\u0941\u0930 \u0938\u0940\u091c\u0928 \u0969 \u0915\u093e \u092a\u0942\u0930\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0905\u0916\u0902\u0921\u093e\u0928\u0902\u0926 \u0924\u094d\u0930\u093f\u092a\u093e\u0920\u0940 \u0915\u093e \u092e\u093e\u0938\u094d\u091f\u0930\u0938\u094d\u091f\u094d\u0930\u094b\u0915, \u0936\u0930\u0926 \u0936\u0941\u0915\u094d\u0932\u093e \u0915\u0940 \u092e\u094c\u0924, \u092e\u093e\u0927\u0941\u0930\u0940 \u0915\u093e \u0917\u0941\u092a\u094d\u0924 \u0938\u092e\u091d\u094c\u0924\u093e, \u0917\u0941\u0921\u094d\u0921\u0942 \u0915\u093e \u092a\u0924\u0928 \u0914\u0930 \u092e\u0915\u092c\u0942\u0932 \u0915\u0940 \u0935\u093e\u092a\u0938\u0940\u0964", "category": "series", "rating": 8.5, "reading_time": 5, "release_date": "2024-07-05"}, {"headline": "\u0915\u094d\u092f\u093e \u0905\u0915\u094d\u0937\u092f \u0915\u0941\u092e\u093e\u0930 \u092e\u0948\u0921\u0949\u0915 \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938 \u0915\u0947 '\u0925\u093e\u0928\u094b\u0938' \u0939\u0948\u0902? \u0938\u094d\u0924\u094d\u0930\u0940 \u0968 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0914\u0930 \u092a\u094b\u0938\u094d\u091f-\u0915\u094d\u0930\u0947\u0921\u093f\u091f\u094d\u0938 \u0921\u093f\u0915\u094b\u0921", "movie_title": "Stree 2", "slug": "stree-2", "article_url": "/hi/articles/stree-2/", "story_url": "/hi/stories/stree-2/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/fVV0A67kDjTTQ4CvUn8LoletRmI.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/nfnhwfUEFuSOxxf4jDdBlY6Lccw.jpg", "description": "\u0938\u094d\u0924\u094d\u0930\u0940 \u0968 \u0915\u093e \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0938\u0930\u0915\u091f\u093e \u0915\u093e \u0906\u0924\u0902\u0915, \u0905\u0915\u094d\u0937\u092f \u0915\u0941\u092e\u093e\u0930 \u0915\u093e \u0936\u0948\u0924\u093e\u0928\u0940 \u0938\u0941\u092a\u0930\u0935\u093f\u0932\u0947\u0928 \u0905\u0935\u0924\u093e\u0930, \u0936\u094d\u0930\u0926\u094d\u0927\u093e \u0915\u0940 \u0905\u0938\u0932\u0940 \u092a\u0939\u091a\u093e\u0928 \u0914\u0930 \u0938\u094d\u0924\u094d\u0930\u0940 \u0969 \u0915\u093e \u0930\u094b\u0921\u092e\u0948\u092a\u0964", "category": "cult_classic", "rating": 7.4, "reading_time": 5, "release_date": "2024-08-15"}, {"headline": "\u092d\u0948\u0930\u0935\u093e \u092f\u093e \u092e\u0939\u093e\u0930\u0925\u0940 \u0915\u0930\u094d\u0923 \u0915\u093e \u092a\u0941\u0928\u0930\u094d\u091c\u0928\u094d\u092e? \u0915\u0932\u094d\u0915\u093f \u0968\u096e\u096f\u096e \u090f\u0921\u0940 \u0915\u0947 \u0905\u0902\u0924\u093f\u092e \u0938\u0940\u0928 \u0914\u0930 \u092a\u094c\u0930\u093e\u0923\u093f\u0915 \u0930\u0939\u0938\u094d\u092f\u094b\u0902 \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Kalki 2898 AD", "slug": "kalki-2898-ad", "article_url": "/hi/articles/kalki-2898-ad/", "story_url": "/hi/stories/kalki-2898-ad/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/x7f1n1ToNQTzQ26TCeplJTcG4Ht.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/rstcAnBeCkxNQjNp3YXrF6IP1tW.jpg", "description": "\u0915\u0932\u094d\u0915\u093f \u0968\u096e\u096f\u096e \u090f\u0921\u0940 \u0915\u093e \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u092a\u094d\u0930\u092d\u093e\u0938 \u0915\u0947 \u0935\u093f\u091c\u092f \u0927\u0928\u0941\u0937 \u0909\u0920\u093e\u0928\u0947 \u0915\u093e \u0938\u091a, \u0905\u092e\u093f\u0924\u093e\u092d \u092c\u091a\u094d\u091a\u0928 \u0915\u093e \u0905\u0936\u094d\u0935\u0924\u094d\u0925\u093e\u092e\u093e \u0905\u0935\u0924\u093e\u0930, \u0915\u092e\u0932 \u0939\u093e\u0938\u0928 \u0915\u093e \u0938\u0941\u092a\u094d\u0930\u0940\u092e \u092f\u093e\u0938\u094d\u0915\u093f\u0928 \u0914\u0930 \u092a\u093e\u0930\u094d\u091f \u0968 \u0915\u0940 \u0915\u0939\u093e\u0928\u0940\u0964", "category": "theories_easter_eggs", "rating": 7.6, "reading_time": 5, "release_date": "2024-06-27"}, {"headline": "\u0928\u093f\u0920\u093e\u0930\u0940 \u0915\u093e\u0902\u0921 \u092a\u0930 \u0906\u0927\u093e\u0930\u093f\u0924 \u0938\u0947\u0915\u094d\u091f\u0930 \u0969\u096c: \u0915\u094d\u092f\u093e \u092a\u094d\u0930\u0947\u092e \u0938\u093f\u0902\u0939 \u0915\u094b \u0938\u091c\u093e \u092e\u093f\u0932\u0940? \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0914\u0930 \u0938\u093f\u0938\u094d\u091f\u092e \u0915\u0940 \u0915\u0921\u093c\u0935\u0940 \u0938\u091a\u094d\u091a\u093e\u0908", "movie_title": "Sector 36", "slug": "sector-36", "article_url": "/hi/articles/sector-36/", "story_url": "/hi/stories/sector-36/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/5gR5ZKNRtFp07Jb7PiOLhz2TRJO.jpg", "description": "\u0928\u0947\u091f\u092b\u094d\u0932\u093f\u0915\u094d\u0938 \u0915\u0940 \u0938\u0947\u0915\u094d\u091f\u0930 \u0969\u096c \u0915\u093e \u0935\u093f\u0938\u094d\u0924\u0943\u0924 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0935\u093f\u0915\u094d\u0930\u093e\u0902\u0924 \u092e\u0948\u0938\u0940 \u0915\u093e \u0916\u094c\u092b\u0928\u093e\u0915 \u0915\u092c\u0942\u0932\u0928\u093e\u092e\u093e, \u0926\u0940\u092a\u0915 \u0921\u094b\u092c\u0930\u093f\u092f\u093e\u0932 \u0915\u093e \u0905\u0902\u0924\u0930\u094d\u0926\u094d\u0935\u0902\u0926\u094d\u0935 \u0914\u0930 \u0928\u093f\u0920\u093e\u0930\u0940 \u0915\u093e\u0902\u0921 \u0915\u0940 \u0935\u093e\u0938\u094d\u0924\u0935\u093f\u0915 \u092a\u0921\u093c\u0924\u093e\u0932\u0964", "category": "netflix_hits", "rating": 7.1, "reading_time": 5, "release_date": "2024-09-13"}, {"headline": "\u0938\u094c\u092e\u094d\u092f\u093e \u092f\u093e \u0915\u0943\u0924\u093f? \u0926\u094b \u092a\u0924\u094d\u0924\u0940 \u0915\u0947 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u091f\u094d\u0935\u093f\u0938\u094d\u091f \u0914\u0930 \u0918\u0930\u0947\u0932\u0942 \u0939\u093f\u0902\u0938\u093e \u0915\u0947 \u0915\u093e\u0928\u0942\u0928 \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Do Patti", "slug": "do-patti", "article_url": "/hi/articles/do-patti/", "story_url": "/hi/stories/do-patti/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/5z1ciMqskvl4opeq1NjAGlweOn5.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/wbXSE68cDwqUPsHJcpdu7I5kSLK.jpg", "description": "\u0926\u094b \u092a\u0924\u094d\u0924\u0940 \u090f\u0902\u0921\u093f\u0902\u0917 \u0921\u093f\u0915\u094b\u0921: \u0915\u093e\u091c\u094b\u0932 \u0915\u0940 \u092a\u0941\u0932\u093f\u0938 \u091c\u093e\u0902\u091a, \u0915\u0943\u0924\u093f \u0938\u0947\u0928\u0928 \u0915\u093e \u0921\u092c\u0932 \u0930\u094b\u0932, \u0936\u0939\u0940\u0930 \u0936\u0947\u0916 \u0915\u093e \u0939\u093f\u0902\u0938\u0915 \u0915\u093f\u0930\u0926\u093e\u0930 \u0914\u0930 \u0927\u093e\u0930\u093e \u096a\u096f\u096e\u090f \u0915\u0947 \u0915\u093e\u0928\u0942\u0928\u0940 \u0926\u093e\u0902\u0935\u092a\u0947\u091a\u0964", "category": "netflix_hits", "rating": 6.8, "reading_time": 5, "release_date": "2024-10-25"}, {"headline": "\u0926\u0947\u0935\u0930\u093e \u0915\u094b \u0915\u093f\u0938\u0928\u0947 \u092e\u093e\u0930\u093e? \u0935\u0930\u0926\u093e \u0915\u093e \u0927\u094b\u0916\u093e \u092f\u093e \u092d\u0948\u0930\u093e \u0915\u093e \u0916\u0942\u0928\u0940 \u0937\u0921\u094d\u092f\u0902\u0924\u094d\u0930! \u092a\u093e\u0930\u094d\u091f \u0967 \u0915\u093e \u092a\u0942\u0930\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Devara: Part 1", "slug": "devara-part-1", "article_url": "/hi/articles/devara-part-1/", "story_url": "/hi/stories/devara-part-1/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/hkJhGayONXn96CqIRM9GhWKnlCf.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg", "description": "\u0926\u0947\u0935\u0930\u093e \u092a\u093e\u0930\u094d\u091f \u0967 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0921\u093f\u0915\u094b\u0921: \u091c\u0942\u0928\u093f\u092f\u0930 \u090f\u0928\u091f\u0940\u0906\u0930 \u0915\u093e \u0921\u092c\u0932 \u0930\u094b\u0932, \u0938\u0948\u092b \u0905\u0932\u0940 \u0916\u093e\u0928 \u0915\u093e \u0935\u093f\u0932\u0947\u0928 \u0930\u0942\u092a, \u0905\u0928\u093f\u0930\u0941\u0926\u094d\u0927 \u0915\u093e \u0938\u0902\u0917\u0940\u0924 \u0914\u0930 \u092a\u093e\u0930\u094d\u091f \u0968 \u0915\u0940 \u0905\u0928\u0915\u0939\u0940 \u0915\u0939\u093e\u0928\u0940\u0964", "category": "trending", "rating": 7.0, "reading_time": 5, "release_date": "2024-09-27"}, {"headline": "\u092a\u0941\u0937\u094d\u092a\u093e \u091d\u0941\u0915\u0947\u0917\u093e \u0928\u0939\u0940\u0902! \u092a\u0941\u0937\u094d\u092a\u093e \u0968 \u0926 \u0930\u0942\u0932: \u092d\u0902\u0935\u0930 \u0938\u093f\u0902\u0939 \u0936\u0947\u0916\u093e\u0935\u0924 \u0938\u0947 \u092e\u0939\u093e\u092e\u0941\u0915\u093e\u092c\u0932\u093e \u0914\u0930 \u0932\u093e\u0932 \u091a\u0902\u0926\u0928 \u0938\u093f\u0902\u0921\u093f\u0915\u0947\u091f \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Pushpa 2: The Rule", "slug": "pushpa-2-the-rule", "article_url": "/hi/articles/pushpa-2-the-rule/", "story_url": "/hi/stories/pushpa-2-the-rule/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/aS3xM79dmg6bxw9uNqTxRdoze5H.jpg", "description": "\u092a\u0941\u0937\u094d\u092a\u093e \u0968 \u0926 \u0930\u0942\u0932 \u0915\u093e \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0905\u0932\u094d\u0932\u0942 \u0905\u0930\u094d\u091c\u0941\u0928 \u0915\u093e \u091c\u0925\u093e\u0930\u093e \u0905\u0935\u0924\u093e\u0930, \u092b\u0939\u0926 \u092b\u093e\u0938\u093f\u0932 \u0938\u0947 \u0916\u0942\u0928\u0940 \u091f\u0915\u0930\u093e\u0935, \u0930\u0936\u094d\u092e\u093f\u0915\u093e \u0915\u0940 \u092d\u0942\u092e\u093f\u0915\u093e \u0914\u0930 \u0967\u0966\u0966\u0966 \u0915\u0930\u094b\u0921\u093c \u0915\u093e \u092c\u0949\u0915\u094d\u0938 \u0911\u092b\u093f\u0938 \u0927\u092e\u093e\u0915\u093e\u0964", "category": "upcoming", "rating": 8.0, "reading_time": 5, "release_date": "2024-12-05"}, {"headline": "\u092a\u094d\u0932\u0947\u092f\u0930 \u096a\u096b\u096c \u0915\u093e \u0916\u0942\u0928\u0940 \u092c\u0926\u0932\u093e! \u0938\u094d\u0915\u094d\u0935\u093f\u0921 \u0917\u0947\u092e \u0968: \u092b\u094d\u0930\u0902\u091f \u092e\u0948\u0928 \u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0928\u092f\u093e \u0935\u093f\u0926\u094d\u0930\u094b\u0939 \u0914\u0930 \u0916\u0947\u0932\u094b\u0902 \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923", "movie_title": "Squid Game Season 2", "slug": "squid-game-season-2", "article_url": "/hi/articles/squid-game-season-2/", "story_url": "/hi/stories/squid-game-season-2/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg", "description": "\u0938\u094d\u0915\u094d\u0935\u093f\u0921 \u0917\u0947\u092e \u0938\u0940\u091c\u0928 \u0968 \u0915\u093e \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0938\u0947\u0913\u0902\u0917 \u0917\u093f-\u0939\u0942\u0928 \u0915\u0940 \u0916\u0947\u0932 \u092e\u0947\u0902 \u0935\u093e\u092a\u0938\u0940, \u092b\u094d\u0930\u0902\u091f \u092e\u0948\u0928 \u0915\u093e \u0905\u0938\u0932\u0940 \u091a\u0947\u0939\u0930\u093e, \u0928\u090f \u091c\u093e\u0928\u0932\u0947\u0935\u093e \u0916\u0947\u0932 \u0914\u0930 \u0935\u0948\u0936\u094d\u0935\u093f\u0915 \u092a\u0942\u0902\u091c\u0940\u0935\u093e\u0926 \u092a\u0930 \u0924\u0940\u0916\u093e \u092a\u094d\u0930\u0939\u093e\u0930\u0964", "category": "netflix_hits", "rating": 8.1, "reading_time": 5, "release_date": "2024-12-26"}, {"headline": "\u0930\u094b\u0939\u093f\u0924 \u0936\u0947\u091f\u094d\u091f\u0940 \u0915\u093e \u0930\u093e\u092e\u093e\u092f\u0923 \u0915\u0928\u0947\u0915\u094d\u0936\u0928! \u0938\u093f\u0902\u0918\u092e \u0905\u0917\u0947\u0928: \u0915\u0949\u092a \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938 \u0915\u093e \u092e\u0939\u093e-\u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u0914\u0930 \u0938\u0932\u092e\u093e\u0928 \u0915\u093e \u091a\u0941\u0932\u092c\u0941\u0932 \u0915\u0948\u092e\u093f\u092f\u094b", "movie_title": "Singham Again", "slug": "singham-again", "article_url": "/hi/articles/singham-again/", "story_url": "/hi/stories/singham-again/", "backdrop_url": "https://image.tmdb.org/t/p/w1280/nq73eRdEooripf3k0XHLtX14zyC.jpg", "poster_url": "https://image.tmdb.org/t/p/w780/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg", "description": "\u0938\u093f\u0902\u0918\u092e \u0905\u0917\u0947\u0928 \u0915\u093e \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923: \u0905\u091c\u092f \u0926\u0947\u0935\u0917\u0928 \u0915\u093e \u092c\u093e\u091c\u0940\u0930\u093e\u0935 \u0930\u0942\u092a, \u0906\u0927\u0941\u0928\u093f\u0915 \u0930\u093e\u092e\u093e\u092f\u0923 \u0915\u093e \u0924\u093e\u0928\u093e-\u092c\u093e\u0928\u093e, \u0926\u0940\u092a\u093f\u0915\u093e \u0915\u0940 \u0936\u0915\u094d\u0924\u093f \u0936\u0947\u091f\u094d\u091f\u0940 \u0914\u0930 \u0938\u0932\u092e\u093e\u0928 \u0916\u093e\u0928 \u0915\u093e \u091a\u0941\u0932\u092c\u0941\u0932 \u092a\u093e\u0902\u0921\u0947 \u0915\u0948\u092e\u093f\u092f\u094b\u0964", "category": "theories_easter_eggs", "rating": 6.5, "reading_time": 5, "release_date": "2024-11-01"}]
+  </script>
 <!-- Footer -->
 <footer class="footer">
 <div class="footer-container">
@@ -1604,7 +1650,7 @@ function setLanguagePreference(targetLang) {
 <a href="/hi/contact/">Contact Us</a>
 <a href="/sitemap.xml">XML Sitemap</a>
 </div>
-<p>© 2026 MoviePulse. Optimized for Google Chrome Discover &amp; Google Search.</p>
+<p>© 2026 CinematicBites. Optimized for Google Chrome Discover &amp; Google Search.</p>
 </div>
 </footer>
 <!-- Toast Notification & Confetti Sparks -->
@@ -1706,36 +1752,145 @@ function setLanguagePreference(targetLang) {
       }
     }
 
-    // Filter & Search Logic
+    // Filter, Search & Pagination Logic
     const searchInput = document.getElementById('searchInput');
     const filterPills = document.querySelectorAll('.filter-pill');
-    const cards = document.querySelectorAll('.discover-card');
+    const feedContainer = document.getElementById('feedContainer');
     const noResults = document.getElementById('noResults');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const articlesDataEl = document.getElementById('discoverArticlesData');
+    const allArticles = articlesDataEl ? JSON.parse(articlesDataEl.textContent) : [];
 
+    const isHi = true;
+    const BATCH_SIZE = 20;
     let currentFilter = 'all';
     let searchQuery = '';
+    let currentFiltered = allArticles;
+    let renderedCount = Math.min(BATCH_SIZE, allArticles.length);
+
+    function getCategoryLabel(cat) {
+      if (isHi) {
+        if (cat === 'netflix_hits') return 'नेटफ्लिक्स हिट्स';
+        if (cat === 'streaming_charts') return 'साप्ताहिक टॉप 10';
+        if (cat === 'theories_easter_eggs') return 'थ्योरीज़ व रहस्य';
+        if (cat === 'where_are_they_now') return 'अब कहाँ हैं सितारे?';
+        if (cat === 'series') return 'टीवी सीरीज़';
+        if (cat === 'cult_classic') return 'कल्ट क्लासिक';
+        if (cat === 'steamy_thrillers') return 'बोल्ड थ्रिलर';
+      } else {
+        if (cat === 'netflix_hits') return 'Netflix Hits';
+        if (cat === 'streaming_charts') return 'Weekly Top 10';
+        if (cat === 'theories_easter_eggs') return 'Marvel & DC Theories';
+        if (cat === 'where_are_they_now') return 'Where Are They Now?';
+        if (cat === 'series') return 'TV Series';
+        if (cat === 'cult_classic') return 'Cult Classic';
+        if (cat === 'steamy_thrillers') return 'Bold & Steamy';
+      }
+      return cat.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+    }
+
+    function createFeedCardElement(c, index) {
+      const catLabel = getCategoryLabel(c.category);
+      const isSpotlight = (index < 3);
+      const spotlightClass = isSpotlight ? ' spotlight-card' : '';
+      const spotlightTag = isSpotlight ? `<span class="spotlight-tag">🔥 ${isHi ? 'वायरल क्लाइमेक्स डिकोडर' : 'BREAKING CLIMAX DECODER'}</span>\n              ` : '';
+      const readArtLabel = isHi ? '📖 आर्टिकल पढ़ें' : '📖 Read Article';
+      const minLabel = isHi ? 'मिनट' : 'min';
+      const storyLabel = isHi ? '⚡ वेब स्टोरी' : '⚡ Web Story';
+      const todayLabel = isHi ? 'आज' : 'Today';
+
+      const article = document.createElement('article');
+      article.className = `discover-card${spotlightClass}`;
+      article.setAttribute('data-category', c.category);
+      article.setAttribute('data-title', (c.headline || '').toLowerCase());
+      article.setAttribute('data-movie', (c.movie_title || '').toLowerCase());
+
+      const safeHeadline = (c.headline || '').replace(/'/g, "\\'");
+      article.innerHTML = `
+        <a href="${c.article_url}" class="card-media-link" aria-label="${c.headline}">
+          <div class="card-img-wrap">
+            <img src="${c.backdrop_url}" alt="${c.headline}" class="card-img" loading="lazy" width="600" height="338">
+            ${spotlightTag}<span class="card-cat-badge">${catLabel}</span>
+            <span class="card-rating-badge">★ ${c.rating}</span>
+          </div>
+        </a>
+        <div class="card-content">
+          <div class="card-meta">
+            <div class="publisher-meta">
+              <img src="/assets/logo.png" alt="${SITE_NAME}" class="pub-logo" width="20" height="20">
+              <span class="pub-name">${SITE_NAME}</span>
+              <span class="dot-separator">•</span>
+              <span class="time-ago">${todayLabel}</span>
+            </div>
+            <button class="share-icon-btn" onclick="shareArticle('${c.article_url}', '${safeHeadline}', event)" aria-label="Share article" title="Share this article">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            </button>
+          </div>
+          
+          <h2 class="card-title">
+            <a href="${c.article_url}">${c.headline}</a>
+          </h2>
+
+          <p class="card-snippet">${c.description || ''}</p>
+
+          <div class="card-footer-actions">
+            <a href="${c.article_url}" class="btn-read">
+              <span>${readArtLabel}</span>
+              <span class="read-duration">${c.reading_time} ${minLabel}</span>
+            </a>
+            <a href="${c.story_url}" class="btn-story" title="Launch fast AMP Web Story">
+              <span>${storyLabel}</span>
+            </a>
+          </div>
+        </div>
+      `;
+      return article;
+    }
 
     function applyFilters() {
-      let visibleCount = 0;
-      cards.forEach(card => {
-        const cat = card.getAttribute('data-category');
-        const title = card.getAttribute('data-title') || '';
-        const movie = card.getAttribute('data-movie') || '';
+      currentFiltered = allArticles.filter(c => {
+        const cat = c.category;
+        const title = (c.headline || '').toLowerCase();
+        const movie = (c.movie_title || '').toLowerCase();
 
         const matchesCat = (currentFilter === 'all') || (cat === currentFilter);
         const matchesQuery = (!searchQuery) || title.includes(searchQuery) || movie.includes(searchQuery);
-
-        if (matchesCat && matchesQuery) {
-          card.style.display = 'flex';
-          visibleCount++;
-        } else {
-          card.style.display = 'none';
-        }
+        return matchesCat && matchesQuery;
       });
 
-      if (noResults) {
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      // Clear existing articles
+      const existing = feedContainer.querySelectorAll('.discover-card');
+      existing.forEach(card => card.remove());
+
+      renderedCount = Math.min(BATCH_SIZE, currentFiltered.length);
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < renderedCount; i++) {
+        frag.appendChild(createFeedCardElement(currentFiltered[i], i));
       }
+      feedContainer.insertBefore(frag, noResults);
+
+      if (noResults) {
+        noResults.style.display = (currentFiltered.length === 0) ? 'block' : 'none';
+      }
+      if (loadMoreContainer) {
+        loadMoreContainer.style.display = (renderedCount < currentFiltered.length) ? 'flex' : 'none';
+      }
+    }
+
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        const nextLimit = Math.min(renderedCount + BATCH_SIZE, currentFiltered.length);
+        const frag = document.createDocumentFragment();
+        for (let i = renderedCount; i < nextLimit; i++) {
+          frag.appendChild(createFeedCardElement(currentFiltered[i], i));
+        }
+        feedContainer.insertBefore(frag, noResults);
+        renderedCount = nextLimit;
+        if (renderedCount >= currentFiltered.length && loadMoreContainer) {
+          loadMoreContainer.style.display = 'none';
+        }
+      });
     }
 
     filterPills.forEach(btn => {

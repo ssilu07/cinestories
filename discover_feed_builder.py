@@ -80,37 +80,35 @@ def build_discover_feed_html(
 
     cards_json = json.dumps(feed_cards_data)
 
-    VIRAL_SPOTLIGHT_SLUGS = {
-        'panchayat-season-3', 'mirzapur-season-3', 'stree-2', 'kalki-2898-ad',
-        'sector-36', 'do-patti', 'devara-part-1', 'pushpa-2-the-rule',
-        'squid-game-season-2', 'singham-again'
-    }
+    spotlight_slugs = {c["slug"] for c in feed_cards_data[:3]}
 
-    cards_html_list = []
-    for c in feed_cards_data:
+    def render_feed_card_html(c: Dict[str, Any]) -> str:
         cat = c["category"]
         if cat == "netflix_hits":
-            cat_label = "Netflix Hits"
+            cat_label = "नेटफ्लिक्स हिट्स" if lang == "hi" else "Netflix Hits"
         elif cat == "streaming_charts":
-            cat_label = "Weekly Top 10"
+            cat_label = "साप्ताहिक टॉप 10" if lang == "hi" else "Weekly Top 10"
         elif cat == "theories_easter_eggs":
-            cat_label = "Marvel & DC Theories"
+            cat_label = "थ्योरीज़ व रहस्य" if lang == "hi" else "Marvel & DC Theories"
         elif cat == "where_are_they_now":
-            cat_label = "Where Are They Now?"
+            cat_label = "अब कहाँ हैं सितारे?" if lang == "hi" else "Where Are They Now?"
         elif cat == "series":
-            cat_label = "TV Series"
+            cat_label = "टीवी सीरीज़" if lang == "hi" else "TV Series"
         elif cat == "cult_classic":
-            cat_label = "Cult Classic"
+            cat_label = "कल्ट क्लासिक" if lang == "hi" else "Cult Classic"
         elif cat == "steamy_thrillers":
-            cat_label = "Bold & Steamy"
+            cat_label = "बोल्ड थ्रिलर" if lang == "hi" else "Bold & Steamy"
         else:
             cat_label = cat.replace("_", " ").title()
 
-        is_spotlight = c["slug"] in VIRAL_SPOTLIGHT_SLUGS
+        is_spotlight = c["slug"] in spotlight_slugs
         spotlight_class = " spotlight-card" if is_spotlight else ""
-        spotlight_tag = '<span class="spotlight-tag">🔥 BREAKING CLIMAX DECODER</span>\n              ' if is_spotlight else ""
+        spotlight_tag = ('<span class="spotlight-tag">🔥 ' + ("वायरल क्लाइमेक्स डिकोडर" if lang == "hi" else "BREAKING CLIMAX DECODER") + '</span>\n              ') if is_spotlight else ""
+        read_art_label = "📖 आर्टिकल पढ़ें" if lang == "hi" else "📖 Read Article"
+        min_label = "मिनट" if lang == "hi" else "min"
+        story_label = "⚡ वेब स्टोरी" if lang == "hi" else "⚡ Web Story"
 
-        card_html = f"""
+        return f"""
         <article class="discover-card{spotlight_class}" data-category="{cat}" data-title="{html.escape(c['headline'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}">
           <a href="{c['article_url']}" class="card-media-link" aria-label="{html.escape(c['headline'])}">
             <div class="card-img-wrap">
@@ -125,7 +123,7 @@ def build_discover_feed_html(
                 <img src="/assets/logo.png" alt="{SITE_NAME}" class="pub-logo" width="20" height="20">
                 <span class="pub-name">{SITE_NAME}</span>
                 <span class="dot-separator">•</span>
-                <span class="time-ago">Today</span>
+                <span class="time-ago">{'आज' if lang == 'hi' else 'Today'}</span>
               </div>
               <button class="share-icon-btn" onclick="shareArticle('{c['article_url']}', '{html.escape(c['headline'])}', event)" aria-label="Share article" title="Share this article">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
@@ -140,18 +138,20 @@ def build_discover_feed_html(
 
             <div class="card-footer-actions">
               <a href="{c['article_url']}" class="btn-read">
-                <span>📖 Read Article</span>
-                <span class="read-duration">{c['reading_time']} min</span>
+                <span>{read_art_label}</span>
+                <span class="read-duration">{c['reading_time']} {min_label}</span>
               </a>
               <a href="{c['story_url']}" class="btn-story" title="Launch fast AMP Web Story">
-                <span>⚡ Web Story</span>
+                <span>{story_label}</span>
               </a>
             </div>
           </div>
         </article>
         """
-        cards_html_list.append(card_html)
 
+    # Initial static DOM renders top 20 freshest articles for instant LCP & SEO crawlability
+    initial_feed_cards = feed_cards_data[:20]
+    cards_html_list = [render_feed_card_html(c).strip() for c in initial_feed_cards]
     cards_html = "\n".join(cards_html_list)
 
     return f"""<!doctype html>
@@ -162,7 +162,7 @@ def build_discover_feed_html(
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Google Discover Feed | {SITE_NAME} Cinema News & Deep Dives</title>
-  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="description" content="Explore real-time cinema news, box office breakdowns, fan theories, and streaming hits in our Google Discover entertainment feed.">
   <link rel="canonical" href="{canonical_url}">
   <link rel="alternate" hreflang="en" href="{domain}/discover/">
@@ -625,6 +625,48 @@ def build_discover_feed_html(
         max-width: 1280px;
         gap: 28px;
       }}
+    }}
+
+    .load-more-container {{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px auto 20px;
+      width: 100%;
+    }}
+
+    .btn-load-more {{
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #e11d48, #be123c);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      padding: 14px 36px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(225, 29, 72, 0.38);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }}
+
+    .btn-load-more:hover {{
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(225, 29, 72, 0.6);
+      background: linear-gradient(135deg, #f43f5e, #e11d48);
+    }}
+
+    .btn-load-more:active {{
+      transform: translateY(0);
+    }}
+
+    .btn-load-more svg {{
+      transition: transform 0.25s ease;
+    }}
+
+    .btn-load-more:hover svg {{
+      transform: translateY(3px);
     }}
 
     .discover-card {{
@@ -1102,9 +1144,22 @@ def build_discover_feed_html(
   <main class="feed-container" id="feedContainer">
     {cards_html}
     <div id="noResults" class="no-results">
-      <p>No articles found matching your filter or search query.</p>
+      <p>{ 'कोई आर्टिकल नहीं मिला' if lang == 'hi' else 'No articles found matching your filter or search query.' }</p>
     </div>
   </main>
+
+  <!-- Load More Articles Button -->
+  <div class="load-more-container" id="loadMoreContainer" style="{'display: flex;' if len(feed_cards_data) > 20 else 'display: none;'}">
+    <button class="btn-load-more" id="loadMoreBtn" aria-label="Load more articles">
+      <span>{ 'और आर्टिकल्स देखें' if lang == 'hi' else 'Load More Articles' }</span>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </button>
+  </div>
+
+  <!-- Embedded Catalog Data for Instant Filtering & Pagination -->
+  <script id="discoverArticlesData" type="application/json">
+{cards_json}
+  </script>
 
   <!-- Footer -->
   <footer class="footer">
@@ -1223,36 +1278,145 @@ def build_discover_feed_html(
       }}
     }}
 
-    // Filter & Search Logic
+    // Filter, Search & Pagination Logic
     const searchInput = document.getElementById('searchInput');
     const filterPills = document.querySelectorAll('.filter-pill');
-    const cards = document.querySelectorAll('.discover-card');
+    const feedContainer = document.getElementById('feedContainer');
     const noResults = document.getElementById('noResults');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const articlesDataEl = document.getElementById('discoverArticlesData');
+    const allArticles = articlesDataEl ? JSON.parse(articlesDataEl.textContent) : [];
 
+    const isHi = { 'true' if lang == 'hi' else 'false' };
+    const BATCH_SIZE = 20;
     let currentFilter = 'all';
     let searchQuery = '';
+    let currentFiltered = allArticles;
+    let renderedCount = Math.min(BATCH_SIZE, allArticles.length);
+
+    function getCategoryLabel(cat) {{
+      if (isHi) {{
+        if (cat === 'netflix_hits') return 'नेटफ्लिक्स हिट्स';
+        if (cat === 'streaming_charts') return 'साप्ताहिक टॉप 10';
+        if (cat === 'theories_easter_eggs') return 'थ्योरीज़ व रहस्य';
+        if (cat === 'where_are_they_now') return 'अब कहाँ हैं सितारे?';
+        if (cat === 'series') return 'टीवी सीरीज़';
+        if (cat === 'cult_classic') return 'कल्ट क्लासिक';
+        if (cat === 'steamy_thrillers') return 'बोल्ड थ्रिलर';
+      }} else {{
+        if (cat === 'netflix_hits') return 'Netflix Hits';
+        if (cat === 'streaming_charts') return 'Weekly Top 10';
+        if (cat === 'theories_easter_eggs') return 'Marvel & DC Theories';
+        if (cat === 'where_are_they_now') return 'Where Are They Now?';
+        if (cat === 'series') return 'TV Series';
+        if (cat === 'cult_classic') return 'Cult Classic';
+        if (cat === 'steamy_thrillers') return 'Bold & Steamy';
+      }}
+      return cat.replace(/_/g, ' ').replace(/\\b\\w/g, l => l.toUpperCase());
+    }}
+
+    function createFeedCardElement(c, index) {{
+      const catLabel = getCategoryLabel(c.category);
+      const isSpotlight = (index < 3);
+      const spotlightClass = isSpotlight ? ' spotlight-card' : '';
+      const spotlightTag = isSpotlight ? `<span class="spotlight-tag">🔥 ${{isHi ? 'वायरल क्लाइमेक्स डिकोडर' : 'BREAKING CLIMAX DECODER'}}</span>\\n              ` : '';
+      const readArtLabel = isHi ? '📖 आर्टिकल पढ़ें' : '📖 Read Article';
+      const minLabel = isHi ? 'मिनट' : 'min';
+      const storyLabel = isHi ? '⚡ वेब स्टोरी' : '⚡ Web Story';
+      const todayLabel = isHi ? 'आज' : 'Today';
+
+      const article = document.createElement('article');
+      article.className = `discover-card${{spotlightClass}}`;
+      article.setAttribute('data-category', c.category);
+      article.setAttribute('data-title', (c.headline || '').toLowerCase());
+      article.setAttribute('data-movie', (c.movie_title || '').toLowerCase());
+
+      const safeHeadline = (c.headline || '').replace(/'/g, "\\\\'");
+      article.innerHTML = `
+        <a href="${{c.article_url}}" class="card-media-link" aria-label="${{c.headline}}">
+          <div class="card-img-wrap">
+            <img src="${{c.backdrop_url}}" alt="${{c.headline}}" class="card-img" loading="lazy" width="600" height="338">
+            ${{spotlightTag}}<span class="card-cat-badge">${{catLabel}}</span>
+            <span class="card-rating-badge">★ ${{c.rating}}</span>
+          </div>
+        </a>
+        <div class="card-content">
+          <div class="card-meta">
+            <div class="publisher-meta">
+              <img src="/assets/logo.png" alt="${{SITE_NAME}}" class="pub-logo" width="20" height="20">
+              <span class="pub-name">${{SITE_NAME}}</span>
+              <span class="dot-separator">•</span>
+              <span class="time-ago">${{todayLabel}}</span>
+            </div>
+            <button class="share-icon-btn" onclick="shareArticle('${{c.article_url}}', '${{safeHeadline}}', event)" aria-label="Share article" title="Share this article">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            </button>
+          </div>
+          
+          <h2 class="card-title">
+            <a href="${{c.article_url}}">${{c.headline}}</a>
+          </h2>
+
+          <p class="card-snippet">${{c.description || ''}}</p>
+
+          <div class="card-footer-actions">
+            <a href="${{c.article_url}}" class="btn-read">
+              <span>${{readArtLabel}}</span>
+              <span class="read-duration">${{c.reading_time}} ${{minLabel}}</span>
+            </a>
+            <a href="${{c.story_url}}" class="btn-story" title="Launch fast AMP Web Story">
+              <span>${{storyLabel}}</span>
+            </a>
+          </div>
+        </div>
+      `;
+      return article;
+    }}
 
     function applyFilters() {{
-      let visibleCount = 0;
-      cards.forEach(card => {{
-        const cat = card.getAttribute('data-category');
-        const title = card.getAttribute('data-title') || '';
-        const movie = card.getAttribute('data-movie') || '';
+      currentFiltered = allArticles.filter(c => {{
+        const cat = c.category;
+        const title = (c.headline || '').toLowerCase();
+        const movie = (c.movie_title || '').toLowerCase();
 
         const matchesCat = (currentFilter === 'all') || (cat === currentFilter);
         const matchesQuery = (!searchQuery) || title.includes(searchQuery) || movie.includes(searchQuery);
-
-        if (matchesCat && matchesQuery) {{
-          card.style.display = 'flex';
-          visibleCount++;
-        }} else {{
-          card.style.display = 'none';
-        }}
+        return matchesCat && matchesQuery;
       }});
 
-      if (noResults) {{
-        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      // Clear existing articles
+      const existing = feedContainer.querySelectorAll('.discover-card');
+      existing.forEach(card => card.remove());
+
+      renderedCount = Math.min(BATCH_SIZE, currentFiltered.length);
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < renderedCount; i++) {{
+        frag.appendChild(createFeedCardElement(currentFiltered[i], i));
       }}
+      feedContainer.insertBefore(frag, noResults);
+
+      if (noResults) {{
+        noResults.style.display = (currentFiltered.length === 0) ? 'block' : 'none';
+      }}
+      if (loadMoreContainer) {{
+        loadMoreContainer.style.display = (renderedCount < currentFiltered.length) ? 'flex' : 'none';
+      }}
+    }}
+
+    if (loadMoreBtn) {{
+      loadMoreBtn.addEventListener('click', () => {{
+        const nextLimit = Math.min(renderedCount + BATCH_SIZE, currentFiltered.length);
+        const frag = document.createDocumentFragment();
+        for (let i = renderedCount; i < nextLimit; i++) {{
+          frag.appendChild(createFeedCardElement(currentFiltered[i], i));
+        }}
+        feedContainer.insertBefore(frag, noResults);
+        renderedCount = nextLimit;
+        if (renderedCount >= currentFiltered.length && loadMoreContainer) {{
+          loadMoreContainer.style.display = 'none';
+        }}
+      }});
     }}
 
     filterPills.forEach(btn => {{

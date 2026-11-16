@@ -219,7 +219,7 @@ def get_translation(key: str, lang: str = "en", default: str = None, **kwargs) -
         is missing in the requested language, or to default/key if not found.
     """
     if not isinstance(key, str) or not key.strip():
-        return default if default is not None else ("CineStories" if key is None else "")
+        return default if default is not None else ""
     
     lang_code = (lang or "en").strip().lower().split("-")[0].split("_")[0]
     

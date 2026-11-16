@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MoviePulse | Visual Web Stories for Movie Lovers</title>
+    <title>CinematicBites | Visual Web Stories for Movie Lovers</title>
     <link>https://cinematicbites.com/</link>
-    <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
+    <description>Visual Web Stories and cinema deep dives from CinematicBites.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Nov 2026 19:28:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:01:26 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
-      <title>MoviePulse</title>
+      <title>CinematicBites</title>
       <link>https://cinematicbites.com/</link>
     </image>
-    <item>
-      <title>The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!</title>
-      <link>https://cinematicbites.com/articles/sector-36-vol-2/</link>
-      <description>Full Sector 36 (Part 2) breakdown: ending explained, complete plot summary, Vikrant Massey, Deepak Dobriyal, Akash Khurana performances, age rating, and...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/sector-36-vol-2/</guid>
-      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊</title>
-      <link>https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-2/</link>
-      <description>Full Top 10 Streaming Hits (US &amp; UK) (Part 2) breakdown: ending explained, complete plot summary, Squid Game, House of the Dragon, Fallout performances,...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-2/</guid>
-      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Yash's Double Role &amp; 1950s Cartel Empire: Toxic Ending Decoded 💀</title>
-      <link>https://cinematicbites.com/articles/toxic-a-fairy-tale-for-grown-ups/</link>
-      <description>Full Toxic: A Fairy Tale for Grown-ups breakdown: ending explained, complete plot summary, Yash, Kiara Advani, Nayanthara performances, age rating, and ...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/toxic-a-fairy-tale-for-grown-ups/</guid>
-      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Yash's Ravana &amp; The Colossal VFX Climax: 3 Secrets Decoded in Ramayana 🏹</title>
-      <link>https://cinematicbites.com/articles/ramayana-part-1/</link>
-      <description>Full Ramayana: Part 1 breakdown: ending explained, complete plot summary, Ranbir Kapoor, Sai Pallavi, Yash performances, age rating, and honest review v...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/ramayana-part-1/</guid>
-      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" type="image/jpeg" length="0" />
-    </item>
     <item>
       <title>Did Pradhan Ji Stage His Own Shooting? Panchayat S3 Ending &amp; Clues Decoded</title>
       <link>https://cinematicbites.com/articles/panchayat-season-3/</link>
@@ -137,6 +101,78 @@
       <pubDate>Tue, 10 Nov 2026 12:21:26 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/nq73eRdEooripf3k0XHLtX14zyC.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/nq73eRdEooripf3k0XHLtX14zyC.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!</title>
+      <link>https://cinematicbites.com/articles/sector-36-vol-3/</link>
+      <description>Full Sector 36 (Part 3) breakdown: ending explained, complete plot summary, Vikrant Massey, Deepak Dobriyal, Akash Khurana performances, age rating, and...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/sector-36-vol-3/</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊</title>
+      <link>https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-3/</link>
+      <description>Full Top 10 Streaming Hits (US &amp; UK) (Part 3) breakdown: ending explained, complete plot summary, Squid Game, House of the Dragon, Fallout performances,...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-3/</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Tiger Muthuvel Pandian Returns: Jailer 2 Syndicate Climax Decoded 🔥</title>
+      <link>https://cinematicbites.com/articles/jailer-2-vol-2/</link>
+      <description>Full Jailer 2 (Part 2) breakdown: ending explained, complete plot summary, Rajinikanth, Mohanlal, Shiva Rajkumar performances, age rating, and honest re...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/jailer-2-vol-2/</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Major Kabir vs Jr NTR: The Shocking Spy Betrayal Decoded in War 2 💥</title>
+      <link>https://cinematicbites.com/articles/war-2/</link>
+      <description>Full War 2 breakdown: ending explained, complete plot summary, Hrithik Roshan, N.T. Rama Rao Jr., Kiara Advani performances, age rating, and honest revi...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/war-2/</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:04 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Horrific Real Story Behind Sector 36: Nithari Reality vs Netflix!</title>
+      <link>https://cinematicbites.com/articles/sector-36-vol-2/</link>
+      <description>Full Sector 36 (Part 2) breakdown: ending explained, complete plot summary, Vikrant Massey, Deepak Dobriyal, Akash Khurana performances, age rating, and...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/sector-36-vol-2/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/as8fZuf0c8V2iMO43kw13hc6a9V.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Top 10 Streaming Hits This Week in the US &amp; UK 🍿📊</title>
+      <link>https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-2/</link>
+      <description>Full Top 10 Streaming Hits (US &amp; UK) (Part 2) breakdown: ending explained, complete plot summary, Squid Game, House of the Dragon, Fallout performances,...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/streaming-weekly-top-10-us-uk-vol-2/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/mnUozozJf3VUpgi91ysfyxlRqs1.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Yash's Double Role &amp; 1950s Cartel Empire: Toxic Ending Decoded 💀</title>
+      <link>https://cinematicbites.com/articles/toxic-a-fairy-tale-for-grown-ups/</link>
+      <description>Full Toxic: A Fairy Tale for Grown-ups breakdown: ending explained, complete plot summary, Yash, Kiara Advani, Nayanthara performances, age rating, and ...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/toxic-a-fairy-tale-for-grown-ups/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/4sUKhtN1CxUlH520aNZ7chbEQoE.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>Yash's Ravana &amp; The Colossal VFX Climax: 3 Secrets Decoded in Ramayana 🏹</title>
+      <link>https://cinematicbites.com/articles/ramayana-part-1/</link>
+      <description>Full Ramayana: Part 1 breakdown: ending explained, complete plot summary, Ranbir Kapoor, Sai Pallavi, Yash performances, age rating, and honest review v...</description>
+      <guid isPermaLink="true">https://cinematicbites.com/articles/ramayana-part-1/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:28:46 +0000</pubDate>
+      <media:content url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" medium="image" type="image/jpeg" />
+      <enclosure url="https://image.tmdb.org/t/p/w1280/wFqJMVP0nrsgKeA2kwshRkIz1fw.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>The Night Agent Ending Explained: The White House Mole &amp; Twist Decoded</title>
@@ -425,42 +461,6 @@
       <pubDate>Tue, 10 Nov 2026 12:22:07 +0000</pubDate>
       <media:content url="https://image.tmdb.org/t/p/w1280/VgW1XPEFiwEZgYuR2Wl204DxGL.jpg" medium="image" type="image/jpeg" />
       <enclosure url="https://image.tmdb.org/t/p/w1280/VgW1XPEFiwEZgYuR2Wl204DxGL.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Silo Season Finale Decoded: What That Final Scene Means ⚡</title>
-      <link>https://cinematicbites.com/articles/silo/</link>
-      <description>Full Silo breakdown: ending explained, complete plot summary, Rebecca Ferguson, Common, Chinaza Uche performances, age rating, and honest review verdict.</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/silo/</guid>
-      <pubDate>Tue, 10 Nov 2026 12:22:07 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/4XccmjsOmQZw8S2iW1wvlvmb5v1.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/4XccmjsOmQZw8S2iW1wvlvmb5v1.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Frieren Season 2 Roadmap: Release Date, Cast &amp; Unresolved Clues 🔥</title>
-      <link>https://cinematicbites.com/articles/frieren-beyond-journeys-end/</link>
-      <description>Full Frieren: Beyond Journey's End breakdown: ending explained, complete plot summary, Atsumi Tanezaki, Kana Ichinose, Chiaki Kobayashi performances, ag...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/frieren-beyond-journeys-end/</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:43 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The 1 Insane Clue In Sunshine Through the Rain That Fans Completely Miss</title>
-      <link>https://cinematicbites.com/articles/sunshine-through-the-rain/</link>
-      <description>Full Sunshine Through the Rain breakdown: ending explained, complete plot summary, Yang Chaoyue, Winwin performances, age rating, and honest review verd...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/sunshine-through-the-rain/</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:43 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/9LtN1ac91JAqXMke8CAJ6BiBSLS.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/9LtN1ac91JAqXMke8CAJ6BiBSLS.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Under Siege Ending Explained: The Climax Twist Decoded 🔍</title>
-      <link>https://cinematicbites.com/articles/under-siege/</link>
-      <description>Full Under Siege breakdown: ending explained, complete plot summary, Natalia Reyes, Luna Baxter, Mariana Gómez performances, age rating, and honest revi...</description>
-      <guid isPermaLink="true">https://cinematicbites.com/articles/under-siege/</guid>
-      <pubDate>Tue, 10 Nov 2026 12:13:43 +0000</pubDate>
-      <media:content url="https://image.tmdb.org/t/p/w1280/4GTqXYOKpd1BbDsSJoYyiM8dUv8.jpg" medium="image" type="image/jpeg" />
-      <enclosure url="https://image.tmdb.org/t/p/w1280/4GTqXYOKpd1BbDsSJoYyiM8dUv8.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>

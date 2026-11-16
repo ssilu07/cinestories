@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MoviePulse | Visual Web Stories for Movie Lovers</title>
+    <title>CinematicBites | Visual Web Stories for Movie Lovers</title>
     <link>https://cinematicbites.com/</link>
-    <description>Visual Web Stories and cinema deep dives from MoviePulse.</description>
+    <description>Visual Web Stories and cinema deep dives from CinematicBites.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Nov 2026 10:46:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 12:01:26 +0000</lastBuildDate>
     <atom:link href="https://cinematicbites.com/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://cinematicbites.com/assets/logo.png</url>
-      <title>MoviePulse</title>
+      <title>CinematicBites</title>
       <link>https://cinematicbites.com/</link>
     </image>
     <item>

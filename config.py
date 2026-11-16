@@ -20,9 +20,9 @@ load_dotenv(dotenv_path=ENV_PATH)
 DOMAIN_NAME = os.getenv("DOMAIN_NAME", "https://cinematicbites.com").rstrip("/")
 if "vercel.app" in DOMAIN_NAME:
     DOMAIN_NAME = "https://cinematicbites.com"
-SITE_NAME = os.getenv("SITE_NAME", "MoviePulse")
+SITE_NAME = os.getenv("SITE_NAME", "CinematicBites")
 SITE_TAGLINE = os.getenv("SITE_TAGLINE", "Visual Web Stories for Movie Lovers")
-PUBLISHER_NAME = os.getenv("PUBLISHER_NAME", "MoviePulse")
+PUBLISHER_NAME = os.getenv("PUBLISHER_NAME", "CinematicBites")
 PUBLISHER_LOGO_PATH = "/assets/logo.png"
 
 # Google Analytics 4 (GA4)

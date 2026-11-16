@@ -218,30 +218,31 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
 
     cards_json = json.dumps(cards_data)
 
-    cards_html_list = []
-    for c in cards_data:
+    def render_card_html(c: Dict[str, Any]) -> str:
         if c["category"] == "streaming_charts":
-            category_label = "Weekly Top 10"
+            cat_label = "साप्ताहिक टॉप 10" if lang == "hi" else "Weekly Top 10"
         elif c["category"] == "netflix_hits":
-            category_label = "Netflix Hits"
+            cat_label = "नेटफ्लिक्स हिट्स" if lang == "hi" else "Netflix Hits"
         elif c["category"] == "theories_easter_eggs":
-            category_label = "Marvel & DC Theories"
+            cat_label = "थ्योरीज़ व रहस्य" if lang == "hi" else "Marvel & DC Theories"
         elif c["category"] == "where_are_they_now":
-            category_label = "Where Are They Now?"
+            cat_label = "अब कहाँ हैं सितारे?" if lang == "hi" else "Where Are They Now?"
         elif c["category"] == "series":
-            category_label = "TV Series"
+            cat_label = "टीवी सीरीज़" if lang == "hi" else "TV Series"
         elif c["category"] == "cult_classic":
-            category_label = "Cult Classic"
+            cat_label = "कल्ट क्लासिक" if lang == "hi" else "Cult Classic"
         elif c["category"] == "steamy_thrillers":
-            category_label = "Bold & Steamy"
+            cat_label = "बोल्ड थ्रिलर" if lang == "hi" else "Bold & Steamy"
         else:
-            category_label = c["category"].replace("_", " ").title()
+            cat_label = c["category"].replace("_", " ").title()
 
         badge_class = f"badge-{c['category']}"
-        genres_str = " • ".join(c["genres"][:2]) if c["genres"] else ("TV Drama" if c["media_type"] == "tv" else "Cinema")
         time_info = f"📺 {c['seasons']} Seasons" if c.get("seasons") else f"⏱ {c['runtime']}m"
+        year_str = c['release_date'][:4] if len(c['release_date']) >= 4 else c['release_date']
+        tap_text = "कहानी खोलने के लिए टैप करें" if lang == "hi" else "Tap to open Web Story"
+        slides_text = "स्लाइड्स" if lang == "hi" else "Slides"
 
-        card_html = f"""
+        return f"""
         <article class="story-card" data-category="{c['category']}" data-title="{html.escape(c['title'].lower())}" data-movie="{html.escape(c['movie_title'].lower())}" data-rating="{c['rating']}">
           <a href="{c['url']}" class="card-link" aria-label="Read story for {html.escape(c['movie_title'])}">
             <div class="card-poster-wrap">
@@ -249,7 +250,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
               <div class="card-overlay-gradient"></div>
               
               <div class="card-top-badges">
-                <span class="category-badge {badge_class}">{category_label}</span>
+                <span class="category-badge {badge_class}">{cat_label}</span>
                 <div class="card-top-actions">
                   <span class="rating-badge">★ {c['rating']}</span>
                   <button class="card-share-btn" onclick="event.preventDefault(); event.stopPropagation(); shareStory('{c['url']}', '{html.escape(c['title'])}', event)" aria-label="Share story" title="Quick Share">
@@ -267,17 +268,17 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
               <div class="card-bottom-info">
                 <div class="card-kicker">
                   <span class="movie-name-tag">{html.escape(c['movie_title'])}</span>
-                  <span class="slides-counter"><span class="amp-icon">⚡</span> {c['slides_count']} Slides</span>
+                  <span class="slides-counter"><span class="amp-icon">⚡</span> {c['slides_count']} {slides_text}</span>
                 </div>
                 <h3 class="card-title">{html.escape(c['title'])}</h3>
                 <p class="card-teaser">{html.escape(c['teaser'])}</p>
                 <div class="card-meta">
-                  <span>{html.escape(c['release_date'][:4] if len(c['release_date']) >= 4 else c['release_date'])}</span>
+                  <span>{html.escape(year_str)}</span>
                   <span>•</span>
                   <span>{html.escape(time_info)}</span>
                 </div>
                 <div class="read-prompt">
-                  <span>Tap to open Web Story</span>
+                  <span>{tap_text}</span>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </div>
               </div>
@@ -285,8 +286,10 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
           </a>
         </article>
         """
-        cards_html_list.append(card_html.strip())
 
+    # Initial static DOM renders the top 24 freshest stories for instant LCP and SEO discovery
+    initial_cards = cards_data[:24]
+    cards_html_list = [render_card_html(c).strip() for c in initial_cards]
     cards_grid_html = "\n".join(cards_html_list)
 
     # Schema.org WebSite & Organization structured data
@@ -349,6 +352,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{SITE_NAME} | {SITE_TAGLINE}</title>
   <meta name="description" content="Discover automated, 100% AMP-compliant visual Web Stories for upcoming, trending, and now-playing movies. Powered by TMDB and Gemini AI.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="{canonical_url}">
   <link rel="alternate" hreflang="en" href="{domain}/">
   <link rel="alternate" hreflang="hi" href="{domain}/hi/">
@@ -854,6 +858,48 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
       gap: 24px;
+    }}
+
+    .load-more-container {{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 48px auto 24px;
+      width: 100%;
+    }}
+
+    .btn-load-more {{
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #e11d48, #be123c);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      padding: 14px 36px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 20px rgba(225, 29, 72, 0.38);
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }}
+
+    .btn-load-more:hover {{
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(225, 29, 72, 0.6);
+      background: linear-gradient(135deg, #f43f5e, #e11d48);
+    }}
+
+    .btn-load-more:active {{
+      transform: translateY(0);
+    }}
+
+    .btn-load-more svg {{
+      transition: transform 0.25s ease;
+    }}
+
+    .btn-load-more:hover svg {{
+      transform: translateY(3px);
     }}
 
     /* Story Card */
@@ -1804,11 +1850,24 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
     <div class="stories-grid" id="storiesGrid">
       {cards_grid_html}
       <div class="empty-state" id="emptyState">
-        <h3>No matching stories found</h3>
-        <p>Try searching for a different movie title or clearing filters.</p>
+        <h3>{'कोई कहानी नहीं मिली' if lang == 'hi' else 'No matching stories found'}</h3>
+        <p>{'शीर्षक से खोजें या फ़िल्टर साफ़ करें।' if lang == 'hi' else 'Try searching for a different movie title or clearing filters.'}</p>
       </div>
     </div>
+    
+    <!-- Load More Stories Button -->
+    <div class="load-more-container" id="loadMoreContainer" style="{'display: flex;' if len(cards_data) > 24 else 'display: none;'}">
+      <button class="btn-load-more" id="loadMoreBtn" aria-label="Load more stories">
+        <span>{'और कहानियाँ देखें' if lang == 'hi' else 'Load More Stories'}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </button>
+    </div>
   </main>
+
+  <!-- Embedded Catalog Data for Instant Filtering & Pagination -->
+  <script id="storiesData" type="application/json">
+{cards_json}
+  </script>
 
   <!-- Footer -->
   <footer class="footer">
@@ -1865,33 +1924,142 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
   <script>
     const filterBtns = document.querySelectorAll('.filter-chip, .filter-btn');
     const searchInput = document.getElementById('searchInput');
-    const cards = document.querySelectorAll('.story-card');
+    const storiesGrid = document.getElementById('storiesGrid');
     const emptyState = document.getElementById('emptyState');
+    const loadMoreContainer = document.getElementById('loadMoreContainer');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const storiesDataEl = document.getElementById('storiesData');
+    const allStories = storiesDataEl ? JSON.parse(storiesDataEl.textContent) : [];
 
+    const isHi = { 'true' if lang == 'hi' else 'false' };
+    const BATCH_SIZE = 24;
     let activeFilter = 'all';
     let searchQuery = '';
+    let currentFiltered = allStories;
+    let renderedCount = Math.min(BATCH_SIZE, allStories.length);
+
+    function getCategoryLabel(cat) {{
+      if (isHi) {{
+        if (cat === 'streaming_charts') return 'साप्ताहिक टॉप 10';
+        if (cat === 'netflix_hits') return 'नेटफ्लिक्स हिट्स';
+        if (cat === 'theories_easter_eggs') return 'थ्योरीज़ व रहस्य';
+        if (cat === 'where_are_they_now') return 'अब कहाँ हैं सितारे?';
+        if (cat === 'series') return 'टीवी सीरीज़';
+        if (cat === 'cult_classic') return 'कल्ट क्लासिक';
+        if (cat === 'steamy_thrillers') return 'बोल्ड थ्रिलर';
+      }} else {{
+        if (cat === 'streaming_charts') return 'Weekly Top 10';
+        if (cat === 'netflix_hits') return 'Netflix Hits';
+        if (cat === 'theories_easter_eggs') return 'Marvel & DC Theories';
+        if (cat === 'where_are_they_now') return 'Where Are They Now?';
+        if (cat === 'series') return 'TV Series';
+        if (cat === 'cult_classic') return 'Cult Classic';
+        if (cat === 'steamy_thrillers') return 'Bold & Steamy';
+      }}
+      return cat.replace(/_/g, ' ').replace(/\\b\\w/g, l => l.toUpperCase());
+    }}
+
+    function createCardElement(c) {{
+      const catLabel = getCategoryLabel(c.category);
+      const badgeClass = `badge-${{c.category}}`;
+      const timeInfo = c.seasons ? `📺 ${{c.seasons}} Seasons` : `⏱ ${{c.runtime}}m`;
+      const yearStr = (c.release_date && c.release_date.length >= 4) ? c.release_date.slice(0, 4) : (c.release_date || '');
+      const tapPrompt = isHi ? 'कहानी खोलने के लिए टैप करें' : 'Tap to open Web Story';
+      const slidesSuffix = isHi ? 'स्लाइड्स' : 'Slides';
+
+      const article = document.createElement('article');
+      article.className = 'story-card';
+      article.setAttribute('data-category', c.category);
+      article.setAttribute('data-title', (c.title || '').toLowerCase());
+      article.setAttribute('data-movie', (c.movie_title || '').toLowerCase());
+      article.setAttribute('data-rating', c.rating);
+
+      const safeTitle = (c.title || '').replace(/'/g, "\\\\'");
+      article.innerHTML = `
+        <a href="${{c.url}}" class="card-link" aria-label="Read story for ${{c.movie_title}}">
+          <div class="card-poster-wrap">
+            <img src="${{c.poster_url}}" alt="${{c.movie_title}}" class="card-poster" loading="lazy" width="300" height="450" onerror="this.onerror=null;this.src='${{c.backdrop_url}}';">
+            <div class="card-overlay-gradient"></div>
+            
+            <div class="card-top-badges">
+              <span class="category-badge ${{badgeClass}}">${{catLabel}}</span>
+              <div class="card-top-actions">
+                <span class="rating-badge">★ ${{c.rating}}</span>
+                <button class="card-share-btn" onclick="event.preventDefault(); event.stopPropagation(); shareStory('${{c.url}}', '${{safeTitle}}', event)" aria-label="Share story" title="Quick Share">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="card-hook-shot">
+              <span class="hook-pulse"></span>
+              <span class="hook-text">${{c.hook_badge}}</span>
+            </div>
+
+            <div class="card-bottom-info">
+              <div class="card-kicker">
+                <span class="movie-name-tag">${{c.movie_title}}</span>
+                <span class="slides-counter"><span class="amp-icon">⚡</span> ${{c.slides_count}} ${{slidesSuffix}}</span>
+              </div>
+              <h3 class="card-title">${{c.title}}</h3>
+              <p class="card-teaser">${{c.teaser || ''}}</p>
+              <div class="card-meta">
+                <span>${{yearStr}}</span>
+                <span>•</span>
+                <span>${{timeInfo}}</span>
+              </div>
+              <div class="read-prompt">
+                <span>${{tapPrompt}}</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </div>
+        </a>
+      `;
+      return article;
+    }}
 
     function applyFilters() {{
-      let visibleCount = 0;
-      cards.forEach(card => {{
-        const category = card.getAttribute('data-category');
-        const title = card.getAttribute('data-title') || '';
-        const movie = card.getAttribute('data-movie') || '';
-
-        const matchesCat = (activeFilter === 'all' || category === activeFilter);
+      currentFiltered = allStories.filter(c => {{
+        const matchesCat = (activeFilter === 'all' || c.category === activeFilter);
+        const title = (c.title || '').toLowerCase();
+        const movie = (c.movie_title || '').toLowerCase();
         const matchesQuery = (!searchQuery || title.includes(searchQuery) || movie.includes(searchQuery));
-
-        if (matchesCat && matchesQuery) {{
-          card.style.display = '';
-          visibleCount++;
-        }} else {{
-          card.style.display = 'none';
-        }}
+        return matchesCat && matchesQuery;
       }});
 
-      if (emptyState) {{
-        emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+      // Clear existing cards
+      const existing = storiesGrid.querySelectorAll('.story-card');
+      existing.forEach(card => card.remove());
+
+      renderedCount = Math.min(BATCH_SIZE, currentFiltered.length);
+      const frag = document.createDocumentFragment();
+      for (let i = 0; i < renderedCount; i++) {{
+        frag.appendChild(createCardElement(currentFiltered[i]));
       }}
+      storiesGrid.insertBefore(frag, emptyState);
+
+      if (emptyState) {{
+        emptyState.style.display = (currentFiltered.length === 0) ? 'block' : 'none';
+      }}
+      if (loadMoreContainer) {{
+        loadMoreContainer.style.display = (renderedCount < currentFiltered.length) ? 'flex' : 'none';
+      }}
+    }}
+
+    if (loadMoreBtn) {{
+      loadMoreBtn.addEventListener('click', () => {{
+        const nextLimit = Math.min(renderedCount + BATCH_SIZE, currentFiltered.length);
+        const frag = document.createDocumentFragment();
+        for (let i = renderedCount; i < nextLimit; i++) {{
+          frag.appendChild(createCardElement(currentFiltered[i]));
+        }}
+        storiesGrid.insertBefore(frag, emptyState);
+        renderedCount = nextLimit;
+        if (renderedCount >= currentFiltered.length && loadMoreContainer) {{
+          loadMoreContainer.style.display = 'none';
+        }}
+      }});
     }}
 
     filterBtns.forEach(btn => {{
@@ -1915,7 +2083,7 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       }});
     }}
 
-    // Story Modal Lightbox Logic
+    // Story Modal Lightbox Logic (Event delegation on storiesGrid)
     const storyModal = document.getElementById('storyModal');
     const modalCloseBtn = document.getElementById('modalCloseBtn');
     const modalBackdrop = document.getElementById('modalBackdrop');
@@ -1941,14 +2109,16 @@ def build_homepage_html(stories: List[Dict[str, Any]], domain: str = DOMAIN_NAME
       }}
     }}
 
-    document.querySelectorAll('.card-link').forEach(link => {{
-      link.addEventListener('click', (e) => {{
+    if (storiesGrid) {{
+      storiesGrid.addEventListener('click', (e) => {{
+        const link = e.target.closest('.card-link');
+        if (!link) return;
         if (e.ctrlKey || e.metaKey || e.button === 1) return;
         e.preventDefault();
         const url = link.getAttribute('href');
         openStoryModal(url);
       }});
-    }});
+    }}
 
     if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeStoryModal);
     if (modalBackdrop) modalBackdrop.addEventListener('click', closeStoryModal);
