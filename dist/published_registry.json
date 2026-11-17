@@ -551,12 +551,6 @@
     "modified_at": "2026-10-14T19:35:58Z",
     "category": "upcoming"
   },
-  "deadpool-wolverine": {
-    "title": "Deadpool & Wolverine",
-    "published_at": "2026-10-14T19:35:58Z",
-    "modified_at": "2026-10-14T19:35:58Z",
-    "category": "theories_easter_eggs"
-  },
   "ncis": {
     "title": "NCIS",
     "published_at": "2026-10-14T19:45:04Z",
@@ -2663,18 +2657,6 @@
     "modified_at": "2026-11-14T07:27:23Z",
     "category": "ott_blockbusters"
   },
-  "sector-36-vol-2": {
-    "title": "Sector 36 (Part 2)",
-    "published_at": "2026-11-14T19:28:46Z",
-    "modified_at": "2026-11-14T19:28:46Z",
-    "category": "netflix_hits"
-  },
-  "streaming-weekly-top-10-us-uk-vol-2": {
-    "title": "Top 10 Streaming Hits (US & UK) (Part 2)",
-    "published_at": "2026-11-14T19:28:46Z",
-    "modified_at": "2026-11-14T19:28:46Z",
-    "category": "streaming_charts"
-  },
   "toxic-a-fairy-tale-for-grown-ups": {
     "title": "Toxic: A Fairy Tale for Grown-ups",
     "published_at": "2026-11-14T19:28:46Z",
@@ -2715,24 +2697,6 @@
     "title": "The Gospel of Christmas",
     "published_at": "2026-11-12T19:40:49Z",
     "modified_at": "2026-11-12T19:40:49Z",
-    "category": "trending"
-  },
-  "sector-36-vol-3": {
-    "title": "Sector 36 (Part 3)",
-    "published_at": "2026-11-16T12:00:04Z",
-    "modified_at": "2026-11-16T12:00:04Z",
-    "category": "netflix_hits"
-  },
-  "streaming-weekly-top-10-us-uk-vol-3": {
-    "title": "Top 10 Streaming Hits (US & UK) (Part 3)",
-    "published_at": "2026-11-16T12:00:04Z",
-    "modified_at": "2026-11-16T12:00:04Z",
-    "category": "streaming_charts"
-  },
-  "jailer-2-vol-2": {
-    "title": "Jailer 2 (Part 2)",
-    "published_at": "2026-11-16T12:00:04Z",
-    "modified_at": "2026-11-16T12:00:04Z",
     "category": "trending"
   },
   "war-2": {
@@ -2829,12 +2793,6 @@
     "title": "Sector 36 (Part 4)",
     "published_at": "2026-11-16T12:39:08Z",
     "modified_at": "2026-11-16T12:39:08Z",
-    "category": "netflix_hits"
-  },
-  "sector-36-vol-5": {
-    "title": "Sector 36 (Part 5)",
-    "published_at": "2026-11-16T12:39:38Z",
-    "modified_at": "2026-11-16T12:39:38Z",
     "category": "netflix_hits"
   },
   "burzynski-the-movie": {

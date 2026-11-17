@@ -26,9 +26,9 @@ SAMPLE_MEDIA = [
         "director": "Nitesh Tiwari",
         "top_cast": ["Ranbir Kapoor", "Sai Pallavi", "Yash", "Sunny Deol", "Lara Dutta"],
         "poster_path": "/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg",
-        "backdrop_path": "/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+        "backdrop_path": "/ysoJexwslfJnSXcHNNF1A9EtDbB.jpg",
         "backdrops": [
-            "/yHVZncPRZr63mezRX20IyKLrSkv.jpg",
+            "/ysoJexwslfJnSXcHNNF1A9EtDbB.jpg",
             "/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg"
         ]
     },
@@ -448,16 +448,16 @@ SAMPLE_MEDIA = [
         "category": "trending",
         "director": "Koratala Siva",
         "top_cast": ["Jr NTR", "Saif Ali Khan", "Janhvi Kapoor", "Prakash Raj", "Srikanth"],
-        "poster_path": "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg",
-        "backdrop_path": "/hkJhGayONXn96CqIRM9GhWKnlCf.jpg",
+        "poster_path": "/lQfuaXjANoTsdx5iS0gCXlK9D2L.jpg",
+        "backdrop_path": "/hAQnXxOwCjgYcKRgTdYPRC8neqL.jpg",
         "backdrops": [
-            "/hkJhGayONXn96CqIRM9GhWKnlCf.jpg",
-            "/8ZJIiwIVF2zDyyFr7oXewj0eEuu.jpg"
+            "/hAQnXxOwCjgYcKRgTdYPRC8neqL.jpg",
+            "/phmuLGP9dbKrOBkfbcsWKhmWGxK.jpg"
         ]
     },
     # 8. Pushpa 2: The Rule
     {
-        "id": 1022789,
+        "id": 857598,
         "title": "Pushpa 2: The Rule",
         "original_title": "Pushpa 2: The Rule",
         "slug": "pushpa-2-the-rule",
@@ -475,11 +475,12 @@ SAMPLE_MEDIA = [
         "category": "upcoming",
         "director": "Sukumar",
         "top_cast": ["Allu Arjun", "Rashmika Mandanna", "Fahadh Faasil", "Jagapathi Babu", "Prakash Raj"],
-        "poster_path": "/aS3xM79dmg6bxw9uNqTxRdoze5H.jpg",
-        "backdrop_path": "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
+        "poster_path": "/1T21FblunT0y8fz7YaW8JMYgUKm.jpg",
+        "backdrop_path": "/7jGItf7idJsBm9QTNoTNTU3KiGe.jpg",
         "backdrops": [
-            "/p5ozvmdgsmbWe0H8Xk7Rc8SCwAB.jpg",
-            "/aS3xM79dmg6bxw9uNqTxRdoze5H.jpg"
+            "/7jGItf7idJsBm9QTNoTNTU3KiGe.jpg",
+            "/rqCg3phSFBxpvUvMZJrNTFo2fxg.jpg",
+            "/mvUZLTdpW2NORiSh8C4PGTFdInL.jpg"
         ]
     },
     # 9. Squid Game Season 2
@@ -503,15 +504,15 @@ SAMPLE_MEDIA = [
         "director": "Hwang Dong-hyuk",
         "top_cast": ["Lee Jung-jae", "Lee Byung-hun", "Wi Ha-joon", "Yim Si-wan", "Kang Ha-neul"],
         "poster_path": "/caq0z9C2vvKdDhGe1EX6nerswV5.jpg",
-        "backdrop_path": "/sOYbPzw2caZNjMCZ9ldipWdiyuv.jpg",
+        "backdrop_path": "/nT9r9wgQLgRy6bTRIwtIYD5kZdt.jpg",
         "backdrops": [
-            "/sOYbPzw2caZNjMCZ9ldipWdiyuv.jpg",
+            "/nT9r9wgQLgRy6bTRIwtIYD5kZdt.jpg",
             "/pMs69IVPqQN0uqGVGRwF5fndXCi.jpg"
         ]
     },
     # 10. Singham Again
     {
-        "id": 1269325,
+        "id": 1014214,
         "title": "Singham Again",
         "original_title": "Singham Again",
         "slug": "singham-again",
@@ -529,11 +530,11 @@ SAMPLE_MEDIA = [
         "category": "theories_easter_eggs",
         "director": "Rohit Shetty",
         "top_cast": ["Ajay Devgn", "Kareena Kapoor Khan", "Akshay Kumar", "Ranveer Singh", "Salman Khan"],
-        "poster_path": "/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg",
-        "backdrop_path": "/nq73eRdEooripf3k0XHLtX14zyC.jpg",
+        "poster_path": "/2JbNkHg8m7LaBy61LyrnnlenaxY.jpg",
+        "backdrop_path": "/lexEx0B4WDOXGfqPTj4R8FCrE7H.jpg",
         "backdrops": [
-            "/nq73eRdEooripf3k0XHLtX14zyC.jpg",
-            "/vnHQQFzTjJ0sv14DGMIoKa3qTxN.jpg"
+            "/lexEx0B4WDOXGfqPTj4R8FCrE7H.jpg",
+            "/zy79NtjzPiuTVhlnZhLfgd2UW0X.jpg"
         ]
     },
     # 1. Money Heist (La Casa de Papel)
@@ -934,11 +935,11 @@ SAMPLE_MEDIA = [
         "category": "streaming_charts",
         "director": "Streaming Analytics Desk",
         "top_cast": ["Squid Game", "House of the Dragon", "Fallout", "The Boys", "The Penguin"],
-        "poster_path": "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg",
-        "backdrop_path": "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
+        "poster_path": "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+        "backdrop_path": "/ixgFmf1X59PUZam2qbAfskx2gQr.jpg",
         "backdrops": [
-            "/mnUozozJf3VUpgi91ysfyxlRqs1.jpg",
-            "/8VWU3V1omprZmqk3Jk8EhDvwF6D.jpg"
+            "/ixgFmf1X59PUZam2qbAfskx2gQr.jpg",
+            "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg"
         ]
     },
     # 16. Fallout (Prime Video Weekly Sensation)
@@ -961,11 +962,11 @@ SAMPLE_MEDIA = [
         "category": "streaming_charts",
         "director": "Jonathan Nolan & Lisa Joy",
         "top_cast": ["Ella Purnell", "Walton Goggins", "Aaron Moten", "Kyle MacLachlan"],
-        "poster_path": "/8zQO5GNWQwJG4we5AYfjopblRFe.jpg",
-        "backdrop_path": "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+        "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+        "backdrop_path": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
         "backdrops": [
-            "/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
-            "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+            "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
+            "/c15BtJxCXMrISLVmysdsnZUPQft.jpg"
         ]
     },
     # 17. House of the Dragon (HBO Max Weekly Chart-Topper)
@@ -988,11 +989,11 @@ SAMPLE_MEDIA = [
         "category": "streaming_charts",
         "director": "Ryan J. Condal & George R.R. Martin",
         "top_cast": ["Emma D'Arcy", "Matt Smith", "Olivia Cooke", "Rhys Ifans"],
-        "poster_path": "/wcGMvwZjHSIxfFavfZ4OzXbhyG8.jpg",
-        "backdrop_path": "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
+        "poster_path": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+        "backdrop_path": "/cR3EoEBdMTh7qUeYWULLXYW40by.jpg",
         "backdrops": [
-            "/9rJafPDkQP8YuLy9iY5v19ZfMIW.jpg",
-            "/hRX5exGCfaEq7mLYCqRoKiEkjq3.jpg"
+            "/cR3EoEBdMTh7qUeYWULLXYW40by.jpg",
+            "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg"
         ]
     },
     # 18. Marvel Multiverse: Post-Credit Theories
@@ -1015,11 +1016,11 @@ SAMPLE_MEDIA = [
         "category": "theories_easter_eggs",
         "director": "Kevin Feige & Marvel Brain Trust",
         "top_cast": ["Ryan Reynolds", "Hugh Jackman", "Robert Downey Jr.", "Benedict Cumberbatch"],
-        "poster_path": "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg",
-        "backdrop_path": "/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
+        "poster_path": "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg",
+        "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
         "backdrops": [
-            "/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg",
-            "/v0Q2uYARIqui1sEBF0bCLJaliDI.jpg"
+            "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+            "/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
         ]
     },
     # 19. DC Universe: Easter Eggs & Multiverse Theories
@@ -1043,10 +1044,10 @@ SAMPLE_MEDIA = [
         "director": "Matt Reeves & James Gunn",
         "top_cast": ["Robert Pattinson", "Colin Farrell", "Barry Keoghan", "Zoë Kravitz"],
         "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
-        "backdrop_path": "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
+        "backdrop_path": "/tRS6jvPM9qPrrnx2KRp3ew96Yot.jpg",
         "backdrops": [
-            "/eNGqhebQ4cDssjVeNFrKtUvweV5.jpg",
-            "/5UANyM4co2nwYPgSEmGeNlZRm7V.jpg"
+            "/tRS6jvPM9qPrrnx2KRp3ew96Yot.jpg",
+            "/74xTEgt7R36Fpooo50r9T25onhq.jpg"
         ]
     },
     # 20. Spider-Man & Venom: Post-Credit Clues
@@ -1069,11 +1070,11 @@ SAMPLE_MEDIA = [
         "category": "theories_easter_eggs",
         "director": "Jon Watts",
         "top_cast": ["Tom Holland", "Tom Hardy", "Zendaya", "Benedict Cumberbatch"],
-        "poster_path": "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
-        "backdrop_path": "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
+        "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+        "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
         "backdrops": [
-            "/53YhaL4xw4Sb1ssoHkeSSBaO29c.jpg",
-            "/zD8Nsy4Xrghp7WunwpCj5JKBPeU.jpg"
+            "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+            "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg"
         ]
     },
     # 21. Friends: Where Are They Now?
@@ -1096,11 +1097,11 @@ SAMPLE_MEDIA = [
         "category": "where_are_they_now",
         "director": "David Crane & Marta Kauffman",
         "top_cast": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow", "Matt LeBlanc", "David Schwimmer", "Matthew Perry"],
-        "poster_path": "/cSOORhCRPJiwKghozXVXrOBi3Tp.jpg",
-        "backdrop_path": "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
+        "poster_path": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+        "backdrop_path": "/6GQR4Ww3w4EhhytptWlKVdfM8Ly.jpg",
         "backdrops": [
-            "/vqjRBbuqXOvalAx5JZEaWx6kQOw.jpg",
-            "/AtLnAEZMNzVMy07aG7QTVtfenj2.jpg"
+            "/6GQR4Ww3w4EhhytptWlKVdfM8Ly.jpg",
+            "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
         ]
     },
     # 22. The Office: Where Are They Now?
@@ -1124,10 +1125,10 @@ SAMPLE_MEDIA = [
         "director": "Greg Daniels",
         "top_cast": ["Steve Carell", "John Krasinski", "Rainn Wilson", "Jenna Fischer", "Mindy Kaling"],
         "poster_path": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
-        "backdrop_path": "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
+        "backdrop_path": "/9vMzIrMIncPmtalcxh1MOrgcE6C.jpg",
         "backdrops": [
-            "/qHFidnMcFqUWdMFyjmXufBlYckd.jpg",
-            "/1O7ECkD4mOKAgMAbQADBpTKBzOP.jpg"
+            "/9vMzIrMIncPmtalcxh1MOrgcE6C.jpg",
+            "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg"
         ]
     },
     # 23. Popular 90s/2000s Sitcom Stars: Where Are They Now?
@@ -1151,10 +1152,10 @@ SAMPLE_MEDIA = [
         "director": "Linwood Boomer",
         "top_cast": ["Frankie Muniz", "Alfonso Ribeiro", "Angus T. Jones", "Jaleel White", "Topher Grace"],
         "poster_path": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg",
-        "backdrop_path": "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
+        "backdrop_path": "/jGeqjswr0zlxre2Lal3i4RyoVir.jpg",
         "backdrops": [
-            "/n61EctuWbXK9QCIJyLt3eWSfqUu.jpg",
-            "/qQFFEmt6Id9Nh4ckWx7FPlj2xah.jpg"
+            "/jGeqjswr0zlxre2Lal3i4RyoVir.jpg",
+            "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg"
         ]
     },
     # 24. Fifty Shades of Grey
@@ -1314,9 +1315,9 @@ SAMPLE_MEDIA = [
         "director": "Hwang Dong-hyuk",
         "top_cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon", "Jung Ho-yeon", "Lee Byung-hun"],
         "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
-        "backdrop_path": "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+        "backdrop_path": "/xYTnihl7qffiLSZ6yLMSpBkPdXC.jpg",
         "backdrops": [
-            "/soQgquPkLmUu9eKLJJzuA4KZDyi.jpg",
+            "/xYTnihl7qffiLSZ6yLMSpBkPdXC.jpg",
             "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
         ]
     },
@@ -1340,11 +1341,11 @@ SAMPLE_MEDIA = [
         "category": "series",
         "director": "Craig Mazin & Neil Druckmann",
         "top_cast": ["Pedro Pascal", "Bella Ramsey", "Gabriel Luna", "Anna Torv", "Nick Offerman"],
-        "poster_path": "/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+        "poster_path": "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg",
         "backdrop_path": "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
         "backdrops": [
             "/uDgy6hyPd82kOHh6I95FLtLnj6p.jpg",
-            "/1E5baAaEse26fej7uHcjOgEE2t2.jpg"
+            "/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
         ]
     },
     # 31. Twisters

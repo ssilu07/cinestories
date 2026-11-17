@@ -511,6 +511,108 @@ def main():
     cache_articles_hi_path = DIST_HI_DIR / "articles_cache.json"
 
     from fetch_and_generate import anchor_catalog_items, story_fallback_builder, article_fallback_builder
+    from google_trends_client import KNOWN_ENTITY_IMAGES
+    import shutil
+
+    sample_by_slug = {m.get("slug"): m for m in SAMPLE_MEDIA if m.get("slug")}
+
+    def sync_and_clean_catalog(items: list) -> list:
+        """
+        Remove legacy duplicate '-vol-N' emergency clones & stale aliases,
+        and sync poster_path/backdrop_path/backdrops from SAMPLE_MEDIA and KNOWN_ENTITY_IMAGES.
+        """
+        cleaned = []
+        seen = set()
+        removed_slugs = set()
+        for item in items:
+            m = item.get("movie")
+            if not isinstance(m, dict):
+                continue
+            slug = m.get("slug")
+            if not slug:
+                continue
+            # Remove duplicate '-vol-N' emergency clones of SAMPLE_MEDIA titles and duplicate alias 'deadpool-wolverine'
+            is_sample_vol_clone = any(re.match(rf"^{re.escape(sm_slug)}-vol-\d+$", slug) for sm_slug in sample_by_slug)
+            if is_sample_vol_clone or slug == "deadpool-wolverine":
+                removed_slugs.add(slug)
+                continue
+            if slug in seen:
+                continue
+            seen.add(slug)
+            if slug in sample_by_slug:
+                sm = sample_by_slug[slug]
+                m["id"] = sm.get("id", m.get("id"))
+                m["poster_path"] = sm.get("poster_path")
+                m["backdrop_path"] = sm.get("backdrop_path")
+                m["backdrops"] = list(sm.get("backdrops") or ([sm.get("backdrop_path")] if sm.get("backdrop_path") else []))
+            elif slug in KNOWN_ENTITY_IMAGES:
+                ke = KNOWN_ENTITY_IMAGES[slug]
+                m["poster_path"] = ke.get("poster_path")
+                m["backdrop_path"] = ke.get("backdrop_path")
+                m["backdrops"] = list(ke.get("backdrops") or [])
+            elif slug == "ramayana-rise-of-a-legend":
+                m["backdrops"] = [b for b in m.get("backdrops", []) if b not in {"/ysoJexwslfJnSXcHNNF1A9EtDbB.jpg", "/yHVZncPRZr63mezRX20IyKLrSkv.jpg"}]
+
+            # Strip accidental TMDB URL prefixes so paths are strictly '/<hash>.jpg' (prevents double-prefix URLs)
+            def _norm_tmdb_path(val):
+                if isinstance(val, str) and val.startswith("http"):
+                    val = re.sub(r"^https?://[^/]+/t/p/[^/]+", "", val)
+                return val
+
+            if m.get("poster_path"):
+                m["poster_path"] = _norm_tmdb_path(m["poster_path"])
+            if m.get("backdrop_path"):
+                m["backdrop_path"] = _norm_tmdb_path(m["backdrop_path"])
+            if m.get("backdrops"):
+                m["backdrops"] = [_norm_tmdb_path(b) for b in m["backdrops"] if b]
+
+            cleaned.append(item)
+
+        for rslug in removed_slugs:
+            registry.pop(rslug, None)
+            for subdir in (STORIES_DIR, ARTICLES_DIR, HI_STORIES_DIR, HI_ARTICLES_DIR):
+                orphan_dir = subdir / rslug
+                if orphan_dir.exists():
+                    shutil.rmtree(orphan_dir, ignore_errors=True)
+
+        # Rewrite any slide/section internal links pointing to removed duplicate slugs to their canonical slugs
+        alias_map = {
+            "deadpool-wolverine": "deadpool-and-wolverine",
+            "sector-36-vol-2": "sector-36",
+            "sector-36-vol-3": "sector-36",
+            "sector-36-vol-5": "sector-36",
+            "jailer-2-vol-2": "jailer-2",
+            "streaming-weekly-top-10-us-uk-vol-2": "streaming-weekly-top-10-us-uk",
+            "streaming-weekly-top-10-us-uk-vol-3": "streaming-weekly-top-10-us-uk",
+        }
+        for rslug in removed_slugs:
+            if rslug not in alias_map:
+                alias_map[rslug] = re.sub(r"-vol-\d+$", "", rslug)
+
+        for item in cleaned:
+            nu = item.get("next_story_url")
+            if isinstance(nu, str):
+                for rslug, canon in alias_map.items():
+                    if f"/{rslug}/" in nu or nu.endswith(f"/{rslug}"):
+                        nu = nu.replace(rslug, canon)
+                item["next_story_url"] = nu
+            for slide in item.get("slides", []):
+                for key in ("cta_url", "url"):
+                    u = slide.get(key)
+                    if isinstance(u, str):
+                        for rslug, canon in alias_map.items():
+                            if f"/{rslug}/" in u or u.endswith(f"/{rslug}"):
+                                u = u.replace(rslug, canon)
+                        slide[key] = u
+            for sec in item.get("sections", []):
+                txt = sec.get("content", "")
+                if isinstance(txt, str):
+                    for rslug, canon in alias_map.items():
+                        if rslug in txt:
+                            txt = txt.replace(rslug, canon)
+                    sec["content"] = txt
+
+        return cleaned
 
     # English catalogs
     old_stories_en = []
@@ -527,10 +629,7 @@ def main():
         target_slugs=TARGET_BREAKOUT_SLUGS,
         fallback_builder=story_fallback_builder
     )
-    with open(cache_stories_en_path, "w", encoding="utf-8") as f:
-        json.dump(combined_stories_en, f, indent=2, default=str)
-    with open(STORIES_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(combined_stories_en, f, indent=2, default=str)
+    combined_stories_en = sync_and_clean_catalog(combined_stories_en)
 
     old_articles_en = []
     if cache_articles_en_path.exists():
@@ -546,6 +645,11 @@ def main():
         target_slugs=TARGET_BREAKOUT_SLUGS,
         fallback_builder=article_fallback_builder
     )
+    combined_articles_en = sync_and_clean_catalog(combined_articles_en)
+
+    # Re-save cleaned registry after purging any stale clones
+    with open(REGISTRY_PATH, "w", encoding="utf-8") as f:
+        json.dump(registry, f, indent=2)
     # Clean any legacy boilerplate phrases from cached articles and re-render all English catalog stories & articles
     boilerplate_replacements = {
         "From the opening sequence, audiences are drawn into an engaging journey where unexpected developments continually test the limits and resolve of its central characters.": "Anchored by sharp narrative pacing and layered character dynamics, the story builds tension methodically while exploring the conflicts driving its central figures.",
@@ -554,6 +658,18 @@ def main():
         "brings critical revelations into focus, shedding light on the real-world impact": "uncovers pivotal evidence and personal testimony, examining the broader consequences",
         "From opening hook to post-credits clues, this story is engineered for Google Discover": "This detailed breakdown examines the narrative arc, key turning points, and final resolution",
     }
+    import time as _time
+    def _safe_write(path: Path, text: str):
+        for attempt in range(4):
+            try:
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(text)
+                return
+            except OSError:
+                if attempt == 3:
+                    raise
+                _time.sleep(0.08 * (attempt + 1))
+
     for art in combined_articles_en:
         m = art.get("movie", {})
         slug = m.get("slug")
@@ -575,8 +691,7 @@ def main():
         art_dir_en.mkdir(parents=True, exist_ok=True)
         raw_art_en = build_discover_article_html(art, domain=DOMAIN_NAME, lang="en")
         art_en = post_process_page(raw_art_en, f"/articles/{slug}/", lang="en", is_amp=False, domain=DOMAIN_NAME)
-        with open(art_dir_en / "index.html", "w", encoding="utf-8") as f:
-            f.write(art_en)
+        _safe_write(art_dir_en / "index.html", art_en)
 
     for st in combined_stories_en:
         m = st.get("movie", {})
@@ -592,13 +707,12 @@ def main():
         story_dir_en.mkdir(parents=True, exist_ok=True)
         raw_amp_en = build_amp_story_html(st, domain=DOMAIN_NAME, lang="en")
         amp_en = post_process_page(raw_amp_en, f"/stories/{slug}/", lang="en", is_amp=True, domain=DOMAIN_NAME)
-        with open(story_dir_en / "index.html", "w", encoding="utf-8") as f:
-            f.write(amp_en)
+        _safe_write(story_dir_en / "index.html", amp_en)
 
-    with open(cache_articles_en_path, "w", encoding="utf-8") as f:
-        json.dump(combined_articles_en, f, indent=2, default=str)
-    with open(ARTICLES_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(combined_articles_en, f, indent=2, default=str)
+    _safe_write(cache_stories_en_path, json.dumps(combined_stories_en, indent=2, default=str))
+    _safe_write(STORIES_JSON_PATH, json.dumps(combined_stories_en, indent=2, default=str))
+    _safe_write(cache_articles_en_path, json.dumps(combined_articles_en, indent=2, default=str))
+    _safe_write(ARTICLES_JSON_PATH, json.dumps(combined_articles_en, indent=2, default=str))
 
     # Hindi catalogs (10 breakout titles)
     with open(cache_stories_hi_path, "w", encoding="utf-8") as f:

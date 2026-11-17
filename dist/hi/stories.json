@@ -2,7 +2,7 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "hi",
-  "generated_at": "2026-11-17T07:37:16.956443+00:00",
+  "generated_at": "2026-11-17T09:31:03.230777+00:00",
   "total_stories": 10,
   "stories": [
     {
@@ -69,7 +69,7 @@
       "rating": 7.0
     },
     {
-      "id": 1022789,
+      "id": 857598,
       "slug": "pushpa-2-the-rule",
       "title": "\u092a\u0941\u0937\u094d\u092a\u093e \u091d\u0941\u0915\u0947\u0917\u093e \u0928\u0939\u0940\u0902! \u092a\u0941\u0937\u094d\u092a\u093e \u0968 \u0926 \u0930\u0942\u0932: \u092d\u0902\u0935\u0930 \u0938\u093f\u0902\u0939 \u0936\u0947\u0916\u093e\u0935\u0924 \u0938\u0947 \u092e\u0939\u093e\u092e\u0941\u0915\u093e\u092c\u0932\u093e \u0914\u0930 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938",
       "url": "https://cinematicbites.com/hi/stories/pushpa-2-the-rule/",
@@ -87,7 +87,7 @@
       "rating": 8.1
     },
     {
-      "id": 1269325,
+      "id": 1014214,
       "slug": "singham-again",
       "title": "\u0930\u094b\u0939\u093f\u0924 \u0936\u0947\u091f\u094d\u091f\u0940 \u0915\u093e \u0930\u093e\u092e\u093e\u092f\u0923 \u0915\u0928\u0947\u0915\u094d\u0936\u0928! \u0938\u093f\u0902\u0918\u092e \u0905\u0917\u0947\u0928: \u0915\u0949\u092a \u092f\u0942\u0928\u093f\u0935\u0930\u094d\u0938 \u0915\u093e \u092e\u0939\u093e-\u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938",
       "url": "https://cinematicbites.com/hi/stories/singham-again/",
