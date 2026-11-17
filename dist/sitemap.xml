@@ -99,6 +99,46 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/contact/" />
   </url>
   <url>
+    <loc>https://cinematicbites.com/articles/robert-pattinson/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg</image:loc>
+      <image:title>Robert Pattinson as 007? The Shocking James Bond Twist Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/good-fortune/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/nkxtuK4alXlGC87FRNDfAZJIFiB.jpg</image:loc>
+      <image:title>Good Fortune: The Hidden Angel Twist Keanu Reeves Fans Completely Missed Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/salman-khan/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/n9QCm8uagvmXH476u5qFQsW8HkU.jpg</image:loc>
+      <image:title>Salman Khan's Secret Move: The Hidden Truth AICWA Finally Exposed Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/leonardo-dicaprio/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg</image:loc>
+      <image:title>Leo DiCaprio's Secret Bash Exposed: The Mystery Guest Nobody Expected Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/articles/panchayat-season-3/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>hourly</changefreq>
@@ -4800,7 +4840,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/panchayat-season-3/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/panchayat-season-3/" />
@@ -4811,7 +4851,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/mirzapur-season-3/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/mirzapur-season-3/" />
@@ -4822,7 +4862,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/stree-2/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/stree-2/" />
@@ -4833,7 +4873,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/kalki-2898-ad/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/kalki-2898-ad/" />
@@ -4844,7 +4884,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/sector-36/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/sector-36/" />
@@ -4855,7 +4895,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/do-patti/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/do-patti/" />
@@ -4866,7 +4906,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/devara-part-1/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/devara-part-1/" />
@@ -4877,7 +4917,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/pushpa-2-the-rule/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/pushpa-2-the-rule/" />
@@ -4888,7 +4928,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/squid-game-season-2/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/squid-game-season-2/" />
@@ -4899,13 +4939,53 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/singham-again/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/singham-again/" />
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/lexEx0B4WDOXGfqPTj4R8FCrE7H.jpg</image:loc>
       <image:title>रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/robert-pattinson/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg</image:loc>
+      <image:title>Robert Pattinson as 007? The Shocking James Bond Twist Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/good-fortune/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/rywxUbd4zvHiRP7nOHeDzuQSLIZ.jpg</image:loc>
+      <image:title>Good Fortune Ending Explained: Keanu's Angel Twist Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/salman-khan/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/gxKwCCcs777HzsXRpdGsBV87pXn.jpg</image:loc>
+      <image:title>Salman Khan &amp; Sonu Sood's Secret Industry Rescue Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/leonardo-dicaprio/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg</image:loc>
+      <image:title>Leonardo DiCaprio Party Leak: The Secret Clues &amp; Truth Decoded ⚡ Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -9609,8 +9689,52 @@
     </image:image>
   </url>
   <url>
+    <loc>https://cinematicbites.com/hi/stories/ramayana-part-1/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/ramayana-part-1/" />
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/vBQ7wks68OhJKlb3RnXSl2yXBXK.jpg</image:loc>
+      <image:title>क्या रावण का किरदार तोड़ेगा सारे रिकॉर्ड्स? रामायण पार्ट १ का क्लाइमेक्स डिकोड Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/hi/stories/war-2/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/war-2/" />
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/yUtaHkL2SDIAZhRApZAyQrAXygn.jpg</image:loc>
+      <image:title>मेजर कबीर बनाम जूनियर एनटीआर: वॉर २ के वो ३ बड़े धोखे जो आपने मिस कर दिए Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/hi/stories/sikandar/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/sikandar/" />
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/41s42CRXafa3OuRGvCtfYPEBmse.jpg</image:loc>
+      <image:title>सिकंदर का खूनी इंतकाम: सलमान खान की फिल्म का क्लाइमेक्स ट्विस्ट डिकोड Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/hi/stories/jailer-2/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/jailer-2/" />
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/upwdEyhhYZ7pT2hD535fr2MGfpx.jpg</image:loc>
+      <image:title>टाइगर मुथुवेल पांडियन की वापसी: जेलर २ का डार्क सिंडिकेट ट्विस्ट डिकोड Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://cinematicbites.com/hi/stories/panchayat-season-3/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/panchayat-season-3/" />
@@ -9621,7 +9745,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/mirzapur-season-3/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/mirzapur-season-3/" />
@@ -9632,7 +9756,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/stree-2/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/stree-2/" />
@@ -9643,7 +9767,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/kalki-2898-ad/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/kalki-2898-ad/" />
@@ -9654,7 +9778,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/sector-36/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/sector-36/" />
@@ -9665,7 +9789,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/do-patti/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/do-patti/" />
@@ -9676,7 +9800,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/devara-part-1/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/devara-part-1/" />
@@ -9687,7 +9811,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/pushpa-2-the-rule/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/pushpa-2-the-rule/" />
@@ -9698,7 +9822,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/squid-game-season-2/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/squid-game-season-2/" />
@@ -9709,7 +9833,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/singham-again/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/singham-again/" />

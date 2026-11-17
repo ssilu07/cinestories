@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-17T09:31:01.927923+00:00",
-  "total_stories": 469,
+  "generated_at": "2026-11-17T09:43:45.863160+00:00",
+  "total_stories": 473,
   "stories": [
+    {
+      "id": 11288,
+      "slug": "robert-pattinson",
+      "title": "Robert Pattinson as 007? The Shocking James Bond Twist Decoded",
+      "url": "https://cinematicbites.com/stories/robert-pattinson/",
+      "category": "trending",
+      "release_date": "2026-11-17",
+      "rating": 8.6
+    },
+    {
+      "id": 1114967,
+      "slug": "good-fortune",
+      "title": "Good Fortune Ending Explained: Keanu's Angel Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/good-fortune/",
+      "category": "trending",
+      "release_date": "2025-10-14",
+      "rating": 6.9
+    },
+    {
+      "id": 42802,
+      "slug": "salman-khan",
+      "title": "Salman Khan & Sonu Sood's Secret Industry Rescue Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/salman-khan/",
+      "category": "trending",
+      "release_date": "2026-11-17",
+      "rating": 8.6
+    },
+    {
+      "id": 6193,
+      "slug": "leonardo-dicaprio",
+      "title": "Leonardo DiCaprio Party Leak: The Secret Clues & Truth Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/leonardo-dicaprio/",
+      "category": "trending",
+      "release_date": "2026-11-17",
+      "rating": 8.6
+    },
     {
       "id": 101352,
       "slug": "panchayat-season-3",
