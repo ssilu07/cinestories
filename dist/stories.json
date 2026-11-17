@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-17T07:37:15.331378+00:00",
-  "total_stories": 476,
+  "generated_at": "2026-11-17T07:54:23.424347+00:00",
+  "total_stories": 480,
   "stories": [
+    {
+      "id": 86302,
+      "slug": "a-lovely-way-to-die",
+      "title": "A Lovely Way to Die Ending Explained: Who Really Did It? \u26a1",
+      "url": "https://cinematicbites.com/stories/a-lovely-way-to-die/",
+      "category": "trending",
+      "release_date": "1968-04-19",
+      "rating": 4.8
+    },
+    {
+      "id": 207830,
+      "slug": "animal-park",
+      "title": "Animal Park Season 2 Secrets: Why The Showrunners Kept This Hidden \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/animal-park/",
+      "category": "upcoming",
+      "release_date": "2000-07-10",
+      "rating": 8.0
+    },
+    {
+      "id": 219246,
+      "slug": "when-life-gives-you-tangerines",
+      "title": "Why They Betrayed Everyone in When Life Gives You Tangerines: The Secret",
+      "url": "https://cinematicbites.com/stories/when-life-gives-you-tangerines/",
+      "category": "netflix_hits",
+      "release_date": "2025-03-07",
+      "rating": 8.8
+    },
+    {
+      "id": 224377,
+      "slug": "harry-potter",
+      "title": "The 1 Insane Clue In Harry Potter That Flips The Whole Plot Around \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/harry-potter/",
+      "category": "streaming_charts",
+      "release_date": "2026-12-25",
+      "rating": 0.0
+    },
     {
       "id": 101352,
       "slug": "panchayat-season-3",

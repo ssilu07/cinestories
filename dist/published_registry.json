@@ -2860,5 +2860,29 @@
     "published_at": "2026-11-16T12:47:29Z",
     "modified_at": "2026-11-16T12:47:29Z",
     "category": "trending"
+  },
+  "a-lovely-way-to-die": {
+    "title": "A Lovely Way to Die",
+    "published_at": "2026-11-17T07:48:40Z",
+    "modified_at": "2026-11-17T07:48:40Z",
+    "category": "trending"
+  },
+  "animal-park": {
+    "title": "Animal Park",
+    "published_at": "2026-11-17T07:48:40Z",
+    "modified_at": "2026-11-17T07:48:40Z",
+    "category": "upcoming"
+  },
+  "when-life-gives-you-tangerines": {
+    "title": "When Life Gives You Tangerines",
+    "published_at": "2026-11-17T07:48:40Z",
+    "modified_at": "2026-11-17T07:48:40Z",
+    "category": "netflix_hits"
+  },
+  "harry-potter": {
+    "title": "Harry Potter",
+    "published_at": "2026-11-17T07:48:40Z",
+    "modified_at": "2026-11-17T07:48:40Z",
+    "category": "streaming_charts"
   }
 }
