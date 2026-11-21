@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-21T01:13:07.936755+00:00",
-  "total_stories": 477,
+  "generated_at": "2026-11-21T19:04:35.202905+00:00",
+  "total_stories": 481,
   "stories": [
+    {
+      "id": 911,
+      "slug": "kaun-banega-crorepati",
+      "title": "Kaun Banega Crorepati Secrets Decoded: 7-Crore Truth Revealed \u26a1",
+      "url": "https://cinematicbites.com/stories/kaun-banega-crorepati/",
+      "category": "trending",
+      "release_date": "2000-07-03",
+      "rating": 6.7
+    },
+    {
+      "id": 1328515,
+      "slug": "exploring-shiva-movie-after-25-years",
+      "title": "25 years after \u092a\u0930 \u092c\u0921\u093c\u093e \u0916\u0941\u0932\u093e\u0938\u093e: \u0938\u094b\u0936\u0932 \u092e\u0940\u0921\u093f\u092f\u093e \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u091f\u094d\u0930\u0947\u0902\u0921 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u092f\u0947 \u0938\u0928\u0938\u0928\u0940\u0916\u0947\u091c \u092e\u093e\u092e\u0932\u093e? \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/exploring-shiva-movie-after-25-years/",
+      "category": "trending",
+      "release_date": "2014-10-08",
+      "rating": 0.0
+    },
+    {
+      "id": 91555,
+      "slug": "rajinikanth",
+      "title": "Rajinikanth At High-Profile Mega Gala: Clues & Truth Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/rajinikanth/",
+      "category": "trending",
+      "release_date": "2026-11-21",
+      "rating": 8.6
+    },
+    {
+      "id": 1160164,
+      "slug": "taylor-swift-the-eras-tour",
+      "title": "Eras Tour Ending & Easter Eggs: Hidden Clues Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/taylor-swift-the-eras-tour/",
+      "category": "trending",
+      "release_date": "2023-10-13",
+      "rating": 8.2
+    },
     {
       "id": 550165,
       "slug": "dhanush",
