@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-17T09:43:45.863160+00:00",
-  "total_stories": 473,
+  "generated_at": "2026-11-21T01:13:07.936755+00:00",
+  "total_stories": 477,
   "stories": [
+    {
+      "id": 550165,
+      "slug": "dhanush",
+      "title": "Dhanush OM Box Office Twist: Record Climax Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/dhanush/",
+      "category": "trending",
+      "release_date": "2026-11-21",
+      "rating": 8.6
+    },
+    {
+      "id": 1209723,
+      "slug": "yeh-prem-mol-liya",
+      "title": "Yeh Prem Mol Liya Ending Explained: Climax Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/yeh-prem-mol-liya/",
+      "category": "trending",
+      "release_date": "2026-11-27",
+      "rating": 0.0
+    },
+    {
+      "id": 911007,
+      "slug": "enjoy-the-ride",
+      "title": "Enjoy the Ride Ending Explained: Climax Clues Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/enjoy-the-ride/",
+      "category": "trending",
+      "release_date": "2020-12-01",
+      "rating": 0.0
+    },
+    {
+      "id": 1322273,
+      "slug": "aakasamlo-oka-tara",
+      "title": "Aakasamlo Oka Tara Ending: The Starlight Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/aakasamlo-oka-tara/",
+      "category": "trending",
+      "release_date": "2026-11-20",
+      "rating": 0.0
+    },
     {
       "id": 11288,
       "slug": "robert-pattinson",

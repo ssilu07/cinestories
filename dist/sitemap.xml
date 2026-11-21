@@ -2,101 +2,141 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cinematicbites.com/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/discover/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/discover/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/discover/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.95</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/discover/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/about/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/about/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/about/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/about/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/editorial/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/editorial/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/editorial/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/editorial/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/privacy/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/privacy/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/privacy/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/privacy/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/terms/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/terms/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/terms/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/terms/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/contact/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="hi" href="https://cinematicbites.com/hi/contact/" />
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/contact/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/contact/" />
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/dhanush/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/2u1YBNBlSwvBReyvI7i5z5ykQXP.jpg</image:loc>
+      <image:title>OM's Shocking Final Act Decoded: What That Climax Twist Really Means Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/yeh-prem-mol-liya/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/ixHRFxlPRqCvCJ5gk0aScUAEfrx.jpg</image:loc>
+      <image:title>Yeh Prem Mol Liya Ending Explained: That Hidden Climax Lie Decoded Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/enjoy-the-ride/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/bDXdagqTQC1RM73lLOEIZi6RNTk.jpg</image:loc>
+      <image:title>Enjoy the Ride Ending Explained: Did Anyone Actually Escape? Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/articles/aakasamlo-oka-tara/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/a6u8Q88S9iktsy1kvg6Xx4zXsUG.jpg</image:loc>
+      <image:title>Aakasamlo Oka Tara Ending: The Starlight Twist Decoded ⚡ Feature Still</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://cinematicbites.com/articles/robert-pattinson/</loc>
@@ -4840,7 +4880,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/panchayat-season-3/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/panchayat-season-3/" />
@@ -4851,7 +4891,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/mirzapur-season-3/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/mirzapur-season-3/" />
@@ -4862,7 +4902,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/stree-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/stree-2/" />
@@ -4873,7 +4913,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/kalki-2898-ad/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/kalki-2898-ad/" />
@@ -4884,7 +4924,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/sector-36/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/sector-36/" />
@@ -4895,7 +4935,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/do-patti/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/do-patti/" />
@@ -4906,7 +4946,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/devara-part-1/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/devara-part-1/" />
@@ -4917,7 +4957,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/pushpa-2-the-rule/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/pushpa-2-the-rule/" />
@@ -4928,7 +4968,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/squid-game-season-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/squid-game-season-2/" />
@@ -4939,13 +4979,53 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/articles/singham-again/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/articles/singham-again/" />
     <image:image>
       <image:loc>https://image.tmdb.org/t/p/w1280/lexEx0B4WDOXGfqPTj4R8FCrE7H.jpg</image:loc>
       <image:title>रोहित शेट्टी का रामायण कनेक्शन! सिंघम अगेन: कॉप यूनिवर्स का महा-क्लाइमेक्स और सलमान का चुलबुल कैमियो Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/dhanush/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/xnGKntkTDURY5mJ0sOVRI3VIDsY.jpg</image:loc>
+      <image:title>Dhanush OM Box Office Twist: Record Climax Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/yeh-prem-mol-liya/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/kUxkvh6GMZL4AHNgNDty68yTnwQ.jpg</image:loc>
+      <image:title>Yeh Prem Mol Liya Ending Explained: Climax Twist Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/enjoy-the-ride/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/bDXdagqTQC1RM73lLOEIZi6RNTk.jpg</image:loc>
+      <image:title>Enjoy the Ride Ending Explained: Climax Clues Decoded ⚡ Feature Still</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://cinematicbites.com/stories/aakasamlo-oka-tara/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://image.tmdb.org/t/p/w1280/tN7NLrqxwhDsAgXuJSMg3CPmtTj.jpg</image:loc>
+      <image:title>Aakasamlo Oka Tara Ending: The Starlight Twist Decoded ⚡ Feature Still</image:title>
     </image:image>
   </url>
   <url>
@@ -9690,7 +9770,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/ramayana-part-1/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/ramayana-part-1/" />
@@ -9701,7 +9781,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/war-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/war-2/" />
@@ -9712,7 +9792,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/sikandar/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/sikandar/" />
@@ -9723,7 +9803,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/jailer-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/jailer-2/" />
@@ -9734,7 +9814,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/panchayat-season-3/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/panchayat-season-3/" />
@@ -9745,7 +9825,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/mirzapur-season-3/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/mirzapur-season-3/" />
@@ -9756,7 +9836,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/stree-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/stree-2/" />
@@ -9767,7 +9847,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/kalki-2898-ad/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/kalki-2898-ad/" />
@@ -9778,7 +9858,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/sector-36/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/sector-36/" />
@@ -9789,7 +9869,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/do-patti/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/do-patti/" />
@@ -9800,7 +9880,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/devara-part-1/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/devara-part-1/" />
@@ -9811,7 +9891,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/pushpa-2-the-rule/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/pushpa-2-the-rule/" />
@@ -9822,7 +9902,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/squid-game-season-2/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/squid-game-season-2/" />
@@ -9833,7 +9913,7 @@
   </url>
   <url>
     <loc>https://cinematicbites.com/hi/stories/singham-again/</loc>
-    <lastmod>2026-11-17</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://cinematicbites.com/stories/singham-again/" />
