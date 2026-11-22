@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-22T07:52:23.211811+00:00",
-  "total_stories": 485,
+  "generated_at": "2026-11-22T19:13:42.531431+00:00",
+  "total_stories": 489,
   "stories": [
+    {
+      "id": 37233,
+      "slug": "kareena-kapoor",
+      "title": "Kareena Kapoor: \u0917\u0942\u0917\u0932 \u092a\u0930 \u0905\u091a\u093e\u0928\u0915 \u0938\u0930\u094d\u091a \u092e\u0947\u0902 \u0906\u092f\u093e 500% \u0915\u093e \u0909\u091b\u093e\u0932! \u091c\u093e\u0928\u093f\u090f \u0907\u0938\u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u0940 \u0905\u0938\u0932\u0940 \u0935\u091c\u0939 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/kareena-kapoor/",
+      "category": "trending",
+      "release_date": "2026-11-22",
+      "rating": 8.6
+    },
+    {
+      "id": 35742,
+      "slug": "shah-rukh-khan",
+      "title": "Shah Rukh Khan \u0915\u094b \u0932\u0947\u0915\u0930 \u0905\u091a\u093e\u0928\u0915 \u0915\u094d\u092f\u094b\u0902 \u092e\u091a\u093e \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u092c\u0935\u093e\u0932? \u0935\u094b 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \u091c\u094b \u0906\u092a\u0915\u094b \u0939\u093f\u0932\u093e \u0926\u0947\u0902\u0917\u0947 \ud83d\udea8",
+      "url": "https://cinematicbites.com/stories/shah-rukh-khan/",
+      "category": "trending",
+      "release_date": "2026-11-22",
+      "rating": 8.6
+    },
+    {
+      "id": 215092,
+      "slug": "alpha-males",
+      "title": "Why They Betrayed Everyone in Alpha Males: The Secret Deal Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/alpha-males/",
+      "category": "upcoming",
+      "release_date": "2022-12-30",
+      "rating": 7.6
+    },
+    {
+      "id": 332839,
+      "slug": "the-law-of-beasts",
+      "title": "The Disturbing Climax Twist in The Law of Beasts That No One Saw Coming ",
+      "url": "https://cinematicbites.com/stories/the-law-of-beasts/",
+      "category": "netflix_hits",
+      "release_date": "2026-11-18",
+      "rating": 6.6
+    },
     {
       "id": 1019550,
       "slug": "you-can-go-now",

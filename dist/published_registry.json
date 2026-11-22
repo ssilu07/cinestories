@@ -2914,5 +2914,29 @@
     "published_at": "2026-11-22T07:51:43Z",
     "modified_at": "2026-11-22T07:51:43Z",
     "category": "streaming_charts"
+  },
+  "kareena-kapoor": {
+    "title": "Kareena Kapoor",
+    "published_at": "2026-11-22T19:13:11Z",
+    "modified_at": "2026-11-22T19:13:11Z",
+    "category": "trending"
+  },
+  "shah-rukh-khan": {
+    "title": "Shah Rukh Khan",
+    "published_at": "2026-11-22T19:13:11Z",
+    "modified_at": "2026-11-22T19:13:11Z",
+    "category": "trending"
+  },
+  "alpha-males": {
+    "title": "Alpha Males",
+    "published_at": "2026-11-22T19:13:11Z",
+    "modified_at": "2026-11-22T19:13:11Z",
+    "category": "upcoming"
+  },
+  "the-law-of-beasts": {
+    "title": "The Law of Beasts",
+    "published_at": "2026-11-22T19:13:11Z",
+    "modified_at": "2026-11-22T19:13:11Z",
+    "category": "netflix_hits"
   }
 }
