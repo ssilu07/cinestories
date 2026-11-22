@@ -2890,5 +2890,29 @@
     "published_at": "2026-11-21T18:51:18Z",
     "modified_at": "2026-11-21T18:51:18Z",
     "category": "trending"
+  },
+  "you-can-go-now": {
+    "title": "You Can Go Now!",
+    "published_at": "2026-11-22T07:51:43Z",
+    "modified_at": "2026-11-22T07:51:43Z",
+    "category": "trending"
+  },
+  "animal-park": {
+    "title": "Animal Park",
+    "published_at": "2026-11-22T07:51:43Z",
+    "modified_at": "2026-11-22T07:51:43Z",
+    "category": "upcoming"
+  },
+  "the-altruists": {
+    "title": "The Altruists",
+    "published_at": "2026-11-22T07:51:43Z",
+    "modified_at": "2026-11-22T07:51:43Z",
+    "category": "netflix_hits"
+  },
+  "the-blue-road": {
+    "title": "The Blue Road",
+    "published_at": "2026-11-22T07:51:43Z",
+    "modified_at": "2026-11-22T07:51:43Z",
+    "category": "streaming_charts"
   }
 }

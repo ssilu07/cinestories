@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-21T19:04:35.202905+00:00",
-  "total_stories": 481,
+  "generated_at": "2026-11-22T07:52:23.211811+00:00",
+  "total_stories": 485,
   "stories": [
+    {
+      "id": 1019550,
+      "slug": "you-can-go-now",
+      "title": "Now, You Can \u0915\u0947 \u0935\u093e\u092f\u0930\u0932 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u093e \u0905\u0938\u0932\u0940 \u0938\u091a: \u0915\u094d\u092f\u093e \u092f\u0947 \u0938\u093f\u0930\u094d\u092b \u0921\u094d\u0930\u093e\u092e\u093e \u0925\u093e \u092f\u093e \u0915\u0941\u091b \u0914\u0930? \ud83e\udd2b",
+      "url": "https://cinematicbites.com/stories/you-can-go-now/",
+      "category": "trending",
+      "release_date": "2023-01-26",
+      "rating": 0.0
+    },
+    {
+      "id": 207830,
+      "slug": "animal-park",
+      "title": "Animal Park Season 2 Secrets: Why The Showrunners Kept This Hidden \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/animal-park/",
+      "category": "upcoming",
+      "release_date": "2000-07-10",
+      "rating": 8.0
+    },
+    {
+      "id": 308007,
+      "slug": "the-altruists",
+      "title": "Don't Watch The Final 10 Mins Alone: The Altruists Ending Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-altruists/",
+      "category": "netflix_hits",
+      "release_date": "2026-11-19",
+      "rating": 6.6
+    },
+    {
+      "id": 300523,
+      "slug": "the-blue-road",
+      "title": "Who Really Pulled The Trigger in The Blue Road? 3 Clues You Missed \ud83d\udd75\ufe0f\u200d\u2642\ufe0f",
+      "url": "https://cinematicbites.com/stories/the-blue-road/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-20",
+      "rating": 6.9
+    },
     {
       "id": 911,
       "slug": "kaun-banega-crorepati",
