@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-22T19:13:42.531431+00:00",
-  "total_stories": 489,
+  "generated_at": "2026-11-23T08:52:49.816339+00:00",
+  "total_stories": 493,
   "stories": [
+    {
+      "id": 1254592,
+      "slug": "double-standards",
+      "title": "double standards \u092a\u0930 \u092c\u0921\u093c\u093e \u0916\u0941\u0932\u093e\u0938\u093e: \u0938\u094b\u0936\u0932 \u092e\u0940\u0921\u093f\u092f\u093e \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u091f\u094d\u0930\u0947\u0902\u0921 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u092f\u0947 \u0938\u0928\u0938\u0928\u0940\u0916\u0947\u091c \u092e\u093e\u092e\u0932\u093e? \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/double-standards/",
+      "category": "trending",
+      "release_date": "2024-03-05",
+      "rating": 1.0
+    },
+    {
+      "id": 9767,
+      "slug": "the-break-up",
+      "title": "Break-Up \u0915\u0947 \u0935\u093e\u092f\u0930\u0932 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u093e \u0905\u0938\u0932\u0940 \u0938\u091a: \u0915\u094d\u092f\u093e \u092f\u0947 \u0938\u093f\u0930\u094d\u092b \u0921\u094d\u0930\u093e\u092e\u093e \u0925\u093e \u092f\u093e \u0915\u0941\u091b \u0914\u0930? \ud83e\udd2b",
+      "url": "https://cinematicbites.com/stories/the-break-up/",
+      "category": "trending",
+      "release_date": "2006-06-01",
+      "rating": 5.9
+    },
+    {
+      "id": 1505644,
+      "slug": "ene-repeat",
+      "title": "ENE Repeat \u092c\u0949\u0915\u094d\u0938 \u0911\u092b\u093f\u0938 \u092a\u0930 \u092e\u0939\u093e-\u0927\u092e\u093e\u0915\u093e: 24 \u0918\u0902\u091f\u0947 \u092e\u0947\u0902 \u092c\u0928\u0947 \u0935\u094b \u0930\u093f\u0915\u0949\u0930\u094d\u0921 \u091c\u093f\u0938\u0928\u0947 \u0938\u092c\u0915\u094b \u091a\u094c\u0902\u0915\u093e \u0926\u093f\u092f\u093e! \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/ene-repeat/",
+      "category": "trending",
+      "release_date": "2026-11-18",
+      "rating": 0.0
+    },
+    {
+      "id": 340280,
+      "slug": "gordon",
+      "title": "Gordon: The Hidden Motive In Scene 4 That Changes Everything \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/gordon/",
+      "category": "netflix_hits",
+      "release_date": "2026-11-18",
+      "rating": 7.0
+    },
     {
       "id": 37233,
       "slug": "kareena-kapoor",

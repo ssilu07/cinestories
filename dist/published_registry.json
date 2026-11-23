@@ -2938,5 +2938,29 @@
     "published_at": "2026-11-22T19:13:11Z",
     "modified_at": "2026-11-22T19:13:11Z",
     "category": "netflix_hits"
+  },
+  "double-standards": {
+    "title": "Double Standards",
+    "published_at": "2026-11-23T08:42:47Z",
+    "modified_at": "2026-11-23T08:42:47Z",
+    "category": "trending"
+  },
+  "the-break-up": {
+    "title": "The Break-Up",
+    "published_at": "2026-11-23T08:42:47Z",
+    "modified_at": "2026-11-23T08:42:47Z",
+    "category": "trending"
+  },
+  "ene-repeat": {
+    "title": "ENE Repeat",
+    "published_at": "2026-11-23T08:42:47Z",
+    "modified_at": "2026-11-23T08:42:47Z",
+    "category": "trending"
+  },
+  "gordon": {
+    "title": "Gordon",
+    "published_at": "2026-11-23T08:42:47Z",
+    "modified_at": "2026-11-23T08:42:47Z",
+    "category": "netflix_hits"
   }
 }
