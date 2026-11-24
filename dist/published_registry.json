@@ -2962,5 +2962,29 @@
     "published_at": "2026-11-23T08:42:47Z",
     "modified_at": "2026-11-23T08:42:47Z",
     "category": "netflix_hits"
+  },
+  "a-series-of-unfortunate-events": {
+    "title": "A Series of Unfortunate Events",
+    "published_at": "2026-11-24T22:03:56Z",
+    "modified_at": "2026-11-24T22:03:56Z",
+    "category": "trending"
+  },
+  "k-pop-the-debut": {
+    "title": "K-POP: The Debut",
+    "published_at": "2026-11-24T22:03:56Z",
+    "modified_at": "2026-11-24T22:03:56Z",
+    "category": "trending"
+  },
+  "pierce-brosnan": {
+    "title": "Pierce Brosnan",
+    "published_at": "2026-11-24T22:03:56Z",
+    "modified_at": "2026-11-24T22:03:56Z",
+    "category": "trending"
+  },
+  "sunny-deol": {
+    "title": "Sunny Deol",
+    "published_at": "2026-11-24T22:03:56Z",
+    "modified_at": "2026-11-24T22:03:56Z",
+    "category": "trending"
   }
 }

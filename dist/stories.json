@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-23T08:52:49.816339+00:00",
-  "total_stories": 493,
+  "generated_at": "2026-11-24T22:16:50.660583+00:00",
+  "total_stories": 497,
   "stories": [
+    {
+      "id": 65294,
+      "slug": "a-series-of-unfortunate-events",
+      "title": "unfortunate \u0915\u093e \u0935\u094b \u0916\u094c\u092b\u0928\u093e\u0915 \u0915\u094d\u0932\u093e\u0907\u092e\u0947\u0915\u094d\u0938 \u091f\u094d\u0935\u093f\u0938\u094d\u091f \u091c\u093f\u0938\u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u0915\u094b\u0908 \u092c\u093e\u0924 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0939\u093f\u092e\u094d\u092e\u0924 \u0928\u0939\u0940\u0902 \u0915\u0930 \u0930\u0939\u093e \ud83d\ude31",
+      "url": "https://cinematicbites.com/stories/a-series-of-unfortunate-events/",
+      "category": "trending",
+      "release_date": "2017-01-13",
+      "rating": 7.4
+    },
+    {
+      "id": 1517333,
+      "slug": "k-pop-the-debut",
+      "title": "K-Pop: The Debut \u0915\u094b \u0932\u0947\u0915\u0930 \u0905\u091a\u093e\u0928\u0915 \u0915\u094d\u092f\u094b\u0902 \u092e\u091a\u093e \u0907\u0902\u091f\u0930\u0928\u0947\u091f \u092a\u0930 \u092c\u0935\u093e\u0932? \u0935\u094b 3 \u0905\u0928\u0938\u0941\u0928\u0947 \u0916\u0941\u0932\u093e\u0938\u0947 \u091c\u094b \u0906\u092a\u0915\u094b \u0939\u093f\u0932\u093e \u0926\u0947\u0902\u0917\u0947 \ud83d\udea8",
+      "url": "https://cinematicbites.com/stories/k-pop-the-debut/",
+      "category": "trending",
+      "release_date": "2027-02-25",
+      "rating": 0.0
+    },
+    {
+      "id": 517,
+      "slug": "pierce-brosnan",
+      "title": "Pierce Brosnan: \u0917\u0942\u0917\u0932 \u092a\u0930 \u0905\u091a\u093e\u0928\u0915 \u0938\u0930\u094d\u091a \u092e\u0947\u0902 \u0906\u092f\u093e 500% \u0915\u093e \u0909\u091b\u093e\u0932! \u091c\u093e\u0928\u093f\u090f \u0907\u0938\u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u0940 \u0905\u0938\u0932\u0940 \u0935\u091c\u0939 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/pierce-brosnan/",
+      "category": "trending",
+      "release_date": "2026-11-24",
+      "rating": 8.6
+    },
+    {
+      "id": 86302,
+      "slug": "sunny-deol",
+      "title": "Sunny Deol \u0915\u0947 \u0935\u093e\u092f\u0930\u0932 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u093e \u0905\u0938\u0932\u0940 \u0938\u091a: \u0915\u094d\u092f\u093e \u092f\u0947 \u0938\u093f\u0930\u094d\u092b \u0921\u094d\u0930\u093e\u092e\u093e \u0925\u093e \u092f\u093e \u0915\u0941\u091b \u0914\u0930? \ud83e\udd2b",
+      "url": "https://cinematicbites.com/stories/sunny-deol/",
+      "category": "trending",
+      "release_date": "2026-11-24",
+      "rating": 8.6
+    },
     {
       "id": 1254592,
       "slug": "double-standards",
