@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-24T22:16:50.660583+00:00",
-  "total_stories": 497,
+  "generated_at": "2026-11-25T09:49:50.851182+00:00",
+  "total_stories": 501,
   "stories": [
+    {
+      "id": 85721,
+      "slug": "tamannaah-bhatia",
+      "title": "Tamannaah Bhatia: \u0917\u0942\u0917\u0932 \u092a\u0930 \u0905\u091a\u093e\u0928\u0915 \u0938\u0930\u094d\u091a \u092e\u0947\u0902 \u0906\u092f\u093e 500% \u0915\u093e \u0909\u091b\u093e\u0932! \u091c\u093e\u0928\u093f\u090f \u0907\u0938\u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u0940 \u0905\u0938\u0932\u0940 \u0935\u091c\u0939 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/tamannaah-bhatia/",
+      "category": "trending",
+      "release_date": "2026-11-25",
+      "rating": 8.6
+    },
+    {
+      "id": 1510775,
+      "slug": "gunmaaster-g9",
+      "title": "Gunmaaster G9 \u092c\u0949\u0915\u094d\u0938 \u0911\u092b\u093f\u0938 \u092a\u0930 \u092e\u0939\u093e-\u0927\u092e\u093e\u0915\u093e: 24 \u0918\u0902\u091f\u0947 \u092e\u0947\u0902 \u092c\u0928\u0947 \u0935\u094b \u0930\u093f\u0915\u0949\u0930\u094d\u0921 \u091c\u093f\u0938\u0928\u0947 \u0938\u092c\u0915\u094b \u091a\u094c\u0902\u0915\u093e \u0926\u093f\u092f\u093e! \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/gunmaaster-g9/",
+      "category": "trending",
+      "release_date": "2026-11-27",
+      "rating": 0.0
+    },
+    {
+      "id": 224223,
+      "slug": "ranveer-singh",
+      "title": "Ranveer's Dhurandhar Secret: Real Mission or Myth? \u26a1",
+      "url": "https://cinematicbites.com/stories/ranveer-singh/",
+      "category": "trending",
+      "release_date": "2026-11-25",
+      "rating": 8.6
+    },
+    {
+      "id": 259140,
+      "slug": "ranma12",
+      "title": "Why They Betrayed Everyone in Ranma1/2: The Secret Deal Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/ranma12/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-06",
+      "rating": 8.1
+    },
     {
       "id": 65294,
       "slug": "a-series-of-unfortunate-events",
