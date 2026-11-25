@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-25T09:49:50.851182+00:00",
-  "total_stories": 501,
+  "generated_at": "2026-11-25T21:25:41.226756+00:00",
+  "total_stories": 505,
   "stories": [
+    {
+      "id": 34371,
+      "slug": "winners-losers",
+      "title": "Winners \u092a\u0930 \u092c\u0921\u093c\u093e \u0916\u0941\u0932\u093e\u0938\u093e: \u0938\u094b\u0936\u0932 \u092e\u0940\u0921\u093f\u092f\u093e \u092a\u0930 \u0915\u094d\u092f\u094b\u0902 \u091f\u094d\u0930\u0947\u0902\u0921 \u0915\u0930 \u0930\u0939\u093e \u0939\u0948 \u092f\u0947 \u0938\u0928\u0938\u0928\u0940\u0916\u0947\u091c \u092e\u093e\u092e\u0932\u093e? \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/winners-losers/",
+      "category": "trending",
+      "release_date": "2011-03-22",
+      "rating": 5.5
+    },
+    {
+      "id": 281722,
+      "slug": "o-saathi-re",
+      "title": "O Saathi Re \u091f\u094d\u0930\u0947\u0932\u0930 \u0915\u0947 \u092b\u094d\u0930\u0947\u092e 44 \u092e\u0947\u0902 \u0935\u094b \u0916\u094c\u092b\u0928\u093e\u0915 \u0938\u0902\u0915\u0947\u0924, \u091c\u093f\u0938\u0947 99% \u0932\u094b\u0917 \u0926\u0947\u0916\u0928\u0947 \u0938\u0947 \u091a\u0942\u0915 \u0917\u090f! \ud83d\udd0d",
+      "url": "https://cinematicbites.com/stories/o-saathi-re/",
+      "category": "trending",
+      "release_date": "2026-12-04",
+      "rating": 0.0
+    },
+    {
+      "id": 1384528,
+      "slug": "om-operation-mole",
+      "title": "Operation Mole Ending Explained: Climax Twist & 3 Clues Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/om-operation-mole/",
+      "category": "trending",
+      "release_date": "2026-11-19",
+      "rating": 7.8
+    },
+    {
+      "id": 207347,
+      "slug": "blue-box",
+      "title": "Why They Betrayed Everyone in Blue Box: The Secret Deal Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/blue-box/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-03",
+      "rating": 7.9
+    },
     {
       "id": 85721,
       "slug": "tamannaah-bhatia",

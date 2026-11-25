@@ -3010,5 +3010,29 @@
     "published_at": "2026-11-25T09:40:17Z",
     "modified_at": "2026-11-25T09:40:17Z",
     "category": "netflix_hits"
+  },
+  "winners-losers": {
+    "title": "Winners & Losers",
+    "published_at": "2026-11-25T21:19:47Z",
+    "modified_at": "2026-11-25T21:19:47Z",
+    "category": "trending"
+  },
+  "o-saathi-re": {
+    "title": "O Saathi Re",
+    "published_at": "2026-11-25T21:19:47Z",
+    "modified_at": "2026-11-25T21:19:47Z",
+    "category": "trending"
+  },
+  "om-operation-mole": {
+    "title": "O.M: Operation Mole",
+    "published_at": "2026-11-25T21:19:47Z",
+    "modified_at": "2026-11-25T21:19:47Z",
+    "category": "trending"
+  },
+  "blue-box": {
+    "title": "Blue Box",
+    "published_at": "2026-11-25T21:19:47Z",
+    "modified_at": "2026-11-25T21:19:47Z",
+    "category": "netflix_hits"
   }
 }
