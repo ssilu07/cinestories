@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-25T21:25:41.226756+00:00",
-  "total_stories": 505,
+  "generated_at": "2026-11-26T09:15:24.667354+00:00",
+  "total_stories": 509,
   "stories": [
+    {
+      "id": 662144,
+      "slug": "i-think-youre-totally-wrong-a-quarrel",
+      "title": "You think you're: \u0917\u0942\u0917\u0932 \u092a\u0930 \u0905\u091a\u093e\u0928\u0915 \u0938\u0930\u094d\u091a \u092e\u0947\u0902 \u0906\u092f\u093e 500% \u0915\u093e \u0909\u091b\u093e\u0932! \u091c\u093e\u0928\u093f\u090f \u0907\u0938\u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u0940 \u0905\u0938\u0932\u0940 \u0935\u091c\u0939 \ud83c\udf7f",
+      "url": "https://cinematicbites.com/stories/i-think-youre-totally-wrong-a-quarrel/",
+      "category": "trending",
+      "release_date": "2014-01-01",
+      "rating": 1.0
+    },
+    {
+      "id": 1709391,
+      "slug": "hanuman-ansh",
+      "title": "Hanuman Ansh \u0915\u0947 \u0935\u093e\u092f\u0930\u0932 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u093e \u0905\u0938\u0932\u0940 \u0938\u091a: \u0915\u094d\u092f\u093e \u092f\u0947 \u0938\u093f\u0930\u094d\u092b \u0921\u094d\u0930\u093e\u092e\u093e \u0925\u093e \u092f\u093e \u0915\u0941\u091b \u0914\u0930? \ud83e\udd2b",
+      "url": "https://cinematicbites.com/stories/hanuman-ansh/",
+      "category": "trending",
+      "release_date": "2026-08-07",
+      "rating": 7.7
+    },
+    {
+      "id": 500,
+      "slug": "tom-cruise",
+      "title": "Tom Cruise \u0915\u0947 \u0935\u093e\u092f\u0930\u0932 \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u0947 \u092a\u0940\u091b\u0947 \u0915\u093e \u0905\u0938\u0932\u0940 \u0938\u091a: \u0915\u094d\u092f\u093e \u092f\u0947 \u0938\u093f\u0930\u094d\u092b \u0921\u094d\u0930\u093e\u092e\u093e \u0925\u093e \u092f\u093e \u0915\u0941\u091b \u0914\u0930? \ud83e\udd2b",
+      "url": "https://cinematicbites.com/stories/tom-cruise/",
+      "category": "trending",
+      "release_date": "2026-11-26",
+      "rating": 8.6
+    },
+    {
+      "id": 240411,
+      "slug": "dan-da-dan",
+      "title": "Dan Da Dan Season 2 Secrets: Why The Showrunners Kept This Hidden \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/dan-da-dan/",
+      "category": "netflix_hits",
+      "release_date": "2024-10-04",
+      "rating": 8.5
+    },
     {
       "id": 34371,
       "slug": "winners-losers",
