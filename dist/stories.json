@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-26T09:15:24.667354+00:00",
-  "total_stories": 509,
+  "generated_at": "2026-11-27T09:40:01.238826+00:00",
+  "total_stories": 513,
   "stories": [
+    {
+      "id": 244447,
+      "slug": "the-hunting-wives",
+      "title": "What Really Happened In That Final Scene Of The Hunting Wives? Decoded \ud83d\udca5",
+      "url": "https://cinematicbites.com/stories/the-hunting-wives/",
+      "category": "netflix_hits",
+      "release_date": "2025-07-21",
+      "rating": 7.0
+    },
+    {
+      "id": 171802,
+      "slug": "blade-runner-2099",
+      "title": "Blade Runner 2099 Season Finale Shock: What That Final Stinger Really Me",
+      "url": "https://cinematicbites.com/stories/blade-runner-2099/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-24",
+      "rating": 5.2
+    },
+    {
+      "id": 1458300,
+      "slug": "the-mosquito-bowl",
+      "title": "The Mosquito Bowl Ending Explained: The Final Climax Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/the-mosquito-bowl/",
+      "category": "trending",
+      "release_date": "2026-10-29",
+      "rating": 7.6
+    },
+    {
+      "id": 1551025,
+      "slug": "guarding-stars",
+      "title": "Guarding Stars Season 2 Secrets: Why The Showrunners Kept This Hidden \ud83d\udd25",
+      "url": "https://cinematicbites.com/stories/guarding-stars/",
+      "category": "ott_blockbusters",
+      "release_date": "2026-11-18",
+      "rating": 6.8
+    },
     {
       "id": 662144,
       "slug": "i-think-youre-totally-wrong-a-quarrel",

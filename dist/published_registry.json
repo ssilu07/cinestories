@@ -3058,5 +3058,29 @@
     "published_at": "2026-11-26T09:14:41Z",
     "modified_at": "2026-11-26T09:14:41Z",
     "category": "netflix_hits"
+  },
+  "the-hunting-wives": {
+    "title": "The Hunting Wives",
+    "published_at": "2026-11-27T09:30:25Z",
+    "modified_at": "2026-11-27T09:30:25Z",
+    "category": "netflix_hits"
+  },
+  "blade-runner-2099": {
+    "title": "Blade Runner 2099",
+    "published_at": "2026-11-27T09:30:25Z",
+    "modified_at": "2026-11-27T09:30:25Z",
+    "category": "streaming_charts"
+  },
+  "the-mosquito-bowl": {
+    "title": "The Mosquito Bowl",
+    "published_at": "2026-11-27T09:30:25Z",
+    "modified_at": "2026-11-27T09:30:25Z",
+    "category": "trending"
+  },
+  "guarding-stars": {
+    "title": "Guarding Stars",
+    "published_at": "2026-11-27T09:30:25Z",
+    "modified_at": "2026-11-27T09:30:25Z",
+    "category": "ott_blockbusters"
   }
 }
