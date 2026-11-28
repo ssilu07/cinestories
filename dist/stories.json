@@ -2,9 +2,45 @@
   "site_name": "CinematicBites",
   "domain": "https://cinematicbites.com",
   "lang": "en",
-  "generated_at": "2026-11-27T09:40:01.238826+00:00",
-  "total_stories": 513,
+  "generated_at": "2026-11-28T08:53:57.838432+00:00",
+  "total_stories": 517,
   "stories": [
+    {
+      "id": 250923,
+      "slug": "nobody-wants-this",
+      "title": "Nobody Wants This Ending Explained: Noah's Major Sacrifice \u26a1",
+      "url": "https://cinematicbites.com/stories/nobody-wants-this/",
+      "category": "netflix_hits",
+      "release_date": "2024-09-26",
+      "rating": 7.3
+    },
+    {
+      "id": 326247,
+      "slug": "fool-night",
+      "title": "Don't Watch The Final 10 Mins Alone: Fool Night Ending Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/fool-night/",
+      "category": "streaming_charts",
+      "release_date": "2026-11-26",
+      "rating": 8.8
+    },
+    {
+      "id": 1480665,
+      "slug": "the-hunchback-soul-of-paris",
+      "title": "The Hunchback, Soul of Paris: The Secret Clue Hiding In Plain Sight That",
+      "url": "https://cinematicbites.com/stories/the-hunchback-soul-of-paris/",
+      "category": "trending",
+      "release_date": "2026-11-27",
+      "rating": 8.0
+    },
+    {
+      "id": 1595124,
+      "slug": "steps",
+      "title": "Steps Ending Explained: The Midnight Wand Twist Decoded \u26a1",
+      "url": "https://cinematicbites.com/stories/steps/",
+      "category": "ott_blockbusters",
+      "release_date": "2026-11-20",
+      "rating": 7.1
+    },
     {
       "id": 244447,
       "slug": "the-hunting-wives",

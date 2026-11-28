@@ -3082,5 +3082,29 @@
     "published_at": "2026-11-27T09:30:25Z",
     "modified_at": "2026-11-27T09:30:25Z",
     "category": "ott_blockbusters"
+  },
+  "nobody-wants-this": {
+    "title": "Nobody Wants This",
+    "published_at": "2026-11-28T08:43:53Z",
+    "modified_at": "2026-11-28T08:43:53Z",
+    "category": "netflix_hits"
+  },
+  "fool-night": {
+    "title": "Fool Night",
+    "published_at": "2026-11-28T08:43:53Z",
+    "modified_at": "2026-11-28T08:43:53Z",
+    "category": "streaming_charts"
+  },
+  "the-hunchback-soul-of-paris": {
+    "title": "The Hunchback, Soul of Paris",
+    "published_at": "2026-11-28T08:43:53Z",
+    "modified_at": "2026-11-28T08:43:53Z",
+    "category": "trending"
+  },
+  "steps": {
+    "title": "Steps",
+    "published_at": "2026-11-28T08:43:53Z",
+    "modified_at": "2026-11-28T08:43:53Z",
+    "category": "ott_blockbusters"
   }
 }
